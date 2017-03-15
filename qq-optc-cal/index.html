@@ -6,89 +6,115 @@
 <link href="css/fullcalendar.min.css" rel="stylesheet" />
 <script src="js/jquery.min.js"></script>
 <script src="js/moment.min.js"></script>
-<script src="js/fullcalendar.min.js"></script>
+<script src="js/fullcalendar.js"></script>
 
 <script>
     $(document).ready(function() {
+        var fortnights = [
+            {
+                id: '1049',
+                title: '[FN] Nico Olvia',
+                start: '2017-02-28',
+                end: '2017-03-14',
+                color: 'rgba(255, 0, 0, 0.6)',
+                textColor: 'white'
+            },
+            {
+                id: '1137',
+                title: '[FN] CP9',
+                start: '2017-03-14',
+                end: '2017-03-28',
+                color: 'rgba(255, 0, 0, 0.6)',
+                textColor: 'white'
+            }
+        ];
+
+        var fortnights_replay = [
+            {
+                id: '0232',
+                title: '[FN] Hina',
+                start: '2017-03-07',
+                end: '2017-03-14',
+                color: 'rgba(255, 0, 0, 0.3)',
+                textColor: 'white'
+            },
+            {
+                id: '0656',
+                title: '[FN] Young Arlong',
+                start: '2017-03-07',
+                end: '2017-03-14',
+                color: 'rgba(255, 0, 0, 0.3)',
+                textColor: 'white'
+            },
+            {
+                id: '0929',
+                title: '[FN] Hannyabal',
+                start: '2017-03-14',
+                end: '2017-03-21',
+                color: 'rgba(255, 0, 0, 0.3)',
+                textColor: 'white'
+            },
+            {
+                id: '0263',
+                title: '[FN] CobiMeppo',
+                start: '2017-03-14',
+                end: '2017-03-21',
+                color: 'rgba(255, 0, 0, 0.3)',
+                textColor: 'white'
+            },
+            {
+                id: '0852',
+                title: '[FN] Wapol',
+                start: '2017-03-21',
+                end: '2017-03-28',
+                color: 'rgba(255, 0, 0, 0.3)',
+                textColor: 'white'
+            },
+            {
+                id: '0268',
+                title: '[FN] Smoker',
+                start: '2017-03-21',
+                end: '2017-03-28',
+                color: 'rgba(255, 0, 0, 0.3)',
+                textColor: 'white'
+            }
+        ];
+
+        var raids = [
+            {
+                id: '0516',
+                title: '[Raid] Heracles',
+                start: '2017-03-12',
+                color: 'rgba(128, 0 , 128, 0.6)',
+                textColor: 'white'
+            },
+            {
+                id: '00575',
+                title: '[Raid] Aokiji',
+                start: '2017-03-16',
+                color: 'rgba(128, 0 , 128, 0.6)',
+                textColor: 'white'
+            },
+            {
+                id: '0978',
+                title: '[Raid] Kizaru',
+                start: '2017-03-19',
+                color: 'rgba(128, 0 , 128, 0.6)',
+                textColor: 'white'
+            }
+        ];
+
+        var eventArray = raids.concat(fortnights, fortnights_replay);
+
         $('#calendar').fullCalendar({
-            events: [
-                // FN
-                {
-                    title: '[FN] Nico Olvia',
-                    start: '2017-02-28',
-                    end: '2017-03-14',
-                    color: 'rgba(255, 0, 0, 0.6)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[FN] Hina',
-                    start: '2017-03-07',
-                    end: '2017-03-14',
-                    color: 'rgba(255, 0, 0, 0.3)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[FN] Young Arlong',
-                    start: '2017-03-07',
-                    end: '2017-03-14',
-                    color: 'rgba(255, 0, 0, 0.3)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[FN] CP9',
-                    start: '2017-03-14',
-                    end: '2017-03-28',
-                    color: 'rgba(255, 0, 0, 0.6)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[FN] Hannyabal',
-                    start: '2017-03-14',
-                    end: '2017-03-21',
-                    color: 'rgba(255, 0, 0, 0.3)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[FN] CobiMeppo',
-                    start: '2017-03-14',
-                    end: '2017-03-21',
-                    color: 'rgba(255, 0, 0, 0.3)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[FN] Wapol',
-                    start: '2017-03-21',
-                    end: '2017-03-28',
-                    color: 'rgba(255, 0, 0, 0.3)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[FN] Smoker',
-                    start: '2017-03-21',
-                    end: '2017-03-28',
-                    color: 'rgba(255, 0, 0, 0.3)',
-                    textColor: 'white'
-                },
-                // Raid
-                {
-                    title: '[Raid] Heracles',
-                    start: '2017-03-12',
-                    color: 'rgba(128, 0 , 128, 0.6)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[Raid] Aokiji',
-                    start: '2017-03-16',
-                    color: 'rgba(128, 0 , 128, 0.6)',
-                    textColor: 'white'
-                },
-                {
-                    title: '[Raid] Kizaru',
-                    start: '2017-03-19',
-                    color: 'rgba(128, 0 , 128, 0.6)',
-                    textColor: 'white'
-                }
-            ]
+            events: eventArray,
+            eventRender: function(event, element, calEvent) {
+                element.find('.fc-title').before(
+                    $('<span class="fc-icon"></span>').html(
+                        '<img src="http://onepiece-treasurecruise.com/wp-content/uploads/f' + event._id + '.png" height="15" width="15" />'
+                    )
+                );
+            }
         });
     });
 </script>
@@ -98,7 +124,7 @@
         margin: 40px 10px;
         padding: 0;
         font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     #calendar {
