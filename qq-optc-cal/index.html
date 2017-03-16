@@ -13,7 +13,7 @@
         var fortnights = [
             {
                 id: '1049',
-                title: '[FN] Nico Olvia',
+                title: '[FN]\nNico Olvia',
                 start: '2017-02-28',
                 end: '2017-03-14',
                 color: 'rgba(255, 0, 0, 0.6)',
@@ -21,7 +21,7 @@
             },
             {
                 id: '1137',
-                title: '[FN] CP9',
+                title: '[FN]\nCP9',
                 start: '2017-03-14',
                 end: '2017-03-28',
                 color: 'rgba(255, 0, 0, 0.6)',
@@ -32,7 +32,7 @@
         var fortnights_replay = [
             {
                 id: '0232',
-                title: '[FN] Hina',
+                title: '[FN]\nHina',
                 start: '2017-03-07',
                 end: '2017-03-14',
                 color: 'rgba(255, 0, 0, 0.3)',
@@ -40,7 +40,7 @@
             },
             {
                 id: '0656',
-                title: '[FN] Young Arlong',
+                title: '[FN]\nYoung Arlong',
                 start: '2017-03-07',
                 end: '2017-03-14',
                 color: 'rgba(255, 0, 0, 0.3)',
@@ -48,7 +48,7 @@
             },
             {
                 id: '0929',
-                title: '[FN] Hannyabal',
+                title: '[FN]\nHannyabal',
                 start: '2017-03-14',
                 end: '2017-03-21',
                 color: 'rgba(255, 0, 0, 0.3)',
@@ -56,7 +56,7 @@
             },
             {
                 id: '0263',
-                title: '[FN] CobiMeppo',
+                title: '[FN]\nCobiMeppo',
                 start: '2017-03-14',
                 end: '2017-03-21',
                 color: 'rgba(255, 0, 0, 0.3)',
@@ -64,7 +64,7 @@
             },
             {
                 id: '0852',
-                title: '[FN] Wapol',
+                title: '[FN]\nWapol',
                 start: '2017-03-21',
                 end: '2017-03-28',
                 color: 'rgba(255, 0, 0, 0.3)',
@@ -72,7 +72,7 @@
             },
             {
                 id: '0268',
-                title: '[FN] Smoker',
+                title: '[FN]\nSmoker',
                 start: '2017-03-21',
                 end: '2017-03-28',
                 color: 'rgba(255, 0, 0, 0.3)',
@@ -83,49 +83,49 @@
         var raids = [
             {
                 id: '0516',
-                title: '[Raid] Heracles',
+                title: '[Raid]\nHeracles',
                 start: '2017-03-12',
                 color: 'rgba(128, 0 , 128, 0.6)',
                 textColor: 'white'
             },
             {
                 id: '00575',
-                title: '[Raid] Aokiji',
+                title: '[Raid]\nAokiji',
                 start: '2017-03-16',
                 color: 'rgba(128, 0 , 128, 0.6)',
                 textColor: 'white'
             },
             {
                 id: '0978',
-                title: '[Raid] Kizaru',
+                title: '[Raid]\nKizaru',
                 start: '2017-03-19',
                 color: 'rgba(128, 0 , 128, 0.6)',
                 textColor: 'white'
             },
             {
                 id: '0836',
-                title: '[Raid] Kuma',
+                title: '[Raid]\nKuma',
                 start: '2017-03-23',
                 color: 'rgba(128, 0 , 128, 0.6)',
                 textColor: 'white'
             },
             {
                 id: '0306',
-                title: '[Raid] Garp',
+                title: '[Raid]\nGarp',
                 start: '2017-03-24',
                 color: 'rgba(128, 0 , 128, 0.6)',
                 textColor: 'white'
             },
             {
                 id: '0771',
-                title: '[Raid] Buster Call',
+                title: '[Raid]\nBuster Call',
                 start: '2017-03-25',
                 color: 'rgba(128, 0 , 128, 0.6)',
                 textColor: 'white'
             },
             {
                 id: '0418',
-                title: '[Raid] Doflamingo',
+                title: '[Raid]\nDoflamingo',
                 start: '2017-03-26',
                 color: 'rgba(128, 0 , 128, 0.6)',
                 textColor: 'white'
@@ -135,12 +135,12 @@
         var eventArray = raids.concat(fortnights, fortnights_replay);
 
         $('#calendar').fullCalendar({
+            aspectRatio: 0.8,
             events: eventArray,
             eventRender: function(event, element, calEvent) {
                 element.find('.fc-title').before(
-                    $('<span class="fc-icon"></span>').html(
-                        '<img src="http://onepiece-treasurecruise.com/wp-content/uploads/f' + event._id + '.png" height="15" width="15" />'
-                    )
+                    '<img src="http://onepiece-treasurecruise.com/wp-content/uploads/f' + event._id +
+                        '.png" height="30" width="30" style="float: left;" />'
                 );
             }
         });
@@ -151,12 +151,12 @@
     body {
         margin: 40px 10px;
         padding: 0;
-        font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
     }
 
     #calendar {
-        max-width: 900px;
+        width: 900px;
         margin: 0 auto;
     }
 </style>
