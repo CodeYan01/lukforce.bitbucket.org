@@ -9,152 +9,89 @@
 <script src="assets/libs/fullcalendar.min.js"></script>
 <script src="assets/libs/angular.min.js"></script>
 
+<script src="app/data/fortnights.js"></script>
+<script src="app/data/raids.js"></script>
+<script src="app/data/specials.js"></script>
+
+<script src="app/calEvents/fortnightEvents.js"></script>
+<script src="app/calEvents/raidEvents.js"></script>
+<script src="app/calEvents/specialEvents.js"></script>
+
 <script>
     $(document).ready(function() {
-        var fortnights = [
-            {
-                id: '1049',
-                title: '[FN]\nNico Olvia',
-                start: '2017-02-28',
-                end: '2017-03-14',
-                color: 'rgba(255, 0, 0, 0.6)',
-                textColor: 'white'
-            },
-            {
-                id: '1137',
-                title: '[FN]\nCP9',
-                start: '2017-03-14',
-                end: '2017-03-28',
-                color: 'rgba(255, 0, 0, 0.6)',
-                textColor: 'white'
-            }
-        ];
+        function createFortnightEvent(e) {
+            var res = {};
 
-        var fortnights_replay = [
-            {
-                id: '0232',
-                title: '[FN]\nHina',
-                start: '2017-03-07',
-                end: '2017-03-14',
-                color: 'rgba(255, 0, 0, 0.3)',
-                textColor: 'white'
-            },
-            {
-                id: '0656',
-                title: '[FN]\nYoung Arlong',
-                start: '2017-03-07',
-                end: '2017-03-14',
-                color: 'rgba(255, 0, 0, 0.3)',
-                textColor: 'white'
-            },
-            {
-                id: '0929',
-                title: '[FN]\nHannyabal',
-                start: '2017-03-14',
-                end: '2017-03-21',
-                color: 'rgba(255, 0, 0, 0.3)',
-                textColor: 'white'
-            },
-            {
-                id: '0263',
-                title: '[FN]\nCobiMeppo',
-                start: '2017-03-14',
-                end: '2017-03-21',
-                color: 'rgba(255, 0, 0, 0.3)',
-                textColor: 'white'
-            },
-            {
-                id: '0852',
-                title: '[FN]\nWapol',
-                start: '2017-03-21',
-                end: '2017-03-28',
-                color: 'rgba(255, 0, 0, 0.3)',
-                textColor: 'white'
-            },
-            {
-                id: '0268',
-                title: '[FN]\nSmoker',
-                start: '2017-03-21',
-                end: '2017-03-28',
-                color: 'rgba(255, 0, 0, 0.3)',
-                textColor: 'white'
-            }
-        ];
+            var id = e['id'];
+            var fn = fortnights[id];
 
-        var raids = [
-            {
-                id: '0516',
-                title: '[Raid]\nHeracles',
-                start: '2017-03-12',
-                color: 'rgba(60, 179, 113, 0.6)',
-                textColor: 'white'
-            },
-            {
-                id: '00575',
-                title: '[Raid]\nAokiji',
-                start: '2017-03-16',
-                color: 'rgba(60, 179, 113, 0.6)',
-                textColor: 'white'
-            },
-            {
-                id: '0978',
-                title: '[Raid]\nKizaru',
-                start: '2017-03-19',
-                color: 'rgba(60, 179, 113, 0.6)',
-                textColor: 'white'
-            },
-            {
-                id: '0836',
-                title: '[Raid]\nKuma',
-                start: '2017-03-23',
-                color: 'rgba(60, 179, 113, 0.6)',
-                textColor: 'white'
-            },
-            {
-                id: '0306',
-                title: '[Raid]\nGarp',
-                start: '2017-03-24',
-                color: 'rgba(60, 179, 113, 0.6)',
-                textColor: 'white'
-            },
-            {
-                id: '0771',
-                title: '[Raid]\nBuster Call',
-                start: '2017-03-25',
-                color: 'rgba(60, 179, 113, 0.6)',
-                textColor: 'white'
-            },
-            {
-                id: '0418',
-                title: '[Raid]\nDoflamingo',
-                start: '2017-03-26',
-                color: 'rgba(60, 179, 113, 0.6)',
-                textColor: 'white'
-            }
-        ];
+            res['id'] = id;
+            res['title'] = '[FN]\n' + fn['name'];
+            res['thumb'] = fn['thumb'];
+            res['type'] = 'fortnight';
 
-        var events = [
-            {
-                id: 'sp_up',
-                title: '[Event]\n2x Skill Up',
-                start: '2017-03-22',
-                end: '2017-03-29',
-                color: 'rgba(30, 144, 255, 0.6)',
-                textColor: 'white',
-                className: 'event'
-            },
-            {
-                id: 'meat_up',
-                title: '[Event]\nSnail Meat Up',
-                start: '2017-03-24',
-                end: '2017-04-01',
-                color: 'rgba(30, 144, 255, 0.6)',
-                textColor: 'white',
-                className: 'event'
-            }
-        ]
+            res['start'] = e['start'];
+            res['end'] = e['end'];
 
-        var eventArray = raids.concat(fortnights, fortnights_replay, events);
+            var opacity = e['is_replay'] ? 0.3 : 0.6;
+            res['color'] = 'rgba(255, 0, 0, ' + opacity + ')';
+            res['textColor'] = 'white';
+
+            return res;
+        }
+
+        function createRaidEvent(e) {
+            var res = {};
+
+            var id = e['id'];
+            var rd = raids[id];
+
+            res['id'] = id;
+            res['title'] = '[RAID]\n' + rd['name'];
+            res['thumb'] = rd['thumb'];
+            res['type'] = 'raid';
+
+            res['start'] = e['start'];
+
+            res['color'] = 'rgba(60, 179, 113, 0.6)';
+            res['textColor'] = 'white';
+
+            return res;
+        }
+
+        function createSpecialEvent(e) {
+            var res = {};
+
+            var id = e['id'];
+            var se = specials[id];
+
+            res['id'] = id;
+            res['title'] = '[EVENT]\n' + se['name'];
+            res['thumb'] = se['thumb'];
+            res['type'] = 'event';
+
+            res['start'] = e['start'];
+            res['end'] = e['end'];
+
+            res['color'] = 'rgba(30, 144, 255, 0.6)';
+            res['textColor'] = 'white';
+
+            return res;
+        }
+
+        var eventArray = [];
+
+        fortnightEvents.forEach(function(e) {
+            eventArray.push(createFortnightEvent(e));
+        });
+
+        raidEvents.forEach(function(e) {
+            eventArray.push(createRaidEvent(e));
+        });
+
+        specialEvents.forEach(function(e) {
+            eventArray.push(createSpecialEvent(e));
+        });
 
         $('#calendar').fullCalendar({
             aspectRatio: 0.6,
@@ -162,10 +99,10 @@
             eventRender: function(event, element, calEvent) {
                 var imgSrc = '';
 
-                if (event.className == 'event')
-                    imgSrc = 'assets/img/' + event._id + '.png';
+                if (event.type == 'event')
+                    imgSrc = 'assets/img/' + event.thumb + '.png';
                 else
-                    imgSrc = 'http://onepiece-treasurecruise.com/wp-content/uploads/f' + event._id + '.png';
+                    imgSrc = 'http://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
 
                 element.find('.fc-title').before(
                     '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
