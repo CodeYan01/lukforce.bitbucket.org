@@ -132,15 +132,33 @@
             }
         ];
 
-        var eventArray = raids.concat(fortnights, fortnights_replay);
+        var events = [
+            {
+                id: 'sp_up',
+                title: '[Event]\n2x Skill Up',
+                start: '2017-03-28',
+                end: '2017-04-04',
+                color: 'rgba(0, 0 , 256, 0.6)',
+                textColor: 'white',
+                className: 'event'
+            }
+        ]
+
+        var eventArray = raids.concat(fortnights, fortnights_replay, events);
 
         $('#calendar').fullCalendar({
-            aspectRatio: 0.8,
+            aspectRatio: 0.6,
             events: eventArray,
             eventRender: function(event, element, calEvent) {
+                var imgSrc = '';
+
+                if (event.className == 'event')
+                    imgSrc = 'img/' + event._id + '.png';
+                else
+                    imgSrc = 'http://onepiece-treasurecruise.com/wp-content/uploads/f' + event._id + '.png';
+
                 element.find('.fc-title').before(
-                    '<img src="http://onepiece-treasurecruise.com/wp-content/uploads/f' + event._id +
-                        '.png" height="30" width="30" style="float: left;" />'
+                    '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
                 );
             }
         });
