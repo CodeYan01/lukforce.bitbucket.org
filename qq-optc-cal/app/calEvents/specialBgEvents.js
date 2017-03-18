@@ -1,4 +1,4 @@
-var specialEvents = [
+var specialBgEvents = [
     {
         id: 'sp_up',
         start: '2017-03-22',

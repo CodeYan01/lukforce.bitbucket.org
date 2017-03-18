@@ -11,11 +11,11 @@
 
 <script src="app/data/fortnights.js"></script>
 <script src="app/data/raids.js"></script>
-<script src="app/data/specials.js"></script>
+<script src="app/data/specials_bg.js"></script>
 
 <script src="app/calEvents/fortnightEvents.js"></script>
 <script src="app/calEvents/raidEvents.js"></script>
-<script src="app/calEvents/specialEvents.js"></script>
+<script src="app/calEvents/specialBgEvents.js"></script>
 
 <script>
     $(document).ready(function() {
@@ -59,22 +59,20 @@
             return res;
         }
 
-        function createSpecialEvent(e) {
+        function createSpecialBgEvent(e) {
             var res = {};
 
             var id = e['id'];
-            var se = specials[id];
+            var sbge = specials_bg[id];
 
-            res['id'] = id;
-            res['title'] = '『Event』\n' + se['name'];
-            res['thumb'] = se['thumb'];
+            res['thumb'] = sbge['thumb'];
             res['type'] = 'event';
 
             res['start'] = e['start'];
             res['end'] = e['end'];
 
-            res['color'] = 'rgba(30, 144, 255, 0.6)';
-            res['textColor'] = 'black';
+            res['color'] = 'rgba(30, 144, 255, 0)';
+            res['rendering'] = 'background';
 
             return res;
         }
@@ -89,24 +87,23 @@
             eventArray.push(createRaidEvent(e));
         });
 
-        specialEvents.forEach(function(e) {
-            eventArray.push(createSpecialEvent(e));
+        specialBgEvents.forEach(function(e) {
+            eventArray.push(createSpecialBgEvent(e));
         });
 
         $('#calendar').fullCalendar({
             aspectRatio: 0.65,
             events: eventArray,
-            eventRender: function(event, element, calEvent) {
-                var imgSrc = '';
+            eventRender: function(event, element, view) {
+                if (event.type != 'event') {
+                    var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
 
-                if (event.type == 'event')
-                    imgSrc = 'assets/img/' + event.thumb + '.png';
-                else
-                    imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
-
-                element.find('.fc-title').before(
-                    '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
-                );
+                    element.find('.fc-title').before(
+                        '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
+                    );
+                } else {
+                    element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
+                }
             }
         });
     });
@@ -121,7 +118,7 @@
     }
 
     #calendar {
-        width: 1000px;
+        width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
         margin: 0 auto;
     }
 
