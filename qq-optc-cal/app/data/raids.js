@@ -1,7 +1,22 @@
 var raids = {
+    227: {
+        name: 'Mihawk',
+        thumb: '0227',
+        gw: ''
+    },
+    249: {
+        name: 'Monster Chopper',
+        thumb: '0249',
+        gw: ''
+    },
     306: {
         name: 'Garp',
         thumb: '0306',
+        gw: ''
+    },
+    390: {
+        name: 'Ivankov',
+        thumb: '0390',
         gw: ''
     },
     418: {
@@ -15,8 +30,13 @@ var raids = {
         gw: ''
     },
     516: {
-        name: 'Heracles',
+        name: 'Heracles-un',
         thumb: '0516',
+        gw: ''
+    },
+    518: {
+        name: 'Usopp-un',
+        thumb: '0518',
         gw: ''
     },
     575: {
@@ -29,6 +49,11 @@ var raids = {
         thumb: '0603',
         gw: ''
     },
+    654: {
+        name: 'Duval',
+        thumb: '0654',
+        gw: ''
+    },
     771: {
         name: 'Buster Call',
         thumb: '0771',
@@ -39,6 +64,11 @@ var raids = {
         thumb: '0836',
         gw: ''
     },
+    865: {
+        name: 'Boa Hancock',
+        thumb: '0865',
+        gw: ''
+    },
     978: {
         name: 'Kizaru',
         thumb: '0978',
@@ -47,6 +77,11 @@ var raids = {
     1047: {
         name: 'Sabo',
         thumb: '1047',
+        gw: ''
+    },
+    1298: {
+        name: 'Akainu',
+        thumb: '1298',
         gw: ''
     }
 };
