@@ -264,13 +264,13 @@ var fortnights = {
         gw: ''
     },
     946: {
-        name: 'Whitebeard Pirates 1',
+        name: 'WB Pirates 1',
         thumb: '0946',
         drop: '',
         gw: ''
     },
     979: {
-        name: 'Whitebeard Pirates 2',
+        name: 'WB Pirates 2',
         thumb: '0979',
         drop: '',
         gw: ''
