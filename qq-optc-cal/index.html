@@ -26,7 +26,16 @@
             var fn = fortnights[id];
 
             res['id'] = id;
-            res['title'] = '『FN』\n' + fn['name'];
+
+            var title = '『FN』';
+
+            if (e['has_ranking'])
+                title += ' ★★★';
+
+            title += '\n' + fn['name'];
+
+            res['title'] = title;
+
             res['thumb'] = fn['thumb'];
             res['type'] = 'fortnight';
 
