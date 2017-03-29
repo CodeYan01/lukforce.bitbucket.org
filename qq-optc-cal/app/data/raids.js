@@ -74,6 +74,11 @@ var raids = {
         thumb: '0978',
         gw: ''
     },
+    989: {
+        name: 'Fake Straw Hats',
+        thumb: '0989',
+        gw: ''
+    },
     1047: {
         name: 'Sabo',
         thumb: '1047',
