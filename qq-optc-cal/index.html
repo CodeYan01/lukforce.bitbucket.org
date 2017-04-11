@@ -1,144 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<title>Internal OPTC Calendar</title>
+    <meta charset="utf-8" />
+    <title>Internal OPTC Calendar</title>
 
-<link href="assets/css/fullcalendar.min.css" rel="stylesheet" />
-<script src="assets/libs/jquery.min.js"></script>
-<script src="assets/libs/moment.min.js"></script>
-<script src="assets/libs/fullcalendar.min.js"></script>
-<script src="assets/libs/angular.min.js"></script>
+    <link href="assets/css/fullcalendar.min.css" rel="stylesheet" />
+    <script src="assets/libs/jquery.min.js"></script>
+    <script src="assets/libs/moment.min.js"></script>
+    <script src="assets/libs/fullcalendar.min.js"></script>
+    <script src="assets/libs/angular.min.js"></script>
 
-<script src="app/data/fortnights.js"></script>
-<script src="app/data/raids.js"></script>
-<script src="app/data/specials_bg.js"></script>
+    <script src="app/data/fortnights.js"></script>
+    <script src="app/data/raids.js"></script>
+    <script src="app/data/specials_bg.js"></script>
 
-<script src="app/calEvents/fortnightEvents.js"></script>
-<script src="app/calEvents/raidEvents.js"></script>
-<script src="app/calEvents/specialBgEvents.js"></script>
+    <script src="app/calEvents/fortnightEvents.js"></script>
+    <script src="app/calEvents/raidEvents.js"></script>
+    <script src="app/calEvents/specialBgEvents.js"></script>
 
-<script>
-    $(document).ready(function() {
-        function createFortnightEvent(e) {
-            var res = {};
+    <script>
+        $(document).ready(function() {
+            function createFortnightEvent(e) {
+                var res = {};
 
-            var id = e['id'];
-            var fn = fortnights[id];
+                var id = e['id'];
+                var fn = fortnights[id];
 
-            res['id'] = id;
+                res['id'] = id;
 
-            var title = '『FN』';
+                var title = '『FN』';
 
-            if (e['has_ranking'])
-                title += ' ★★★';
+                if (e['has_ranking'])
+                    title += ' ★★★';
 
-            title += '\n' + fn['name'];
+                title += '\n' + fn['name'];
 
-            res['title'] = title;
+                res['title'] = title;
 
-            res['thumb'] = fn['thumb'];
-            res['type'] = 'fortnight';
+                res['thumb'] = fn['thumb'];
+                res['type'] = 'fortnight';
 
-            res['start'] = e['start'];
-            res['end'] = e['end'];
+                res['start'] = e['start'];
+                res['end'] = e['end'];
 
-            var opacity = e['is_replay'] ? 0.3 : 0.6;
-            res['color'] = 'rgba(255, 0, 0, ' + opacity + ')';
-            res['textColor'] = 'black';
+                var opacity = e['is_replay'] ? 0.3 : 0.6;
+                res['color'] = 'rgba(255, 0, 0, ' + opacity + ')';
+                res['textColor'] = 'black';
 
-            return res;
+                return res;
+            }
+
+            function createRaidEvent(e) {
+                var res = {};
+
+                var id = e['id'];
+                var rd = raids[id];
+
+                res['id'] = id;
+                res['title'] = '『Raid』\n' + rd['name'];
+                res['thumb'] = rd['thumb'];
+                res['type'] = 'raid';
+
+                res['start'] = e['start'];
+
+                res['color'] = 'rgba(60, 179, 113, 0.6)';
+                res['textColor'] = 'black';
+
+                return res;
+            }
+
+            function createSpecialBgEvent(e) {
+                var res = {};
+
+                var id = e['id'];
+                var sbge = specials_bg[id];
+
+                res['thumb'] = sbge['thumb'];
+                res['type'] = 'event';
+
+                res['start'] = e['start'];
+                res['end'] = e['end'];
+
+                res['color'] = 'rgba(30, 144, 255, 0)';
+                res['rendering'] = 'background';
+
+                return res;
+            }
+
+            var eventArray = [];
+
+            fortnightEvents.forEach(function(e) {
+                eventArray.push(createFortnightEvent(e));
+            });
+
+            raidEvents.forEach(function(e) {
+                eventArray.push(createRaidEvent(e));
+            });
+
+            specialBgEvents.forEach(function(e) {
+                eventArray.push(createSpecialBgEvent(e));
+            });
+
+            $('#calendar').fullCalendar({
+                aspectRatio: 0.65,
+                events: eventArray,
+                eventRender: function(event, element, view) {
+                    if (event.type != 'event') {
+                        var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
+
+                        element.find('.fc-title').before(
+                            '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
+                        );
+                    } else {
+                        element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
+                    }
+                },
+                eventOrder: 'id'
+            });
+        });
+    </script>
+
+    <style>
+        body {
+            margin: 40px 10px;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
         }
 
-        function createRaidEvent(e) {
-            var res = {};
-
-            var id = e['id'];
-            var rd = raids[id];
-
-            res['id'] = id;
-            res['title'] = '『Raid』\n' + rd['name'];
-            res['thumb'] = rd['thumb'];
-            res['type'] = 'raid';
-
-            res['start'] = e['start'];
-
-            res['color'] = 'rgba(60, 179, 113, 0.6)';
-            res['textColor'] = 'black';
-
-            return res;
+        #calendar {
+            width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
+            margin: 0 auto;
         }
 
-        function createSpecialBgEvent(e) {
-            var res = {};
-
-            var id = e['id'];
-            var sbge = specials_bg[id];
-
-            res['thumb'] = sbge['thumb'];
-            res['type'] = 'event';
-
-            res['start'] = e['start'];
-            res['end'] = e['end'];
-
-            res['color'] = 'rgba(30, 144, 255, 0)';
-            res['rendering'] = 'background';
-
-            return res;
+        .fc-title {
+            padding-left: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
         }
-
-        var eventArray = [];
-
-        fortnightEvents.forEach(function(e) {
-            eventArray.push(createFortnightEvent(e));
-        });
-
-        raidEvents.forEach(function(e) {
-            eventArray.push(createRaidEvent(e));
-        });
-
-        specialBgEvents.forEach(function(e) {
-            eventArray.push(createSpecialBgEvent(e));
-        });
-
-        $('#calendar').fullCalendar({
-            aspectRatio: 0.65,
-            events: eventArray,
-            eventRender: function(event, element, view) {
-                if (event.type != 'event') {
-                    var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
-
-                    element.find('.fc-title').before(
-                        '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
-                    );
-                } else {
-                    element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
-                }
-            },
-            eventOrder: 'id'
-        });
-    });
-</script>
-
-<style>
-    body {
-        margin: 40px 10px;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-    }
-
-    #calendar {
-        width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
-        margin: 0 auto;
-    }
-
-    .fc-title {
-        padding-left: 10px;
-        -webkit-box-decoration-break: clone;
-        box-decoration-break: clone;
-    }
-</style>
+    </style>
 </head>
 
 <body>
