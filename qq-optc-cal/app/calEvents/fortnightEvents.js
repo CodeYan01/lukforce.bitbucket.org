@@ -158,7 +158,7 @@ var fortnightEvents = [
         start: '2017-04-18',
         end: '2017-04-25',
         is_replay: true,
-        has_ranking: false
+        has_ranking: true
     },
     {
         id: '510',
