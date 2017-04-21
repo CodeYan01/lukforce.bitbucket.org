@@ -310,5 +310,11 @@ var fortnights = {
         thumb: '1215',
         drop: '',
         gw: ''
+    },
+    1242: {
+        name: 'Revolution Army',
+        thumb: '1242',
+        drop: '',
+        gw: ''
     }
 };
