@@ -6,7 +6,7 @@ var fortnights = {
         gw: ''
     },
     39: {
-        name: 'Buggy',
+        name: 'Baggy',
         thumb: '0039',
         drop: '',
         gw: ''
