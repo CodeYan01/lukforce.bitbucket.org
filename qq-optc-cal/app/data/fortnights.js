@@ -316,5 +316,11 @@ var fortnights = {
         thumb: '1242',
         drop: '',
         gw: ''
+    },
+    1254: {
+        name: 'WB Pirates 3',
+        thumb: '1254',
+        drop: '',
+        gw: ''
     }
 };
