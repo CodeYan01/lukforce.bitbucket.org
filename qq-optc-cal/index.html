@@ -33,7 +33,7 @@
                 var title = '『FN』';
 
                 if (e['has_ranking'])
-                    title += ' ★★★';
+                    title += '★Rank★';
 
                 title += '\n' + fn['name'];
 
@@ -59,7 +59,15 @@
                 var rd = raids[id];
 
                 res['id'] = id;
-                res['title'] = '『Raid』\n' + rd['name'];
+
+                var title = '『RD』';
+
+                if (e['ambush'] != null)
+                    title += '★' + e['ambush'] + '★';
+
+                title += '\n' + rd['name'];
+
+                res['title'] = title;
                 res['thumb'] = rd['thumb'];
                 res['type'] = 'raid';
 
