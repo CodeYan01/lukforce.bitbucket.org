@@ -69,6 +69,11 @@ var raids = {
         thumb: '0865',
         gw: ''
     },
+    933: {
+        name: 'Pica',
+        thumb: '0933',
+        gw: ''
+    },
     978: {
         name: 'Kizaru',
         thumb: '0978',

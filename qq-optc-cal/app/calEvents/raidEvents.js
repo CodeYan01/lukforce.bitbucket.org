@@ -123,5 +123,10 @@ var raidEvents = [
         id: '603',
         start: '2017-05-07',
         ambush: 'Shanks'
+    },
+    {
+        id: '933',
+        start: '2017-05-11',
+        ambush: null
     }
 ]
