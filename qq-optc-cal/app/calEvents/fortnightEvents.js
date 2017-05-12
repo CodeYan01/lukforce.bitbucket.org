@@ -228,7 +228,7 @@ var fortnightEvents = [
         start: '2017-05-16',
         end: '2017-05-23',
         is_replay: true,
-        has_ranking: false
+        has_ranking: true
     },
     {
         id: '46',
@@ -241,6 +241,55 @@ var fortnightEvents = [
         id: '39',
         start: '2017-05-16',
         end: '2017-05-23',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '30',
+        start: '2017-05-23',
+        end: '2017-05-30',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '58',
+        start: '2017-05-23',
+        end: '2017-05-30',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '228',
+        start: '2017-05-23',
+        end: '2017-05-30',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '664',
+        start: '2017-05-30',
+        end: '2017-06-06',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '743',
+        start: '2017-05-30',
+        end: '2017-06-06',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '766',
+        start: '2017-05-26',
+        end: '2017-06-02',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '761',
+        start: '2017-06-02',
+        end: '2017-06-09',
         is_replay: true,
         has_ranking: false
     }
