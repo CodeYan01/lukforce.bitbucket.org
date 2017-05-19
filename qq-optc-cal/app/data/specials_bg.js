@@ -1,14 +1,23 @@
 var specials_bg = {
-    'sp_up': {
-        thumb: 'sp_up'
+    'sp': {
+        thumb: 'sp'
     },
-    'meat_up': {
-        thumb: 'meat_up'
+    'meat': {
+        thumb: 'meat'
     },
     'sugo': {
         thumb: 'sugo'
     },
     'fp': {
         thumb: 'fp'
+    },
+    'cotton': {
+        thumb: 'cotton'
+    },
+    'princess': {
+        thumb: 'princess'
+    },
+    'elder': {
+        thumb: 'elder'
     }
 }
