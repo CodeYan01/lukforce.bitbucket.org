@@ -14,6 +14,11 @@ var raids = {
         thumb: '0306',
         gw: ''
     },
+    353: {
+        name: 'Zephyr',
+        thumb: '0353',
+        gw: ''
+    },
     390: {
         name: 'Ivankov',
         thumb: '0390',
@@ -87,6 +92,16 @@ var raids = {
     1047: {
         name: 'Sabo',
         thumb: '1047',
+        gw: ''
+    },
+    1108: {
+        name: 'Shiki',
+        thumb: '1108',
+        gw: ''
+    },
+    1163: {
+        name: 'Gild Tesoro',
+        thumb: '1163',
         gw: ''
     },
     1298: {

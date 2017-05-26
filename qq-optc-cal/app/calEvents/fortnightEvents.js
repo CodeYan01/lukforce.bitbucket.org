@@ -301,6 +301,13 @@ var fortnightEvents = [
         has_ranking: false
     },
     {
+        id: '1011',
+        start: '2017-05-30',
+        end: '2017-06-06',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
         id: '766',
         start: '2017-05-26',
         end: '2017-06-02',
@@ -311,6 +318,69 @@ var fortnightEvents = [
         id: '761',
         start: '2017-06-02',
         end: '2017-06-09',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '263',
+        start: '2017-06-06',
+        end: '2017-06-13',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '550',
+        start: '2017-06-06',
+        end: '2017-06-13',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '1072',
+        start: '2017-06-06',
+        end: '2017-06-13',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '322',
+        start: '2017-06-13',
+        end: '2017-06-20',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '1112',
+        start: '2017-06-13',
+        end: '2017-06-20',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '1167',
+        start: '2017-06-13',
+        end: '2017-06-20',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '599',
+        start: '2017-06-20',
+        end: '2017-06-27',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '979',
+        start: '2017-06-20',
+        end: '2017-06-27',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: '1095',
+        start: '2017-06-20',
+        end: '2017-06-27',
         is_replay: true,
         has_ranking: false
     }

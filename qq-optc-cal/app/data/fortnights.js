@@ -281,6 +281,12 @@ var fortnights = {
         drop: '',
         gw: ''
     },
+    1011: {
+        name: 'Count Butler',
+        thumb: '1011',
+        drop: '',
+        gw: ''
+    },
     1037: {
         name: 'Ivankov',
         thumb: '1037',
@@ -293,9 +299,33 @@ var fortnights = {
         drop: '',
         gw: ''
     },
+    1072: {
+        name: 'Dead End',
+        thumb: '1072',
+        drop: '',
+        gw: ''
+    },
+    1095: {
+        name: 'Dr. Indigo',
+        thumb: '1095',
+        drop: '',
+        gw: ''
+    },
+    1112: {
+        name: 'Young Nami Robin',
+        thumb: '1112',
+        drop: '',
+        gw: ''
+    },
     1137: {
         name: 'CP9',
         thumb: '1137',
+        drop: '',
+        gw: ''
+    },
+    1167: {
+        name: 'Gran Tesoro',
+        thumb: '1167',
         drop: '',
         gw: ''
     },
@@ -324,7 +354,7 @@ var fortnights = {
         gw: ''
     },
     1287: {
-        name: 'Young Donquixote',
+        name: 'Donquixote Kids',
         thumb: '1287',
         drop: '',
         gw: ''
