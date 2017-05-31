@@ -91,7 +91,7 @@
                 res['start'] = e['start'];
                 res['end'] = e['end'];
 
-                res['color'] = 'rgba(30, 144, 255, 0)';
+                res['color'] = 'rgba(0, 0, 0, 0)';
                 res['rendering'] = 'background';
 
                 return res;
@@ -110,6 +110,17 @@
             specialBgEvents.forEach(function(e) {
                 eventArray.push(createSpecialBgEvent(e));
             });
+
+            // Coliseums
+            var coliseums = {
+                'thumb': 'coliseum',
+                'type': 'event',
+                'color': 'rgba(0, 0, 0, 0)',
+                'rendering': 'background',
+                'dow': [0, 3, 6]
+            }
+
+            eventArray.push(coliseums);
 
             $('#calendar').fullCalendar({
                 aspectRatio: 0.55,
