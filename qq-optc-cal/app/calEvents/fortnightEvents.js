@@ -322,6 +322,13 @@ var fortnightEvents = [
         has_ranking: false
     },
     {
+        id: '1302',
+        start: '2017-06-06',
+        end: '2017-06-20',
+        is_replay: false,
+        has_ranking: false
+    },
+    {
         id: '263',
         start: '2017-06-06',
         end: '2017-06-13',
@@ -340,7 +347,7 @@ var fortnightEvents = [
         start: '2017-06-06',
         end: '2017-06-13',
         is_replay: true,
-        has_ranking: false
+        has_ranking: true
     },
     {
         id: '322',
@@ -361,6 +368,13 @@ var fortnightEvents = [
         start: '2017-06-13',
         end: '2017-06-20',
         is_replay: true,
+        has_ranking: true
+    },
+    {
+        id: '1328',
+        start: '2017-06-20',
+        end: '2017-07-04',
+        is_replay: false,
         has_ranking: false
     },
     {

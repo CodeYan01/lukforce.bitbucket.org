@@ -173,5 +173,56 @@ var raidEvents = [
         id: '978',
         start: '2017-06-04',
         ambush: 'Shanks'
+    },
+    {
+        id: '227',
+        start: '2017-06-09',
+        end: '2017-06-11',
+        ambush: null
+    },
+    {
+        id: '353',
+        start: '2017-06-11',
+        ambush: null
+    },
+    {
+        id: '1163',
+        start: '2017-06-15',
+        ambush: null
+    },
+    {
+        id: '227',
+        start: '2017-06-16',
+        end: '2017-06-18',
+        ambush: null
+    },
+    {
+        id: '1108',
+        start: '2017-06-18',
+        ambush: null
+    },
+    {
+        id: '227',
+        start: '2017-06-23',
+        end: '2017-06-25',
+        ambush: null
+    },
+    {
+        id: '353',
+        start: '2017-06-23',
+        end: '2017-06-26',
+        ambush: null
+    },
+    {
+        id: '1163',
+        start: '2017-06-23',
+        end: '2017-06-26',
+        ambush: null
+    },
+    {
+        id: '1108',
+        start: '2017-06-23',
+        end: '2017-06-26',
+        ambush: null
     }
 ]

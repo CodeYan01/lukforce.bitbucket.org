@@ -306,7 +306,7 @@ var fortnights = {
         gw: ''
     },
     1095: {
-        name: 'Dr. Indigo',
+        name: 'Gold Lion Pirates',
         thumb: '1095',
         drop: '',
         gw: ''
@@ -356,6 +356,18 @@ var fortnights = {
     1287: {
         name: 'Donquixote Kids',
         thumb: '1287',
+        drop: '',
+        gw: ''
+    },
+    1302: {
+        name: 'Prisoner Baggy',
+        thumb: '1302',
+        drop: '',
+        gw: ''
+    },
+    1328: {
+        name: 'Tontatta 1',
+        thumb: '1328',
         drop: '',
         gw: ''
     }
