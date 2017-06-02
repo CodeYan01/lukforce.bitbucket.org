@@ -1,3 +1,6 @@
+var ywb = 'YWB';
+var shanks = 'Shanks';
+
 var raidEvents = [
     {
         id: 603,
@@ -32,22 +35,22 @@ var raidEvents = [
     {
         id: 836,
         start: '2017-03-23',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 306,
         start: '2017-03-24',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 771,
         start: '2017-03-25',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 418,
         start: '2017-03-26',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 227,
@@ -87,22 +90,22 @@ var raidEvents = [
     {
         id: 1298,
         start: '2017-04-20',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 865,
         start: '2017-04-21',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 447,
         start: '2017-04-22',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 418,
         start: '2017-04-23',
-        ambush: 'YWB'
+        ambush: ywb
     },
     {
         id: 654,
@@ -117,12 +120,12 @@ var raidEvents = [
     {
         id: 836,
         start: '2017-05-04',
-        ambush: 'Shanks'
+        ambush: shanks
     },
     {
         id: 603,
         start: '2017-05-07',
-        ambush: 'Shanks'
+        ambush: shanks
     },
     {
         id: 933,
@@ -167,12 +170,12 @@ var raidEvents = [
     {
         id: 575,
         start: '2017-06-01',
-        ambush: 'Shanks'
+        ambush: shanks
     },
     {
         id: 978,
         start: '2017-06-04',
-        ambush: 'Shanks'
+        ambush: shanks
     },
     {
         id: 227,
