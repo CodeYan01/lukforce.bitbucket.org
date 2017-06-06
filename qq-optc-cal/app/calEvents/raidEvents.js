@@ -178,6 +178,11 @@ var raidEvents = [
         ambush: shanks
     },
     {
+        id: 795,
+        start: '2017-06-08',
+        ambush: null
+    },
+    {
         id: 227,
         start: '2017-06-09',
         end: '2017-06-11',
@@ -197,6 +202,11 @@ var raidEvents = [
         id: 227,
         start: '2017-06-16',
         end: '2017-06-18',
+        ambush: null
+    },
+    {
+        id: 603,
+        start: '2017-06-16',
         ambush: null
     },
     {

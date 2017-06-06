@@ -64,6 +64,11 @@ var raids = {
         thumb: '0771',
         gw: ''
     },
+    795: {
+        name: 'Nightmare Luffy',
+        thumb: '0795',
+        gw: ''
+    },
     836: {
         name: 'Kuma',
         thumb: '0836',
