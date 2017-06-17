@@ -215,6 +215,11 @@ var raidEvents = [
         ambush: null
     },
     {
+        id: 418,
+        start: '2017-06-22',
+        ambush: null
+    },
+    {
         id: 227,
         start: '2017-06-23',
         end: '2017-06-25',
@@ -237,5 +242,5 @@ var raidEvents = [
         start: '2017-06-23',
         end: '2017-06-26',
         ambush: null
-    }
+    },
 ]
