@@ -370,5 +370,11 @@ var fortnights = {
         thumb: '1328',
         drop: '',
         gw: ''
-    }
+    },
+    1332: {
+        name: 'Tontatta 2',
+        thumb: '1332',
+        drop: '',
+        gw: ''
+    },
 };
