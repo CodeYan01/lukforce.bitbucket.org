@@ -1,5 +1,5 @@
-var ywb = 'YWB';
-var shanks = 'Shanks';
+var ywb = '1258';
+var shanks = '1380';
 
 var raidEvents = [
     {

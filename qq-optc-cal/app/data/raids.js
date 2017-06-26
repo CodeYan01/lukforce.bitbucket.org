@@ -5,7 +5,7 @@ var raids = {
         gw: ''
     },
     249: {
-        name: 'Monster Chopper',
+        name: 'M. Chopper',
         thumb: '0249',
         gw: ''
     },
@@ -35,7 +35,7 @@ var raids = {
         gw: ''
     },
     516: {
-        name: 'Heracles-un',
+        name: 'Heracles',
         thumb: '0516',
         gw: ''
     },
@@ -60,12 +60,12 @@ var raids = {
         gw: ''
     },
     771: {
-        name: 'Buster Call',
+        name: 'BusterCall',
         thumb: '0771',
         gw: ''
     },
     795: {
-        name: 'Nightmare Luffy',
+        name: 'NM Luffy',
         thumb: '0795',
         gw: ''
     },
@@ -75,7 +75,7 @@ var raids = {
         gw: ''
     },
     865: {
-        name: 'Boa Hancock',
+        name: 'Boa',
         thumb: '0865',
         gw: ''
     },
@@ -90,7 +90,7 @@ var raids = {
         gw: ''
     },
     989: {
-        name: 'Fake Straw Hats',
+        name: 'Fake SH',
         thumb: '0989',
         gw: ''
     },
@@ -105,7 +105,7 @@ var raids = {
         gw: ''
     },
     1163: {
-        name: 'Gild Tesoro',
+        name: 'Tesoro',
         thumb: '1163',
         gw: ''
     },

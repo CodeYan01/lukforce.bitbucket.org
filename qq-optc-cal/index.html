@@ -63,7 +63,7 @@
                 var title = '『RD』';
 
                 if (e['ambush'] != null)
-                    title += ' ★' + e['ambush'];
+                    res['ambush'] = e['ambush'];
 
                 title += '\n' + rd['name'];
 
@@ -136,6 +136,14 @@
                         );
                     } else {
                         element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
+                    }
+
+                    if (event.type == 'raid' && event.ambush != null) {
+                        var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.ambush + '.png';
+
+                        element.find('.fc-title').before(
+                            '<img src="' + imgSrc + '" height="30" width="30" style="float: right;" />'
+                        );
                     }
                 },
                 eventOrder: 'id'
