@@ -19,5 +19,14 @@ var specials_bg = {
     },
     'elder': {
         thumb: 'elder'
-    }
+    },
+    'ywb': {
+        thumb: 'ywb'
+    },
+    'shanks': {
+        thumb: 'shanks'
+    },
+    'cabbage': {
+        thumb: 'cabbage'
+    },
 }
