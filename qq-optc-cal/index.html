@@ -122,12 +122,22 @@
                 'dow': [3, 5, 6]
             }
 
+            // Permanent Mihawk
+            var mihawk = {
+                'thumb': 'mihawk',
+                'type': 'event',
+                'color': 'rgba(0, 0, 0, 0)',
+                'rendering': 'background',
+                'dow': [5, 6]
+            }
+
             eventArray.push(coliseums);
+            eventArray.push(mihawk);
 
             $('#calendar').fullCalendar({
                 aspectRatio: 0.55,
                 events: eventArray,
-                eventRender: function(event, element, view) {
+                eventRender: function(event, element) {
                     if (event.type != 'event') {
                         var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
 
