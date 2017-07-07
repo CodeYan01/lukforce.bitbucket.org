@@ -113,5 +113,10 @@ var raids = {
         name: 'Akainu',
         thumb: '1298',
         gw: ''
-    }
+    },
+    9999: {
+        name: 'Mihawk *',
+        thumb: '9999',
+        gw: ''
+    },
 };

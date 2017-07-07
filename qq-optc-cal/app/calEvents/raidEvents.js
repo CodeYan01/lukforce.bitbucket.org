@@ -245,4 +245,55 @@ var raidEvents = [
         start: '2017-07-09',
         ambush: null
     },
+    {
+        id: 1047,
+        start: '2017-07-13',
+        ambush: null
+    },
+    {
+        id: 771,
+        start: '2017-07-14',
+        ambush: null
+    },
+    {
+        id: 989,
+        start: '2017-07-15',
+        ambush: null
+    },
+    {
+        id: 933,
+        start: '2017-07-16',
+        ambush: null
+    },
+    {
+        id: 836,
+        start: '2017-07-17',
+        ambush: null
+    },
+    {
+        id: 978,
+        start: '2017-07-18',
+        ambush: null
+    },
+    {
+        id: 516,
+        start: '2017-07-19',
+        ambush: null
+    },
+    {
+        id: 518,
+        start: '2017-07-19',
+        ambush: null
+    },
+    {
+        id: 418,
+        start: '2017-07-20',
+        ambush: null
+    },
+    {
+        id: 9999,
+        start: '2017-07-25',
+        end: '2017-08-01',
+        ambush: null
+    },
 ]
