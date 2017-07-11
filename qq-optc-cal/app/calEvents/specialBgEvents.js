@@ -167,6 +167,11 @@ var specialBgEvents = [
         end: '2017-07-07'
     },
     {
+        id: '2nd_anni_ship',
+        start: '2017-07-18',
+        end: '2017-07-24'
+    },
+    {
         id: 'sp',
         start: '2017-07-19',
         end: '2017-07-22'
