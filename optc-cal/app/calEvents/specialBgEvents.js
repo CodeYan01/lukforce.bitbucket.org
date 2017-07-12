@@ -135,6 +135,10 @@ var specialBgEvents = [
         start: '2017-06-29'
     },
     {
+        id: 'boosterEvolver',
+        start: '2017-07-01'
+    },
+    {
         id: 'elder',
         start: '2017-07-02',
         end: '2017-07-07'
@@ -156,6 +160,10 @@ var specialBgEvents = [
     {
         id: 'cotton',
         start: '2017-07-07'
+    },
+    {
+        id: 'boosterEvolver',
+        start: '2017-07-09'
     },
     {
         id: 'cotton',
