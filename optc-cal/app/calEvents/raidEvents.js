@@ -203,21 +203,18 @@ var raidEvents = [
         ambush: null
     },
     {
-        id: 353,
+        id: [353, 1108, 1163],
         start: '2017-06-23',
-        end: '2017-06-26',
         ambush: null
     },
     {
-        id: 1163,
-        start: '2017-06-23',
-        end: '2017-06-26',
+        id: [353, 1108, 1163],
+        start: '2017-06-24',
         ambush: null
     },
     {
-        id: 1108,
-        start: '2017-06-23',
-        end: '2017-06-26',
+        id: [353, 1108, 1163],
+        start: '2017-06-25',
         ambush: null
     },
     {

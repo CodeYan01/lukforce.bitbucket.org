@@ -58,35 +58,35 @@
 
             function createRaidEvent(e) {
                 var res = {};
-
                 var eId = e['id'];
-                if (Array.isArray(eId))
-                    var id = eId[0];
-                else
-                    var id = eId;
-
-                var rd = raids[id];
-
-                res['id'] = id;
-
-                var title = '『RD』';
-
-                if (e['ambush'] != null)
-                    res['ambush'] = e['ambush'];
-
-                title += '\n' + rd['name'];
-
-                res['title'] = title;
 
                 if (Array.isArray(eId)) {
+                    var id = eId[0];
+
                     res['thumb'] = [];
 
                     for (i = 0; i < eId.length; i++) {
                         var eRd = raids[eId[i]];
                         res['thumb'].push(eRd['thumb']);
                     }
-                } else
+                } else {
+                    var id = eId;
+
+                    var rd = raids[id];
+
+                    res['id'] = id;
+
+                    var title = '『RD』';
+
+                    if (e['ambush'] != null)
+                        res['ambush'] = e['ambush'];
+
+                    title += '\n' + rd['name'];
+
+                    res['title'] = title;
+
                     res['thumb'] = rd['thumb'];
+                }
 
                 res['type'] = 'raid';
 
