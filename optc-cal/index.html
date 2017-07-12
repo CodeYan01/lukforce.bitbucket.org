@@ -57,7 +57,12 @@
             function createRaidEvent(e) {
                 var res = {};
 
-                var id = e['id'];
+                var eId = e['id'];
+                if (Array.isArray(eId))
+                    var id = eId[0];
+                else
+                    var id = eId;
+
                 var rd = raids[id];
 
                 res['id'] = id;
@@ -70,7 +75,17 @@
                 title += '\n' + rd['name'];
 
                 res['title'] = title;
-                res['thumb'] = rd['thumb'];
+
+                if (Array.isArray(eId)) {
+                    res['thumb'] = [];
+
+                    for (i = 0; i < eId.length; i++) {
+                        var eRd = raids[eId[i]];
+                        res['thumb'].push(eRd['thumb']);
+                    }
+                } else
+                    res['thumb'] = rd['thumb'];
+
                 res['type'] = 'raid';
 
                 res['start'] = e['start'];
@@ -172,11 +187,21 @@
                 events: eventArray,
                 eventRender: function(event, element) {
                     if (event.type != 'event') {
-                        var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
+                        if (Array.isArray(event.thumb)) {
+                            for (i = 0; i < event.thumb.length; i++) {
+                                var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb[i] + '.png';
 
-                        element.find('.fc-title').before(
-                            '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
-                        );
+                                element.find('.fc-title').before(
+                                    '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
+                                );
+                            }
+                        } else {
+                            var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
+
+                            element.find('.fc-title').before(
+                                '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
+                            );
+                        }
                     } else {
                         element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
                     }
