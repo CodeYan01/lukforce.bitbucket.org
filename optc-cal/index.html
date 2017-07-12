@@ -14,10 +14,12 @@
 
     <script src="app/data/fortnights.js"></script>
     <script src="app/data/raids.js"></script>
+    <script src="app/data/specials.js"></script>
     <script src="app/data/specials_bg.js"></script>
 
     <script src="app/calEvents/fortnightEvents.js"></script>
     <script src="app/calEvents/raidEvents.js"></script>
+    <script src="app/calEvents/specialEvents.js"></script>
     <script src="app/calEvents/specialBgEvents.js"></script>
 
     <script>
@@ -81,6 +83,31 @@
                 return res;
             }
 
+            function createSpecialEvent(e) {
+                var res = {};
+
+                var id = e['id'];
+                var sp = specials[id];
+
+                res['id'] = id;
+
+                var title = '『' + sp['type'] + '』';
+                title += '\n' + sp['name'];
+
+                res['title'] = title;
+
+                res['thumb'] = sp['thumb'];
+                res['type'] = 'special';
+
+                res['start'] = e['start'];
+                res['end'] = e['end'];
+
+                res['color'] = 'rgba(75, 0, 130, 0.6)';
+                res['textColor'] = 'black';
+
+                return res;
+            }
+
             function createSpecialBgEvent(e) {
                 var res = {};
 
@@ -107,6 +134,10 @@
 
             raidEvents.forEach(function(e) {
                 eventArray.push(createRaidEvent(e));
+            });
+
+            specialEvents.forEach(function(e) {
+                eventArray.push(createSpecialEvent(e));
             });
 
             specialBgEvents.forEach(function(e) {
