@@ -64,8 +64,7 @@
                 var eId = e['id'];
 
                 if (Array.isArray(eId)) {
-                    var id = eId[0];
-
+                    res['id'] = eId;
                     res['thumb'] = [];
 
                     for (i = 0; i < eId.length; i++) {
@@ -73,11 +72,8 @@
                         res['thumb'].push(eRd['thumb']);
                     }
                 } else {
-                    var id = eId;
-
-                    var rd = raids[id];
-
-                    res['id'] = id;
+                    var rd = raids[eId];
+                    res['id'] = eId;
 
                     var title = '『RD』';
 
@@ -119,6 +115,8 @@
                     var repColi = coliseums[repId[i]];
                     res['repThumb'].push(repColi['thumb']);
                 }
+
+                res['id'] = newId.concat(repId);
 
                 res['type'] = 'coliseum';
                 res['dow'] = [3, 5, 6];
@@ -177,19 +175,47 @@
             }
 
             function getEventDetail(e) {
-                if (e.type == 'fortnight') {
+                var ids = [];
+
+                if (Array.isArray(e.id))
+                    ids = e.id;
+                else
+                    ids.push(e.id);
+
+                if (e.ambush != null)
+                    ids.push(e.ambush);
+
+                for (i = 0; i < ids.length; i++) {
                     var ed = $('#eventDetailClone').clone();
-                    var id = e.id;
-                    var fn = fortnights[id];
+                    var id = ids[i];
 
-                    var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + fn['thumb'] + '.png';
-                    ed.find('.eventThumb').html('<img src="' + imgSrc + '" height="30" width="30" style="float: left; margin-right: 30px" />');
+                    var data;
+                    if (e.type == 'fortnight')
+                        data = fortnights[id];
+                    else if (e.type == 'raid')
+                        data = raids[id];
+                    else if (e.type == 'coliseum')
+                        data = coliseums[id];
 
-                    ed.find('.eventTitle').text(fn['name']);
+                    var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + data['thumb'] + '.png';
+                    ed.find('.eventThumb').html('<img src="' + imgSrc + '" height="30" width="30" />');
+
+                    ed.find('.eventTitle').text(data['name']);
 
                     if (drops[id] != null) {
+                        var dropList = ed.find('.dropList');
                         var dropUrl = 'http://optc-db.github.io/drops/?' + drops[id];
-                        ed.find('.dropList').html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
+
+                        dropList.html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
+                        dropList.show();
+                    }
+
+                    if (1) {
+                        var gamewith = ed.find('.gamewith');
+                        var gwUrl = '';
+
+                        gamewith.html('Gamewith Guide');
+                        gamewith.show();
                     }
 
                     $('#eventDetail').append(ed);
@@ -308,6 +334,10 @@
             text-align: center;
         }
 
+        #eventDetailModal {
+            top: 30%;
+        }
+
         #calendar {
             width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
             margin: 0 auto;
@@ -338,20 +368,21 @@
 
                 <div id="eventDetail" class="modal-body"></div>
 
-                <div id="eventDetailClone" style="display: none;">
-                    <div class="eventThumb"></div>
-                    <div>
-                        <h6 class="eventTitle"></h6>
-                        <ul>
-                            <li class="dropList"></li>
-                        </ul>
-                    </div>
-                </div>
-
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div id="eventDetailClone" style="display: none;">
+        <div class="eventThumb" style="float: left;"></div>
+        <div style="margin-left: 50px;">
+            <h6 class="eventTitle"></h6>
+            <ul>
+                <li class="dropList" style="display: none;"></li>
+                <li class="gamewith" style="display: none;"></li>
+            </ul>
         </div>
     </div>
 

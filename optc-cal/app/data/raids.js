@@ -87,9 +87,17 @@ var raids = {
         name: 'Tesoro',
         thumb: '1163'
     },
+    1258: {
+        name: 'Young Whitebeard',
+        thumb: '1258'
+    },
     1298: {
         name: 'Akainu',
         thumb: '1298'
+    },
+    1380: {
+        name: 'Shanks',
+        thumb: '1380'
     },
     9999: {
         name: 'Mihawk *',
