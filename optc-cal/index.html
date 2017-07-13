@@ -176,6 +176,10 @@
                 return res;
             }
 
+            function getThumb(thumbId) {
+                return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + thumbId + '.png';
+            }
+
             function getEventDetail(e) {
                 var ids = [];
 
@@ -200,7 +204,7 @@
                     else if (e.type == 'coliseum')
                         data = coliseums[id];
 
-                    var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + data['thumb'] + '.png';
+                    var imgSrc = getThumb(data['thumb']);
                     ed.find('.eventThumb').html('<img src="' + imgSrc + '" height="30" width="30" />');
 
                     ed.find('.eventTitle').text(data['name']);
@@ -279,7 +283,7 @@
                             thumbArray.push(event.thumb);
 
                         for (i = 0; i < thumbArray.length; i++) {
-                            var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + thumbArray[i] + '.png';
+                            var imgSrc = getThumb(thumbArray[i]);
 
                             element.find('.fc-title').before(
                                 '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
@@ -287,7 +291,7 @@
                         }
                     } else if (event.type == 'coliseum') {
                         for (i = 0; i < event.newThumb.length; i++) {
-                            var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.newThumb[i] + '.png';
+                            var imgSrc = getThumb(event.newThumb[i]);
 
                             element.find('.fc-title').before(
                                 '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
@@ -295,7 +299,7 @@
                         }
 
                         for (i = 0; i < event.repThumb.length; i++) {
-                            var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.repThumb[i] + '.png';
+                            var imgSrc = getThumb(event.repThumb[i]);
 
                             element.find('.fc-title').before(
                                 '<img src="' + imgSrc + '" height="20" width="20" style="float: left;" />'
@@ -308,7 +312,7 @@
                     }
 
                     if (event.type == 'raid' && typeof event.ambush !== 'undefined') {
-                        var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.ambush + '.png';
+                        var imgSrc = getThumb(event.ambush);
 
                         element.find('.fc-title').before(
                             '<img src="' + imgSrc + '" height="30" width="30" style="float: right;" />'
