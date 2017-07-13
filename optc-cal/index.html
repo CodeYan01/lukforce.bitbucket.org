@@ -235,16 +235,14 @@
                 events: eventArray,
                 eventRender: function(event, element) {
                     if (event.type != 'event' && event.type != 'coliseum') {
-                        if (Array.isArray(event.thumb)) {
-                            for (i = 0; i < event.thumb.length; i++) {
-                                var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb[i] + '.png';
+                        var thumbArray = [];
+                        if (Array.isArray(event.thumb))
+                            thumbArray = event.thumb;
+                        else
+                            thumbArray.push(event.thumb);
 
-                                element.find('.fc-title').before(
-                                    '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
-                                );
-                            }
-                        } else {
-                            var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.thumb + '.png';
+                        for (i = 0; i < thumbArray.length; i++) {
+                            var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + thumbArray[i] + '.png';
 
                             element.find('.fc-title').before(
                                 '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
