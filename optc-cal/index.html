@@ -177,16 +177,23 @@
             }
 
             function getEventDetail(e) {
-                $('.eventDetail').hide();
-
                 if (e.type == 'fortnight') {
+                    var ed = $('#eventDetailClone').clone();
                     var id = e.id;
+                    var fn = fortnights[id];
+
+                    var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + fn['thumb'] + '.png';
+                    ed.find('.eventThumb').html('<img src="' + imgSrc + '" height="30" width="30" style="float: left; margin-right: 30px" />');
+
+                    ed.find('.eventTitle').text(fn['name']);
 
                     if (drops[id] != null) {
                         var dropUrl = 'http://optc-db.github.io/drops/?' + drops[id];
-                        $('#dropList').html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
-                        $('#dropListLi').show();
+                        ed.find('.dropList').html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
                     }
+
+                    $('#eventDetail').append(ed);
+                    ed.show();
                 }
             }
 
@@ -279,7 +286,7 @@
                 },
                 eventClick: function(event) {
                     if (event.type == 'fortnight' || event.type == 'raid' || event.type == 'coliseum') {
-                        $('#eventTitle').text(event.title);
+                        $('#eventDetail').empty();
                         getEventDetail(event);
                         $('#eventDetailModal').modal();
                     }
@@ -331,13 +338,16 @@
                     </button>
                 </div>
 
-                <div id="eventDetail" class="modal-body">
-                    <h6 id="eventTitle"></h6>
-                    <ul>
-                        <li id="dropListLi" class="eventDetail">
-                            <span id="dropList"></span>
-                        </li>
-                    </ul>
+                <div id="eventDetail" class="modal-body"></div>
+
+                <div id="eventDetailClone" style="display: none;">
+                    <div class="eventThumb"></div>
+                    <div>
+                        <h6 class="eventTitle"></h6>
+                        <ul>
+                            <li class="dropList"></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="modal-footer">
