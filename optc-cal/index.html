@@ -7,16 +7,19 @@
     <link href="favicon.ico" rel="shortcut icon" />
 
     <link href="assets/css/fullcalendar.min.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <script src="assets/libs/jquery.min.js"></script>
     <script src="assets/libs/moment.min.js"></script>
     <script src="assets/libs/fullcalendar.min.js"></script>
-    <script src="assets/libs/angular.min.js"></script>
+    <script src="assets/libs/bootstrap.min.js"></script>
 
     <script src="app/data/fortnights.js"></script>
     <script src="app/data/raids.js"></script>
     <script src="app/data/coliseums.js"></script>
     <script src="app/data/specials.js"></script>
     <script src="app/data/specials_bg.js"></script>
+
+    <script src="app/data/drops.js"></script>
 
     <script src="app/calEvents/fortnightEvents.js"></script>
     <script src="app/calEvents/raidEvents.js"></script>
@@ -173,6 +176,20 @@
                 return res;
             }
 
+            function getEventDetail(e) {
+                $('.eventDetail').hide();
+
+                if (e.type == 'fortnight') {
+                    var id = e.id;
+
+                    if (drops[id] != null) {
+                        var dropUrl = 'http://optc-db.github.io/drops/?' + drops[id];
+                        $('#dropList').html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
+                        $('#dropListLi').show();
+                    }
+                }
+            }
+
             var eventArray = [];
 
             fortnightEvents.forEach(function(e) {
@@ -260,6 +277,12 @@
                         return event.start.isAfter(event.permaStart);
                     }
                 },
+                eventClick: function(event) {
+                    if (event.type == 'fortnight' || event.type == 'raid' || event.type == 'coliseum') {
+                        getEventDetail(event);
+                        $('#eventDetailModal').modal();
+                    }
+                },
                 eventOrder: 'id',
                 displayEventTime: false
             });
@@ -297,6 +320,31 @@
 </head>
 
 <body>
+    <div id="eventDetailModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Helpful Links</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div id="eventDetail" class="modal-bodya">
+                    <ul>
+                        <li id="dropListLi" class="eventDetail">
+                            <span id="dropList"></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="optc-agenda">
         <a href="https://optc-agenda.github.io/" target="_blank">Week View Mode (to OPTC Agenda)</a>
     </div>
