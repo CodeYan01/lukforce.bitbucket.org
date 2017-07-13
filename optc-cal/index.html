@@ -21,6 +21,7 @@
 
     <script src="app/data/drops.js"></script>
     <script src="app/data/gw.js"></script>
+    <script src="app/data/sevenDays.js"></script>
 
     <script src="app/calEvents/fortnightEvents.js"></script>
     <script src="app/calEvents/raidEvents.js"></script>
@@ -78,7 +79,7 @@
 
                     var title = '『RD』';
 
-                    if (e['ambush'] != null)
+                    if (typeof e['ambush'] !== 'undefined')
                         res['ambush'] = e['ambush'];
 
                     title += '\n' + rd['name'];
@@ -183,12 +184,13 @@
                 else
                     ids.push(e.id);
 
-                if (e.ambush != null)
+                if (typeof e.ambush !== 'undefined')
                     ids.push(e.ambush);
 
                 for (i = 0; i < ids.length; i++) {
                     var ed = $('#eventDetailClone').clone();
                     var id = ids[i];
+                    ed.attr('id', "eventDetail_" + id);
 
                     var data;
                     if (e.type == 'fortnight')
@@ -203,7 +205,7 @@
 
                     ed.find('.eventTitle').text(data['name']);
 
-                    if (drops[id] != null) {
+                    if (typeof drops[id] !== 'undefined') {
                         var dropList = ed.find('.dropList');
                         var dropUrl = 'http://optc-db.github.io/drops/?' + drops[id];
 
@@ -211,12 +213,20 @@
                         dropList.show();
                     }
 
-                    if (gw[id] != null) {
+                    if (typeof gw[id] !== 'undefined') {
                         var gamewith = ed.find('.gamewith');
                         var gwUrl = 'https://トレクル.gamewith.jp/article/show/' + gw[id];
 
                         gamewith.html('<a href="' + gwUrl + '" target="_blank">Gamewith Guide</a>');
                         gamewith.show();
+                    }
+
+                    if (typeof sd[id] !== 'undefined') {
+                        var sevenDays = ed.find('.sevenDays');
+                        var sdUrl = 'https://www.reddit.com/r/OnePieceTC/comments/' + sd[id];
+
+                        sevenDays.html('<a href="' + sdUrl + '" target="_blank">7 Days Guide</a>');
+                        sevenDays.show();
                     }
 
                     $('#eventDetail').append(ed);
@@ -297,7 +307,7 @@
                         element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
                     }
 
-                    if (event.type == 'raid' && event.ambush != null) {
+                    if (event.type == 'raid' && typeof event.ambush !== 'undefined') {
                         var imgSrc = 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + event.ambush + '.png';
 
                         element.find('.fc-title').before(
@@ -305,9 +315,8 @@
                         );
                     }
 
-                    if (event.permaStart != null) {
+                    if (typeof event.permaStart !== 'undefined')
                         return event.start.isAfter(event.permaStart);
-                    }
                 },
                 eventClick: function(event) {
                     if (event.type == 'fortnight' || event.type == 'raid' || event.type == 'coliseum') {
@@ -383,6 +392,7 @@
             <ul>
                 <li class="dropList" style="display: none;"></li>
                 <li class="gamewith" style="display: none;"></li>
+                <li class="sevenDays" style="display: none;"></li>
             </ul>
         </div>
     </div>
