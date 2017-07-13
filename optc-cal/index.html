@@ -20,6 +20,7 @@
     <script src="app/data/specials_bg.js"></script>
 
     <script src="app/data/drops.js"></script>
+    <script src="app/data/gw.js"></script>
 
     <script src="app/calEvents/fortnightEvents.js"></script>
     <script src="app/calEvents/raidEvents.js"></script>
@@ -210,11 +211,11 @@
                         dropList.show();
                     }
 
-                    if (1) {
+                    if (gw[id] != null) {
                         var gamewith = ed.find('.gamewith');
-                        var gwUrl = '';
+                        var gwUrl = 'https://トレクル.gamewith.jp/article/show/' + gw[id];
 
-                        gamewith.html('Gamewith Guide');
+                        gamewith.html('<a href="' + gwUrl + '" target="_blank">Gamewith Guide</a>');
                         gamewith.show();
                     }
 
