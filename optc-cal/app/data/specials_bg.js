@@ -26,13 +26,4 @@ var specials_bg = {
     '2nd_anni_ship': {
         thumb: '2nd_anni_ship'
     },
-    'ywb': {
-        thumb: 'ywb'
-    },
-    'shanks': {
-        thumb: 'shanks'
-    },
-    'cabbage': {
-        thumb: 'cabbage'
-    },
 }

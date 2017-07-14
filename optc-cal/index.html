@@ -16,6 +16,7 @@
     <script src="app/data/fortnights.js"></script>
     <script src="app/data/raids.js"></script>
     <script src="app/data/coliseums.js"></script>
+    <script src="app/data/ambushes.js"></script>
     <script src="app/data/specials.js"></script>
     <script src="app/data/specials_bg.js"></script>
 
@@ -63,10 +64,11 @@
 
             function createRaidEvent(e) {
                 var res = {};
+
                 var eId = e['id'];
 
                 if (Array.isArray(eId)) {
-                    res['id'] = eId;
+                    res['id'] = eId.slice();
                     res['thumb'] = [];
 
                     for (i = 0; i < eId.length; i++) {
@@ -79,8 +81,10 @@
 
                     var title = '『RD』';
 
-                    if (typeof e['ambush'] !== 'undefined')
+                    if (typeof e['ambush'] !== 'undefined') {
                         res['ambush'] = e['ambush'];
+                        eventArray.push(createAmbushEvent(e['ambush'], e['start'], 'raid'));
+                    }
 
                     title += '\n' + rd['name'];
 
@@ -92,7 +96,7 @@
                 res['type'] = 'raid';
 
                 res['start'] = e['start'];
-                if (e['end'] != '')
+                if (typeof e['end'] !== 'undefined')
                     res['end'] = e['end'];
 
                 res['color'] = 'rgba(60, 179, 113, 0.6)';
@@ -118,6 +122,15 @@
                     res['repThumb'].push(repColi['thumb']);
                 }
 
+                if (typeof e['ambush'] !== 'undefined') {
+                    res['ambush'] = e['ambush'];
+
+                    var ambushDates = e['ambushDates'];
+                    for (i = 0; i < ambushDates.length; i++)
+                        eventArray.push(createAmbushEvent(e['ambush'], ambushDates[i], 'coliseum'));
+                }
+
+
                 res['id'] = newId.concat(repId);
 
                 res['type'] = 'coliseum';
@@ -133,27 +146,58 @@
                 return res;
             }
 
+            function createAmbushEvent(id, start, src) {
+                var res = {};
+
+                var ambush = ambushes[id];
+
+                res['id'] = id;
+                res['title'] = ambush['name'];
+                res['thumb'] = ambush['thumb'];
+                res['start'] = start;
+
+                if ('raid' == src) {
+                    res['type'] = 'raidAmbush';
+                    res['color'] = 'rgba(60, 179, 113, 0.6)';
+                } else {
+                    res['type'] = 'coliAmbush';
+                    res['color'] = 'rgba(0, 0, 255, 0.6)';
+                }
+
+                res['textColor'] = 'black';
+
+                return res;
+            }
+
             function createSpecialEvent(e) {
                 var res = {};
 
                 var id = e['id'];
-                var sp = specials[id];
+
+                if ('dummy' == id) {
+                    res['color'] = 'rgba(255, 255, 255, 0)';
+                    res['textColor'] = 'rgba(255, 255, 255, 0)';
+                } else {
+                    var sp = specials[id];
+
+                    var title = '『' + sp['type'] + '』';
+                    title += '\n' + sp['name'];
+
+                    res['title'] = title;
+
+                    res['thumb'] = sp['thumb'];
+
+                    res['color'] = 'rgba(75, 0, 130, 0.6)';
+                    res['textColor'] = 'black';
+                }
 
                 res['id'] = id;
 
-                var title = '『' + sp['type'] + '』';
-                title += '\n' + sp['name'];
-
-                res['title'] = title;
-
-                res['thumb'] = sp['thumb'];
                 res['type'] = 'special';
 
                 res['start'] = e['start'];
-                res['end'] = e['end'];
-
-                res['color'] = 'rgba(75, 0, 130, 0.6)';
-                res['textColor'] = 'black';
+                if (typeof e['end'] !== 'undefined')
+                    res['end'] = e['end'];
 
                 return res;
             }
@@ -184,7 +228,7 @@
                 var ids = [];
 
                 if (Array.isArray(e.id))
-                    ids = e.id;
+                    ids = e.id.slice();
                 else
                     ids.push(e.id);
 
@@ -203,6 +247,9 @@
                         data = raids[id];
                     else if (e.type == 'coliseum')
                         data = coliseums[id];
+
+                    if (typeof e.ambush !== 'undefined' && typeof data === 'undefined')
+                        data = ambushes[id];
 
                     var imgSrc = getThumb(data['thumb']);
                     ed.find('.eventThumb').html('<img src="' + imgSrc + '" height="30" width="30" />');
@@ -275,10 +322,10 @@
                 aspectRatio: 0.55,
                 events: eventArray,
                 eventRender: function(event, element) {
-                    if (event.type != 'event' && event.type != 'coliseum') {
+                    if (event.type == 'fortnight' || event.type == 'raid' || (event.type == 'special' && event.id != 'dummy')) {
                         var thumbArray = [];
                         if (Array.isArray(event.thumb))
-                            thumbArray = event.thumb;
+                            thumbArray = event.thumb.slice();
                         else
                             thumbArray.push(event.thumb);
 
@@ -289,6 +336,12 @@
                                 '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
                             );
                         }
+                    } else if (event.type == 'raidAmbush' || event.type == 'coliAmbush') {
+                        var imgSrc = getThumb(event.thumb);
+
+                        element.find('.fc-title').before(
+                            '<img src="' + imgSrc + '" height="15" width="15" style="float: left;" />'
+                        );
                     } else if (event.type == 'coliseum') {
                         for (i = 0; i < event.newThumb.length; i++) {
                             var imgSrc = getThumb(event.newThumb[i]);
@@ -311,14 +364,6 @@
                         element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
                     }
 
-                    if (event.type == 'raid' && typeof event.ambush !== 'undefined') {
-                        var imgSrc = getThumb(event.ambush);
-
-                        element.find('.fc-title').before(
-                            '<img src="' + imgSrc + '" height="30" width="30" style="float: right;" />'
-                        );
-                    }
-
                     if (typeof event.permaStart !== 'undefined')
                         return event.start.isAfter(event.permaStart);
                 },
@@ -329,7 +374,18 @@
                         $('#eventDetailModal').modal();
                     }
                 },
-                eventOrder: 'id',
+                eventOrder: function(a, b) {
+                    var orderMap = {
+                        'fortnight': 0,
+                        'raid': 1,
+                        'raidAmbush': 2,
+                        'coliseum': 3,
+                        'coliAmbush': 4,
+                        'special': -1
+                    }
+
+                    return orderMap[a.type] > orderMap[b.type];
+                },
                 displayEventTime: false
             });
         });

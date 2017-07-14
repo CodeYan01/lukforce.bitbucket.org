@@ -144,18 +144,9 @@ var specialBgEvents = [
         end: '2017-07-07'
     },
     {
-        id: 'shanks',
-        start: '2017-07-05'
-    },
-    {
         id: 'sp',
         start: '2017-07-05',
         end: '2017-07-07'
-    },
-    {
-        id: 'shanks',
-        start: '2017-07-07',
-        end: '2017-07-09'
     },
     {
         id: 'cotton',
@@ -188,14 +179,5 @@ var specialBgEvents = [
         id: 'meat',
         start: '2017-07-26',
         end: '2017-08-01'
-    },
-    {
-        id: 'ywb',
-        start: '2017-07-26'
-    },
-    {
-        id: 'ywb',
-        start: '2017-07-28',
-        end: '2017-07-30'
     },
 ]
