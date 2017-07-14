@@ -4,6 +4,19 @@ var specialEvents = [
         start: '2017-06-01'
     },
     {
+        id: 'dummy',
+        start: '2017-07-26'
+    },
+    {
+        id: 'dummy',
+        start: '2017-07-28'
+    },
+    {
+        id: 'dummy',
+        start: '2017-07-29'
+    },
+
+    {
         id: 'ss_0436',
         start: '2017-07-11',
         end: '2017-07-14'
