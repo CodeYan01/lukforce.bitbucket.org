@@ -83,7 +83,7 @@
 
                     if (typeof e['ambush'] !== 'undefined') {
                         res['ambush'] = e['ambush'];
-                        eventArray.push(createAmbushEvent(e['ambush'], e['start'], 'raid'));
+                        eventArray.push(createAmbushEvent(e['ambush'], e['start'], e['end'], 'raid'));
                     }
 
                     title += '\n' + rd['name'];
@@ -124,29 +124,24 @@
 
                 if (typeof e['ambush'] !== 'undefined') {
                     res['ambush'] = e['ambush'];
-
-                    var ambushDates = e['ambushDates'];
-                    for (i = 0; i < ambushDates.length; i++)
-                        eventArray.push(createAmbushEvent(e['ambush'], ambushDates[i], 'coliseum'));
+                    eventArray.push(createAmbushEvent(e['ambush'], e['start'], e['end'], 'coliseum'));
                 }
 
 
                 res['id'] = newId.concat(repId);
 
                 res['type'] = 'coliseum';
-                res['dow'] = [3, 5, 6];
 
-                res['start'] = '00:00';
-                res['end'] = '23:59';
-                res['eStart'] = e['start'];
-                res['eEnd'] = e['end'];
+                res['start'] = e['start'];
+                if (typeof e['end'] !== 'undefined')
+                    res['end'] = e['end'];
 
                 res['color'] = 'rgba(0, 0, 255, 0.6)';
 
                 return res;
             }
 
-            function createAmbushEvent(id, start, src) {
+            function createAmbushEvent(id, start, end, src) {
                 var res = {};
 
                 var ambush = ambushes[id];
@@ -155,6 +150,8 @@
                 res['title'] = ambush['name'];
                 res['thumb'] = ambush['thumb'];
                 res['start'] = start;
+                if (typeof end !== 'undefined')
+                    res['end'] = end;
 
                 if ('raid' == src) {
                     res['type'] = 'raidAmbush';
@@ -358,8 +355,6 @@
                                 '<img src="' + imgSrc + '" height="20" width="20" style="float: left;" />'
                             );
                         }
-
-                        return event.start.isAfter(event.eStart) && event.end.isBefore(event.eEnd);
                     } else {
                         element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
                     }
