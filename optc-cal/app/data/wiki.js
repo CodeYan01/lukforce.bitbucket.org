@@ -79,7 +79,7 @@ var wiki = {
     1163: 'raidboss/tesoro',
     1258: 'raidboss/ywb',
     1298: 'raidboss/akainu',
-    1380: 'raidboss/shanks',
+    1380: 'shanks',
 
     // Coliseums
     779: 'coliseum/rebeca',
