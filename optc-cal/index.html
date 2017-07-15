@@ -75,6 +75,8 @@
                 res['color'] = 'rgba(255, 0, 0, ' + opacity + ')';
                 res['textColor'] = 'black';
 
+                res['priority'] = 1;
+
                 return res;
             }
 
@@ -118,6 +120,8 @@
                 res['color'] = 'rgba(60, 179, 113, 0.6)';
                 res['textColor'] = 'black';
 
+                res['priority'] = 2;
+
                 return res;
             }
 
@@ -154,6 +158,8 @@
 
                 res['color'] = 'rgba(0, 0, 255, 0.6)';
 
+                res['priority'] = 4;
+
                 return res;
             }
 
@@ -172,9 +178,11 @@
                 if ('raid' == src) {
                     res['type'] = 'raidAmbush';
                     res['color'] = 'rgba(60, 179, 113, 0.6)';
+                    res['priority'] = 3;
                 } else {
                     res['type'] = 'coliAmbush';
                     res['color'] = 'rgba(0, 0, 255, 0.6)';
+                    res['priority'] = 5;
                 }
 
                 res['textColor'] = 'black';
@@ -211,6 +219,8 @@
                 res['start'] = e['start'];
                 if (typeof e['end'] !== 'undefined')
                     res['end'] = e['end'];
+
+                res['priority'] = 0;
 
                 return res;
             }
@@ -386,16 +396,10 @@
                     }
                 },
                 eventOrder: function(a, b) {
-                    var orderMap = {
-                        'fortnight': 0,
-                        'raid': 1,
-                        'raidAmbush': 2,
-                        'coliseum': 3,
-                        'coliAmbush': 4,
-                        'special': -1
-                    }
+                    if (a.priority == b.priority)
+                        return a.id > b.id;
 
-                    return orderMap[a.type] > orderMap[b.type];
+                    return a.priority > b.priority;
                 },
                 displayEventTime: false
             });
