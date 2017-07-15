@@ -27,6 +27,7 @@
     <script src="app/data/drops.js"></script>
     <script src="app/data/gw.js"></script>
     <script src="app/data/sevenDays.js"></script>
+    <script src="app/data/wiki.js"></script>
 
     <script src="app/calEvents/fortnightEvents.js"></script>
     <script src="app/calEvents/raidEvents.js"></script>
@@ -303,6 +304,14 @@
                         sevenDays.show();
                     }
 
+                    if (typeof wiki[id] !== 'undefined') {
+                        var redditWiki = ed.find('.redditWiki');
+                        var wikiUrl = 'https://www.reddit.com/r/OnePieceTC/wiki/' + wiki[id];
+
+                        redditWiki.html('<a href="' + wikiUrl + '" target="_blank">Reddit Wiki Guide</a>');
+                        redditWiki.show();
+                    }
+
                     $('#eventDetail').append(ed);
                     ed.show();
                 }
@@ -468,6 +477,7 @@
                 <li class="dropList" style="display: none;"></li>
                 <li class="gamewith" style="display: none;"></li>
                 <li class="sevenDays" style="display: none;"></li>
+                <li class="redditWiki" style="display: none;"></li>
             </ul>
         </div>
     </div>
