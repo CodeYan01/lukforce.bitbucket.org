@@ -28,6 +28,7 @@
     <script src="app/data/gw.js"></script>
     <script src="app/data/sevenDays.js"></script>
     <script src="app/data/wiki.js"></script>
+    <script src="app/data/slefty.js"></script>
 
     <script src="app/calEvents/fortnightEvents.js"></script>
     <script src="app/calEvents/raidEvents.js"></script>
@@ -312,6 +313,14 @@
                         redditWiki.show();
                     }
 
+                    if (typeof slefty[id] !== 'undefined') {
+                        var sleftyTeamDb = ed.find('.sleftyTeamDb');
+                        var sleftyUrl = 'http://slefty.herokuapp.com/' + slefty[id];
+
+                        sleftyTeamDb.html('<a href="' + sleftyUrl + '" target="_blank">Slefty Team Database</a>');
+                        sleftyTeamDb.show();
+                    }
+
                     $('#eventDetail').append(ed);
                     ed.show();
                 }
@@ -478,6 +487,7 @@
                 <li class="gamewith" style="display: none;"></li>
                 <li class="sevenDays" style="display: none;"></li>
                 <li class="redditWiki" style="display: none;"></li>
+                <li class="sleftyTeamDb" style="display: none;"></li>
             </ul>
         </div>
     </div>
