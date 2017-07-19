@@ -18,6 +18,7 @@ var slefty = {
     865: 'raid_bosses/15',      // Boa Hancock
     933: 'raid_bosses/24',      // Pica
     978: 'raid_bosses/16',      // Kizaru
+    989: '',                    // Fake Straw Hats
     1047: 'raid_bosses/17',     // Sabo
     1108: 'raid_bosses/25',     // Shiki
     1163: 'raid_bosses/26',     // Gild Tesoro
