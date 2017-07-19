@@ -3,9 +3,12 @@ var wiki = {
     30: 'fortnight/alvida',
     39: 'fortnight/buggy',
     46: 'fortnight/kuro',
+    58: '',     // Krieg
+    66: '',     // Arlong
     228: 'fortnight/morgan',
     232: 'fortnight/hina',
     263: 'fortnight/cobimeppo',
+    268: '',    // Smoker
     297: 'fortnight/tsuru',
     318: 'fortnight/kalifa',
     322: 'fortnight/lucci',
@@ -46,13 +49,21 @@ var wiki = {
     1003: 'fortnight/heartpirates',
     1011: 'fortnight/butler',
     1037: 'fortnight/ivan',
+    1049: '',   // Nico Olvia
     1072: 'fortnight/deadend',
     1095: 'fortnight/goldenlion',
     1112: 'fortnight/secretrobin',
+    1137: '',   // CP9
     1167: 'fortnight/baccarat',
+    1203: '',   // Yorki
     1215: 'fortnight/worldpirates',
     1242: 'fortnight/revolutionary',
+    1254: '',   // WB Pirates 3
+    1287: '',   // Donquixote Children
+    1302: '',   // Prisoner Buggy
     1328: 'fortnight/leo',
+    1332: '',   // Tontatta 2
+    1357: '',   // Big Mom Pirates
 
     // Raids
     227: 'raidboss/mihawk',
@@ -77,27 +88,32 @@ var wiki = {
     1047: 'raidboss/sabo',
     1108: 'raidboss/shiki',
     1163: 'raidboss/tesoro',
-    1258: 'raidboss/ywb',
     1298: 'raidboss/akainu',
+
+    1258: 'raidboss/ywb',
     1380: 'shanks',
 
     // Coliseums
+    777: '',    // Lucky Roux
     779: 'coliseum/rebeca',
     781: 'coliseum/urouge2',
     804: 'coliseum/hina',
     806: 'coliseum/smoker',
     831: 'coliseum/hawkins',
     833: 'coliseum/wyper',
+    834: '',    // Mr. 7 & Ms. Father's Day
     860: 'coliseum/coby',
     862: 'coliseum/alvida',
     882: 'coliseum/apoo',
     884: 'coliseum/dorry',
     901: 'coliseum/franky2',
     903: 'coliseum/broggy',
+    904: '',    // Yokozuna
     924: 'coliseum/kidsadi',
     926: 'coliseum/sadie',
     927: 'coliseum/doberman',
     951: 'coliseum/ace',
+    952: '',    // Ben Beckman
     983: 'coliseum/vista',
     984: 'coliseum/paulie',
     1016: 'coliseum/capone',
@@ -105,6 +121,13 @@ var wiki = {
     1019: 'coliseum/lulu',
     1041: 'coliseum/jozu',
     1043: 'coliseum/killer',
+    1087: '',   // Musshuru
+    1089: '',   // Saga
     1091: 'coliseum/drake',
     1102: 'coliseum/zephyr',
+    1104: '',   // Ain
+    1106: '',   // Binz
+    1141: '',   // Moria
+    1143: '',   // Foxy
+    1145: '',   // Porche
 };

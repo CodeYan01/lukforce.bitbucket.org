@@ -281,7 +281,7 @@
 
                     ed.find('.eventTitle').text(data['name']);
 
-                    if (typeof drops[id] !== 'undefined') {
+                    if (typeof drops[id] !== 'undefined' && drops[id] != '') {
                         var dropList = ed.find('.dropList');
                         var dropUrl = 'http://optc-db.github.io/drops/?' + drops[id];
 
@@ -289,7 +289,7 @@
                         dropList.show();
                     }
 
-                    if (typeof gw[id] !== 'undefined') {
+                    if (typeof gw[id] !== 'undefined' && gw[id] != '') {
                         var gamewith = ed.find('.gamewith');
                         var gwUrl = 'https://トレクル.gamewith.jp/article/show/' + gw[id];
 
@@ -297,7 +297,7 @@
                         gamewith.show();
                     }
 
-                    if (typeof sd[id] !== 'undefined') {
+                    if (typeof sd[id] !== 'undefined' && sd[id] != '') {
                         var sevenDays = ed.find('.sevenDays');
                         var sdUrl = 'https://www.reddit.com/r/OnePieceTC/comments/' + sd[id];
 
@@ -305,7 +305,7 @@
                         sevenDays.show();
                     }
 
-                    if (typeof wiki[id] !== 'undefined') {
+                    if (typeof wiki[id] !== 'undefined' && wiki[id] != '') {
                         var redditWiki = ed.find('.redditWiki');
                         var wikiUrl = 'https://www.reddit.com/r/OnePieceTC/wiki/' + wiki[id];
 
@@ -313,7 +313,7 @@
                         redditWiki.show();
                     }
 
-                    if (typeof slefty[id] !== 'undefined') {
+                    if (typeof slefty[id] !== 'undefined' && slefty[id] != '') {
                         var sleftyTeamDb = ed.find('.sleftyTeamDb');
                         var sleftyUrl = 'http://slefty.herokuapp.com/' + slefty[id];
 
