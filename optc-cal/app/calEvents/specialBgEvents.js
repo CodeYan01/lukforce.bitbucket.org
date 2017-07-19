@@ -185,4 +185,9 @@ var specialBgEvents = [
         start: '2017-07-26',
         end: '2017-08-01'
     },
+    {
+        id: 'sp',
+        start: '2017-07-27',
+        end: '2017-07-29'
+    },
 ]
