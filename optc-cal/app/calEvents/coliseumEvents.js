@@ -244,36 +244,36 @@ var coliseumEvents = [
 
     {
         newId: [1141],
-        repId: [],
+        repId: [1016, 1043, 860, 984],
         start: '2017-07-26',
         ambush: ywb
     },
     {
         newId: [1141],
-        repId: [],
+        repId: [1016, 1043, 860, 984],
         start: '2017-07-28',
         end: '2017-07-30',
         ambush: ywb
     },
     {
         newId: [1141],
-        repId: [],
+        repId: [1016, 1043, 860, 984],
         start: '2017-08-02'
     },
     {
         newId: [1141],
-        repId: [],
+        repId: [1016, 1043, 860, 984],
         start: '2017-08-04',
         end: '2017-08-06'
     },
     {
         newId: [1141],
-        repId: [],
+        repId: [1016, 1043, 860, 984],
         start: '2017-08-09'
     },
     {
         newId: [1141],
-        repId: [],
+        repId: [1016, 1043, 860, 984],
         start: '2017-08-11',
         end: '2017-08-13'
     },
