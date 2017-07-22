@@ -93,6 +93,6 @@ var raids = {
     },
     1680: {
         name: 'Mihawk(N)',
-        thumb: '9999'
+        thumb: '1680'
     },
 };
