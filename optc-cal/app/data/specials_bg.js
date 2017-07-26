@@ -2,6 +2,9 @@ var specials_bg = {
     'sp': {
         thumb: 'sp'
     },
+    'ss': {
+        thumb: 'ss'
+    },
     'meat': {
         thumb: 'meat'
     },
