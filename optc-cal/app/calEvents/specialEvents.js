@@ -38,4 +38,9 @@ var specialEvents = [
         start: '2017-07-23',
         end: '2017-07-26'
     },
+    {
+        id: 'straw_hat',
+        start: '2017-08-07',
+        end: '2017-08-14'
+    },
 ]
