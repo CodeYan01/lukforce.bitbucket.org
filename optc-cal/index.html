@@ -28,6 +28,7 @@
     <script src="app/guides/gw.js"></script>
     <script src="app/guides/sevenDays.js"></script>
     <script src="app/guides/wiki.js"></script>
+    <script src="app/guides/videoWiki.js"></script>
     <script src="app/guides/slefty.js"></script>
 
     <script src="app/calEvents/fortnightEvents.js"></script>
@@ -313,6 +314,14 @@
                         redditWiki.show();
                     }
 
+                    if (typeof videoWiki[id] !== 'undefined' && videoWiki[id] != '') {
+                        var redditVideoWiki = ed.find('.redditVideoWiki');
+                        var videoWikiUrl = 'https://www.reddit.com/r/OnePieceTC/wiki/video/' + videoWiki[id];
+
+                        redditVideoWiki.html('<a href="' + videoWikiUrl + '" target="_blank">Reddit Video Wiki</a>');
+                        redditVideoWiki.show();
+                    }
+
                     if (typeof slefty[id] !== 'undefined' && slefty[id] != '') {
                         var sleftyTeamDb = ed.find('.sleftyTeamDb');
                         var sleftyUrl = 'http://slefty.herokuapp.com/' + slefty[id];
@@ -486,6 +495,7 @@
                 <li class="gamewith" style="display: none;"></li>
                 <li class="sevenDays" style="display: none;"></li>
                 <li class="redditWiki" style="display: none;"></li>
+                <li class="redditVideoWiki" style="display: none;"></li>
                 <li class="sleftyTeamDb" style="display: none;"></li>
             </ul>
         </div>
