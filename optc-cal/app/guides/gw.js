@@ -1,69 +1,69 @@
 var gw = {
     // Fortnights
-    30: '7457',         // Alvida
-    39: '6600',         // Buggy
-    46: '7784',         // Kuro
-    58: '8111',         // Krieg
-    66: '5852',         // Arlong
-    228: '22603',       // Morgan
-    232: '5853',        // Hina
-    263: '5777',        // CobiMeppo
-    268: '6725',        // Smoker
-    297: '9181',        // Tsuru
-    318: '6204',        // Kalifa
-    322: '5776',        // Lucci
-    337: '22596',       // Franky
-    341: '26802',       // Kraken
-    386: '25982',       // Hogback
-    392: '7767',        // Perona
-    405: '6332',        // Absalom
-    420: '7161',        // Kimono Luffy
-    424: '5383',        // Brook
-    436: '7785',        // Candy Sanji
-    445: '7566',        // Karoo
-    462: '5924',        // Prisoner Mr. 2
-    510: '5784',        // Prisoner Croc
-    538: '7565',        // Domino
-    550: '6225',        // Sadie
-    571: '5857',        // Afro Luffy
-    583: '25677',       // Shandia
-    599: '6333',        // Pirate Apprentice
-    607: '26093',       // Zeff
-    635: '9782',        // Camie
-    656: '8739',        // Arlong Pirates
-    664: '5504',        // Sand Sand Band
-    690: '5352',        // Noland
-    713: '5882',        // Ganfor
-    724: '5451',        // T-Bone
-    743: '7031',        // Wanze
-    761: '25120',       // Halloween 1
-    766: '25101',       // Halloween 2
-    797: '2191',        // Breed
-    808: '19169',       // Wedding Nami
-    848: '19832',       // Tom's Workers
-    852: '20412',       // Wapol
-    918: '23687',       // Kuja
-    929: '24198',       // Hannyabal
-    946: '25000',       // WB Pirates 1
-    979: '25750',       // WB Pirates 2
-    1003: '26908',      // Heart Pirates
-    1011: '27631',      // Count Butler
-    1037: '29442',      // Ivankov
-    1049: '29912',      // Nico Olvia
-    1072: '30767',      // Dead End
-    1095: '33039',      // Golden Lion Pirates
-    1112: '33849',      // Young Nami Robin
-    1137: '34515',      // CP9
-    1167: '35095',      // Baccarat
-    1203: '35905',      // Yorki
-    1215: '36738',      // World Pirates
-    1242: '37425',      // Revolutionary Army
-    1254: '38336',      // WB Pirates 3
-    1287: '39522',      // Donquixote Children
-    1302: '41928',      // Prisoner Buggy
-    1328: '44164',      // Tontatta 1
-    1332: '44747',      // Tontatta 2
-    1357: '45801',      // Big Mom Pirates
+    30: '4959',         // Alvida
+    39: '4618',         // Buggy
+    46: '3095',         // Kuro
+    58: '4025',         // Krieg
+    66: '3527',         // Arlong
+    228: '4448',        // Morgan
+    232: '4755',        // Hina
+    263: '5029',        // CobiMeppo
+    268: '5434',        // Smoker
+    297: '5817',        // Tsuru
+    318: '6112',        // Kalifa
+    322: '6476',        // Lucci
+    337: '6875',        // Franky
+    341: '7271',        // Kraken
+    386: '7730',        // Hogback
+    392: '8441',        // Perona
+    405: '8984',        // Absalom
+    420: '2187',        // Kimono Luffy
+    424: '9657',        // Brook
+    436: '9985',        // Candy Sanji
+    445: '10828',       // Karoo
+    462: '11448',       // Prisoner Mr. 2
+    510: '11771',       // Prisoner Croc
+    538: '12096',       // Domino
+    550: '12421',       // Sadie
+    571: '12803',       // Afro Luffy
+    583: '13139',       // Shandia
+    599: '13565',       // Pirate Apprentice
+    607: '13945',       // Zeff
+    635: '14396',       // Camie
+    656: '14831',       // Arlong Pirates
+    664: '15152',       // Sand Sand Band
+    690: '15595',       // Noland
+    713: '16032',       // Ganfor
+    724: '16373',       // T-Bone
+    743: '16730',       // Wanze
+    761: '17121',       // Halloween 1
+    766: '17918',       // Halloween 2
+    797: '18767',        // Breed
+    808: '19174',       // Wedding Nami
+    848: '19833',       // Tom's Workers
+    852: '20486',       // Wapol
+    918: '23688',       // Kuja
+    929: '24199',       // Hannyabal
+    946: '25014',       // WB Pirates 1
+    979: '25749',       // WB Pirates 2
+    1003: '26909',      // Heart Pirates
+    1011: '27632',      // Count Butler
+    1037: '29443',      // Ivankov
+    1049: '29913',      // Nico Olvia
+    1072: '30768',      // Dead End
+    1095: '33119',      // Golden Lion Pirates
+    1112: '33853',      // Young Nami Robin
+    1137: '34517',      // CP9
+    1167: '35204',      // Baccarat
+    1203: '35909',      // Yorki
+    1215: '36739',      // World Pirates
+    1242: '37428',      // Revolutionary Army
+    1254: '38337',      // WB Pirates 3
+    1287: '39523',      // Donquixote Children
+    1302: '41929',      // Prisoner Buggy
+    1328: '44165',      // Tontatta 1
+    1332: '44748',      // Tontatta 2
+    1357: '45803',      // Big Mom Pirates
 
     // Raids
     227: '4142',        // Mihawk
