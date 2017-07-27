@@ -63,4 +63,5 @@ drops = {
     1328: 'Tontatta%20Tribe:%20Catch%20the%20Big%20Person!%20Fortnight',
     1332: 'Tontatta%20Tribe:%20Find%20the%20Beloved%20Prince?!%20Fortnight',
     1357: 'Gather%20the%20Candy!%20Fortnight',
+    1384: 'Become%20Strong%20to%20be%20Happy!%20Fortnight',
 };

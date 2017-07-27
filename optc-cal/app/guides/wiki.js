@@ -64,6 +64,7 @@ var wiki = {
     1328: 'fortnight/leo',
     1332: '',   // Tontatta 2
     1357: '',   // Big Mom Pirates
+    1384: '',   // Toy Soldier
 
     // Raids
     227: 'raidboss/mihawk',

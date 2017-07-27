@@ -64,6 +64,7 @@ var gw = {
     1328: '44165',      // Tontatta 1
     1332: '44748',      // Tontatta 2
     1357: '45803',      // Big Mom Pirates
+    1384: '46659',      // Toy Soldier
 
     // Raids
     227: '4142',        // Mihawk

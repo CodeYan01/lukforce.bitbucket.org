@@ -518,6 +518,13 @@ var fortnightEvents = [
         has_ranking: false
     },
     {
+        id: 1384,
+        start: '2017-08-01',
+        end: '2017-08-15',
+        is_replay: false,
+        has_ranking: false
+    },
+    {
         id: 337,
         start: '2017-08-01',
         end: '2017-08-08',

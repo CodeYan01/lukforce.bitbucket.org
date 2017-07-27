@@ -64,6 +64,7 @@ var sd = {
     1328: '6idwkh',     // Tontatta 1
     1332: '6l9tc9',     // Tontatta 2
     1357: '',           // Big Mom Pirates
+    1384: '',           // Toy Soldier
 
     // Raids
     227: '',            // Mihawk
