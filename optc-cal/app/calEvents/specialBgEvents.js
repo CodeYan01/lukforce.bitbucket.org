@@ -201,6 +201,11 @@ var specialBgEvents = [
         end: '2017-08-08'
     },
     {
+        id: 'free_pull',
+        start: '2017-08-02',
+        end: '2017-08-07'
+    },
+    {
         id: 'straw_hat',
         start: '2017-08-07',
         end: '2017-08-14'

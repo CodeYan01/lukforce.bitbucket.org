@@ -11,6 +11,9 @@ var specials_bg = {
     'sugo': {
         thumb: 'sugo'
     },
+    'free_pull': {
+        thumb: 'free_pull'
+    },
     'fp': {
         thumb: 'fp'
     },
