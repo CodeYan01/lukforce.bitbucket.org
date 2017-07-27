@@ -135,7 +135,7 @@ var specialBgEvents = [
         start: '2017-06-29'
     },
     {
-        id: 'boosterEvolver',
+        id: 'mat',
         start: '2017-07-01'
     },
     {
@@ -153,7 +153,7 @@ var specialBgEvents = [
         start: '2017-07-07'
     },
     {
-        id: 'boosterEvolver',
+        id: 'mat',
         start: '2017-07-09'
     },
     {

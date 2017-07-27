@@ -23,8 +23,8 @@ var specials_bg = {
     'elder': {
         thumb: 'elder'
     },
-    'boosterEvolver': {
-        thumb: 'boosterEvolver'
+    'mat': {
+        thumb: 'mat'
     },
     '2nd_anni_ship': {
         thumb: '2nd_anni_ship'
