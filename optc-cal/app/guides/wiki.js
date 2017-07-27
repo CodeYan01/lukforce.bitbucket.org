@@ -90,6 +90,8 @@ var wiki = {
     1163: 'raidboss/tesoro',
     1298: 'raidboss/akainu',
 
+    1680: '',   // Mihawk (N)
+
     1258: 'raidboss/ywb',
     1380: 'shanks',
 
