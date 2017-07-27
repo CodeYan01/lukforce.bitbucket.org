@@ -24,10 +24,4 @@ var specials = {
         thumb: '0716',
         name: 'Conis'
     },
-
-    'straw_hat': {
-        type: 'Socket',
-        thumb: '0002',
-        name: 'Straw Hat Island'
-    },
 }
