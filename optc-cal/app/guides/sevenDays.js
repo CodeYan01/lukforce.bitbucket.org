@@ -90,6 +90,7 @@ var sd = {
     1163: '',           // Gild Tesoro
     1298: '',           // Akainu
 
+    1623: '',           // Doflamingo (N)
     1680: '',           // Mihawk (N)
 
     1258: '',           // Young Whitebeard

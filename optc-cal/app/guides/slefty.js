@@ -24,6 +24,7 @@ var slefty = {
     1163: 'raid_bosses/26',     // Gild Tesoro
     1298: 'raid_bosses/18',     // Akainu
 
+    1623: '',                   // Doflamingo (N)
     1680: '',                   // Mihawk (N)
 
     1258: 'raid_bosses/1',      // Young Whitebeard

@@ -24,6 +24,7 @@ var videoWiki = {
     1163: 'raidboss/gildtesoro',
     1298: 'raidboss/akainu',
 
+    1623: 'raidboss/doflamingokai',
     1680: 'raidboss/mihawkkai',
 
     1258: 'raidboss/youngwb',
