@@ -12,6 +12,7 @@
 
     <link href="vendor/fullcalendar/fullcalendar.min.css" rel="stylesheet" />
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/moment.min.js"></script>
@@ -292,7 +293,7 @@
                         var dropList = ed.find('.dropList');
                         var dropUrl = 'http://optc-db.github.io/drops/?' + drops[id];
 
-                        dropList.html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
+                        dropList.find('.url').html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
                         dropList.show();
                     }
 
@@ -300,7 +301,7 @@
                         var gamewith = ed.find('.gamewith');
                         var gwUrl = 'https://トレクル.gamewith.jp/article/show/' + gw[id];
 
-                        gamewith.html('<a href="' + gwUrl + '" target="_blank">Gamewith Stage Guide</a>');
+                        gamewith.find('.url').html('<a href="' + gwUrl + '" target="_blank">Gamewith Stage Guide</a>');
                         gamewith.show();
                     }
 
@@ -308,7 +309,7 @@
                         var sevenDays = ed.find('.sevenDays');
                         var sdUrl = 'https://youtu.be/' + sd[id];
 
-                        sevenDays.html('<a href="' + sdUrl + '" target="_blank">7 Days YouTube Stage Guide</a>');
+                        sevenDays.find('.url').html('<a href="' + sdUrl + '" target="_blank">7 Days YouTube Stage Guide</a>');
                         sevenDays.show();
                     }
 
@@ -316,7 +317,7 @@
                         var redditWiki = ed.find('.redditWiki');
                         var wikiUrl = 'https://www.reddit.com/r/OnePieceTC/wiki/' + wiki[id];
 
-                        redditWiki.html('<a href="' + wikiUrl + '" target="_blank">Reddit Stage Guide Wiki</a>');
+                        redditWiki.find('.url').html('<a href="' + wikiUrl + '" target="_blank">Reddit Stage Guide Wiki</a>');
                         redditWiki.show();
                     }
 
@@ -324,7 +325,7 @@
                         var redditVideoWiki = ed.find('.redditVideoWiki');
                         var videoWikiUrl = 'https://www.reddit.com/r/OnePieceTC/wiki/video/' + videoWiki[id];
 
-                        redditVideoWiki.html('<a href="' + videoWikiUrl + '" target="_blank">Reddit Video Wiki</a>');
+                        redditVideoWiki.find('.url').html('<a href="' + videoWikiUrl + '" target="_blank">Reddit Video Wiki</a>');
                         redditVideoWiki.show();
                     }
 
@@ -332,7 +333,7 @@
                         var sleftyTeamDb = ed.find('.sleftyTeamDb');
                         var sleftyUrl = 'http://slefty.herokuapp.com/' + slefty[id];
 
-                        sleftyTeamDb.html('<a href="' + sleftyUrl + '" target="_blank">Slefty Team Database</a>');
+                        sleftyTeamDb.find('.url').html('<a href="' + sleftyUrl + '" target="_blank">Slefty Team Database</a>');
                         sleftyTeamDb.show();
                     }
 
@@ -446,7 +447,7 @@
             font-size: 15px;
         }
 
-        #footer, #optc-agenda, #help {
+        #footer, #optc-agenda, #info{
             width: 100%;
             text-align: center;
         }
@@ -485,7 +486,9 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Helpful Links</h5>
+                    <h5 class="modal-title">
+                        <i class="fa fa-external-link"></i>&nbsp;Helpful Resources
+                    </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -504,29 +507,51 @@
         </div>
         <div class="col-9">
             <h6 class="eventTitle"></h6>
-            <ul>
-                <li class="dropList" style="display: none;"></li>
-                <li class="gamewith" style="display: none;"></li>
-                <li class="sevenDays" style="display: none;"></li>
-                <li class="redditWiki" style="display: none;"></li>
-                <li class="redditVideoWiki" style="display: none;"></li>
-                <li class="sleftyTeamDb" style="display: none;"></li>
+            <ul class="fa-ul">
+                <li class="dropList" style="display: none;">
+                    <i class="fa-li fa fa-chevron-circle-down"></i>
+                    <span class="url"></span>
+                </li>
+                <li class="gamewith" style="display: none;">
+                    <i class="fa-li fa fa-globe"></i>
+                    <span class="url"></span>
+                </li>
+                <li class="sevenDays" style="display: none;">
+                    <i class="fa-li fa fa-youtube-play"></i>
+                    <span class="url"></span>
+                </li>
+                <li class="redditWiki" style="display: none;">
+                    <i class="fa-li fa fa-reddit"></i>
+                    <span class="url"></span>
+                </li>
+                <li class="redditVideoWiki" style="display: none;">
+                    <i class="fa-li fa fa-reddit"></i>
+                    <span class="url"></span>
+                </li>
+                <li class="sleftyTeamDb" style="display: none;">
+                    <i class="fa-li fa fa-globe"></i>
+                    <span class="url"></span>
+                </li>
             </ul>
         </div>
     </div>
 
     <div id="modalCloseButton" class="row justify-content-center" style="display: none;">
         <div class="col-2">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                <i class="fa fa-close"></i>&nbsp;Close
+            </button>
         </div>
     </div>
 
     <div id="optc-agenda">
+        <i class="fa fa-external-link"></i>&nbsp;
         <a href="https://optc-agenda.github.io/" target="_blank">Week View Mode (to OPTC Agenda)</a>
     </div>
 
-    <div id="help">
-        * Click on Fortnights/Raids/Coliseums for links to drops and guides *
+    <div id="info">
+        <i class="fa fa-info fa-lg"></i>&nbsp;
+        Click on Fortnights/Raids/Coliseums for links to drops and guides
     </div>
 
     <div id="calendar"></div>
