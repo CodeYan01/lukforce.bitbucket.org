@@ -38,7 +38,7 @@ var gw = {
     743: '16730',       // Wanze
     761: '17121',       // Halloween 1
     766: '17918',       // Halloween 2
-    797: '18767',        // Breed
+    797: '18767',       // Breed
     808: '19174',       // Wedding Nami
     848: '19833',       // Tom's Workers
     852: '20486',       // Wapol
@@ -55,7 +55,7 @@ var gw = {
     1112: '33853',      // Young Nami Robin
     1137: '34517',      // CP9
     1167: '35204',      // Baccarat
-    1203: '35909',      // Yorki
+    1203: '35909',      // Rumbar Pirates
     1215: '36739',      // World Pirates
     1242: '37428',      // Revolutionary Army
     1254: '38337',      // WB Pirates 3

@@ -55,7 +55,7 @@ var wiki = {
     1112: 'fortnight/secretrobin',
     1137: '',   // CP9
     1167: 'fortnight/baccarat',
-    1203: '',   // Yorki
+    1203: '',   // Rumbar Pirates
     1215: 'fortnight/worldpirates',
     1242: 'fortnight/revolutionary',
     1254: '',   // WB Pirates 3
