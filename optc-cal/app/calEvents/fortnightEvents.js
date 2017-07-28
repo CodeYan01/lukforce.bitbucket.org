@@ -538,4 +538,88 @@ var fortnightEvents = [
         is_replay: true,
         has_ranking: false
     },
+    {
+        id: 405,
+        start: '2017-08-08',
+        end: '2017-08-15',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 445,
+        start: '2017-08-08',
+        end: '2017-08-15',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 510,
+        start: '2017-08-08',
+        end: '2017-08-15',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 462,
+        start: '2017-08-15',
+        end: '2017-08-22',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 918,
+        start: '2017-08-15',
+        end: '2017-08-22',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 1242,
+        start: '2017-08-15',
+        end: '2017-08-22',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 386,
+        start: '2017-08-22',
+        end: '2017-08-29',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 392,
+        start: '2017-08-22',
+        end: '2017-08-29',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 656,
+        start: '2017-08-22',
+        end: '2017-08-29',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 635,
+        start: '2017-08-29',
+        end: '2017-09-05',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 797,
+        start: '2017-08-29',
+        end: '2017-09-05',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 1203,
+        start: '2017-08-29',
+        end: '2017-09-05',
+        is_replay: true,
+        has_ranking: false
+    },
 ];
