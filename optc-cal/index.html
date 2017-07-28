@@ -462,6 +462,13 @@
             border-radius: 0;
         }
 
+        @media(max-width: 991px) {
+            .modal-content,
+            .modal-content h6 {
+                font-size: 1.5em;
+            }
+        }
+
         #calendar {
             width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
             margin: 0 auto;
@@ -498,10 +505,10 @@
     </div>
 
     <div id="eventDetailClone" class="row justify-content-center" style="display: none;">
-        <div class="col-4 col-lg-1">
+        <div class="col-3 col-lg-1">
             <div class="eventThumb"></div>
         </div>
-        <div class="col-8 col-lg-3">
+        <div class="col-9 col-lg-3">
             <h6 class="eventTitle"></h6>
             <ul>
                 <li class="dropList" style="display: none;"></li>
