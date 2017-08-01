@@ -394,6 +394,8 @@
                         $('#calendar').fullCalendar('option', 'contentHeight', null);
 
                     if (screen.width < 768) {
+                        $('#mobile-info').show();
+
                         if (view.name === 'basicTwo') {
                             $('#vp').attr('content', 'width=device-width, initial-scale=1.0');
                             $('#calendar').width('300.6px');
@@ -474,10 +476,10 @@
 
             var hm = new Hammer(document.getElementById('calendar'));
             hm.on('swipeleft', function(ev) {
-                $('#calendar').fullCalendar('prev');
+                $('#calendar').fullCalendar('next');
             });
             hm.on('swiperight', function(ev) {
-                $('#calendar').fullCalendar('next');
+                $('#calendar').fullCalendar('prev');
             });
         });
     </script>
@@ -490,9 +492,18 @@
             font-size: 15px;
         }
 
-        #footer, #optc-agenda, #info{
+        #footer,
+        #optc-agenda,
+        #info,
+        #mobile-info,
+        #disclaimer {
             width: 100%;
             text-align: center;
+            padding: 5px;
+        }
+
+        #disclaimer {
+            font-size: 10px;
         }
 
         #calendar {
@@ -585,6 +596,11 @@
         Click on Fortnights/Raids/Coliseums for links to drops and guides
     </div>
 
+    <div id="mobile-info" style="display: none;">
+        <i class="fa fa-info fa-lg"></i>&nbsp;
+        Swipe left/right to navigate calendar
+    </div>
+
     <div id="calendar"></div>
 
     <br />
@@ -595,7 +611,9 @@
         Please report bugs and errors to <a href="https://www.reddit.com/u/zl1814" target="_blank">u/zl1814</a> through Reddit
         <br />
         欢迎中文玩家加入OPTC美服QQ群: 450369501
-        <br />
+    </div>
+
+    <div id="disclaimer">
         This site does not own any of the images. All images are owned by Eiichiro Oda/Shueisha, Toei Animation, and Bandai Namco.
     </div>
 </body>
