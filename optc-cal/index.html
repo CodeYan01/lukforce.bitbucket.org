@@ -475,6 +475,7 @@
                 $('#calendar').fullCalendar('changeView', 'basicTwo');
 
             var hm = new Hammer(document.getElementById('calendar'));
+            hm.get('pinch').set({ enable: false });
             hm.on('swipeleft', function(ev) {
                 $('#calendar').fullCalendar('next');
             });
