@@ -474,9 +474,7 @@
             if (screen.width < 768)
                 $('#calendar').fullCalendar('changeView', 'basicTwo');
 
-            var hm = new Hammer(document.getElementById('calendar'), { touchAction: 'auto' });
-            hm.add(new Hammer.Swipe({ event: 'swipeleft' }));
-            hm.add(new Hammer.Swipe({ event: 'swiperight' }));
+            var hm = new Hammer(document.getElementById('calendar'));
             hm.on('swipeleft', function(ev) {
                 $('#calendar').fullCalendar('next');
             });
