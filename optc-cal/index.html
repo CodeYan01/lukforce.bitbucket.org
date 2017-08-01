@@ -17,6 +17,7 @@
 
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/moment.min.js"></script>
+    <script src="vendor/js/hammer.min.js"></script>
     <script src="vendor/fullcalendar/fullcalendar.min.js"></script>
     <script src="vendor/bootstrap/js/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -470,6 +471,14 @@
 
             if (screen.width < 768)
                 $('#calendar').fullCalendar('changeView', 'basicTwo');
+
+            var hm = new Hammer(document.getElementById('calendar'));
+            hm.on('swipeleft', function(ev) {
+                $('#calendar').fullCalendar('prev');
+            });
+            hm.on('swiperight', function(ev) {
+                $('#calendar').fullCalendar('next');
+            });
         });
     </script>
 
