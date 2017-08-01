@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" id="vp" content="">
     <meta name="author" content="zl1814, qblcookie">
     <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Calendar, Guides, Events">
     <meta name="description" content="One Piece Treasure Cruise event calendar for global server. View past, current, and future events in month view. Links to guides in individual events.">
@@ -380,6 +381,36 @@
             eventArray.push(mihawk);
 
             $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,basicTwo'
+                },
+                viewRender: function(view, element) {
+                    if (view.name === 'basicTwo')
+                        $('#calendar').fullCalendar('option', 'contentHeight', 400);
+                    else
+                        $('#calendar').fullCalendar('option', 'contentHeight', null);
+
+                    if (screen.width < 768) {
+                        if (view.name === 'basicTwo') {
+                            $('#vp').attr('content', 'width=device-width, initial-scale=1.0');
+                            $('#calendar').width('300.6px');
+                        } else {
+                            $('#vp').attr('content', '');
+                            $('#calendar').width('1052.1px');
+                        }
+                    }
+                },
+                views: {
+                    basicTwo: {
+                        type: 'basic',
+                        duration: {
+                            days: 2
+                        },
+                        buttonText: '2-day'
+                    }
+                },
                 aspectRatio: 0.55,
                 events: eventArray,
                 eventRender: function(event, element) {
@@ -436,6 +467,9 @@
                 eventOrder: 'id',
                 displayEventTime: false
             });
+
+            if (screen.width < 768)
+                $('#calendar').fullCalendar('changeView', 'basicTwo');
         });
     </script>
 
@@ -450,18 +484,6 @@
         #footer, #optc-agenda, #info{
             width: 100%;
             text-align: center;
-        }
-
-        @media(max-width: 991px) {
-            .modal-content,
-            .modal-content h6 {
-                font-size: 1.5em;
-            }
-
-            .modal-content h6,
-            .modal-content li {
-                padding: 5px;
-            }
         }
 
         #calendar {
