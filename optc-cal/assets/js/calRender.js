@@ -331,21 +331,23 @@ $(document).ready(function() {
             right: 'month,basicTwo'
         },
         viewRender: function(view, element) {
-            if (view.name === 'basicTwo')
-                $('#calendar').fullCalendar('option', 'contentHeight', 400);
-            else
-                $('#calendar').fullCalendar('option', 'contentHeight', null);
-
             if (screen.width < 768) {
                 $('#mobile-info').show();
 
                 if (view.name === 'basicTwo') {
+                    $('#calendar').fullCalendar('option', 'contentHeight', 400);
                     $('#vp').attr('content', 'width=device-width, initial-scale=1.0');
                     $('#calendar').width('300.6px');
                 } else {
+                    $('#calendar').fullCalendar('option', 'contentHeight', null);
                     $('#vp').attr('content', '');
                     $('#calendar').width('1052.1px');
                 }
+            } else {
+                var twoDayButton = $('.fc-basicTwo-button');
+
+                twoDayButton.prop('disabled', true);
+                twoDayButton.addClass('fc-state-disabled');
             }
         },
         views: {
