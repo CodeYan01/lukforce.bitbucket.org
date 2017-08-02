@@ -64,7 +64,7 @@ var sd = {
     1328: 'a1E50n6Hr2w',    // Tontatta 1
     1332: 'tNWn2PPQHuM',    // Tontatta 2
     1357: 'PwWC9qDbNJY',    // Big Mom Pirates
-    1384: '',               // Toy Soldier
+    1384: 'JE7CP26mW2Q',    // Toy Soldier
 
     // Raids
     227: '',                // Mihawk
@@ -91,7 +91,7 @@ var sd = {
     1163: 'q1wNq-RIrR0',    // Gild Tesoro
     1298: 'r5eGwr0YXLQ',    // Akainu
 
-    1623: '',               // Doflamingo (N)
+    1623: 'oirn-E-ayNM',    // Doflamingo (N)
     1680: '-9bIzVawWdg',    // Mihawk (N)
 
     1258: '',               // Young Whitebeard
