@@ -202,8 +202,8 @@ var specialBgEvents = [
     },
     {
         id: 'free_pull',
-        start: '2017-08-02',
-        end: '2017-08-07'
+        start: '2017-08-01',
+        end: '2017-08-06'
     },
     {
         id: 'straw_hat',
