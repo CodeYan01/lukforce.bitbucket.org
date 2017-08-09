@@ -143,4 +143,16 @@ var coliseums = {
         name: 'Porche',
         thumb: '1145'
     },
+    1456: {
+        name: 'Don Chin Jao',
+        thumb: '1456'
+    },
+    1458: {
+        name: 'Kuro',
+        thumb: '1458'
+    },
+    1460: {
+        name: 'Ms. Valentine',
+        thumb: '1460'
+    },
 };

@@ -67,4 +67,7 @@ var videoWiki = {
     1141: 'coliseum/moria',
     1143: 'coliseum/foxy',
     1145: 'coliseum/porche',
+    1456: 'coliseum/don_chinjao',
+    1458: 'coliseum/kuro',
+    1460: 'coliseum/miss_valentine',
 };
