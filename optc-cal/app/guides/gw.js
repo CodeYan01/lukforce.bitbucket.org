@@ -118,7 +118,7 @@ var gw = {
     926: '24039',       // Sadie
     927: '24040',       // Doberman
     951: '25138',       // Ace
-    952: '25143',       // Ben Beckman
+    953: '25143',       // Ben Beckman
     983: '26492',       // Vista
     984: '26493',       // Paulie
     1016: '27619',      // Capone Bege

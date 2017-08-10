@@ -75,9 +75,9 @@ var coliseums = {
         name: 'Ace',
         thumb: '0951'
     },
-    952: {
+    953: {
         name: 'Ben Beckman',
-        thumb: '0952'
+        thumb: '0953'
     },
     983: {
         name: 'Vista',

@@ -50,7 +50,7 @@ var videoWiki = {
     926: 'coliseum/sadie',
     927: 'coliseum/doberman',
     951: 'coliseum/ace',
-    952: 'coliseum/ben_beckman',
+    953: 'coliseum/ben_beckman',
     983: 'coliseum/vista',
     984: 'coliseum/paulie',
     1016: 'coliseum/capone_bege',

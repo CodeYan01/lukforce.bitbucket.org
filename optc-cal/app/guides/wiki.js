@@ -118,7 +118,7 @@ var wiki = {
     926: 'coliseum/sadie',
     927: 'coliseum/doberman',
     951: 'coliseum/ace',
-    952: '',    // Ben Beckman
+    953: '',    // Ben Beckman
     983: 'coliseum/vista',
     984: 'coliseum/paulie',
     1016: 'coliseum/capone',
