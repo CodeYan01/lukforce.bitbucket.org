@@ -274,14 +274,6 @@ $(document).ready(function() {
                 redditVideoWiki.show();
             }
 
-            if (typeof slefty[id] !== 'undefined' && slefty[id] != '') {
-                var sleftyTeamDb = ed.find('.sleftyTeamDb');
-                var sleftyUrl = 'http://slefty.herokuapp.com/' + slefty[id];
-
-                sleftyTeamDb.find('.url').html('<a href="' + sleftyUrl + '" target="_blank">Slefty Team Database</a>');
-                sleftyTeamDb.show();
-            }
-
             $('#eventDetail').append(ed);
             ed.show();
         }
