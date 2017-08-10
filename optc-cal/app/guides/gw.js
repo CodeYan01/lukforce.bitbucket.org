@@ -65,6 +65,7 @@ var gw = {
     1332: '44748',      // Tontatta 2
     1357: '45803',      // Big Mom Pirates
     1384: '46659',      // Toy Soldier
+    1397: '47248',      // Shambles Tashigi
 
     // Raids
     227: '4142',        // Mihawk

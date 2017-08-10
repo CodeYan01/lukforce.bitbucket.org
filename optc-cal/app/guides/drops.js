@@ -64,4 +64,5 @@ drops = {
     1332: 'Tontatta%20Tribe:%20Find%20the%20Beloved%20Prince?!%20Fortnight',
     1357: 'Gather%20the%20Candy!%20Fortnight',
     1384: 'Become%20Strong%20to%20be%20Happy!%20Fortnight',
+    1397: 'Shambles!%20Tashigi%20and%20Smoker?!?%20Fortnight',
 };
