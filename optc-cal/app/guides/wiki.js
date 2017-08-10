@@ -32,6 +32,9 @@ var wiki = {
     635: 'fortnight/camie',
     656: 'fortnight/youngarlong',
     664: 'fortnight/youngvivi',
+    681: 'fortnight/summernami',
+    683: 'fortnight/summerrobin',
+    685: 'fortnight/summerperona',
     690: 'fortnight/noland',
     713: 'fortnight/ganfor',
     724: 'fortnight/tbone',
@@ -55,6 +58,8 @@ var wiki = {
     1112: 'fortnight/secretrobin',
     1137: '',   // CP9
     1167: 'fortnight/baccarat',
+    1199: '',   // Summer Bonney
+    1201: '',   // Summer Violet
     1203: '',   // Rumbar Pirates
     1215: 'fortnight/worldpirates',
     1242: 'fortnight/revolutionary',

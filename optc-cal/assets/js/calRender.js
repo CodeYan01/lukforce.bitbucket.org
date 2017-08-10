@@ -2,21 +2,32 @@ $(document).ready(function() {
     function createFortnightEvent(e) {
         var res = {};
 
-        var id = e['id'];
-        var fn = fortnights[id];
+        var eId = e['id'];
 
-        res['id'] = id;
+        if (Array.isArray(eId)) {
+            res['id'] = eId.slice();
+            res['thumb'] = [];
 
-        var title = '『FN』';
+            for (i = 0; i < eId.length; i++) {
+                var eFn = fortnights[eId[i]];
+                res['thumb'].push(eFn['thumb']);
+            }
+        } else {
+            var fn = fortnights[eId];
+            res['id'] = eId;
 
-        if (e['has_ranking'])
-            title += ' ★Rank';
+            var title = '『FN』';
 
-        title += '\n' + fn['name'];
+            if (e['has_ranking'])
+                title += ' ★Rank';
 
-        res['title'] = title;
+            title += '\n' + fn['name'];
 
-        res['thumb'] = fn['thumb'];
+            res['title'] = title;
+
+            res['thumb'] = fn['thumb'];
+        }
+
         res['type'] = 'fortnight';
 
         var start = e['start'];

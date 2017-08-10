@@ -32,6 +32,9 @@ var gw = {
     635: '14396',       // Camie
     656: '14831',       // Arlong Pirates
     664: '15152',       // Sand Sand Band
+    681: '15855',       // Summer Nami
+    683: '15856',       // Summer Robin
+    685: '15857',       // Summer Perona
     690: '15595',       // Noland
     713: '16032',       // Ganfor
     724: '16373',       // T-Bone
@@ -55,6 +58,8 @@ var gw = {
     1112: '33853',      // Young Nami Robin
     1137: '34517',      // CP9
     1167: '35204',      // Baccarat
+    1199: '35779',      // Summer Bonney
+    1201: '36034',      // Summer Violet
     1203: '35909',      // Rumbar Pirates
     1215: '36739',      // World Pirates
     1242: '37428',      // Revolutionary Army

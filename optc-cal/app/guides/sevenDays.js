@@ -32,6 +32,9 @@ var sd = {
     635: '',                // Camie
     656: '',                // Arlong Pirates
     664: '',                // Sand Sand Band
+    681: 'pRUUDGD7frA',     // Summer Nami
+    683: '18whjHCO84I',     // Summer Robin
+    685: 'tamH8V8lQb8',     // Summer Perona
     690: '',                // Noland
     713: '',                // Ganfor
     724: '',                // T-Bone
@@ -55,6 +58,8 @@ var sd = {
     1112: '1od7LciC4UE',    // Young Nami Robin
     1137: 'yNdyWMYbrOc',    // CP9
     1167: 'gISYleUoc9E',    // Baccarat
+    1199: '',               // Summer Bonney
+    1201: '',               // Summer Violet
     1203: '',               // Rumbar Pirates
     1215: 'uAU9P4lv71k',    // World Pirates
     1242: '2HSGlW_N3hY',    // Revolutionary Army

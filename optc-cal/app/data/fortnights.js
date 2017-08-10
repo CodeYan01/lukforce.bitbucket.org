@@ -127,6 +127,18 @@ var fortnights = {
         name: 'Sand Sand Band',
         thumb: '0664'
     },
+    681: {
+        name: 'Summer Nami',
+        thumb: '0681'
+    },
+    683: {
+        name: 'Summer Robin',
+        thumb: '0683'
+    },
+    685: {
+        name: 'Summer Perona',
+        thumb: '0685'
+    },
     690: {
         name: 'Calgara & Noland',
         thumb: '0690'
@@ -218,6 +230,14 @@ var fortnights = {
     1167: {
         name: 'Gran Tesoro',
         thumb: '1167'
+    },
+    1199: {
+        name: 'Summer Bonney',
+        thumb: '1199'
+    },
+    1201: {
+        name: 'Summer Violet',
+        thumb: '1201'
     },
     1203: {
         name: 'Rumbar Pirates',
