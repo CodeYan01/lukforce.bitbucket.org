@@ -10,7 +10,7 @@ var specialBgEvents = [
         end: '2017-03-25'
     },
     {
-        id: 'meat',
+        id: 'snail_meat',
         start: '2017-03-24',
         end: '2017-04-01'
     },
@@ -51,7 +51,7 @@ var specialBgEvents = [
         end: '2017-04-27'
     },
     {
-        id: 'meat',
+        id: 'snail_meat',
         start: '2017-05-02',
         end: '2017-05-15'
     },
@@ -181,7 +181,7 @@ var specialBgEvents = [
         end: '2017-07-22'
     },
     {
-        id: 'meat',
+        id: 'snail_meat',
         start: '2017-07-26',
         end: '2017-08-01'
     },
@@ -221,12 +221,22 @@ var specialBgEvents = [
         end: '2017-08-12'
     },
     {
+        id: 'snail_cola',
+        start: '2017-08-15',
+        end: '2017-08-22'
+    },
+    {
         id: 'ss',
         start: '2017-08-15',
         end: '2017-08-22'
     },
     {
-        id: 'meat',
+        id: 'ray_tome',
+        start: '2017-08-22',
+        end: '2017-08-27'
+    },
+    {
+        id: 'snail_meat',
         start: '2017-08-22',
         end: '2017-08-29'
     },

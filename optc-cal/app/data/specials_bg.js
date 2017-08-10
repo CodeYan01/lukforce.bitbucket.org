@@ -5,8 +5,11 @@ var specials_bg = {
     'ss': {
         thumb: 'ss'
     },
-    'meat': {
-        thumb: 'meat'
+    'snail_meat': {
+        thumb: 'snail_meat'
+    },
+    'snail_cola': {
+        thumb: 'snail_cola'
     },
     'sugo': {
         thumb: 'sugo'
@@ -19,6 +22,9 @@ var specials_bg = {
     },
     'cotton': {
         thumb: 'cotton'
+    },
+    'ray_tome': {
+        thumb: 'ray_tome'
     },
     'princess': {
         thumb: 'princess'
