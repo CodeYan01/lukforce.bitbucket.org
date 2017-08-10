@@ -280,13 +280,15 @@ var coliseumEvents = [
     {
         newId: [1456, 1458, 1460],
         repId: [882, 862, 953],
-        start: '2017-08-16'
+        start: '2017-08-16',
+        ambush: shanks
     },
     {
         newId: [1456, 1458, 1460],
         repId: [882, 862, 953],
         start: '2017-08-18',
-        end: '2017-08-20'
+        end: '2017-08-20',
+        ambush: shanks
     },
     {
         newId: [1456, 1458, 1460],
