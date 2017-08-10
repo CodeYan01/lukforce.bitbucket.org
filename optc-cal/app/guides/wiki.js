@@ -65,6 +65,7 @@ var wiki = {
     1332: '',   // Tontatta 2
     1357: '',   // Big Mom Pirates
     1384: '',   // Toy Soldier
+    1397: '',   // Shambles Tashigi
 
     // Raids
     227: 'raidboss/mihawk',
@@ -134,4 +135,7 @@ var wiki = {
     1141: '',   // Moria
     1143: '',   // Foxy
     1145: '',   // Porche
+    1456: '',   // Don Chin Jao
+    1458: '',   // Kuro
+    1460: '',   // Ms. Valentine
 };
