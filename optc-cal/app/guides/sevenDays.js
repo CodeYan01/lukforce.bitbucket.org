@@ -98,6 +98,7 @@ var sd = {
     1298: 'r5eGwr0YXLQ',    // Akainu
 
     1623: '',               //'oirn-E-ayNM',    // Doflamingo (N)
+    1669: '',               // Aokiji (N)
     1680: '-9bIzVawWdg',    // Mihawk (N)
 
     1258: '',               // Young Whitebeard

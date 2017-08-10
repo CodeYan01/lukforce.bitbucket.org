@@ -25,6 +25,7 @@ var videoWiki = {
     1298: 'raidboss/akainu',
 
     1623: 'raidboss/doflamingokai',
+    1669: '',   // Aokiji (N)
     1680: 'raidboss/mihawkkai',
 
     1258: 'raidboss/youngwb',
