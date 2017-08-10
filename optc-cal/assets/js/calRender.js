@@ -415,7 +415,14 @@ $(document).ready(function() {
                 $('#eventDetailModal').modal();
             }
         },
-        eventOrder: 'id',
+        eventOrder: function(a, b) {
+            if (Array.isArray(a.id))
+                return 1;
+            if (Array.isArray(b.id))
+                return -1;
+
+            return a.id < b.id ? -1 : 1;
+        },
         displayEventTime: false
     });
 
