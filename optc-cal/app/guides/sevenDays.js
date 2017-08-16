@@ -70,7 +70,7 @@ var sd = {
     1332: 'tNWn2PPQHuM',    // Tontatta 2
     1357: 'PwWC9qDbNJY',    // Big Mom Pirates
     1384: 'JE7CP26mW2Q',    // Toy Soldier
-    1397: '',               // Shambles Tashigi
+    1397: 'xOcuVyJVz0A',    // Shambles Tashigi
 
     // Raids
     227: '',                // Mihawk
@@ -141,7 +141,7 @@ var sd = {
     1141: 'Qrg0iUyS2zs',    // Moria
     1143: '',               // Foxy
     1145: '',               // Porche
-    1456: '',               // Don Chin Jao
+    1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine
 };
