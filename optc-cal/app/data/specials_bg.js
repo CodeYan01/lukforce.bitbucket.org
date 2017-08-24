@@ -23,6 +23,9 @@ var specials_bg = {
     'cotton': {
         thumb: 'cotton'
     },
+    'ray_exp': {
+        thumb: 'ray_exp'
+    },
     'ray_tome': {
         thumb: 'ray_tome'
     },

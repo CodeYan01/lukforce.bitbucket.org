@@ -251,6 +251,10 @@ var specialBgEvents = [
         end: '2017-08-25'
     },
     {
+        id: 'ray_exp',
+        start: '2017-08-29'
+    },
+    {
         id: 'sp',
         start: '2017-08-30',
         end: '2017-09-02'
@@ -274,5 +278,10 @@ var specialBgEvents = [
         id: 'ss',
         start: '2017-09-09',
         end: '2017-09-12'
+    },
+    {
+        id: 'ray_exp',
+        start: '2017-09-09',
+        end: '2017-09-11'
     },
 ]
