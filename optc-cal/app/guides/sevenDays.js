@@ -45,6 +45,7 @@ var sd = {
     808: 'fDzd1CvFi70',     // Wedding Nami
     848: 'j226tz_oRh8',     // Tom's Workers
     852: 'i4Wlw8gk1mU',     // Wapol
+    897: '',                // Kimono Croc
     918: 'J-43fLX58nk',     // Kuja
     929: 'FIGMaJ8mqDo',     // Hannyabal
     946: 'qISwpYVldC0',     // WB Pirates 1
@@ -71,6 +72,7 @@ var sd = {
     1357: 'PwWC9qDbNJY',    // Big Mom Pirates
     1384: 'JE7CP26mW2Q',    // Toy Soldier
     1397: 'xOcuVyJVz0A',    // Shambles G5
+    1416: '',               // Sengoku
 
     // Raids
     227: '',                // Mihawk

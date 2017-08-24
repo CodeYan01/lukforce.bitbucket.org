@@ -45,6 +45,7 @@ var wiki = {
     808: 'fortnight/bridenami',
     848: 'fortnight/tom',
     852: 'fortnight/wapol',
+    897: '',    // Kimono Croc
     918: 'fortnight/marguerite',
     929: 'fortnight/hannyabal',
     946: 'fortnight/wbpirates1',
@@ -71,6 +72,7 @@ var wiki = {
     1357: '',   // Big Mom Pirates
     1384: '',   // Toy Soldier
     1397: '',   // Shambles G5
+    1416: '',   // Sengoku
 
     // Raids
     227: 'raidboss/mihawk',

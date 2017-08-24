@@ -45,6 +45,7 @@ var gw = {
     808: '19174',       // Wedding Nami
     848: '19833',       // Tom's Workers
     852: '20486',       // Wapol
+    897: '23048',       // Kimono Croc
     918: '23688',       // Kuja
     929: '24199',       // Hannyabal
     946: '25014',       // WB Pirates 1
@@ -71,6 +72,7 @@ var gw = {
     1357: '45803',      // Big Mom Pirates
     1384: '46659',      // Toy Soldier
     1397: '47248',      // Shambles G5
+    1416: '48083',      // Sengoku
 
     // Raids
     227: '4142',        // Mihawk

@@ -44,6 +44,7 @@ drops = {
     808: 'Operation:%20Proposal!%20Fortnight',
     848: 'Tom%27s%20Workers%20Fortnight',
     852: 'Wapol%27s%20Revenge%20Fortnight',
+    897: 'Mountaintop%20Banquet!%20Enter%20the%20Generals!%20Fortnight',
     918: 'The%20Secret%20Garden!%20Men%20are%20Forbidden!?%20Fortnight',
     929: 'Hannyabal%27s%20Great%20Ambition%20Fortnight',
     946: 'Encounter!%20Whitebeard%20Pirates%20Fortnight',
@@ -70,4 +71,5 @@ drops = {
     1357: 'Gather%20the%20Candy!%20Fortnight',
     1384: 'Become%20Strong%20to%20be%20Happy!%20Fortnight',
     1397: 'Shambles!%20Tashigi%20and%20Smoker?!?%20Fortnight',
+    1416: 'Marines!%20Sengoku%20the%20Fleet%20Admiral!%20Fortnight',
 };
