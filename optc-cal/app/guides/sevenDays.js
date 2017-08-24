@@ -70,7 +70,7 @@ var sd = {
     1332: 'tNWn2PPQHuM',    // Tontatta 2
     1357: 'PwWC9qDbNJY',    // Big Mom Pirates
     1384: 'JE7CP26mW2Q',    // Toy Soldier
-    1397: 'xOcuVyJVz0A',    // Shambles Tashigi
+    1397: 'xOcuVyJVz0A',    // Shambles G5
 
     // Raids
     227: '',                // Mihawk

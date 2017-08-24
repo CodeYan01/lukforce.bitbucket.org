@@ -70,7 +70,7 @@ var wiki = {
     1332: '',   // Tontatta 2
     1357: '',   // Big Mom Pirates
     1384: '',   // Toy Soldier
-    1397: '',   // Shambles Tashigi
+    1397: '',   // Shambles G5
 
     // Raids
     227: 'raidboss/mihawk',
