@@ -251,6 +251,11 @@ var specialBgEvents = [
         end: '2017-08-25'
     },
     {
+        id: 'snail_meat',
+        start: '2017-08-29',
+        end: '2017-09-12'
+    },
+    {
         id: 'ray_exp',
         start: '2017-08-29'
     },

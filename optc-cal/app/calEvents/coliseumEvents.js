@@ -312,4 +312,43 @@ var coliseumEvents = [
         start: '2017-09-01',
         end: '2017-09-03'
     },
+    {
+        newId: [],
+        repId: [],
+        start: '2017-09-06',
+        ambush: shanks
+    },
+    {
+        newId: [],
+        repId: [],
+        start: '2017-09-08',
+        end: '2017-09-10',
+        ambush: shanks
+    },
+    {
+        newId: [],
+        repId: [],
+        start: '2017-09-13',
+        ambush: shanks
+    },
+    {
+        newId: [],
+        repId: [],
+        start: '2017-09-15',
+        end: '2017-09-17',
+        ambush: shanks
+    },
+    {
+        newId: [],
+        repId: [],
+        start: '2017-09-20',
+        ambush: shanks
+    },
+    {
+        newId: [],
+        repId: [],
+        start: '2017-09-22',
+        end: '2017-09-24',
+        ambush: shanks
+    },
 ]
