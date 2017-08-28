@@ -30,6 +30,7 @@ var videoWiki = {
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',
+    1530: 'raidboss/invadecavendish',
 
     // Coliseums
     777: 'coliseum/luckyroo',

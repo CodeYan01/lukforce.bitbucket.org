@@ -105,6 +105,7 @@ var gw = {
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks
+    1530: '53621',      // Cavendish
 
     // Coliseums
     777: '17609',       // Lucky Roux

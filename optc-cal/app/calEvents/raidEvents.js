@@ -1,5 +1,6 @@
 var ywb = 1258;
 var shanks = 1380;
+var cavendish = 1530;
 
 var raidEvents = [
     {
@@ -311,15 +312,18 @@ var raidEvents = [
     },
     {
         id: 795,
-        start: '2017-08-31'
+        start: '2017-08-31',
+        ambush: cavendish
     },
     {
         id: 836,
-        start: '2017-09-01'
+        start: '2017-09-01',
+        ambush: cavendish
     },
     {
         id: 603,
-        start: '2017-09-02'
+        start: '2017-09-02',
+        ambush: cavendish
     },
     {
         id: 516,

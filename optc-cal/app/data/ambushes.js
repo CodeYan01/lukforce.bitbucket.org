@@ -7,4 +7,8 @@ var ambushes = {
         name: 'Shanks',
         thumb: '1380'
     },
+    1530: {
+        name: 'Cavendish',
+        thumb: '1530'
+    },
 };

@@ -105,6 +105,7 @@ var wiki = {
 
     1258: 'raidboss/ywb',
     1380: 'shanks',
+    1530: '',   // Cavendish
 
     // Coliseums
     777: '',    // Lucky Roux
