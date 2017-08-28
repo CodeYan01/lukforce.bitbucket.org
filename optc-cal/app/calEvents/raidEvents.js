@@ -317,12 +317,12 @@ var raidEvents = [
     },
     {
         id: 836,
-        start: '2017-09-01',
+        start: '2017-09-03',
         ambush: cavendish
     },
     {
         id: 603,
-        start: '2017-09-02',
+        start: '2017-09-04',
         ambush: cavendish
     },
     {
