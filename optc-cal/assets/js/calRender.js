@@ -1,131 +1,137 @@
-$(document).ready(function() {
-    function createFortnightEvent(e) {
-        var res = {};
+(function() {
+    function createFortnightEvent(eventArray) {
+        fortnightEvents.forEach(function(e) {
+            var res = {};
 
-        var eId = e['id'];
+            var eId = e['id'];
 
-        if (Array.isArray(eId)) {
-            res['id'] = eId.slice();
-            res['thumb'] = [];
+            if (Array.isArray(eId)) {
+                res['id'] = eId.slice();
+                res['thumb'] = [];
 
-            for (i = 0; i < eId.length; i++) {
-                var eFn = fortnights[eId[i]];
-                res['thumb'].push(eFn['thumb']);
+                for (i = 0; i < eId.length; i++) {
+                    var eFn = fortnights[eId[i]];
+                    res['thumb'].push(eFn['thumb']);
+                }
+            } else {
+                var fn = fortnights[eId];
+                res['id'] = eId;
+
+                var title = '『FN』';
+
+                if (e['has_ranking'])
+                    title += ' ★Rank';
+
+                title += '\n' + fn['name'];
+
+                res['title'] = title;
+
+                res['thumb'] = fn['thumb'];
             }
-        } else {
-            var fn = fortnights[eId];
-            res['id'] = eId;
 
-            var title = '『FN』';
+            res['type'] = 'fortnight';
 
-            if (e['has_ranking'])
-                title += ' ★Rank';
+            var start = e['start'];
+            start += ' 01:00';
+            res['start'] = start;
+            res['end'] = e['end'];
 
-            title += '\n' + fn['name'];
+            var opacity = e['is_replay'] ? 0.3 : 0.6;
+            res['color'] = 'rgba(255, 0, 0, ' + opacity + ')';
+            res['textColor'] = 'black';
 
-            res['title'] = title;
-
-            res['thumb'] = fn['thumb'];
-        }
-
-        res['type'] = 'fortnight';
-
-        var start = e['start'];
-        start += ' 01:00';
-        res['start'] = start;
-        res['end'] = e['end'];
-
-        var opacity = e['is_replay'] ? 0.3 : 0.6;
-        res['color'] = 'rgba(255, 0, 0, ' + opacity + ')';
-        res['textColor'] = 'black';
-
-        return res;
+            eventArray.push(res);
+        });
     }
 
-    function createRaidEvent(e) {
-        var res = {};
+    function createRaidEvent(eventArray) {
+        raidEvents.forEach(function(e) {
+            var res = {};
 
-        var eId = e['id'];
+            var eId = e['id'];
 
-        if (Array.isArray(eId)) {
-            res['id'] = eId.slice();
-            res['thumb'] = [];
+            if (Array.isArray(eId)) {
+                res['id'] = eId.slice();
+                res['thumb'] = [];
 
-            for (i = 0; i < eId.length; i++) {
-                var eRd = raids[eId[i]];
-                res['thumb'].push(eRd['thumb']);
+                for (i = 0; i < eId.length; i++) {
+                    var eRd = raids[eId[i]];
+                    res['thumb'].push(eRd['thumb']);
+                }
+            } else {
+                var rd = raids[eId];
+                res['id'] = eId;
+
+                var title = '『RD』';
+
+                if (typeof e['ambush'] !== 'undefined') {
+                    res['ambush'] = e['ambush'];
+                    createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'raid');
+                }
+
+                title += '\n' + rd['name'];
+
+                res['title'] = title;
+
+                res['thumb'] = rd['thumb'];
             }
-        } else {
-            var rd = raids[eId];
-            res['id'] = eId;
 
-            var title = '『RD』';
+            res['type'] = 'raid';
+
+            var start = e['start'];
+            start += ' 05:00';
+            res['start'] = start;
+            if (typeof e['end'] !== 'undefined')
+                res['end'] = e['end'];
+
+            res['color'] = 'rgba(60, 179, 113, 0.6)';
+            res['textColor'] = 'black';
+
+            eventArray.push(res);
+        });
+    }
+
+    function createColiseumEvent(eventArray) {
+        coliseumEvents.forEach(function(e) {
+            var res = {};
+
+            var newId = e['newId'];
+            res['newThumb'] = [];
+            for (i = 0; i < newId.length; i++) {
+                var newColi = coliseums[newId[i]];
+                res['newThumb'].push(newColi['thumb']);
+            }
+
+            var repId = e['repId'];
+            res['repThumb'] = [];
+            for (i = 0; i < repId.length; i++) {
+                var repColi = coliseums[repId[i]];
+                res['repThumb'].push(repColi['thumb']);
+            }
 
             if (typeof e['ambush'] !== 'undefined') {
                 res['ambush'] = e['ambush'];
-                eventArray.push(createAmbushEvent(e['ambush'], e['start'], e['end'], 'raid'));
+                createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'coliseum');
             }
 
-            title += '\n' + rd['name'];
 
-            res['title'] = title;
+            res['id'] = newId.concat(repId);
 
-            res['thumb'] = rd['thumb'];
-        }
+            res['type'] = 'coliseum';
 
-        res['type'] = 'raid';
+            var start = e['start'];
+            start += ' 03:00';
+            res['start'] = start;
+            if (typeof e['end'] !== 'undefined')
+                res['end'] = e['end'];
 
-        var start = e['start'];
-        start += ' 05:00';
-        res['start'] = start;
-        if (typeof e['end'] !== 'undefined')
-            res['end'] = e['end'];
+            res['color'] = 'rgba(0, 0, 255, 0.6)';
 
-        res['color'] = 'rgba(60, 179, 113, 0.6)';
-        res['textColor'] = 'black';
-
-        return res;
+            eventArray.push(res);
+        });
     }
 
-    function createColiseumEvent(e) {
-        var res = {};
-
-        var newId = e['newId'];
-        res['newThumb'] = [];
-        for (i = 0; i < newId.length; i++) {
-            var newColi = coliseums[newId[i]];
-            res['newThumb'].push(newColi['thumb']);
-        }
-
-        var repId = e['repId'];
-        res['repThumb'] = [];
-        for (i = 0; i < repId.length; i++) {
-            var repColi = coliseums[repId[i]];
-            res['repThumb'].push(repColi['thumb']);
-        }
-
-        if (typeof e['ambush'] !== 'undefined') {
-            res['ambush'] = e['ambush'];
-            eventArray.push(createAmbushEvent(e['ambush'], e['start'], e['end'], 'coliseum'));
-        }
-
-
-        res['id'] = newId.concat(repId);
-
-        res['type'] = 'coliseum';
-
-        var start = e['start'];
-        start += ' 03:00';
-        res['start'] = start;
-        if (typeof e['end'] !== 'undefined')
-            res['end'] = e['end'];
-
-        res['color'] = 'rgba(0, 0, 255, 0.6)';
-
-        return res;
-    }
-
-    function createAmbushEvent(id, start, end, src) {
+    function createAmbushEvent(eventArray, id, start, end, src) {
         var res = {};
 
         var ambush = ambushes[id];
@@ -153,60 +159,64 @@ $(document).ready(function() {
 
         res['textColor'] = 'black';
 
-        return res;
+        eventArray.push(res);
     }
 
-    function createSpecialEvent(e) {
-        var res = {};
+    function createSpecialEvent(eventArray) {
+        specialEvents.forEach(function(e) {
+            var res = {};
 
-        var id = e['id'];
+            var id = e['id'];
 
-        if ('dummy' == id) {
-            res['color'] = 'rgba(255, 255, 255, 0)';
-            res['textColor'] = 'rgba(255, 255, 255, 0)';
-        } else {
-            var sp = specials[id];
+            if ('dummy' == id) {
+                res['color'] = 'rgba(255, 255, 255, 0)';
+                res['textColor'] = 'rgba(255, 255, 255, 0)';
+            } else {
+                var sp = specials[id];
 
-            var title = '『' + sp['type'] + '』';
-            title += '\n' + sp['name'];
+                var title = '『' + sp['type'] + '』';
+                title += '\n' + sp['name'];
 
-            res['title'] = title;
+                res['title'] = title;
 
-            res['thumb'] = sp['thumb'];
+                res['thumb'] = sp['thumb'];
 
-            res['color'] = 'rgba(75, 0, 130, 0.6)';
-            res['textColor'] = 'black';
-        }
+                res['color'] = 'rgba(75, 0, 130, 0.6)';
+                res['textColor'] = 'black';
+            }
 
-        res['id'] = id;
+            res['id'] = id;
 
-        res['type'] = 'special';
+            res['type'] = 'special';
 
-        var start = e['start'];
-        start += ' 02:00';
-        res['start'] = start;
-        if (typeof e['end'] !== 'undefined')
+            var start = e['start'];
+            start += ' 02:00';
+            res['start'] = start;
+            if (typeof e['end'] !== 'undefined')
+                res['end'] = e['end'];
+
+            eventArray.push(res);
+        });
+    }
+
+    function createSpecialBgEvent(eventArray) {
+        specialBgEvents.forEach(function(e) {
+            var res = {};
+
+            var id = e['id'];
+            var sbge = specials_bg[id];
+
+            res['thumb'] = sbge['thumb'];
+            res['type'] = 'event';
+
+            res['start'] = e['start'];
             res['end'] = e['end'];
 
-        return res;
-    }
+            res['color'] = 'rgba(0, 0, 0, 0)';
+            res['rendering'] = 'background';
 
-    function createSpecialBgEvent(e) {
-        var res = {};
-
-        var id = e['id'];
-        var sbge = specials_bg[id];
-
-        res['thumb'] = sbge['thumb'];
-        res['type'] = 'event';
-
-        res['start'] = e['start'];
-        res['end'] = e['end'];
-
-        res['color'] = 'rgba(0, 0, 0, 0)';
-        res['rendering'] = 'background';
-
-        return res;
+            eventArray.push(res);
+        });
     }
 
     function getThumb(thumbId) {
@@ -294,148 +304,136 @@ $(document).ready(function() {
         $(modalCloseButton).show();
     }
 
-    var eventArray = [];
+    $(document).ready(function() {
+        var eventArray = [];
 
-    fortnightEvents.forEach(function(e) {
-        eventArray.push(createFortnightEvent(e));
-    });
+        createFortnightEvent(eventArray);
+        createRaidEvent(eventArray);
+        createColiseumEvent(eventArray);
+        createSpecialEvent(eventArray);
+        createSpecialBgEvent(eventArray);
 
-    raidEvents.forEach(function(e) {
-        eventArray.push(createRaidEvent(e));
-    });
+        // Permanent Mihawk
+        var mihawk = {
+            'thumb': 'mihawk',
+            'type': 'event',
+            'color': 'rgba(0, 0, 0, 0)',
+            'rendering': 'background',
+            'permaStart': '2017-06-08',
+            'dow': [5, 6]
+        }
+        eventArray.push(mihawk);
 
-    coliseumEvents.forEach(function(e) {
-        eventArray.push(createColiseumEvent(e));
-    });
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,basicTwo'
+            },
+            viewRender: function(view, element) {
+                if (screen.width < 768) {
+                    $('#mobile-info').show();
 
-    specialEvents.forEach(function(e) {
-        eventArray.push(createSpecialEvent(e));
-    });
-
-    specialBgEvents.forEach(function(e) {
-        eventArray.push(createSpecialBgEvent(e));
-    });
-
-    // Permanent Mihawk
-    var mihawk = {
-        'thumb': 'mihawk',
-        'type': 'event',
-        'color': 'rgba(0, 0, 0, 0)',
-        'rendering': 'background',
-        'permaStart': '2017-06-08',
-        'dow': [5, 6]
-    }
-    eventArray.push(mihawk);
-
-    $('#calendar').fullCalendar({
-        header: {
-            left: 'prev,next today',
-            center: 'title',
-            right: 'month,basicTwo'
-        },
-        viewRender: function(view, element) {
-            if (screen.width < 768) {
-                $('#mobile-info').show();
-
-                if (view.name === 'basicTwo') {
-                    $('#calendar').fullCalendar('option', 'contentHeight', 400);
-                    $('#vp').attr('content', 'width=device-width, initial-scale=1.0');
-                    $('#calendar').width('300.6px');
+                    if (view.name === 'basicTwo') {
+                        $('#calendar').fullCalendar('option', 'contentHeight', 400);
+                        $('#vp').attr('content', 'width=device-width, initial-scale=1.0');
+                        $('#calendar').width('300.6px');
+                    } else {
+                        $('#calendar').fullCalendar('option', 'contentHeight', null);
+                        $('#vp').attr('content', '');
+                        $('#calendar').width('1052.1px');
+                    }
                 } else {
-                    $('#calendar').fullCalendar('option', 'contentHeight', null);
-                    $('#vp').attr('content', '');
-                    $('#calendar').width('1052.1px');
+                    var twoDayButton = $('.fc-basicTwo-button');
+
+                    twoDayButton.prop('disabled', true);
+                    twoDayButton.addClass('fc-state-disabled');
                 }
-            } else {
-                var twoDayButton = $('.fc-basicTwo-button');
+            },
+            views: {
+                basicTwo: {
+                    type: 'basic',
+                    duration: {
+                        days: 2
+                    },
+                    buttonText: '2-day'
+                }
+            },
+            aspectRatio: 0.55,
+            events: eventArray,
+            eventRender: function(event, element) {
+                if (event['type'] == 'fortnight' || event['type'] == 'raid' || (event['type'] == 'special' && event['id'] != 'dummy')) {
+                    var thumbArray = [];
+                    if (Array.isArray(event['thumb']))
+                        thumbArray = event['thumb'].slice();
+                    else
+                        thumbArray.push(event['thumb']);
 
-                twoDayButton.prop('disabled', true);
-                twoDayButton.addClass('fc-state-disabled');
-            }
-        },
-        views: {
-            basicTwo: {
-                type: 'basic',
-                duration: {
-                    days: 2
-                },
-                buttonText: '2-day'
-            }
-        },
-        aspectRatio: 0.55,
-        events: eventArray,
-        eventRender: function(event, element) {
-            if (event.type == 'fortnight' || event.type == 'raid' || (event.type == 'special' && event.id != 'dummy')) {
-                var thumbArray = [];
-                if (Array.isArray(event.thumb))
-                    thumbArray = event.thumb.slice();
-                else
-                    thumbArray.push(event.thumb);
+                    for (i = 0; i < thumbArray.length; i++) {
+                        var imgSrc = getThumb(thumbArray[i]);
 
-                for (i = 0; i < thumbArray.length; i++) {
-                    var imgSrc = getThumb(thumbArray[i]);
+                        element.find('.fc-title').before(
+                            '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
+                        );
+                    }
+                } else if (event['type'] == 'raidAmbush' || event['type'] == 'coliAmbush') {
+                    var imgSrc = getThumb(event['thumb']);
 
                     element.find('.fc-title').before(
-                        '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
+                        '<img src="' + imgSrc + '" height="15" width="15" style="float: left;" />'
                     );
+                } else if (event['type'] == 'coliseum') {
+                    for (i = 0; i < event['newThumb'].length; i++) {
+                        var imgSrc = getThumb(event['newThumb'][i]);
+
+                        element.find('.fc-title').before(
+                            '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
+                        );
+                    }
+
+                    for (i = 0; i < event['repThumb'].length; i++) {
+                        var imgSrc = getThumb(event['repThumb'][i]);
+
+                        element.find('.fc-title').before(
+                            '<img src="' + imgSrc + '" height="20" width="20" style="float: left;" />'
+                        );
+                    }
+                } else {
+                    element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event['thumb'] + '.png")');
                 }
-            } else if (event.type == 'raidAmbush' || event.type == 'coliAmbush') {
-                var imgSrc = getThumb(event.thumb);
 
-                element.find('.fc-title').before(
-                    '<img src="' + imgSrc + '" height="15" width="15" style="float: left;" />'
-                );
-            } else if (event.type == 'coliseum') {
-                for (i = 0; i < event.newThumb.length; i++) {
-                    var imgSrc = getThumb(event.newThumb[i]);
-
-                    element.find('.fc-title').before(
-                        '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
-                    );
+                if (typeof event['permaStart'] !== 'undefined')
+                    return event['start'].isAfter(event['permaStart']);
+            },
+            eventClick: function(event) {
+                if (event['type'] == 'fortnight' || event['type'] == 'raid' || event['type'] == 'coliseum') {
+                    $('#eventDetail').empty();
+                    getEventDetail(event);
+                    $('#eventDetailModal').modal();
                 }
+            },
+            eventOrder: function(a, b) {
+                if (Array.isArray(a.id))
+                    return 1;
+                if (Array.isArray(b.id))
+                    return -1;
 
-                for (i = 0; i < event.repThumb.length; i++) {
-                    var imgSrc = getThumb(event.repThumb[i]);
+                return a.id < b.id ? -1 : 1;
+            },
+            displayEventTime: false
+        });
 
-                    element.find('.fc-title').before(
-                        '<img src="' + imgSrc + '" height="20" width="20" style="float: left;" />'
-                    );
-                }
-            } else {
-                element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event.thumb + '.png")');
-            }
+        // Auto change to 2-day view when on mobile
+        if (screen.width < 768)
+            $('#calendar').fullCalendar('changeView', 'basicTwo');
 
-            if (typeof event.permaStart !== 'undefined')
-                return event.start.isAfter(event.permaStart);
-        },
-        eventClick: function(event) {
-            if (event.type == 'fortnight' || event.type == 'raid' || event.type == 'coliseum') {
-                $('#eventDetail').empty();
-                getEventDetail(event);
-                $('#eventDetailModal').modal();
-            }
-        },
-        eventOrder: function(a, b) {
-            if (Array.isArray(a.id))
-                return 1;
-            if (Array.isArray(b.id))
-                return -1;
-
-            return a.id < b.id ? -1 : 1;
-        },
-        displayEventTime: false
+        // Swipe left/right for next/prev
+        var hm = new Hammer(document.getElementById('calendar'));
+        hm.on('swipeleft', function(ev) {
+            $('#calendar').fullCalendar('next');
+        });
+        hm.on('swiperight', function(ev) {
+            $('#calendar').fullCalendar('prev');
+        });
     });
-
-    // Auto change to 2-day view when on mobile
-    if (screen.width < 768)
-        $('#calendar').fullCalendar('changeView', 'basicTwo');
-
-    // Swipe left/right for next/prev
-    var hm = new Hammer(document.getElementById('calendar'));
-    hm.on('swipeleft', function(ev) {
-        $('#calendar').fullCalendar('next');
-    });
-    hm.on('swiperight', function(ev) {
-        $('#calendar').fullCalendar('prev');
-    });
-});
+}) ();
