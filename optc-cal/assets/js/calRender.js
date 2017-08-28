@@ -403,7 +403,8 @@
 
                 return a.id < b.id ? -1 : 1;
             },
-            displayEventTime: false
+            displayEventTime: false,
+            defaultDate: moment().subtract(1, 'days')
         });
 
         // Auto change to 2-day view when on mobile
