@@ -64,7 +64,7 @@
 
                 var title = '『RD』';
 
-                if (typeof e['ambush'] !== 'undefined') {
+                if (e['ambush']) {
                     res['ambush'] = e['ambush'];
                     createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'raid');
                 }
@@ -81,7 +81,7 @@
             var start = e['start'];
             start += ' 05:00';
             res['start'] = start;
-            if (typeof e['end'] !== 'undefined')
+            if (e['end'])
                 res['end'] = e['end'];
 
             res['color'] = 'rgba(60, 179, 113, 0.6)';
@@ -109,7 +109,7 @@
                 res['repThumb'].push(repColi['thumb']);
             }
 
-            if (typeof e['ambush'] !== 'undefined') {
+            if (e['ambush']) {
                 res['ambush'] = e['ambush'];
                 createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'coliseum');
             }
@@ -122,7 +122,7 @@
             var start = e['start'];
             start += ' 03:00';
             res['start'] = start;
-            if (typeof e['end'] !== 'undefined')
+            if (e['end'])
                 res['end'] = e['end'];
 
             res['color'] = 'rgba(0, 0, 255, 0.6)';
@@ -140,10 +140,10 @@
         res['title'] = ambush['name'];
         res['thumb'] = ambush['thumb'];
 
-        if (typeof end !== 'undefined')
+        if (end)
             res['end'] = end;
 
-        if ('raid' == src) {
+        if ('raid' === src) {
             res['type'] = 'raidAmbush';
             res['color'] = 'rgba(60, 179, 113, 0.6)';
 
@@ -168,7 +168,7 @@
 
             var id = e['id'];
 
-            if ('dummy' == id) {
+            if ('dummy' === id) {
                 res['color'] = 'rgba(255, 255, 255, 0)';
                 res['textColor'] = 'rgba(255, 255, 255, 0)';
             } else {
@@ -192,7 +192,7 @@
             var start = e['start'];
             start += ' 02:00';
             res['start'] = start;
-            if (typeof e['end'] !== 'undefined')
+            if (e['end'])
                 res['end'] = e['end'];
 
             eventArray.push(res);
@@ -255,13 +255,13 @@
     function getEventDetail(e) {
         var ids = [];
 
-        if (Array.isArray(e.id))
-            ids = e.id.slice();
+        if (Array.isArray(e['id']))
+            ids = e['id'].slice();
         else
-            ids.push(e.id);
+            ids.push(e['id']);
 
-        if (typeof e.ambush !== 'undefined')
-            ids.push(e.ambush);
+        if (e['ambush'])
+            ids.push(e['ambush']);
 
         for (var i = 0; i < ids.length; i++) {
             var ed = $('#eventDetailClone').clone();
@@ -269,14 +269,14 @@
             ed.attr('id', "eventDetail_" + id);
 
             var data;
-            if (e.type == 'fortnight')
+            if (e['type'] === 'fortnight')
                 data = fortnights[id];
-            else if (e.type == 'raid')
+            else if (e['type'] === 'raid')
                 data = raids[id];
-            else if (e.type == 'coliseum')
+            else if (e['type'] === 'coliseum')
                 data = coliseums[id];
 
-            if (typeof e.ambush !== 'undefined' && typeof data === 'undefined')
+            if (e['ambush'] && !data)
                 data = ambushes[id];
 
             ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
@@ -364,7 +364,7 @@
             aspectRatio: 0.55,
             events: eventArray,
             eventRender: function(event, element) {
-                if (event['type'] == 'fortnight' || event['type'] == 'raid' || (event['type'] == 'special' && event['id'] != 'dummy')) {
+                if (event['type'] === 'fortnight' || event['type'] === 'raid' || (event['type'] === 'special' && event['id'] !== 'dummy')) {
                     var thumbArray = [];
                     if (Array.isArray(event['thumb']))
                         thumbArray = event['thumb'].slice();
@@ -373,23 +373,23 @@
 
                     for (var i = 0; i < thumbArray.length; i++)
                         element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 30, true));
-                } else if (event['type'] == 'coliseum') {
+                } else if (event['type'] === 'coliseum') {
                     for (var i = 0; i < event['newThumb'].length; i++)
                         element.find('.fc-title').before(createImgHtml(getThumb(event['newThumb'][i]), 30, true));
 
                     for (var i = 0; i < event['repThumb'].length; i++)
                         element.find('.fc-title').before(createImgHtml(getThumb(event['repThumb'][i]), 20, true));
-                } else if (event['type'] == 'raidAmbush' || event['type'] == 'coliAmbush') {
+                } else if (event['type'] === 'raidAmbush' || event['type'] === 'coliAmbush') {
                     element.find('.fc-title').before(createImgHtml(getThumb(event['thumb']), 15, true));
                 } else {
                     element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event['thumb'] + '.png")');
                 }
 
-                if (typeof event['permaStart'] !== 'undefined')
+                if (event['permaStart'])
                     return event['start'].isAfter(event['permaStart']);
             },
             eventClick: function(event) {
-                if (event['type'] == 'fortnight' || event['type'] == 'raid' || event['type'] == 'coliseum') {
+                if (event['type'] === 'fortnight' || event['type'] === 'raid' || event['type'] === 'coliseum') {
                     $('#eventDetail').empty();
                     getEventDetail(event);
                     $('#eventDetailModal').modal();
