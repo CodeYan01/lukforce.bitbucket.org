@@ -9,7 +9,7 @@
                 res['id'] = eId.slice();
                 res['thumb'] = [];
 
-                for (i = 0; i < eId.length; i++) {
+                for (var i = 0; i < eId.length; i++) {
                     var eFn = fortnights[eId[i]];
                     res['thumb'].push(eFn['thumb']);
                 }
@@ -54,7 +54,7 @@
                 res['id'] = eId.slice();
                 res['thumb'] = [];
 
-                for (i = 0; i < eId.length; i++) {
+                for (var i = 0; i < eId.length; i++) {
                     var eRd = raids[eId[i]];
                     res['thumb'].push(eRd['thumb']);
                 }
@@ -97,14 +97,14 @@
 
             var newId = e['newId'];
             res['newThumb'] = [];
-            for (i = 0; i < newId.length; i++) {
+            for (var i = 0; i < newId.length; i++) {
                 var newColi = coliseums[newId[i]];
                 res['newThumb'].push(newColi['thumb']);
             }
 
             var repId = e['repId'];
             res['repThumb'] = [];
-            for (i = 0; i < repId.length; i++) {
+            for (var i = 0; i < repId.length; i++) {
                 var repColi = coliseums[repId[i]];
                 res['repThumb'].push(repColi['thumb']);
             }
@@ -223,6 +223,35 @@
         return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + thumbId + '.png';
     }
 
+    function createUrlHtml(url, text) {
+        var urlHtml = $('<a></a>');
+        urlHtml.attr('href', url);
+        urlHtml.attr('target', '_blank');
+        urlHtml.text(text);
+
+        return urlHtml;
+    }
+
+    function createImgHtml(imgSrc, size, floatLeft) {
+        var imgHtml = $('<img></img>');
+        imgHtml.attr('src', imgSrc);
+        imgHtml.attr('height', size);
+        imgHtml.attr('width', size);
+
+        if (floatLeft)
+            imgHtml.css('float', 'left');
+
+        return imgHtml;
+    }
+
+    function createListItem(ed, liClass, url, liId, urlText) {
+        var li = ed.find(liClass);
+        var liUrl = url + liId;
+
+        li.find('.url').html(createUrlHtml(liUrl, urlText));
+        li.show();
+    }
+
     function getEventDetail(e) {
         var ids = [];
 
@@ -234,7 +263,7 @@
         if (typeof e.ambush !== 'undefined')
             ids.push(e.ambush);
 
-        for (i = 0; i < ids.length; i++) {
+        for (var i = 0; i < ids.length; i++) {
             var ed = $('#eventDetailClone').clone();
             var id = ids[i];
             ed.attr('id', "eventDetail_" + id);
@@ -250,50 +279,23 @@
             if (typeof e.ambush !== 'undefined' && typeof data === 'undefined')
                 data = ambushes[id];
 
-            var imgSrc = getThumb(data['thumb']);
-            ed.find('.eventThumb').html('<img src="' + imgSrc + '" height="50" width="50" />');
-
+            ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
             ed.find('.eventTitle').text(data['name']);
 
-            if (typeof drops[id] !== 'undefined' && drops[id] != '') {
-                var dropList = ed.find('.dropList');
-                var dropUrl = 'http://optc-db.github.io/drops/?' + drops[id];
+            if (drops[id])
+                createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', drops[id], 'Drop List');
 
-                dropList.find('.url').html('<a href="' + dropUrl + '" target="_blank">Drop List</a>');
-                dropList.show();
-            }
+            if (gw[id])
+                createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', gw[id], 'Gamewith Stage Guide');
 
-            if (typeof gw[id] !== 'undefined' && gw[id] != '') {
-                var gamewith = ed.find('.gamewith');
-                var gwUrl = 'https://トレクル.gamewith.jp/article/show/' + gw[id];
+            if (sd[id])
+                createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
 
-                gamewith.find('.url').html('<a href="' + gwUrl + '" target="_blank">Gamewith Stage Guide</a>');
-                gamewith.show();
-            }
+            if (wiki[id])
+                createListItem(ed, '.redditWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/', wiki[id], 'Reddit Stage Guide Wiki');
 
-            if (typeof sd[id] !== 'undefined' && sd[id] != '') {
-                var sevenDays = ed.find('.sevenDays');
-                var sdUrl = 'https://youtu.be/' + sd[id];
-
-                sevenDays.find('.url').html('<a href="' + sdUrl + '" target="_blank">7 Days YouTube Stage Guide</a>');
-                sevenDays.show();
-            }
-
-            if (typeof wiki[id] !== 'undefined' && wiki[id] != '') {
-                var redditWiki = ed.find('.redditWiki');
-                var wikiUrl = 'https://www.reddit.com/r/OnePieceTC/wiki/' + wiki[id];
-
-                redditWiki.find('.url').html('<a href="' + wikiUrl + '" target="_blank">Reddit Stage Guide Wiki</a>');
-                redditWiki.show();
-            }
-
-            if (typeof videoWiki[id] !== 'undefined' && videoWiki[id] != '') {
-                var redditVideoWiki = ed.find('.redditVideoWiki');
-                var videoWikiUrl = 'https://www.reddit.com/r/OnePieceTC/wiki/video/' + videoWiki[id];
-
-                redditVideoWiki.find('.url').html('<a href="' + videoWikiUrl + '" target="_blank">Reddit Video Wiki</a>');
-                redditVideoWiki.show();
-            }
+            if (videoWiki[id])
+                createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
 
             $('#eventDetail').append(ed);
             ed.show();
@@ -369,35 +371,16 @@
                     else
                         thumbArray.push(event['thumb']);
 
-                    for (i = 0; i < thumbArray.length; i++) {
-                        var imgSrc = getThumb(thumbArray[i]);
-
-                        element.find('.fc-title').before(
-                            '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
-                        );
-                    }
-                } else if (event['type'] == 'raidAmbush' || event['type'] == 'coliAmbush') {
-                    var imgSrc = getThumb(event['thumb']);
-
-                    element.find('.fc-title').before(
-                        '<img src="' + imgSrc + '" height="15" width="15" style="float: left;" />'
-                    );
+                    for (var i = 0; i < thumbArray.length; i++)
+                        element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 30, true));
                 } else if (event['type'] == 'coliseum') {
-                    for (i = 0; i < event['newThumb'].length; i++) {
-                        var imgSrc = getThumb(event['newThumb'][i]);
+                    for (var i = 0; i < event['newThumb'].length; i++)
+                        element.find('.fc-title').before(createImgHtml(getThumb(event['newThumb'][i]), 30, true));
 
-                        element.find('.fc-title').before(
-                            '<img src="' + imgSrc + '" height="30" width="30" style="float: left;" />'
-                        );
-                    }
-
-                    for (i = 0; i < event['repThumb'].length; i++) {
-                        var imgSrc = getThumb(event['repThumb'][i]);
-
-                        element.find('.fc-title').before(
-                            '<img src="' + imgSrc + '" height="20" width="20" style="float: left;" />'
-                        );
-                    }
+                    for (var i = 0; i < event['repThumb'].length; i++)
+                        element.find('.fc-title').before(createImgHtml(getThumb(event['repThumb'][i]), 20, true));
+                } else if (event['type'] == 'raidAmbush' || event['type'] == 'coliAmbush') {
+                    element.find('.fc-title').before(createImgHtml(getThumb(event['thumb']), 15, true));
                 } else {
                     element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event['thumb'] + '.png")');
                 }
