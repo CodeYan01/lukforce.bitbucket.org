@@ -81,6 +81,11 @@ var specialBgEvents = [
         end: '2017-05-15'
     },
     {
+        id: 'fp',
+        start: '2017-05-15',
+        end: '2017-06-06'
+    },
+    {
         id: 'free_pull',
         start: '2017-05-16',
         end: '2017-05-21'
@@ -257,6 +262,11 @@ var specialBgEvents = [
     },
     {
         id: 'snail_meat',
+        start: '2017-08-29',
+        end: '2017-09-12'
+    },
+    {
+        id: 'fp',
         start: '2017-08-29',
         end: '2017-09-12'
     },
