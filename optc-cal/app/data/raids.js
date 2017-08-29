@@ -72,7 +72,7 @@ var raids = {
         thumb: '0978'
     },
     989: {
-        name: 'Fake Straw Hat',
+        name: 'Fake Straw Hats',
         thumb: '0989'
     },
     1047: {
