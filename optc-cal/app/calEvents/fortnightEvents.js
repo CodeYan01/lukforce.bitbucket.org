@@ -650,4 +650,67 @@ var fortnightEvents = [
         is_replay: true,
         has_ranking: true
     },
+    {
+        id: 808,
+        start: '2017-09-05',
+        end: '2017-09-12',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 571,
+        start: '2017-09-05',
+        end: '2017-09-12',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 848,
+        start: '2017-09-05',
+        end: '2017-09-12',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 424,
+        start: '2017-09-12',
+        end: '2017-09-19',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 1254,
+        start: '2017-09-12',
+        end: '2017-09-19',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 1302,
+        start: '2017-09-12',
+        end: '2017-09-19',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 550,
+        start: '2017-09-19',
+        end: '2017-09-26',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 583,
+        start: '2017-09-19',
+        end: '2017-09-26',
+        is_replay: true,
+        has_ranking: false
+    },
+    {
+        id: 1287,
+        start: '2017-09-19',
+        end: '2017-09-26',
+        is_replay: true,
+        has_ranking: false
+    },
 ];
