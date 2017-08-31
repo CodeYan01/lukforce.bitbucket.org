@@ -1,11 +1,6 @@
 var specialEvents = [
     {
         id: 'dummy',
-        start: '2017-05-30',
-        end: '2017-06-02'
-    },
-    {
-        id: 'dummy',
         start: '2017-07-26',
         end: '2017-07-30'
     },

@@ -16,18 +16,12 @@
             } else {
                 var fn = fortnights[eId];
                 res['id'] = eId;
-
-                var title = '『FN』';
-
-                if (e['has_ranking'])
-                    title += ' ★Rank';
-
-                title += '\n' + fn['name'];
-
-                res['title'] = title;
-
+                res['title'] = '『FN』\n' + fn['name'];
                 res['thumb'] = fn['thumb'];
             }
+
+            if (e['ranking'])
+                res['ranking'] = fortnights[e['ranking']]['thumb'];
 
             res['type'] = 'fortnight';
 
@@ -61,19 +55,13 @@
             } else {
                 var rd = raids[eId];
                 res['id'] = eId;
-
-                var title = '『RD』';
-
-                if (e['ambush']) {
-                    res['ambush'] = e['ambush'];
-                    createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'raid');
-                }
-
-                title += '\n' + rd['name'];
-
-                res['title'] = title;
-
+                res['title'] = '『RD』\n' + rd['name'];
                 res['thumb'] = rd['thumb'];
+            }
+
+            if (e['ambush']) {
+                res['ambush'] = e['ambush'];
+                createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'raid');
             }
 
             res['type'] = 'raid';
@@ -373,6 +361,12 @@
 
                     for (var i = 0; i < thumbArray.length; i++)
                         element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 30, true));
+
+                    if (event['type'] === 'fortnight' && event['ranking']) {
+                        var imgHtml = createImgHtml(getThumb(event['ranking']), 20, false);
+                        element.find('.fc-title').html(imgHtml);
+                        element.find('.fc-title').after('★');
+                    }
                 } else if (event['type'] === 'coliseum') {
                     for (var i = 0; i < event['newThumb'].length; i++)
                         element.find('.fc-title').before(createImgHtml(getThumb(event['newThumb'][i]), 30, true));
