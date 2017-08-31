@@ -26,7 +26,10 @@
             res['type'] = 'fortnight';
 
             var start = e['start'];
-            start += ' 01:00';
+            if (e['is_replay'])
+                start += ' 01:30';
+            else
+                start += ' 01:00';
             res['start'] = start;
             res['end'] = e['end'];
 
