@@ -146,7 +146,7 @@ var gw = {
     1310: '63087',      // Kinemon
     1338: '57556',      // Kanjuro
     1378: '46329',      // Marguerite
-    1456: '50805',      // Don Chin Jao
+    1456: '66708',      // Don Chin Jao
     1458: '50806',      // Kuro
     1460: '50807',      // Ms. Valentine
 };
