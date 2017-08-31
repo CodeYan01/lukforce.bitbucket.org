@@ -135,13 +135,17 @@ var coliseums = {
         name: 'Moria',
         thumb: '1141'
     },
-    1143: {
-        name: 'Foxy',
-        thumb: '1143'
+    1310: {
+        name: 'Kinemon',
+        thumb: '1310'
     },
-    1145: {
-        name: 'Porche',
-        thumb: '1145'
+    1338: {
+        name: 'Kanjuro',
+        thumb: '1338'
+    },
+    1378: {
+        name: 'Marguerite',
+        thumb: '1378'
     },
     1456: {
         name: 'Don Chin Jao',

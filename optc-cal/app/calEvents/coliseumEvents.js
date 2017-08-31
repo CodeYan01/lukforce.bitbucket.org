@@ -313,40 +313,40 @@ var coliseumEvents = [
         end: '2017-09-03'
     },
     {
-        newId: [],
-        repId: [],
+        newId: [1310, 1338, 1378],
+        repId: [983, 804],
         start: '2017-09-06',
         ambush: shanks
     },
     {
-        newId: [],
-        repId: [],
+        newId: [1310, 1338, 1378],
+        repId: [983, 804],
         start: '2017-09-08',
         end: '2017-09-10',
         ambush: shanks
     },
     {
-        newId: [],
-        repId: [],
+        newId: [1310, 1338, 1378],
+        repId: [983, 804],
         start: '2017-09-13',
         ambush: shanks
     },
     {
-        newId: [],
-        repId: [],
+        newId: [1310, 1338, 1378],
+        repId: [983, 804],
         start: '2017-09-15',
         end: '2017-09-17',
         ambush: shanks
     },
     {
-        newId: [],
-        repId: [],
+        newId: [1310, 1338, 1378],
+        repId: [983, 804],
         start: '2017-09-20',
         ambush: shanks
     },
     {
-        newId: [],
-        repId: [],
+        newId: [1310, 1338, 1378],
+        repId: [983, 804],
         start: '2017-09-22',
         end: '2017-09-24',
         ambush: shanks

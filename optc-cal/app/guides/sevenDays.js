@@ -142,8 +142,9 @@ var sd = {
     1104: 'a0niFXU2nJ8',    // Ain
     1106: 'p2sug3M7BCk',    // Binz
     1141: 'Qrg0iUyS2zs',    // Moria
-    1143: '',               // Foxy
-    1145: '',               // Porche
+    1310: '',               // Kinemon
+    1338: '',               // Kanjuro
+    1378: '',               // Marguerite
     1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine

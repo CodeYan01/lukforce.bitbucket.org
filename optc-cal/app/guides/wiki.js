@@ -142,8 +142,9 @@ var wiki = {
     1104: '',   // Ain
     1106: '',   // Binz
     1141: '',   // Moria
-    1143: '',   // Foxy
-    1145: '',   // Porche
+    1310: '',   // Kinemon
+    1338: '',   // Kanjuro
+    1378: '',   // Marguerite
     1456: '',   // Don Chin Jao
     1458: '',   // Kuro
     1460: '',   // Ms. Valentine
