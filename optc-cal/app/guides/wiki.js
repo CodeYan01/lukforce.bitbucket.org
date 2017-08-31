@@ -3,8 +3,8 @@ var wiki = {
     30: 'fortnight/alvida',
     39: 'fortnight/buggy',
     46: 'fortnight/kuro',
-    58: '',     // Krieg
-    66: '',     // Arlong
+    58: 'fortnight/krieg',
+    66: 'fortnight/arlong',
     228: 'fortnight/morgan',
     232: 'fortnight/hina',
     263: 'fortnight/cobimeppo',
