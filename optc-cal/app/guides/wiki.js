@@ -72,7 +72,7 @@ var wiki = {
     1357: '',   // Big Mom Pirates
     1384: '',   // Toy Soldier
     1397: '',   // Shambles G5
-    1416: '',   // Sengoku
+    1416: 'fortnight/sengoku',
 
     // Raids
     227: 'raidboss/mihawk',
