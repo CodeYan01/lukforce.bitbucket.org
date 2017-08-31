@@ -73,6 +73,7 @@ var gw = {
     1384: '46659',      // Toy Soldier
     1397: '47248',      // Shambles G5
     1416: '48083',      // Sengoku
+    1426: '49863',      // Don Sai
 
     // Raids
     227: '4142',        // Mihawk

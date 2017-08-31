@@ -72,4 +72,5 @@ drops = {
     1384: 'Become%20Strong%20to%20be%20Happy!%20Fortnight',
     1397: 'Shambles!%20Tashigi%20and%20Smoker?!?%20Fortnight',
     1416: 'Marines!%20Sengoku%20the%20Fleet%20Admiral!%20Fortnight',
+    1426: 'Chinjao%20Family!%20Fortnight',
 };

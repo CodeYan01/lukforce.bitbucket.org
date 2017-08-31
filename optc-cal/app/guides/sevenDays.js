@@ -73,6 +73,7 @@ var sd = {
     1384: 'JE7CP26mW2Q',    // Toy Soldier
     1397: 'xOcuVyJVz0A',    // Shambles G5
     1416: '',               // Sengoku
+    1426: '',               // Don Sai
 
     // Raids
     227: '',                // Mihawk

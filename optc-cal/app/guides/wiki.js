@@ -73,6 +73,7 @@ var wiki = {
     1384: '',   // Toy Soldier
     1397: '',   // Shambles G5
     1416: 'fortnight/sengoku',
+    1426: '',   // Don Sai
 
     // Raids
     227: 'raidboss/mihawk',
