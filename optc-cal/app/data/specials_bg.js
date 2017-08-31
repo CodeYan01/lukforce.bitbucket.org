@@ -38,8 +38,8 @@ var specials_bg = {
     'mat': {
         thumb: 'mat'
     },
-    'straw_hat': {
-        thumb: 'straw_hat'
+    'strawhats': {
+        thumb: 'strawhats'
     },
     '2nd_anni_ship': {
         thumb: '2nd_anni_ship'

@@ -216,7 +216,7 @@ var specialBgEvents = [
         end: '2017-08-06'
     },
     {
-        id: 'straw_hat',
+        id: 'strawhats',
         start: '2017-08-07',
         end: '2017-08-14'
     },
