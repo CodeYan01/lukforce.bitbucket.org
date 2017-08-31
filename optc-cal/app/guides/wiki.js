@@ -100,13 +100,13 @@ var wiki = {
     1163: 'raidboss/tesoro',
     1298: 'raidboss/akainu',
 
-    1623: '',   // Doflamingo (N)
-    1669: '',   // Aokiji (N)
-    1680: '',   // Mihawk (N)
+    1623: 'raidboss/doffykai',
+    1669: 'raidboss/aokijikai',
+    1680: 'raidboss/mihawkkai',
 
     1258: 'raidboss/ywb',
     1380: 'shanks',
-    1530: '',   // Cavendish
+    1530: 'cavendish',
 
     // Coliseums
     777: '',    // Lucky Roux
