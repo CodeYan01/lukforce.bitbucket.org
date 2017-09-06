@@ -99,6 +99,7 @@ var wiki = {
     1108: 'raidboss/shiki',
     1163: 'raidboss/tesoro',
     1298: 'raidboss/akainu',
+    1518: '',   // Bellamy
 
     1623: 'raidboss/doffykai',
     1669: 'raidboss/aokijikai',

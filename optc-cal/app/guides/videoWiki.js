@@ -23,6 +23,7 @@ var videoWiki = {
     1108: 'raidboss/shiki',
     1163: 'raidboss/gildtesoro',
     1298: 'raidboss/akainu',
+    1518: 'raidboss/bellamy',
 
     1623: 'raidboss/doflamingokai',
     1669: 'raidboss/aokijikai',

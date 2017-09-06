@@ -99,6 +99,7 @@ var sd = {
     1108: 'JuVUShOH-08',    // Shiki
     1163: 'q1wNq-RIrR0',    // Gild Tesoro
     1298: 'r5eGwr0YXLQ',    // Akainu
+    1518: '',               // Bellamy
 
     1623: '',               //'oirn-E-ayNM',    // Doflamingo (N)
     1669: '',               // Aokiji (N)

@@ -99,6 +99,7 @@ var gw = {
     1108: '33648',      // Shiki
     1163: '35950',      // Gild Tesoro
     1298: '41277',      // Akainu
+    1518: '53151',      // Bellamy
 
     1623: '',           //'58437',      // Doflamingo (N)
     1669: '61266',      // Aokiji (N)
