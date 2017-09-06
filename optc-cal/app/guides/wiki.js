@@ -65,7 +65,7 @@ var wiki = {
     1215: 'fortnight/worldpirates',
     1242: 'fortnight/revolutionary',
     1254: '',   // WB Pirates 3
-    1287: '',   // Donquixote Children
+    1287: '',   // Donquixote Kids
     1302: '',   // Prisoner Buggy
     1328: 'fortnight/leo',
     1332: '',   // Tontatta 2

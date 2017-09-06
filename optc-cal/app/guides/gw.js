@@ -65,7 +65,7 @@ var gw = {
     1215: '36739',      // World Pirates
     1242: '37428',      // Revolutionary Army
     1254: '38337',      // WB Pirates 3
-    1287: '39523',      // Donquixote Children
+    1287: '39523',      // Donquixote Kids
     1302: '41929',      // Prisoner Buggy
     1328: '44165',      // Tontatta 1
     1332: '44748',      // Tontatta 2

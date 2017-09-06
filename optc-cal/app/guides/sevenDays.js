@@ -65,7 +65,7 @@ var sd = {
     1215: 'uAU9P4lv71k',    // World Pirates
     1242: '2HSGlW_N3hY',    // Revolutionary Army
     1254: '1dwQtF9Rdpc',    // WB Pirates 3
-    1287: 'vn_ZATg5gfU',    // Donquixote Children
+    1287: 'vn_ZATg5gfU',    // Donquixote Kids
     1302: 'sNDdKUpAjyk',    // Prisoner Buggy
     1328: 'a1E50n6Hr2w',    // Tontatta 1
     1332: 'tNWn2PPQHuM',    // Tontatta 2
