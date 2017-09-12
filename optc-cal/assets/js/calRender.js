@@ -368,7 +368,7 @@
                     if (event['type'] === 'fortnight' && event['ranking']) {
                         var imgHtml = createImgHtml(getThumb(event['ranking']), 20, false);
                         element.find('.fc-title').html(imgHtml);
-                        element.find('.fc-title').after('★');
+                        element.find('.fc-title').after('<i class="fa fa-trophy fa-lg"></i>');
                     }
                 } else if (event['type'] === 'coliseum') {
                     for (var i = 0; i < event['newThumb'].length; i++)
