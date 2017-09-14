@@ -74,6 +74,7 @@ var gw = {
     1397: '47248',      // Shambles G5
     1416: '48083',      // Sengoku
     1426: '49863',      // Don Sai
+    1450: '50896',      // Violet
 
     // Raids
     227: '4142',        // Mihawk

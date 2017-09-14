@@ -73,4 +73,5 @@ drops = {
     1397: 'Shambles!%20Tashigi%20and%20Smoker?!?%20Fortnight',
     1416: 'Marines!%20Sengoku%20the%20Fleet%20Admiral!%20Fortnight',
     1426: 'Chinjao%20Family!%20Fortnight',
+    1450: 'Fugitive%20of%20Love%20and%20Passion!!%20Fortnight',
 };

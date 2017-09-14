@@ -74,6 +74,7 @@ var sd = {
     1397: 'xOcuVyJVz0A',    // Shambles G5
     1416: '',               // Sengoku
     1426: '',               // Don Sai
+    1450: '',               // Violet
 
     // Raids
     227: '',                // Mihawk

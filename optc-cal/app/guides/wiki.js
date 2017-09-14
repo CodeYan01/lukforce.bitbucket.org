@@ -74,6 +74,7 @@ var wiki = {
     1397: '',   // Shambles G5
     1416: 'fortnight/sengoku',
     1426: '',   // Don Sai
+    1450: '',   // Violet
 
     // Raids
     227: 'raidboss/mihawk',
