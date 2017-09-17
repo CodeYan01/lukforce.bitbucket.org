@@ -1,4 +1,5 @@
 drops = {
+    // Fortnights
     30: 'Alvida%27s%20Romance%20Fortnight',
     39: 'Buggy%27s%20Counterattack!!%20Fortnight',
     46: 'Kuro%27s%20Master%20Plan%20Fortnight',
@@ -74,4 +75,8 @@ drops = {
     1416: 'Marines!%20Sengoku%20the%20Fleet%20Admiral!%20Fortnight',
     1426: 'Chinjao%20Family!%20Fortnight',
     1450: 'Fugitive%20of%20Love%20and%20Passion!!%20Fortnight',
+
+    // 20 Stamina Raids
+    518: 'Clash!?%20Usopp%27n%20Raid',
+    989: 'Clash!?%20Impostor%20Straw%20Hat%20Pirates%20Raid',
 };
