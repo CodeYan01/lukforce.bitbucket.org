@@ -74,7 +74,7 @@ var sd = {
     1397: 'xOcuVyJVz0A',    // Shambles G5
     1416: '',               // Sengoku
     1426: '',               // Don Sai
-    1450: '',               // Violet
+    1450: 'lG5cTCXV4Zw',    // Violet
 
     // Raids
     227: '',                // Mihawk
@@ -100,7 +100,7 @@ var sd = {
     1108: 'JuVUShOH-08',    // Shiki
     1163: 'q1wNq-RIrR0',    // Gild Tesoro
     1298: 'r5eGwr0YXLQ',    // Akainu
-    1374: '',               // Magellan
+    1374: 'rovn-Gghe2I',    // Magellan
     1518: '',               // Bellamy
 
     1623: '',               //'oirn-E-ayNM',    // Doflamingo (N)
