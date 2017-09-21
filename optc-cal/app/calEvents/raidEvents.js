@@ -380,11 +380,53 @@ var raidEvents = [
         end: '2017-09-29'
     },
     {
+        id: 447,
+        start: '2017-09-27',
+        ambush: ywb
+    },
+    {
         id: 418,
-        start: '2017-09-28'
+        start: '2017-09-28',
+        ambush: ywb
+    },
+    {
+        id: 603,
+        start: '2017-09-29',
+        ambush: ywb
     },
     {
         id: 654,
-        start: '2017-09-30'
+        start: '2017-09-30',
+        ambush: ywb
+    },
+    {
+        id: 865,
+        start: '2017-10-01',
+        ambush: ywb
+    },
+    {
+        id: 306,
+        start: '2017-10-02',
+        ambush: ywb
+    },
+    {
+        id: 836,
+        start: '2017-10-04',
+        ambush: ywb
+    },
+    {
+        id: 1047,
+        start: '2017-10-05',
+        ambush: ywb
+    },
+    {
+        id: 575,
+        start: '2017-10-06',
+        ambush: ywb
+    },
+    {
+        id: 1298,
+        start: '2017-10-07',
+        ambush: ywb
     },
 ]

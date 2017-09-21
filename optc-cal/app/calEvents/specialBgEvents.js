@@ -346,4 +346,19 @@ var specialBgEvents = [
         id: 'cotton',
         start: '2017-09-24'
     },
+    {
+        id: 'snail_meat',
+        start: '2017-09-26',
+        end: '2017-10-10'
+    },
+    {
+        id: 'sp',
+        start: '2017-09-26',
+        end: '2017-09-30'
+    },
+    {
+        id: 'sp',
+        start: '2017-10-06',
+        end: '2017-10-12'
+    },
 ]
