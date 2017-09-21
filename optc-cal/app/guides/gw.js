@@ -146,10 +146,13 @@ var gw = {
     1104: '33486',      // Ain
     1106: '33487',      // Binz
     1141: '58401',      // Moria
+    1196: '35523',      // Ganfor
+    1220: '36719',      // Byrnndi World
     1310: '63087',      // Kinemon
     1338: '57556',      // Kanjuro
     1378: '46329',      // Marguerite
     1456: '66708',      // Don Chin Jao
     1458: '50806',      // Kuro
     1460: '50807',      // Ms. Valentine
+    1525: '60230',      // Suleiman
 };

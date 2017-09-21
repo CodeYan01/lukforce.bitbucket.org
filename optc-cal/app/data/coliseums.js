@@ -135,6 +135,14 @@ var coliseums = {
         name: 'Moria',
         thumb: '1141'
     },
+    1196: {
+        name: 'Ganfor',
+        thumb: '1196'
+    },
+    1220: {
+        name: 'Byrnndi World',
+        thumb: '1220'
+    },
     1310: {
         name: 'Kinemon',
         thumb: '1310'
@@ -158,5 +166,9 @@ var coliseums = {
     1460: {
         name: 'Ms. Valentine',
         thumb: '1460'
+    },
+    1525: {
+        name: 'Suleiman',
+        thumb: '1525'
     },
 };

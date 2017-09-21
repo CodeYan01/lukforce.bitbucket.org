@@ -69,10 +69,13 @@ var videoWiki = {
     1104: 'coliseum/ain',
     1106: 'coliseum/binz',
     1141: 'coliseum/moria',
+    1196: 'coliseum/gan_fall',
+    1220: 'coliseum/byrnndi_world',
     1310: 'coliseum/kinemon',
     1338: 'coliseum/kanjuro',
     1378: 'coliseum/marguerite',
     1456: 'coliseum/don_chinjao',
     1458: 'coliseum/kuro',
     1460: 'coliseum/miss_valentine',
+    1525: 'coliseum/suleiman',
 };
