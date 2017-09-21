@@ -430,4 +430,34 @@ var fortnightEvents = [
         end: '2017-10-10',
         is_replay: false
     },
+    {
+        id: [436, 599, 1049],
+        start: '2017-09-26',
+        end: '2017-10-03',
+        is_replay: true
+    },
+    {
+        id: [337, 635, 1003],
+        start: '2017-10-03',
+        end: '2017-10-10',
+        is_replay: true
+    },
+    {
+        id: [322, 538, 1137],
+        start: '2017-10-10',
+        end: '2017-10-17',
+        is_replay: true
+    },
+    {
+        id: [318, 405, 1328],
+        start: '2017-10-17',
+        end: '2017-10-24',
+        is_replay: true
+    },
+    {
+        id: [392, 852, 1215],
+        start: '2017-10-24',
+        end: '2017-10-31',
+        is_replay: true
+    },
 ];
