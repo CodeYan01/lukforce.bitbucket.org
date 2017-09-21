@@ -75,6 +75,7 @@ var wiki = {
     1416: 'fortnight/sengoku',
     1426: '',   // Don Sai
     1450: '',   // Violet
+    1469: '',   // Sentomaru
 
     // Raids
     227: 'raidboss/mihawk',

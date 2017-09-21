@@ -75,6 +75,7 @@ var gw = {
     1416: '48083',      // Sengoku
     1426: '49863',      // Don Sai
     1450: '50896',      // Violet
+    1469: '51925',      // Sentomaru
 
     // Raids
     227: '4142',        // Mihawk

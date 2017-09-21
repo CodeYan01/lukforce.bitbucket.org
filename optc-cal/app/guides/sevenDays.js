@@ -75,6 +75,7 @@ var sd = {
     1416: '',               // Sengoku
     1426: '',               // Don Sai
     1450: 'lG5cTCXV4Zw',    // Violet
+    1469: '',               // Sentomaru
 
     // Raids
     227: '',                // Mihawk

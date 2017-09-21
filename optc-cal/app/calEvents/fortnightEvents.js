@@ -418,4 +418,16 @@ var fortnightEvents = [
         end: '2017-09-26',
         is_replay: true
     },
+    {
+        id: 1469,
+        start: '2017-09-26',
+        end: '2017-10-03',
+        is_replay: false
+    },
+    {
+        id: 1469,
+        start: '2017-10-03',
+        end: '2017-10-10',
+        is_replay: false
+    },
 ];

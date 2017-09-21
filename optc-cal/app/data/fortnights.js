@@ -299,4 +299,8 @@ var fortnights = {
         name: 'Violet',
         thumb: '1450'
     },
+    1469: {
+        name: 'Sentomaru',
+        thumb: '1469'
+    },
 };
