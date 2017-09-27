@@ -283,7 +283,7 @@
                 createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
 
             if (wiki[id])
-                createListItem(ed, '.redditWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/', wiki[id], 'Reddit Stage Guide Wiki');
+                createListItem(ed, '.redditWiki', 'https://www.reddit.com/r/OnePieceTC/', wiki[id], 'Reddit Stage Guide Wiki');
 
             if (videoWiki[id])
                 createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
