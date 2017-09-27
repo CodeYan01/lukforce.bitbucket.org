@@ -148,7 +148,7 @@ var sd = {
     1106: 'p2sug3M7BCk',    // Binz
     1141: 'Qrg0iUyS2zs',    // Moria
     1196: '',               // Ganfor
-    1220: '',               // Byrnndi World
+    1220: 'h-KU7jQnZv4',    // Byrnndi World
     1310: '',               // Kinemon
     1338: '',               // Kanjuro
     1378: '',               // Marguerite
