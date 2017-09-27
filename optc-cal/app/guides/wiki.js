@@ -109,8 +109,8 @@ var wiki = {
     1680: 'wiki/raidboss/mihawkkai',
 
     1258: 'wiki/raidboss/ywb',
-    1380: 'shanks',
-    1530: 'cavendish',
+    1380: 'wiki/shanks',
+    1530: 'wiki/cavendish',
 
     // Coliseums
     777: '',    // Lucky Roux
