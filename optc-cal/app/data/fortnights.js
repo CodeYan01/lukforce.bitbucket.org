@@ -263,9 +263,21 @@ var fortnights = {
         name: 'Donquixote Kids',
         thumb: '1287'
     },
+    1300: {
+        name: 'Halloween Rebecca',
+        thumb: '1300'
+    },
     1302: {
         name: 'Prisoner Baggy',
         thumb: '1302'
+    },
+    1306: {
+        name: 'Halloween Sugar',
+        thumb: '1306'
+    },
+    1326: {
+        name: 'Halloween Corazon',
+        thumb: '1326'
     },
     1328: {
         name: 'Tontatta 1',

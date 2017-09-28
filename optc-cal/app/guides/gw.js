@@ -66,7 +66,10 @@ var gw = {
     1242: '37428',      // Revolutionary Army
     1254: '38337',      // WB Pirates 3
     1287: '39523',      // Donquixote Kids
+    1300: '41925',      // Halloween Rebecca
     1302: '41929',      // Prisoner Buggy
+    1306: '43618',      // Halloween Sugar
+    1326: '44161',      // Halloween Corazon
     1328: '44165',      // Tontatta 1
     1332: '44748',      // Tontatta 2
     1357: '45803',      // Big Mom Pirates

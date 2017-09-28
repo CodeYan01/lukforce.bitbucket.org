@@ -66,7 +66,10 @@ var wiki = {
     1242: 'wiki/fortnight/revolutionary',
     1254: '',   // WB Pirates 3
     1287: '',   // Donquixote Kids
+    1300: '',   // Halloween Rebecca
     1302: '',   // Prisoner Buggy
+    1306: '',   // Halloween Sugar
+    1326: '',   // Halloween Corazon
     1328: 'wiki/fortnight/leo',
     1332: '',   // Tontatta 2
     1357: '',   // Big Mom Pirates

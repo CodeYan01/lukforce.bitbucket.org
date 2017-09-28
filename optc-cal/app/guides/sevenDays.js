@@ -66,7 +66,10 @@ var sd = {
     1242: '2HSGlW_N3hY',    // Revolutionary Army
     1254: '1dwQtF9Rdpc',    // WB Pirates 3
     1287: 'vn_ZATg5gfU',    // Donquixote Kids
+    1300: '',               // Halloween Rebecca
     1302: 'sNDdKUpAjyk',    // Prisoner Buggy
+    1306: '',               // Halloween Sugar
+    1326: '',               // Halloween Corazon
     1328: 'a1E50n6Hr2w',    // Tontatta 1
     1332: 'tNWn2PPQHuM',    // Tontatta 2
     1357: 'PwWC9qDbNJY',    // Big Mom Pirates

@@ -437,10 +437,22 @@ var fortnightEvents = [
         is_replay: true
     },
     {
+        id: 1300,
+        start: '2017-10-02',
+        end: '2017-10-09',
+        is_replay: false
+    },
+    {
         id: [337, 635, 1003],
         start: '2017-10-03',
         end: '2017-10-10',
         is_replay: true
+    },
+    {
+        id: 1306,
+        start: '2017-10-09',
+        end: '2017-10-16',
+        is_replay: false
     },
     {
         id: [322, 538, 1137],
@@ -449,10 +461,22 @@ var fortnightEvents = [
         is_replay: true
     },
     {
+        id: 1326,
+        start: '2017-10-16',
+        end: '2017-10-23',
+        is_replay: false
+    },
+    {
         id: [318, 405, 1328],
         start: '2017-10-17',
         end: '2017-10-24',
         is_replay: true
+    },
+    {
+        id: [1300, 1306, 1326],
+        start: '2017-10-23',
+        end: '2017-10-31',
+        is_replay: false
     },
     {
         id: [392, 852, 1215],
