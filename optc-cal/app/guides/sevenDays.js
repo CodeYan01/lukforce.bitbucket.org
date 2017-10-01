@@ -150,7 +150,7 @@ var sd = {
     1104: 'a0niFXU2nJ8',    // Ain
     1106: 'p2sug3M7BCk',    // Binz
     1141: 'Qrg0iUyS2zs',    // Moria
-    1196: '',               // Ganfor
+    1196: 'UJ8DRgMwlCg',    // Ganfor
     1220: 'h-KU7jQnZv4',    // Byrnndi World
     1310: '',               // Kinemon
     1338: '',               // Kanjuro
@@ -158,5 +158,5 @@ var sd = {
     1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine
-    1525: '',               // Suleiman
+    1525: '3xCjhZb50lc',    // Suleiman
 };
