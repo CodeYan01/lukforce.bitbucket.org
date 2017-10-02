@@ -455,6 +455,18 @@ var fortnightEvents = [
         is_replay: false
     },
     {
+        id: 885,
+        start: '2017-10-10',
+        end: '2017-10-17',
+        is_replay: false
+    },
+    {
+        id: 885,
+        start: '2017-10-17',
+        end: '2017-10-24',
+        is_replay: false
+    },
+    {
         id: [322, 538, 1137],
         start: '2017-10-10',
         end: '2017-10-17',

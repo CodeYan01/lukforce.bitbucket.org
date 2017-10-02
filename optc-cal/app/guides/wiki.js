@@ -45,6 +45,7 @@ var wiki = {
     808: 'wiki/fortnight/bridenami',
     848: 'wiki/fortnight/tom',
     852: 'wiki/fortnight/wapol',
+    885: '',    // Kimono Jinbe
     897: 'comments/42q50a/jp_crocodile_fortnight_guide',
     918: 'wiki/fortnight/marguerite',
     929: 'wiki/fortnight/hannyabal',
