@@ -45,6 +45,7 @@ drops = {
     808: 'Operation:%20Proposal!%20Fortnight',
     848: 'Tom%27s%20Workers%20Fortnight',
     852: 'Wapol%27s%20Revenge%20Fortnight',
+    866: 'Lightning%20Speed!%20Strawhat%20Crew%27s%20Surprise%20Visit%20Fortnight',
     885: 'Riverside%20Banquet!%20Enter%20the%20Crazy%20Ones!%20Fortnight',
     897: 'Mountaintop%20Banquet!%20Enter%20the%20Generals!%20Fortnight',
     918: 'The%20Secret%20Garden!%20Men%20are%20Forbidden!?%20Fortnight',

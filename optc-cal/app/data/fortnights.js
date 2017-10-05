@@ -179,6 +179,10 @@ var fortnights = {
         name: 'Wapol',
         thumb: '0852'
     },
+    866: {
+        name: 'Kimono Robin',
+        thumb: '0866'
+    },
     885: {
         name: 'Kimono Jinbe',
         thumb: '0885'

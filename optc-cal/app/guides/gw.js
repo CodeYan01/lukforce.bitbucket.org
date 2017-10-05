@@ -45,6 +45,7 @@ var gw = {
     808: '19174',       // Wedding Nami
     848: '19833',       // Tom's Workers
     852: '20486',       // Wapol
+    866: '21531',       // Kimono Robin
     885: '22422',       // Kimono Jinbe
     897: '23048',       // Kimono Croc
     918: '23688',       // Kuja

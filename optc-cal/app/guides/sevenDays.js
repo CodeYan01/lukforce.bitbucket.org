@@ -45,6 +45,7 @@ var sd = {
     808: 'fDzd1CvFi70',     // Wedding Nami
     848: 'j226tz_oRh8',     // Tom's Workers
     852: 'i4Wlw8gk1mU',     // Wapol
+    866: '',                // Kimono Robin
     885: '',                // Kimono Jinbe
     897: '',                // Kimono Croc
     918: 'J-43fLX58nk',     // Kuja
