@@ -80,6 +80,7 @@ drops = {
     1426: 'Chinjao%20Family!%20Fortnight',
     1450: 'Fugitive%20of%20Love%20and%20Passion!!%20Fortnight',
     1469: 'Gatekeeper%20of%20the%20New%20World!%20Fortnight',
+    1509: 'Departure!%20Whitebeard%20Pirates%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

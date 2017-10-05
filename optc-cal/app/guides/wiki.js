@@ -65,7 +65,7 @@ var wiki = {
     1203: '',   // Rumbar Pirates
     1215: 'wiki/fortnight/worldpirates',
     1242: 'wiki/fortnight/revolutionary',
-    1254: '',   // WB Pirates 3
+    1254: '',   // WB Alliances
     1287: '',   // Donquixote Kids
     1300: '',   // Halloween Rebecca
     1302: '',   // Prisoner Buggy
@@ -80,6 +80,7 @@ var wiki = {
     1426: 'comments/6ydcrn/eng_intense_combat_chin_jao_family',
     1450: 'comments/71b58c/eng_passionate_exile_fn_violet_stage_breakdown',
     1469: '',   // Sentomaru
+    1509: '',   // WB Pirates 3
 
     // Raids
     227: 'wiki/raidboss/mihawk',

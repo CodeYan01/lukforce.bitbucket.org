@@ -65,7 +65,7 @@ var sd = {
     1203: '',               // Rumbar Pirates
     1215: 'uAU9P4lv71k',    // World Pirates
     1242: '2HSGlW_N3hY',    // Revolutionary Army
-    1254: '1dwQtF9Rdpc',    // WB Pirates 3
+    1254: '1dwQtF9Rdpc',    // WB Alliances
     1287: 'vn_ZATg5gfU',    // Donquixote Kids
     1300: '',               // Halloween Rebecca
     1302: 'sNDdKUpAjyk',    // Prisoner Buggy
@@ -80,6 +80,7 @@ var sd = {
     1426: '',               // Don Sai
     1450: 'lG5cTCXV4Zw',    // Violet
     1469: 'ow8QfYE4t_4',    // Sentomaru
+    1509: '',               // WB Pirates 3
 
     // Raids
     227: '',                // Mihawk

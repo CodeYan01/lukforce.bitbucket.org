@@ -65,7 +65,7 @@ var gw = {
     1203: '35909',      // Rumbar Pirates
     1215: '36739',      // World Pirates
     1242: '37428',      // Revolutionary Army
-    1254: '38337',      // WB Pirates 3
+    1254: '38337',      // WB Alliances
     1287: '39523',      // Donquixote Kids
     1300: '41925',      // Halloween Rebecca
     1302: '41929',      // Prisoner Buggy
@@ -80,6 +80,7 @@ var gw = {
     1426: '49863',      // Don Sai
     1450: '50896',      // Violet
     1469: '51925',      // Sentomaru
+    1509: '52630',      // WB Pirates 3
 
     // Raids
     227: '4142',        // Mihawk

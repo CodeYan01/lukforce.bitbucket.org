@@ -260,7 +260,7 @@ var fortnights = {
         thumb: '1242'
     },
     1254: {
-        name: 'WB Pirates 3',
+        name: 'WB Alliances',
         thumb: '1254'
     },
     1287: {
@@ -318,5 +318,9 @@ var fortnights = {
     1469: {
         name: 'Sentomaru',
         thumb: '1469'
+    },
+    1509: {
+        name: 'WB Pirates 3',
+        thumb: '1509'
     },
 };
