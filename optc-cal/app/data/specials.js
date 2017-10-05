@@ -24,4 +24,10 @@ var specials = {
         thumb: '0716',
         name: 'Conis'
     },
+
+    'sd_1314': {
+        type: 'Showdown',
+        thumb: '1314',
+        name: 'Three Admirals'
+    }
 }
