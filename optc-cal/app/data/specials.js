@@ -25,8 +25,8 @@ var specials = {
         name: 'Conis'
     },
 
-    'sd_1314': {
-        type: 'Showdown',
+    'br_1314': {
+        type: 'Battle Royale',
         thumb: '1314',
         name: 'Three Admirals'
     }
