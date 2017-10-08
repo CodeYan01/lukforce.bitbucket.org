@@ -70,8 +70,8 @@ var sd = {
     1287: 'vn_ZATg5gfU',    // Donquixote Kids
     1300: '',               // Halloween Rebecca
     1302: 'sNDdKUpAjyk',    // Prisoner Buggy
-    1306: '',               // Halloween Sugar
-    1326: '',               // Halloween Corazon
+    1306: 'ew1gcnjxwd8',    // Halloween Sugar
+    1326: 'fAB2O8Szykk',    // Halloween Corazon
     1328: 'a1E50n6Hr2w',    // Tontatta 1
     1332: 'tNWn2PPQHuM',    // Tontatta 2
     1357: 'PwWC9qDbNJY',    // Big Mom Pirates
@@ -81,7 +81,7 @@ var sd = {
     1426: '',               // Don Sai
     1450: 'lG5cTCXV4Zw',    // Violet
     1469: 'ow8QfYE4t_4',    // Sentomaru
-    1509: '',               // WB Pirates 3
+    1509: 'uc4mtxX7828',    // WB Pirates 3
 
     // Raids
     227: '',                // Mihawk
