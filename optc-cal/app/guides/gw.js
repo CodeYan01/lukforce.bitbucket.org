@@ -162,4 +162,7 @@ var gw = {
     1458: '50806',      // Kuro
     1460: '50807',      // Ms. Valentine
     1525: '60230',      // Suleiman
+
+    // Event
+    'br_1314': '61665', // Three Admirals
 };

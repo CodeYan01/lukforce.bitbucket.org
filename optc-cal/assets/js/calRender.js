@@ -174,6 +174,8 @@
 
                 res['color'] = 'rgba(75, 0, 130, 0.6)';
                 res['textColor'] = 'black';
+
+                res['subType'] = sp['type'];
             }
 
             res['id'] = id;
@@ -266,6 +268,8 @@
                 data = raids[id];
             else if (e['type'] === 'coliseum')
                 data = coliseums[id];
+            else if (e['type'] === 'special')
+                data = specials[id];
 
             if (e['ambush'] && !data)
                 data = ambushes[id];
@@ -386,7 +390,11 @@
                     return event['start'].isAfter(event['permaStart']);
             },
             eventClick: function(event) {
-                if (event['type'] === 'fortnight' || event['type'] === 'raid' || event['type'] === 'coliseum') {
+                if (event['type'] === 'fortnight'
+                    || event['type'] === 'raid'
+                    || event['type'] === 'coliseum'
+                    || (event['type'] === 'special' && event['subType'] === 'Battle Royale')
+                ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);
                     $('#eventDetailModal').modal();
