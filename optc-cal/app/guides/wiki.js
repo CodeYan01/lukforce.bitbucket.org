@@ -47,7 +47,7 @@ var wiki = {
     852: 'wiki/fortnight/wapol',
     866: '',    // Kimono Robin
     885: '',    // Kimono Jinbe
-    897: 'comments/42q50a/jp_crocodile_fortnight_guide',
+    897: 'comments/42q50a',
     918: 'wiki/fortnight/marguerite',
     929: 'wiki/fortnight/hannyabal',
     946: 'wiki/fortnight/wbpirates1',
@@ -78,8 +78,8 @@ var wiki = {
     1384: '',   // Toy Soldier
     1397: '',   // Shambles G5
     1416: 'wiki/fortnight/sengoku',
-    1426: 'comments/6ydcrn/eng_intense_combat_chin_jao_family',
-    1450: 'comments/71b58c/eng_passionate_exile_fn_violet_stage_breakdown',
+    1426: 'comments/6ydcrn',
+    1450: 'comments/71b58c',
     1469: '',   // Sentomaru
     1509: '',   // WB Pirates 3
 
@@ -107,8 +107,8 @@ var wiki = {
     1108: 'wiki/raidboss/shiki',
     1163: 'wiki/raidboss/tesoro',
     1298: 'wiki/raidboss/akainu',
-    1374: 'comments/6zwvcn/eng_clash_magellan_stage_breakdown',
-    1518: 'comments/6za7ru/eng_clash_bellamy_stage_breakdown',
+    1374: 'comments/6zwvcn',
+    1518: 'comments/6za7ru',
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
@@ -152,14 +152,14 @@ var wiki = {
     1102: 'wiki/coliseum/zephyr2',
     1104: 'wiki/coliseum/ain',
     1106: 'wiki/coliseum/binz',
-    1141: 'comments/6rmms9/moria_colosseum_guide',
+    1141: 'comments/6rmms9',
     1196: '',   // Ganfor
     1220: '',   // Byrnndi World
-    1310: 'comments/6ywcrv/kinemon_colosseum_guide',
-    1338: 'comments/70qjmd/kanjuro_colosseum_guide',
+    1310: 'comments/6ywcrv',
+    1338: 'comments/70qjmd',
     1378: '',   // Marguerite
     1456: '',   // Don Chin Jao
-    1458: 'comments/6ust2n/kuro_colosseum_guide',
+    1458: 'comments/6ust2n',
     1460: '',   // Ms. Valentine
     1525: '',   // Suleiman
 };
