@@ -159,8 +159,11 @@ var sd = {
     1310: '',               // Kinemon
     1338: '',               // Kanjuro
     1378: '',               // Marguerite
+    1401: '',               // Gladius
+    1423: '',               // T-Bone
     1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine
     1525: '3xCjhZb50lc',    // Suleiman
+    1584: '',               // Orlumbus
 };

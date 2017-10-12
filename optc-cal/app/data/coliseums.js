@@ -155,6 +155,14 @@ var coliseums = {
         name: 'Marguerite',
         thumb: '1378'
     },
+    1401: {
+        name: 'Gladius',
+        thumb: '1401'
+    },
+    1423: {
+        name: 'T-Bone',
+        thumb: '1423'
+    },
     1456: {
         name: 'Don Chin Jao',
         thumb: '1456'
@@ -170,5 +178,9 @@ var coliseums = {
     1525: {
         name: 'Suleiman',
         thumb: '1525'
+    },
+    1584: {
+        name: 'Orlumbus',
+        thumb: '1584'
     },
 };

@@ -159,8 +159,11 @@ var wiki = {
     1310: 'comments/6ywcrv',                // Kinemon
     1338: 'comments/70qjmd',                // Kanjuro
     1378: '',                               // Marguerite
+    1401: '',                               // Gladius
+    1423: '',                               // T-Bone
     1456: '',                               // Don Chin Jao
     1458: 'comments/6ust2n',                // Kuro
     1460: '',                               // Ms. Valentine
     1525: '',                               // Suleiman
+    1584: '',                               // Orlumbus
 };

@@ -74,8 +74,11 @@ var videoWiki = {
     1310: 'coliseum/kinemon',
     1338: 'coliseum/kanjuro',
     1378: 'coliseum/marguerite',
+    1401: 'coliseum/gladius',
+    1423: 'coliseum/tbone',
     1456: 'coliseum/don_chinjao',
     1458: 'coliseum/kuro',
     1460: 'coliseum/miss_valentine',
     1525: 'coliseum/suleiman',
+    1584: 'coliseum/orlumbus',
 };

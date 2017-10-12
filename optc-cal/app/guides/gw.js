@@ -159,10 +159,13 @@ var gw = {
     1310: '63087',      // Kinemon
     1338: '57556',      // Kanjuro
     1378: '46329',      // Marguerite
+    1401: '63832',      // Gladius
+    1423: '48807',      // T-Bone
     1456: '66708',      // Don Chin Jao
     1458: '50806',      // Kuro
     1460: '50807',      // Ms. Valentine
     1525: '60230',      // Suleiman
+    1584: '56053',      // Orlumbus
 
     // Event
     'br_1314': '61665', // Three Admirals
