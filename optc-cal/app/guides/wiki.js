@@ -8,7 +8,7 @@ var wiki = {
     228: 'wiki/fortnight/morgan',
     232: 'wiki/fortnight/hina',
     263: 'wiki/fortnight/cobimeppo',
-    268: '',    // Smoker
+    268: '',                                // Smoker
     297: 'wiki/fortnight/tsuru',
     318: 'wiki/fortnight/kalifa',
     322: 'wiki/fortnight/lucci',
@@ -45,9 +45,9 @@ var wiki = {
     808: 'wiki/fortnight/bridenami',
     848: 'wiki/fortnight/tom',
     852: 'wiki/fortnight/wapol',
-    866: '',    // Kimono Robin
+    866: '',                                // Kimono Robin
     885: 'comments/75o41m',                 // Kimono Jinbe
-    897: 'comments/42q50a',
+    897: 'comments/42q50a',                 // Kimono Croc
     918: 'wiki/fortnight/marguerite',
     929: 'wiki/fortnight/hannyabal',
     946: 'wiki/fortnight/wbpirates1',
@@ -55,31 +55,31 @@ var wiki = {
     1003: 'wiki/fortnight/heartpirates',
     1011: 'wiki/fortnight/butler',
     1037: 'wiki/fortnight/ivan',
-    1049: '',   // Nico Olvia
+    1049: '',                               // Nico Olvia
     1072: 'wiki/fortnight/deadend',
     1095: 'wiki/fortnight/goldenlion',
     1112: 'wiki/fortnight/secretrobin',
     1137: 'comments/4sexcq',                // CP9
     1167: 'wiki/fortnight/baccarat',
-    1199: '',   // Summer Bonney
-    1201: '',   // Summer Violet
-    1203: '',   // Rumbar Pirates
+    1199: '',                               // Summer Bonney
+    1201: '',                               // Summer Violet
+    1203: '',                               // Rumbar Pirates
     1215: 'wiki/fortnight/worldpirates',
     1242: 'wiki/fortnight/revolutionary',
-    1254: '',   // WB Alliances
-    1287: '',   // Donquixote Kids
+    1254: '',                               // WB Alliances
+    1287: '',                               // Donquixote Kids
     1300: 'comments/73xx5q',                // Halloween Rebecca
-    1302: '',   // Prisoner Buggy
+    1302: '',                               // Prisoner Buggy
     1306: 'comments/75efgy',                // Halloween Sugar
-    1326: '',   // Halloween Corazon
+    1326: '',                               // Halloween Corazon
     1328: 'wiki/fortnight/leo',
-    1332: '',   // Tontatta 2
-    1357: '',   // Big Mom Pirates
-    1384: '',   // Toy Soldier
-    1397: '',   // Shambles G5
+    1332: '',                               // Tontatta 2
+    1357: '',                               // Big Mom Pirates
+    1384: '',                               // Toy Soldier
+    1397: '',                               // Shambles G5
     1416: 'wiki/fortnight/sengoku',
-    1426: 'comments/6ydcrn',
-    1450: 'comments/71b58c',
+    1426: 'comments/6ydcrn',                // Don Sai
+    1450: 'comments/71b58c',                // Violet
     1469: 'comments/72pt8v',                // Sentomaru
     1509: 'comments/75o9wt',                // WB Pirates 3
 
@@ -107,8 +107,8 @@ var wiki = {
     1108: 'wiki/raidboss/shiki',
     1163: 'wiki/raidboss/tesoro',
     1298: 'wiki/raidboss/akainu',
-    1374: 'comments/6zwvcn',
-    1518: 'comments/6za7ru',
+    1374: 'comments/6zwvcn',                // Magellan
+    1518: 'comments/6za7ru',                // Bellamy
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
@@ -119,26 +119,26 @@ var wiki = {
     1530: 'wiki/cavendish',
 
     // Coliseums
-    777: '',    // Lucky Roux
+    777: '',                                // Lucky Roux
     779: 'wiki/coliseum/rebeca',
     781: 'wiki/coliseum/urouge2',
     804: 'wiki/coliseum/hina',
     806: 'wiki/coliseum/smoker',
     831: 'wiki/coliseum/hawkins',
     833: 'wiki/coliseum/wyper',
-    834: '',    // Mr. 7 & Ms. Father's Day
+    834: '',                                // Mr. 7 & Ms. Father's Day
     860: 'wiki/coliseum/coby',
     862: 'wiki/coliseum/alvida',
     882: 'wiki/coliseum/apoo',
     884: 'wiki/coliseum/dorry',
     901: 'wiki/coliseum/franky2',
     903: 'wiki/coliseum/broggy',
-    904: '',    // Yokozuna
+    904: '',                                // Yokozuna
     924: 'wiki/coliseum/kidsadi',
     926: 'wiki/coliseum/sadie',
     927: 'wiki/coliseum/doberman',
     951: 'wiki/coliseum/ace',
-    953: '',    // Ben Beckman
+    953: '',                                // Ben Beckman
     983: 'wiki/coliseum/vista',
     984: 'wiki/coliseum/paulie',
     1016: 'wiki/coliseum/capone',
@@ -152,14 +152,14 @@ var wiki = {
     1102: 'wiki/coliseum/zephyr2',
     1104: 'wiki/coliseum/ain',
     1106: 'wiki/coliseum/binz',
-    1141: 'comments/6rmms9',
-    1196: '',   // Ganfor
-    1220: '',   // Byrnndi World
-    1310: 'comments/6ywcrv',
-    1338: 'comments/70qjmd',
-    1378: '',   // Marguerite
-    1456: '',   // Don Chin Jao
-    1458: 'comments/6ust2n',
-    1460: '',   // Ms. Valentine
-    1525: '',   // Suleiman
+    1141: 'comments/6rmms9',                // Moria
+    1196: '',                               // Ganfor
+    1220: '',                               // Byrnndi World
+    1310: 'comments/6ywcrv',                // Kinemon
+    1338: 'comments/70qjmd',                // Kanjuro
+    1378: '',                               // Marguerite
+    1456: '',                               // Don Chin Jao
+    1458: 'comments/6ust2n',                // Kuro
+    1460: '',                               // Ms. Valentine
+    1525: '',                               // Suleiman
 };
