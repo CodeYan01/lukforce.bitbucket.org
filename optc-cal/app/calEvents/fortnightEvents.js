@@ -1,4 +1,5 @@
 var fortnightEvents = [
+    // #############################
     {
         id: 1049,
         start: '2017-02-28',
@@ -24,6 +25,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 656
     },
+
+    // #############################
     {
         id: 1137,
         start: '2017-03-14',
@@ -48,6 +51,8 @@ var fortnightEvents = [
         end: '2017-03-28',
         is_replay: true
     },
+
+    // #############################
     {
         id: 1203,
         start: '2017-03-28',
@@ -73,6 +78,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 599
     },
+
+    // #############################
     {
         id: 1215,
         start: '2017-04-11',
@@ -98,6 +105,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 30
     },
+
+    // #############################
     {
         id: 1242,
         start: '2017-04-25',
@@ -123,6 +132,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 808
     },
+
+    // #############################
     {
         id: 1254,
         start: '2017-05-09',
@@ -148,6 +159,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 66
     },
+
+    // #############################
     {
         id: 1287,
         start: '2017-05-23',
@@ -184,6 +197,8 @@ var fortnightEvents = [
         end: '2017-06-09',
         is_replay: true
     },
+
+    // #############################
     {
         id: 1302,
         start: '2017-06-06',
@@ -210,6 +225,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 1167
     },
+
+    // #############################
     {
         id: 1328,
         start: '2017-06-20',
@@ -234,6 +251,8 @@ var fortnightEvents = [
         end: '2017-07-04',
         is_replay: true
     },
+
+    // #############################
     {
         id: 1332,
         start: '2017-07-04',
@@ -260,6 +279,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 538
     },
+
+    // #############################
     {
         id: 1357,
         start: '2017-07-18',
@@ -284,6 +305,8 @@ var fortnightEvents = [
         end: '2017-08-01',
         is_replay: true
     },
+
+    // #############################
     {
         id: 1384,
         start: '2017-08-01',
@@ -308,6 +331,8 @@ var fortnightEvents = [
         end: '2017-08-15',
         is_replay: true
     },
+
+    // #############################
     {
         id: 1397,
         start: '2017-08-15',
@@ -345,6 +370,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 386
     },
+
+    // #############################
     {
         id: 897,
         start: '2017-08-29',
@@ -376,6 +403,8 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 1203
     },
+
+    // #############################
     {
         id: 1426,
         start: '2017-09-05',
@@ -400,6 +429,8 @@ var fortnightEvents = [
         end: '2017-09-19',
         is_replay: true
     },
+
+    // #############################
     {
         id: 1450,
         start: '2017-09-19',
@@ -418,6 +449,8 @@ var fortnightEvents = [
         end: '2017-09-26',
         is_replay: true
     },
+
+    // #############################
     {
         id: 1469,
         start: '2017-09-26',
@@ -454,6 +487,8 @@ var fortnightEvents = [
         end: '2017-10-16',
         is_replay: false
     },
+
+    // #############################
     {
         id: 1509,
         start: '2017-10-10',
@@ -484,6 +519,8 @@ var fortnightEvents = [
         end: '2017-10-23',
         is_replay: false
     },
+
+    // #############################
     {
         id: 1520,
         start: '2017-10-17',
