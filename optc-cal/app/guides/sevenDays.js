@@ -82,6 +82,7 @@ var sd = {
     1450: 'lG5cTCXV4Zw',    // Violet
     1469: 'ow8QfYE4t_4',    // Sentomaru
     1509: 'uc4mtxX7828',    // WB Pirates 3
+    1520: '',               // Dadan
 
     // Raids
     227: '',                // Mihawk

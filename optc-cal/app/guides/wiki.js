@@ -82,6 +82,7 @@ var wiki = {
     1450: 'comments/71b58c',                // Violet
     1469: 'comments/72pt8v',                // Sentomaru
     1509: 'comments/75o9wt',                // WB Pirates 3
+    1520: '',                               // Dadan
 
     // Raids
     227: 'wiki/raidboss/mihawk',

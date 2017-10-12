@@ -82,6 +82,7 @@ var gw = {
     1450: '50896',      // Violet
     1469: '51925',      // Sentomaru
     1509: '52630',      // WB Pirates 3
+    1520: '53570',      // Dadan
 
     // Raids
     227: '4142',        // Mihawk
