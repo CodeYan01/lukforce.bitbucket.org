@@ -46,7 +46,7 @@ var wiki = {
     848: 'wiki/fortnight/tom',
     852: 'wiki/fortnight/wapol',
     866: '',    // Kimono Robin
-    885: '',    // Kimono Jinbe
+    885: 'comments/75o41m',                 // Kimono Jinbe
     897: 'comments/42q50a',
     918: 'wiki/fortnight/marguerite',
     929: 'wiki/fortnight/hannyabal',
@@ -59,7 +59,7 @@ var wiki = {
     1072: 'wiki/fortnight/deadend',
     1095: 'wiki/fortnight/goldenlion',
     1112: 'wiki/fortnight/secretrobin',
-    1137: '',   // CP9
+    1137: 'comments/4sexcq',                // CP9
     1167: 'wiki/fortnight/baccarat',
     1199: '',   // Summer Bonney
     1201: '',   // Summer Violet
@@ -68,9 +68,9 @@ var wiki = {
     1242: 'wiki/fortnight/revolutionary',
     1254: '',   // WB Alliances
     1287: '',   // Donquixote Kids
-    1300: '',   // Halloween Rebecca
+    1300: 'comments/73xx5q',                // Halloween Rebecca
     1302: '',   // Prisoner Buggy
-    1306: '',   // Halloween Sugar
+    1306: 'comments/75efgy',                // Halloween Sugar
     1326: '',   // Halloween Corazon
     1328: 'wiki/fortnight/leo',
     1332: '',   // Tontatta 2
@@ -80,8 +80,8 @@ var wiki = {
     1416: 'wiki/fortnight/sengoku',
     1426: 'comments/6ydcrn',
     1450: 'comments/71b58c',
-    1469: '',   // Sentomaru
-    1509: '',   // WB Pirates 3
+    1469: 'comments/72pt8v',                // Sentomaru
+    1509: 'comments/75o9wt',                // WB Pirates 3
 
     // Raids
     227: 'wiki/raidboss/mihawk',
