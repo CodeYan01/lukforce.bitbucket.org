@@ -46,7 +46,7 @@ var sd = {
     848: 'j226tz_oRh8',     // Tom's Workers
     852: 'i4Wlw8gk1mU',     // Wapol
     866: '',                // Kimono Robin
-    885: '',                // Kimono Jinbe
+    885: 'N0RmExl4j1g',     // Kimono Jinbe
     897: '',                // Kimono Croc
     918: 'J-43fLX58nk',     // Kuja
     929: 'FIGMaJ8mqDo',     // Hannyabal
