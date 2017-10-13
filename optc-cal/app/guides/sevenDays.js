@@ -110,6 +110,7 @@ var sd = {
     1298: 'r5eGwr0YXLQ',    // Akainu
     1374: 'rovn-Gghe2I',    // Magellan
     1518: '',               // Bellamy
+    9999: '',               // Rayleigh
 
     1623: '',               //'oirn-E-ayNM',    // Doflamingo (N)
     1669: '',               // Aokiji (N)

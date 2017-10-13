@@ -111,4 +111,8 @@ var raids = {
         name: 'Mihawk (N)',
         thumb: '1680'
     },
+    9999: {
+        name: 'Rayleigh',
+        thumb: '9999'
+    },
 };

@@ -110,6 +110,7 @@ var wiki = {
     1298: 'wiki/raidboss/akainu',
     1374: 'comments/6zwvcn',                // Magellan
     1518: 'comments/6za7ru',                // Bellamy
+    9999: '',                               // Rayleigh
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
