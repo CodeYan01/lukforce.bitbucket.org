@@ -86,18 +86,18 @@
         coliseumEvents.forEach(function(e) {
             var res = {};
 
+            res['thumb'] = [];
+
             var newId = e['newId'];
-            res['newThumb'] = [];
             for (var i = 0; i < newId.length; i++) {
                 var newColi = coliseums[newId[i]];
-                res['newThumb'].push(newColi['thumb']);
+                res['thumb'].push(newColi['thumb']);
             }
 
             var repId = e['repId'];
-            res['repThumb'] = [];
             for (var i = 0; i < repId.length; i++) {
                 var repColi = coliseums[repId[i]];
-                res['repThumb'].push(repColi['thumb']);
+                res['thumb'].push(repColi['thumb']);
             }
 
             if (e['ambush']) {
@@ -116,7 +116,8 @@
             if (e['end'])
                 res['end'] = e['end'];
 
-            res['color'] = 'rgba(0, 0, 255, 0.6)';
+            var opacity = e['new_batch'] ? 0.6 : 0.3;
+            res['color'] = 'rgba(0, 0, 255, ' + opacity + ')';
 
             eventArray.push(res);
         });
@@ -375,11 +376,12 @@
                         element.find('.fc-title').after('<i class="fa fa-trophy fa-lg"></i>');
                     }
                 } else if (event['type'] === 'coliseum') {
-                    for (var i = 0; i < event['newThumb'].length; i++)
-                        element.find('.fc-title').before(createImgHtml(getThumb(event['newThumb'][i]), 30, true));
-
-                    for (var i = 0; i < event['repThumb'].length; i++)
-                        element.find('.fc-title').before(createImgHtml(getThumb(event['repThumb'][i]), 20, true));
+                    for (var i = 0; i < event['thumb'].length; i++) {
+                        if (coliseums[event['id'][i]].chaos_only)
+                            element.find('.fc-title').before(createImgHtml(getThumb(event['thumb'][i]), 30, true));
+                        else
+                            element.find('.fc-title').before(createImgHtml(getThumb(event['thumb'][i]), 20, true));
+                    }
                 } else if (event['type'] === 'raidAmbush' || event['type'] === 'coliAmbush') {
                     element.find('.fc-title').before(createImgHtml(getThumb(event['thumb']), 15, true));
                 } else {
