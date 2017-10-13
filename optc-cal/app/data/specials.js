@@ -1,33 +1,33 @@
 var specials = {
     'ss_0394': {
         type: 'Secret Stage',
-        thumb: '0394',
-        name: 'Dog Penguin'
+        name: 'Dog Penguin',
+        thumb: '0394'
     },
     'ss_0436': {
         type: 'Secret Stage',
-        thumb: '0436',
-        name: 'Sanji Candy'
+        name: 'Sanji Candy',
+        thumb: '0436'
     },
     'ss_0511': {
         type: 'Secret Stage',
-        thumb: '0511',
-        name: 'Mr. 1'
+        name: 'Mr. 1',
+        thumb: '0511'
     },
     'ss_0584': {
         type: 'Secret Stage',
-        thumb: '0584',
-        name: 'Aisa'
+        name: 'Aisa',
+        thumb: '0584'
     },
     'ss_0716': {
         type: 'Secret Stage',
-        thumb: '0716',
-        name: 'Conis'
+        name: 'Conis',
+        thumb: '0716'
     },
 
     'br_1314': {
         type: 'Battle Royale',
-        thumb: '1314',
-        name: 'Three Admirals'
+        name: 'Three Admirals',
+        thumb: '1314'
     }
 }
