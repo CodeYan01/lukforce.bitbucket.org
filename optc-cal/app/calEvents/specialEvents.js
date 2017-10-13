@@ -16,7 +16,7 @@ var specialEvents = [
     },
     {
         id: 'dummy',
-        start: '2017-10-13',
+        start: '2017-10-12',
         end: '2017-10-15'
     },
 
