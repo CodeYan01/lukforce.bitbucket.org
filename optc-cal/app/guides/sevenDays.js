@@ -166,5 +166,5 @@ var sd = {
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine
     1525: '3xCjhZb50lc',    // Suleiman
-    1584: '',               // Orlumbus
+    1584: 'plzyiRQ37b8',    // Orlumbus
 };
