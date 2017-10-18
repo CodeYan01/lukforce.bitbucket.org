@@ -45,7 +45,7 @@ var wiki = {
     808: 'wiki/fortnight/bridenami',
     848: 'wiki/fortnight/tom',
     852: 'wiki/fortnight/wapol',
-    866: '',                                // Kimono Robin
+    866: 'comments/774op9',                 // Kimono Robin
     885: 'comments/75o41m',                 // Kimono Jinbe
     897: 'comments/42q50a',                 // Kimono Croc
     918: 'wiki/fortnight/marguerite',
@@ -71,7 +71,7 @@ var wiki = {
     1300: 'comments/73xx5q',                // Halloween Rebecca
     1302: '',                               // Prisoner Buggy
     1306: 'comments/75efgy',                // Halloween Sugar
-    1326: '',                               // Halloween Corazon
+    1326: 'comments/76w6yc',                // Halloween Corazon
     1328: 'wiki/fortnight/leo',
     1332: '',                               // Tontatta 2
     1357: '',                               // Big Mom Pirates
@@ -82,7 +82,7 @@ var wiki = {
     1450: 'comments/71b58c',                // Violet
     1469: 'comments/72pt8v',                // Sentomaru
     1509: 'comments/75o9wt',                // WB Pirates 3
-    1520: '',                               // Dadan
+    1520: 'comments/7742ll',                // Dadan
 
     // Raids
     227: 'wiki/raidboss/mihawk',
