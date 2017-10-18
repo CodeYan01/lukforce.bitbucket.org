@@ -470,6 +470,7 @@ var coliseumEvents = [
         newId: [1401, 1584, 1423],
         repId: [806, 953],
         start: '2017-10-18',
+        ambush: shanks,
         new_batch: true
     },
     {
@@ -477,6 +478,7 @@ var coliseumEvents = [
         repId: [806, 953],
         start: '2017-10-20',
         end: '2017-10-22',
+        ambush: shanks,
         new_batch: true
     },
     {
@@ -517,6 +519,7 @@ var coliseumEvents = [
         newId: [],
         repId: [882, 1141, 779],
         start: '2017-10-19',
+        ambush: shanks,
         new_batch: false
     },
     {
