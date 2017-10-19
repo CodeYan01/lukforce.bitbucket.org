@@ -372,6 +372,11 @@ var specialBgEvents = [
         end: '2017-10-12'
     },
     {
+        id: 'sugo',
+        start: '2017-10-11',
+        end: '2017-10-13'
+    },
+    {
         id: 'elder',
         start: '2017-10-14'
     },
@@ -390,6 +395,11 @@ var specialBgEvents = [
         end: '2017-10-28'
     },
     {
+        id: 'sugo',
+        start: '2017-10-24',
+        end: '2017-10-26'
+    },
+    {
         id: 'fp',
         start: '2017-10-24',
         end: '2017-11-01'
@@ -398,10 +408,5 @@ var specialBgEvents = [
         id: 'mat',
         start: '2017-10-29',
         end: '2017-11-01'
-    },
-    {
-        id: 'sugo',
-        start: '2017-10-11',
-        end: '2017-10-13'
     },
 ]
