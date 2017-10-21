@@ -395,7 +395,7 @@
                 if (event['type'] === 'fortnight'
                     || event['type'] === 'raid'
                     || event['type'] === 'coliseum'
-                    || (event['type'] === 'special' && event['subType'] === 'Battle Royale')
+                    || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
                 ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);

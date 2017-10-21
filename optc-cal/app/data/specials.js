@@ -25,8 +25,8 @@ var specials = {
         thumb: '0716'
     },
 
-    'br_1314': {
-        type: 'Battle Royale',
+    'bb_1314': {
+        type: 'Blitz Battle',
         name: 'Three Admirals',
         thumb: '1314'
     }

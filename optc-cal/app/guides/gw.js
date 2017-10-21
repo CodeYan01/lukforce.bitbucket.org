@@ -169,5 +169,5 @@ var gw = {
     1584: '56053',      // Orlumbus
 
     // Event
-    'br_1314': '61665', // Three Admirals
+    'bb_1314': '61665', // Three Admirals
 };
