@@ -27,9 +27,11 @@ var x = setInterval(function() {
     } else if (akainuEndCd.value > 0) {
         $('#akainu-begin-end').html('ends');
         $('#akainu-cd').html(akainuEndCd.toString());
-        $('#akainu-half-sta').css('display', '');
-    } else
+        $('#akainu-half-sta').show();
+    } else {
         $('#akainu-txt').html('has ended');
+        $('#akainu-half-sta').hide();
+    }
 
     // Kizaru timer
     var kizaruStart = new Date(Date.UTC(2017, 9, 26, 3, 0, 0));
@@ -43,9 +45,11 @@ var x = setInterval(function() {
     } else if (kizaruEndCd.value > 0) {
         $('#kizaru-begin-end').html('ends');
         $('#kizaru-cd').html(kizaruEndCd.toString());
-        $('#kizaru-half-sta').css('display', '');
-    } else
+        $('#kizaru-half-sta').show();
+    } else {
         $('#kizaru-txt').html('has ended');
+        $('#kizaru-half-sta').hide();
+    }
 
     // Aokiji timer
     var aokijiStart = new Date(Date.UTC(2017, 9, 25, 20, 0, 0));
@@ -59,13 +63,17 @@ var x = setInterval(function() {
     } else if (aokijiEndCd.value > 0) {
         $('#aokiji-begin-end').html('ends');
         $('#aokiji-cd').html(aokijiEndCd.toString());
-        $('#aokiji-half-sta').css('display', '');
-    } else
+        $('#aokiji-half-sta').show();
+    } else {
         $('#aokiji-txt').html('has ended');
+        $('#aokiji-half-sta').hide();
+    }
 
     // Clear interval after event ends
     if (mainEndCd.value < 0) {
         clearInterval(x);
         $('#main-txt').html('has ended');
+        $('.event-row').hide();
+        $('.end-event-row').show();
     }
 }, 1000);

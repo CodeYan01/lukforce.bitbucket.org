@@ -5,7 +5,7 @@ body {
     font-size: 15px;
 }
 
-#content-table,
+#container,
 #optc-cal,
 #disclaimer {
     width: 100%;
@@ -27,8 +27,22 @@ body {
     font-size: 25px;
 }
 
+#main-begin-end,
+#akainu-begin-end,
+#kizaru-begin-end,
+#aokiji-begin-end {
+    font-weight: bold;
+}
+
+
 #akainu-half-sta,
 #kizaru-half-sta,
 #aokiji-half-sta {
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+
+.end-event-row {
     display: none;
 }
