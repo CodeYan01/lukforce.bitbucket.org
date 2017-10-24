@@ -34,7 +34,7 @@
             res['end'] = e['end'];
 
             var opacity = e['is_replay'] ? 0.3 : 0.6;
-            res['color'] = 'rgba(255, 0, 0, ' + opacity + ')';
+            res['color'] = 'rgba(250, 128, 114, ' + opacity + ')';
             res['textColor'] = 'black';
 
             eventArray.push(res);
@@ -75,7 +75,7 @@
             if (e['end'])
                 res['end'] = e['end'];
 
-            res['color'] = 'rgba(60, 179, 113, 0.6)';
+            res['color'] = 'rgba(102, 205, 170, 0.6)';
             res['textColor'] = 'black';
 
             eventArray.push(res);
@@ -117,7 +117,7 @@
                 res['end'] = e['end'];
 
             var opacity = e['new_batch'] ? 0.6 : 0.3;
-            res['color'] = 'rgba(0, 0, 255, ' + opacity + ')';
+            res['color'] = 'rgba(30, 144, 255, ' + opacity + ')';
 
             eventArray.push(res);
         });
@@ -137,13 +137,13 @@
 
         if ('raid' === src) {
             res['type'] = 'raidAmbush';
-            res['color'] = 'rgba(60, 179, 113, 0.6)';
+            res['color'] = 'rgba(102, 205, 170, 0.6)';
 
             start += ' 06:00';
             res['start'] = start;
         } else {
             res['type'] = 'coliAmbush';
-            res['color'] = 'rgba(0, 0, 255, 0.6)';
+            res['color'] = 'rgba(30, 144, 255, 0.6)';
 
             start += ' 04:00';
             res['start'] = start;
@@ -173,7 +173,7 @@
 
                 res['thumb'] = sp['thumb'];
 
-                res['color'] = 'rgba(75, 0, 130, 0.6)';
+                res['color'] = 'rgba(70, 130, 180, 0.6)';
                 res['textColor'] = 'black';
 
                 res['subType'] = sp['type'];
