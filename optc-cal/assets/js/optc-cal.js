@@ -297,6 +297,10 @@
             ed.show();
         }
 
+        // Special case for Blitz Battle
+        if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
+            $('.countdown').show();
+
         var modalCloseButton = $('#modalCloseButton').clone();
         $('#eventDetail').append(modalCloseButton);
         $(modalCloseButton).show();
