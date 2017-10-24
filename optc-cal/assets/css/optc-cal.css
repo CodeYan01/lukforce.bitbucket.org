@@ -5,6 +5,10 @@ body {
     font-size: 15px;
 }
 
+button {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #footer,
 #optc-agenda,
 #info,
