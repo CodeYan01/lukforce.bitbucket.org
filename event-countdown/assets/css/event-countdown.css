@@ -27,17 +27,12 @@ body {
     font-size: 25px;
 }
 
-#main-begin-end,
-#akainu-begin-end,
-#kizaru-begin-end,
-#aokiji-begin-end {
+.begin-end {
     font-weight: bold;
 }
 
 
-#akainu-half-sta,
-#kizaru-half-sta,
-#aokiji-half-sta {
+.half-sta {
     display: none;
     color: red;
     font-weight: bold;
