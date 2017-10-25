@@ -110,7 +110,7 @@ var wiki = {
     1298: 'wiki/raidboss/akainu',
     1374: 'comments/6zwvcn',                // Magellan
     1518: 'comments/6za7ru',                // Bellamy
-    5010: '',                               // Rayleigh
+    5010: 'comments/77jr7y',                // Rayleigh
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
@@ -156,8 +156,8 @@ var wiki = {
     1104: 'wiki/coliseum/ain',
     1106: 'wiki/coliseum/binz',
     1141: 'comments/6rmms9',                // Moria
-    1196: '',                               // Ganfor
-    1220: '',                               // Byrnndi World
+    1196: 'wiki/coliseum/ganfor',
+    1220: 'wiki/coliseum/byrnndi',
     1310: 'comments/6ywcrv',                // Kinemon
     1338: 'comments/70qjmd',                // Kanjuro
     1378: '',                               // Marguerite
@@ -166,6 +166,6 @@ var wiki = {
     1456: '',                               // Don Chin Jao
     1458: 'comments/6ust2n',                // Kuro
     1460: '',                               // Ms. Valentine
-    1525: '',                               // Suleiman
+    1525: 'wiki/coliseum/suleiman',
     1584: '',                               // Orlumbus
 };
