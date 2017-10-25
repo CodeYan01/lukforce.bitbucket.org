@@ -167,4 +167,7 @@ var sd = {
     1460: '',               // Ms. Valentine
     1525: '3xCjhZb50lc',    // Suleiman
     1584: 'plzyiRQ37b8',    // Orlumbus
+
+    // Event
+    'bb_1314': 'KpGYeH6G9JY'    // Three Admirals
 };
