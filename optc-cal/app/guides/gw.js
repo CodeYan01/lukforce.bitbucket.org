@@ -115,6 +115,7 @@ var gw = {
     1623: '',           //'58437',      // Doflamingo (N)
     1669: '61266',      // Aokiji (N)
     1680: '62444',      // Mihawk (N)
+    1727: '64230',      // Sabo (N)
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks

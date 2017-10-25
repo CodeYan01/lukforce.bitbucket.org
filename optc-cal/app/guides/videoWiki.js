@@ -30,6 +30,7 @@ var videoWiki = {
     1623: 'raidboss/doflamingokai',
     1669: 'raidboss/aokijikai',
     1680: 'raidboss/mihawkkai',
+    1727: 'raidboss/sabokai',
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',

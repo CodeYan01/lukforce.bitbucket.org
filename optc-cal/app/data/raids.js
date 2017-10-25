@@ -111,6 +111,10 @@ var raids = {
         name: 'Mihawk (N)',
         thumb: '1680'
     },
+    1727: {
+        name: 'Sabo (N)',
+        thumb: '1727'
+    },
     5010: {
         name: 'Rayleigh',
         thumb: '5010'

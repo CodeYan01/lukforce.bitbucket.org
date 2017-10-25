@@ -115,6 +115,7 @@ var wiki = {
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
     1680: 'wiki/raidboss/mihawkkai',
+    1727: 'wiki/raidboss/sabokai',
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
