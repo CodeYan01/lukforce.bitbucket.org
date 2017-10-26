@@ -83,6 +83,7 @@ var wiki = {
     1469: 'comments/72pt8v',                // Sentomaru
     1509: 'comments/75o9wt',                // WB Pirates 3
     1520: 'comments/7742ll',                // Dadan
+    1547: '',                               // Soul King
 
     // Raids
     227: 'wiki/raidboss/mihawk',

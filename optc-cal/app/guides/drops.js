@@ -83,6 +83,7 @@ drops = {
     1469: 'Gatekeeper%20of%20the%20New%20World!%20Fortnight',
     1509: 'Departure!%20Whitebeard%20Pirates%20Fortnight',
     1520: 'Bandits!%20Dadan%20Family!%20Fortnight',
+    1547: 'Encourage%20the%20Soul!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

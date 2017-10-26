@@ -83,6 +83,7 @@ var gw = {
     1469: '51925',      // Sentomaru
     1509: '52630',      // WB Pirates 3
     1520: '53570',      // Dadan
+    1547: '54303',      // Soul King
 
     // Raids
     227: '4142',        // Mihawk
