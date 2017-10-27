@@ -410,6 +410,11 @@ var specialBgEvents = [
         end: '2017-11-01'
     },
     {
+        id: 'snail_meat',
+        start: '2017-11-01',
+        end: '2017-11-07'
+    },
+    {
         id: 'sp',
         start: '2017-11-03',
         end: '2017-11-09'
