@@ -179,6 +179,11 @@ var coliseums = {
         chaos_only: true,
         thumb: '1220'
     },
+    1251: {
+        name: 'Marco',
+        chaos_only: true,
+        thumb: '1251'
+    },
     1310: {
         name: 'Kinemon',
         chaos_only: true,
@@ -218,6 +223,11 @@ var coliseums = {
         name: 'Ms. Valentine',
         chaos_only: false ,
         thumb: '1460'
+    },
+    1487: {
+        name: 'Ideo',
+        chaos_only: true,
+        thumb: '1487'
     },
     1525: {
         name: 'Suleiman',

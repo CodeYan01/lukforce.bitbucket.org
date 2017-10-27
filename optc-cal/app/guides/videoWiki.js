@@ -73,6 +73,7 @@ var videoWiki = {
     1141: 'coliseum/moria',
     1196: 'coliseum/gan_fall',
     1220: 'coliseum/byrnndi_world',
+    1251: 'coliseum/marco',
     1310: 'coliseum/kinemon',
     1338: 'coliseum/kanjuro',
     1378: 'coliseum/marguerite',
@@ -81,6 +82,7 @@ var videoWiki = {
     1456: 'coliseum/don_chinjao',
     1458: 'coliseum/kuro',
     1460: 'coliseum/miss_valentine',
+    1487: 'coliseum/ideo',
     1525: 'coliseum/suleiman',
     1584: 'coliseum/orlumbus',
 };

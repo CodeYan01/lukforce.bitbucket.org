@@ -159,6 +159,7 @@ var gw = {
     1141: '58401',      // Moria
     1196: '35523',      // Ganfor
     1220: '36719',      // Byrnndi World
+    1251: '38056',      // Marco
     1310: '63087',      // Kinemon
     1338: '57556',      // Kanjuro
     1378: '46329',      // Marguerite
@@ -167,6 +168,7 @@ var gw = {
     1456: '66708',      // Don Chin Jao
     1458: '50806',      // Kuro
     1460: '50807',      // Ms. Valentine
+    1487: '52185',      // Ideo
     1525: '60230',      // Suleiman
     1584: '56053',      // Orlumbus
 

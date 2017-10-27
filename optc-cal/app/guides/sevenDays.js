@@ -159,6 +159,7 @@ var sd = {
     1141: 'Qrg0iUyS2zs',    // Moria
     1196: 'UJ8DRgMwlCg',    // Ganfor
     1220: 'h-KU7jQnZv4',    // Byrnndi World
+    1251: '',               // Marco
     1310: '',               // Kinemon
     1338: '',               // Kanjuro
     1378: '',               // Marguerite
@@ -167,6 +168,7 @@ var sd = {
     1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine
+    1487: '',               // Ideo
     1525: '3xCjhZb50lc',    // Suleiman
     1584: 'plzyiRQ37b8',    // Orlumbus
 
