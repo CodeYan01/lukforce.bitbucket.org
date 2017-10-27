@@ -477,11 +477,13 @@ var raidEvents = [
     },
     {
         id: 1518,
-        start: '2017-11-05'
+        start: '2017-11-05',
+        ambush: ywb
     },
     {
         id: 865,
-        start: '2017-11-09'
+        start: '2017-11-09',
+        ambush: ywb
     },
     {
         id: 989,
