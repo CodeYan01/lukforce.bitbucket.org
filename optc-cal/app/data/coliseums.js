@@ -6,7 +6,7 @@ var coliseums = {
     },
     779: {
         name: 'Rebecca',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0779'
     },
     781: {
@@ -16,7 +16,7 @@ var coliseums = {
     },
     804: {
         name: 'Hina',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0804'
     },
     806: {
@@ -31,22 +31,22 @@ var coliseums = {
     },
     833: {
         name: 'Wyper',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0833'
     },
     834: {
         name: 'Mr. 7 & Ms. Father\'s Day',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0834'
     },
     860: {
         name: 'Coby',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0860'
     },
     862: {
         name: 'Alvida',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0862'
     },
     882: {
@@ -56,7 +56,7 @@ var coliseums = {
     },
     884: {
         name: 'Dorry',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0884'
     },
     901: {
@@ -66,12 +66,12 @@ var coliseums = {
     },
     903: {
         name: 'Broggy',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0903'
     },
     904: {
         name: 'Yokozuna',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0904'
     },
     924: {
@@ -81,12 +81,12 @@ var coliseums = {
     },
     926: {
         name: 'Sadie',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0926'
     },
     927: {
         name: 'Doberman',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0927'
     },
     951: {
@@ -96,7 +96,7 @@ var coliseums = {
     },
     953: {
         name: 'Ben Beckman',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0953'
     },
     983: {
@@ -106,7 +106,7 @@ var coliseums = {
     },
     984: {
         name: 'Paulie',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '0984'
     },
     1016: {
@@ -116,12 +116,12 @@ var coliseums = {
     },
     1018: {
         name: 'Brownbeard',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1018'
     },
     1019: {
         name: 'Lulu',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1019'
     },
     1041: {
@@ -136,12 +136,12 @@ var coliseums = {
     },
     1087: {
         name: 'Musshuru',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1087'
     },
     1089: {
         name: 'Saga',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1089'
     },
     1091: {
@@ -156,12 +156,12 @@ var coliseums = {
     },
     1104: {
         name: 'Ain',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1104'
     },
     1106: {
         name: 'Binz',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1106'
     },
     1141: {
@@ -171,7 +171,7 @@ var coliseums = {
     },
     1196: {
         name: 'Ganfor',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1196'
     },
     1220: {
@@ -196,7 +196,7 @@ var coliseums = {
     },
     1378: {
         name: 'Marguerite',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1378'
     },
     1401: {
@@ -206,7 +206,7 @@ var coliseums = {
     },
     1423: {
         name: 'T-Bone',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1423'
     },
     1456: {
@@ -216,12 +216,12 @@ var coliseums = {
     },
     1458: {
         name: 'Kuro',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1458'
     },
     1460: {
         name: 'Ms. Valentine',
-        chaos_only: false ,
+        chaos_only: false,
         thumb: '1460'
     },
     1487: {
