@@ -400,6 +400,7 @@
                     || event['type'] === 'raid'
                     || event['type'] === 'coliseum'
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
+                    || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
                 ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);

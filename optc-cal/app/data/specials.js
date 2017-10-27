@@ -29,5 +29,11 @@ var specials = {
         type: 'Blitz Battle',
         name: 'Three Admirals',
         thumb: '1314'
-    }
+    },
+
+    '20_1684': {
+        type: '20th Anni SH',
+        name: 'Robin',
+        thumb: '1684'
+    },
 }
