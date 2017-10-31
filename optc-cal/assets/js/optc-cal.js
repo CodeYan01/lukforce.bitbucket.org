@@ -1,4 +1,11 @@
 (function() {
+    const fnColorNew = 'rgba(250, 128, 114, 0.6)';
+    const fnColorRep = 'rgba(250, 128, 114, 0.3)';
+    const raidColor = 'rgba(102, 205, 170, 0.6)';
+    const coliColorNew = 'rgba(30, 144, 255, 0.6)';
+    const coliColorRep = 'rgba(30, 144, 255, 0.3)';
+    const spColor = 'rgba(70, 130, 180, 0.6)';
+
     function createFortnightEvent(eventArray) {
         fortnightEvents.forEach(function(e) {
             var res = {};
@@ -33,8 +40,8 @@
             res['start'] = start;
             res['end'] = e['end'];
 
-            var opacity = e['is_replay'] ? 0.3 : 0.6;
-            res['color'] = 'rgba(250, 128, 114, ' + opacity + ')';
+            var color = e['is_replay'] ? fnColorRep : fnColorNew;
+            res['color'] = color;
             res['textColor'] = 'black';
 
             eventArray.push(res);
@@ -75,7 +82,7 @@
             if (e['end'])
                 res['end'] = e['end'];
 
-            res['color'] = 'rgba(102, 205, 170, 0.6)';
+            res['color'] = raidColor;
             res['textColor'] = 'black';
 
             eventArray.push(res);
@@ -116,8 +123,8 @@
             if (e['end'])
                 res['end'] = e['end'];
 
-            var opacity = e['new_batch'] ? 0.6 : 0.3;
-            res['color'] = 'rgba(30, 144, 255, ' + opacity + ')';
+            var color = e['new_batch'] ? coliColorNew : coliColorRep;
+            res['color'] = color;
 
             eventArray.push(res);
         });
@@ -137,13 +144,13 @@
 
         if ('raid' === src) {
             res['type'] = 'raidAmbush';
-            res['color'] = 'rgba(102, 205, 170, 0.6)';
+            res['color'] = raidColor;
 
             start += ' 06:00';
             res['start'] = start;
         } else {
             res['type'] = 'coliAmbush';
-            res['color'] = 'rgba(30, 144, 255, 0.6)';
+            res['color'] = coliColorNew;
 
             start += ' 04:00';
             res['start'] = start;
@@ -173,7 +180,7 @@
 
                 res['thumb'] = sp['thumb'];
 
-                res['color'] = 'rgba(70, 130, 180, 0.6)';
+                res['color'] = spColor;
                 res['textColor'] = 'black';
 
                 res['subType'] = sp['type'];
