@@ -83,7 +83,7 @@ var sd = {
     1469: 'ow8QfYE4t_4',    // Sentomaru
     1509: 'uc4mtxX7828',    // WB Pirates 3
     1520: '',               // Dadan
-    1547: '',               // Soul King
+    1547: 'M9qXsTCgJRY',    // Soul King
 
     // Raids
     227: '',                // Mihawk
