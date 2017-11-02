@@ -425,6 +425,11 @@ var specialBgEvents = [
         end: '2017-11-09'
     },
     {
+        id: 'sugo',
+        start: '2017-11-08',
+        end: '2017-11-10'
+    },
+    {
         id: 'ss',
         start: '2017-11-10',
         end: '2017-11-14'
