@@ -84,6 +84,7 @@ var gw = {
     1509: '52630',      // WB Pirates 3
     1520: '53570',      // Dadan
     1547: '54303',      // Soul King
+    1564: '55146',      // Elizabello
 
     // Raids
     227: '4142',        // Mihawk

@@ -84,6 +84,7 @@ var wiki = {
     1509: 'comments/75o9wt',                // WB Pirates 3
     1520: 'comments/7742ll',                // Dadan
     1547: 'comments/7a1efx',                // Soul King
+    1564: '',                               // Elizabello
 
     // Raids
     227: 'wiki/raidboss/mihawk',

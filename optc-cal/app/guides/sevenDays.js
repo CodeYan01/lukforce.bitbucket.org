@@ -84,6 +84,7 @@ var sd = {
     1509: 'uc4mtxX7828',    // WB Pirates 3
     1520: '',               // Dadan
     1547: 'M9qXsTCgJRY',    // Soul King
+    1564: '',               // Elizabello
 
     // Raids
     227: '',                // Mihawk
