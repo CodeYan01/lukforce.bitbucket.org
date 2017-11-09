@@ -84,7 +84,7 @@ var sd = {
     1509: 'uc4mtxX7828',    // WB Pirates 3
     1520: '',               // Dadan
     1547: 'M9qXsTCgJRY',    // Soul King
-    1564: '',               // Elizabello
+    1564: '5xVGyvGxVtw',    // Elizabello
 
     // Raids
     227: '',                // Mihawk
@@ -169,7 +169,7 @@ var sd = {
     1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine
-    1487: '',               // Ideo
+    1487: 'bPe-fnAir5k',    // Ideo
     1525: '3xCjhZb50lc',    // Suleiman
     1584: 'plzyiRQ37b8',    // Orlumbus
 
