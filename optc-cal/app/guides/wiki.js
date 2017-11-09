@@ -76,7 +76,7 @@ var wiki = {
     1332: '',                               // Tontatta 2
     1357: '',                               // Big Mom Pirates
     1384: '',                               // Toy Soldier
-    1397: '',                               // Shambles G5
+    1397: 'comments/7bmlws',                // Shambles G5
     1416: 'wiki/fortnight/sengoku',
     1426: 'comments/6ydcrn',                // Don Sai
     1450: 'comments/71b58c',                // Violet
