@@ -36,4 +36,9 @@ var specials = {
         name: 'Robin',
         thumb: '1684'
     },
+    '20_1682': {
+        type: '20th Anni SH',
+        name: 'Straw Hat Mission',
+        thumb: '1682'
+    },
 }

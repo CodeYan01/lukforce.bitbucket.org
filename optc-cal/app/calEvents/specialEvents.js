@@ -26,7 +26,21 @@ var specialEvents = [
     },
     {
         id: 'dummy',
+        start: '2017-11-14'
+    },
+    {
+        id: 'dummy',
         start: '2017-11-20'
+    },
+    {
+        id: 'dummy',
+        start: '2017-11-22',
+        end: '2017-11-26'
+    },
+    {
+        id: 'dummy',
+        start: '2017-11-30',
+        end: '2017-12-03'
     },
 
     {
@@ -63,5 +77,10 @@ var specialEvents = [
         id: '20_1684',
         start: '2017-11-06',
         end: '2017-11-20'
+    },
+    {
+        id: '20_1682',
+        start: '2017-11-15',
+        end: '2017-11-29'
     },
 ]
