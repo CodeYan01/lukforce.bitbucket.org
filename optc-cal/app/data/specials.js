@@ -38,7 +38,7 @@ var specials = {
     },
     '20_1682': {
         type: '20th Anni SH',
-        name: 'Straw Hat Mission',
+        name: 'Luffy',
         thumb: '1682'
     },
 }

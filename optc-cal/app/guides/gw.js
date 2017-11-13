@@ -176,4 +176,5 @@ var gw = {
     // Event
     'bb_1314': '61665', // Three Admirals
     '20_1684': '62384', // 20th Anni Robin
+    '20_1682': '62390', // 20th Anni Luffy
 };
