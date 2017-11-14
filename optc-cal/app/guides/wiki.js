@@ -53,7 +53,7 @@ var wiki = {
     946: 'wiki/fortnight/wbpirates1',
     979: 'wiki/fortnight/wbpirates2',
     1003: 'wiki/fortnight/heartpirates',
-    1011: 'wiki/fortnight/butler',
+    1011: '',                               // Count Butler
     1037: 'wiki/fortnight/ivan',
     1049: '',                               // Nico Olvia
     1072: 'wiki/fortnight/deadend',
