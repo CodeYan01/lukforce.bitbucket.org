@@ -53,7 +53,7 @@ var wiki = {
     946: 'wiki/fortnight/wbpirates1',
     979: 'wiki/fortnight/wbpirates2',
     1003: 'wiki/fortnight/heartpirates',
-    1011: '',                               // Count Butler
+    1011: 'comments/7d1ra4',                // Count Butler
     1037: 'wiki/fortnight/ivan',
     1049: '',                               // Nico Olvia
     1072: 'wiki/fortnight/deadend',
@@ -84,7 +84,7 @@ var wiki = {
     1509: 'comments/75o9wt',                // WB Pirates 3
     1520: 'comments/7742ll',                // Dadan
     1547: 'comments/7a1efx',                // Soul King
-    1564: '',                               // Elizabello
+    1564: 'comments/7d1cp1',                // Elizabello
 
     // Raids
     227: 'wiki/raidboss/mihawk',
