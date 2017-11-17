@@ -113,6 +113,7 @@ var wiki = {
     1374: 'comments/6zwvcn',                // Magellan
     1518: 'comments/6za7ru',                // Bellamy
     5010: 'comments/77jr7y',                // Rayleigh
+    1696: '',                               // Vergo
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',

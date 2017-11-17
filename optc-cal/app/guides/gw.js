@@ -112,6 +112,7 @@ var gw = {
     1298: '41277',      // Akainu
     1374: '45906',      // Magellan
     1518: '53151',      // Bellamy
+    1696: '63217',      // Vergo
     5010: '',           // Rayleigh
 
     1623: '',           //'58437',      // Doflamingo (N)

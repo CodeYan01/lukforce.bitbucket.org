@@ -99,6 +99,16 @@ var raids = {
         name: 'Bellamy',
         thumb: '1518'
     },
+    1696: {
+        name: 'Vergo',
+        thumb: '1696'
+    },
+    5010: {
+        name: 'Rayleigh',
+        thumb: '5010'
+    },
+
+    // Neo Raids
     1623: {
         name: 'Doflamingo (N)',
         thumb: '1623'
@@ -114,9 +124,5 @@ var raids = {
     1727: {
         name: 'Sabo (N)',
         thumb: '1727'
-    },
-    5010: {
-        name: 'Rayleigh',
-        thumb: '5010'
     },
 };
