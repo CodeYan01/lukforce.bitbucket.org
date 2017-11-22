@@ -239,4 +239,14 @@ var coliseums = {
         chaos_only: true,
         thumb: '1584'
     },
+    1602: {
+        name: 'Shiryu',
+        chaos_only: true,
+        thumb: '1602'
+    },
+    1603: {
+        name: 'McGuy',
+        chaos_only: false,
+        thumb: '1603'
+    },
 };

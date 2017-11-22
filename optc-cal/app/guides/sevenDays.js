@@ -174,6 +174,8 @@ var sd = {
     1487: 'bPe-fnAir5k',    // Ideo
     1525: '3xCjhZb50lc',    // Suleiman
     1584: 'plzyiRQ37b8',    // Orlumbus
+    1602: '',               // Shiryu
+    1603: '',               // McGuy
 
     // Event
     'bb_1314': 'KpGYeH6G9JY'    // Three Admirals

@@ -174,4 +174,6 @@ var wiki = {
     1487: '',                               // Ideo
     1525: 'wiki/coliseum/suleiman',
     1584: '',                               // Orlumbus
+    1602: '',                               // Shiryu
+    1603: '',                               // McGuy
 };

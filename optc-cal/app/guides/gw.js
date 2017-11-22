@@ -174,6 +174,8 @@ var gw = {
     1487: '52185',      // Ideo
     1525: '60230',      // Suleiman
     1584: '56053',      // Orlumbus
+    1602: '57471',      // Shiryu
+    1603: '57472',      // McGuy
 
     // Event
     'bb_1314': '61665', // Three Admirals
