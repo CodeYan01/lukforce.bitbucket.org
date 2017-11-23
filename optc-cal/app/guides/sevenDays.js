@@ -85,6 +85,7 @@ var sd = {
     1520: '',               // Dadan
     1547: 'M9qXsTCgJRY',    // Soul King
     1564: '5xVGyvGxVtw',    // Elizabello
+    1581: '',               // Law
 
     // Raids
     227: '',                // Mihawk

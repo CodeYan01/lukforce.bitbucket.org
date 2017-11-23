@@ -85,6 +85,7 @@ var gw = {
     1520: '53570',      // Dadan
     1547: '54303',      // Soul King
     1564: '55146',      // Elizabello
+    1581: '56039',      // Law
 
     // Raids
     227: '4142',        // Mihawk
