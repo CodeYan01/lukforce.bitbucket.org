@@ -32,7 +32,7 @@ var videoWiki = {
     1669: 'raidboss/aokijikai',
     1680: 'raidboss/mihawkkai',
     1727: 'raidboss/sabokai',
-    1780: '',   // Kizaru (N)
+    1780: 'raidboss/kizarukai',
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',

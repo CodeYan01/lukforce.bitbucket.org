@@ -74,7 +74,7 @@ var wiki = {
     1326: 'comments/76w6yc',                // Halloween Corazon
     1328: 'wiki/fortnight/leo',
     1332: '',                               // Tontatta 2
-    1357: '',                               // Big Mom Pirates
+    1357: 'comments/7evnsv',                // Big Mom Pirates
     1384: '',                               // Toy Soldier
     1397: 'comments/7bmlws',                // Shambles G5
     1416: 'wiki/fortnight/sengoku',
@@ -114,13 +114,13 @@ var wiki = {
     1374: 'comments/6zwvcn',                // Magellan
     1518: 'comments/6za7ru',                // Bellamy
     5010: 'comments/77jr7y',                // Rayleigh
-    1696: '',                               // Vergo
+    1696: 'comments/7eeu5h',                // Vergo
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
     1680: 'wiki/raidboss/mihawkkai',
     1727: 'wiki/raidboss/sabokai',
-    1780: '',                               // Kizaru (N)
+    1780: 'wiki/raidboss/kizarukai',        // Kizaru (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
