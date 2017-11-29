@@ -120,6 +120,7 @@ var sd = {
     1669: '',               // Aokiji (N)
     1680: '-9bIzVawWdg',    // Mihawk (N)
     1727: '',               // Sabo (N)
+    1739: '',               // Bellamy (N)
     1780: '',               // Kizaru (N)
 
     1258: '',               // Young Whitebeard
