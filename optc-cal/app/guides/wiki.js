@@ -85,7 +85,7 @@ var wiki = {
     1520: 'comments/7742ll',                // Dadan
     1547: 'comments/7a1efx',                // Soul King
     1564: 'comments/7d1cp1',                // Elizabello
-    1581: '',                               // Law
+    1581: 'comments/7gabga',                // Law
 
     // Raids
     227: 'wiki/raidboss/mihawk',
