@@ -120,7 +120,7 @@ var wiki = {
     1669: 'wiki/raidboss/aokijikai',
     1680: 'wiki/raidboss/mihawkkai',
     1727: 'wiki/raidboss/sabokai',
-    1739: '',                               // Bellamy (N)
+    1739: 'wiki/raidboss/bellamykai',
     1780: 'wiki/raidboss/kizarukai',
 
     1258: 'wiki/raidboss/ywb',
