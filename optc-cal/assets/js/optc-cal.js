@@ -296,6 +296,10 @@
             if (e['ambush'] && !data)
                 data = ambushes[id];
 
+            // Special case for Blitz Battle
+            if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
+                ed.find('.countdown').show();
+
             ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
             ed.find('.eventTitle').text(data['name']);
 
@@ -317,10 +321,6 @@
             $('#eventDetail').append(ed);
             ed.show();
         }
-
-        // Special case for Blitz Battle
-        if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
-            $('.countdown').show();
 
         var modalCloseButton = $('#modalCloseButton').clone();
         $('#eventDetail').append(modalCloseButton);
