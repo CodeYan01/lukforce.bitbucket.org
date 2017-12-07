@@ -165,28 +165,38 @@
         specialEvents.forEach(function(e) {
             var res = {};
 
-            var id = e['id'];
+            var eId = e['id'];
 
-            if ('dummy' === id) {
+            if ('dummy' === eId) {
+                res['id'] = eId;
                 res['color'] = 'rgba(255, 255, 255, 0)';
                 res['textColor'] = 'rgba(255, 255, 255, 0)';
             } else {
-                var sp = specials[id];
+                if (Array.isArray(eId)) {
+                    res['id'] = eId.slice();
+                    res['thumb'] = [];
 
-                var title = '『' + sp['type'] + '』';
-                title += '\n' + sp['name'];
+                    for (var i = 0; i < eId.length; i++) {
+                        var eSp = specials[eId[i]];
+                        res['thumb'].push(eSp['thumb']);
+                        res['subType'] = eSp['type'];
+                    }
+                } else {
+                    res['id'] = eId;
+                    var sp = specials[eId];
 
-                res['title'] = title;
+                    var title = '『' + sp['type'] + '』';
+                    title += '\n' + sp['name'];
 
-                res['thumb'] = sp['thumb'];
+                    res['title'] = title;
+
+                    res['thumb'] = sp['thumb'];
+                    res['subType'] = sp['type'];
+                }
 
                 res['color'] = spColor;
                 res['textColor'] = 'black';
-
-                res['subType'] = sp['type'];
             }
-
-            res['id'] = id;
 
             res['type'] = 'special';
 
