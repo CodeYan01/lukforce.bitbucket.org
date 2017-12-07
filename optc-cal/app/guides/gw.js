@@ -175,9 +175,11 @@ var gw = {
     1460: '50807',      // Ms. Valentine
     1487: '52185',      // Ideo
     1525: '60230',      // Suleiman
+    1553: '54672',      // Hajrudin
     1584: '56053',      // Orlumbus
     1602: '57471',      // Shiryu
     1603: '57472',      // McGuy
+    1694: '62895',      // Inuarashi
 
     // Event
     'bb_1314': '61665', // Three Admirals

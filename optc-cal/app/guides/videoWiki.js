@@ -87,7 +87,9 @@ var videoWiki = {
     1460: 'coliseum/miss_valentine',
     1487: 'coliseum/ideo',
     1525: 'coliseum/suleiman',
+    1553: 'coliseum/hajrudin',
     1584: 'coliseum/orlumbus',
     1602: 'coliseum/shiryu',
     1603: 'coliseum/mcguy',
+    1694: 'coliseum/inuarashi',
 };

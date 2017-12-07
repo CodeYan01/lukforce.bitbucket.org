@@ -175,9 +175,11 @@ var sd = {
     1460: '',               // Ms. Valentine
     1487: 'bPe-fnAir5k',    // Ideo
     1525: '3xCjhZb50lc',    // Suleiman
+    1553: '',               // Hajrudin
     1584: 'plzyiRQ37b8',    // Orlumbus
     1602: 'WjEGknjdtzs',    // Shiryu
     1603: '',               // McGuy
+    1694: '',               // Inuarashi
 
     // Event
     'bb_1314': 'KpGYeH6G9JY'    // Three Admirals
