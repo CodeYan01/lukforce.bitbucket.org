@@ -33,12 +33,22 @@ var specials = {
 
     '20_1684': {
         type: '20th Anni SH',
-        name: 'Robin',
+        name: 'SH Showdown 1',
         thumb: '1684'
     },
     '20_1682': {
         type: '20th Anni SH',
-        name: 'Luffy',
+        name: 'SH Mission 1',
         thumb: '1682'
+    },
+    '20_1755': {
+        type: '20th Anni SH',
+        name: 'SH Showdown 2',
+        thumb: '1755'
+    },
+    '20_1753': {
+        type: '20th Anni SH',
+        name: 'SH Mission 2',
+        thumb: '1753'
     },
 }
