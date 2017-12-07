@@ -480,8 +480,18 @@ var specialBgEvents = [
         end: '2017-12-22'
     },
     {
+        id: 'snail_cotton',
+        start: '2017-12-18',
+        end: '2017-12-25'
+    },
+    {
         id: 'sp',
         start: '2017-12-22',
         end: '2017-12-25'
+    },
+    {
+        id: 'lobster',
+        start: '2017-12-25',
+        end: '2017-12-28'
     },
 ]

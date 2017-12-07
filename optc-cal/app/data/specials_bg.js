@@ -11,6 +11,9 @@ var specials_bg = {
     'snail_cola': {
         thumb: 'snail_cola'
     },
+    'snail_cotton': {
+        thumb: 'snail_cotton'
+    },
     'sugo': {
         thumb: 'sugo'
     },
@@ -22,6 +25,9 @@ var specials_bg = {
     },
     'cotton': {
         thumb: 'cotton'
+    },
+    'lobster': {
+        thumb: 'lobster'
     },
     'ray_exp': {
         thumb: 'ray_exp'
