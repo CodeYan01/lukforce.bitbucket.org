@@ -86,6 +86,7 @@ var sd = {
     1547: 'M9qXsTCgJRY',    // Soul King
     1564: '5xVGyvGxVtw',    // Elizabello
     1581: 'DRU1Fp2pp7s',    // Law
+    1597: '',               // Shirahoshi
 
     // Raids
     227: '',                // Mihawk

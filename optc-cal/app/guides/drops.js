@@ -86,6 +86,7 @@ drops = {
     1547: 'Encourage%20the%20Soul!%20Fortnight',
     1564: 'Fight%20for%20your%20Friends!%20Fortnight',
     1581: 'The%20Mysterious%20Warlord!%20Fortnight',
+    1597: 'Targeted%20Mermaid%20Princess!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

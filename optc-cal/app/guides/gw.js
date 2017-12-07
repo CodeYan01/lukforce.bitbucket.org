@@ -86,6 +86,7 @@ var gw = {
     1547: '54303',      // Soul King
     1564: '55146',      // Elizabello
     1581: '56039',      // Law
+    1597: '57040',      // Shirahoshi
 
     // Raids
     227: '4142',        // Mihawk
