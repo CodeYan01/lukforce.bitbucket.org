@@ -8,7 +8,7 @@ var wiki = {
     228: 'wiki/fortnight/morgan',
     232: 'wiki/fortnight/hina',
     263: 'wiki/fortnight/cobimeppo',
-    268: '',                                // Smoker
+    268: 'wiki/fortnight/smoker',
     297: 'wiki/fortnight/tsuru',
     318: 'wiki/fortnight/kalifa',
     322: 'wiki/fortnight/lucci',
@@ -55,7 +55,7 @@ var wiki = {
     1003: 'wiki/fortnight/heartpirates',
     1011: 'comments/7d1ra4',                // Count Butler
     1037: 'wiki/fortnight/ivan',
-    1049: '',                               // Nico Olvia
+    1049: 'wiki/fortnight/olvia',
     1072: 'wiki/fortnight/deadend',
     1095: 'wiki/fortnight/goldenlion',
     1112: 'wiki/fortnight/secretrobin',
@@ -63,7 +63,7 @@ var wiki = {
     1167: 'wiki/fortnight/baccarat',
     1199: '',                               // Summer Bonney
     1201: '',                               // Summer Violet
-    1203: '',                               // Rumbar Pirates
+    1203: 'comments/7i28va',                // Rumbar Pirates
     1215: 'wiki/fortnight/worldpirates',
     1242: 'wiki/fortnight/revolutionary',
     1254: '',                               // WB Alliances
