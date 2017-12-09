@@ -475,6 +475,11 @@ var specialBgEvents = [
         end: '2017-12-14'
     },
     {
+        id: 'sugo',
+        start: '2017-12-13',
+        end: '2017-12-15'
+    },
+    {
         id: 'free_pull',
         start: '2017-12-17',
         end: '2017-12-22'
