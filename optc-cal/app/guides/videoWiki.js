@@ -25,6 +25,7 @@ var videoWiki = {
     1298: 'raidboss/akainu',
     1374: 'raidboss/magellan',
     1518: 'raidboss/bellamy',
+    1595: 'raidboss/fujitora',
     1696: 'raidboss/vergo',
     5010: 'raidboss/rayleigh',
 

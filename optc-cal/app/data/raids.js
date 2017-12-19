@@ -99,6 +99,10 @@ var raids = {
         name: 'Bellamy',
         thumb: '1518'
     },
+    1595: {
+        name: 'Fujitora',
+        thumb: '1595'
+    },
     1696: {
         name: 'Vergo',
         thumb: '1696'

@@ -114,8 +114,9 @@ var wiki = {
     1298: 'wiki/raidboss/akainu',
     1374: 'comments/6zwvcn',                // Magellan
     1518: 'comments/6za7ru',                // Bellamy
-    5010: 'comments/77jr7y',                // Rayleigh
+    1595: 'wiki/raidboss/fujitora',
     1696: 'comments/7eeu5h',                // Vergo
+    5010: 'comments/77jr7y',                // Rayleigh
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
