@@ -172,14 +172,14 @@ var wiki = {
     1378: '',                               // Marguerite
     1401: '',                               // Gladius
     1423: '',                               // T-Bone
-    1456: '',                               // Don Chin Jao
+    1456: 'wiki/coliseum/donchinjao',
     1458: 'comments/6ust2n',                // Kuro
     1460: '',                               // Ms. Valentine
     1487: '',                               // Ideo
     1525: 'wiki/coliseum/suleiman',
-    1553: '',                               // Hajrudin
+    1553: 'wiki/coliseum/hajrudin',
     1584: '',                               // Orlumbus
     1602: '',                               // Shiryu
-    1603: '',                               // McGuy
+    1603: 'wiki/coliseum/mcguychaos',
     1694: '',                               // Inuarashi
 };
