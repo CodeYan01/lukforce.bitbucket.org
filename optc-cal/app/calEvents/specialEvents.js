@@ -47,10 +47,6 @@ var specialEvents = [
         start: '2017-12-27',
         end: '2017-12-31'
     },
-    {
-        id: 'dummy',
-        start: '2018-01-06'
-    },
 
     {
         id: 'ss_0436',
