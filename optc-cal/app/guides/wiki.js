@@ -66,7 +66,7 @@ var wiki = {
     1203: 'comments/7i28va',                // Rumbar Pirates
     1215: 'wiki/fortnight/worldpirates',
     1242: 'wiki/fortnight/revolutionary',
-    1254: '',                               // WB Alliances
+    1254: 'comments/7kzhjs',                // WB Alliances
     1287: '',                               // Donquixote Kids
     1300: 'comments/73xx5q',                // Halloween Rebecca
     1302: '',                               // Prisoner Buggy
