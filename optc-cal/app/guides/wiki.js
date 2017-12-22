@@ -87,6 +87,7 @@ var wiki = {
     1564: 'comments/7d1cp1',                // Elizabello
     1581: 'comments/7gabga',                // Law
     1597: 'comments/7jgins',                // Shirahoshi
+    1606: '',                               // BB Pirates
 
     // Raids
     227: 'wiki/raidboss/mihawk',

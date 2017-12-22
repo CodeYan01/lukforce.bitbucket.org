@@ -87,6 +87,7 @@ var gw = {
     1564: '55146',      // Elizabello
     1581: '56039',      // Law
     1597: '57040',      // Shirahoshi
+    1606: '57821',      // BB Pirates
 
     // Raids
     227: '4142',        // Mihawk

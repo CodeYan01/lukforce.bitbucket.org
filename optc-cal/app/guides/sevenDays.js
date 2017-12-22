@@ -87,6 +87,7 @@ var sd = {
     1564: '5xVGyvGxVtw',    // Elizabello
     1581: 'DRU1Fp2pp7s',    // Law
     1597: 'ynnfk5I2w8s',    // Shirahoshi
+    1606: '',               // BB Pirates
 
     // Raids
     227: '',                // Mihawk
