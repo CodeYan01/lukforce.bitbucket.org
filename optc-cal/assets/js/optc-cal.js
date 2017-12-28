@@ -336,17 +336,6 @@
         createSpecialEvent(eventArray);
         createSpecialBgEvent(eventArray);
 
-        // Permanent Mihawk
-        var mihawk = {
-            'thumb': 'mihawk',
-            'type': 'event',
-            'color': 'rgba(0, 0, 0, 0)',
-            'rendering': 'background',
-            'permaStart': '2017-06-08',
-            'dow': [5, 6]
-        }
-        eventArray.push(mihawk);
-
         $('#calendar').fullCalendar({
             header: {
                 left: 'prev,next today',
@@ -412,9 +401,6 @@
                 } else {
                     element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event['thumb'] + '.png")');
                 }
-
-                if (event['permaStart'])
-                    return event['start'].isAfter(event['permaStart']);
             },
             eventClick: function(event) {
                 if (event['type'] === 'fortnight'
