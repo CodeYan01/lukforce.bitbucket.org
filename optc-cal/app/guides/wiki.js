@@ -73,7 +73,7 @@ var wiki = {
     1306: 'comments/75efgy',                // Halloween Sugar
     1326: 'comments/76w6yc',                // Halloween Corazon
     1328: 'wiki/fortnight/leo',
-    1332: '',                               // Tontatta 2
+    1332: 'comments/7nstr8',                // Tontatta 2
     1357: 'comments/7evnsv',                // Big Mom Pirates
     1384: '',                               // Toy Soldier
     1397: 'comments/7bmlws',                // Shambles G5
