@@ -88,6 +88,7 @@ var wiki = {
     1581: 'comments/7gabga',                // Law
     1597: 'comments/7jgins',                // Shirahoshi
     1606: 'comments/7mcru1',                // BB Pirates
+    1624: '',                               // New Fishman
 
     // Raids
     227: 'wiki/raidboss/mihawk',

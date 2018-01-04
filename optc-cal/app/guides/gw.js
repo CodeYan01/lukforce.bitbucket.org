@@ -88,6 +88,7 @@ var gw = {
     1581: '56039',      // Law
     1597: '57040',      // Shirahoshi
     1606: '57821',      // BB Pirates
+    1624: '59323',      // New Fishman
 
     // Raids
     227: '4142',        // Mihawk

@@ -88,6 +88,7 @@ var sd = {
     1581: 'DRU1Fp2pp7s',    // Law
     1597: 'ynnfk5I2w8s',    // Shirahoshi
     1606: '',               // BB Pirates
+    1624: '',               // New Fishman
 
     // Raids
     227: '',                // Mihawk
