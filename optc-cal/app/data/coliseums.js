@@ -254,9 +254,19 @@ var coliseums = {
         chaos_only: false,
         thumb: '1603'
     },
+    1628: {
+        name: 'Machvise',
+        chaos_only: true,
+        thumb: '1628'
+    },
     1694: {
         name: 'Inuarashi',
         chaos_only: true,
         thumb: '1694'
+    },
+    1733: {
+        name: 'Nekomamushi',
+        chaos_only: true,
+        thumb: '1733'
     },
 };

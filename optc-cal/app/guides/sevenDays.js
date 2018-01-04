@@ -182,7 +182,9 @@ var sd = {
     1584: 'plzyiRQ37b8',    // Orlumbus
     1602: 'WjEGknjdtzs',    // Shiryu
     1603: '',               // McGuy
+    1628: '',               // Machvise
     1694: '6Oe4o1b3bG4',    // Inuarashi
+    1733: '',               // Nekomamushi
 
     // Event
     'bb_1314': 'KpGYeH6G9JY'    // Three Admirals

@@ -182,7 +182,9 @@ var gw = {
     1584: '56053',      // Orlumbus
     1602: '57471',      // Shiryu
     1603: '57472',      // McGuy
+    1628: '59479',      // Machvise
     1694: '62895',      // Inuarashi
+    1733: '66570',      // Nekomamushi
 
     // Event
     'bb_1314': '61665', // Three Admirals

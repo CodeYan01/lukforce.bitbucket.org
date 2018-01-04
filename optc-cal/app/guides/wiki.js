@@ -182,5 +182,7 @@ var wiki = {
     1584: '',                               // Orlumbus
     1602: '',                               // Shiryu
     1603: 'wiki/coliseum/mcguychaos',
+    1628: '',                               // Machvise
     1694: '',                               // Inuarashi
+    1733: '',                               // Nekomamushi
 };

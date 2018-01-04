@@ -92,5 +92,7 @@ var videoWiki = {
     1584: 'coliseum/orlumbus',
     1602: 'coliseum/shiryu',
     1603: 'coliseum/mcguy',
+    1628: 'coliseum/machvise',
     1694: 'coliseum/inuarashi',
+    1733: 'coliseum/nekomamushi',
 };
