@@ -32,7 +32,7 @@ body {
 }
 
 
-.half-sta {
+.active {
     display: none;
     color: red;
     font-weight: bold;

@@ -1,15 +1,15 @@
 var x = setInterval(function() {
-    var mainStart = moment.utc('2017-10-25 03:00');
-    var mainEnd = moment.utc('2017-10-27 03:00');
+    var mainStart = moment.utc('2018-01-12 08:00');
+    var mainEnd = moment.utc('2018-01-14 08:00');
 
-    var akainuStart = moment.utc('2017-10-26 20:00');
-    var akainuEnd = moment.utc('2017-10-27 03:00');
+    var halfSta1Start = moment.utc('2018-01-12 22:00');
+    var halfSta1End = moment.utc('2018-01-13 01:00');
 
-    var kizaruStart = moment.utc('2017-10-26 03:00');
-    var kizaruEnd = moment.utc('2017-10-26 10:00');
+    var halfSta2Start = moment.utc('2018-01-13 06:00');
+    var halfSta2End = moment.utc('2018-01-13 09:00');
 
-    var aokijiStart = moment.utc('2017-10-25 20:00');
-    var aokijiEnd = moment.utc('2017-10-26 03:00');
+    var halfSta3Start = moment.utc('2018-01-14 05:00');
+    var halfSta3End = moment.utc('2018-01-14 08:00');
 
     countdown.setLabels(
         '|s|m|h|d',
@@ -33,55 +33,55 @@ var x = setInterval(function() {
         $('#main-local').html(mainEnd.local().format('llll'));
     }
 
-    // Akainu timer
-    var akainuStartCd = countdown(null, akainuStart, units);
-    var akainuEndCd = countdown(null, akainuEnd, units);
-    if (akainuStartCd.value > 0) {
-        $('#akainu-begin-end').html('begins');
-        $('#akainu-cd').html(akainuStartCd.toString());
-        $('#akainu-local').html(akainuStart.local().format('llll'));
-    } else if (akainuEndCd.value > 0) {
-        $('#akainu-begin-end').html('ends');
-        $('#akainu-cd').html(akainuEndCd.toString());
-        $('#akainu-local').html(akainuEnd.local().format('llll'));
-        $('#akainu-half-sta').show();
+    // Half Stamina 1 timer
+    var halfSta1StartCd = countdown(null, halfSta1Start, units);
+    var halfSta1EndCd = countdown(null, halfSta1End, units);
+    if (halfSta1StartCd.value > 0) {
+        $('#halfSta1-begin-end').html('begins');
+        $('#halfSta1-cd').html(halfSta1StartCd.toString());
+        $('#halfSta1-local').html(halfSta1Start.local().format('llll'));
+    } else if (halfSta1EndCd.value > 0) {
+        $('#halfSta1-begin-end').html('ends');
+        $('#halfSta1-cd').html(halfSta1EndCd.toString());
+        $('#halfSta1-local').html(halfSta1End.local().format('llll'));
+        $('#halfSta1-active').show();
     } else {
-        $('#akainu-txt').html('has ended');
-        $('#akainu-half-sta').hide();
+        $('#halfSta1-txt').html('has ended');
+        $('#halfSta1-active').hide();
     }
 
-    // Kizaru timer
-    var kizaruStartCd = countdown(null, kizaruStart, units);
-    var kizaruEndCd = countdown(null, kizaruEnd, units);
-    if (kizaruStartCd.value > 0) {
-        $('#kizaru-begin-end').html('begins');
-        $('#kizaru-cd').html(kizaruStartCd.toString());
-        $('#kizaru-local').html(kizaruStart.local().format('llll'));
-    } else if (kizaruEndCd.value > 0) {
-        $('#kizaru-begin-end').html('ends');
-        $('#kizaru-cd').html(kizaruEndCd.toString());
-        $('#kizaru-local').html(kizaruEnd.local().format('llll'));
-        $('#kizaru-half-sta').show();
+    // Half Stamina 2 timer
+    var halfSta2StartCd = countdown(null, halfSta2Start, units);
+    var halfSta2EndCd = countdown(null, halfSta2End, units);
+    if (halfSta2StartCd.value > 0) {
+        $('#halfSta2-begin-end').html('begins');
+        $('#halfSta2-cd').html(halfSta2StartCd.toString());
+        $('#halfSta2-local').html(halfSta2Start.local().format('llll'));
+    } else if (halfSta2EndCd.value > 0) {
+        $('#halfSta2-begin-end').html('ends');
+        $('#halfSta2-cd').html(halfSta2EndCd.toString());
+        $('#halfSta2-local').html(halfSta2End.local().format('llll'));
+        $('#halfSta2-active').show();
     } else {
-        $('#kizaru-txt').html('has ended');
-        $('#kizaru-half-sta').hide();
+        $('#halfSta2-txt').html('has ended');
+        $('#halfSta2-active').hide();
     }
 
-    // Aokiji timer
-    var aokijiStartCd = countdown(null, aokijiStart, units);
-    var aokijiEndCd = countdown(null, aokijiEnd, units);
-    if (aokijiStartCd.value > 0) {
-        $('#aokiji-begin-end').html('begins');
-        $('#aokiji-cd').html(aokijiStartCd.toString());
-        $('#aokiji-local').html(aokijiStart.local().format('llll'));
-    } else if (aokijiEndCd.value > 0) {
-        $('#aokiji-begin-end').html('ends');
-        $('#aokiji-cd').html(aokijiEndCd.toString());
-        $('#aokiji-local').html(aokijiEnd.local().format('llll'));
-        $('#aokiji-half-sta').show();
+    // Half Stamina 3 timer
+    var halfSta3StartCd = countdown(null, halfSta3Start, units);
+    var halfSta3EndCd = countdown(null, halfSta3End, units);
+    if (halfSta3StartCd.value > 0) {
+        $('#halfSta3-begin-end').html('begins');
+        $('#halfSta3-cd').html(halfSta3StartCd.toString());
+        $('#halfSta3-local').html(halfSta3Start.local().format('llll'));
+    } else if (halfSta3EndCd.value > 0) {
+        $('#halfSta3-begin-end').html('ends');
+        $('#halfSta3-cd').html(halfSta3EndCd.toString());
+        $('#halfSta3-local').html(halfSta3End.local().format('llll'));
+        $('#halfSta3-active').show();
     } else {
-        $('#aokiji-txt').html('has ended');
-        $('#aokiji-half-sta').hide();
+        $('#halfSta3-txt').html('has ended');
+        $('#halfSta3-active').hide();
     }
 
     // Clear interval after event ends
