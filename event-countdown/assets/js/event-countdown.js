@@ -45,9 +45,11 @@ var x = setInterval(function() {
         $('#halfSta1-cd').html(halfSta1EndCd.toString());
         $('#halfSta1-local').html(halfSta1End.local().format('llll'));
         $('#halfSta1-active').show();
+        $('#halfSta1-col').addClass('active-bg');
     } else {
         $('#halfSta1-txt').html('has ended');
         $('#halfSta1-active').hide();
+        $('#halfSta1-col').removeClass('active-bg');
     }
 
     // Half Stamina 2 timer
@@ -62,9 +64,11 @@ var x = setInterval(function() {
         $('#halfSta2-cd').html(halfSta2EndCd.toString());
         $('#halfSta2-local').html(halfSta2End.local().format('llll'));
         $('#halfSta2-active').show();
+        $('#halfSta2-col').addClass('active-bg');
     } else {
         $('#halfSta2-txt').html('has ended');
         $('#halfSta2-active').hide();
+        $('#halfSta2-col').removeClass('active-bg');
     }
 
     // Half Stamina 3 timer
@@ -79,9 +83,11 @@ var x = setInterval(function() {
         $('#halfSta3-cd').html(halfSta3EndCd.toString());
         $('#halfSta3-local').html(halfSta3End.local().format('llll'));
         $('#halfSta3-active').show();
+        $('#halfSta3-col').addClass('active-bg');
     } else {
         $('#halfSta3-txt').html('has ended');
         $('#halfSta3-active').hide();
+        $('#halfSta3-col').removeClass('active-bg');
     }
 
     // Clear interval after event ends
