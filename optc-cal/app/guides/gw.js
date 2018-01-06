@@ -189,6 +189,7 @@ var gw = {
 
     // Event
     'bb_1314': '61665', // Three Admirals
+    'bb_1404': '65078', // Straw Hat Pirates
     '20_1684': '62384', // 20th Anni SH Showdown 1
     '20_1682': '62390', // 20th Anni SH Mission 1
     '20_1755': '66020', // 20th Anni SH Showdown 2

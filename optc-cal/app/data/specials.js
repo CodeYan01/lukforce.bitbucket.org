@@ -30,6 +30,11 @@ var specials = {
         name: 'Three Admirals',
         thumb: '1314'
     },
+    'bb_1404': {
+        type: 'Blitz Battle',
+        name: 'Straw Hat Pirates',
+        thumb: '1404'
+    },
 
     '20_1684': {
         type: '20th Anni SH',
