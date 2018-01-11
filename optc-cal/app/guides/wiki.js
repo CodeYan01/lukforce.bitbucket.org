@@ -88,7 +88,7 @@ var wiki = {
     1581: 'comments/7gabga',                // Law
     1597: 'comments/7jgins',                // Shirahoshi
     1606: 'comments/7mcru1',                // BB Pirates
-    1624: '',                               // New Fishman
+    1624: 'comments/7pd946',                // New Fishman
 
     // Raids
     227: 'wiki/raidboss/mihawk',
@@ -183,7 +183,7 @@ var wiki = {
     1584: '',                               // Orlumbus
     1602: '',                               // Shiryu
     1603: 'wiki/coliseum/mcguychaos',
-    1628: '',                               // Machvise
+    1628: 'wiki/coliseum/machvise',         // Machvise
     1694: '',                               // Inuarashi
-    1733: '',                               // Nekomamushi
+    1733: 'wiki/coliseum/nekomamushi',      // Nekomamushi
 };
