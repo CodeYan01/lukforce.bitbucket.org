@@ -458,35 +458,28 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'month,basicTwo'
+                right: 'month,basicWeek'
             },
             viewRender: function(view, element) {
-                if (screen.width < 768) {
-                    $('#mobile-info').show();
+                if (view.name === 'basicWeek')
+                    $('#calendar').fullCalendar('option', 'contentHeight', 400);
+                else
+                    $('#calendar').fullCalendar('option', 'contentHeight', null);
 
-                    if (view.name === 'basicTwo') {
-                        $('#calendar').fullCalendar('option', 'contentHeight', 400);
+                if (screen.width < 768) {
+                    if (view.name === 'basicWeek') {
                         $('#vp').attr('content', 'width=device-width, initial-scale=1.0');
-                        $('#calendar').width('300.6px');
+                        $('#calendar').width('100%');
+                        $('.fc-view-container .fc-view').css('overflow-x', 'scroll');
+                        $('.fc-view-container .fc-view > table').width('1052.1px');
+
+                        // Scroll to today
+                        var todayPos = $('.fc-today').offset().left - 100;
+                        $('.fc-view-container .fc-view').scrollLeft(todayPos);
                     } else {
-                        $('#calendar').fullCalendar('option', 'contentHeight', null);
                         $('#vp').attr('content', '');
                         $('#calendar').width('1052.1px');
                     }
-                } else {
-                    var twoDayButton = $('.fc-basicTwo-button');
-
-                    twoDayButton.prop('disabled', true);
-                    twoDayButton.addClass('fc-state-disabled');
-                }
-            },
-            views: {
-                basicTwo: {
-                    type: 'basic',
-                    duration: {
-                        days: 2
-                    },
-                    buttonText: '2-day'
                 }
             },
             aspectRatio: 0.55,
@@ -541,22 +534,12 @@
                 return a.id < b.id ? -1 : 1;
             },
             displayEventTime: false,
-            firstDay: isPST ? 0 : 1,
-            defaultDate: moment().subtract(1, 'days')
+            firstDay: isPST ? 0 : 1
         });
 
-        // Auto change to 2-day view when on mobile
+        // Auto change to week view when on mobile
         if (screen.width < 768)
-            $('#calendar').fullCalendar('changeView', 'basicTwo');
-
-        // Swipe left/right for next/prev
-        var hm = new Hammer(document.getElementById('calendar'));
-        hm.on('swipeleft', function(ev) {
-            $('#calendar').fullCalendar('next');
-        });
-        hm.on('swiperight', function(ev) {
-            $('#calendar').fullCalendar('prev');
-        });
+            $('#calendar').fullCalendar('changeView', 'basicWeek');
 
         // Display current time
         moment.tz.add('Etc/GMT+8|-08|80|0|');
