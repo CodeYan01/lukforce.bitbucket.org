@@ -474,8 +474,9 @@
                         $('.fc-view-container .fc-view > table').width('1052.1px');
 
                         // Scroll to today
-                        var todayPos = $('.fc-today').offset().left - 100;
-                        $('.fc-view-container .fc-view').scrollLeft(todayPos);
+                        var todayPos = $('.fc-today').offset();
+                        if (todayPos)
+                            $('.fc-view-container .fc-view').scrollLeft(todayPos.left - 100);
                     } else {
                         $('#vp').attr('content', '');
                         $('#calendar').width('1052.1px');
