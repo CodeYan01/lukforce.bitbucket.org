@@ -69,7 +69,7 @@ var wiki = {
     1254: 'comments/7kzhjs',                // WB Alliances
     1287: '',                               // Donquixote Kids
     1300: 'comments/73xx5q',                // Halloween Rebecca
-    1302: '',                               // Prisoner Buggy
+    1302: 'comments/7r2shs',                // Prisoner Buggy
     1306: 'comments/75efgy',                // Halloween Sugar
     1326: 'comments/76w6yc',                // Halloween Corazon
     1328: 'wiki/fortnight/leo',
