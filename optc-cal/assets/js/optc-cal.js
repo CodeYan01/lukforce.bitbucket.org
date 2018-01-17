@@ -32,7 +32,7 @@
 
             res['type'] = 'fortnight';
 
-            // Add one day for 19:00 events for UTC mode
+            // Add one day for 19:00 events for GMT mode
             var start = e['start'];
             var end = e['end'];
 
@@ -89,7 +89,7 @@
 
             res['type'] = 'raid';
 
-            // Add one day for 19:00 events for UTC mode
+            // Add one day for 19:00 events for GMT mode
             var start = e['start'];
             var end = e['end'];
 
@@ -145,7 +145,7 @@
 
             res['type'] = 'coliseum';
 
-            // Add one day for 19:00 events for UTC mode
+            // Add one day for 19:00 events for GMT mode
             var start = e['start'];
             var end = e['end'];
 
@@ -182,7 +182,7 @@
         res['title'] = ambush['name'];
         res['thumb'] = ambush['thumb'];
 
-        // Add one day for 19:00 events for UTC mode
+        // Add one day for 19:00 events for GMT mode
         if (!isPST) {
             var startDate = moment(start);
             startDate.add(1, 'd');
@@ -258,7 +258,7 @@
 
             res['type'] = 'special';
 
-            // Add one day for 19:00 events for UTC mode
+            // Add one day for 19:00 events for GMT mode
             var start = e['start'];
             var end = e['end'];
 
@@ -293,7 +293,7 @@
             res['thumb'] = sbge['thumb'];
             res['type'] = 'event';
 
-            // Add one day for 19:00 events for UTC mode
+            // Add one day for 19:00 events for GMT mode
             var start = e['start'];
             var end = e['end'];
 
@@ -426,10 +426,10 @@
         var tzString;
         if (isPST) {
             $('#ctime-mode').text('PST');
-            $('#time-mode-link').text('UTC Mode');
+            $('#time-mode-link').text('GMT Mode');
             tzString = 'Etc/GMT+8';
         } else {
-            $('#ctime-mode').text('UTC');
+            $('#ctime-mode').text('GMT');
             $('#time-mode-link').text('PST Mode');
             tzString = 'Etc/UTC';
         }
@@ -437,7 +437,7 @@
         // Set User Time Mode
         $('#time-mode-link').click(function() {
             if (isPST)
-                localStorage.setItem('timeMode', "UTC");
+                localStorage.setItem('timeMode', "GMT");
             else
                 localStorage.setItem('timeMode', "PST");
 
