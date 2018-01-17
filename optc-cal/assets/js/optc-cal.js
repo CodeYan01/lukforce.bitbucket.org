@@ -6,7 +6,7 @@
     const coliColorRep = 'rgba(30, 144, 255, 0.3)';
     const spColor = 'rgba(70, 130, 180, 0.6)';
 
-    function createFortnightEvent(eventArray) {
+    function createFortnightEvent(eventArray, isPST) {
         fortnightEvents.forEach(function(e) {
             var res = {};
 
@@ -32,13 +32,26 @@
 
             res['type'] = 'fortnight';
 
+            // Add one day for 19:00 events for UTC mode
             var start = e['start'];
+            var end = e['end'];
+
+            if (!isPST) {
+                var startDate = moment(start);
+                startDate.add(1, 'd');
+                start = startDate.format('YYYY-MM-DD');
+
+                var endDate = moment(end);
+                endDate.add(1, 'd');
+                end = endDate.format('YYYY-MM-DD');
+            }
+
             if (e['is_replay'])
                 start += ' 01:30';
             else
                 start += ' 01:00';
             res['start'] = start;
-            res['end'] = e['end'];
+            res['end'] = end;
 
             var color = e['is_replay'] ? fnColorRep : fnColorNew;
             res['color'] = color;
@@ -48,7 +61,7 @@
         });
     }
 
-    function createRaidEvent(eventArray) {
+    function createRaidEvent(eventArray, isPST) {
         raidEvents.forEach(function(e) {
             var res = {};
 
@@ -71,16 +84,31 @@
 
             if (e['ambush']) {
                 res['ambush'] = e['ambush'];
-                createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'raid');
+                createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'raid', isPST);
             }
 
             res['type'] = 'raid';
 
+            // Add one day for 19:00 events for UTC mode
             var start = e['start'];
+            var end = e['end'];
+
+            if (!isPST) {
+                var startDate = moment(start);
+                startDate.add(1, 'd');
+                start = startDate.format('YYYY-MM-DD');
+
+                if (end) {
+                    var endDate = moment(end);
+                    endDate.add(1, 'd');
+                    end = endDate.format('YYYY-MM-DD');
+                }
+            }
+
             start += ' 05:00';
             res['start'] = start;
-            if (e['end'])
-                res['end'] = e['end'];
+            if (end)
+                res['end'] = end;
 
             res['color'] = raidColor;
             res['textColor'] = 'black';
@@ -89,7 +117,7 @@
         });
     }
 
-    function createColiseumEvent(eventArray) {
+    function createColiseumEvent(eventArray, isPST) {
         coliseumEvents.forEach(function(e) {
             var res = {};
 
@@ -109,7 +137,7 @@
 
             if (e['ambush']) {
                 res['ambush'] = e['ambush'];
-                createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'coliseum');
+                createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'coliseum', isPST);
             }
 
 
@@ -117,11 +145,26 @@
 
             res['type'] = 'coliseum';
 
+            // Add one day for 19:00 events for UTC mode
             var start = e['start'];
+            var end = e['end'];
+
+            if (!isPST) {
+                var startDate = moment(start);
+                startDate.add(1, 'd');
+                start = startDate.format('YYYY-MM-DD');
+
+                if (end) {
+                    var endDate = moment(end);
+                    endDate.add(1, 'd');
+                    end = endDate.format('YYYY-MM-DD');
+                }
+            }
+
             start += ' 03:00';
             res['start'] = start;
-            if (e['end'])
-                res['end'] = e['end'];
+            if (end)
+                res['end'] = end;
 
             var color = e['new_batch'] ? coliColorNew : coliColorRep;
             res['color'] = color;
@@ -130,7 +173,7 @@
         });
     }
 
-    function createAmbushEvent(eventArray, id, start, end, src) {
+    function createAmbushEvent(eventArray, id, start, end, src, isPST) {
         var res = {};
 
         var ambush = ambushes[id];
@@ -138,6 +181,19 @@
         res['id'] = id;
         res['title'] = ambush['name'];
         res['thumb'] = ambush['thumb'];
+
+        // Add one day for 19:00 events for UTC mode
+        if (!isPST) {
+            var startDate = moment(start);
+            startDate.add(1, 'd');
+            start = startDate.format('YYYY-MM-DD');
+
+            if (end) {
+                var endDate = moment(end);
+                endDate.add(1, 'd');
+                end = endDate.format('YYYY-MM-DD');
+            }
+        }
 
         if (end)
             res['end'] = end;
@@ -161,11 +217,12 @@
         eventArray.push(res);
     }
 
-    function createSpecialEvent(eventArray) {
+    function createSpecialEvent(eventArray, isPST) {
         specialEvents.forEach(function(e) {
             var res = {};
 
             var eId = e['id'];
+            var spName; // For Blitz
 
             if ('dummy' === eId) {
                 res['id'] = eId;
@@ -187,6 +244,7 @@
 
                     var title = '『' + sp['type'] + '』';
                     title += '\n' + sp['name'];
+                    spName = sp['name'];
 
                     res['title'] = title;
 
@@ -200,17 +258,32 @@
 
             res['type'] = 'special';
 
+            // Add one day for 19:00 events for UTC mode
             var start = e['start'];
+            var end = e['end'];
+
+            if (!isPST && (res['subType'] !== 'Blitz Battle' && spName !== 'Straw Hat Pirates')) {
+                var startDate = moment(start);
+                startDate.add(1, 'd');
+                start = startDate.format('YYYY-MM-DD');
+
+                if (end) {
+                    var endDate = moment(end);
+                    endDate.add(1, 'd');
+                    end = endDate.format('YYYY-MM-DD');
+                }
+            }
+
             start += ' 02:00';
             res['start'] = start;
-            if (e['end'])
-                res['end'] = e['end'];
+            if (end)
+                res['end'] = end;
 
             eventArray.push(res);
         });
     }
 
-    function createSpecialBgEvent(eventArray) {
+    function createSpecialBgEvent(eventArray, isPST) {
         specialBgEvents.forEach(function(e) {
             var res = {};
 
@@ -220,8 +293,24 @@
             res['thumb'] = sbge['thumb'];
             res['type'] = 'event';
 
-            res['start'] = e['start'];
-            res['end'] = e['end'];
+            // Add one day for 19:00 events for UTC mode
+            var start = e['start'];
+            var end = e['end'];
+
+            if (!isPST && (id === 'sugo' || id === 'free_pull')) {
+                var startDate = moment(start);
+                startDate.add(1, 'd');
+                start = startDate.format('YYYY-MM-DD');
+
+                if (end) {
+                    var endDate = moment(end);
+                    endDate.add(1, 'd');
+                    end = endDate.format('YYYY-MM-DD');
+                }
+            }
+
+            res['start'] = start;
+            res['end'] = end;
 
             res['color'] = 'rgba(0, 0, 0, 0)';
             res['rendering'] = 'background';
@@ -328,13 +417,42 @@
     }
 
     $(document).ready(function() {
+        // Retrieve User Time Mode
+        var timeMode = "PST";
+        if (localStorage.getItem('timeMode') !== null)
+            timeMode = localStorage.getItem('timeMode');
+
+        var isPST = timeMode === "PST";
+        var tzString;
+        if (isPST) {
+            $('#ctime-mode').text('PST');
+            $('#time-mode-link').text('UTC Mode');
+            tzString = 'Etc/GMT+8';
+        } else {
+            $('#ctime-mode').text('UTC');
+            $('#time-mode-link').text('PST Mode');
+            tzString = 'Etc/UTC';
+        }
+
+        // Set User Time Mode
+        $('#time-mode-link').click(function() {
+            if (isPST)
+                localStorage.setItem('timeMode', "UTC");
+            else
+                localStorage.setItem('timeMode', "PST");
+
+            // Refresh page
+            location.reload();
+        });
+
+        // Calendar events
         var eventArray = [];
 
-        createFortnightEvent(eventArray);
-        createRaidEvent(eventArray);
-        createColiseumEvent(eventArray);
-        createSpecialEvent(eventArray);
-        createSpecialBgEvent(eventArray);
+        createFortnightEvent(eventArray, isPST);
+        createRaidEvent(eventArray, isPST);
+        createColiseumEvent(eventArray, isPST);
+        createSpecialEvent(eventArray, isPST);
+        createSpecialBgEvent(eventArray, isPST);
 
         $('#calendar').fullCalendar({
             header: {
@@ -423,6 +541,7 @@
                 return a.id < b.id ? -1 : 1;
             },
             displayEventTime: false,
+            firstDay: isPST ? 0 : 1,
             defaultDate: moment().subtract(1, 'days')
         });
 
@@ -438,5 +557,12 @@
         hm.on('swiperight', function(ev) {
             $('#calendar').fullCalendar('prev');
         });
+
+        // Display current time
+        moment.tz.add('Etc/GMT+8|-08|80|0|');
+        moment.tz.add('Etc/UTC|UTC|0|0|');
+        setInterval(function() {
+            $('#ctime').html(moment().tz(tzString).format('HH:mm:ss'));
+        }, 1000);
     });
 }) ();
