@@ -9,14 +9,14 @@ button {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#footer,
+.footer,
 #optc-agenda,
 #info,
 #mobile-info,
 #disclaimer {
     width: 100%;
     text-align: center;
-    padding: 5px;
+    margin-bottom: 5px;
 }
 
 #disclaimer {
