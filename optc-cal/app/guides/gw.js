@@ -89,6 +89,7 @@ var gw = {
     1597: '57040',      // Shirahoshi
     1606: '57821',      // BB Pirates
     1624: '59323',      // New Fishman
+    1650: '60686',      // Art Brook
 
     // Raids
     227: '4142',        // Mihawk
