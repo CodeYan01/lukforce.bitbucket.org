@@ -89,7 +89,7 @@ var sd = {
     1597: 'ynnfk5I2w8s',    // Shirahoshi
     1606: '',               // BB Pirates
     1624: 'uv_a-F20vI0',    // New Fishman
-    1649: '',               // Giolla & Brook
+    1649: 'BcSqVEGd2BE',    // Giolla & Brook
 
     // Raids
     227: '',                // Mihawk
