@@ -119,7 +119,7 @@ var wiki = {
     1518: 'comments/6za7ru',                // Bellamy
     1595: 'wiki/raidboss/fujitora',
     1696: 'comments/7eeu5h',                // Vergo
-    5010: 'comments/77jr7y',                // Rayleigh
+    1924: 'comments/77jr7y',                // Rayleigh
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',

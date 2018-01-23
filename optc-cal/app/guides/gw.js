@@ -119,7 +119,7 @@ var gw = {
     1518: '53151',      // Bellamy
     1595: '56946',      // Fujitora
     1696: '63217',      // Vergo
-    5010: '',           // Rayleigh
+    1924: '85580',      // Rayleigh
 
     1623: '',           //'58437',      // Doflamingo (N)
     1669: '61266',      // Aokiji (N)

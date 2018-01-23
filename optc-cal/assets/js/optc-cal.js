@@ -320,10 +320,6 @@
     }
 
     function getThumb(thumbId) {
-        // Special case for Raid Rayleigh
-        if (thumbId === '5010')
-            return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5010.png';
-
         return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + thumbId + '.png';
     }
 

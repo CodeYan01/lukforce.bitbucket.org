@@ -107,9 +107,9 @@ var raids = {
         name: 'Vergo',
         thumb: '1696'
     },
-    5010: {
+    1924: {
         name: 'Rayleigh',
-        thumb: '5010'
+        thumb: '1924'
     },
 
     // Neo Raids
