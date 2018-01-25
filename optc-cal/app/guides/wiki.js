@@ -89,7 +89,7 @@ var wiki = {
     1597: 'comments/7jgins',                // Shirahoshi
     1606: 'comments/7mcru1',                // BB Pirates
     1624: 'comments/7pd946',                // New Fishman
-    1649: '',                               // Giolla & Brook
+    1649: 'comments/7sl1fm',                // Giolla & Brook
 
     // Raids
     227: 'wiki/raidboss/mihawk',
