@@ -90,6 +90,7 @@ var gw = {
     1606: '57821',      // BB Pirates
     1624: '59323',      // New Fishman
     1649: '60686',      // Giolla & Brook
+    1670: '61623',      // Madam Sharley
 
     // Raids
     227: '4142',        // Mihawk

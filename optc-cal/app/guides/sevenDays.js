@@ -90,6 +90,7 @@ var sd = {
     1606: '',               // BB Pirates
     1624: 'uv_a-F20vI0',    // New Fishman
     1649: 'BcSqVEGd2BE',    // Giolla & Brook
+    1670: '',               // Madam Sharley
 
     // Raids
     227: '',                // Mihawk

@@ -90,6 +90,7 @@ var wiki = {
     1606: 'comments/7mcru1',                // BB Pirates
     1624: 'comments/7pd946',                // New Fishman
     1649: 'comments/7sl1fm',                // Giolla & Brook
+    1670: '',                               // Madam Sharley
 
     // Raids
     227: 'wiki/raidboss/mihawk',
