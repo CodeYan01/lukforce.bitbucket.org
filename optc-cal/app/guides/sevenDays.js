@@ -174,6 +174,7 @@ var sd = {
     1338: '',               // Kanjuro
     1378: '',               // Marguerite
     1401: 'BFI9vbljpgY',    // Gladius
+    1422: '',               // Diamante
     1423: '',               // T-Bone
     1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
@@ -187,6 +188,7 @@ var sd = {
     1628: '',               // Machvise
     1694: '6Oe4o1b3bG4',    // Inuarashi
     1733: '',               // Nekomamushi
+    1828: '',               // Shishilian
 
     // Event
     'bb_1314': 'KpGYeH6G9JY'    // Three Admirals

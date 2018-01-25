@@ -174,6 +174,7 @@ var gw = {
     1338: '57556',      // Kanjuro
     1378: '46329',      // Marguerite
     1401: '63832',      // Gladius
+    1422: '61332',      // Diamante
     1423: '48807',      // T-Bone
     1456: '66708',      // Don Chin Jao
     1458: '50806',      // Kuro
@@ -187,6 +188,7 @@ var gw = {
     1628: '59479',      // Machvise
     1694: '62895',      // Inuarashi
     1733: '66570',      // Nekomamushi
+    1828: '74382',      // Shishilian
 
     // Event
     'bb_1314': '61665', // Three Admirals

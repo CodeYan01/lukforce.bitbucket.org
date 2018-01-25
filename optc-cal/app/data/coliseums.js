@@ -204,6 +204,11 @@ var coliseums = {
         chaos_only: true,
         thumb: '1401'
     },
+    1422: {
+        name: 'Diamante',
+        chaos_only: true,
+        thumb: '1422'
+    },
     1423: {
         name: 'T-Bone',
         chaos_only: false,
@@ -268,5 +273,10 @@ var coliseums = {
         name: 'Nekomamushi',
         chaos_only: true,
         thumb: '1733'
+    },
+    1828: {
+        name: 'Shishilian',
+        chaos_only: true,
+        thumb: '1828'
     },
 };

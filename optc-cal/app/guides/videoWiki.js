@@ -82,6 +82,7 @@ var videoWiki = {
     1338: 'coliseum/kanjuro',
     1378: 'coliseum/marguerite',
     1401: 'coliseum/gladius',
+    1422: 'coliseum/diamante',
     1423: 'coliseum/tbone',
     1456: 'coliseum/don_chinjao',
     1458: 'coliseum/kuro',
@@ -95,4 +96,5 @@ var videoWiki = {
     1628: 'coliseum/machvise',
     1694: 'coliseum/inuarashi',
     1733: 'coliseum/nekomamushi',
+    1828: 'coliseum/sicilian',
 };
