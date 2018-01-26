@@ -560,4 +560,24 @@ var specialBgEvents = [
         id: 'cotton',
         start: '2018-01-29'
     },
+    {
+        id: 'sp_x3',
+        start: '2018-02-05',
+        end: '2018-02-13'
+    },
+    {
+        id: 'ss_x3',
+        start: '2018-02-13',
+        end: '2018-02-20'
+    },
+    {
+        id: '3rd_anni_ship',
+        start: '2018-02-13',
+        end: '2018-03-09'
+    },
+    {
+        id: 'free_pull',
+        start: '2018-02-15',
+        end: '2018-02-19'
+    },
 ]

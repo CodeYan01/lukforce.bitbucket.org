@@ -489,8 +489,12 @@
                     else
                         thumbArray.push(event['thumb']);
 
-                    for (var i = 0; i < thumbArray.length; i++)
-                        element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 30, true));
+                    for (var i = 0; i < thumbArray.length; i++) {
+                        if (event['type'] === 'special' && event['subType'] === 'Champion Challenge')
+                            element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 28, true));
+                        else
+                            element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 30, true));
+                    }
 
                     if (event['type'] === 'fortnight' && event['ranking']) {
                         var imgHtml = createImgHtml(getThumb(event['ranking']), 20, false);

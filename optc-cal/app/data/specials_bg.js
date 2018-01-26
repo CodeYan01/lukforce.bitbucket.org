@@ -2,8 +2,14 @@ var specials_bg = {
     'sp': {
         thumb: 'sp'
     },
+    'sp_x3': {
+        thumb: 'sp_x3'
+    },
     'ss': {
         thumb: 'ss'
+    },
+    'ss_x3': {
+        thumb: 'ss_x3'
     },
     'snail_meat': {
         thumb: 'snail_meat'
@@ -49,5 +55,8 @@ var specials_bg = {
     },
     '2nd_anni_ship': {
         thumb: '2nd_anni_ship'
+    },
+    '3rd_anni_ship': {
+        thumb: '3rd_anni_ship'
     },
 }
