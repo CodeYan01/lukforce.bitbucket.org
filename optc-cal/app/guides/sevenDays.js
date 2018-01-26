@@ -120,6 +120,7 @@ var sd = {
     1518: '',               // Bellamy
     1595: '',               // Fujitora
     1696: 'i01chpNhVq8',    // Vergo
+    1815: '',               // Sanji
     1924: '',               // Rayleigh
 
     1623: '',               //'oirn-E-ayNM',    // Doflamingo (N)
