@@ -495,7 +495,7 @@
                     if (event['type'] === 'fortnight' && event['ranking']) {
                         var imgHtml = createImgHtml(getThumb(event['ranking']), 20, false);
                         element.find('.fc-title').html(imgHtml);
-                        element.find('.fc-title').after('<i class="fa fa-trophy fa-lg"></i>');
+                        element.find('.fc-title').after('<i class="fas fa-trophy"></i>');
                     }
 
                     element.css('min-height', '32px');
