@@ -22,8 +22,47 @@ body {
     box-decoration-break: clone;
 }
 
+.type-filter {
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    float: left;
+    opacity: 0.5;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.class-filter {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.selected {
+    opacity: 1;
+}
+
 .STR { color: red; }
 .DEX { color: green; }
 .QCK { color: blue; }
 .PSY { color: goldenrod; }
 .INT { color: darkorchid; }
+
+.STR-div { background-color: red; }
+.DEX-div { background-color: green; }
+.QCK-div { background-color: blue; }
+.PSY-div { background-color: goldenrod; }
+.INT-div { background-color: darkorchid; }
+
+.fighter-div        { background-image: url('../img/class_fighter.png'); }
+.slasher-div        { background-image: url('../img/class_slasher.png'); }
+.striker-div        { background-image: url('../img/class_striker.png'); }
+.shooter-div        { background-image: url('../img/class_shooter.png'); }
+.free-spirit-div    { background-image: url('../img/class_free_spirit.png'); }
+.cerebral-div       { background-image: url('../img/class_cerebral.png'); }
+.powerhouse-div     { background-image: url('../img/class_powerhouse.png'); }
+.driven-div         { background-image: url('../img/class_driven.png'); }
