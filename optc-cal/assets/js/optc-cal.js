@@ -489,25 +489,25 @@
                     else
                         thumbArray.push(event['thumb']);
 
-                    for (var i = 0; i < thumbArray.length; i++) {
-                        if (event['type'] === 'special' && event['subType'] === 'Champion Challenge')
-                            element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 28, true));
-                        else
-                            element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 30, true));
-                    }
+                    for (var i = 0; i < thumbArray.length; i++)
+                        element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 28, true));
 
                     if (event['type'] === 'fortnight' && event['ranking']) {
                         var imgHtml = createImgHtml(getThumb(event['ranking']), 20, false);
                         element.find('.fc-title').html(imgHtml);
                         element.find('.fc-title').after('<i class="fa fa-trophy fa-lg"></i>');
                     }
+
+                    element.css('min-height', '32px');
                 } else if (event['type'] === 'coliseum') {
                     for (var i = 0; i < event['thumb'].length; i++) {
                         if (coliseums[event['id'][i]].chaos_only)
-                            element.find('.fc-title').before(createImgHtml(getThumb(event['thumb'][i]), 30, true));
+                            element.find('.fc-title').before(createImgHtml(getThumb(event['thumb'][i]), 28, true));
                         else
                             element.find('.fc-title').before(createImgHtml(getThumb(event['thumb'][i]), 20, true));
                     }
+
+                    element.css('min-height', '32px');
                 } else if (event['type'] === 'raidAmbush' || event['type'] === 'coliAmbush') {
                     element.find('.fc-title').before(createImgHtml(getThumb(event['thumb']), 15, true));
                 } else {
