@@ -50,6 +50,8 @@ function processUnitData(id, unit, rawData) {
     data.name = unit[0];
     data.type = unit[1];
     data.clazz = unit[2];
+    data.global = flags[id] && flags[id].global ? 1 : 0;
+
     data.rcv = unit[14] + 100;
 
     // Parse Captain Ability / Special with Regex
@@ -77,8 +79,11 @@ $.fn.dataTable.ext.search.push(
     function(settings, rowData, index, data) {
         var typeFilter = filters.type;
         var classFilter = filters.clazz;
+        var globalFilter = filters.global;
 
-        if (typeFilter.length == 0 && classFilter.length == 0)
+        if (typeFilter.length == 0
+            && classFilter.length == 0
+            && globalFilter === 0)
             return true;
 
         // Filter by Type
@@ -110,6 +115,10 @@ $.fn.dataTable.ext.search.push(
             }
         }
 
+        // Filter Global units
+        if (globalFilter === 1 && data.global === 0)
+            return false;
+
         return true;
     }
 );
@@ -117,6 +126,7 @@ $.fn.dataTable.ext.search.push(
 var filters = {
     type: [],
     clazz: [],
+    global: 0
 };
 
 $(document).ready(function() {
@@ -158,6 +168,18 @@ $(document).ready(function() {
         } else {
             // De-select filter
             filters.clazz.splice(filters.clazz.indexOf(filter), 1);
+            $(this).removeClass('selected');
+        }
+    });
+
+    $('.global-filter').click(function() {
+        if (filters.global === 0) {
+            // Select filter if not already selected
+            filters.global = 1;
+            $(this).addClass('selected');
+        } else {
+            // De-select filter
+            filters.global = 0;
             $(this).removeClass('selected');
         }
     });
