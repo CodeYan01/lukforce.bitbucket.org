@@ -59,6 +59,40 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="../">
+            <img src="../pappagu.png" width="30" height="30">
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#navbar-menu"
+            aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Global Calendar</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="useful-lists-link"
+                        role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Useful Lists
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="useful-lists-link">
+                        <a class="dropdown-item" href="../useful-lists/rcv-captains.html">RCV Related Captain Abilities</a>
+                        <a class="dropdown-item" href="../useful-lists/rcv-specials.html">RCV Related Specials</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div id="eventDetailModal" class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -123,25 +157,25 @@
         </div>
     </div>
 
-    <div id="optc-agenda">
-        <i class="fas fa-external-link-alt"></i>&nbsp;
-        <a href="https://optc-agenda.github.io/" target="_blank">Week View Mode (to OPTC Agenda)</a>
+    <div id="container">
+        <div id="optc-agenda">
+            <i class="fas fa-external-link-alt"></i>&nbsp;
+            <a href="https://optc-agenda.github.io/" target="_blank">Week View Mode (to OPTC Agenda)</a>
+        </div>
+
+        <div id="time-mode">
+            <i class="far fa-clock"></i>&nbsp;
+            <span id="ctime"></span>&nbsp;<span id="ctime-mode"></span>&nbsp;|&nbsp;
+            <a id="time-mode-link" href="#"></a>
+        </div>
+
+        <div id="info">
+            <i class="fas fa-info-circle"></i>&nbsp;
+            Click on Events for links to drops and guides
+        </div>
+
+        <div id="calendar"></div>
     </div>
-
-    <div id="time-mode">
-        <i class="far fa-clock"></i>&nbsp;
-        <span id="ctime"></span>&nbsp;<span id="ctime-mode"></span>&nbsp;|&nbsp;
-        <a id="time-mode-link" href="#"></a>
-    </div>
-
-    <div id="info">
-        <i class="fas fa-info-circle"></i>&nbsp;
-        Click on Events for links to drops and guides
-    </div>
-
-    <div id="calendar"></div>
-
-    <br />
 
     <div class="footer">
         Calendar by <a href="https://www.reddit.com/u/zl1814" target="_blank">u/zl1814</a>, background images provided by <a href="https://www.reddit.com/u/qblcookie" target="_blank">u/qblcookie</a>
