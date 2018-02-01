@@ -32,7 +32,19 @@ function getFinalForms() {
     return finalForms;
 }
 
-function processUnitData(regex, id, rawData, unit) {
+function processUnitData(id, unit, rawData) {
+    // RCV Multiplier regex
+    var rcvRegex = /Recovers (\d+\.*\d*)x character'*s RCV/i;
+
+    // Captain Ability: ATK Multiplier regex
+    var atkRegex = /Boosts ATK.+characters by (\d+\.*\d*)x/i;
+
+    // Captain Ability: Chain Multiplier regex
+    var chainRegex = /Boosts chain multiplier by (\d+\.*\d*)x/i;
+
+    // Special: Multiple Turn Special regex
+    var turnRegex = /RCV.+at the end of.+turn for (\d+\.*\d*) turns/i;
+
     var data = {};
     data.id = id;
     data.name = unit[0];
@@ -40,10 +52,23 @@ function processUnitData(regex, id, rawData, unit) {
     data.clazz = unit[2];
     data.rcv = unit[14] + 100;
 
-    var rcvSubStr = rawData.match(regex);
-    data.multiplier = rcvSubStr[1];
+    // Parse Captain Ability / Special with Regex
+    var rcvRegexResult = rcvRegex.exec(rawData);
+    data.rcvMultiplier = rcvRegexResult ? rcvRegexResult[1] : '';
 
-    data.total = data.rcv * data.multiplier;
+    var atkRegexResult = atkRegex.exec(rawData);
+    data.atkMultiplier = atkRegexResult ? atkRegexResult[1] : '';
+
+    if (!atkRegexResult) {
+        var chainRegexResult = chainRegex.exec(rawData);
+        data.atkMultiplier = chainRegexResult ? (chainRegexResult[1] + ' (chain)') : '';
+    }
+
+    var turnRegexResult = turnRegex.exec(rawData);
+    data.numTurns = turnRegexResult ? turnRegexResult[1] : '';
+
+    // Calculate total recovered HP
+    data.total = data.rcv * data.rcvMultiplier;
 
     return data;
 }

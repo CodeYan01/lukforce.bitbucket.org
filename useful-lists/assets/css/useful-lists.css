@@ -5,15 +5,16 @@
     font-size: 15px;
 }
 
-#info,
 #disclaimer {
     width: 100%;
     text-align: center;
     padding: 5px;
+    font-size: 10px;
 }
 
-#disclaimer {
-    font-size: 10px;
+.info {
+    font-size: 13px;
+    padding: 5px;
 }
 
 .nav-button {

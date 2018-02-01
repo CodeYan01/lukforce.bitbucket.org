@@ -1,6 +1,6 @@
 (function() {
     function getRcvCaptains(unitIds) {
-        var regex = /Recovers (\d+\.*\d*)x.+RCV/i;
+        var regex = /Recovers (\d+\.*\d*)x character'*s RCV/i;
         var rcvCaptains = {};
 
         for (u in unitIds) {
@@ -10,12 +10,12 @@
 
             if (unitDetail.captain) {
                 if (regex.test(unitDetail.captain)) {
-                    rcvCaptains[uid] = processUnitData(regex, uid, unitDetail.captain, unit);
+                    rcvCaptains[uid] = processUnitData(uid, unit, unitDetail.captain);
                 } else if (typeof(unitDetail.captain) === 'object') {
                     // For Captain Abilities with limit break
                     for (c in unitDetail.captain) {
                         if (regex.test(unitDetail.captain[c]))
-                            rcvCaptains[uid] = processUnitData(regex, uid, unitDetail.captain[c], unit);
+                            rcvCaptains[uid] = processUnitData(uid, unit, unitDetail.captain[c]);
                     }
                 }
             }
@@ -39,7 +39,8 @@
                 {'data': 'name'},
                 {'data': 'total'},
                 {'data': 'rcv'},
-                {'data': 'multiplier'}
+                {'data': 'rcvMultiplier'},
+                {'data': 'atkMultiplier'}
             ],
             'rowCallback': function(row, data, index) {
                 // ID linked to OPTC-DB

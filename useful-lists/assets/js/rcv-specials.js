@@ -1,6 +1,6 @@
 (function() {
     function getRcvSpecials(unitIds) {
-        var regex = /Recovers (\d+\.*\d*)x.+RCV/i;
+        var regex = /Recovers (\d+\.*\d*)x character'*s RCV/i;
         var rcvSpecials = {};
 
         for (u in unitIds) {
@@ -10,12 +10,12 @@
 
             if (unitDetail.special) {
                 if (regex.test(unitDetail.special)) {
-                    rcvSpecials[uid] = processUnitData(regex, uid, unitDetail.special, unit);
+                    rcvSpecials[uid] = processUnitData(uid, unit, unitDetail.special);
                 } else if (Array.isArray(unitDetail.special)) {
                     // For Specials with multiple stages
                     for (s in unitDetail.special) {
                         if (regex.test(unitDetail.special[s].description))
-                            rcvSpecials[uid] = processUnitData(regex, uid, unitDetail.special[s].description, unit);
+                            rcvSpecials[uid] = processUnitData(uid, unit, unitDetail.special[s].description);
                     }
                 }
             }
@@ -39,7 +39,8 @@
                 {'data': 'name'},
                 {'data': 'total'},
                 {'data': 'rcv'},
-                {'data': 'multiplier'}
+                {'data': 'rcvMultiplier'},
+                {'data': 'numTurns'}
             ],
             'rowCallback': function(row, data, index) {
                 // ID linked to OPTC-DB
