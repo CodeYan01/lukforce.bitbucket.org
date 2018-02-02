@@ -363,48 +363,61 @@
         if (e['ambush'])
             ids.push(e['ambush']);
 
-        for (var i = 0; i < ids.length; i++) {
+        if (e['type'] === 'special' && e['subType'] === 'Champion Challenge') {
+            // Special case for Champion Challenge
             var ed = $('#eventDetailClone').clone();
-            var id = ids[i];
-            ed.attr('id', "eventDetail_" + id);
+            ed.attr('id', 'eventDetail_cc');
+            ed.find('.eventTitle').text('Champion Challenge');
 
-            var data;
-            if (e['type'] === 'fortnight')
-                data = fortnights[id];
-            else if (e['type'] === 'raid')
-                data = raids[id];
-            else if (e['type'] === 'coliseum')
-                data = coliseums[id];
-            else if (e['type'] === 'special')
-                data = specials[id];
-
-            if (e['ambush'] && !data)
-                data = ambushes[id];
-
-            // Special case for Blitz Battle
-            if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
-                ed.find('.countdown').show();
-
-            ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
-            ed.find('.eventTitle').text(data['name']);
-
-            if (drops[id])
-                createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', drops[id], 'Drop List');
-
-            if (gw[id])
-                createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', gw[id], 'Gamewith Stage Guide');
-
-            if (sd[id])
-                createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
-
-            if (wiki[id])
-                createListItem(ed, '.redditWiki', 'https://www.reddit.com/r/OnePieceTC/', wiki[id], 'Reddit Stage Guide Wiki');
-
-            if (videoWiki[id])
-                createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
+            createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
+            createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', '56742', 'Gamewith Stage Guide');
 
             $('#eventDetail').append(ed);
             ed.show();
+        } else {
+            for (var i = 0; i < ids.length; i++) {
+                var ed = $('#eventDetailClone').clone();
+                var id = ids[i];
+                ed.attr('id', 'eventDetail_' + id);
+
+                var data;
+                if (e['type'] === 'fortnight')
+                    data = fortnights[id];
+                else if (e['type'] === 'raid')
+                    data = raids[id];
+                else if (e['type'] === 'coliseum')
+                    data = coliseums[id];
+                else if (e['type'] === 'special')
+                    data = specials[id];
+
+                if (e['ambush'] && !data)
+                    data = ambushes[id];
+
+                // Special case for Blitz Battle
+                if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
+                    ed.find('.countdown').show();
+
+                ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
+                ed.find('.eventTitle').text(data['name']);
+
+                if (drops[id])
+                    createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', drops[id], 'Drop List');
+
+                if (gw[id])
+                    createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', gw[id], 'Gamewith Stage Guide');
+
+                if (sd[id])
+                    createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
+
+                if (wiki[id])
+                    createListItem(ed, '.redditWiki', 'https://www.reddit.com/r/OnePieceTC/', wiki[id], 'Reddit Stage Guide Wiki');
+
+                if (videoWiki[id])
+                    createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
+
+                $('#eventDetail').append(ed);
+                ed.show();
+            }
         }
 
         var modalCloseButton = $('#modalCloseButton').clone();
@@ -520,6 +533,7 @@
                     || event['type'] === 'coliseum'
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
+                    || (event['type'] === 'special' && event['subType'] === 'Champion Challenge')
                 ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);
