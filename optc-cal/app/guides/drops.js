@@ -75,7 +75,7 @@ drops = {
     1328: 'Tontatta%20Tribe:%20Catch%20the%20Big%20Person!%20Fortnight',
     1332: 'Tontatta%20Tribe:%20Find%20the%20Beloved%20Prince?!%20Fortnight',
     1357: 'Gather%20the%20Candy!%20Fortnight',
-    1384: 'Become%20Strong%20to%20be%20Happy!%20Fortnight',
+    1384: 'Fight%20for%20your%20Happiness!%20Fortnight',
     1397: 'Shambles!%20Tashigi%20and%20Smoker?!?%20Fortnight',
     1416: 'Marines!%20Sengoku%20the%20Fleet%20Admiral!%20Fortnight',
     1426: 'Chinjao%20Family!%20Fortnight',
