@@ -176,12 +176,12 @@ var wiki = {
     1338: 'comments/70qjmd',                // Kanjuro
     1378: '',                               // Marguerite
     1401: '',                               // Gladius
-    1422: '',                               // Diamante
+    1422: 'comments/7t5pis',                // Diamante
     1423: '',                               // T-Bone
     1456: 'wiki/coliseum/donchinjao',
     1458: 'comments/6ust2n',                // Kuro
     1460: '',                               // Ms. Valentine
-    1487: '',                               // Ideo
+    1487: 'comments/7ujevj',                // Ideo
     1525: 'wiki/coliseum/suleiman',
     1553: 'wiki/coliseum/hajrudin',
     1584: '',                               // Orlumbus
@@ -190,5 +190,5 @@ var wiki = {
     1628: 'wiki/coliseum/machvise',         // Machvise
     1694: '',                               // Inuarashi
     1733: 'wiki/coliseum/nekomamushi',      // Nekomamushi
-    1828: '',                               // Shishilian
+    1828: 'comments/7t79sc',                // Shishilian
 };
