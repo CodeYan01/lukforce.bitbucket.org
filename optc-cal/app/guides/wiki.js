@@ -91,6 +91,7 @@ var wiki = {
     1624: 'comments/7pd946',                // New Fishman
     1649: 'comments/7sl1fm',                // Giolla & Brook
     1670: 'comments/7u7n86',                // Madam Sharley
+    1690: '',                               // Kid
 
     // Raids
     227: 'wiki/raidboss/mihawk',

@@ -91,6 +91,7 @@ var sd = {
     1624: 'uv_a-F20vI0',    // New Fishman
     1649: 'BcSqVEGd2BE',    // Giolla & Brook
     1670: 'ww5CS9-aNQE',    // Madam Sharley
+    1690: '',               // Kid
 
     // Raids
     227: '',                // Mihawk
