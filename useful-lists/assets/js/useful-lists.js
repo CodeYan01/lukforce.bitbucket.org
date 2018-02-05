@@ -26,7 +26,7 @@ function getFinalForms() {
     var baseForms = Object.keys(evolutions);
 
     var finalForms = allUnits.filter(function(el) {
-        return !baseForms.includes(el);
+        return baseForms.indexOf(el) === -1;
     });
 
     return finalForms;
