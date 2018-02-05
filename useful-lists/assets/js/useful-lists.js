@@ -1,6 +1,6 @@
 function getThumb(thumbId) {
     // Zero pad IDs to get correct thumb
-    var paddedThumbId = thumbId.padStart(4, "0");
+    var paddedThumbId = ('0000' + thumbId).slice(-4);
 
     // Special case for Aokiji 575 with extra 0
     if (thumbId === '575')
