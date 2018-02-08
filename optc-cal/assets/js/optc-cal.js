@@ -348,6 +348,10 @@
         var li = ed.find(liClass);
         var liUrl = url + liId;
 
+        // Special case for Nakama Network
+        if (liClass === '.nakama')
+            liUrl += '/details';
+
         li.find('.url').html(createUrlHtml(liUrl, urlText));
         li.show();
     }
@@ -414,6 +418,9 @@
 
                 if (videoWiki[id])
                     createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
+
+                if (nakama[id])
+                    createListItem(ed, '.nakama', 'https://www.nakama.network/stages/', nakama[id], 'Nakama Network');
 
                 $('#eventDetail').append(ed);
                 ed.show();
