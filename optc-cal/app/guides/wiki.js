@@ -67,7 +67,7 @@ var wiki = {
     1215: 'wiki/fortnight/worldpirates',
     1242: 'wiki/fortnight/revolutionary',
     1254: 'comments/7kzhjs',                // WB Alliances
-    1287: '',                               // Donquixote Kids
+    1287: 'comments/7vtlep',                // Donquixote Kids
     1300: 'comments/73xx5q',                // Halloween Rebecca
     1302: 'comments/7r2shs',                // Prisoner Buggy
     1306: 'comments/75efgy',                // Halloween Sugar
@@ -75,7 +75,7 @@ var wiki = {
     1328: 'wiki/fortnight/leo',
     1332: 'comments/7nstr8',                // Tontatta 2
     1357: 'comments/7evnsv',                // Big Mom Pirates
-    1384: '',                               // Toy Soldier
+    1384: 'comments/7vu1zc',                // Toy Soldier
     1397: 'comments/7bmlws',                // Shambles G5
     1416: 'wiki/fortnight/sengoku',
     1426: 'comments/6ydcrn',                // Don Sai
