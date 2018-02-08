@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="zl1814">
-    <meta name="keywords" content="OPTC, One Piece Treasure Cruise, RCV Candy">
-    <meta name="description" content="One Piece Treasure Cruise list of RCV candy candidates.">
+    <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Clear Mob">
+    <meta name="description" content="One Piece Treasure Cruise list of Mob Clearing specials.">
 
-    <title>OPTC RCV Candy Related Captain Abilities</title>
+    <title>OPTC Mob Clearing Specials</title>
 
     <link rel="icon" sizes="192x192" href="../pappagu.png">
 
@@ -16,7 +16,7 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css" rel="stylesheet">
 
-    <link href="assets/css/useful-lists.css" rel="stylesheet" />
+    <link href="assets/css/useful-lists.css" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
@@ -25,7 +25,7 @@
     <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 
     <script src="assets/js/useful-lists.js"></script>
-    <script src="assets/js/rcv-captains.js"></script>
+    <script src="assets/js/mob-clear-specials.js"></script>
     <script src="assets/resources/units.js"></script>
     <script src="assets/resources/details.js"></script>
     <script src="assets/resources/evolutions.js"></script>
@@ -70,9 +70,9 @@
                         Useful Lists
                     </a>
                     <div class="dropdown-menu" aria-labelledby="useful-lists-link">
-                        <a class="dropdown-item" href="#">RCV Related Captain Abilities</a>
+                        <a class="dropdown-item" href="rcv-captains.html">RCV Related Captain Abilities</a>
                         <a class="dropdown-item" href="rcv-specials.html">RCV Related Specials</a>
-                        <a class="dropdown-item" href="mob-clear-specials.html">Mob Clearing Specials</a>
+                        <a class="dropdown-item" href="#">Mob Clearing Specials</a>
                     </div>
                 </li>
             </ul>
@@ -82,7 +82,7 @@
     <div id="container">
         <div class="row">
             <div class="col offset-md-2 col-md-4 col-12">
-                <h4>RCV Related Captain Abilities</h4>
+                <h4>Mob Clearing Specials</h4>
             </div>
 
             <div class="col col-md-4 col-12">
@@ -90,7 +90,9 @@
                     <div class="col col-12">
                         <div class="info">
                             <i class="fas fa-info-circle"></i>&nbsp;
-                            Find units to use the often excessive RCV cotton candies!
+                            Find units that deals damage to all enemies to clear the annoying mobs!
+                            <br />
+                            (Note: HP related / random damage not included)
                         </div>
                     </div>
                 </div>
@@ -146,12 +148,12 @@
                             <th scope="col">ID</th>
                             <th scope="col">Name</th>
                             <th scope="col">Total</th>
-                            <th scope="col">RCV&nbsp;w/&nbsp;Candy</th>
-                            <th scope="col">RCV&nbsp;Multiplier</th>
+                            <th scope="col">ATK</th>
                             <th scope="col">ATK&nbsp;Multiplier</th>
+                            <th scope="col">Note</th>
                         </tr>
                     </thead>
-                    <tbody id="rcv-captains"></tbody>
+                    <tbody id="rcv-specials"></tbody>
                 </table>
             </div>
         </div>

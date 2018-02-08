@@ -10,12 +10,12 @@
 
             if (unitDetail.captain) {
                 if (regex.test(unitDetail.captain)) {
-                    rcvCaptains[uid] = processUnitData(uid, unit, unitDetail.captain);
+                    rcvCaptains[uid] = processUnitData(uid, unit, unitDetail.captain, 'rcv-captains');
                 } else if (typeof(unitDetail.captain) === 'object') {
                     // For Captain Abilities with limit break
                     for (c in unitDetail.captain) {
                         if (regex.test(unitDetail.captain[c]))
-                            rcvCaptains[uid] = processUnitData(uid, unit, unitDetail.captain[c]);
+                            rcvCaptains[uid] = processUnitData(uid, unit, unitDetail.captain[c], 'rcv-captains');
                     }
                 }
             }

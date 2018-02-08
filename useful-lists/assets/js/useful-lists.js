@@ -32,19 +32,7 @@ function getFinalForms() {
     return finalForms;
 }
 
-function processUnitData(id, unit, rawData) {
-    // RCV Multiplier regex
-    var rcvRegex = /Recovers (\d+\.*\d*)x character'*s RCV/i;
-
-    // Captain Ability: ATK Multiplier regex
-    var atkRegex = /Boosts ATK.+characters by (\d+\.*\d*)x/i;
-
-    // Captain Ability: Chain Multiplier regex
-    var chainRegex = /Boosts chain multiplier by (\d+\.*\d*)x/i;
-
-    // Special: Multiple Turn Special regex
-    var turnRegex = /RCV.+at the end of.+turn for (\d+\.*\d*) turns/i;
-
+function processUnitData(id, unit, rawData, type) {
     var data = {};
     data.id = id;
     data.name = unit[0];
@@ -52,25 +40,94 @@ function processUnitData(id, unit, rawData) {
     data.clazz = unit[2];
     data.global = flags[id] && flags[id].global ? 1 : 0;
 
-    data.rcv = unit[14] + 100;
+    if (type === 'rcv-captains' || type === 'rcv-specials') {
+        // RCV Multiplier regex
+        var rcvRegex = /Recovers (\d+\.*\d*)x character'*s RCV/i;
 
-    // Parse Captain Ability / Special with Regex
-    var rcvRegexResult = rcvRegex.exec(rawData);
-    data.rcvMultiplier = rcvRegexResult ? rcvRegexResult[1] : '';
+        // Captain Ability: ATK Multiplier regex
+        var atkRegex = /Boosts ATK.+characters by (\d+\.*\d*)x/i;
 
-    var atkRegexResult = atkRegex.exec(rawData);
-    data.atkMultiplier = atkRegexResult ? atkRegexResult[1] : '';
+        // Captain Ability: Chain Multiplier regex
+        var chainRegex = /Boosts chain multiplier by (\d+\.*\d*)x/i;
 
-    if (!atkRegexResult) {
-        var chainRegexResult = chainRegex.exec(rawData);
-        data.atkMultiplier = chainRegexResult ? (chainRegexResult[1] + ' (chain)') : '';
+        // Special: Multiple Turn Special regex
+        var turnRegex = /RCV.+at the end of.+turn for (\d+\.*\d*) turns/i;
+
+        data.rcv = unit[14] + 100;
+
+        // Parse Captain Ability / Special with Regex
+        var rcvRegexResult = rcvRegex.exec(rawData);
+        data.rcvMultiplier = rcvRegexResult ? rcvRegexResult[1] : '';
+
+        if (type === 'rcv-captains') {
+            var atkRegexResult = atkRegex.exec(rawData);
+            data.atkMultiplier = atkRegexResult ? atkRegexResult[1] : '';
+
+            if (!atkRegexResult) {
+                var chainRegexResult = chainRegex.exec(rawData);
+                data.atkMultiplier = chainRegexResult ? (chainRegexResult[1] + ' (chain)') : '';
+            }
+        } else {
+            var turnRegexResult = turnRegex.exec(rawData);
+            data.numTurns = turnRegexResult ? turnRegexResult[1] : '';
+        }
+
+        // Calculate total recovered HP
+        data.total = data.rcv * data.rcvMultiplier;
+    } else if (type === 'mob-clear-specials') {
+        // Special: ATK Multiplier regex
+        var spAtkRegex = /Deals (\d+\.*\d*)x (the )*(character'*s )*.*ATK.+to all enemies/i;
+
+        // Special: Typeless damage regex
+        var typelessRegex = /typeless damage/i;
+
+        // Special: Ignore barrier regex
+        var ignoreBarrierRegex = /ignore damage negating abilities and barriers/i;
+
+        // Special: Fixed damage regex
+        var fixedRegex = /fixed.+damage/i;
+
+        data.atk = unit[13];
+
+        // Parse Special with Regex
+        var spAtkRegexResult = spAtkRegex.exec(rawData);
+        data.atkMultiplier = spAtkRegexResult ? spAtkRegexResult[1] : '';
+
+        data.total = data.atk * data.atkMultiplier;
+
+        data.note = [];
+        if (typelessRegex.exec(rawData))
+            data.note.push('Typeless');
+        if (ignoreBarrierRegex.exec(rawData))
+            data.note.push('Ignore Barrier');
+        if (fixedRegex.exec(rawData))
+            data.note.push('Fixed');
+
+        // Neptune special case
+        if (id == 1475)
+            data.note.push('Enemy < 50%');
+    } else if (type === 'mob-clear-fixed-specials') {
+        // Special: Damage amount regex
+        var dmgRegex = /Deals (\d+\,*\d*) fixed damage.+to all enemies/i;
+
+        // Special: Ignore barrier regex
+        var ignoreBarrierRegex = /ignore damage negating abilities and barriers/i;
+
+        data.atk = unit[13];
+
+        // Parse Special with Regex
+        data.atkMultiplier = 'N/A';
+
+        var dmgRegexResult = dmgRegex.exec(rawData);
+        data.total = dmgRegexResult ? dmgRegexResult[1] : '';
+        data.total = data.total.replace(',', '');
+
+        data.note = [];
+        if (ignoreBarrierRegex.exec(rawData))
+            data.note.push('Ignore Barrier');
+
+        data.note.push('Fixed');
     }
-
-    var turnRegexResult = turnRegex.exec(rawData);
-    data.numTurns = turnRegexResult ? turnRegexResult[1] : '';
-
-    // Calculate total recovered HP
-    data.total = data.rcv * data.rcvMultiplier;
 
     return data;
 }

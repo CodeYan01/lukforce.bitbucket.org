@@ -10,12 +10,12 @@
 
             if (unitDetail.special) {
                 if (regex.test(unitDetail.special)) {
-                    rcvSpecials[uid] = processUnitData(uid, unit, unitDetail.special);
+                    rcvSpecials[uid] = processUnitData(uid, unit, unitDetail.special, 'rcv-specials');
                 } else if (Array.isArray(unitDetail.special)) {
                     // For Specials with multiple stages
                     for (s in unitDetail.special) {
                         if (regex.test(unitDetail.special[s].description))
-                            rcvSpecials[uid] = processUnitData(uid, unit, unitDetail.special[s].description);
+                            rcvSpecials[uid] = processUnitData(uid, unit, unitDetail.special[s].description, 'rcv-specials');
                     }
                 }
             }
