@@ -571,6 +571,11 @@ var specialBgEvents = [
         end: '2018-02-12'
     },
     {
+        id: 'train_drink',
+        start: '2018-02-09',
+        end: '2018-02-13'
+    },
+    {
         id: 'ss_x3',
         start: '2018-02-13',
         end: '2018-02-20'

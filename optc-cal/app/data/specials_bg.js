@@ -50,6 +50,9 @@ var specials_bg = {
     'mat': {
         thumb: 'mat'
     },
+    'train_drink': {
+        thumb: 'train_drink'
+    },
     'strawhats': {
         thumb: 'strawhats'
     },
