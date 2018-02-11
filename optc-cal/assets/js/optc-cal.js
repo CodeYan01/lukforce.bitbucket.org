@@ -536,7 +536,7 @@ function highlightNavbar() {
                 } else if (event['type'] === 'raidAmbush' || event['type'] === 'coliAmbush') {
                     element.find('.fc-title').before(createImgHtml(getThumb(event['thumb']), 15, true));
                 } else {
-                    element.closest('.fc-bgevent').css('background-image', 'url("assets/img/' + event['thumb'] + '.png")');
+                    element.closest('.fc-bgevent').css('background-image', 'url("/optc-cal/assets/img/' + event['thumb'] + '.png")');
                 }
             },
             eventClick: function(event) {
