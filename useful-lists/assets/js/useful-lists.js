@@ -1,3 +1,8 @@
+function highlightNavbar() {
+    // Highlight navbar
+    $('#useful-lists-nav').addClass('active');
+}
+
 function getThumb(thumbId) {
     // Zero pad IDs to get correct thumb
     var paddedThumbId = ('0000' + thumbId).slice(-4);

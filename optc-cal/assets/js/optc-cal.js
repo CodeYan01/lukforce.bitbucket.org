@@ -1,3 +1,8 @@
+// Highlight navbar
+function highlightNavbar() {
+    $('#optc-cal-nav').addClass('active');
+}
+
 (function() {
     const fnColorNew = 'rgba(250, 128, 114, 0.6)';
     const fnColorRep = 'rgba(250, 128, 114, 0.3)';

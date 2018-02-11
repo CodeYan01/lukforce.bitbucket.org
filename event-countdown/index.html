@@ -24,6 +24,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+    <script src="../common/assets/js/main.js"></script>
     <script src="assets/js/event-countdown.js"></script>
 
     <!-- Google Analytics -->
@@ -39,38 +40,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="../">
-            <img src="../pappagu.png" width="30" height="30">
-            OPTC Voyage Log
-        </a>
-
-        <button class="navbar-toggler" type="button"
-            data-toggle="collapse" data-target="#navbar-menu"
-            aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbar-menu">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../optc-cal">Global Calendar</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="useful-lists-link"
-                        role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Useful Lists
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="useful-lists-link">
-                        <a class="dropdown-item" href="../useful-lists/rcv-captains.html">RCV Related Captain Abilities</a>
-                        <a class="dropdown-item" href="../useful-lists/rcv-specials.html">RCV Related Specials</a>
-                        <a class="dropdown-item" href="../useful-lists/mob-clear-specials.html">Mob Clearing Specials</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div id="header"></div>
 
     <div id="container">
         <div class="row">
@@ -204,8 +174,6 @@
         <a href="../optc-cal" target="_blank">OPTC Global Calendar</a>
     </div>
 
-    <div id="footer">
-        This site does not own any of the images. All images are owned by Eiichiro Oda/Shueisha, Toei Animation, and Bandai Namco.
-    </div>
+    <div id="footer"></div>
 </body>
 </html>
