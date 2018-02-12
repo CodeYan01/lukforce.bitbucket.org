@@ -189,7 +189,7 @@ var wiki = {
     1602: '',                               // Shiryu
     1603: 'wiki/coliseum/mcguychaos',
     1628: 'wiki/coliseum/machvise',         // Machvise
-    1694: '',                               // Inuarashi
+    1694: 'comments/7v81g8',                // Inuarashi
     1733: 'wiki/coliseum/nekomamushi',      // Nekomamushi
     1828: 'comments/7t79sc',                // Shishilian
 };
