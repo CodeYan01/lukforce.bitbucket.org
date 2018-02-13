@@ -267,7 +267,10 @@ function highlightNavbar() {
             var start = e['start'];
             var end = e['end'];
 
-            if (!isPST && (res['subType'] !== 'Blitz Battle' && spName !== 'Straw Hat Pirates')) {
+            if (!isPST
+                && (res['subType'] !== 'Blitz Battle' && spName !== 'Straw Hat Pirates')
+                && res['subType'] !== '3rd Anni'
+            ) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
                 start = startDate.format('YYYY-MM-DD');
