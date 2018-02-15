@@ -189,8 +189,10 @@ var sd = {
     1602: 'WjEGknjdtzs',    // Shiryu
     1603: '',               // McGuy
     1628: '',               // Machvise
+    1667: '',               // Kyros
     1694: '6Oe4o1b3bG4',    // Inuarashi
     1733: '',               // Nekomamushi
+    1792: '',               // Lucy
     1828: '',               // Shishilian
 
     // Event

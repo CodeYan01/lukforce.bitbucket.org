@@ -189,8 +189,10 @@ var gw = {
     1602: '57471',      // Shiryu
     1603: '57472',      // McGuy
     1628: '59479',      // Machvise
+    1667: '61260',      // Kyros
     1694: '62895',      // Inuarashi
     1733: '66570',      // Nekomamushi
+    1792: '70189',      // Lucy
     1828: '74382',      // Shishilian
 
     // Event

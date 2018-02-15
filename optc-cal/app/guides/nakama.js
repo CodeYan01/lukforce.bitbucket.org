@@ -189,8 +189,10 @@ var nakama = {
     1602: '5148472',    // Shiryu
     1603: '5125281',    // McGuy
     1628: '5153634',    // Machvise
+    1667: '5151816',    // Kyros
     1694: '5145772',    // Inuarashi
     1733: '5191415',    // Nekomamushi
+    1792: '5231789',    // Lucy
     1828: '5141993',    // Shishilian
 
     // Event

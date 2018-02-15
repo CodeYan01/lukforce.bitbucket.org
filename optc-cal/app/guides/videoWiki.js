@@ -95,7 +95,9 @@ var videoWiki = {
     1602: 'coliseum/shiryu',
     1603: 'coliseum/mcguy',
     1628: 'coliseum/machvise',
+    1667: 'coliseum/kyros',
     1694: 'coliseum/inuarashi',
     1733: 'coliseum/nekomamushi',
+    1792: 'coliseum/lucy_luffy',
     1828: 'coliseum/sicilian',
 };
