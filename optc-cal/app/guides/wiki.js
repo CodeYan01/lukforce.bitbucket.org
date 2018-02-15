@@ -91,7 +91,7 @@ var wiki = {
     1624: 'comments/7pd946',                // New Fishman
     1649: 'comments/7sl1fm',                // Giolla & Brook
     1670: 'comments/7u7n86',                // Madam Sharley
-    1690: '',                               // Kid
+    1690: 'comments/7xfau4',                // Kid
 
     // Raids
     227: 'wiki/raidboss/mihawk',
@@ -121,7 +121,7 @@ var wiki = {
     1518: 'comments/6za7ru',                // Bellamy
     1595: 'wiki/raidboss/fujitora',
     1696: 'comments/7eeu5h',                // Vergo
-    1815: '',                               // Sanji
+    1815: 'wiki/raidboss/sanji',
     1924: 'comments/77jr7y',                // Rayleigh
 
     1623: 'wiki/raidboss/doffykai',
