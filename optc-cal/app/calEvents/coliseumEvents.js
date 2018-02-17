@@ -981,7 +981,8 @@ var coliseumEvents = [
         repId: [1456, 1525, 779],
         start: '2018-03-02',
         end: '2018-03-04',
-        new_batch: true
+        new_batch: true,
+        ambush: ywb
     },
     {
         newId: [1667, 1792],
@@ -994,7 +995,8 @@ var coliseumEvents = [
         repId: [1456, 1525, 779],
         start: '2018-03-09',
         end: '2018-03-11',
-        new_batch: true
+        new_batch: true,
+        ambush: shanks
     },
 
     // ##############################
