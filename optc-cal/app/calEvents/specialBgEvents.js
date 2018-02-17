@@ -596,6 +596,11 @@ var specialBgEvents = [
         end: '2018-02-19'
     },
     {
+        id: 'free_pull',
+        start: '2018-02-19',
+        end: '2018-02-22'
+    },
+    {
         id: 'princess',
         start: '2018-02-20',
         end: '2018-03-02'
@@ -613,6 +618,15 @@ var specialBgEvents = [
     {
         id: 'ss_x3',
         start: '2018-02-27',
+        end: '2018-03-13'
+    },
+    {
+        id: 'cotton',
+        start: '2018-03-02'
+    },
+    {
+        id: 'cotton',
+        start: '2018-03-10',
         end: '2018-03-13'
     },
 ]
