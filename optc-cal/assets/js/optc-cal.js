@@ -269,6 +269,7 @@ function highlightNavbar() {
 
             if (!isPST
                 && (res['subType'] !== 'Blitz Battle' && spName !== 'Straw Hat Pirates')
+                && (res['subType'] !== 'Blitz Battle' && spName !== 'Donquixote Family')
                 && res['subType'] !== '3rd Anni'
             ) {
                 var startDate = moment(start);

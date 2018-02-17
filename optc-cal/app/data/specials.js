@@ -35,6 +35,11 @@ var specials = {
         name: 'Straw Hat Pirates',
         thumb: '1404'
     },
+    'bb_0870': {
+        type: 'Blitz Battle',
+        name: 'Donquixote Family',
+        thumb: '0870'
+    },
 
     '20_1684': {
         type: '20th Anni SH',

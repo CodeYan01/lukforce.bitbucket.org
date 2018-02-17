@@ -198,6 +198,7 @@ var nakama = {
     // Event
     'bb_1314': '6094406',   // Three Admirals
     'bb_1404': '6092400',   // Straw Hat Pirates
+    'bb_0870': '6093262',   // Donquixote Family
     '20_1684': '6078907',   // 20th Anni SH Showdown 1
     '20_1682': '6079819',   // 20th Anni SH Mission 1
     '20_1755': '6064534',   // 20th Anni SH Showdown 2
