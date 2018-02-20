@@ -1,15 +1,15 @@
 var x = setInterval(function() {
-    var mainStart = moment.utc('2018-01-12 08:00');
-    var mainEnd = moment.utc('2018-01-14 08:00');
+    var mainStart = moment.utc('2018-02-24 08:00');
+    var mainEnd = moment.utc('2018-02-26 08:00');
 
-    var halfSta1Start = moment.utc('2018-01-12 22:00');
-    var halfSta1End = moment.utc('2018-01-13 01:00');
+    var halfSta1Start = moment.utc('2018-02-24 22:00');
+    var halfSta1End = moment.utc('2018-02-25 01:00');
 
-    var halfSta2Start = moment.utc('2018-01-13 06:00');
-    var halfSta2End = moment.utc('2018-01-13 09:00');
+    var halfSta2Start = moment.utc('2018-02-25 06:00');
+    var halfSta2End = moment.utc('2018-02-25 09:00');
 
-    var halfSta3Start = moment.utc('2018-01-14 05:00');
-    var halfSta3End = moment.utc('2018-01-14 08:00');
+    var halfSta3Start = moment.utc('2018-02-26 05:00');
+    var halfSta3End = moment.utc('2018-02-26 08:00');
 
     countdown.setLabels(
         '|s|m|h|d',
