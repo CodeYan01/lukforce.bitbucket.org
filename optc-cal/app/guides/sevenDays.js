@@ -92,6 +92,7 @@ var sd = {
     1649: 'BcSqVEGd2BE',    // Giolla & Brook
     1670: 'ww5CS9-aNQE',    // Madam Sharley
     1690: 'lYwj31IPc0s',    // Kid
+    1725: '',               // Neptune Family
 
     // Raids
     227: '',                // Mihawk

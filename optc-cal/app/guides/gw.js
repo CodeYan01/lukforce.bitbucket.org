@@ -92,6 +92,7 @@ var gw = {
     1649: '60686',      // Giolla & Brook
     1670: '61623',      // Madam Sharley
     1690: '62884',      // Kid
+    1725: '64127',      // Neptune Family
 
     // Raids
     227: '4142',        // Mihawk

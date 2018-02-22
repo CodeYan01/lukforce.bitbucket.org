@@ -92,6 +92,7 @@ drops = {
     1649: 'Seeking%20The%20Best%20Art!%20Giolla%20and%20Brook!%20Fortnight',
     1670: 'Open%20the%20Cafe!%20Fortnight',
     1690: 'Kid%20Pirates!%20Fortnight',
+    1725: 'Royal%20Neptune%20Family!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

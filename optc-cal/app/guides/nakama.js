@@ -92,6 +92,7 @@ var nakama = {
     1649: '2110068',    // Giolla & Brook
     1670: '2038800',    // Madam Sharley
     1690: '2035243',    // Kid
+    1725: '2172300',    // Neptune Family
 
     // Raids
     227: '4039081',     // Mihawk
