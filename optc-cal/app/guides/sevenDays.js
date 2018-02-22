@@ -92,7 +92,7 @@ var sd = {
     1649: 'BcSqVEGd2BE',    // Giolla & Brook
     1670: 'ww5CS9-aNQE',    // Madam Sharley
     1690: 'lYwj31IPc0s',    // Kid
-    1725: '',               // Neptune Family
+    1725: 'Yp78E1Y4Nkc',    // Neptune Family
 
     // Raids
     227: '',                // Mihawk
@@ -197,5 +197,6 @@ var sd = {
     1828: '',               // Shishilian
 
     // Event
-    'bb_1314': 'KpGYeH6G9JY'    // Three Admirals
+    'bb_1314': 'KpGYeH6G9JY',   // Three Admirals
+    'bb_0870': 'CY6QAKdZ-aA',   // Donquixote Family
 };
