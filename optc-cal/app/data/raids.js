@@ -115,6 +115,10 @@ var raids = {
         name: 'Rayleigh',
         thumb: '1924'
     },
+    5012: {
+        name: 'Doflamingo v2',
+        thumb: null
+    },
 
     // Neo Raids
     1623: {

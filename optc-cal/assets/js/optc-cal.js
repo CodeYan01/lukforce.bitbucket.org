@@ -98,7 +98,7 @@ function highlightNavbar() {
             var start = e['start'];
             var end = e['end'];
 
-            if (!isPST) {
+            if (!isPST && eId !== 5012) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
                 start = startDate.format('YYYY-MM-DD');

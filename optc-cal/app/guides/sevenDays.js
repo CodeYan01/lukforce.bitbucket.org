@@ -124,6 +124,7 @@ var sd = {
     1696: 'i01chpNhVq8',    // Vergo
     1815: 'cy_dzKF5B5g',    // Sanji
     1924: '',               // Rayleigh
+    5012: '',               // Doffy v2
 
     1623: '',               //'oirn-E-ayNM',    // Doflamingo (N)
     1669: '',               // Aokiji (N)
