@@ -329,6 +329,9 @@ function highlightNavbar() {
     }
 
     function getThumb(thumbId) {
+        if (thumbId === null)
+            return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
+
         return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + thumbId + '.png';
     }
 
