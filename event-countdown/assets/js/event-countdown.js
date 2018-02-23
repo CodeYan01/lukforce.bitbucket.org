@@ -1,3 +1,8 @@
+// Highlight navbar
+function highlightNavbar() {
+    $('#event-countdown-nav').addClass('active');
+}
+
 var x = setInterval(function() {
     var mainStart = moment.utc('2018-02-24 08:00');
     var mainEnd = moment.utc('2018-02-26 08:00');
