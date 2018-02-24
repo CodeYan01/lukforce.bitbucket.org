@@ -62,4 +62,7 @@ var specials_bg = {
     '3rd_anni_ship': {
         thumb: '3rd_anni_ship'
     },
+    '3rd_anni_ship_sp': {
+        thumb: '3rd_anni_ship_sp'
+    },
 }

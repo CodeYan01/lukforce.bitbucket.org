@@ -588,7 +588,7 @@ var specialBgEvents = [
     {
         id: '3rd_anni_ship',
         start: '2018-02-13',
-        end: '2018-03-09'
+        end: '2018-02-27'
     },
     {
         id: 'free_pull',
@@ -614,6 +614,11 @@ var specialBgEvents = [
         id: 'sugo',
         start: '2018-02-22',
         end: '2018-02-28'
+    },
+    {
+        id: '3rd_anni_ship_sp',
+        start: '2018-02-27',
+        end: '2018-03-09'
     },
     {
         id: 'ss_x3',
