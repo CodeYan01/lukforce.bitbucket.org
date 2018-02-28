@@ -91,7 +91,7 @@ drops = {
     1624: 'The%20Time%20of%20Revenge%20has%20Come!%20New%20Fishman%20Pirates!%20Fortnight',
     1649: 'Seeking%20The%20Best%20Art!%20Giolla%20and%20Brook!%20Fortnight',
     1670: 'Open%20the%20Cafe!%20Fortnight',
-    1690: 'Kid%20Pirates!%20Fortnight',
+    1690: 'Brutal%20Fiend!%20Eustass%20Kid%20Fortnight',
     1725: 'Royal%20Neptune%20Family!%20Fortnight',
 
     // 20 Stamina Raids
