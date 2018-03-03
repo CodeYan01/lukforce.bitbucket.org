@@ -92,7 +92,7 @@ var wiki = {
     1649: 'comments/7sl1fm',                // Giolla & Brook
     1670: 'comments/7u7n86',                // Madam Sharley
     1690: 'comments/7xfau4',                // Kid
-    1725: '',                               // Neptune Family
+    1725: 'comments/80t5by',                // Neptune Family
 
     // Raids
     227: 'wiki/raidboss/mihawk',
