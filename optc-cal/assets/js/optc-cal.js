@@ -553,6 +553,7 @@ function highlightNavbar() {
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
                     || (event['type'] === 'special' && event['subType'] === 'Champion Challenge')
+                    || (event['type'] === 'special' && event['subType'] === '3rd Anni')
                 ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);
