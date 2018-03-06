@@ -63,6 +63,10 @@ var specialEvents = [
         id: 'dummy',
         start: '2018-02-27'
     },
+    {
+        id: 'dummy',
+        start: '2018-03-10'
+    },
 
     {
         id: 'ss_0436',
@@ -147,7 +151,7 @@ var specialEvents = [
     {
         id: '3rd_1600',
         start: '2018-03-05',
-        end: '2018-03-09'
+        end: '2018-03-10'
     },
     {
         id: 'bb_0870',
