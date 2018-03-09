@@ -836,7 +836,7 @@ var fortnightEvents = [
         is_replay: true
     },
     {
-        id: [848, 1547],
+        id: [848, 1137, 1547],
         start: '2018-03-27',
         end: '2018-04-03',
         is_replay: true
