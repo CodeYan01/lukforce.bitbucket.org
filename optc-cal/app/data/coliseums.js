@@ -201,7 +201,7 @@ var coliseums = {
     },
     1376: {
         name: 'Dellinger',
-        chaos_only: false,
+        chaos_only: true,
         thumb: '1376'
     },
     1378: {
