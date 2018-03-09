@@ -175,8 +175,10 @@ var nakama = {
     1196: '5119501',    // Ganfor
     1220: '5121901',    // Byrnndi World
     1251: '5125001',    // Marco
+    1292: '5129101',    // Lao G
     1310: '5130901',    // Kinemon
     1338: '5133701',    // Kanjuro
+    1376: '5137501',    // Dellinger
     1378: '5137701',    // Marguerite
     1401: '5140001',    // Gladius
     1422: '5142101',    // Diamante

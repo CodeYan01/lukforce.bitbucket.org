@@ -175,8 +175,10 @@ var sd = {
     1196: 'UJ8DRgMwlCg',    // Ganfor
     1220: 'h-KU7jQnZv4',    // Byrnndi World
     1251: '',               // Marco
+    1292: '',               // Lao G
     1310: '',               // Kinemon
     1338: '',               // Kanjuro
+    1376: '',               // Dellinger
     1378: '',               // Marguerite
     1401: 'BFI9vbljpgY',    // Gladius
     1422: '',               // Diamante

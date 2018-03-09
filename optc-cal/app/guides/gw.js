@@ -175,8 +175,10 @@ var gw = {
     1196: '35523',      // Ganfor
     1220: '36719',      // Byrnndi World
     1251: '38056',      // Marco
+    1292: '39532',      // Lao G
     1310: '63087',      // Kinemon
     1338: '57556',      // Kanjuro
+    1376: '46258',      // Dellinger
     1378: '46329',      // Marguerite
     1401: '63832',      // Gladius
     1422: '61332',      // Diamante
