@@ -93,6 +93,7 @@ var wiki = {
     1670: 'comments/7u7n86',                // Madam Sharley
     1690: 'comments/7xfau4',                // Kid
     1725: 'comments/80t5by',                // Neptune Family
+    1735: '',                               // Sugar & Trebol
 
     // Raids
     227: 'wiki/raidboss/mihawk',

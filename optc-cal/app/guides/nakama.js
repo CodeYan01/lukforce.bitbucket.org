@@ -93,6 +93,7 @@ var nakama = {
     1670: '2167000',    // Madam Sharley
     1690: '2169000',    // Kid
     1725: '2172300',    // Neptune Family
+    1735: '2173500',    // Sugar & Trebol
 
     // Raids
     227: '4022700',     // Mihawk

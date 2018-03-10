@@ -93,6 +93,7 @@ var gw = {
     1670: '61623',      // Madam Sharley
     1690: '62884',      // Kid
     1725: '64127',      // Neptune Family
+    1735: '66022',      // Sugar & Trebol
 
     // Raids
     227: '4142',        // Mihawk
