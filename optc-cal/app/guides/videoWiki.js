@@ -24,6 +24,7 @@ var videoWiki = {
     1163: 'raidboss/gildtesoro',
     1298: 'raidboss/akainu',
     1374: 'raidboss/magellan',
+    1432: 'raidboss/generalfranky',
     1518: 'raidboss/bellamy',
     1595: 'raidboss/fujitora',
     1696: 'raidboss/vergo',

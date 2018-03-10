@@ -119,6 +119,7 @@ var sd = {
     1163: 'q1wNq-RIrR0',    // Gild Tesoro
     1298: 'r5eGwr0YXLQ',    // Akainu
     1374: 'rovn-Gghe2I',    // Magellan
+    1432: '',               // General Franky
     1518: '',               // Bellamy
     1595: '',               // Fujitora
     1696: 'i01chpNhVq8',    // Vergo

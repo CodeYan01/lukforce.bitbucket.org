@@ -119,6 +119,7 @@ var wiki = {
     1163: 'wiki/raidboss/tesoro',
     1298: 'wiki/raidboss/akainu',
     1374: 'comments/6zwvcn',                // Magellan
+    1432: 'wiki/raidboss/franky',
     1518: 'comments/6za7ru',                // Bellamy
     1595: 'wiki/raidboss/fujitora',
     1696: 'comments/7eeu5h',                // Vergo

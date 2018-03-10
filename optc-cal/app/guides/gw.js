@@ -119,6 +119,7 @@ var gw = {
     1163: '35950',      // Gild Tesoro
     1298: '41277',      // Akainu
     1374: '45906',      // Magellan
+    1432: '50030',      // General Franky
     1518: '53151',      // Bellamy
     1595: '56946',      // Fujitora
     1696: '63217',      // Vergo

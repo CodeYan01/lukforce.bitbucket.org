@@ -95,6 +95,10 @@ var raids = {
         name: 'Magellan',
         thumb: '1374'
     },
+    1432: {
+        name: 'General Franky',
+        thumb: '1432'
+    },
     1518: {
         name: 'Bellamy',
         thumb: '1518'

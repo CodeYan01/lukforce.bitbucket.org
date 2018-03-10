@@ -119,6 +119,7 @@ var nakama = {
     1163: '4116300',    // Gild Tesoro
     1298: '4129800',    // Akainu
     1374: '4137400',    // Magellan
+    1432: '4143200',    // General Franky
     1518: '4151800',    // Bellamy
     1595: '4159500',    // Fujitora
     1696: '4169600',    // Vergo
