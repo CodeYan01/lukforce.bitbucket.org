@@ -180,7 +180,7 @@ var wiki = {
     1292: '',                               // Lao G
     1310: 'comments/6ywcrv',                // Kinemon
     1338: 'comments/70qjmd',                // Kanjuro
-    1376: '',                               // Dellinger
+    1376: 'comments/83o81l',                // Dellinger
     1378: '',                               // Marguerite
     1401: '',                               // Gladius
     1422: 'comments/7t5pis',                // Diamante
