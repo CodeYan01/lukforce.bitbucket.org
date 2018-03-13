@@ -93,7 +93,7 @@ var sd = {
     1670: 'ww5CS9-aNQE',    // Madam Sharley
     1690: 'lYwj31IPc0s',    // Kid
     1725: 'Yp78E1Y4Nkc',    // Neptune Family
-    1735: '',               // Sugar & Trebol
+    1735: 'oxxtsWWxr9A',    // Sugar & Trebol
 
     // Raids
     227: '',                // Mihawk
