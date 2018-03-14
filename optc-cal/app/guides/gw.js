@@ -201,6 +201,9 @@ var gw = {
     1792: '70189',      // Lucy
     1828: '74382',      // Shishilian
 
+    // TM
+    1808: '72766',      // Mihawk
+
     // Event
     'bb_1314': '61665', // Three Admirals
     'bb_1404': '65078', // Straw Hat Pirates

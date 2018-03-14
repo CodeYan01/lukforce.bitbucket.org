@@ -9,6 +9,7 @@ function highlightNavbar() {
     const raidColor = 'rgba(102, 205, 170, 0.6)';
     const coliColorNew = 'rgba(30, 144, 255, 0.6)';
     const coliColorRep = 'rgba(30, 144, 255, 0.3)';
+    const tmColor = 'rgba(255, 165, 0, 0.6)';
     const spColor = 'rgba(70, 130, 180, 0.6)';
 
     function createFortnightEvent(eventArray, isPST) {
@@ -230,6 +231,33 @@ function highlightNavbar() {
         eventArray.push(res);
     }
 
+    function createTmEvent(eventArray) {
+        tmEvents.forEach(function(e) {
+            var res = {};
+
+            var eId = e['id'];
+
+            var tm = tms[eId];
+            res['id'] = eId;
+            res['title'] = '『TM』\n' + tm['name'];
+            res['thumb'] = tm['thumb'];
+
+            res['type'] = 'tm';
+
+            var start = e['start'];
+            var end = e['end'];
+
+            start += ' 07:00';
+            res['start'] = start;
+            res['end'] = end;
+
+            res['color'] = tmColor;
+            res['textColor'] = 'black';
+
+            eventArray.push(res);
+        });
+    }
+
     function createSpecialEvent(eventArray, isPST) {
         specialEvents.forEach(function(e) {
             var res = {};
@@ -372,6 +400,10 @@ function highlightNavbar() {
         if (liClass === '.nakama')
             liUrl += '/details';
 
+        // Special case for TM
+        if (liClass === '.tmInfo')
+            liUrl += '.png';
+
         li.find('.url').html(createUrlHtml(liUrl, urlText));
         li.show();
     }
@@ -411,6 +443,8 @@ function highlightNavbar() {
                     data = raids[id];
                 else if (e['type'] === 'coliseum')
                     data = coliseums[id];
+                else if (e['type'] === 'tm')
+                    data = tms[id];
                 else if (e['type'] === 'special')
                     data = specials[id];
 
@@ -441,6 +475,9 @@ function highlightNavbar() {
 
                 if (nakama[id])
                     createListItem(ed, '.nakama', 'https://www.nakama.network/stages/', nakama[id], 'Nakama Network');
+
+                if (e['type'] === 'tm')
+                    createListItem(ed, '.tmInfo', 'https://i.redd.it/', data.info, 'TM Info Graphic');
 
                 $('#eventDetail').append(ed);
                 ed.show();
@@ -487,6 +524,7 @@ function highlightNavbar() {
         createFortnightEvent(eventArray, isPST);
         createRaidEvent(eventArray, isPST);
         createColiseumEvent(eventArray, isPST);
+        createTmEvent(eventArray);
         createSpecialEvent(eventArray, isPST);
         createSpecialBgEvent(eventArray, isPST);
 
@@ -522,7 +560,11 @@ function highlightNavbar() {
             aspectRatio: 0.55,
             events: eventArray,
             eventRender: function(event, element) {
-                if (event['type'] === 'fortnight' || event['type'] === 'raid' || (event['type'] === 'special' && event['id'] !== 'dummy')) {
+                if (event['type'] === 'fortnight'
+                    || event['type'] === 'raid'
+                    || event['type'] === 'tm'
+                    || (event['type'] === 'special' && event['id'] !== 'dummy')
+                ) {
                     var thumbArray = [];
                     if (Array.isArray(event['thumb']))
                         thumbArray = event['thumb'].slice();
@@ -558,6 +600,7 @@ function highlightNavbar() {
                 if (event['type'] === 'fortnight'
                     || event['type'] === 'raid'
                     || event['type'] === 'coliseum'
+                    || event['type'] === 'tm'
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
                     || (event['type'] === 'special' && event['subType'] === 'Champion Challenge')

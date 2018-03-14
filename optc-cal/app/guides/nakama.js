@@ -201,6 +201,9 @@ var nakama = {
     1792: '5179101',    // Lucy
     1828: '5182701',    // Shishilian
 
+    // TM
+    1808: '8180800',    // Mihawk
+
     // Event
     'bb_1314': '6131400',   // Three Admirals
     'bb_1404': '6140400',   // Straw Hat Pirates
