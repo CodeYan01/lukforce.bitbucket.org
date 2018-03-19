@@ -476,8 +476,10 @@ function highlightNavbar() {
                 if (nakama[id])
                     createListItem(ed, '.nakama', 'https://www.nakama.network/stages/', nakama[id], 'Nakama Network');
 
-                if (e['type'] === 'tm')
+                if (e['type'] === 'tm') {
                     createListItem(ed, '.tmInfo', 'https://i.redd.it/', data.info, 'TM Info Graphic');
+                    createListItem(ed, '.tmPlanner', '/tm-planner/?tmId=', id, 'TM Team Planner');
+                }
 
                 $('#eventDetail').append(ed);
                 ed.show();
