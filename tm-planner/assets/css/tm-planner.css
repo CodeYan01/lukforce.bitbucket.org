@@ -8,6 +8,10 @@
     padding: 5px;
 }
 
+.booster-div {
+    margin-bottom: 20px;
+}
+
 .team-slot {
     float: left;
     width: 40px;
