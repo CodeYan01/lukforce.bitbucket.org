@@ -57,11 +57,11 @@
 .PSY-div { background-color: goldenrod; }
 .INT-div { background-color: darkorchid; }
 
-.fighter-div        { background-image: url('/useful-lists/assets/img/class_fighter.png'); }
-.slasher-div        { background-image: url('/useful-lists/assets/img/class_slasher.png'); }
-.striker-div        { background-image: url('/useful-lists/assets/img/class_striker.png'); }
-.shooter-div        { background-image: url('/useful-lists/assets/img/class_shooter.png'); }
-.free-spirit-div    { background-image: url('/useful-lists/assets/img/class_free_spirit.png'); }
-.cerebral-div       { background-image: url('/useful-lists/assets/img/class_cerebral.png'); }
-.powerhouse-div     { background-image: url('/useful-lists/assets/img/class_powerhouse.png'); }
-.driven-div         { background-image: url('/useful-lists/assets/img/class_driven.png'); }
+.fighter-div        { background-image: url('/common/assets/img/class_fighter.png'); }
+.slasher-div        { background-image: url('/common/assets/img/class_slasher.png'); }
+.striker-div        { background-image: url('/common/assets/img/class_striker.png'); }
+.shooter-div        { background-image: url('/common/assets/img/class_shooter.png'); }
+.free-spirit-div    { background-image: url('/common/assets/img/class_free_spirit.png'); }
+.cerebral-div       { background-image: url('/common/assets/img/class_cerebral.png'); }
+.powerhouse-div     { background-image: url('/common/assets/img/class_powerhouse.png'); }
+.driven-div         { background-image: url('/common/assets/img/class_driven.png'); }
