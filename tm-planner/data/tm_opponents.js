@@ -1,9 +1,9 @@
 var tm_opponents = {
     1808: [
         "Moria",
-        "Boa Hancock",
+        "Hancock",
         "Kuma",
-        "Doflamingo",
+        "Doffy",
         "Mihawk"
     ],
 };
