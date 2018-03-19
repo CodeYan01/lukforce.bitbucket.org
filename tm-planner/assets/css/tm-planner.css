@@ -1,4 +1,9 @@
-.info {
+#info {
+    font-size: 13px;
+    padding: 5px;
+}
+
+#nakama-info {
     margin-top: 20px;
     padding: 5px;
 }
