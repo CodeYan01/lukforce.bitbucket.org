@@ -177,7 +177,7 @@ var wiki = {
     1196: 'wiki/coliseum/ganfor',
     1220: 'wiki/coliseum/byrnndi',
     1251: '',                               // Marco
-    1292: '',                               // Lao G
+    1292: 'comments/84fp9b',                // Lao G
     1310: 'comments/6ywcrv',                // Kinemon
     1338: 'comments/70qjmd',                // Kanjuro
     1376: 'comments/83o81l',                // Dellinger
