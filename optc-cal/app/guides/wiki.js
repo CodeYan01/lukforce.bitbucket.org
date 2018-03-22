@@ -138,6 +138,7 @@ var wiki = {
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
     1530: 'wiki/cavendish',
+    1846: '',                               // Young Garp
 
     // Coliseums
     777: '',                                // Lucky Roux

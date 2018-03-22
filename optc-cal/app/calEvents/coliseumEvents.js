@@ -1,5 +1,7 @@
 var ywb = 1258;
 var shanks = 1380;
+var cavendish = 1530;
+var garp = 1846;
 
 var coliseumEvents = [
     // ##############################
@@ -1082,6 +1084,7 @@ var coliseumEvents = [
         newId: [1292, 1376],
         repId: [1310, 884, 903],
         start: '2018-03-28',
+        ambush: garp,
         new_batch: true
     },
     {
@@ -1089,6 +1092,7 @@ var coliseumEvents = [
         repId: [1310, 884, 903],
         start: '2018-03-30',
         end: '2018-04-01',
+        ambush: garp,
         new_batch: true
     },
 

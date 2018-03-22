@@ -138,6 +138,7 @@ var nakama = {
     1258: '6125800',    // Young Whitebeard
     1380: '6138000',    // Shanks
     1530: '6153000',    // Cavendish
+    1846: '6184600',    // Young Garp
 
     // Coliseums
     777: '5077601',     // Lucky Roux

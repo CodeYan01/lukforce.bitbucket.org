@@ -138,6 +138,7 @@ var sd = {
     1258: '',               // Young Whitebeard
     1380: '',               // Shanks
     1530: '',               // Cavendish
+    1846: '',               // Young Garp
 
     // Coliseums
     777: '',                // Lucky Roux
