@@ -654,4 +654,46 @@ var specialBgEvents = [
         start: '2018-03-23',
         end: '2018-03-27'
     },
+    {
+        id: 'sp',
+        start: '2018-03-27',
+        end: '2018-04-02'
+    },
+    {
+        id: 'princess',
+        start: '2018-03-27',
+        end: '2018-04-01'
+    },
+    {
+        id: 'snail_easter_egg',
+        start: '2018-03-27',
+        end: '2018-04-03'
+    },
+    {
+        id: 'easter_egg',
+        start: '2018-03-27'
+    },
+    {
+        id: 'easter_egg',
+        start: '2018-04-01'
+    },
+    {
+        id: 'easter_egg',
+        start: '2018-04-06'
+    },
+    {
+        id: 'sp',
+        start: '2018-04-07',
+        end: '2018-04-10'
+    },
+    {
+        id: 'easter_egg',
+        start: '2018-04-08',
+        end: '2018-04-10'
+    },
+    {
+        id: 'usopp_ship',
+        start: '2018-04-01',
+        end: '2018-04-10'
+    },
 ]

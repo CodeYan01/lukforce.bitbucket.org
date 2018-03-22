@@ -20,6 +20,9 @@ var specials_bg = {
     'snail_cotton': {
         thumb: 'snail_cotton'
     },
+    'snail_easter_egg': {
+        thumb: 'snail_easter_egg'
+    },
     'sugo': {
         thumb: 'sugo'
     },
@@ -31,6 +34,9 @@ var specials_bg = {
     },
     'cotton': {
         thumb: 'cotton'
+    },
+    'easter_egg': {
+        thumb: 'easter_egg'
     },
     'lobster': {
         thumb: 'lobster'
@@ -64,5 +70,8 @@ var specials_bg = {
     },
     '3rd_anni_ship_sp': {
         thumb: '3rd_anni_ship_sp'
+    },
+    'usopp_ship': {
+        thumb: 'usopp_ship'
     },
 }
