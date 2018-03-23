@@ -94,6 +94,7 @@ var gw = {
     1690: '62884',      // Kid
     1725: '64127',      // Neptune Family
     1735: '66022',      // Sugar & Trebol
+    1766: '67117',      // Blue Gilly
 
     // Raids
     227: '4142',        // Mihawk

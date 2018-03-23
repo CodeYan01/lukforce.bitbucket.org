@@ -94,6 +94,7 @@ drops = {
     1690: 'Brutal%20Fiend!%20Eustass%20Kid%20Fortnight',
     1725: 'Royal%20Neptune%20Family!%20Fortnight',
     1735: 'Underground%20Trade%20Port!%20Escape!%20Fortnight',
+    1766: 'Battle%20Royale!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

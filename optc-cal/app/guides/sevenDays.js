@@ -94,6 +94,7 @@ var sd = {
     1690: 'lYwj31IPc0s',    // Kid
     1725: 'Yp78E1Y4Nkc',    // Neptune Family
     1735: 'oxxtsWWxr9A',    // Sugar & Trebol
+    1766: '',               // Blue Gilly
 
     // Raids
     227: '',                // Mihawk
