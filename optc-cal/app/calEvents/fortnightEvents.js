@@ -887,4 +887,40 @@ var fortnightEvents = [
         end: '2018-04-03',
         is_replay: true
     },
+    {
+        id: [538, 550, 918],
+        start: '2018-04-03',
+        end: '2018-04-10',
+        is_replay: true
+    },
+    {
+        id: [510, 1384, 1624],
+        start: '2018-04-10',
+        end: '2018-04-17',
+        is_replay: true
+    },
+    {
+        id: [797, 852, 1037],
+        start: '2018-04-17',
+        end: '2018-04-24',
+        is_replay: true
+    },
+    {
+        id: [1332, 1469],
+        start: '2018-04-24',
+        end: '2018-05-01',
+        is_replay: true
+    },
+    {
+        id: 1725,
+        start: '2018-04-24',
+        end: '2018-04-26',
+        is_replay: true
+    },
+    {
+        id: 1397,
+        start: '2018-04-26',
+        end: '2018-04-28',
+        is_replay: true
+    },
 ];
