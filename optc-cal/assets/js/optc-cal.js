@@ -465,8 +465,8 @@ function highlightNavbar() {
                 if (gw[id])
                     createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', gw[id], 'Gamewith Stage Guide');
 
-                if (sd[id])
-                    createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
+                if (nakama[id])
+                    createListItem(ed, '.nakama', 'https://www.nakama.network/stages/', nakama[id], 'Nakama Network');
 
                 if (wiki[id])
                     createListItem(ed, '.redditWiki', 'https://www.reddit.com/r/OnePieceTC/', wiki[id], 'Reddit Stage Guide Wiki');
@@ -474,8 +474,8 @@ function highlightNavbar() {
                 if (videoWiki[id])
                     createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
 
-                if (nakama[id])
-                    createListItem(ed, '.nakama', 'https://www.nakama.network/stages/', nakama[id], 'Nakama Network');
+                if (sd[id])
+                    createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
 
                 if (e['type'] === 'tm') {
                     createListItem(ed, '.tmInfo', 'https://i.redd.it/', data.info, 'TM Info Graphic');
