@@ -149,4 +149,8 @@ var raids = {
         name: 'Kizaru (N)',
         thumb: '1780'
     },
+    1826: {
+        name: 'Akainu (N)',
+        thumb: '1826'
+    },
 };

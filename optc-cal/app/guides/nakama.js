@@ -135,6 +135,7 @@ var nakama = {
     1727: '4172700',    // Sabo (N)
     1739: '4173800',    // Bellamy (N)
     1780: '4178000',    // Kizaru (N)
+    1826: '4182600',    // Akainu (N)
 
     1258: '6125800',    // Young Whitebeard
     1380: '6138000',    // Shanks

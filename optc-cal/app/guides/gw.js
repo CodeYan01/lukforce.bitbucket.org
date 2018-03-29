@@ -135,6 +135,7 @@ var gw = {
     1727: '64230',      // Sabo (N)
     1739: '66087',      // Bellamy (N)
     1780: '68681',      // Kizaru (N)
+    1826: '73951',      // Akainu (N)
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks

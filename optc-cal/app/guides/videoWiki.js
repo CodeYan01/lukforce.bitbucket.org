@@ -38,6 +38,7 @@ var videoWiki = {
     1727: 'raidboss/sabokai',
     1739: 'raidboss/bellamykai',
     1780: 'raidboss/kizarukai',
+    1826: '',   // Akainu (N)
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',
