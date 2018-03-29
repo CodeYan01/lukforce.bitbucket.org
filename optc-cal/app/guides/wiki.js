@@ -95,6 +95,7 @@ var wiki = {
     1725: 'comments/80t5by',                // Neptune Family
     1735: 'comments/84d7up',                // Sugar & Trebol
     1766: '',                               // Blue Gilly
+    1774: '',                               // Kinemon
 
     // Raids
     227: 'wiki/raidboss/mihawk',

@@ -95,6 +95,7 @@ var nakama = {
     1725: '2172300',    // Neptune Family
     1735: '2173500',    // Sugar & Trebol
     1766: '2176600',    // Blue Gilly
+    1774: '2177400',    // Kinemon
 
     // Raids
     227: '4022700',     // Mihawk
