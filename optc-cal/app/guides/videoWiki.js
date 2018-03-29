@@ -43,7 +43,7 @@ var videoWiki = {
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',
     1530: 'raidboss/invadecavendish',
-    1846: '',   // Young Garp
+    1846: 'raidboss/invadegarp',
 
     // Coliseums
     777: 'coliseum/luckyroo',
