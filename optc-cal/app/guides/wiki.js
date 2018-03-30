@@ -189,6 +189,7 @@ var wiki = {
     1401: '',                               // Gladius
     1422: 'comments/7t5pis',                // Diamante
     1423: '',                               // T-Bone
+    1424: '',                               // Gin
     1456: 'wiki/coliseum/donchinjao',
     1458: 'comments/6ust2n',                // Kuro
     1460: '',                               // Ms. Valentine
@@ -198,10 +199,11 @@ var wiki = {
     1584: '',                               // Orlumbus
     1602: '',                               // Shiryu
     1603: 'wiki/coliseum/mcguychaos',
-    1628: 'wiki/coliseum/machvise',         // Machvise
+    1628: 'wiki/coliseum/machvise',
     1667: '',                               // Kyros
     1694: 'comments/7v81g8',                // Inuarashi
-    1733: 'wiki/coliseum/nekomamushi',      // Nekomamushi
+    1733: 'wiki/coliseum/nekomamushi',
     1792: '',                               // Lucy
     1828: 'comments/7t79sc',                // Shishilian
+    1861: '',                               // Raizo
 };

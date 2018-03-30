@@ -189,6 +189,7 @@ var gw = {
     1401: '63832',      // Gladius
     1422: '61332',      // Diamante
     1423: '48807',      // T-Bone
+    1424: '48805',      // Gin
     1456: '66708',      // Don Chin Jao
     1458: '50806',      // Kuro
     1460: '50807',      // Ms. Valentine
@@ -204,6 +205,7 @@ var gw = {
     1733: '66570',      // Nekomamushi
     1792: '70189',      // Lucy
     1828: '74382',      // Shishilian
+    1861: '80286',      // Raizo
 
     // TM
     1808: '72766',      // Mihawk

@@ -91,6 +91,7 @@ var videoWiki = {
     1401: 'coliseum/gladius',
     1422: 'coliseum/diamante',
     1423: 'coliseum/tbone',
+    1424: 'coliseum/gin',
     1456: 'coliseum/don_chinjao',
     1458: 'coliseum/kuro',
     1460: 'coliseum/miss_valentine',
@@ -106,4 +107,5 @@ var videoWiki = {
     1733: 'coliseum/nekomamushi',
     1792: 'coliseum/lucy_luffy',
     1828: 'coliseum/sicilian',
+    1861: 'coliseum/raizo',
 };
