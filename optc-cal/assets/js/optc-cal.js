@@ -107,7 +107,6 @@ function highlightNavbar() {
                 && eId !== 1739
                 && eId !== 1780
                 && eId !== 1826
-                && eId !== 5012
             ) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
