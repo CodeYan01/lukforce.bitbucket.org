@@ -95,6 +95,7 @@ var sd = {
     1725: 'Yp78E1Y4Nkc',    // Neptune Family
     1735: 'oxxtsWWxr9A',    // Sugar & Trebol
     1766: '',               // Blue Gilly
+    1774: '',               // Kinemon
 
     // Raids
     227: '',                // Mihawk
@@ -135,6 +136,7 @@ var sd = {
     1727: '',               // Sabo (N)
     1739: 'ZGKz9hfgSHA',    // Bellamy (N)
     1780: '',               // Kizaru (N)
+    1826: '',               // Akainu (N)
 
     1258: '',               // Young Whitebeard
     1380: '',               // Shanks
@@ -187,6 +189,7 @@ var sd = {
     1401: 'BFI9vbljpgY',    // Gladius
     1422: '',               // Diamante
     1423: '',               // T-Bone
+    1424: '',               // Gin
     1456: 'COz0oOOAFVw',    // Don Chin Jao
     1458: '',               // Kuro
     1460: '',               // Ms. Valentine
@@ -202,6 +205,7 @@ var sd = {
     1733: '',               // Nekomamushi
     1792: '',               // Lucy
     1828: '',               // Shishilian
+    1861: '',               // Raizo
 
     // Event
     'bb_1314': 'KpGYeH6G9JY',   // Three Admirals
