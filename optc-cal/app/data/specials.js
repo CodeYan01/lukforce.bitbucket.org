@@ -193,4 +193,15 @@ var specials = {
         name: 'Buggy',
         thumb: '1391'
     },
+
+    'tp_1463': {
+        type: 'Tea Party',
+        name: 'Luffy',
+        thumb: '1463'
+    },
+    'tp_1465': {
+        type: 'Tea Party',
+        name: 'Chopper',
+        thumb: '1465'
+    },
 }

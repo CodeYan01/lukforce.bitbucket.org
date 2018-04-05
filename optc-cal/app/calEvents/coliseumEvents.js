@@ -1147,6 +1147,7 @@ var coliseumEvents = [
         repId: [1141, 1338, 834],
         start: '2018-04-13',
         end: '2018-04-15',
+        ambush: cavendish,
         new_batch: true
     },
     {

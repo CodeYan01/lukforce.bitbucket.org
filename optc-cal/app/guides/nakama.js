@@ -207,10 +207,10 @@ var nakama = {
     1828: '5182701',    // Shishilian
     1861: '5186001',    // Raizo
 
-    // TM
+    // TMs
     1808: '8180800',    // Mihawk
 
-    // Event
+    // Events
     'bb_1314': '6131400',   // Three Admirals
     'bb_1404': '6140400',   // Straw Hat Pirates
     'bb_0870': '6087000',   // Donquixote Family
@@ -219,4 +219,6 @@ var nakama = {
     '20_1755': '6175500',   // 20th Anni SH Showdown 2
     '20_1753': '6175700',   // 20th Anni SH Mission 2
     '3rd_1600': '6160000',  // 3rd Anni Luffy
+    'tp_1463': '6146300',   // Tea Party Luffy
+    'tp_1465': '6146300',   // Tea Party Chopper
 };

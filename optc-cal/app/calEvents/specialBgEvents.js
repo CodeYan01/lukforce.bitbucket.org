@@ -683,6 +683,11 @@ var specialBgEvents = [
         start: '2018-04-01'
     },
     {
+        id: 'usopp_ship',
+        start: '2018-04-01',
+        end: '2018-04-10'
+    },
+    {
         id: 'easter_egg',
         start: '2018-04-06'
     },
@@ -697,8 +702,28 @@ var specialBgEvents = [
         end: '2018-04-10'
     },
     {
-        id: 'usopp_ship',
-        start: '2018-04-01',
-        end: '2018-04-10'
+        id: 'ray_tome',
+        start: '2018-04-10',
+        end: '2018-04-12'
+    },
+    {
+        id: 'sp',
+        start: '2018-04-13',
+        end: '2018-04-17'
+    },
+    {
+        id: 'ray_tome',
+        start: '2018-04-15',
+        end: '2018-04-17'
+    },
+    {
+        id: 'princess',
+        start: '2018-04-16',
+        end: '2018-04-21'
+    },
+    {
+        id: 'sp',
+        start: '2018-04-21',
+        end: '2018-04-24'
     },
 ]

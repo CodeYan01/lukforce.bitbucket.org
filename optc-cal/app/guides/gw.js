@@ -207,10 +207,10 @@ var gw = {
     1828: '74382',      // Shishilian
     1861: '80286',      // Raizo
 
-    // TM
+    // TMs
     1808: '72766',      // Mihawk
 
-    // Event
+    // Events
     'bb_1314': '61665', // Three Admirals
     'bb_1404': '65078', // Straw Hat Pirates
     'bb_0870': '68282', // Donquixote Family
@@ -219,4 +219,6 @@ var gw = {
     '20_1755': '66020', // 20th Anni SH Showdown 2
     '20_1753': '66092', // 20th Anni SH Mission 2
     '3rd_1600': '56964',// 3rd Anni Luffy
+    'tp_1463': '51652', // Tea Party Luffy
+    'tp_1465': '51896', // Tea Party Chopper
 };

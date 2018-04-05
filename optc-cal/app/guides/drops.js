@@ -100,4 +100,8 @@ drops = {
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',
     989: 'Clash!?%20Impostor%20Straw%20Hat%20Pirates%20Raid',
+
+    // Events
+    'tp_1463': 'White%20Day%20Characters',
+    'tp_1465': 'White%20Day%20Characters',
 };

@@ -307,6 +307,7 @@ function highlightNavbar() {
                 && (res['subType'] !== 'Blitz Battle' && spName !== 'Straw Hat Pirates')
                 && (res['subType'] !== 'Blitz Battle' && spName !== 'Donquixote Family')
                 && res['subType'] !== '3rd Anni'
+                && res['subType'] !== 'Tea Party'
             ) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
@@ -607,6 +608,7 @@ function highlightNavbar() {
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
                     || (event['type'] === 'special' && event['subType'] === 'Champion Challenge')
                     || (event['type'] === 'special' && event['subType'] === '3rd Anni')
+                    || (event['type'] === 'special' && event['subType'] === 'Tea Party')
                 ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);
