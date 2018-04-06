@@ -707,6 +707,11 @@ var specialBgEvents = [
         end: '2018-04-12'
     },
     {
+        id: 'ss_100',
+        start: '2018-04-10',
+        end: '2018-04-13'
+    },
+    {
         id: 'sp',
         start: '2018-04-13',
         end: '2018-04-17'
@@ -719,6 +724,11 @@ var specialBgEvents = [
     {
         id: 'princess',
         start: '2018-04-16',
+        end: '2018-04-21'
+    },
+    {
+        id: 'ss_100',
+        start: '2018-04-17',
         end: '2018-04-21'
     },
     {

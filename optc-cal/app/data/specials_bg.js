@@ -11,6 +11,9 @@ var specials_bg = {
     'ss_x3': {
         thumb: 'ss_x3'
     },
+    'ss_100': {
+        thumb: 'ss_100'
+    },
     'snail_meat': {
         thumb: 'snail_meat'
     },
