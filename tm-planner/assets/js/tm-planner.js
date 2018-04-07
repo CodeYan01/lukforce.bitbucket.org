@@ -392,5 +392,6 @@ $(document).ready(function() {
     // TM selection dropdown
     $('#tm-select').change(function() {
         init($(this).val());
+        tmId = $(this).val();
     });
 });
