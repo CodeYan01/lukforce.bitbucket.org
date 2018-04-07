@@ -21,6 +21,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
@@ -71,7 +72,7 @@
                     <br />
 
                     <i class="fas fa-exclamation-triangle"></i>&nbsp;
-                    WARNING: Teams do not save, refreshing or leaving the page will lose your progess
+                    Team saves <strong>only locally</strong>
                 </div>
             </div>
         </div>
@@ -121,6 +122,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col col-12">
                         <h4>1.2x Booster(s)</h4>
@@ -170,29 +172,38 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col col-12">
+                        <h4>Units I Don't Have</h4>
+                        <div class="booster-div" id="dont-have">
+                            <div style="display: inline-block;"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col offset-md-1 col-md-2 col-12 team">
+            <div class="col offset-md-1 col-md-2 col-12 team" data-team="0">
                 <h5>vs <span id="op-1"></span></h5>
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="0"></div>
-                        <div class="team-slot" data-slot="1"></div>
+                        <div class="team-slot" id="team-slot-00" data-slot="0"></div>
+                        <div class="team-slot" id="team-slot-01" data-slot="1"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="2"></div>
-                        <div class="team-slot" data-slot="3"></div>
+                        <div class="team-slot" id="team-slot-02" data-slot="2"></div>
+                        <div class="team-slot" id="team-slot-03" data-slot="3"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="4"></div>
-                        <div class="team-slot" data-slot="5"></div>
+                        <div class="team-slot" id="team-slot-04" data-slot="4"></div>
+                        <div class="team-slot" id="team-slot-05" data-slot="5"></div>
                     </div>
                 </div>
 
@@ -210,25 +221,25 @@
                 </div>
             </div>
 
-            <div class="col col-md-2 col-12 team">
+            <div class="col col-md-2 col-12 team" data-team="1">
                 <h5>vs <span id="op-2"></span></h5>
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="0"></div>
-                        <div class="team-slot" data-slot="1"></div>
+                        <div class="team-slot" id="team-slot-10" data-slot="0"></div>
+                        <div class="team-slot" id="team-slot-11" data-slot="1"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="2"></div>
-                        <div class="team-slot" data-slot="3"></div>
+                        <div class="team-slot" id="team-slot-12" data-slot="2"></div>
+                        <div class="team-slot" id="team-slot-13" data-slot="3"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="4"></div>
-                        <div class="team-slot" data-slot="5"></div>
+                        <div class="team-slot" id="team-slot-14" data-slot="4"></div>
+                        <div class="team-slot" id="team-slot-15" data-slot="5"></div>
                     </div>
                 </div>
 
@@ -246,25 +257,25 @@
                 </div>
             </div>
 
-            <div class="col col-md-2 col-12 team">
+            <div class="col col-md-2 col-12 team" data-team="2">
                 <h5>vs <span id="op-3"></span></h5>
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="0"></div>
-                        <div class="team-slot" data-slot="1"></div>
+                        <div class="team-slot" id="team-slot-20" data-slot="0"></div>
+                        <div class="team-slot" id="team-slot-21" data-slot="1"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="2"></div>
-                        <div class="team-slot" data-slot="3"></div>
+                        <div class="team-slot" id="team-slot-22" data-slot="2"></div>
+                        <div class="team-slot" id="team-slot-23" data-slot="3"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="4"></div>
-                        <div class="team-slot" data-slot="5"></div>
+                        <div class="team-slot" id="team-slot-24" data-slot="4"></div>
+                        <div class="team-slot" id="team-slot-25" data-slot="5"></div>
                     </div>
                 </div>
 
@@ -282,25 +293,25 @@
                 </div>
             </div>
 
-            <div class="col col-md-2 col-12 team">
+            <div class="col col-md-2 col-12 team" data-team="3">
                 <h5>vs <span id="op-4"></span></h5>
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="0"></div>
-                        <div class="team-slot" data-slot="1"></div>
+                        <div class="team-slot" id="team-slot-30" data-slot="0"></div>
+                        <div class="team-slot" id="team-slot-31" data-slot="1"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="2"></div>
-                        <div class="team-slot" data-slot="3"></div>
+                        <div class="team-slot" id="team-slot-32" data-slot="2"></div>
+                        <div class="team-slot" id="team-slot-33" data-slot="3"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="4"></div>
-                        <div class="team-slot" data-slot="5"></div>
+                        <div class="team-slot" id="team-slot-34" data-slot="4"></div>
+                        <div class="team-slot" id="team-slot-35" data-slot="5"></div>
                     </div>
                 </div>
 
@@ -318,25 +329,25 @@
                 </div>
             </div>
 
-            <div class="col col-md-2 col-12 team">
+            <div class="col col-md-2 col-12 team" data-team="4">
                 <h5>vs <span id="op-5"></span></h5>
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="0"></div>
-                        <div class="team-slot" data-slot="1"></div>
+                        <div class="team-slot" id="team-slot-40" data-slot="0"></div>
+                        <div class="team-slot" id="team-slot-41" data-slot="1"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="2"></div>
-                        <div class="team-slot" data-slot="3"></div>
+                        <div class="team-slot" id="team-slot-42" data-slot="2"></div>
+                        <div class="team-slot" id="team-slot-43" data-slot="3"></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" data-slot="4"></div>
-                        <div class="team-slot" data-slot="5"></div>
+                        <div class="team-slot" id="team-slot-44" data-slot="4"></div>
+                        <div class="team-slot" id="team-slot-45" data-slot="5"></div>
                     </div>
                 </div>
 
@@ -355,12 +366,25 @@
             </div>
         </div>
 
+        <br />
+
         <div class="row">
-            <div class="col offset-md-4 col-md-4 col-12">
-                <div id="nakama-info">
-                    <i class="fas fa-info-circle"></i>&nbsp;
-                    Don't forget to upload your teams to <a href="https://www.nakama.network/" target="_blank">Nakama Network</a> to share with others!
-                </div>
+            <div class="col offset-md-2 col-md-4 col-12">
+                <button type="button" class="btn btn-sm btn-secondary" id="pts-all-button">Update All Pts</button>
+                <button type="button" class="btn btn-sm btn-danger" id="reset-button">Reset</button>
+            </div>
+
+            <div class="col col-md-4 col-12">
+                <button type="button" class="btn btn-sm btn-primary sl-btn" id="save-button" disabled>Save</button>
+                <button type="button" class="btn btn-sm btn-info sl-btn" id="load-button" disabled>Load</button>
+                Last Saved: <span id="last-save">N/A</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col offset-md-4 col-md-4 col-12" id="nakama-info">
+                <i class="fas fa-info-circle"></i>&nbsp;
+                Don't forget to upload your teams to <a href="https://www.nakama.network/" target="_blank">Nakama Network</a> to share with others!
             </div>
         </div>
     </div>

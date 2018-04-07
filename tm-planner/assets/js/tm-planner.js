@@ -77,7 +77,10 @@ function getBoosters(tmId) {
             cursor: 'move',
             stack: '#container',
             revert: function(event, ui) {
-                if (event && event[0].className.indexOf('team-slot') != -1)
+                if (event &&
+                        (event[0].className.indexOf('team-slot') != -1 ||
+                        event[0].id.indexOf('dont-have') != -1)
+                )
                     return false;
                 else {
                     var _x_pts = $(this).data('_x_pts');
@@ -105,14 +108,88 @@ function getOpponents(tmId) {
     $('#thumb-div').append(imgHtml);
 }
 
+function init(tmId) {
+    $('#tm-select').val(tmId);
+    getBoosters(tmId);
+    getOpponents(tmId);
+    $('.sl-btn').attr('disabled', false);
+
+    // Retrieve last save time
+    if (localStorage.getItem('lastSave_' + tmId) !== null)
+        $('#last-save').text(localStorage.getItem('lastSave_' + tmId));
+}
+
+function resetPosition(unit) {
+    var _x_pts = unit.data('_x_pts');
+    var _type = unit.data('_type');
+
+    if (_type)
+        $('#booster_' + _x_pts + 'x_' + _type).append(unit);
+    else
+        $('#booster_' + _x_pts + 'x').append(unit);
+}
+
+function resetAll() {
+    $('.team-slot').each(function() {
+        if ($(this).find('.booster').length > 0)
+            resetPosition($(this).find('.booster').detach());
+    });
+
+    $('#dont-have').find('.booster').each(function() {
+        resetPosition($(this).detach());
+    });
+}
+
+function getTeamUnits(team) {
+    var teamUnits = [0, 0, 0, 0, 0, 0];
+
+    team.find('.team-slot').each(function() {
+        var slot_num = $(this).data('slot');
+
+        if ($(this).find('.booster').length !== 0)
+            teamUnits[slot_num] = $(this).find('.booster').data('id');
+    });
+
+    return teamUnits;
+}
+
+function updatePts(btn) {
+    var x_pts = 1;
+    var fcap_x_pts = 0;
+    var cap_x_pts = 0;
+
+    btn.closest('.team').find('.team-slot').each(function() {
+        var slot_num = $(this).data('slot');
+
+        if ($(this).find('.booster').length !== 0) {
+            var slot_x_pts = Number($(this).find('.booster').data('x_pts'));
+            x_pts = x_pts * slot_x_pts;
+
+            if (slot_num == 0)
+                fcap_x_pts = slot_x_pts;
+            else if (slot_num == 1)
+                cap_x_pts = slot_x_pts;
+        }
+    });
+
+    // Assuming same Friend Captain and add the multiplier one more time
+    if (fcap_x_pts == 0 && cap_x_pts != 0)
+        x_pts = x_pts * cap_x_pts;
+
+    btn.closest('.team').find('.x_pts').text(x_pts.toFixed(2));
+}
+
+function updateAllPts() {
+    $('.pts-button').each(function() {
+        updatePts($(this));
+    });
+}
+
 $(document).ready(function() {
     var tmId = getUrlParameter('tmId');
 
-    if (tmId) {
-        $('#tm-select').val(tmId);
-        getBoosters(tmId);
-        getOpponents(tmId);
-    }
+    if (tmId)
+        init(tmId);
 
     $('.team-slot').droppable({
         accept: '.booster',
@@ -125,60 +202,60 @@ $(document).ready(function() {
             });
 
             // Replace existing units and put the previous unit back
-            if ($(this).children().length > 0) {
-                var prevDrop = $(this).children().detach();
-                var _x_pts = prevDrop.data('_x_pts');
-                var _type = prevDrop.data('_type');
-
-                if (_type)
-                    $('#booster_' + _x_pts + 'x_' + _type).append(prevDrop);
-                else
-                    $('#booster_' + _x_pts + 'x').append(prevDrop);
-            }
+            if ($(this).find('.booster').length > 0)
+                resetPosition($(this).find('.booster').detach());
 
             // Put new unit in place
             $(ui.draggable).detach().css({
                 top: 0,
                 left: 0
             }).prependTo($(this));
+
+            /* Mirror to Friend Cap slot
+            if ($(this).data('slot') == 1) {
+                var friendCapSlot = $(this).closest('.team').find('.friend-cap');
+                friendCapSlot.find('.booster-clone').remove();
+
+                var clone = $(ui.draggable).clone();
+                var origId = $(ui.draggalbe).attr('id');
+
+                clone.attr('id', origId + '_clone');
+                clone.removeClass('booster');
+                clone.addClass('booster-clone');
+                clone.css('z-index', 0);
+                clone.css('position', 'absolute');
+
+                clone.css({
+                    top: 0,
+                    left: 0
+                }).prependTo(friendCapSlot);
+            }*/
         }
     });
 
-    $('.pts-button').click(function() {
-        var x_pts = 1;
-        var fcap_x_pts = 0;
-        var cap_x_pts = 0;
-
-        $(this).closest('.team').find('.team-slot').each(function() {
-            var slot_num = $(this).data('slot');
-
-            if ($(this).find('.booster').length !== 0) {
-                var slot_x_pts = Number($(this).find('.booster').data('x_pts'));
-                x_pts = x_pts * slot_x_pts;
-
-                if (slot_num == 0)
-                    fcap_x_pts = slot_x_pts;
-                else if (slot_num == 1)
-                    cap_x_pts = slot_x_pts;
-            }
-        });
-
-        // Assuming same Friend Captain and add the multiplier one more time
-        if (fcap_x_pts == 0 && cap_x_pts != 0)
-            x_pts = x_pts * cap_x_pts;
-
-        $(this).closest('.team').find('.x_pts').text(x_pts.toFixed(2));
+    $('#dont-have').droppable({
+        accept: '.booster',
+        activeClass: 'ui-state-hover',
+        drop: function(event, ui) {
+            $(ui.draggable).detach().css({
+                top: 0,
+                left: 0
+            }).appendTo($(this));
+        }
     });
 
+    // Point calculation button
+    $('.pts-button').click(function() {
+        updatePts($(this));
+    });
+
+    $('#pts-all-button').click(function() {
+        updateAllPts();
+    });
+
+    // DB Calculator button
     $('.cal-button').click(function() {
-        var team = [0, 0, 0, 0, 0, 0];
-
-        $(this).closest('.team').find('.team-slot').each(function() {
-            var slot_num = $(this).data('slot');
-
-            if ($(this).find('.booster').length !== 0)
-                team[slot_num] = $(this).find('.booster').data('id');
-        });
+        var team = getTeamUnits($(this).closest('.team'));
 
         // Assign same Captain if Friend Captain is not picked
         if (team[0] == 0)
@@ -201,6 +278,77 @@ $(document).ready(function() {
         window.open(calUrl);
     });
 
+    // Save teams
+    $('#save-button').click(function() {
+        var teams = {};
+
+        $('.team').each(function() {
+            var team_num = $(this).data('team');
+            var team = getTeamUnits($(this));
+            teams[team_num] = team;
+        });
+
+        localStorage.setItem('teams_' + tmId, JSON.stringify(teams));
+
+        var dontHaves = [];
+
+        $('#dont-have').find('.booster').each(function() {
+            dontHaves.push($(this).data('id'));
+        });
+
+        localStorage.setItem('dontHaves_' + tmId, JSON.stringify(dontHaves));
+
+        // Update last save time
+        var now = moment().format('lll');
+        $('#last-save').text(now);
+        localStorage.setItem('lastSave_' + tmId, now);
+    });
+
+    // Load teams
+    $('#load-button').click(function() {
+        if (localStorage.getItem('lastSave_' + tmId) !== null) {
+            resetAll();
+
+            var teams = JSON.parse(localStorage.getItem('teams_' + tmId));
+
+            $.each(teams, function(index, team) {
+                for (var i = 0; i < team.length; i++) {
+                    var unitId = team[i];
+
+                    if (unitId !== 0) {
+                        var teamSlot = $('#team-slot-' + index + i);
+
+                        $('#booster_' + unitId).detach().css({
+                            top: 0,
+                            left: 0
+                        }).prependTo(teamSlot);
+                    }
+                }
+            });
+
+            var dontHaves = JSON.parse(localStorage.getItem('dontHaves_' + tmId));
+
+            for (var i = 0; i < dontHaves.length; i++) {
+                var unitId = dontHaves[i];
+
+                if (unitId !== 0) {
+                    $('#booster_' + unitId).detach().css({
+                        top: 0,
+                        left: 0
+                    }).prependTo($('#dont-have'));
+                }
+            }
+
+            updateAllPts();
+        }
+    });
+
+    // Reset teams
+    $('#reset-button').click(function() {
+        resetAll();
+    });
+
+    // Type filter
     $('.type-filter').click(function() {
         var filter = $(this).data('filter');
         $('.booster').removeClass('filtered');
@@ -218,6 +366,7 @@ $(document).ready(function() {
         }
     });
 
+    // Class filter
     $('.class-filter').click(function() {
         var filter = $(this).data('filter');
         $('.booster').removeClass('filtered');
@@ -240,9 +389,8 @@ $(document).ready(function() {
         }
     });
 
+    // TM selection dropdown
     $('#tm-select').change(function() {
-        var tmId = $(this).val();
-        getBoosters(tmId);
-        getOpponents(tmId);
+        init($(this).val());
     });
 });
