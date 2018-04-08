@@ -47,6 +47,87 @@
 <body>
     <div id="header"></div>
 
+    <div id="unit-select-modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-plus-circle"></i>&nbsp;Add or <i class="fas fa-minus-circle"></i>&nbsp;Remove Unit
+
+                        <br />
+
+                        <span style="font-size: 13px;">(No Filtered Units)</span>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <button type="button" class="btn btn-sm btn-danger remove-button-el" id="remove-button">Remove</button>
+
+                    <hr class="remove-button-el" />
+
+                    <h6 class="available-units-el">Available Units</h6>
+                    <div class="available-units-el" id="available-units"></div>
+
+                    <hr class="available-units-el" />
+
+                    <h6 class="units-in-team-el">Units in this Team</h6>
+                    <div class="units-in-team-el" id="units-in-team"></div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-seconday" data-dismiss="modal">
+                        <i class="fas fa-times"></i>&nbsp;Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="help-modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-question-circle"></i>&nbsp;Help
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body" id="info">
+                    <ul class="fa-ul">
+                        <li>
+                            <i class="fas fa-exclamation-triangle"></i>&nbsp;
+                            Team saves <strong>only locally</strong>.
+                        </li>
+                        <li>
+                            <i class="fas fa-info-circle"></i>&nbsp;
+                            Drag & Drop units into the slots below, or Click to Add (mainly for non-touch screen users) using the add buttons to assign available units.
+                        </li>
+                        <li>
+                            <i class="fas fa-info-circle"></i>&nbsp;
+                            Captain slot will automatically fill in Friend Captain slot if it is empty. The Friend Captain slot can be replaced by Drag & Drop or Click to Remove.
+                        </li>
+                        <li>
+                            <i class="fas fa-info-circle"></i>&nbsp;
+                            Units cannot be used more than once, except in the Friend Captain slot by using Click to Add.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-seconday" data-dismiss="modal">
+                        <i class="fas fa-times"></i>&nbsp;Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="container">
         <div class="row">
             <div class="col offset-md-4 col-md-3 col-10">
@@ -59,27 +140,14 @@
         </div>
 
         <div class="row">
-            <div class="col offset-md-4 col-md-4 col-12">
-                <div id="info">
-                    <i class="fas fa-info-circle"></i>&nbsp;
-                    Drag & drop units into the slots below (No mobile support currently)
-
-                    <br />
-
-                    <i class="fas fa-info-circle"></i>&nbsp;
-                    Empty Friend Captain slot assumes same Captain (pts calculator will consider this)
-
-                    <br />
-
-                    <i class="fas fa-exclamation-triangle"></i>&nbsp;
-                    Team saves <strong>only locally</strong>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
             <div class="col col-md-1 col-12">
                 <div class="row">
+                    <div class="col offset-2 col-10">
+                        <button type="button" class="btn btn-sm btn-info" id="help-button">
+                            <i class="fas fa-question-circle"></i>&nbsp;Help
+                        </button>
+                    </div>
+
                     <div class="col col-md-12 col-6">
                         <div class="filter type-filter STR-div" data-filter="STR">STR</div>
                         <div class="filter type-filter DEX-div" data-filter="DEX">DEX</div>
@@ -177,7 +245,7 @@
                     <div class="col col-12">
                         <h4>Units I Don't Have</h4>
                         <div class="booster-div" id="dont-have">
-                            <div style="display: inline-block;"></div>
+                            <button type="button" class="btn btn-light" id="add-button"></button>
                         </div>
                     </div>
                 </div>
@@ -190,7 +258,7 @@
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" id="team-slot-00" data-slot="0"></div>
+                        <div class="team-slot friend-cap" id="team-slot-00" data-slot="0"></div>
                         <div class="team-slot" id="team-slot-01" data-slot="1"></div>
                     </div>
                 </div>
@@ -226,7 +294,7 @@
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" id="team-slot-10" data-slot="0"></div>
+                        <div class="team-slot friend-cap" id="team-slot-10" data-slot="0"></div>
                         <div class="team-slot" id="team-slot-11" data-slot="1"></div>
                     </div>
                 </div>
@@ -262,7 +330,7 @@
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" id="team-slot-20" data-slot="0"></div>
+                        <div class="team-slot friend-cap" id="team-slot-20" data-slot="0"></div>
                         <div class="team-slot" id="team-slot-21" data-slot="1"></div>
                     </div>
                 </div>
@@ -298,7 +366,7 @@
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" id="team-slot-30" data-slot="0"></div>
+                        <div class="team-slot friend-cap" id="team-slot-30" data-slot="0"></div>
                         <div class="team-slot" id="team-slot-31" data-slot="1"></div>
                     </div>
                 </div>
@@ -334,7 +402,7 @@
 
                 <div class="row">
                     <div class="col col-12">
-                        <div class="team-slot" id="team-slot-40" data-slot="0"></div>
+                        <div class="team-slot friend-cap" id="team-slot-40" data-slot="0"></div>
                         <div class="team-slot" id="team-slot-41" data-slot="1"></div>
                     </div>
                 </div>

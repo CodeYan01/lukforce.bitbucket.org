@@ -17,8 +17,38 @@
     width: 40px;
     height: 40px;
     margin: 1px;
-    border-style: dashed;
-    border-width: 1px;
+    background-image: url('/tm-planner/assets/img/add.png');
+    background-size: 100%;
+    cursor: pointer;
+}
+
+#add-button {
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+    background-image: url('/tm-planner/assets/img/add.png');
+    background-size: 100%;
+    display: inline-block;
+}
+
+.remove-button-el,
+.available-units-el,
+.units-in-team-el {
+    display: none;
+}
+
+.select-modal-unit {
+    margin: 1px;
+    cursor: pointer;
+}
+
+.assigned-dh {
+    cursor: pointer;
+}
+
+.booster-clone > img {
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
 }
 
 .type-filter {
