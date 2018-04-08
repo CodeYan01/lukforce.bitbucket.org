@@ -95,7 +95,7 @@ var wiki = {
     1725: 'comments/80t5by',                // Neptune Family
     1735: 'comments/84d7up',                // Sugar & Trebol
     1766: 'comments/87p15b',                // Blue Gilly
-    1774: '',                               // Kinemon
+    1774: 'comments/89m7ks',                // Kinemon
 
     // Raids
     227: 'wiki/raidboss/mihawk',
@@ -141,7 +141,7 @@ var wiki = {
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
     1530: 'wiki/cavendish',
-    1846: '',                               // Young Garp
+    1846: 'wiki/primegarp',
 
     // Coliseums
     777: '',                                // Lucky Roux
@@ -205,5 +205,5 @@ var wiki = {
     1733: 'wiki/coliseum/nekomamushi',
     1792: '',                               // Lucy
     1828: 'comments/7t79sc',                // Shishilian
-    1861: '',                               // Raizo
+    1861: 'comments/8ahe86',                // Raizo
 };
