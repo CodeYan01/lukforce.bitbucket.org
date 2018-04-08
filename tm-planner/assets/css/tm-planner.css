@@ -31,6 +31,10 @@
     display: inline-block;
 }
 
+#help-button {
+    width: 100%;
+}
+
 .remove-button-el,
 .available-units-el,
 .units-in-team-el {
