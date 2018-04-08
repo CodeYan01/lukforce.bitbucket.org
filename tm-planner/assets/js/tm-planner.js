@@ -11,7 +11,7 @@ function getThumb(thumbId) {
     var paddedThumbId = ('0000' + thumbId).slice(-4);
 
     // Special case for Aokiji 575 with extra 0
-    if (thumbId === '575')
+    if (thumbId === 575)
         paddedThumbId = "0" + paddedThumbId;
 
     return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + paddedThumbId + '.png';
@@ -39,6 +39,9 @@ function getUrlParameter(sParam) {
 };
 
 function getBoosters(tmId) {
+    // Reset
+    $('.booster').remove();
+
     var boosters = tm_boosters[tmId];
 
     for (var i = 0; i < boosters.length; i++) {
@@ -92,6 +95,9 @@ function getBoosters(tmId) {
 }
 
 function getOpponents(tmId) {
+    // Reset
+    $('#thumb-div').empty();
+
     var opponents = tm_opponents[tmId];
 
     for (var i = 0; i < opponents.length; i++)
@@ -110,6 +116,8 @@ function init(tmId) {
     // Retrieve last save time
     if (localStorage.getItem('lastSave_' + tmId) !== null)
         $('#last-save').text(localStorage.getItem('lastSave_' + tmId));
+    else
+        $('#last-save').text('N/A');
 }
 
 function resetPosition(unit) {
