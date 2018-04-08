@@ -62,6 +62,7 @@ function getBoosters(tmId) {
             imgDiv.data('class1', unitClass);
         }
 
+        imgDiv.data('team', -1);
         imgDiv.attr('id', 'booster_' + b.id);
         imgDiv.attr('draggable', true);
         imgDiv.css('display', 'inline-block');
@@ -123,6 +124,7 @@ function init(tmId) {
 function resetPosition(unit) {
     unit.removeClass('assigned');
     unit.removeClass('assigned-dh');
+    unit.data('team', -1);
 
     var unitId = unit.data('id');
     var _x_pts = unit.data('_x_pts');
@@ -138,12 +140,7 @@ function resetPosition(unit) {
 }
 
 function resetAll() {
-    $('.team-slot').each(function() {
-        if ($(this).find('.booster').length > 0)
-            resetPosition($(this).find('.booster').detach());
-    });
-
-    $('#dont-have').find('.booster').each(function() {
+    $('.booster').each(function() {
         resetPosition($(this).detach());
     });
 
@@ -297,14 +294,6 @@ $(document).ready(function() {
         accept: '.booster',
         activeClass: 'ui-state-hover',
         drop: function(event, ui) {
-            $(ui.draggable).addClass('assigned');
-
-            ui.draggable.position({
-                of: $(this),
-                my: 'left top',
-                at: 'left top'
-            });
-
             // Replace existing units and put the previous unit back
             if ($(this).find('.booster').length > 0)
                 resetPosition($(this).find('.booster').detach());
@@ -317,6 +306,15 @@ $(document).ready(function() {
                 left: 0
             }).prependTo($(this));
 
+            var assignedTeam = $(this).closest('.team').data('team');
+
+            // Remove corresponding Clone if moved to another Team
+            if ($(ui.draggable).data('team') !== assignedTeam)
+                $('#booster-clone_' + $(ui.draggable).data('id') + '_clone').remove();
+
+            $(ui.draggable).data('team', assignedTeam);
+            $(ui.draggable).addClass('assigned');
+
             // Mirror to Friend Cap slot if it is empty
             if ($(this).data('slot') == 1)
                 mirrorToFriendCap($(this).closest('.team'), $(ui.draggable), true);
@@ -327,12 +325,16 @@ $(document).ready(function() {
         accept: '.booster',
         activeClass: 'ui-state-hover',
         drop: function(event, ui) {
-            $(ui.draggable).addClass('assigned-dh');
-
             $(ui.draggable).detach().css({
                 top: 0,
                 left: 0
             }).insertBefore($('#add-button'));
+
+            $(ui.draggable).data('team', -1);
+            $(ui.draggable).addClass('assigned-dh');
+
+            // Remove corresponding Clone
+            $('#booster-clone_' + $(ui.draggable).data('id') + '_clone').remove();
         }
     });
 
@@ -375,9 +377,11 @@ $(document).ready(function() {
         var srcDiv;
         if (src == 'add-button') {
             srcDiv = $('#dont-have');
+            b.data('team', -1);
             b.addClass('assigned-dh');
         } else {
             srcDiv = $('#' + src);
+            b.data('team', $(this).closest('.team').data('team'));
             b.addClass('assigned');
         }
 
