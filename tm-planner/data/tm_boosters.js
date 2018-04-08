@@ -172,4 +172,169 @@ var tm_boosters = {
             x_pts: 1.2
         },
     ],
+    1853: [
+        {   // Mihawk
+            id: 1808,
+            x_pts: 1.35
+        },
+        {   // Judge
+            id: 1832,
+            x_pts: 1.35
+        },
+        {   // Mihawk
+            id: 718,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 1045,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Lucci 6+
+            id: 1663,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Sengoku 6+
+            id: 1847,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Hody Jones 6+
+            id: 1880,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // World
+            id: 1824,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Reiju
+            id: 1834,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Ichiji
+            id: 1836,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Niji
+            id: 1838,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Yonji
+            id: 1840,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1530,
+            type: 'other', // Ambush
+            x_pts: 1.2
+        },
+        {   // Garp
+            id: 1846,
+            type: 'other', // Ambush
+            x_pts: 1.2
+        },
+        {   // Gin
+            id: 1424,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Shishilian
+            id: 1828,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Raizo
+            id: 1861,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Aokiji
+            id: 575,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Fujitora
+            id: 1595,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Doffy
+            id: 1623,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Aokiji
+            id: 1669,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Mihawk
+            id: 1680,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Kizaru
+            id: 1780,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Akainu
+            id: 1826,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Sugar
+            id: 1735,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Trebol
+            id: 1737,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Blue Gilly
+            id: 1766,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Funk Brothers
+            id: 1767,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Abdullah & Jeet
+            id: 1768,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Kinemon
+            id: 1774,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Momonosuke
+            id: 1776,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+    ],
 };

@@ -6,4 +6,11 @@ var tm_opponents = {
         "Doffy",
         "Mihawk"
     ],
+    1853: [
+        "Marco",
+        "Jozu",
+        "Vista",
+        "Ace",
+        "WB"
+    ],
 };
