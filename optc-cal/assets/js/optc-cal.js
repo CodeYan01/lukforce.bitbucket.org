@@ -3,6 +3,11 @@ function highlightNavbar() {
     $('#optc-cal-nav').addClass('active');
 }
 
+// Show footer
+function showFooter() {
+    $('#cal-footer').show();
+}
+
 (function() {
     const fnColorNew = 'rgba(250, 128, 114, 0.6)';
     const fnColorRep = 'rgba(250, 128, 114, 0.3)';

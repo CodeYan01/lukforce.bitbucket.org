@@ -4,5 +4,8 @@ $(document).ready(function() {
             highlightNavbar();
     });
 
-    $('#footer').load('/common/footer.html');
+    $('#footer').load('/common/footer.html', function() {
+        if (typeof showFooter !== 'undefined')
+            showFooter();
+    });
 });
