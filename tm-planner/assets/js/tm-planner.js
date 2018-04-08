@@ -62,6 +62,7 @@ function getBoosters(tmId) {
             imgDiv.data('class1', unitClass);
         }
 
+        imgDiv.data('max_lv', units[b.id - 1][7])
         imgDiv.data('team', -1);
         imgDiv.attr('id', 'booster_' + b.id);
         imgDiv.attr('draggable', true);
@@ -440,8 +441,10 @@ $(document).ready(function() {
         for (var i = 0; i < team.length; i++) {
             if (team[i] == 0)
                 calUrl += '!';
-            else
-                calUrl += team[i] + ':99';
+            else {
+                var maxLv = $('#booster_' + team[i]).data('max_lv');
+                calUrl += team[i] + ':' + maxLv;
+            }
 
             if (i != team.length - 1)
                 calUrl += ',';
