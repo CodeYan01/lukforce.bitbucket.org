@@ -414,6 +414,16 @@ function showFooter() {
         li.show();
     }
 
+    function highlightTmBoosters(isChecked) {
+        if (isChecked) {
+            $('.unit-img').each(function() {
+                if (tm_boosters.indexOf($(this).data('id')) == -1)
+                    $(this).addClass('filtered');
+            });
+        } else
+            $('.filtered').removeClass('filtered');
+    }
+
     function getEventDetail(e) {
         var ids = [];
 
@@ -526,6 +536,11 @@ function showFooter() {
             location.reload();
         });
 
+        // Highlight future TM Boosters setting
+        $('#highlight-tm-boosters').click(function() {
+            highlightTmBoosters($('#highlight-tm-boosters').prop('checked'));
+        });
+
         // Calendar events
         var eventArray = [];
 
@@ -579,8 +594,12 @@ function showFooter() {
                     else
                         thumbArray.push(event['thumb']);
 
-                    for (var i = 0; i < thumbArray.length; i++)
-                        element.find('.fc-title').before(createImgHtml(getThumb(thumbArray[i]), 28, true));
+                    for (var i = 0; i < thumbArray.length; i++) {
+                        var unitImg = createImgHtml(getThumb(thumbArray[i]), 28, true);
+                        unitImg.addClass('unit-img');
+                        unitImg.data('id', parseInt(thumbArray[i]), 10);
+                        element.find('.fc-title').before(unitImg);
+                    }
 
                     if (event['type'] === 'fortnight' && event['ranking']) {
                         var imgHtml = createImgHtml(getThumb(event['ranking']), 20, false);
@@ -591,15 +610,23 @@ function showFooter() {
                     element.css('min-height', '32px');
                 } else if (event['type'] === 'coliseum') {
                     for (var i = 0; i < event['thumb'].length; i++) {
+                        var unitImg;
                         if (coliseums[event['id'][i]].chaos_only)
-                            element.find('.fc-title').before(createImgHtml(getThumb(event['thumb'][i]), 28, true));
+                            unitImg = createImgHtml(getThumb(event['thumb'][i]), 28, true);
                         else
-                            element.find('.fc-title').before(createImgHtml(getThumb(event['thumb'][i]), 20, true));
+                            unitImg = createImgHtml(getThumb(event['thumb'][i]), 20, true);
+
+                        unitImg.addClass('unit-img');
+                        unitImg.data('id', parseInt(event['thumb'][i]), 10);
+                        element.find('.fc-title').before(unitImg);
                     }
 
                     element.css('min-height', '32px');
                 } else if (event['type'] === 'raidAmbush' || event['type'] === 'coliAmbush') {
-                    element.find('.fc-title').before(createImgHtml(getThumb(event['thumb']), 15, true));
+                    var unitImg = createImgHtml(getThumb(event['thumb']), 15, true);
+                    unitImg.addClass('unit-img');
+                    unitImg.data('id', parseInt(event['thumb']), 10);
+                    element.find('.fc-title').before(unitImg);
                 } else {
                     element.closest('.fc-bgevent').css('background-image', 'url("/optc-cal/assets/img/' + event['thumb'] + '.png")');
                 }
@@ -629,7 +656,10 @@ function showFooter() {
                 return a.id < b.id ? -1 : 1;
             },
             displayEventTime: false,
-            firstDay: isPST ? 0 : 1
+            firstDay: isPST ? 0 : 1,
+            eventAfterAllRender: function(view) {
+                highlightTmBoosters($('#highlight-tm-boosters').prop('checked'));
+            }
         });
 
         // Auto change to week view when on mobile

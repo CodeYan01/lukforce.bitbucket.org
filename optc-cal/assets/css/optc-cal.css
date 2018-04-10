@@ -4,7 +4,7 @@ button {
 
 .footer,
 #optc-agenda,
-#time-mode,
+.cal-setting-div,
 #info {
     width: 100%;
     text-align: center;
@@ -24,4 +24,8 @@ button {
 
 .fc-bgevent {
     opacity: 0.75;
+}
+
+.filtered {
+    opacity: 0.3;
 }
