@@ -115,6 +115,9 @@ function init(tmId) {
     getOpponents(tmId);
     $('.sl-btn').attr('disabled', false);
 
+    $('.booster-clone').remove();
+    updateAllPts();
+
     // Retrieve last save time
     if (localStorage.getItem('lastSave_' + tmId) !== null)
         $('#last-save').text(localStorage.getItem('lastSave_' + tmId));
