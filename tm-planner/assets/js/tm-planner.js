@@ -521,7 +521,7 @@ $(document).ready(function() {
                     b.detach().css({
                         top: 0,
                         left: 0
-                    }).prependTo($('#dont-have'));
+                    }).insertBefore($('#add-button'));
                 }
             }
 
