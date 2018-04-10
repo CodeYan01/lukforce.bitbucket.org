@@ -465,6 +465,15 @@ $(document).ready(function() {
         $('.team').each(function() {
             var team_num = $(this).data('team');
             var team = getTeamUnits($(this));
+
+            // Check for clone if Friend Captain is not picked
+            if (team[0] == 0 && $(this).find('.booster-clone').length > 0) {
+                var friendCapClone = $(this).find('.booster-clone');
+
+                // Make unit ID negative to identify as clone
+                team[0] = parseInt(friendCapClone.data('id')) * -1;
+            }
+
             teams[team_num] = team;
         });
 
@@ -496,6 +505,13 @@ $(document).ready(function() {
                     var unitId = team[i];
 
                     if (unitId !== 0) {
+                        // Check whether unit is clone and restore unit ID
+                        var isClone = false;
+                        if (i == 0 && unitId < 0) {
+                            isClone = true;
+                            unitId = parseInt(unitId) * -1;
+                        }
+
                         var b = $('#booster_' + unitId);
                         var teamSlot = $('#team-slot-' + index + i);
 
@@ -504,6 +520,10 @@ $(document).ready(function() {
                             top: 0,
                             left: 0
                         }).prependTo(teamSlot);
+
+                        // If Friend Cap slot is a clone
+                        if (isClone)
+                            mirrorToFriendCap(teamSlot.closest('.team'), b, false);
 
                         // Mirror to Friend Cap slot if it is empty
                         if (i == 1)
