@@ -173,6 +173,22 @@ var tm_boosters = {
         },
     ],
     1853: [
+        {   // Akainu
+            id: 1849,
+            x_pts: 2
+        },
+        {   // Buggy
+            id: 1806,
+            x_pts: 1.5
+        },
+        {   // Squard
+            id: 1851,
+            x_pts: 1.5
+        },
+        {   // Zoro
+            id: 1804,
+            x_pts: 1.35
+        },
         {   // Mihawk
             id: 1808,
             x_pts: 1.35
@@ -204,16 +220,6 @@ var tm_boosters = {
         {   // Hody Jones 6+
             id: 1880,
             type: 'legend',
-            x_pts: 1.2
-        },
-        {   // Zoro
-            id: 1804,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Buggy
-            id: 1806,
-            type: 'rr',
             x_pts: 1.2
         },
         {   // World
@@ -266,8 +272,23 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
+        {   // Monster Chopper
+            id: 249,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Aokiji
             id: 575,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kizaru
+            id: 978,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // General Franky
+            id: 1432,
             type: 'raid',
             x_pts: 1.2
         },
