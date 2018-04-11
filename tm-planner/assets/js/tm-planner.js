@@ -378,13 +378,11 @@ $(document).ready(function() {
         var src = $(this).data('src');
         var b = $('#booster_' + unitId);
 
-        var srcDiv;
-        if (src == 'add-button') {
-            srcDiv = $('#dont-have');
+        var srcDiv = $('#' + src);
+        if (src == 'dont-have') {
             b.data('team', -1);
             b.addClass('assigned-dh');
         } else {
-            srcDiv = $('#' + src);
             b.data('team', $(this).closest('.team').data('team'));
             b.addClass('assigned');
         }
@@ -392,13 +390,20 @@ $(document).ready(function() {
         if ($(this).hasClass('is-clone')) {
             mirrorToFriendCap(srcDiv.closest('.team'), b, false);
         } else {
-            if (srcDiv.find('.booster').length > 0)
-                resetPosition(srcDiv.find('.booster').detach());
+            if (src == 'dont-have') {
+                b.detach().css({
+                    top: 0,
+                    left: 0
+                }).insertBefore('#add-button');
+            } else {
+                if (srcDiv.find('.booster').length > 0)
+                    resetPosition(srcDiv.find('.booster').detach());
 
-            b.detach().css({
-                top: 0,
-                left: 0
-            }).prependTo(srcDiv);
+                b.detach().css({
+                    top: 0,
+                    left: 0
+                }).prependTo(srcDiv);
+            }
 
             // Mirror to Friend Cap slot if it is empty
             if (srcDiv.data('slot') == 1)
