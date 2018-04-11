@@ -493,7 +493,9 @@ function showFooter() {
                     createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
 
                 if (e['type'] === 'tm') {
-                    createListItem(ed, '.tmInfo', 'https://i.redd.it/', data.info, 'TM Info Graphic');
+                    if (data.info != '')
+                        createListItem(ed, '.tmInfo', 'https://i.redd.it/', data.info, 'TM Info Graphic');
+
                     createListItem(ed, '.tmPlanner', '/tm-planner/?tmId=', id, 'TM Team Planner');
                 }
 

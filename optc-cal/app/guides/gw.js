@@ -209,6 +209,7 @@ var gw = {
 
     // TMs
     1808: '72766',      // Mihawk
+    1853: '79614',      // Whitebeard
 
     // Events
     'bb_1314': '61665', // Three Admirals
