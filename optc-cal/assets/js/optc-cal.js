@@ -252,7 +252,7 @@ function showFooter() {
             var start = e['start'];
             var end = e['end'];
 
-            start += ' 07:00';
+            start += ' 02:00';
             res['start'] = start;
             res['end'] = end;
 
@@ -325,7 +325,7 @@ function showFooter() {
                 }
             }
 
-            start += ' 02:00';
+            start += ' 02:30';
             res['start'] = start;
             if (end)
                 res['end'] = end;
