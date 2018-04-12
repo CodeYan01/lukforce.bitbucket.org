@@ -299,6 +299,7 @@ function updateAllPts() {
 }
 
 $(document).ready(function() {
+    // Retrieve TM ID
     var tmId = getUrlParameter('tmId');
 
     if (tmId)

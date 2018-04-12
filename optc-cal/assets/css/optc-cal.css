@@ -29,3 +29,7 @@ button {
 .filtered {
     opacity: 0.3;
 }
+
+.night-mode td.fc-today {
+    background-color: rgb(75, 75, 75);
+}

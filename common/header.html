@@ -35,4 +35,42 @@
             </li>
         </ul>
     </div>
+
+    <div class="navbar-right">
+        <button type="button" class="btn btn-sm btn-secondary" id="night-mode-button">
+            <i class="far fa-moon" id="night-mode-icon"></i>
+        </button>
+    </div>
 </nav>
+
+<script>
+    function nightModeToggle(nightMode) {
+        if (nightMode) {
+            $('#night-mode-icon').removeClass('fa-moon');
+            $('#night-mode-icon').addClass('fa-sun');
+            $('body').addClass('night-mode');
+        } else {
+            $('#night-mode-icon').removeClass('fa-sun');
+            $('#night-mode-icon').addClass('fa-moon');
+            $('body').removeClass('night-mode');
+        }
+
+        localStorage.setItem('night-mode', nightMode);
+    }
+
+    $(document).ready(function() {
+        // Day / Night mode
+        var nightMode = false;
+        if (localStorage.getItem('night-mode') != null) {
+            var nightModeStr = localStorage.getItem('night-mode');
+            nightMode = nightModeStr == 'true';
+        }
+
+        nightModeToggle(nightMode);
+
+        $('#night-mode-button').click(function() {
+            nightMode = !nightMode;
+            nightModeToggle(nightMode);
+        });
+    });
+</script>

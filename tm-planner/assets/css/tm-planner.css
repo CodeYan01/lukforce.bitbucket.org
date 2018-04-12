@@ -37,6 +37,7 @@
 
 #help-button {
     width: 100%;
+    margin: 5px;
 }
 
 .remove-button-el,

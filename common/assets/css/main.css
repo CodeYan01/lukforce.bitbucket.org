@@ -23,3 +23,12 @@ body {
     margin: 5px;
     width: 100%;
 }
+
+.night-mode {
+    background-color: rgb(25, 25, 25);
+    color: rgb(205, 205, 205);
+}
+
+.night-mode .modal-content {
+    background-color: rgb(25, 25, 25);
+}
