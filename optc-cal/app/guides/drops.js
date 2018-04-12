@@ -96,6 +96,7 @@ drops = {
     1735: 'Underground%20Trade%20Port!%20Escape!%20Fortnight',
     1766: 'Battle%20Royale!%20Fortnight',
     1774: 'Wano%20Samurai!%20Fortnight',
+    1810: 'Zou%20Royal%20Guard!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

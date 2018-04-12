@@ -96,6 +96,7 @@ var gw = {
     1735: '66022',      // Sugar & Trebol
     1766: '67117',      // Blue Gilly
     1774: '68609',      // Kinemon
+    1810: '71417',      // Wanda & Carrot
 
     // Raids
     227: '4142',        // Mihawk

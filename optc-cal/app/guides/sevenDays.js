@@ -96,6 +96,7 @@ var sd = {
     1735: 'oxxtsWWxr9A',    // Sugar & Trebol
     1766: '',               // Blue Gilly
     1774: '',               // Kinemon
+    1810: '',               // Wanda & Carrot
 
     // Raids
     227: '',                // Mihawk

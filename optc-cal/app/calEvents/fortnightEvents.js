@@ -913,6 +913,20 @@ var fortnightEvents = [
         end: '2018-04-17',
         is_replay: true
     },
+
+    // #############################
+    {
+        id: 1810,
+        start: '2018-04-17',
+        end: '2018-04-24',
+        is_replay: false
+    },
+    {
+        id: 1810,
+        start: '2018-04-24',
+        end: '2018-05-01',
+        is_replay: false
+    },
     {
         id: [797, 852, 1037],
         start: '2018-04-17',
