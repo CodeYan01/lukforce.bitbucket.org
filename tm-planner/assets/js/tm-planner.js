@@ -163,6 +163,7 @@ function populateUnitSelectModal(src, deleteId) {
 
     if (deleteId !== 0) {
         $('#remove-button').data('id', deleteId);
+        $('#db-button').data('id', deleteId);
         $('.remove-button-el').show();
     }
 
@@ -237,6 +238,15 @@ function mirrorToFriendCap(teamDiv, cap, autoFill) {
             top: 0,
             left: 0
         }).prependTo(friendCapSlot);
+    }
+}
+
+function viewOnDb(unitId) {
+    if (unitId) {
+        var dbUrl = 'https://optc-db.github.io/characters/#/view/';
+        dbUrl += unitId;
+
+        window.open(dbUrl);
     }
 }
 
@@ -422,6 +432,16 @@ $(document).ready(function() {
             $('#booster-clone_' + deleteId).remove();
 
         $('#unit-select-modal').modal('hide');
+    });
+
+    // Click to DB
+    $(document).on('click', '.booster', function() {
+        if (!$(this).hasClass('assigned') && !$(this).hasClass('assigned-dh'))
+            viewOnDb($(this).data('id'));
+    });
+
+    $('#db-button').click(function() {
+        viewOnDb($(this).data('id'));
     });
 
     // Point calculation button
