@@ -7,6 +7,6 @@ var tms = {
     1853: {
         name: 'Whitebeard',
         thumb: '1853',
-        info: ''
+        info: '604g03thb9r01'
     },
 };
