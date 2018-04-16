@@ -474,6 +474,12 @@ function showFooter() {
                 ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
                 ed.find('.eventTitle').text(data['name']);
 
+                if (e['type'] === 'raid' ||
+                    e['type'] === 'coliseum' ||
+                    e['type'] === 'ambush' ||
+                    e['type'] === 'tm')
+                    createListItem(ed, '.db', 'http://optc-db.github.io/characters/#/view/', id, 'OPTC-DB Character Page');
+
                 if (drops[id])
                     createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', drops[id], 'Drop List');
 
