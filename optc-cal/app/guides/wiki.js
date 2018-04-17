@@ -129,7 +129,7 @@ var wiki = {
     1696: 'comments/7eeu5h',                // Vergo
     1815: 'wiki/raidboss/sanji',
     1924: 'comments/77jr7y',                // Rayleigh
-    2201: '',                               // Doffy v2
+    2201: 'wiki/raidboss/v2doflamingo',
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',
@@ -198,7 +198,7 @@ var wiki = {
     1525: 'wiki/coliseum/suleiman',
     1553: 'wiki/coliseum/hajrudin',
     1584: '',                               // Orlumbus
-    1602: '',                               // Shiryu
+    1602: 'wiki/coliseum/shiryu',
     1603: 'wiki/coliseum/mcguychaos',
     1628: 'wiki/coliseum/machvise',
     1667: '',                               // Kyros
