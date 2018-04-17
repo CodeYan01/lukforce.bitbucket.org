@@ -129,7 +129,7 @@ var wiki = {
     1696: 'comments/7eeu5h',                // Vergo
     1815: 'wiki/raidboss/sanji',
     1924: 'comments/77jr7y',                // Rayleigh
-    5012: '',                               // Doffy v2
+    2201: '',                               // Doffy v2
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',

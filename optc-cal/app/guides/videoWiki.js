@@ -30,7 +30,7 @@ var videoWiki = {
     1696: 'raidboss/vergo',
     1815: 'raidboss/sanji',
     1924: 'raidboss/rayleigh',
-    5012: 'raidboss/v2doflamingo',
+    2201: 'raidboss/v2doflamingo',
 
     1623: 'raidboss/doflamingokai',
     1669: 'raidboss/aokijikai',
