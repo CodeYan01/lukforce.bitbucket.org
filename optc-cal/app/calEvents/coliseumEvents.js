@@ -1215,4 +1215,13 @@ var coliseumEvents = [
         start: '2018-04-26',
         new_batch: false
     },
+
+    // ##############################
+    {
+        newId: 1863,
+        repId: [],
+        start: '2018-04-23',
+        end: '2018-04-30',
+        new_batch: true
+    },
 ]

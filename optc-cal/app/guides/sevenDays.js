@@ -208,6 +208,8 @@ var sd = {
     1828: '',               // Shishilian
     1861: '',               // Raizo
 
+    1863: '',               // Kinemon (N)
+
     // Event
     'bb_1314': 'KpGYeH6G9JY',   // Three Admirals
     'bb_0870': 'CY6QAKdZ-aA',   // Donquixote Family

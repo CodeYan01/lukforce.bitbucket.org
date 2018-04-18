@@ -140,18 +140,27 @@ function showFooter() {
         coliseumEvents.forEach(function(e) {
             var res = {};
 
-            res['thumb'] = [];
-
             var newId = e['newId'];
-            for (var i = 0; i < newId.length; i++) {
-                var newColi = coliseums[newId[i]];
-                res['thumb'].push(newColi['thumb']);
-            }
-
             var repId = e['repId'];
-            for (var i = 0; i < repId.length; i++) {
-                var repColi = coliseums[repId[i]];
-                res['thumb'].push(repColi['thumb']);
+            if (Array.isArray(newId)) {
+                res['thumb'] = [];
+
+                for (var i = 0; i < newId.length; i++) {
+                    var newColi = coliseums[newId[i]];
+                    res['thumb'].push(newColi['thumb']);
+                }
+
+                for (var i = 0; i < repId.length; i++) {
+                    var repColi = coliseums[repId[i]];
+                    res['thumb'].push(repColi['thumb']);
+                }
+
+                res['id'] = newId.concat(repId);
+            } else {
+                var coli = coliseums[newId];
+                res['id'] = newId;
+                res['title'] = '『Coliseum』\n' + coli['name'];
+                res['thumb'] = coli['thumb'];
             }
 
             if (e['ambush']) {
@@ -159,16 +168,15 @@ function showFooter() {
                 createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'coliseum', isPST);
             }
 
-
-            res['id'] = newId.concat(repId);
-
             res['type'] = 'coliseum';
 
             // Add one day for 19:00 events for GMT mode
             var start = e['start'];
             var end = e['end'];
 
-            if (!isPST) {
+            if (!isPST
+                && newId !== 1863
+            ) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
                 start = startDate.format('YYYY-MM-DD');
@@ -617,15 +625,25 @@ function showFooter() {
 
                     element.css('min-height', '32px');
                 } else if (event['type'] === 'coliseum') {
-                    for (var i = 0; i < event['thumb'].length; i++) {
+                    var thumbArray = [];
+                    if (Array.isArray(event['thumb']))
+                        thumbArray = event['thumb'].slice();
+                    else
+                        thumbArray.push(event['thumb']);
+
+                    for (var i = 0; i < thumbArray.length; i++) {
                         var unitImg;
-                        if (coliseums[event['id'][i]].chaos_only)
-                            unitImg = createImgHtml(getThumb(event['thumb'][i]), 28, true);
-                        else
-                            unitImg = createImgHtml(getThumb(event['thumb'][i]), 20, true);
+
+                        if (Array.isArray(event['id'])) {
+                            if (coliseums[event['id'][i]].chaos_only)
+                                unitImg = createImgHtml(getThumb(thumbArray[i]), 28, true);
+                            else
+                                unitImg = createImgHtml(getThumb(thumbArray[i]), 20, true);
+                        } else
+                            unitImg = createImgHtml(getThumb(thumbArray[i]), 28, true);
 
                         unitImg.addClass('unit-img');
-                        unitImg.data('id', parseInt(event['thumb'][i]), 10);
+                        unitImg.data('id', parseInt(thumbArray[i]), 10);
                         element.find('.fc-title').before(unitImg);
                     }
 

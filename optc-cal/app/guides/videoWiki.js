@@ -108,4 +108,6 @@ var videoWiki = {
     1792: 'coliseum/lucy_luffy',
     1828: 'coliseum/sicilian',
     1861: 'coliseum/raizo',
+
+    1863: '',   // Kinemon (N)
 };

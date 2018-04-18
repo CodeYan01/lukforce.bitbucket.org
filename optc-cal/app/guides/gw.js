@@ -208,6 +208,8 @@ var gw = {
     1828: '74382',      // Shishilian
     1861: '80286',      // Raizo
 
+    1863: '80292',      // Kinemon (N)
+
     // TMs
     1808: '72766',      // Mihawk
     1853: '79614',      // Whitebeard

@@ -207,4 +207,6 @@ var wiki = {
     1792: '',                               // Lucy
     1828: 'comments/7t79sc',                // Shishilian
     1861: 'comments/8ahe86',                // Raizo
+
+    1863: '',                               // Kinemon (N)
 };

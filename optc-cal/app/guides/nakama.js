@@ -208,6 +208,8 @@ var nakama = {
     1828: '5182701',    // Shishilian
     1861: '5186001',    // Raizo
 
+    1863: '5186201',    // Kinemon (N)
+
     // TMs
     1808: '8180800',    // Mihawk
     1853: '8185300',    // Whitebeard

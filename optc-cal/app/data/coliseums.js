@@ -309,4 +309,11 @@ var coliseums = {
         chaos_only: true, // Not but important
         thumb: '1861'
     },
+
+    // Neo Coliseums
+    1863: {
+        name: 'Kinemon (N)',
+        chaos_only: true,
+        thumb: '1863'
+    },
 };
