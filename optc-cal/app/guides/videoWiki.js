@@ -29,6 +29,7 @@ var videoWiki = {
     1595: 'raidboss/fujitora',
     1696: 'raidboss/vergo',
     1815: 'raidboss/sanji',
+    1879: '',   // Bartolomeo
     1924: 'raidboss/rayleigh',
     2201: 'raidboss/v2doflamingo',
 

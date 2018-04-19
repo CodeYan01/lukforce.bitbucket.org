@@ -128,6 +128,7 @@ var gw = {
     1595: '56946',      // Fujitora
     1696: '63217',      // Vergo
     1815: '70374',      // Sanji
+    1879: '81714',      // Bartolomeo
     1924: '85580',      // Rayleigh
     2201: '',           // Doffy v2
 

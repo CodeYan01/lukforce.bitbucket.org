@@ -128,6 +128,7 @@ var sd = {
     1595: '',               // Fujitora
     1696: 'i01chpNhVq8',    // Vergo
     1815: 'cy_dzKF5B5g',    // Sanji
+    1879: '',               // Bartolomeo
     1924: '',               // Rayleigh
     2201: '',               // Doffy v2
 

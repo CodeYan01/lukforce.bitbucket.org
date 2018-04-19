@@ -128,6 +128,7 @@ var wiki = {
     1595: 'wiki/raidboss/fujitora',
     1696: 'comments/7eeu5h',                // Vergo
     1815: 'wiki/raidboss/sanji',
+    1879: '',                               // Bartolomeo
     1924: 'comments/77jr7y',                // Rayleigh
     2201: 'wiki/raidboss/v2doflamingo',
 
