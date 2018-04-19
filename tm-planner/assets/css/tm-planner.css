@@ -8,6 +8,11 @@
     padding: 5px;
 }
 
+.booster-info {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
 .booster {
     cursor: pointer;
 }
