@@ -305,7 +305,7 @@ var fortnights = {
     },
     1397: {
         name: 'Shambles G5',
-        thumb: '1397'
+        thumb: '1399'
     },
     1416: {
         name: 'Sengoku',
@@ -369,7 +369,7 @@ var fortnights = {
     },
     1725: {
         name: 'Neptune Family',
-        thumb: '1725'
+        thumb: '1723'
     },
     1735: {
         name: 'Sugar & Trebol',
