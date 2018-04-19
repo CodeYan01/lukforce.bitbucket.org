@@ -935,4 +935,9 @@ var raidEvents = [
         start: '2018-04-28',
         end: '2018-04-30'
     },
+    {
+        id: 1432,
+        start: '2018-05-05',
+        ambush: ywb
+    },
 ]
