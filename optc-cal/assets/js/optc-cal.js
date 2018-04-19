@@ -34,7 +34,7 @@ function showFooter() {
             } else {
                 var fn = fortnights[eId];
                 res['id'] = eId;
-                res['title'] = '『FN』\n' + fn['name'];
+                res['title'] = '『Fortnight』\n' + fn['name'];
                 res['thumb'] = fn['thumb'];
             }
 
@@ -89,7 +89,7 @@ function showFooter() {
             } else {
                 var rd = raids[eId];
                 res['id'] = eId;
-                res['title'] = '『RD』\n' + rd['name'];
+                res['title'] = '『Raid』\n' + rd['name'];
                 res['thumb'] = rd['thumb'];
             }
 
