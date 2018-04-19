@@ -41,6 +41,12 @@ var specials = {
         thumb: '0870'
     },
 
+    'rk_1314': {
+        type: 'Ranking',
+        name: 'Three Admirals',
+        thumb: '1314'
+    },
+
     '20_1684': {
         type: '20th Anni SH',
         name: 'SH Showdown 1',
@@ -203,5 +209,15 @@ var specials = {
         type: 'Tea Party',
         name: 'Chopper',
         thumb: '1465'
+    },
+    'tp_1508': {
+        type: 'Tea Party',
+        name: 'Sanji',
+        thumb: '1508'
+    },
+    'tp_1516': {
+        type: 'Tea Party',
+        name: 'Brook',
+        thumb: '1516'
     },
 }

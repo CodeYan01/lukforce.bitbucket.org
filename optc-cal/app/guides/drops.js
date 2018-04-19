@@ -105,4 +105,6 @@ drops = {
     // Events
     'tp_1463': 'White%20Day%20Characters',
     'tp_1465': 'White%20Day%20Characters',
+    'tp_1508': 'White%20Day%20Characters',
+    'tp_1516': 'White%20Day%20Characters',
 };

@@ -38,8 +38,15 @@ function showFooter() {
                 res['thumb'] = fn['thumb'];
             }
 
-            if (e['ranking'])
-                res['ranking'] = fortnights[e['ranking']]['thumb'];
+            if (e['ranking']) {
+                res['ranking'] = [];
+
+                if (Array.isArray(e['ranking'])) {
+                    for (var i = 0; i < e['ranking'].length; i++)
+                        res['ranking'].push(fortnights[e['ranking'][i]]['thumb']);
+                } else
+                    res['ranking'].push(fortnights[e['ranking']]['thumb']);
+            }
 
             res['type'] = 'fortnight';
 
@@ -618,8 +625,13 @@ function showFooter() {
                     }
 
                     if (event['type'] === 'fortnight' && event['ranking']) {
-                        var imgHtml = createImgHtml(getThumb(event['ranking']), 20, false);
-                        element.find('.fc-title').html(imgHtml);
+                        for (var i = 0; i < event['ranking'].length; i++) {
+                            var rankImg = createImgHtml(getThumb(event['ranking'][i]), 20, false);
+                            rankImg.addClass('unit-img');
+                            rankImg.data('id', parseInt(event['ranking'][i]), 10);
+                            element.find('.fc-title').append(rankImg);
+                        }
+
                         element.find('.fc-title').after('<i class="fas fa-trophy"></i>');
                     }
 

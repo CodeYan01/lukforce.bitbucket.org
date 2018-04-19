@@ -226,4 +226,6 @@ var gw = {
     '3rd_1600': '56964',// 3rd Anni Luffy
     'tp_1463': '51652', // Tea Party Luffy
     'tp_1465': '51896', // Tea Party Chopper
+    'tp_1508': '52627', // Tea Party Sanji
+    'tp_1516': '53094', // Tea Party Brook
 };
