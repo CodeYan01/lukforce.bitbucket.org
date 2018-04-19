@@ -197,6 +197,8 @@ var gw = {
     1460: '50807',      // Ms. Valentine
     1487: '52185',      // Ideo
     1525: '60230',      // Suleiman
+    1527: '53588',      // Arlong
+    1528: '53591',      // Blenheim
     1553: '54672',      // Hajrudin
     1584: '56053',      // Orlumbus
     1602: '57471',      // Shiryu

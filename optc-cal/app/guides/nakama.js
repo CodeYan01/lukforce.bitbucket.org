@@ -197,6 +197,8 @@ var nakama = {
     1460: '5145901',    // Ms. Valentine
     1487: '5148601',    // Ideo
     1525: '5152501',    // Suleiman
+    1527: '5152601',    // Arlong
+    1528: '5152801',    // Blenheim
     1553: '5155201',    // Hajrudin
     1584: '5158301',    // Orlumbus
     1602: '5160101',    // Shiryu

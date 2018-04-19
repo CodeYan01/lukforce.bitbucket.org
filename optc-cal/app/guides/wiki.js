@@ -197,6 +197,8 @@ var wiki = {
     1460: '',                               // Ms. Valentine
     1487: 'comments/7ujevj',                // Ideo
     1525: 'wiki/coliseum/suleiman',
+    1527: '',                               // Arlong
+    1528: '',                               // Blenheim
     1553: 'wiki/coliseum/hajrudin',
     1584: '',                               // Orlumbus
     1602: 'wiki/coliseum/shiryu',

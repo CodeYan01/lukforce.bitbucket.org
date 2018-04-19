@@ -197,6 +197,8 @@ var sd = {
     1460: '',               // Ms. Valentine
     1487: 'bPe-fnAir5k',    // Ideo
     1525: '3xCjhZb50lc',    // Suleiman
+    1527: '',               // Arlong
+    1528: '',               // Blenheim
     1553: '',               // Hajrudin
     1584: 'plzyiRQ37b8',    // Orlumbus
     1602: 'WjEGknjdtzs',    // Shiryu
