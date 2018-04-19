@@ -105,7 +105,7 @@ function getOpponents(tmId) {
     for (var i = 0; i < opponents.length; i++)
         $('#op-' + (i + 1)).text(opponents[i]);
 
-    var imgHtml = createImgHtml(getThumb(tmId), 60);
+    var imgHtml = createImgHtml(getThumb(tmId), 50);
     $('#thumb-div').append(imgHtml);
 }
 
