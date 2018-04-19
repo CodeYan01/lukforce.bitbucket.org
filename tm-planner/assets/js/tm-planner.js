@@ -586,17 +586,17 @@ $(document).ready(function() {
     // Type filter
     $('.type-filter').click(function() {
         var filter = $(this).data('filter');
-        $('.booster, .booster-clone').removeClass('filtered');
+        $('.booster, .booster-clone').removeClass('type-filtered');
 
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
         } else {
-            $('.filter').removeClass('selected');
+            $('.type-filter').removeClass('selected');
             $(this).addClass('selected');
 
             $('.booster, .booster-clone').each(function() {
                 if ($(this).data('type') !== filter)
-                    $(this).addClass('filtered');
+                    $(this).addClass('type-filtered');
             });
         }
     });
@@ -604,21 +604,21 @@ $(document).ready(function() {
     // Class filter
     $('.class-filter').click(function() {
         var filter = $(this).data('filter');
-        $('.booster, .booster-clone').removeClass('filtered');
+        $('.booster, .booster-clone').removeClass('class-filtered');
 
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
         } else {
-            $('.filter').removeClass('selected');
+            $('.class-filter').removeClass('selected');
             $(this).addClass('selected');
 
             $('.booster, .booster-clone').each(function() {
                 if ($(this).data('class2')) {
                     if ($(this).data('class1') !== filter && $(this).data('class2') !== filter)
-                        $(this).addClass('filtered');
+                        $(this).addClass('class-filtered');
                 } else {
                     if ($(this).data('class1') !== filter)
-                        $(this).addClass('filtered');
+                        $(this).addClass('class-filtered');
                 }
             });
         }
