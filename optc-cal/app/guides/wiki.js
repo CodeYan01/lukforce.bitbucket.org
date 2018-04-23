@@ -96,7 +96,7 @@ var wiki = {
     1735: 'comments/84d7up',                // Sugar & Trebol
     1766: 'comments/87p15b',                // Blue Gilly
     1774: 'comments/89m7ks',                // Kinemon
-    1810: '',                               // Wanda & Carrot
+    1810: 'comments/8drnkw',                // Wanda & Carrot
 
     // Raids
     227: 'wiki/raidboss/mihawk',
