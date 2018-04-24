@@ -3,6 +3,10 @@ body {
     font-size: 15px;
 }
 
+.tooltip {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #container {
     margin: 30px 10px;
     padding: 0;

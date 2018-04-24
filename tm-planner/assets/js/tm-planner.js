@@ -70,6 +70,14 @@ function getBoosters(tmId, server) {
         imgDiv.addClass('booster');
         imgDiv.data('id', b.id);
         imgDiv.data('x_pts', b.x_pts);
+
+        // Name
+        imgDiv.data('toggle', 'tooltip');
+        imgDiv.data('placement', 'top');
+        imgDiv.attr('title', units[b.id - 1][0]);
+        imgDiv.tooltip();
+
+        // Type and Class
         imgDiv.data('type', units[b.id - 1][1]);
 
         var unitClass = units[b.id - 1][2];
