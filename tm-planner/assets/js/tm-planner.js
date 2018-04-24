@@ -3,10 +3,14 @@ function highlightNavbar() {
     $('#tm-planner-nav').addClass('active');
 }
 
-function getThumb(thumbId) {
-    if (thumbId === -1 || thumbId === 2201)
-        return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
+function imgError(img) {
+    img.onerror = '';
+    img.src = 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
 
+    return true;
+}
+
+function getThumb(thumbId) {
     // Zero pad IDs to get correct thumb
     var paddedThumbId = ('0000' + thumbId).slice(-4);
 
@@ -22,6 +26,7 @@ function createImgHtml(imgSrc, size) {
     imgHtml.attr('src', imgSrc);
     imgHtml.attr('height', size);
     imgHtml.attr('width', size);
+    imgHtml.attr('onerror', 'imgError(this)');
 
     return imgHtml;
 }
@@ -38,11 +43,24 @@ function getUrlParameter(sParam) {
     }
 };
 
-function getBoosters(tmId) {
+function getBoosters(tmId, server) {
     // Reset
     $('.booster').remove();
 
-    var boosters = tm_boosters[tmId];
+    // Change 2x or 2.25x version
+    if (tmId >= 2064) {
+        $('.ver_2x').hide();
+        $('.ver_2_25x').show();
+    } else {
+        $('.ver_2x').show();
+        $('.ver_2_25x').hide();
+    }
+
+    var boosters = [];
+    if (server === 'glb')
+        boosters = tm_boosters[tmId];
+    else
+        boosters = tm_boosters_jpn[tmId];
 
     for (var i = 0; i < boosters.length; i++) {
         var b = boosters[i];
@@ -109,9 +127,9 @@ function getOpponents(tmId) {
     $('#thumb-div').append(imgHtml);
 }
 
-function init(tmId) {
-    $('#tm-select').val(tmId);
-    getBoosters(tmId);
+function init(tmId, server) {
+    $('#tm-select').val(tmId + '_' + server);
+    getBoosters(tmId, server);
     getOpponents(tmId);
     $('.sl-btn').attr('disabled', false);
 
@@ -119,8 +137,9 @@ function init(tmId) {
     updateAllPts();
 
     // Retrieve last save time
-    if (localStorage.getItem('lastSave_' + tmId) !== null)
-        $('#last-save').text(localStorage.getItem('lastSave_' + tmId));
+    var serverStr = server === 'glb' ? '' : '_jpn';
+    if (localStorage.getItem('lastSave_' + tmId + serverStr) !== null)
+        $('#last-save').text(localStorage.getItem('lastSave_' + tmId + serverStr));
     else
         $('#last-save').text('N/A');
 }
@@ -302,8 +321,26 @@ $(document).ready(function() {
     // Retrieve TM ID
     var tmId = getUrlParameter('tmId');
 
+    // Retrieve Server
+    var server = 'glb';
+    if (localStorage.getItem('server') !== null) {
+        server = localStorage.getItem('server');
+        $('#server-' + server).prop('checked', true);
+
+        $('.tm-option').hide();
+        $('.' + server + '-tm').show();
+    }
+
+    // Set user Server
+    $('.server-radio').click(function() {
+        localStorage.setItem('server', $(this).val());
+
+        // Refresh page
+        location.reload();
+    });
+
     if (tmId)
-        init(tmId);
+        init(tmId, server);
 
     $('.team-slot').droppable({
         accept: '.booster',
@@ -503,7 +540,8 @@ $(document).ready(function() {
             teams[team_num] = team;
         });
 
-        localStorage.setItem('teams_' + tmId, JSON.stringify(teams));
+        var serverStr = server === 'glb' ? '' : '_jpn';
+        localStorage.setItem('teams_' + tmId + serverStr, JSON.stringify(teams));
 
         var dontHaves = [];
 
@@ -511,20 +549,25 @@ $(document).ready(function() {
             dontHaves.push($(this).data('id'));
         });
 
-        localStorage.setItem('dontHaves_' + tmId, JSON.stringify(dontHaves));
+        localStorage.setItem('dontHaves_' + tmId + serverStr, JSON.stringify(dontHaves));
 
         // Update last save time
         var now = moment().format('lll');
         $('#last-save').text(now);
-        localStorage.setItem('lastSave_' + tmId, now);
+
+        localStorage.setItem('lastSave_' + tmId + serverStr, now);
     });
 
     // Load teams
     $('#load-button').click(function() {
-        if (localStorage.getItem('lastSave_' + tmId) !== null) {
+        var serverStr = server === 'glb' ? '' : '_jpn';
+
+        var lastSave = localStorage.getItem('lastSave_' + tmId + serverStr);
+
+        if (lastSave !== null) {
             resetAll();
 
-            var teams = JSON.parse(localStorage.getItem('teams_' + tmId));
+            var teams = JSON.parse(localStorage.getItem('teams_' + tmId + serverStr));
 
             $.each(teams, function(index, team) {
                 for (var i = 0; i < team.length; i++) {
@@ -558,7 +601,7 @@ $(document).ready(function() {
                 }
             });
 
-            var dontHaves = JSON.parse(localStorage.getItem('dontHaves_' + tmId));
+            var dontHaves = JSON.parse(localStorage.getItem('dontHaves_' + tmId + serverStr));
 
             for (var i = 0; i < dontHaves.length; i++) {
                 var unitId = dontHaves[i];
@@ -631,7 +674,9 @@ $(document).ready(function() {
 
     // TM selection dropdown
     $('#tm-select').change(function() {
-        init($(this).val());
-        tmId = $(this).val();
+        var parsedTmId = parseInt($(this).val());
+
+        init(parsedTmId, server);
+        tmId = parsedTmId;
     });
 });

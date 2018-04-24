@@ -13,4 +13,11 @@ var tm_opponents = {
         "Ace",
         "WB"
     ],
+    2064: [
+        "Sengoku",
+        "T-Bone",
+        "Smoker & Tashigi",
+        "Purinpurin",
+        "Kizaru",
+    ],
 };

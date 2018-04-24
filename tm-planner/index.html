@@ -29,6 +29,7 @@
     <script src="/tm-planner/assets/js/tm-planner.js"></script>
 
     <script src="/tm-planner/data/tm_boosters.js"></script>
+    <script src="/tm-planner/data/tm_boosters_jpn.js"></script>
     <script src="/tm-planner/data/tm_opponents.js"></script>
     <script src="/vendor/optc-db/units.js"></script>
 
@@ -142,11 +143,27 @@
             <div class="col offset-lg-4 col-lg-3 offset-md-3 col-md-5 offset-sm-2 col-sm-6 col-10">
                 <select class="form-control form-control-lg" id="tm-select">
                     <option value="-1" selected disabled>-- Select TM --</option>
-                    <option value="1808">Mihawk</option>
-                    <option value="1853">Whitebeard</option>
+                    <option value="1808_glb" class="tm-option glb-tm">Mihawk</option>
+                    <option value="1853_glb" class="tm-option glb-tm">Whitebeard</option>
+                    <option value="2064_jpn" class="tm-option jpn-tm">Kizaru</option>
                 </select>
             </div>
             <div class="col col-lg-1 col-md-1 col-sm-2 col-2" id="thumb-div"></div>
+        </div>
+
+        <div class="row">
+            <div class="col offset-lg-4 col-lg-3 offset-md-3 col-md-5 offset-sm-2 col-sm-6 col-10" id="server-setting-div">
+                Server:
+                <div class="server-radio-div">
+                    <input type="radio" class="server-radio" name="server" id="server-glb" value="glb" checked />
+                    <label for="server-glb">Global</label>
+                </div>
+
+                <div class="server-radio-div">
+                    <input type="radio" class="server-radio" name="server" id="server-jpn" value="jpn" />
+                    <label for="server-jpn">Japan</label>
+                </div>
+            </div>
         </div>
 
         <div class="row">
@@ -181,15 +198,25 @@
 
             <div class="col col-md-11 col-12">
                 <div class="row">
-                    <div class="col col-md-4 col-6">
+                    <div class="col col-md-4 col-6 ver_2x">
                         <h4>2x Booster(s)</h4>
                         <div class="booster-info">Stats 2.5x, CD -10</div>
                         <div class="booster-div" id="booster_2x"></div>
                     </div>
-                    <div class="col col-md-4 col-6">
+                    <div class="col col-md-4 col-6 ver_2x">
                         <h4>1.5x Booster(s)</h4>
                         <div class="booster-info">Stats 2.5x, CD -10</div>
                         <div class="booster-div" id="booster_1_5x"></div>
+                    </div>
+                    <div class="col col-md-4 col-6 ver_2_25x">
+                        <h4>2.25x Booster(s)</h4>
+                        <div class="booster-info">Stats 2.5x, CD -10</div>
+                        <div class="booster-div" id="booster_2_25x"></div>
+                    </div>
+                    <div class="col col-md-4 col-6 ver_2_25x">
+                        <h4>1.75x Booster(s)</h4>
+                        <div class="booster-info">Stats 2.5x, CD -10</div>
+                        <div class="booster-div" id="booster_1_75x"></div>
                     </div>
                     <div class="col col-md-4 col-6">
                         <h4>1.35x Booster(s)</h4>
