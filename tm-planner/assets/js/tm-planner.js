@@ -339,8 +339,15 @@ $(document).ready(function() {
         location.reload();
     });
 
-    if (tmId)
+    if (tmId) {
         init(tmId, server);
+    } else {
+        var newestTm = $('#newest-tm-' + server).val();
+        var parsedTmId = parseInt(newestTm);
+
+        init(parsedTmId, server);
+        tmId = parsedTmId;
+    }
 
     $('.team-slot').droppable({
         accept: '.booster',
