@@ -638,8 +638,14 @@ $(document).ready(function() {
             $(this).addClass('selected');
 
             $('.booster, .booster-clone').each(function() {
-                if ($(this).data('type') !== filter)
-                    $(this).addClass('type-filtered');
+                var unitType = $(this).data('type');
+                if (Array.isArray(unitType)) {
+                    if (unitType.indexOf(filter) == -1)
+                        $(this).addClass('type-filtered');
+                } else {
+                    if ($(this).data('type') !== filter)
+                        $(this).addClass('type-filtered');
+                }
             });
         }
     });
