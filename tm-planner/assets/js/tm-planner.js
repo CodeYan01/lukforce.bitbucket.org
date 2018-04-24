@@ -188,7 +188,7 @@ function populateUnitSelectModal(src, deleteId) {
 
     if (src) {
         // Available units
-        $('.booster').not('.assigned, .assigned-dh, .filtered').each(function() {
+        $('.booster').not('.assigned, .assigned-dh, .type-filtered, .class-filtered').each(function() {
             var b = $(this);
             var unitId = b.data('id');
 
