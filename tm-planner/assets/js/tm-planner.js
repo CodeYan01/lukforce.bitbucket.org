@@ -234,6 +234,13 @@ function populateUnitModal(src, selectedId, assigned) {
             imgDiv.append(createImgHtml(getThumb(unitId), 40));
             imgDiv.data('id', unitId);
             imgDiv.data('src', src);
+
+            // Name
+            imgDiv.data('toggle', 'tooltip');
+            imgDiv.data('placement', 'top');
+            imgDiv.attr('title', units[unitId - 1][0]);
+            imgDiv.tooltip();
+
             imgDiv.addClass('select-modal-unit');
             imgDiv.css('display', 'inline-block');
 
@@ -252,6 +259,13 @@ function populateUnitModal(src, selectedId, assigned) {
                 imgDiv.append(createImgHtml(getThumb(unitId), 40));
                 imgDiv.data('id', unitId);
                 imgDiv.data('src', src);
+
+                // Name
+                imgDiv.data('toggle', 'tooltip');
+                imgDiv.data('placement', 'top');
+                imgDiv.attr('title', units[unitId - 1][0]);
+                imgDiv.tooltip();
+
                 imgDiv.addClass('select-modal-unit');
                 imgDiv.addClass('is-clone');
                 imgDiv.css('display', 'inline-block');
