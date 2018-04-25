@@ -180,18 +180,48 @@ function resetAll() {
     updateAllPts();
 }
 
-function populateUnitSelectModal(src, deleteId) {
+function populateUnitDetail(unitId) {
+    var unitDetail = details[unitId];
+
+    if (unitDetail) {
+        var captain = unitDetail.captain;
+        if (captain)
+            $('#captain-ability').text(captain);
+        else
+            $('#captain-ability').text('N/A');
+
+        var special = unitDetail.special;
+        if (special) {
+            if (Array.isArray(special)) {
+                $('#special').text(special[special.length - 1].description);
+            } else
+                $('#special').text(special);
+        } else
+            $('#special').text('N/A');
+
+        $('#db-button').data('id', unitId);
+        $('#unit-modal-title').text(units[unitId - 1][0]);
+        $('.unit-detail-el').show();
+    }
+}
+
+function populateUnitModal(src, selectedId, assigned) {
     // Reset
     $('.remove-button-el').hide();
     $('.available-units-el').hide();
     $('#available-units').empty();
     $('.units-in-team-el').hide();
     $('#units-in-team').empty();
+    $('.unit-detail-el').hide();
+    $('#unit-modal-title').empty();
 
-    if (deleteId !== 0) {
-        $('#remove-button').data('id', deleteId);
-        $('#db-button').data('id', deleteId);
-        $('.remove-button-el').show();
+    if (selectedId !== 0) {
+        if (assigned) {
+            $('#remove-button').data('id', selectedId);
+            $('.remove-button-el').show();
+        }
+
+        populateUnitDetail(parseInt(selectedId));
     }
 
     if (src) {
@@ -265,15 +295,6 @@ function mirrorToFriendCap(teamDiv, cap, autoFill) {
             top: 0,
             left: 0
         }).prependTo(friendCapSlot);
-    }
-}
-
-function viewOnDb(unitId) {
-    if (unitId) {
-        var dbUrl = 'https://optc-db.github.io/characters/#/view/';
-        dbUrl += unitId;
-
-        window.open(dbUrl);
     }
 }
 
@@ -405,35 +426,39 @@ $(document).ready(function() {
         }
     });
 
+    $(document).on('click', '.booster:not(.assigned)', function() {
+        var selectedId = $(this).data('id');
+        var inDontHave = false;
+        var src = null;
+
+        if ($(this).hasClass('assigned-dh'))
+            inDontHave = true;
+
+        populateUnitModal(src, selectedId, inDontHave);
+        $('#unit-modal').modal();
+    });
+
     // Click to add / remove
     $('.team-slot').click(function() {
-        var deleteId = 0;
+        var selectedId = 0;
+        var assigned = false;
         var src = $(this).attr('id');
 
-        if ($(this).find('.booster').length > 0)
-            deleteId = $(this).find('.booster').data('id');
+        if ($(this).find('.booster').length > 0) {
+            selectedId = $(this).find('.booster').data('id');
+            assigned = true;
+        } else if ($(this).find('.booster-clone').length > 0) {
+            selectedId = $(this).find('.booster-clone').data('id') + '_clone';
+            assigned = true;
+        }
 
-        populateUnitSelectModal(src, deleteId);
-        $('#unit-select-modal').modal();
+        populateUnitModal(src, selectedId, assigned);
+        $('#unit-modal').modal();
     });
 
     $('#add-button').click(function() {
-        var deleteId = 0;
-        var src = 'dont-have';
-
-        populateUnitSelectModal(src, deleteId);
-        $('#unit-select-modal').modal();
-    });
-
-    $(document).on('click', '.assigned-dh, .booster-clone', function() {
-        var deleteId = $(this).data('id');
-        var src = null;
-
-        if ($(this).hasClass('booster-clone'))
-            deleteId = deleteId + '_clone';
-
-        populateUnitSelectModal(src, deleteId);
-        $('#unit-select-modal').modal();
+        populateUnitModal('dont-have', 0, false);
+        $('#unit-modal').modal();
     });
 
     $(document).on('click', '.select-modal-unit', function() {
@@ -473,7 +498,7 @@ $(document).ready(function() {
                 mirrorToFriendCap(srcDiv.closest('.team'), b, true);
         }
 
-        $('#unit-select-modal').modal('hide');
+        $('#unit-modal').modal('hide');
     });
 
     $('#remove-button').click(function() {
@@ -484,17 +509,19 @@ $(document).ready(function() {
         else if (deleteId.toString().indexOf('_clone') != -1)
             $('#booster-clone_' + deleteId).remove();
 
-        $('#unit-select-modal').modal('hide');
+        $('#unit-modal').modal('hide');
     });
 
-    // Click to DB
-    $(document).on('click', '.booster', function() {
-        if (!$(this).hasClass('assigned') && !$(this).hasClass('assigned-dh'))
-            viewOnDb($(this).data('id'));
-    });
-
+    // OPTC-DB page
     $('#db-button').click(function() {
-        viewOnDb($(this).data('id'));
+        var unitId = $(this).data('id');
+
+        if (unitId) {
+            var dbUrl = 'https://optc-db.github.io/characters/#/view/';
+            dbUrl += unitId;
+
+            window.open(dbUrl);
+        }
     });
 
     // Point calculation button
