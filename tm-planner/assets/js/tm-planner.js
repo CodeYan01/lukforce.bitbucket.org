@@ -32,7 +32,7 @@ function createImgHtml(imgSrc, size) {
 }
 
 function createTooltip(imgDiv, text) {
-    if (!('ontouchstart' in window || window.DocumentTouch && document instanceof DocumentTouch)) {
+    if (!('ontouchstart' in window)) {
         imgDiv.data('toggle', 'tooltip');
         imgDiv.data('placement', 'top');
         imgDiv.attr('title', text);
