@@ -32,12 +32,10 @@ function createImgHtml(imgSrc, size) {
 }
 
 function createTooltip(imgDiv, text) {
-    if (!('ontouchstart' in window)) {
-        imgDiv.data('toggle', 'tooltip');
-        imgDiv.data('placement', 'top');
-        imgDiv.attr('title', text);
-        imgDiv.tooltip();
-    }
+    imgDiv.data('toggle', 'tooltip');
+    imgDiv.data('placement', 'top');
+    imgDiv.attr('title', text);
+    imgDiv.tooltip();
 }
 
 function getUrlParameter(sParam) {
@@ -450,6 +448,9 @@ $(document).ready(function() {
 
         populateUnitModal(src, selectedId, inDontHave);
         $('#unit-modal').modal();
+
+        // Hide tooltip on click
+        $(this).tooltip('hide');
     });
 
     // Click to add / remove
@@ -461,9 +462,15 @@ $(document).ready(function() {
         if ($(this).find('.booster').length > 0) {
             selectedId = $(this).find('.booster').data('id');
             assigned = true;
+
+            // Hide tooltip on click
+            $(this).find('.booster').tooltip('hide');
         } else if ($(this).find('.booster-clone').length > 0) {
             selectedId = $(this).find('.booster-clone').data('id') + '_clone';
             assigned = true;
+
+            // Hide tooltip on click
+            $(this).find('.booster-clone').tooltip('hide');
         }
 
         populateUnitModal(src, selectedId, assigned);
@@ -513,6 +520,9 @@ $(document).ready(function() {
         }
 
         $('#unit-modal').modal('hide');
+
+        // Hide tooltip on click
+        $(this).tooltip('hide');
     });
 
     $('#remove-button').click(function() {
