@@ -97,6 +97,7 @@ var gw = {
     1766: '67117',      // Blue Gilly
     1774: '68609',      // Kinemon
     1810: '71417',      // Wanda & Carrot
+    1818: '72656',      // Riku Family
 
     // Raids
     227: '4142',        // Mihawk

@@ -97,6 +97,7 @@ var sd = {
     1766: '',               // Blue Gilly
     1774: '',               // Kinemon
     1810: '',               // Wanda & Carrot
+    1818: '',               // Riku Family
 
     // Raids
     227: '',                // Mihawk
