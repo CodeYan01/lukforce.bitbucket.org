@@ -31,6 +31,15 @@ function createImgHtml(imgSrc, size) {
     return imgHtml;
 }
 
+function createTooltip(imgDiv, text) {
+    if (!('ontouchstart' in window || window.DocumentTouch && document instanceof DocumentTouch)) {
+        imgDiv.data('toggle', 'tooltip');
+        imgDiv.data('placement', 'top');
+        imgDiv.attr('title', text);
+        imgDiv.tooltip();
+    }
+}
+
 function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1));
     var sURLVariables = sPageURL.split('&');
@@ -71,11 +80,8 @@ function getBoosters(tmId, server) {
         imgDiv.data('id', b.id);
         imgDiv.data('x_pts', b.x_pts);
 
-        // Name
-        imgDiv.data('toggle', 'tooltip');
-        imgDiv.data('placement', 'top');
-        imgDiv.attr('title', units[b.id - 1][0]);
-        imgDiv.tooltip();
+        // Name in tooltip
+        createTooltip(imgDiv, units[b.id - 1][0]);
 
         // Type and Class
         imgDiv.data('type', units[b.id - 1][1]);
@@ -235,11 +241,8 @@ function populateUnitModal(src, selectedId, assigned) {
             imgDiv.data('id', unitId);
             imgDiv.data('src', src);
 
-            // Name
-            imgDiv.data('toggle', 'tooltip');
-            imgDiv.data('placement', 'top');
-            imgDiv.attr('title', units[unitId - 1][0]);
-            imgDiv.tooltip();
+            // Name in tooltip
+            createTooltip(imgDiv, units[unitId - 1][0]);
 
             imgDiv.addClass('select-modal-unit');
             imgDiv.css('display', 'inline-block');
@@ -260,11 +263,8 @@ function populateUnitModal(src, selectedId, assigned) {
                 imgDiv.data('id', unitId);
                 imgDiv.data('src', src);
 
-                // Name
-                imgDiv.data('toggle', 'tooltip');
-                imgDiv.data('placement', 'top');
-                imgDiv.attr('title', units[unitId - 1][0]);
-                imgDiv.tooltip();
+                // Name in tooltip
+                createTooltip(imgDiv, units[unitId - 1][0]);
 
                 imgDiv.addClass('select-modal-unit');
                 imgDiv.addClass('is-clone');
