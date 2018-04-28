@@ -386,6 +386,10 @@ function showFooter() {
     }
 
     function getThumb(thumbId) {
+        // Doffy v2 special case
+        if (thumbId === '5012')
+            return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png';
+
         if (thumbId === null)
             return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
 

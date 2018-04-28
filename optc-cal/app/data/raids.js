@@ -125,7 +125,7 @@ var raids = {
     },
     2201: {
         name: 'Doflamingo v2',
-        thumb: null
+        thumb: '5012'
     },
 
     // Neo Raids
