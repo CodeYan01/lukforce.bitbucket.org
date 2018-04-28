@@ -5,6 +5,7 @@ body {
 
 .tooltip {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
 }
 
 #container {
