@@ -20,4 +20,11 @@ var tm_opponents = {
         "Purinpurin",
         "Kizaru",
     ],
+    9999: [
+        "",
+        "",
+        "",
+        "",
+        "",
+    ],
 };

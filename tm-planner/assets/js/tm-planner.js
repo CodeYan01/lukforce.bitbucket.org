@@ -55,7 +55,7 @@ function getBoosters(tmId, server) {
     $('.booster').remove();
 
     // Change 2x or 2.25x version
-    if (tmId >= 2064) {
+    if (tmId == 2064) {
         $('.ver_2x').hide();
         $('.ver_2_25x').show();
     } else {
@@ -143,7 +143,11 @@ function init(tmId, server) {
     $('#tm-select').val(tmId + '_' + server);
     getBoosters(tmId, server);
     getOpponents(tmId);
-    $('.sl-btn').attr('disabled', false);
+
+    if (tmId != 9999)
+        $('.sl-btn').attr('disabled', false);
+    else
+        $('.sl-btn').attr('disabled', true);
 
     $('.booster-clone').remove();
     updateAllPts();

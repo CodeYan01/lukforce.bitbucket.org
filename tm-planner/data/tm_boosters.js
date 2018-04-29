@@ -358,4 +358,201 @@ var tm_boosters = {
             x_pts: 1.2
         },
     ],
+    9999: [
+        {   // Akainu
+            id: 1849,
+            x_pts: 1.5
+        },
+        {   // Buggy
+            id: 1806,
+            x_pts: 1.35
+        },
+        {   // Squard
+            id: 1851,
+            x_pts: 1.35
+        },
+        {   // WB
+            id: 1853,
+            x_pts: 1.35
+        },
+        {   // Fujitora
+            id: 1869,
+            x_pts: 1.35
+        },
+        {   // Shirahoshi
+            id: 1473,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Lucci v2
+            id: 1763,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 1832,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Mihawk 6+
+            id: 1881,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Zoro 6+
+            id: 1921,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Leo
+            id: 1859,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Bellamy
+            id: 1871,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kyros
+            id: 1873,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Viola
+            id: 1875,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Rebecca
+            id: 1877,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Doffy
+            id: 418,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 603,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 933,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Sabo
+            id: 1047,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Mihawk
+            id: 1680,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Sabo
+            id: 1727,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Barto
+            id: 1879,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Arlong
+            id: 1527,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Blenheim
+            id: 1528,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Raizo
+            id: 1861,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kinemon
+            id: 1863,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Toy Soldier
+            id: 1384,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Shambles Tashigi
+            id: 1399,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Shirahoshi
+            id: 1597,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Neptune
+            id: 1723,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Wanda
+            id: 1810,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Carrot
+            id: 1812,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // King Riku
+            id: 1818,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Scarlet
+            id: 1820,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Luffy
+            id: 1463,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Chopper
+            id: 1465,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 1508,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Brook
+            id: 1516,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1808,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
