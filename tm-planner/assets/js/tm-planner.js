@@ -193,16 +193,28 @@ function populateUnitDetail(unitId) {
 
     if (unitDetail) {
         var captain = unitDetail.captain;
-        if (captain)
-            $('#captain-ability').text(captain);
-        else
+        if (captain) {
+            if (typeof captain === 'object') {
+                if (captain.combined) {
+                    // Dual Units
+                    $('#captain-ability').empty();
+                    $('#captain-ability').append($('<p></p>').text('Character 1: ' + captain.character1));
+                    $('#captain-ability').append($('<p></p>').text('Character 2: ' + captain.character2));
+                    $('#captain-ability').append($('<p></p>').text('Combined: ' + captain.combined));
+                } else {
+                    // Unit Captain Ability changed by Limit Break
+                    $('#captain-ability').text(captain['level' + (Object.keys(captain).length - 1)])
+                }
+            } else
+                $('#captain-ability').text(captain);
+        } else
             $('#captain-ability').text('N/A');
 
         var special = unitDetail.special;
         if (special) {
-            if (Array.isArray(special)) {
+            if (Array.isArray(special))
                 $('#special').text(special[special.length - 1].description);
-            } else
+            else
                 $('#special').text(special);
         } else
             $('#special').text('N/A');
