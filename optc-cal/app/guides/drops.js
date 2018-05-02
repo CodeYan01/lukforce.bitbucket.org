@@ -104,8 +104,8 @@ drops = {
     989: 'Clash!?%20Impostor%20Straw%20Hat%20Pirates%20Raid',
 
     // Events
-    'tp_1463': 'White%20Day%20Characters',
-    'tp_1465': 'White%20Day%20Characters',
-    'tp_1508': 'White%20Day%20Characters',
-    'tp_1516': 'White%20Day%20Characters',
+    'tp_1463': 'Sweet%20Tea%20Time',
+    'tp_1465': 'Sweet%20Tea%20Time',
+    'tp_1508': 'Sweet%20Tea%20Time',
+    'tp_1516': 'Sweet%20Tea%20Time',
 };
