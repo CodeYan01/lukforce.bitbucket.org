@@ -138,6 +138,7 @@ var wiki = {
     1680: 'wiki/raidboss/mihawkkai',
     1727: 'wiki/raidboss/sabokai',
     1739: 'wiki/raidboss/bellamykai',
+    1772: 'wiki/raidboss/kumakai',
     1780: 'wiki/raidboss/kizarukai',
     1826: '',                               // Akainu (N)
 

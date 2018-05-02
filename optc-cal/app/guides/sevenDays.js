@@ -138,6 +138,7 @@ var sd = {
     1680: '-9bIzVawWdg',    // Mihawk (N)
     1727: '',               // Sabo (N)
     1739: 'ZGKz9hfgSHA',    // Bellamy (N)
+    1772: '',               // Kuma (N)
     1780: '',               // Kizaru (N)
     1826: '',               // Akainu (N)
 

@@ -38,6 +38,7 @@ var videoWiki = {
     1680: 'raidboss/mihawkkai',
     1727: 'raidboss/sabokai',
     1739: 'raidboss/bellamykai',
+    1772: '',   // Kuma (N)
     1780: 'raidboss/kizarukai',
     1826: '',   // Akainu (N)
 

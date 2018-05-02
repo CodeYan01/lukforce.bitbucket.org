@@ -117,6 +117,7 @@ function showFooter() {
                 && eId !== 1680
                 && eId !== 1727
                 && eId !== 1739
+                && eId !== 1772
                 && eId !== 1780
                 && eId !== 1826
             ) {
