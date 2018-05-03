@@ -9,4 +9,9 @@ var tms = {
         thumb: '1853',
         info: '604g03thb9r01'
     },
+    1889: {
+        name: 'Cavendish',
+        thumb: '1889',
+        info: ''
+    },
 };

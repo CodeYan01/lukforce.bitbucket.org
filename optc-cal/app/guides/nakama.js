@@ -218,6 +218,7 @@ var nakama = {
     // TMs
     1808: '8180800',    // Mihawk
     1853: '8185300',    // Whitebeard
+    1889: '8188900',    // Cavendish
 
     // Events
     'bb_1314': '6131400',   // Three Admirals
