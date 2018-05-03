@@ -391,4 +391,8 @@ var fortnights = {
         name: 'Riku Family',
         thumb: '1818'
     },
+    1842: {
+        name: 'Caribou',
+        thumb: '1842'
+    },
 };

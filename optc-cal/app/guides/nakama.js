@@ -98,6 +98,7 @@ var nakama = {
     1774: '2177400',    // Kinemon
     1810: '2181200',    // Wanda & Carrot
     1818: '2181800',    // Riku Family
+    1842: '2184200',    // Caribou
 
     // Raids
     227: '4022700',     // Mihawk

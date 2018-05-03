@@ -98,6 +98,7 @@ var wiki = {
     1774: 'comments/89m7ks',                // Kinemon
     1810: 'comments/8drnkw',                // Wanda & Carrot
     1818: 'comments/8gelcs',                // Riku Family
+    1842: '',                               // Caribou
 
     // Raids
     227: 'wiki/raidboss/mihawk',

@@ -98,6 +98,7 @@ drops = {
     1774: 'Wano%20Samurai!%20Fortnight',
     1810: 'Zou%20Royal%20Guard!%20Fortnight',
     1818: 'Crisis%20of%20the%20800%20Year%20Old%20Kingdom!%20Fortnight',
+    1842: 'Caribou%20Pirates!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

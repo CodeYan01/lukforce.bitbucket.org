@@ -98,6 +98,7 @@ var sd = {
     1774: '',               // Kinemon
     1810: '',               // Wanda & Carrot
     1818: '',               // Riku Family
+    1842: '',               // Caribou
 
     // Raids
     227: '',                // Mihawk
