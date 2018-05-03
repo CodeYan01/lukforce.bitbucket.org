@@ -963,7 +963,8 @@ var raidEvents = [
     },
     {
         id: 1047,
-        start: '2018-05-10'
+        start: '2018-05-10',
+        ambush: shanks
     },
     {
         id: 933,
