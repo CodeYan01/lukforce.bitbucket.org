@@ -13,6 +13,13 @@ var tm_opponents = {
         "Ace",
         "WB"
     ],
+    1889: [
+        "Law",
+        "Tashigi",
+        "Sabo",
+        "Bonney",
+        "Cavendish"
+    ],
     2064: [
         "Sengoku",
         "T-Bone",

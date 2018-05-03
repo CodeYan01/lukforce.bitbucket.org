@@ -358,7 +358,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
     ],
-    9999: [
+    1889: [
         {   // Akainu
             id: 1849,
             x_pts: 1.5
@@ -402,6 +402,11 @@ var tm_boosters = {
         {   // Zoro 6+
             id: 1921,
             type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 1678,
+            type: 'rr',
             x_pts: 1.2
         },
         {   // Zoro
@@ -461,6 +466,11 @@ var tm_boosters = {
         },
         {   // Neo Sabo
             id: 1727,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Kuma
+            id: 1772,
             type: 'raid',
             x_pts: 1.2
         },
