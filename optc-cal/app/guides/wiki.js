@@ -97,7 +97,7 @@ var wiki = {
     1766: 'comments/87p15b',                // Blue Gilly
     1774: 'comments/89m7ks',                // Kinemon
     1810: 'comments/8drnkw',                // Wanda & Carrot
-    1818: '',                               // Riku Family
+    1818: 'comments/8gelcs',                // Riku Family
 
     // Raids
     227: 'wiki/raidboss/mihawk',
