@@ -205,4 +205,125 @@ var tm_boosters_jpn = {
             x_pts: 1.2
         },
     ],
+    9999: [
+        {   // Kizaru
+            id: 2064,
+            x_pts: 1.35
+        },
+        {   // Corazon
+            id: 1001,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 1588,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Jinbe 6+
+            id: 2066,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 603,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Tesoro
+            id: 1163,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Vergo
+            id: 1696,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bartolomeo
+            id: 1879,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Eneru
+            id: 1930,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Lucci
+            id: 2015,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Hancock
+            id: 2070,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo X-Drake
+            id: 1976,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neo Diamante
+            id: 2017,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Baccarat
+            id: 1167,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Dice
+            id: 1169,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Tanaka
+            id: 1171,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 1581,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Monet
+            id: 1582,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sharley
+            id: 1670,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Camie
+            id: 1671,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Ichiji
+            id: 2056,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Niji
+            id: 2057,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Yonji
+            id: 2058,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sanji & Zoro
+            id: 2000,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
