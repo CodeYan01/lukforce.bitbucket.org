@@ -132,8 +132,29 @@ function getOpponents(tmId) {
 
     var opponents = tm_opponents[tmId];
 
-    for (var i = 0; i < opponents.length; i++)
-        $('#op-' + (i + 1)).text(opponents[i]);
+    for (var i = 0; i < opponents.length; i++) {
+        var op = opponents[i];
+        var opName = op[0];
+        var opType = op[1];
+
+        if (Array.isArray(opName) && Array.isArray(opType)) {
+            $('#op-' + (i + 1)).empty();
+
+            for (var j = 0; j < opName.length && j < opType.length; j++) {
+                var opHtml= $('<span></span>');
+                opHtml.text(opName[j]);
+                opHtml.addClass(opType[j]);
+
+                $('#op-' + (i + 1)).append(opHtml);
+            }
+        } else {
+            var opHtml = $('<span></span>');
+            opHtml.text(opName);
+            opHtml.addClass(opType);
+
+            $('#op-' + (i + 1)).html(opHtml);
+        }
+    }
 
     var imgHtml = createImgHtml(getThumb(tmId), 50);
     $('#thumb-div').append(imgHtml);

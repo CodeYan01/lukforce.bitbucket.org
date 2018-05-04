@@ -1,37 +1,37 @@
 var tm_opponents = {
     1808: [
-        "Moria",
-        "Hancock",
-        "Kuma",
-        "Doffy",
-        "Mihawk"
+        ['Moria',       'DEX'],
+        ['Hancock',     'PSY'],
+        ['Kuma',        'PSY'],
+        [['Dofla', 'mingo'], ['DEX', 'INT']],
+        ['Mihawk',      'STR']
     ],
     1853: [
-        "Marco",
-        "Jozu",
-        "Vista",
-        "Ace",
-        "WB"
+        ['Marco',       'PSY'],
+        ['Jozu',        'STR'],
+        ['Vista',       'QCK'],
+        ['Ace',         'DEX'],
+        ['WB',          'INT']
     ],
     1889: [
-        "Law",
-        "Tashigi",
-        "Sabo",
-        "Bonney",
-        "Cavendish"
+        ['Law',         'STR'],
+        ['Tashigi',     'PSY'],
+        ['Sabo',        'INT'],
+        ['Bonney',      'PSY'],
+        ['Cavendish',   'PSY']
     ],
     2064: [
-        "Sengoku",
-        "T-Bone",
-        "Smoker & Tashigi",
-        "Purinpurin",
-        "Kizaru",
+        ['Sengoku',     'PSY'],
+        ['T-Bone',      'QCK'],
+        [['Smoker & ', 'Tashigi'], ['INT', 'PSY']],
+        ['Purinpurin',  'PSY'],
+        ['Kizaru',      'DEX']
     ],
     9999: [
-        "",
-        "",
-        "",
-        "",
-        "",
+        ['',            ''],
+        ['',            ''],
+        ['',            ''],
+        ['',            ''],
+        ['',            '']
     ],
 };
