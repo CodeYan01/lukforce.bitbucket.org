@@ -11,6 +11,10 @@ button {
     margin-bottom: 5px;
 }
 
+#info {
+    font-size: 12px;
+}
+
 #calendar {
     width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
     margin: 0 auto;
