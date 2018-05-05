@@ -48,6 +48,8 @@ function getUrlParameter(sParam) {
         if (sParameterName[0] === sParam)
             return sParameterName[1] === undefined ? true : sParameterName[1];
     }
+
+    return false;
 };
 
 function getBoosters(tmId, server) {
@@ -68,6 +70,9 @@ function getBoosters(tmId, server) {
         boosters = tm_boosters[tmId];
     else
         boosters = tm_boosters_jpn[tmId];
+
+    if (typeof boosters === 'undefined')
+        return false;
 
     for (var i = 0; i < boosters.length; i++) {
         var b = boosters[i];
@@ -124,6 +129,8 @@ function getBoosters(tmId, server) {
             },
         });
     }
+
+    return true;
 }
 
 function getOpponents(tmId) {
@@ -131,6 +138,9 @@ function getOpponents(tmId) {
     $('#thumb-div').empty();
 
     var opponents = tm_opponents[tmId];
+
+    if (typeof opponents === 'undefined')
+        return false;
 
     for (var i = 0; i < opponents.length; i++) {
         var op = opponents[i];
@@ -158,12 +168,22 @@ function getOpponents(tmId) {
 
     var imgHtml = createImgHtml(getThumb(tmId), 50);
     $('#thumb-div').append(imgHtml);
+
+    return true;
 }
 
 function init(tmId, server) {
     $('#tm-select').val(tmId + '_' + server);
-    getBoosters(tmId, server);
-    getOpponents(tmId);
+
+    if (!getBoosters(tmId, server)) {
+        alert('Invalid TM or Server');
+        return false;
+    }
+
+    if (!getOpponents(tmId)) {
+        alert('Invalid TM');
+        return false;
+    }
 
     if (tmId != 9999)
         $('.sl-btn').attr('disabled', false);
@@ -172,6 +192,7 @@ function init(tmId, server) {
 
     $('.booster-clone').remove();
     updateAllPts();
+    $('#export-url-div').hide();
 
     // Retrieve last save time
     var serverStr = server === 'glb' ? '' : '_jpn';
@@ -179,6 +200,8 @@ function init(tmId, server) {
         $('#last-save').text(localStorage.getItem('lastSave_' + tmId + serverStr));
     else
         $('#last-save').text('N/A');
+
+    return true;
 }
 
 function resetPosition(unit) {
@@ -396,9 +419,6 @@ function updateAllPts() {
 }
 
 $(document).ready(function() {
-    // Retrieve TM ID
-    var tmId = getUrlParameter('tmId');
-
     // Retrieve Server
     var server = 'glb';
     if (localStorage.getItem('server') !== null) {
@@ -409,6 +429,99 @@ $(document).ready(function() {
         $('.' + server + '-tm').show();
     }
 
+    var tmId = 0;
+
+    if (getUrlParameter('transfer')) {
+        // Check Transfer link
+        tmId = getUrlParameter('tmId');
+        var serverTmp = getUrlParameter('server');
+
+        if ((serverTmp == 'glb' || serverTmp == 'jpn') && init(tmId, serverTmp)) {
+            var team0 = getUrlParameter('team0');
+            var team1 = getUrlParameter('team1');
+            var team2 = getUrlParameter('team2');
+            var team3 = getUrlParameter('team3');
+            var team4 = getUrlParameter('team4');
+            var teams = [team0, team1, team2, team3, team4];
+
+            $.each(teams, function(index, teamStr) {
+                var team = teamStr.split(',');
+
+                for (var i = 0; i < team.length; i++) {
+                    var unitId = team[i];
+
+                    if (unitId !== 0) {
+                        // Check whether unit is clone and restore unit ID
+                        var isClone = false;
+                        if (i == 0 && unitId < 0) {
+                            isClone = true;
+                            unitId = parseInt(unitId) * -1;
+                        }
+
+                        var b = $('#booster_' + unitId);
+                        var teamSlot = $('#team-slot-' + index + i);
+
+                        b.addClass('assigned');
+                        b.detach().css({
+                            top: 0,
+                            left: 0
+                        }).prependTo(teamSlot);
+
+                        // If Friend Cap slot is a clone
+                        if (isClone)
+                            mirrorToFriendCap(teamSlot.closest('.team'), b, false);
+
+                        // Mirror to Friend Cap slot if it is empty
+                        if (i == 1)
+                            mirrorToFriendCap(teamSlot.closest('.team'), b, true);
+                    }
+                }
+            });
+
+            var dontHaveStr = getUrlParameter('dont-have');
+
+            if (dontHaveStr) {
+                var dontHaves = dontHaveStr.split(',');
+
+                for (var i = 0; i < dontHaves.length; i++) {
+                    var unitId = dontHaves[i];
+
+                    if (unitId !== 0) {
+                        var b = $('#booster_' + unitId);
+
+                        b.addClass('assigned-dh');
+                        b.detach().css({
+                            top: 0,
+                            left: 0
+                        }).insertBefore($('#add-button'));
+                    }
+                }
+            }
+
+            updateAllPts();
+
+            // Disable controls
+            $('#read-only-button-div').show();
+            $('.not-read-only').prop('disabled', true);
+        } else {
+            alert('Invalid transfer link');
+        }
+
+        // Reset browser url
+        history.replaceState('', '', '/tm-planner/');
+    } else {
+        // Retrieve TM ID
+        tmId = getUrlParameter('tmId');
+
+        if (!tmId || !init(tmId, server)) {
+            var newestTm = $('#newest-tm-' + server).val();
+            var parsedTmId = parseInt(newestTm);
+
+            init(parsedTmId, server);
+            tmId = parsedTmId;
+        }
+    }
+
     // Set user Server
     $('.server-radio').click(function() {
         localStorage.setItem('server', $(this).val());
@@ -416,16 +529,6 @@ $(document).ready(function() {
         // Refresh page
         location.reload();
     });
-
-    if (tmId) {
-        init(tmId, server);
-    } else {
-        var newestTm = $('#newest-tm-' + server).val();
-        var parsedTmId = parseInt(newestTm);
-
-        init(parsedTmId, server);
-        tmId = parsedTmId;
-    }
 
     $('.team-slot').droppable({
         accept: '.booster',
@@ -727,6 +830,53 @@ $(document).ready(function() {
     // Reset teams
     $('#reset-button').click(function() {
         resetAll();
+    });
+
+    // Export url
+    $('#export-url-button').click(function() {
+        var url = 'https://' + window.location.hostname + window.location.pathname;
+        url += '?transfer=true';
+        url += '&tmId=' + tmId;
+        url += '&server=' + server;
+
+        $('.team').each(function() {
+            var team_num = $(this).data('team');
+            var team = getTeamUnits($(this));
+
+            // Check for clone if Friend Captain is not picked
+            if (team[0] == 0 && $(this).find('.booster-clone').length > 0) {
+                var friendCapClone = $(this).find('.booster-clone');
+
+                // Make unit ID negative to identify as clone
+                team[0] = parseInt(friendCapClone.data('id')) * -1;
+            }
+
+            url += '&team' + team_num + '=' + team.join();
+        });
+
+        var dontHaves = [];
+
+        $('#dont-have').find('.booster').each(function() {
+            dontHaves.push($(this).data('id'));
+        });
+
+        if (dontHaves.length > 0)
+            url += '&dont-have=' + dontHaves.join();
+
+        $('#export-url-link').val(url);
+        $('#export-url-div').show();
+    });
+
+    // Copy export url
+    $('#copy-url-button').click(function() {
+        $('#export-url-link').select();
+        document.execCommand('copy');
+    });
+
+    // Disable Read-only Mode
+    $('#read-only-button').click(function() {
+        $('#read-only-button-div').hide();
+        $('.not-read-only').prop('disabled', false);
     });
 
     // Type filter
