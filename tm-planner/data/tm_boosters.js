@@ -359,8 +359,16 @@ var tm_boosters = {
         },
     ],
     1889: [
+        {   // Robin
+            id: 1885,
+            x_pts: 2
+        },
         {   // Akainu
             id: 1849,
+            x_pts: 1.5
+        },
+        {   // Gladius
+            id: 1887,
             x_pts: 1.5
         },
         {   // Buggy
@@ -377,6 +385,10 @@ var tm_boosters = {
         },
         {   // Fujitora
             id: 1869,
+            x_pts: 1.35
+        },
+        {   // Rayleigh v2
+            id: 1883,
             x_pts: 1.35
         },
         {   // Shirahoshi
