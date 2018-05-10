@@ -37,3 +37,53 @@ body {
 .night-mode .modal-content {
     background-color: rgb(25, 25, 25);
 }
+
+.type-filter {
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    float: left;
+    opacity: 0.5;
+    text-align: center;
+    font-weight: bold;
+}
+
+.class-filter {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    opacity: 0.5;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.STR { color: red; }
+.DEX { color: green; }
+.QCK { color: blue; }
+.PSY { color: goldenrod; }
+.INT { color: darkorchid; }
+
+.STR-div     { background-color: salmon; }
+.QCK-div     { background-color: lightskyblue; }
+.DEX-div     { background-color: lightgreen; }
+.PSY-div     { background-color: gold; }
+.INT-div     { background-color: orchid; }
+.RCV-div     { background-color: sandybrown; }
+.TND-div     { background-color: peru; }
+.BLOCK-div   { background-color: darkslateblue; }
+.BOMB-div    { background-color: maroon; }
+.RAINBOW-div { background-color: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
+.G-div       { background-color: orange; }
+.EMPTY-div   { background-color: #777; }
+
+.fighter-div        { background-image: url('/common/assets/img/class_fighter.png'); }
+.slasher-div        { background-image: url('/common/assets/img/class_slasher.png'); }
+.striker-div        { background-image: url('/common/assets/img/class_striker.png'); }
+.shooter-div        { background-image: url('/common/assets/img/class_shooter.png'); }
+.free-spirit-div    { background-image: url('/common/assets/img/class_free_spirit.png'); }
+.cerebral-div       { background-image: url('/common/assets/img/class_cerebral.png'); }
+.powerhouse-div     { background-image: url('/common/assets/img/class_powerhouse.png'); }
+.driven-div         { background-image: url('/common/assets/img/class_driven.png'); }
