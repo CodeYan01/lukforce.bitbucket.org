@@ -73,9 +73,9 @@ body {
 .INT-div     { background-color: orchid; }
 .RCV-div     { background-color: sandybrown; }
 .TND-div     { background-color: peru; }
-.BLOCK-div   { background-color: darkslateblue; }
+.BLOCK-div   { background-color: slateblue; }
 .BOMB-div    { background-color: maroon; }
-.RAINBOW-div { background-color: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
+.RAINBOW-div { background: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
 .G-div       { background-color: orange; }
 .EMPTY-div   { background-color: #777; }
 
