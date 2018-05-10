@@ -101,3 +101,8 @@
 .class-filtered {
     opacity: 0.3;
 }
+
+/* Overwrite Bootstrap */
+.badge {
+    font-size: inherit;
+}
