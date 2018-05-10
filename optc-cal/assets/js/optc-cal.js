@@ -386,17 +386,6 @@ function showFooter() {
         });
     }
 
-    function getThumb(thumbId) {
-        // Doffy v2 special case
-        if (thumbId === '5012')
-            return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png';
-
-        if (thumbId === null)
-            return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
-
-        return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + thumbId + '.png';
-    }
-
     function createUrlHtml(url, text) {
         var urlHtml = $('<a></a>');
         urlHtml.attr('href', url);
@@ -404,18 +393,6 @@ function showFooter() {
         urlHtml.text(text);
 
         return urlHtml;
-    }
-
-    function createImgHtml(imgSrc, size, floatLeft) {
-        var imgHtml = $('<img></img>');
-        imgHtml.attr('src', imgSrc);
-        imgHtml.attr('height', size);
-        imgHtml.attr('width', size);
-
-        if (floatLeft)
-            imgHtml.css('float', 'left');
-
-        return imgHtml;
     }
 
     function createListItem(ed, liClass, url, liId, urlText) {

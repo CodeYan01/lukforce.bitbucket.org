@@ -1,164 +1,164 @@
 var raids = {
     227: {
         name: 'Mihawk',
-        thumb: '0227'
+        thumb: 227
     },
     249: {
         name: 'Monster Chopper',
-        thumb: '0249'
+        thumb: 249
     },
     306: {
         name: 'Garp',
-        thumb: '0306'
+        thumb: 306
     },
     353: {
         name: 'Zephyr',
-        thumb: '0353'
+        thumb: 353
     },
     390: {
         name: 'Ivankov',
-        thumb: '0390'
+        thumb: 390
     },
     418: {
         name: 'Doflamingo',
-        thumb: '0418'
+        thumb: 418
     },
     447: {
         name: 'Blackbeard',
-        thumb: '0447'
+        thumb: 447
     },
     516: {
         name: 'Heracles-un',
-        thumb: '0516'
+        thumb: 516
     },
     518: {
         name: 'Usopp-un',
-        thumb: '0518'
+        thumb: 518
     },
     575: {
         name: 'Aokiji',
-        thumb: '00575'
+        thumb: 575
     },
     603: {
         name: 'Eneru',
-        thumb: '0603'
+        thumb: 603
     },
     654: {
         name: 'Duval',
-        thumb: '0654'
+        thumb: 654
     },
     771: {
         name: 'Buster Call',
-        thumb: '0771'
+        thumb: 771
     },
     795: {
         name: 'Nightmare Luffy',
-        thumb: '0795'
+        thumb: 795
     },
     836: {
         name: 'Kuma',
-        thumb: '0836'
+        thumb: 836
     },
     865: {
         name: 'Boa Hancock',
-        thumb: '0865'
+        thumb: 865
     },
     933: {
         name: 'Pica',
-        thumb: '0933'
+        thumb: 933
     },
     978: {
         name: 'Kizaru',
-        thumb: '0978'
+        thumb: 978
     },
     989: {
         name: 'Fake Straw Hats',
-        thumb: '0989'
+        thumb: 989
     },
     1047: {
         name: 'Sabo',
-        thumb: '1047'
+        thumb: 1047
     },
     1108: {
         name: 'Shiki',
-        thumb: '1108'
+        thumb: 1108
     },
     1163: {
         name: 'Gild Tesoro',
-        thumb: '1163'
+        thumb: 1163
     },
     1298: {
         name: 'Akainu',
-        thumb: '1298'
+        thumb: 1298
     },
     1374: {
         name: 'Magellan',
-        thumb: '1374'
+        thumb: 1374
     },
     1432: {
         name: 'General Franky',
-        thumb: '1432'
+        thumb: 1432
     },
     1518: {
         name: 'Bellamy',
-        thumb: '1518'
+        thumb: 1518
     },
     1595: {
         name: 'Fujitora',
-        thumb: '1595'
+        thumb: 1595
     },
     1696: {
         name: 'Vergo',
-        thumb: '1696'
+        thumb: 1696
     },
     1815: {
         name: 'Sanji',
-        thumb: '1815'
+        thumb: 1815
     },
     1879: {
         name: 'Bartolomeo',
-        thumb: '1879'
+        thumb: 1879
     },
     1924: {
         name: 'Rayleigh',
-        thumb: '1924'
+        thumb: 1924
     },
     2201: {
         name: 'Doflamingo v2',
-        thumb: '5012'
+        thumb: 5012
     },
 
     // Neo Raids
     1623: {
         name: 'Doflamingo (N)',
-        thumb: '1623'
+        thumb: 1623
     },
     1669: {
         name: 'Aokiji (N)',
-        thumb: '1669'
+        thumb: 1669
     },
     1680: {
         name: 'Mihawk (N)',
-        thumb: '1680'
+        thumb: 1680
     },
     1727: {
         name: 'Sabo (N)',
-        thumb: '1727'
+        thumb: 1727
     },
     1739: {
         name: 'Bellamy (N)',
-        thumb: '1739'
+        thumb: 1739
     },
     1772: {
         name: 'Kuma (N)',
-        thumb: '1772'
+        thumb: 1772
     },
     1780: {
         name: 'Kizaru (N)',
-        thumb: '1780'
+        thumb: 1780
     },
     1826: {
         name: 'Akainu (N)',
-        thumb: '1826'
+        thumb: 1826
     },
 };

@@ -2,328 +2,328 @@ var coliseums = {
     777: {
         name: 'Lucky Roux',
         chaos_only: false,
-        thumb: '0777'
+        thumb: 777
     },
     779: {
         name: 'Rebecca',
         chaos_only: false,
-        thumb: '0779'
+        thumb: 779
     },
     781: {
         name: 'Urouge',
         chaos_only: true,
-        thumb: '0781'
+        thumb: 781
     },
     804: {
         name: 'Hina',
         chaos_only: false,
-        thumb: '0804'
+        thumb: 804
     },
     806: {
         name: 'Smoker',
         chaos_only: true,
-        thumb: '0806'
+        thumb: 806
     },
     831: {
         name: 'Hawkins',
         chaos_only: true,
-        thumb: '0831'
+        thumb: 831
     },
     833: {
         name: 'Wyper',
         chaos_only: false,
-        thumb: '0833'
+        thumb: 833
     },
     834: {
         name: 'Mr. 7 & Ms. Father\'s Day',
         chaos_only: false,
-        thumb: '0834'
+        thumb: 834
     },
     860: {
         name: 'Coby',
         chaos_only: false,
-        thumb: '0860'
+        thumb: 860
     },
     862: {
         name: 'Alvida',
         chaos_only: false,
-        thumb: '0862'
+        thumb: 862
     },
     882: {
         name: 'Apoo',
         chaos_only: true,
-        thumb: '0882'
+        thumb: 882
     },
     884: {
         name: 'Dorry',
         chaos_only: false,
-        thumb: '0884'
+        thumb: 884
     },
     901: {
         name: 'Franky',
         chaos_only: true,
-        thumb: '0901'
+        thumb: 901
     },
     903: {
         name: 'Broggy',
         chaos_only: false,
-        thumb: '0903'
+        thumb: 903
     },
     904: {
         name: 'Yokozuna',
         chaos_only: false,
-        thumb: '0904'
+        thumb: 904
     },
     924: {
         name: 'Kid',
         chaos_only: true,
-        thumb: '0924'
+        thumb: 924
     },
     926: {
         name: 'Sadie',
         chaos_only: false,
-        thumb: '0926'
+        thumb: 926
     },
     927: {
         name: 'Doberman',
         chaos_only: false,
-        thumb: '0927'
+        thumb: 927
     },
     951: {
         name: 'Ace',
         chaos_only: true,
-        thumb: '0951'
+        thumb: 951
     },
     953: {
         name: 'Ben Beckman',
         chaos_only: false,
-        thumb: '0953'
+        thumb: 953
     },
     983: {
         name: 'Vista',
         chaos_only: true,
-        thumb: '0983'
+        thumb: 983
     },
     984: {
         name: 'Paulie',
         chaos_only: false,
-        thumb: '0984'
+        thumb: 984
     },
     1016: {
         name: 'Capone Bege',
         chaos_only: true,
-        thumb: '1016'
+        thumb: 1016
     },
     1018: {
         name: 'Brownbeard',
         chaos_only: false,
-        thumb: '1018'
+        thumb: 1018
     },
     1019: {
         name: 'Lulu',
         chaos_only: false,
-        thumb: '1019'
+        thumb: 1019
     },
     1041: {
         name: 'Jozu',
         chaos_only: true,
-        thumb: '1041'
+        thumb: 1041
     },
     1043: {
         name: 'Killer',
         chaos_only: true,
-        thumb: '1043'
+        thumb: 1043
     },
     1087: {
         name: 'Musshuru',
         chaos_only: false,
-        thumb: '1087'
+        thumb: 1087
     },
     1089: {
         name: 'Saga',
         chaos_only: false,
-        thumb: '1089'
+        thumb: 1089
     },
     1091: {
         name: 'X-Drake',
         chaos_only: true,
-        thumb: '1091'
+        thumb: 1091
     },
     1102: {
         name: 'Zephyr',
         chaos_only: true,
-        thumb: '1102'
+        thumb: 1102
     },
     1104: {
         name: 'Ain',
         chaos_only: false,
-        thumb: '1104'
+        thumb: 1104
     },
     1106: {
         name: 'Binz',
         chaos_only: false,
-        thumb: '1106'
+        thumb: 1106
     },
     1141: {
         name: 'Moria',
         chaos_only: true,
-        thumb: '1141'
+        thumb: 1141
     },
     1196: {
         name: 'Ganfor',
         chaos_only: false,
-        thumb: '1196'
+        thumb: 1196
     },
     1220: {
         name: 'Byrnndi World',
         chaos_only: true,
-        thumb: '1220'
+        thumb: 1220
     },
     1251: {
         name: 'Marco',
         chaos_only: true,
-        thumb: '1251'
+        thumb: 1251
     },
     1292: {
         name: 'Lao G',
         chaos_only: true,
-        thumb: '1292'
+        thumb: 1292
     },
     1310: {
         name: 'Kinemon',
         chaos_only: true,
-        thumb: '1310'
+        thumb: 1310
     },
     1338: {
         name: 'Kanjuro',
         chaos_only: true,
-        thumb: '1338'
+        thumb: 1338
     },
     1376: {
         name: 'Dellinger',
         chaos_only: true,
-        thumb: '1376'
+        thumb: 1376
     },
     1378: {
         name: 'Marguerite',
         chaos_only: false,
-        thumb: '1378'
+        thumb: 1378
     },
     1401: {
         name: 'Gladius',
         chaos_only: true,
-        thumb: '1401'
+        thumb: 1401
     },
     1422: {
         name: 'Diamante',
         chaos_only: true,
-        thumb: '1422'
+        thumb: 1422
     },
     1423: {
         name: 'T-Bone',
         chaos_only: false,
-        thumb: '1423'
+        thumb: 1423
     },
     1424: {
         name: 'Gin',
         chaos_only: false,
-        thumb: '1424'
+        thumb: 1424
     },
     1456: {
         name: 'Don Chin Jao',
         chaos_only: true,
-        thumb: '1456'
+        thumb: 1456
     },
     1458: {
         name: 'Kuro',
         chaos_only: false,
-        thumb: '1458'
+        thumb: 1458
     },
     1460: {
         name: 'Ms. Valentine',
         chaos_only: false,
-        thumb: '1460'
+        thumb: 1460
     },
     1487: {
         name: 'Ideo',
         chaos_only: true,
-        thumb: '1487'
+        thumb: 1487
     },
     1525: {
         name: 'Suleiman',
         chaos_only: true,
-        thumb: '1525'
+        thumb: 1525
     },
     1527: {
         name: 'Arlong',
         chaos_only: false,
-        thumb: '1527'
+        thumb: 1527
     },
     1528: {
         name: 'Blenheim',
         chaos_only: false,
-        thumb: '1528'
+        thumb: 1528
     },
     1553: {
         name: 'Hajrudin',
         chaos_only: true,
-        thumb: '1553'
+        thumb: 1553
     },
     1584: {
         name: 'Orlumbus',
         chaos_only: true,
-        thumb: '1584'
+        thumb: 1584
     },
     1602: {
         name: 'Shiryu',
         chaos_only: true,
-        thumb: '1602'
+        thumb: 1602
     },
     1603: {
         name: 'McGuy',
         chaos_only: false,
-        thumb: '1603'
+        thumb: 1603
     },
     1628: {
         name: 'Machvise',
         chaos_only: true,
-        thumb: '1628'
+        thumb: 1628
     },
     1667: {
         name: 'Kyros',
         chaos_only: true,
-        thumb: '1667'
+        thumb: 1667
     },
     1694: {
         name: 'Inuarashi',
         chaos_only: true,
-        thumb: '1694'
+        thumb: 1694
     },
     1733: {
         name: 'Nekomamushi',
         chaos_only: true,
-        thumb: '1733'
+        thumb: 1733
     },
     1792: {
         name: 'Lucy',
         chaos_only: true, // Not but important
-        thumb: '1792'
+        thumb: 1792
     },
     1828: {
         name: 'Shishilian',
         chaos_only: true,
-        thumb: '1828'
+        thumb: 1828
     },
     1861: {
         name: 'Raizo',
         chaos_only: true, // Not but important
-        thumb: '1861'
+        thumb: 1861
     },
 
     // Neo Coliseums
     1863: {
         name: 'Kinemon (N)',
         chaos_only: true,
-        thumb: '1863'
+        thumb: 1863
     },
 };

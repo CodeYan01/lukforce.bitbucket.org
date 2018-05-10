@@ -3,29 +3,6 @@ function highlightNavbar() {
     $('#useful-lists-nav').addClass('active');
 }
 
-function getThumb(thumbId) {
-    // Zero pad IDs to get correct thumb
-    var paddedThumbId = ('0000' + thumbId).slice(-4);
-
-    // Special case for Aokiji 575 with extra 0
-    if (thumbId === '575')
-        paddedThumbId = "0" + paddedThumbId;
-
-    return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + paddedThumbId + '.png';
-}
-
-function createImgHtml(imgSrc, size, floatLeft) {
-    var imgHtml = $('<img></img>');
-    imgHtml.attr('src', imgSrc);
-    imgHtml.attr('height', size);
-    imgHtml.attr('width', size);
-
-    if (floatLeft)
-        imgHtml.css('float', 'left');
-
-    return imgHtml;
-}
-
 function getFinalForms() {
     var allUnits = Object.keys(details);
     var baseForms = Object.keys(evolutions);

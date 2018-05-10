@@ -3,34 +3,6 @@ function highlightNavbar() {
     $('#tm-planner-nav').addClass('active');
 }
 
-function imgError(img) {
-    img.onerror = '';
-    img.src = 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
-
-    return true;
-}
-
-function getThumb(thumbId) {
-    // Zero pad IDs to get correct thumb
-    var paddedThumbId = ('0000' + thumbId).slice(-4);
-
-    // Special case for Aokiji 575 with extra 0
-    if (thumbId === 575)
-        paddedThumbId = "0" + paddedThumbId;
-
-    return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + paddedThumbId + '.png';
-}
-
-function createImgHtml(imgSrc, size) {
-    var imgHtml = $('<img></img>');
-    imgHtml.attr('src', imgSrc);
-    imgHtml.attr('height', size);
-    imgHtml.attr('width', size);
-    imgHtml.attr('onerror', 'imgError(this)');
-
-    return imgHtml;
-}
-
 function createTooltip(imgDiv, text) {
     imgDiv.data('toggle', 'tooltip');
     imgDiv.data('placement', 'top');
@@ -78,7 +50,7 @@ function getBoosters(tmId, server) {
         var b = boosters[i];
 
         var imgDiv = $('<div></div>');
-        imgDiv.append(createImgHtml(getThumb(b.id), 40));
+        imgDiv.append(createImgHtml(getThumb(b.id), 40, false));
         imgDiv.addClass('booster');
         imgDiv.data('id', b.id);
         imgDiv.data('x_pts', b.x_pts);
@@ -166,7 +138,7 @@ function getOpponents(tmId) {
         }
     }
 
-    var imgHtml = createImgHtml(getThumb(tmId), 50);
+    var imgHtml = createImgHtml(getThumb(tmId), 50, false);
     $('#thumb-div').append(imgHtml);
 
     return true;
@@ -324,7 +296,7 @@ function populateUnitModal(src, selectedId, assigned) {
             var unitId = b.data('id');
 
             var imgDiv = $('<div></div>');
-            imgDiv.append(createImgHtml(getThumb(unitId), 40));
+            imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
             imgDiv.data('id', unitId);
             imgDiv.data('src', src);
 
@@ -346,7 +318,7 @@ function populateUnitModal(src, selectedId, assigned) {
                 var unitId = b.data('id');
 
                 var imgDiv = $('<div></div>');
-                imgDiv.append(createImgHtml(getThumb(unitId), 40));
+                imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
                 imgDiv.data('id', unitId);
                 imgDiv.data('src', src);
 
