@@ -152,14 +152,14 @@ function getOpponents(tmId) {
 
             for (var j = 0; j < opName.length && j < opType.length; j++) {
                 var opHtml= $('<span></span>');
-                opHtml.text(opName[j]);
+                opHtml.html(opName[j]);
                 opHtml.addClass(opType[j]);
 
                 $('#op-' + (i + 1)).append(opHtml);
             }
         } else {
             var opHtml = $('<span></span>');
-            opHtml.text(opName);
+            opHtml.html(opName);
             opHtml.addClass(opType);
 
             $('#op-' + (i + 1)).html(opHtml);
@@ -197,9 +197,9 @@ function init(tmId, server) {
     // Retrieve last save time
     var serverStr = server === 'glb' ? '' : '_jpn';
     if (localStorage.getItem('lastSave_' + tmId + serverStr) !== null)
-        $('#last-save').text(localStorage.getItem('lastSave_' + tmId + serverStr));
+        $('#last-save').html(localStorage.getItem('lastSave_' + tmId + serverStr));
     else
-        $('#last-save').text('N/A');
+        $('#last-save').html('N/A');
 
     return true;
 }
@@ -242,29 +242,30 @@ function populateUnitDetail(unitId) {
                 if (captain.combined) {
                     // Dual Units
                     $('#captain-ability').empty();
-                    $('#captain-ability').append($('<p></p>').text('Character 1: ' + captain.character1));
-                    $('#captain-ability').append($('<p></p>').text('Character 2: ' + captain.character2));
-                    $('#captain-ability').append($('<p></p>').text('Combined: ' + captain.combined));
+                    $('#captain-ability').append($('<p></p>').html('<b>Character 1:</b> ' + captain.character1));
+                    $('#captain-ability').append($('<p></p>').html('<b>Character 2:</b> ' + captain.character2));
+                    $('#captain-ability').append($('<p></p>').html('<b>Combined:</b> ' + captain.combined));
                 } else {
                     // Unit Captain Ability changed by Limit Break
-                    $('#captain-ability').text(captain['level' + (Object.keys(captain).length - 1)])
+                    $('#captain-ability').html(captain['level' + (Object.keys(captain).length - 1)])
                 }
-            } else
-                $('#captain-ability').text(captain);
+            } else {
+                $('#captain-ability').html(captain);
+            }
         } else
-            $('#captain-ability').text('N/A');
+            $('#captain-ability').html('N/A');
 
         var special = unitDetail.special;
         if (special) {
             if (Array.isArray(special))
-                $('#special').text(special[special.length - 1].description);
+                $('#special').html(special[special.length - 1].description);
             else
-                $('#special').text(special);
+                $('#special').html(special);
         } else
-            $('#special').text('N/A');
+            $('#special').html('N/A');
 
         $('#db-button').data('id', unitId);
-        $('#unit-modal-title').text(units[unitId - 1][0]);
+        $('#unit-modal-title').html(units[unitId - 1][0]);
         $('.unit-detail-el').show();
     }
 }
@@ -409,7 +410,7 @@ function updatePts(btn) {
         x_pts = x_pts * friendCapClone.data('x_pts');
     }
 
-    btn.closest('.team').find('.x_pts').text(x_pts.toFixed(2));
+    btn.closest('.team').find('.x_pts').html(x_pts.toFixed(2));
 }
 
 function updateAllPts() {
@@ -759,7 +760,7 @@ $(document).ready(function() {
 
         // Update last save time
         var now = moment().format('lll');
-        $('#last-save').text(now);
+        $('#last-save').html(now);
 
         localStorage.setItem('lastSave_' + tmId + serverStr, now);
     });
