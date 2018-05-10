@@ -210,6 +210,14 @@ var tm_boosters_jpn = {
             id: 2064,
             x_pts: 1.35
         },
+        {   // G4 v2
+            id: 2074,
+            x_pts: 1.35
+        },
+        {   // Nami
+            id: 2076,
+            x_pts: 1.35
+        },
         {   // Corazon
             id: 1001,
             type: 'legend',
@@ -223,6 +231,36 @@ var tm_boosters_jpn = {
         {   // Jinbe 6+
             id: 2066,
             type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Chopper WCI
+            id: 2072,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Carrot WCI
+            id: 2078,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Brook WCI
+            id: 2080,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Pedro WCI
+            id: 2082,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Reiju 4th Anni
+            id: 2084,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Sanji 4th Anni
+            id: 2086,
+            type: 'rr',
             x_pts: 1.2
         },
         {   // Eneru
@@ -317,6 +355,31 @@ var tm_boosters_jpn = {
         },
         {   // Yonji
             id: 2058,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Luffy Pirate Festival
+            id: 2087,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sanji Pirate Festival
+            id: 2088,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Nami Pirate Festival
+            id: 2089,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Franky Pirate Festival
+            id: 2090,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Usopp Pirate Festival
+            id: 2091,
             type: 'fortnight',
             x_pts: 1.2
         },
