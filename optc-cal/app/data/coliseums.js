@@ -169,6 +169,16 @@ var coliseums = {
         chaos_only: true,
         thumb: 1141
     },
+    1143: {
+        name: 'Foxy',
+        chaos_only: false,
+        thumb: 1143
+    },
+    1145: {
+        name: 'Porche',
+        chaos_only: false,
+        thumb: 1145
+    },
     1196: {
         name: 'Ganfor',
         chaos_only: false,

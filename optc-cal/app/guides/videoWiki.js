@@ -82,6 +82,8 @@ var videoWiki = {
     1104: 'coliseum/ain',
     1106: 'coliseum/binz',
     1141: 'coliseum/moria',
+    1143: 'coliseum/foxy',
+    1145: 'coliseum/porche',
     1196: 'coliseum/gan_fall',
     1220: 'coliseum/byrnndi_world',
     1251: 'coliseum/marco',

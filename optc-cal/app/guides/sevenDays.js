@@ -183,6 +183,8 @@ var sd = {
     1104: 'a0niFXU2nJ8',    // Ain
     1106: 'p2sug3M7BCk',    // Binz
     1141: 'Qrg0iUyS2zs',    // Moria
+    1143: '',               // Foxy
+    1145: '',               // Porche
     1196: 'UJ8DRgMwlCg',    // Ganfor
     1220: 'h-KU7jQnZv4',    // Byrnndi World
     1251: '',               // Marco

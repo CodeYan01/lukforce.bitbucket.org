@@ -183,6 +183,8 @@ var wiki = {
     1104: 'wiki/coliseum/ain',
     1106: 'wiki/coliseum/binz',
     1141: 'comments/6rmms9',                // Moria
+    1143: '',                               // Foxy
+    1145: '',                               // Porche
     1196: 'wiki/coliseum/ganfor',
     1220: 'wiki/coliseum/byrnndi',
     1251: '',                               // Marco
