@@ -336,4 +336,9 @@ var coliseums = {
         chaos_only: true,
         thumb: 1863
     },
+    1899: {
+        name: 'Killer (N)',
+        chaos_only: true,
+        thumb: 1899
+    },
 };

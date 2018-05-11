@@ -184,6 +184,7 @@ function showFooter() {
 
             if (!isPST
                 && newId !== 1863
+                && newId !== 1899
             ) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');

@@ -116,4 +116,5 @@ var videoWiki = {
     1861: 'coliseum/raizo',
 
     1863: '',   // Kinemon (N)
+    1899: '',   // Killer (N)
 };

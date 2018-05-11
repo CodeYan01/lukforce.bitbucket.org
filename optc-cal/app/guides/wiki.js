@@ -217,4 +217,5 @@ var wiki = {
     1861: 'comments/8ahe86',                // Raizo
 
     1863: '',                               // Kinemon (N)
+    1899: '',                               // Killer (N)
 };
