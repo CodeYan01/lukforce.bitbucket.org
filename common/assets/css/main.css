@@ -54,6 +54,7 @@ body {
     height: 25px;
     float: left;
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .selected {
