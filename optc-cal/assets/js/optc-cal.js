@@ -404,10 +404,6 @@ function showFooter() {
         if (liClass === '.nakama')
             liUrl += '/details';
 
-        // Special case for TM
-        if (liClass === '.tmInfo')
-            liUrl += '.png';
-
         li.find('.url').html(createUrlHtml(liUrl, urlText));
         li.show();
     }
@@ -498,7 +494,7 @@ function showFooter() {
 
                 if (e['type'] === 'tm') {
                     if (data.info != '')
-                        createListItem(ed, '.tmInfo', 'https://i.redd.it/', data.info, 'TM Info Graphic');
+                        createListItem(ed, '.tmInfo', 'https://', data.info, 'TM Info Graphic');
 
                     createListItem(ed, '.tmPlanner', '/tm-planner/?tmId=', id, 'TM Team Planner');
                 }
