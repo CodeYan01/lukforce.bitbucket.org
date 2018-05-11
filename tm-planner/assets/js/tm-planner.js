@@ -204,14 +204,17 @@ function resetAll() {
     updateAllPts();
 }
 
-function decorateTypeStr(str) {
-    var typeStrRegex = /\[(STR|DEX|QCK|PSY|INT|RCV|TND|BLOCK|BOMB|RAINBOW|G|EMPTY)]/g;
-    var typeStrRegexResult;
+function decorateStr(str) {
+    // Decorate Type strings
+    str = str
+        .replace(/\[?(STR|DEX|QCK|PSY|INT)\]?/g, '<span class="$1-div badge">$1</span>')
+        .replace(/\[(RCV|TND|BLOCK|BOMB|RAINBOW|G|EMPTY)\]/g, '<span class="$1-div badge">$1</span>');
 
-    while ((typeStrRegexResult = typeStrRegex.exec(str)) !== null) {
-        var type = typeStrRegexResult[1];
-        str = str.replace(typeStrRegexResult[0], '<span class="' + type + '-div badge">' + type + '</span>');
-    }
+    // Decorate Class strings
+    str = str.replace(/(Fighter|Slasher|Striker|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/g, function(match) {
+        var matchClass = match.replace(' ', '-').toLowerCase();
+        return '<span class="badge"><div class="' + matchClass  + '-div class-decorate"></div>' + match + '</span>';
+    });
 
     return str;
 }
@@ -228,24 +231,24 @@ function populateUnitDetail(unitId) {
                     $('#captain-ability').empty();
 
                     var captain1 = captain.character1;
-                    captain1 = decorateTypeStr(captain1);
+                    captain1 = decorateStr(captain1);
                     $('#captain-ability').append($('<p></p>').html('<b>Character 1:</b> ' + captain1));
 
                     var captain2 = captain.character2;
-                    captain2 = decorateTypeStr(captain2);
+                    captain2 = decorateStr(captain2);
                     $('#captain-ability').append($('<p></p>').html('<b>Character 2:</b> ' + captain2));
 
                     var captainComb = captain.combined;
-                    captainComb = decorateTypeStr(captainComb);
+                    captainComb = decorateStr(captainComb);
                     $('#captain-ability').append($('<p></p>').html('<b>Combined:</b> ' + captainComb));
                 } else {
                     // Unit Captain Ability changed by Limit Break
                     var captainLb = captain['level' + (Object.keys(captain).length - 1)];
-                    captainLb = decorateTypeStr(captainLb);
+                    captainLb = decorateStr(captainLb);
                     $('#captain-ability').html(captainLb);
                 }
             } else {
-                captain = decorateTypeStr(captain);
+                captain = decorateStr(captain);
                 $('#captain-ability').html(captain);
             }
         } else
@@ -255,10 +258,10 @@ function populateUnitDetail(unitId) {
         if (special) {
             if (Array.isArray(special)) {
                 var specialMax = special[special.length - 1].description;
-                specialMax = decorateTypeStr(specialMax);
+                specialMax = decorateStr(specialMax);
                 $('#special').html(specialMax);
             } else {
-                special = decorateTypeStr(special);
+                special = decorateStr(special);
                 $('#special').html(special);
             }
         } else
