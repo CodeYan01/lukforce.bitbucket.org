@@ -33,9 +33,10 @@
 
 .booster-info,
 #captain-ability,
-#special {
+#special,
+#sailor {
     font-size: 13px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .booster {
@@ -103,8 +104,8 @@
 }
 
 .class-decorate {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     margin-right: 3px;
     display: inline-block;
     background-size: cover;
