@@ -371,10 +371,6 @@ var tm_boosters = {
             id: 1887,
             x_pts: 1.5
         },
-        {   // Buggy
-            id: 1806,
-            x_pts: 1.35
-        },
         {   // Squard
             id: 1851,
             x_pts: 1.35
@@ -416,13 +412,13 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Law
-            id: 1678,
+        {   // Zoro
+            id: 1804,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Zoro
-            id: 1804,
+        {   // Buggy
+            id: 1806,
             type: 'rr',
             x_pts: 1.2
         },
