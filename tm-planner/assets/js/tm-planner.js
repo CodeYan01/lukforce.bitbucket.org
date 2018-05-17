@@ -86,7 +86,6 @@ function getBoosters(tmId, server) {
         imgDiv.css('display', 'inline-block');
 
         var _x_pts = b.x_pts.toString().replace(".", "_");
-        imgDiv.data('_x_pts', _x_pts);
 
         if (b.x_pts === 1.2) {
             imgDiv.data('_type', b.type);
@@ -95,6 +94,13 @@ function getBoosters(tmId, server) {
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
         else
             $('#booster_' + _x_pts + 'x').append(imgDiv);
+
+        _x_pts += 'x';
+
+        if (b.x_pts === 1.35 && b.ver)
+            _x_pts += '_v' + b.ver;
+
+        imgDiv.data('_x_pts', _x_pts);
 
         imgDiv.draggable({
             cursor: 'move',
@@ -229,9 +235,9 @@ function resetPosition(unit) {
     var _type = unit.data('_type');
 
     if (_type)
-        $('#booster_' + _x_pts + 'x_' + _type).append(unit);
+        $('#booster_' + _x_pts + '_' + _type).append(unit);
     else
-        $('#booster_' + _x_pts + 'x').append(unit);
+        $('#booster_' + _x_pts).append(unit);
 
     // Remove corresponding Clone
     $('#booster-clone_' + unitId + '_clone').remove();
