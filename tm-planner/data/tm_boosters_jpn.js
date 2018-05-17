@@ -205,18 +205,71 @@ var tm_boosters_jpn = {
             x_pts: 1.2
         },
     ],
-    9999: [
+    2109: [
+        {   // Tesoro
+            id: 2099,
+            x_pts: 1.75
+        },
+        {   // Reiju 4th Anni
+            id: 2084,
+            ver: 2,
+            x_pts: 1.35
+        },
+        {   // Sanji 4th Anni
+            id: 2086,
+            ver: 2,
+            x_pts: 1.35
+        },
         {   // Kizaru
             id: 2064,
+            ver: 3,
             x_pts: 1.35
         },
         {   // G4 v2
             id: 2074,
+            ver: 3,
             x_pts: 1.35
         },
         {   // Nami
             id: 2076,
+            ver: 3,
             x_pts: 1.35
+        },
+        {   // Dice
+            id: 2101,
+            ver: 3,
+            x_pts: 1.35
+        },
+        {   // Baccarat
+            id: 2103,
+            ver: 3,
+            x_pts: 1.35
+        },
+        {   // Tanaka
+            id: 2105,
+            ver: 3,
+            x_pts: 1.35
+        },
+        {   // Carina
+            id: 2107,
+            ver: 3,
+            x_pts: 1.35
+        },
+        {   // Chopper WCI
+            id: 2072,
+            x_pts: 1.25
+        },
+        {   // Carrot WCI
+            id: 2078,
+            x_pts: 1.25
+        },
+        {   // Brook WCI
+            id: 2080,
+            x_pts: 1.25
+        },
+        {   // Pedro WCI
+            id: 2082,
+            x_pts: 1.25
         },
         {   // Corazon
             id: 1001,
@@ -233,36 +286,6 @@ var tm_boosters_jpn = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Chopper WCI
-            id: 2072,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Carrot WCI
-            id: 2078,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Brook WCI
-            id: 2080,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Pedro WCI
-            id: 2082,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Reiju 4th Anni
-            id: 2084,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Sanji 4th Anni
-            id: 2086,
-            type: 'rr',
-            x_pts: 1.2
-        },
         {   // Eneru
             id: 603,
             type: 'raid',
@@ -270,6 +293,11 @@ var tm_boosters_jpn = {
         },
         {   // Tesoro
             id: 1163,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Doffy
+            id: 1623,
             type: 'raid',
             x_pts: 1.2
         },
@@ -298,6 +326,31 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Zoro
+            id: 2097,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Smoker
+            id: 806,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Wyper
+            id: 833,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Coby
+            id: 860,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Ace
+            id: 951,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
         {   // Neo X-Drake
             id: 1976,
             type: 'coliseum',
@@ -305,6 +358,11 @@ var tm_boosters_jpn = {
         },
         {   // Neo Diamante
             id: 2017,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // TS Kid
+            id: 2111,
             type: 'coliseum',
             x_pts: 1.2
         },
@@ -320,6 +378,11 @@ var tm_boosters_jpn = {
         },
         {   // Tanaka
             id: 1171,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 1452,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -381,6 +444,11 @@ var tm_boosters_jpn = {
         {   // Usopp Pirate Festival
             id: 2091,
             type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 1345,
+            type: 'other',
             x_pts: 1.2
         },
         {   // Sanji & Zoro

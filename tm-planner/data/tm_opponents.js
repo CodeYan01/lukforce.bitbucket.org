@@ -27,6 +27,13 @@ var tm_opponents = {
         ['Purinpurin',  'PSY'],
         ['Kizaru',      'DEX']
     ],
+    2109: {
+        2065: ['Pudding',   'PSY',      0],
+        2076: ['Nami',      'DEX',      1],
+        2080: ['Brook',     'STR',      2],
+        2082: ['Pedro',     'QCK',      3],
+        2109: ['Big Mom',   'STR',      4]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
