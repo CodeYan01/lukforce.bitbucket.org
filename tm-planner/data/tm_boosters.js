@@ -412,6 +412,11 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
+        {   // Law
+            id: 1678,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // Zoro
             id: 1804,
             type: 'rr',
