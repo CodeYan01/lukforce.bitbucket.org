@@ -29,12 +29,16 @@ function getBoosters(tmId, server) {
     $('.booster').remove();
 
     // Change 2x or 2.25x version
+    $('.div_x').hide();
     if (tmId == 2064) {
-        $('.ver_2x').hide();
-        $('.ver_2_25x').show();
+        // TM Kizaru
+        $('#div_2_25x').show();
+        $('#div_1_75x').show();
+        $('#div_1_35x').show();
     } else {
-        $('.ver_2x').show();
-        $('.ver_2_25x').hide();
+        $('#div_2x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x').show();
     }
 
     var boosters = [];
