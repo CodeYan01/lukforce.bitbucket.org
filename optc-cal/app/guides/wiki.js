@@ -209,7 +209,7 @@ var wiki = {
     1602: 'wiki/coliseum/shiryu',
     1603: 'wiki/coliseum/mcguychaos',
     1628: 'wiki/coliseum/machvise',
-    1667: '',                               // Kyros
+    1667: 'wiki/coliseum/kyros',
     1694: 'comments/7v81g8',                // Inuarashi
     1733: 'wiki/coliseum/nekomamushi',
     1792: '',                               // Lucy
