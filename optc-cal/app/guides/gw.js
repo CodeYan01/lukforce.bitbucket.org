@@ -99,6 +99,7 @@ var gw = {
     1810: '71417',      // Wanda & Carrot
     1818: '72656',      // Riku Family
     1842: '75880',      // Caribou
+    1855: '79679',      // Apoo & X-Drake
 
     // Raids
     227: '4142',        // Mihawk

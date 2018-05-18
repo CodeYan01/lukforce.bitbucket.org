@@ -99,6 +99,7 @@ var wiki = {
     1810: 'comments/8drnkw',                // Wanda & Carrot
     1818: 'comments/8gelcs',                // Riku Family
     1842: '',                               // Caribou
+    1855: '',                               // Apoo & X-Drake
 
     // Raids
     227: 'wiki/raidboss/mihawk',
