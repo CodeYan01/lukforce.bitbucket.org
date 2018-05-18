@@ -987,4 +987,9 @@ var raidEvents = [
         id: [771, 1374],
         start: '2018-05-19'
     },
+    {
+        id: 1815,
+        start: '2018-05-25',
+        ambush: cavendish
+    },
 ]

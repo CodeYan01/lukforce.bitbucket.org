@@ -1332,6 +1332,7 @@ var coliseumEvents = [
         repId: [1401, 1456, 779],
         start: '2018-06-01',
         end: '2018-06-03',
+        ambush: garp,
         new_batch: true
     },
 
