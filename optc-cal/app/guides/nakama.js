@@ -238,4 +238,5 @@ var nakama = {
     'tp_1465': '6146300',   // Tea Party Chopper
     'tp_1508': '6146300',   // Tea Party Sanji
     'tp_1516': '6146300',   // Tea Party Brook
+    'pm_1900': '6190000',   // Past Memory Zoro
 };

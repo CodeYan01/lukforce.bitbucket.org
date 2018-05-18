@@ -110,4 +110,5 @@ drops = {
     'tp_1465': 'Sweet%20Tea%20Time',
     'tp_1508': 'Sweet%20Tea%20Time',
     'tp_1516': 'Sweet%20Tea%20Time',
+    'pm_1900': 'Pirate%20Hunter%27s%20Memories%20of%20Training',
 };

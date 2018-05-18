@@ -220,4 +220,10 @@ var specials = {
         name: 'Brook',
         thumb: 1516
     },
+
+    'pm_1900': {
+        type: 'Past Memory',
+        name: 'Zoro',
+        thumb: 1900
+    },
 }

@@ -238,4 +238,5 @@ var gw = {
     'tp_1465': '51896', // Tea Party Chopper
     'tp_1508': '52627', // Tea Party Sanji
     'tp_1516': '53094', // Tea Party Brook
+    'pm_1900': '85046', // Past Memory Zoro
 };
