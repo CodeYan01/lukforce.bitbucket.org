@@ -32,7 +32,7 @@ var tm_opponents = {
         2076: ['Nami',      'DEX',      1],
         2080: ['Brook',     'STR',      2],
         2082: ['Pedro',     'QCK',      3],
-        2109: ['Big Mom',   'STR',      4]
+        2109: ['Big Mom ? Sanji',   'STR',      4]
     },
     9999: [
         ['',            ''],
