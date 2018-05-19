@@ -122,7 +122,7 @@ function getBoosters(tmId, server) {
     return true;
 }
 
-function getOpponents(tmId) {
+function getOpponents(tmId, server) {
     // Reset
     $('#thumb-div').empty();
 
@@ -131,7 +131,7 @@ function getOpponents(tmId) {
     if (typeof opponents === 'undefined')
         return false;
 
-    if (tmId == 2109) {
+    if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
         for (var opId in opponents) {
             var op = opponents[opId];
             var opName = op[0];
@@ -201,7 +201,7 @@ function init(tmId, server) {
         return false;
     }
 
-    if (!getOpponents(tmId)) {
+    if (!getOpponents(tmId, server)) {
         alert('Invalid TM');
         return false;
     }
@@ -538,7 +538,7 @@ $(document).ready(function() {
         var serverTmp = getUrlParameter('server');
 
         if ((serverTmp == 'glb' || serverTmp == 'jpn') && init(tmId, serverTmp)) {
-            if (tmId == 2109) {
+            if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
                 var opponents = tm_opponents[tmId];
 
                 for (var opId in opponents) {
@@ -878,7 +878,7 @@ $(document).ready(function() {
     $('#save-button').click(function() {
         var teams = {};
 
-        if (tmId == 2109) {
+        if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
             $('.team').each(function() {
                 var opId = $(this).data('op_id');
                 var team = getTeamUnits($(this));
@@ -939,7 +939,7 @@ $(document).ready(function() {
 
             var teams = JSON.parse(localStorage.getItem('teams_' + tmId + serverStr));
 
-            if (tmId == 2109) {
+            if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
                 var opponents = tm_opponents[tmId];
 
                 for (var opId in teams) {
@@ -1047,7 +1047,7 @@ $(document).ready(function() {
         url += '&tmId=' + tmId;
         url += '&server=' + server;
 
-        if (tmId == 2109) {
+        if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
             $('.team').each(function() {
                 var opId = $(this).data('op_id');
                 var team = getTeamUnits($(this));

@@ -578,4 +578,188 @@ var tm_boosters = {
             x_pts: 1.2
         },
     ],
+    1916: [
+        {   // Robin
+            id: 1885,
+            x_pts: 1.5
+        },
+        {   // Cavendish
+            id: 1889,
+            x_pts: 1.35
+        },
+        {   // Gladius
+            id: 1887,
+            x_pts: 1.35
+        },
+        {   // Rayleigh v2
+            id: 1883,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Zoro 6+
+            id: 1921,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Law v2 6+
+            id: 1922,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1849,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Squard
+            id: 1851,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Urouge
+            id: 1895,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Foxy
+            id: 1143,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Porche
+            id: 1145,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neo Killer
+            id: 1899,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Caribou
+            id: 1842,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Coribou
+            id: 1844,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Luffy
+            id: 4,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Luffy 5+
+            id: 1387,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 8,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Zoro 5+
+            id: 1388,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Nami
+            id: 12,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Nami 5+
+            id: 1389,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Usopp
+            id: 16,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Usopp 5+
+            id: 1446,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 20,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Sanji 5+
+            id: 1447,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Chopper
+            id: 22,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Chopper 5+
+            id: 1448,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 709,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Robin 5+
+            id: 1549,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 739,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Franky 5+
+            id: 1550,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Brook
+            id: 896,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Brook 5+
+            id: 1551,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1808,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // WB
+            id: 1853,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1900,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
