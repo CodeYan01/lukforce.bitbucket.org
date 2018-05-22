@@ -36,10 +36,10 @@ var tm_opponents = {
     ],
     2109: {
         2065: ['Pudding',   'PSY',      0],
-        2076: ['Nami',      'DEX',      1],
+        2076: ['Nami',      'INT',      3],
         2080: ['Brook',     'STR',      2],
-        2082: ['Pedro',     'QCK',      3],
-        2109: ['Big Mom ? Sanji',   'STR',      4]
+        2082: ['Pedro',     'QCK',      1],
+        2109: ['Sanji',     'STR',      4]      // Uses Big Mom ID
     },
     9999: [
         ['',            ''],
