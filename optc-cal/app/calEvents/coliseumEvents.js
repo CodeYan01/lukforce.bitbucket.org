@@ -1370,4 +1370,31 @@ var coliseumEvents = [
         end: '2018-05-26',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: [],
+        repId: [831, 882, 1016, 884, 903],
+        start: '2018-05-28',
+        new_batch: false
+    },
+    {
+        newId: [],
+        repId: [831, 882, 1016, 884, 903],
+        start: '2018-05-31',
+        new_batch: false
+    },
+    {
+        newId: [],
+        repId: [831, 882, 1016, 884, 903],
+        start: '2018-06-04',
+        new_batch: false
+    },
+    {
+        newId: [],
+        repId: [831, 882, 1016, 884, 903],
+        start: '2018-06-07',
+        new_batch: false
+    },
+
 ]
