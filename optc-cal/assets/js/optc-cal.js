@@ -359,6 +359,7 @@ function showFooter() {
             var id = e['id'];
             var sbge = specials_bg[id];
 
+            res['id'] = id;
             res['thumb'] = sbge['thumb'];
             res['type'] = 'event';
 
@@ -647,6 +648,9 @@ function showFooter() {
                     element.find('.fc-title').before(unitImg);
                 } else {
                     element.closest('.fc-bgevent').css('background-image', 'url("/optc-cal/assets/img/' + event['thumb'] + '.png")');
+
+                    if (event.id == 'sugo')
+                        element.closest('.fc-bgevent').addClass('sugo');
                 }
             },
             eventClick: function(event) {

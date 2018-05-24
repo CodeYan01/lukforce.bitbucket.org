@@ -30,6 +30,10 @@ button {
     opacity: 0.75;
 }
 
+.fc-bgevent.sugo {
+    opacity: 0.35;
+}
+
 .filtered {
     opacity: 0.3;
 }
