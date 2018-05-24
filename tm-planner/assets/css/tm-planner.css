@@ -99,6 +99,10 @@
     display: none;
 }
 
+#dont-have-row {
+    background-color: darkgray;
+}
+
 .type-filtered,
 .class-filtered {
     opacity: 0.3;
