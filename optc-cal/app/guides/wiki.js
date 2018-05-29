@@ -133,6 +133,7 @@ var wiki = {
     1815: 'wiki/raidboss/sanji',
     1879: '',                               // Bartolomeo
     1924: 'comments/77jr7y',                // Rayleigh
+    1943: '',                               // Senor Pink
     2201: 'wiki/raidboss/v2doflamingo',
 
     1623: 'wiki/raidboss/doffykai',

@@ -123,6 +123,10 @@ var raids = {
         name: 'Rayleigh',
         thumb: 1924
     },
+    1943: {
+        name: 'Senor Pink',
+        thumb: 1943
+    },
     2201: {
         name: 'Doflamingo v2',
         thumb: 5012

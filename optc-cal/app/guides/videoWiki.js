@@ -31,6 +31,7 @@ var videoWiki = {
     1815: 'raidboss/sanji',
     1879: 'raidboss/bartolomeo',
     1924: 'raidboss/rayleigh',
+    1943: 'raidboss/senorpink',
     2201: 'raidboss/v2doflamingo',
 
     1623: 'raidboss/doflamingokai',
