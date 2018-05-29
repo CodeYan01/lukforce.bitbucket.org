@@ -579,16 +579,28 @@ var tm_boosters = {
         },
     ],
     1916: [
+        {   // Vivi
+            id: 1914,
+            x_pts: 2
+        },
         {   // Robin
             id: 1885,
             x_pts: 1.5
+        },
+        {   // Urouge
+            id: 1912,
+            x_pts: 1.5
+        },
+        {   // Gladius
+            id: 1887,
+            x_pts: 1.35
         },
         {   // Cavendish
             id: 1889,
             x_pts: 1.35
         },
-        {   // Gladius
-            id: 1887,
+        {   // Doffy v2
+            id: 1910,
             x_pts: 1.35
         },
         {   // Rayleigh v2
@@ -603,6 +615,11 @@ var tm_boosters = {
         },
         {   // Law v2 6+
             id: 1922,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Bartolomeo 6+
+            id: 1928,
             type: 'legend',
             x_pts: 1.2
         },
@@ -631,6 +648,36 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
+        {   // Pica
+            id: 1902,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Senor Pink
+            id: 1904,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Sugar
+            id: 1906,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Trebol
+            id: 1908,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Coby
+            id: 1926,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Senor Pink
+            id: 1943,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Foxy
             id: 1143,
             type: 'coliseum',
@@ -653,6 +700,16 @@ var tm_boosters = {
         },
         {   // Coribou
             id: 1844,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Apoo
+            id: 1855,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // X-Drake
+            id: 1857,
             type: 'fortnight',
             x_pts: 1.2
         },
