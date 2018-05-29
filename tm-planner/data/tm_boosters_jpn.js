@@ -457,4 +457,170 @@ var tm_boosters_jpn = {
             x_pts: 1.2
         },
     ],
+    9999: [
+        {   // Big Mom
+            id: 2109,
+            x_pts: 1.35
+        },
+        {   // WB 6+
+            id: 1413,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 1610,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Aokiji 6+
+            id: 1764,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Doffy v2
+            id: 1910,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Akainu v2
+            id: 2023,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Gear 4
+            id: 2074,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Nami
+            id: 2076,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Tesoro
+            id: 2099,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1298,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bellamy
+            id: 1518,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Senor Pink
+            id: 1943,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Lucci
+            id: 2015,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // G4 Tankman
+            id: 2033,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Boa Hancock
+            id: 2070,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 2097,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo X-Drake
+            id: 1976,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neo Diamante
+            id: 2017,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // TS Kid
+            id: 2111,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Ivankov
+            id: 1037,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Soul King
+            id: 1547,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Shirahoshi
+            id: 1597,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Blue Gilly
+            id: 1766,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Vander Decken
+            id: 1947,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Bege
+            id: 1980,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Bonney
+            id: 1982,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Usopp Pirate Festival
+            id: 2091,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Zoro Pirate Festival
+            id: 2092,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Chopper Pirate Festival
+            id: 2093,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Brook Pirate Festival
+            id: 2094,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Robin Pirate Festival
+            id: 2095,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Gear 4
+            id: 1916,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Kizaru
+            id: 2064,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
