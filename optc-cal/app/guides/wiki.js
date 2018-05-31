@@ -193,6 +193,7 @@ var wiki = {
     1292: 'comments/84fp9b',                // Lao G
     1310: 'comments/6ywcrv',                // Kinemon
     1338: 'comments/70qjmd',                // Kanjuro
+    1341: '',                               // Gedatsu
     1376: 'comments/83o81l',                // Dellinger
     1378: '',                               // Marguerite
     1401: '',                               // Gladius
@@ -217,6 +218,7 @@ var wiki = {
     1792: '',                               // Lucy
     1828: 'comments/7t79sc',                // Shishilian
     1861: 'comments/8ahe86',                // Raizo
+    1897: '',                               // Eneru
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

@@ -91,6 +91,7 @@ var videoWiki = {
     1292: 'coliseum/lao_g',
     1310: 'coliseum/kinemon',
     1338: 'coliseum/kanjuro',
+    1341: 'coliseum/gedatsu',
     1376: 'coliseum/dellinger',
     1378: 'coliseum/marguerite',
     1401: 'coliseum/gladius',
@@ -115,6 +116,7 @@ var videoWiki = {
     1792: 'coliseum/lucy_luffy',
     1828: 'coliseum/sicilian',
     1861: 'coliseum/raizo',
+    1897: 'coliseum/enel',
 
     1863: '',   // Kinemon (N)
     1899: 'coliseum/killerkai',
