@@ -741,7 +741,8 @@ var raidEvents = [
     {
         id: 2201,
         start: '2018-02-26',
-        end: '2018-03-01'
+        end: '2018-03-01',
+        pst_0: true
     },
     {
         id: 836,

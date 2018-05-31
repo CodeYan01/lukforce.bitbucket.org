@@ -54,7 +54,7 @@ function showFooter() {
             var start = e['start'];
             var end = e['end'];
 
-            if (!isPST) {
+            if (!isPST && !e['pst_0']) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
                 start = startDate.format('YYYY-MM-DD');
@@ -112,6 +112,7 @@ function showFooter() {
             var end = e['end'];
 
             if (!isPST
+                && !e['pst_0']
                 && eId !== 1623
                 && eId !== 1669
                 && eId !== 1680
