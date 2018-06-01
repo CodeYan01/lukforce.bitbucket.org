@@ -22,8 +22,8 @@ var tm_opponents = {
     ],
     1916: {
         1364: ['Franky',    'PSY',      0],
-        1532: ['Usopp',     'DEX',      1],
-        1549: ['Robin',     'PSY',      2],
+        1532: ['Usopp',     'DEX',      2],
+        1549: ['Robin',     'PSY',      1],
         1921: ['Zoro',      'DEX',      3],
         1916: ['Gear 4',    'QCK',      4]
     },

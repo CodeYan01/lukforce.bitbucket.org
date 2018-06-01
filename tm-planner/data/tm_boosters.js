@@ -579,6 +579,10 @@ var tm_boosters = {
         },
     ],
     1916: [
+        {   // Urouge
+            id: 1912,
+            x_pts: 2
+        },
         {   // Vivi
             id: 1914,
             x_pts: 2
@@ -587,9 +591,85 @@ var tm_boosters = {
             id: 1885,
             x_pts: 1.5
         },
-        {   // Urouge
-            id: 1912,
+        {   // Doffy v2
+            id: 1910,
             x_pts: 1.5
+        },
+        {   // Luffy
+            id: 4,
+            x_pts: 1.35
+        },
+        {   // Luffy 5+
+            id: 1387,
+            x_pts: 1.35
+        },
+        {   // Zoro
+            id: 8,
+            x_pts: 1.35
+        },
+        {   // Zoro 5+
+            id: 1388,
+            x_pts: 1.35
+        },
+        {   // Nami
+            id: 12,
+            x_pts: 1.35
+        },
+        {   // Nami 5+
+            id: 1389,
+            x_pts: 1.35
+        },
+        {   // Usopp
+            id: 16,
+            x_pts: 1.35
+        },
+        {   // Usopp 5+
+            id: 1446,
+            x_pts: 1.35
+        },
+        {   // Sanji
+            id: 20,
+            x_pts: 1.35
+        },
+        {   // Sanji 5+
+            id: 1447,
+            x_pts: 1.35
+        },
+        {   // Chopper
+            id: 22,
+            x_pts: 1.35
+        },
+        {   // Chopper 5+
+            id: 1448,
+            x_pts: 1.35
+        },
+        {   // Robin
+            id: 709,
+            x_pts: 1.35
+        },
+        {   // Robin 5+
+            id: 1549,
+            x_pts: 1.35
+        },
+        {   // Franky
+            id: 739,
+            x_pts: 1.35
+        },
+        {   // Franky 5+
+            id: 1550,
+            x_pts: 1.35
+        },
+        {   // Brook
+            id: 896,
+            x_pts: 1.35
+        },
+        {   // Brook 5+
+            id: 1551,
+            x_pts: 1.35
+        },
+        {   // Rayleigh v2
+            id: 1883,
+            x_pts: 1.35
         },
         {   // Gladius
             id: 1887,
@@ -599,14 +679,9 @@ var tm_boosters = {
             id: 1889,
             x_pts: 1.35
         },
-        {   // Doffy v2
-            id: 1910,
+        {   // Zoro
+            id: 1900,
             x_pts: 1.35
-        },
-        {   // Rayleigh v2
-            id: 1883,
-            type: 'legend',
-            x_pts: 1.2
         },
         {   // Zoro 6+
             id: 1921,
@@ -713,96 +788,6 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Luffy
-            id: 4,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Luffy 5+
-            id: 1387,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Zoro
-            id: 8,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Zoro 5+
-            id: 1388,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Nami
-            id: 12,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Nami 5+
-            id: 1389,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Usopp
-            id: 16,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Usopp 5+
-            id: 1446,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Sanji
-            id: 20,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Sanji 5+
-            id: 1447,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Chopper
-            id: 22,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Chopper 5+
-            id: 1448,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Robin
-            id: 709,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Robin 5+
-            id: 1549,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Franky
-            id: 739,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Franky 5+
-            id: 1550,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Brook
-            id: 896,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Brook 5+
-            id: 1551,
-            type: 'other',
-            x_pts: 1.2
-        },
         {   // Mihawk
             id: 1808,
             type: 'other',
@@ -810,11 +795,6 @@ var tm_boosters = {
         },
         {   // WB
             id: 1853,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Zoro
-            id: 1900,
             type: 'other',
             x_pts: 1.2
         },
