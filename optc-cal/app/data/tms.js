@@ -14,4 +14,9 @@ var tms = {
         thumb: 1889,
         info: 'i.imgur.com/hM13hHv.png'
     },
+    1916: {
+        name: 'Gear 4',
+        thumb: 1916,
+        info: ''
+    },
 };
