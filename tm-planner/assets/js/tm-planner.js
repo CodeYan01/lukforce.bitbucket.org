@@ -272,100 +272,130 @@ function populateUnitDetail(unitId) {
     var unitDetail = details[unitId];
 
     if (unitDetail) {
+        // Thumb
+        $('#unit-detail-thumb').empty();
+
+        var imgHtml = createImgHtml(getThumb(unitId), 40, false);
+        $('#unit-detail-thumb').append(imgHtml);
+
+        // Type
+        $('#unit-modal-title').html(units[unitId - 1][0]);
+        $('#unit-modal-title').removeClass('STR DEX QCK PSY INT');
+        $('#unit-modal-title').addClass(units[unitId - 1][1]);
+
+        // Class
+        $('#unit-detail-class1, #unit-detail-class2').removeClass(
+            'fighter-div slasher-div striker-div shooter-div free-spirit-div cerebral-div powerhouse-div driven-div'
+        );
+
+        var unitClass = units[unitId - 1][2];
+        if (Array.isArray(unitClass)) {
+            var class1 = unitClass[0].replace(' ', '-').toLowerCase();
+            $('#unit-detail-class1').addClass(class1 + '-div');
+
+            var class2 = unitClass[1].replace(' ', '-').toLowerCase();
+            $('#unit-detail-class2').addClass(class2 + '-div');
+        } else {
+            var class1 = unitClass.replace(' ', '-').toLowerCase();
+            $('#unit-detail-class1').addClass(class1 + '-div');
+        }
+
+        // Captain Ability
         var captain = unitDetail.captain;
         if (captain) {
             if (typeof captain === 'object') {
                 if (captain.combined) {
                     // Dual Units
-                    $('#captain-ability').empty();
+                    $('#unit-detail-captain-ability').empty();
 
                     var captain1 = captain.character1;
                     captain1 = decorateStr(captain1);
-                    $('#captain-ability').append('<b>Character 1:</b> ' + captain1);
-                    $('#captain-ability').append('<br />');
+                    $('#unit-detail-captain-ability').append('<b>Character 1:</b> ' + captain1);
+                    $('#unit-detail-captain-ability').append('<br />');
 
                     var captain2 = captain.character2;
                     captain2 = decorateStr(captain2);
-                    $('#captain-ability').append('<b>Character 2:</b> ' + captain2);
-                    $('#captain-ability').append('<br />');
+                    $('#unit-detail-captain-ability').append('<b>Character 2:</b> ' + captain2);
+                    $('#unit-detail-captain-ability').append('<br />');
 
                     var captainComb = captain.combined;
                     captainComb = decorateStr(captainComb);
-                    $('#captain-ability').append('<b>Combined:</b> ' + captainComb);
+                    $('#unit-detail-captain-ability').append('<b>Combined:</b> ' + captainComb);
                 } else {
                     // Unit Captain Ability changed by Limit Break
                     var captainLb = captain['level' + (Object.keys(captain).length - 1)];
                     captainLb = decorateStr(captainLb);
-                    $('#captain-ability').html('<b>Max LB:</b> ' + captainLb);
+                    $('#unit-detail-captain-ability').html('<b>Max LB:</b> ' + captainLb);
                 }
             } else {
                 captain = decorateStr(captain);
-                $('#captain-ability').html(captain);
+                $('#unit-detail-captain-ability').html(captain);
             }
         } else
-            $('#captain-ability').html('None');
+            $('#unit-detail-captain-ability').html('None');
 
+        // Special
         var special = unitDetail.special;
         if (special) {
             if (Array.isArray(special)) {
                 var specialMax = special[special.length - 1].description;
                 specialMax = decorateStr(specialMax);
-                $('#special').html(specialMax);
+                $('#unit-detail-special').html(specialMax);
             } else {
                 special = decorateStr(special);
-                $('#special').html(special);
+                $('#unit-detail-special').html(special);
             }
         } else
-            $('#special').html('None');
+            $('#unit-detail-special').html('None');
 
+        // Sailor
         var sailor = unitDetail.sailor;
         if (sailor) {
             if (typeof sailor === 'object') {
                 // Unit Sailor added by Limit Break
-                $('#sailor').empty();
+                $('#unit-detail-sailor').empty();
 
                 if (sailor.combined) {
                     // Dual Units
                     var sailor1 = sailor.character1;
                     sailor1 = decorateStr(sailor1);
-                    $('#sailor').append('<b>Character 1:</b> ' + sailor1);
-                    $('#sailor').append('<br />');
+                    $('#unit-detail-sailor').append('<b>Character 1:</b> ' + sailor1);
+                    $('#unit-detail-sailor').append('<br />');
 
                     var sailor2 = sailor.character2;
                     sailor2 = decorateStr(sailor2);
-                    $('#sailor').append('<b>Character 2:</b> ' + sailor2);
-                    $('#sailor').append('<br />');
+                    $('#unit-detail-sailor').append('<b>Character 2:</b> ' + sailor2);
+                    $('#unit-detail-sailor').append('<br />');
 
                     var sailorComb = sailor.combined;
                     sailorComb = decorateStr(sailorComb);
-                    $('#sailor').append('<b>Combined:</b> ' + sailorComb);
-                    $('#sailor').append('<br />');
+                    $('#unit-detail-sailor').append('<b>Combined:</b> ' + sailorComb);
+                    $('#unit-detail-sailor').append('<br />');
                 }
 
                 if (sailor.base) {
                     var sailorBase = sailor.base;
                     sailorBase = decorateStr(sailorBase);
-                    $('#sailor').append('<b>Base:</b> ' + sailorBase);
-                    $('#sailor').append('<br />');
+                    $('#unit-detail-sailor').append('<b>Base:</b> ' + sailorBase);
+                    $('#unit-detail-sailor').append('<br />');
                 }
 
                 var i = 1;
                 while (sailor['level' + i]) {
                     var s = sailor['level' + i];
                     s = decorateStr(s);
-                    $('#sailor').append('<b>LB Sailor ' + i + ':</b> ' + s);
-                    $('#sailor').append('<br />')
+                    $('#unit-detail-sailor').append('<b>LB Sailor ' + i + ':</b> ' + s);
+                    $('#unit-detail-sailor').append('<br />')
                     i++;
                 }
             } else {
                 sailor = decorateStr(sailor);
-                $('#sailor').html(sailor);
+                $('#unit-detail-sailor').html(sailor);
             }
         } else
-            $('#sailor').html('None');
+            $('#unit-detail-sailor').html('None');
 
         $('#db-button').data('id', unitId);
-        $('#unit-modal-title').html(units[unitId - 1][0]);
         $('.unit-detail-el').show();
     }
 }
