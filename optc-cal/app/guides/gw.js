@@ -144,6 +144,7 @@ var gw = {
     1772: '67120',      // Kuma (N)
     1780: '68681',      // Kizaru (N)
     1826: '73951',      // Akainu (N)
+    1930: '86020',      // Eneru (N)
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks

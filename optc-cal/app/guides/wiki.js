@@ -144,6 +144,7 @@ var wiki = {
     1772: 'wiki/raidboss/kumakai',
     1780: 'wiki/raidboss/kizarukai',
     1826: '',                               // Akainu (N)
+    1930: '',                               // Eneru (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
