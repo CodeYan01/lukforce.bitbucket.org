@@ -799,4 +799,258 @@ var tm_boosters = {
             x_pts: 1.2
         },
     ],
+    1941: [
+        {   // Vivi
+            id: 1914,
+            x_pts: 1.5
+        },
+        {   // Urouge
+            id: 1912,
+            x_pts: 1.35
+        },
+        {   // G4
+            id: 1916,
+            x_pts: 1.35
+        },
+        {   // Boa Hancock v2
+            id: 1747,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Lucy
+            id: 1794,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 1832,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Fujitora v2
+            id: 1869,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Rayleigh v2
+            id: 1883,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Doffy v2
+            id: 1910,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Bartolomeo 6+
+            id: 1928,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1849,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Squard
+            id: 1851,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 1885,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Gladius
+            id: 1887,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Urouge
+            id: 1895,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 1902,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Senor Pink
+            id: 1904,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Sugar
+            id: 1906,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Trebol
+            id: 1908,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Coby
+            id: 1926,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Zephyr
+            id: 353,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Doffy
+            id: 418,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kizaru
+            id: 978,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Shiki
+            id: 1108,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Tesoro
+            id: 1163,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Eneru
+            id: 1930,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Senor Pink
+            id: 1943,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Musshuru
+            id: 1087,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Saga
+            id: 1089,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Zephyr
+            id: 1102,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Ain
+            id: 1104,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Binz
+            id: 1106,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Foxy
+            id: 1143,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Porche
+            id: 1145,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Lao G
+            id: 1292,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Gedatsu
+            id: 1341,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 1897,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neo Killer
+            id: 1899,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Soul King
+            id: 1547,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Caribou
+            id: 1842,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Coribou
+            id: 1844,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Apoo
+            id: 1855,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // X-Drake
+            id: 1857,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Urouge
+            id: 1865,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Hawkins
+            id: 1867,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1808,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // WB
+            id: 1853,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1889,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1900,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
