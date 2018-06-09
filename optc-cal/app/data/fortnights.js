@@ -399,4 +399,8 @@ var fortnights = {
         name: 'Apoo & X-Drake',
         thumb: 1855
     },
+    1867: {
+        name: 'Hawkins & Urouge',
+        thumb: 1867
+    },
 };

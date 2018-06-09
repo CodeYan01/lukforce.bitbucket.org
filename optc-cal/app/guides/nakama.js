@@ -100,6 +100,7 @@ var nakama = {
     1818: '2181800',    // Riku Family
     1842: '2184200',    // Caribou
     1855: '2185500',    // Apoo & X-Drake
+    1867: '2186700',    // Hawkins & Urouge
 
     // Raids
     227: '4022700',     // Mihawk
