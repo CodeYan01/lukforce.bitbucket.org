@@ -462,6 +462,10 @@ var tm_boosters_jpn = {
             id: 2109,
             x_pts: 1.35
         },
+        {   // Katakuri
+            id: 2113,
+            x_pts: 1.35
+        },
         {   // WB 6+
             id: 1413,
             type: 'legend',
@@ -502,6 +506,26 @@ var tm_boosters_jpn = {
             type: 'legend',
             x_pts: 1.2
         },
+        {   // Brulee
+            id: 2115,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Amande
+            id: 2117,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Bobbin
+            id: 2119,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Oven
+            id: 2121,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // Akainu
             id: 1298,
             type: 'raid',
@@ -537,6 +561,26 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Don Krieg
+            id: 1489,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Arlong
+            id: 1527,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Orlumbus
+            id: 1584,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kyros
+            id: 1667,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
         {   // Neo X-Drake
             id: 1976,
             type: 'coliseum',
@@ -549,6 +593,11 @@ var tm_boosters_jpn = {
         },
         {   // TS Kid
             id: 2111,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neptune
+            id: 2123,
             type: 'coliseum',
             x_pts: 1.2
         },
@@ -567,8 +616,28 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Sugar
+            id: 1735,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Blue Gilly
             id: 1766,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Kinemon
+            id: 1774,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Apoo
+            id: 1855,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Reiju
+            id: 1918,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -584,6 +653,11 @@ var tm_boosters_jpn = {
         },
         {   // Bonney
             id: 1982,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Shanks
+            id: 2019,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -609,6 +683,16 @@ var tm_boosters_jpn = {
         },
         {   // Robin Pirate Festival
             id: 2095,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Brulee
+            id: 2127,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Randolph
+            id: 2128,
             type: 'fortnight',
             x_pts: 1.2
         },
