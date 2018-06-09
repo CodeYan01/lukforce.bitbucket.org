@@ -99,7 +99,7 @@ var wiki = {
     1810: 'comments/8drnkw',                // Wanda & Carrot
     1818: 'comments/8gelcs',                // Riku Family
     1842: 'wiki/fortnight/caribou',
-    1855: '',                               // Apoo & X-Drake
+    1855: 'wiki/fortnight/apoodrake',
     1867: '',                               // Hawkins & Urouge
 
     // Raids
