@@ -800,8 +800,16 @@ var tm_boosters = {
         },
     ],
     1941: [
+        {   // Blackbeard
+            id: 1937,
+            x_pts: 2
+        },
         {   // Vivi
             id: 1914,
+            x_pts: 1.5
+        },
+        {   // Thatch
+            id: 1939,
             x_pts: 1.5
         },
         {   // Urouge
@@ -810,6 +818,10 @@ var tm_boosters = {
         },
         {   // G4
             id: 1916,
+            x_pts: 1.35
+        },
+        {   // Franky
+            id: 1935,
             x_pts: 1.35
         },
         {   // Boa Hancock v2
