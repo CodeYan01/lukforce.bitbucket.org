@@ -1193,4 +1193,10 @@ $(document).ready(function() {
         init(parsedTmId, server);
         tmId = parsedTmId;
     });
+
+    // Press Esc to close modal
+    $(document).keyup(function(e) {
+        if (e.keyCode == 27)
+            $('.modal').modal('hide');
+    });
 });
