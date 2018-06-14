@@ -100,7 +100,7 @@ var wiki = {
     1818: 'comments/8gelcs',                // Riku Family
     1842: 'wiki/fortnight/caribou',
     1855: 'wiki/fortnight/apoodrake',
-    1867: '',                               // Hawkins & Urouge
+    1867: 'wiki/fortnight/hawkinsurouge',
 
     // Raids
     227: 'wiki/raidboss/mihawk',
