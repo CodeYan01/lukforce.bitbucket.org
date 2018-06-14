@@ -50,8 +50,8 @@ var tm_opponents = {
     },
     2137: {
          257: ['Izo',           'DEX',      0],
-        1245: ['Luffy',         'QCK',      1],
-        1806: ['Buggy',         'QCK',      2],
+        1245: ['Luffy',         'QCK',      2],
+        1806: ['Buggy',         'QCK',      1],
         1849: ['Akainu',        'STR',      3],
         2137: ['Croc',          'INT',      4]
     },
