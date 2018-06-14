@@ -41,6 +41,13 @@ function getBoosters(tmId, server) {
         $('#div_1_35x_v2').show();
         $('#div_1_35x_v3').show();
         $('#div_1_25x').show();
+    } else if (tmId == 2137) {
+        // TM Croc
+        $('#div_2_25x').show();
+        $('#div_1_75x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();

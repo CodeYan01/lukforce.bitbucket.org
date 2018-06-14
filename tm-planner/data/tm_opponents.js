@@ -48,6 +48,13 @@ var tm_opponents = {
         2082: ['Pedro',         'QCK',      1],
         2109: ['Sanji',         'STR',      4]      // Uses Big Mom ID
     },
+    2137: {
+         257: ['Izo',           'DEX',      0],
+        1245: ['Luffy',         'QCK',      1],
+        1806: ['Buggy',         'QCK',      2],
+        1849: ['Akainu',        'STR',      3],
+        2137: ['Croc',          'INT',      4]
+    },
     9999: [
         ['',            ''],
         ['',            ''],

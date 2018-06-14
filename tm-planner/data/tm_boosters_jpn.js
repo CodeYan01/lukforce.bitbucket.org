@@ -457,14 +457,56 @@ var tm_boosters_jpn = {
             x_pts: 1.2
         },
     ],
-    9999: [
-        {   // Big Mom
-            id: 2109,
+    2137: [
+        {   // Ivan
+            id: 2132,
+            x_pts: 2.25
+        },
+        {   // Jozu
+            id: 2134,
+            x_pts: 1.75
+        },
+        {   // Mr. 1
+            id: 2135,
+            x_pts: 1.5
+        },
+        {   // Tesoro
+            id: 2099,
+            ver: 4,
             x_pts: 1.35
         },
         {   // Katakuri
             id: 2113,
+            ver: 4,
             x_pts: 1.35
+        },
+        {   // G4 v2
+            id: 2074,
+            x_pts: 1.25
+        },
+        {   // Nami
+            id: 2076,
+            x_pts: 1.25
+        },
+        {   // Big Mom
+            id: 2109,
+            x_pts: 1.25
+        },
+        {   // Brulee
+            id: 2115,
+            x_pts: 1.25
+        },
+        {   // Amande
+            id: 2117,
+            x_pts: 1.25
+        },
+        {   // Bobbin
+            id: 2119,
+            x_pts: 1.25
+        },
+        {   // Oven
+            id: 2121,
+            x_pts: 1.25
         },
         {   // WB 6+
             id: 1413,
@@ -489,41 +531,6 @@ var tm_boosters_jpn = {
         {   // Akainu v2
             id: 2023,
             type: 'legend',
-            x_pts: 1.2
-        },
-        {   // Gear 4
-            id: 2074,
-            type: 'legend',
-            x_pts: 1.2
-        },
-        {   // Nami
-            id: 2076,
-            type: 'legend',
-            x_pts: 1.2
-        },
-        {   // Tesoro
-            id: 2099,
-            type: 'legend',
-            x_pts: 1.2
-        },
-        {   // Brulee
-            id: 2115,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Amande
-            id: 2117,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Bobbin
-            id: 2119,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Oven
-            id: 2121,
-            type: 'rr',
             x_pts: 1.2
         },
         {   // Akainu
