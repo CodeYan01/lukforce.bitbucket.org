@@ -876,4 +876,9 @@ var specialBgEvents = [
         start: '2018-06-28',
         end: '2018-07-03'
     },
+    {
+        id: 'celestials',
+        start: '2018-06-29',
+        end: '2018-07-03'
+    },
 ]
