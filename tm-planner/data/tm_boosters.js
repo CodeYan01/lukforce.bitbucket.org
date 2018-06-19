@@ -801,27 +801,35 @@ var tm_boosters = {
     ],
     1941: [
         {   // Blackbeard
+            id: 1936,
+            x_pts: 2
+        },
+        {   // Blackbeard
             id: 1937,
             x_pts: 2
         },
-        {   // Vivi
-            id: 1914,
+        {   // Doffy v2
+            id: 1910,
+            x_pts: 1.5
+        },
+        {   // Franky
+            id: 1935,
+            x_pts: 1.5
+        },
+        {   // Thatch
+            id: 1938,
             x_pts: 1.5
         },
         {   // Thatch
             id: 1939,
             x_pts: 1.5
         },
-        {   // Urouge
-            id: 1912,
-            x_pts: 1.35
-        },
         {   // G4
             id: 1916,
             x_pts: 1.35
         },
-        {   // Franky
-            id: 1935,
+        {   // Ace
+            id: 1941,
             x_pts: 1.35
         },
         {   // Boa Hancock v2
@@ -849,14 +857,44 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Doffy v2
-            id: 1910,
-            type: 'legend',
-            x_pts: 1.2
-        },
         {   // Bartolomeo 6+
             id: 1928,
             type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Caesar
+            id: 838,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Lao G
+            id: 880,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Dellinger
+            id: 997,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Dagama
+            id: 1129,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // SW Zoro
+            id: 1175,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Bastille
+            id: 1238,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Perona
+            id: 1540,
+            type: 'rr',
             x_pts: 1.2
         },
         {   // Zoro
@@ -869,6 +907,26 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
+        {   // Reiju
+            id: 1834,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Ichiji
+            id: 1836,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Niji
+            id: 1838,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Yonji
+            id: 1840,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // Akainu
             id: 1849,
             type: 'rr',
@@ -876,6 +934,26 @@ var tm_boosters = {
         },
         {   // Squard
             id: 1851,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Bellamy
+            id: 1871,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kyros
+            id: 1873,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Violet
+            id: 1875,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Rebecca
+            id: 1877,
             type: 'rr',
             x_pts: 1.2
         },
@@ -916,6 +994,16 @@ var tm_boosters = {
         },
         {   // Coby
             id: 1926,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Urouge
+            id: 1912,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Vivi
+            id: 1914,
             type: 'rr',
             x_pts: 1.2
         },
