@@ -101,6 +101,7 @@ var gw = {
     1842: '75880',      // Caribou
     1855: '79679',      // Apoo & X-Drake
     1867: '80645',      // Hawkins & Urouge
+    1893: '84033',      // Mihawk & Perona
 
     // Raids
     227: '4142',        // Mihawk

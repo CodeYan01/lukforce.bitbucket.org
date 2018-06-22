@@ -101,6 +101,7 @@ var nakama = {
     1842: '2184200',    // Caribou
     1855: '2185500',    // Apoo & X-Drake
     1867: '2186700',    // Hawkins & Urouge
+    1893: '2189100',    // Mihawk & Perona
 
     // Raids
     227: '4022700',     // Mihawk

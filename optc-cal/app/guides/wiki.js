@@ -101,6 +101,7 @@ var wiki = {
     1842: 'wiki/fortnight/caribou',
     1855: 'wiki/fortnight/apoodrake',
     1867: 'wiki/fortnight/hawkinsurouge',
+    1893: '',                               // Mihawk & Perona
 
     // Raids
     227: 'wiki/raidboss/mihawk',
