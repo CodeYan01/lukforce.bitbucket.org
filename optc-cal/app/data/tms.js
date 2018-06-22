@@ -19,4 +19,9 @@ var tms = {
         thumb: 1916,
         info: ''
     },
+    1941: {
+        name: 'Ace',
+        thumb: 1941,
+        info: 'i.redd.it/pzbzhnv2bk411.png'
+    },
 };
