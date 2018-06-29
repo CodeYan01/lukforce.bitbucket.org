@@ -29,6 +29,7 @@ var videoWiki = {
     1595: 'raidboss/fujitora',
     1696: 'raidboss/vergo',
     1815: 'raidboss/sanji',
+    1830: 'raidboss/caesarclown',
     1879: 'raidboss/bartolomeo',
     1924: 'raidboss/rayleigh',
     1943: 'raidboss/senorpink',

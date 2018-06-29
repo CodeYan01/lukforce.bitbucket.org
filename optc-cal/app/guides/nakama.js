@@ -133,6 +133,7 @@ var nakama = {
     1595: '4159500',    // Fujitora
     1696: '4169600',    // Vergo
     1815: '4181500',    // Sanji
+    1830: '4183000',    // Caesar
     1879: '4187900',    // Bartolomeo
     1924: '4192400',    // Rayleigh
     1943: '4194300',    // Senor Pink

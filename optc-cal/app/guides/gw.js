@@ -133,6 +133,7 @@ var gw = {
     1595: '56946',      // Fujitora
     1696: '63217',      // Vergo
     1815: '70374',      // Sanji
+    1830: '75007',      // Caesar
     1879: '81714',      // Bartolomeo
     1924: '85580',      // Rayleigh
     1943: '88927',      // Senor Pink
