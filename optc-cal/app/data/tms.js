@@ -24,4 +24,9 @@ var tms = {
         thumb: 1941,
         info: 'i.redd.it/pzbzhnv2bk411.png'
     },
+    1972: {
+        name: 'Sabo',
+        thumb: 1972,
+        info: ''
+    },
 };

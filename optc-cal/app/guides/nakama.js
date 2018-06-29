@@ -237,6 +237,7 @@ var nakama = {
     1889: '8188900',    // Cavendish
     1916: '8191600',    // Gear 4
     1941: '8194100',    // Ace
+    1972: '8197200',    // Sabo
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

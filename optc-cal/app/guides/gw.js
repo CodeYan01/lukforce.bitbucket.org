@@ -237,6 +237,7 @@ var gw = {
     1889: '83086',      // Cavendish
     1916: '85567',      // Gear 4
     1941: '87389',      // Ace
+    1972: '91382',      // Sabo
 
     // Events
     'bb_1314': '61665', // Three Admirals
