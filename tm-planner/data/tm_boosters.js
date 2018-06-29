@@ -1153,4 +1153,337 @@ var tm_boosters = {
             x_pts: 1.2
         },
     ],
+    1972: [
+        {   // Blackbeard
+            id: 1937,
+            x_pts: 1.5
+        },
+        {   // Robin
+            id: 1951,
+            x_pts: 1.5
+        },
+        {   // Thatch
+            id: 1939,
+            x_pts: 1.35
+        },
+        {   // Ace
+            id: 1941,
+            x_pts: 1.35
+        },
+        {   // Boa Hancock v2
+            id: 1747,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Lucy
+            id: 1794,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 1832,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Fujitora v2
+            id: 1869,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Rayleigh v2
+            id: 1883,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Doffy v2
+            id: 1910,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Croc 6+
+            id: 1927,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 1935,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 210,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kalifa
+            id: 752,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // 3D2Y Robin
+            id: 908,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Violet
+            id: 995,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // SW Nami
+            id: 1119,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // SW Robin
+            id: 1208,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Perona
+            id: 1540,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Wanda
+            id: 1573,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Shishilian
+            id: 1575,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1713,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 1721,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1849,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Squard
+            id: 1851,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kyros
+            id: 1873,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Violet
+            id: 1875,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Rebecca
+            id: 1877,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 1885,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Gladius
+            id: 1887,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 1902,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Sugar
+            id: 1906,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Trebol
+            id: 1908,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Coby
+            id: 1926,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Koala
+            id: 1953,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Nami
+            id: 1955,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Carrot
+            id: 1957,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Shirahoshi
+            id: 1959,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Heracles
+            id: 516,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Sabo
+            id: 1727,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Bellamy
+            id: 1739,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Kuma
+            id: 1772,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Akainu
+            id: 1826,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Barto
+            id: 1879,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Pink
+            id: 1943,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Hannyabal
+            id: 929,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Nico Olvia
+            id: 1049,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Jabra
+            id: 1137,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Koala
+            id: 1242,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Don Sai
+            id: 1426,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 1581,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Monet
+            id: 1582,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Shirahoshi
+            id: 1597,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Trebol
+            id: 1737,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Carrot
+            id: 1810,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Wanda
+            id: 1812,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Perona
+            id: 1891,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1893,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Boa Sandersonia
+            id: 1931,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Boa Marigold
+            id: 1932,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Boa Hancock
+            id: 1933,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1808,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // WB
+            id: 1853,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1889,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // G4
+            id: 1916,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };

@@ -34,6 +34,13 @@ var tm_opponents = {
         1851: ['Squard',        'DEX',      2],
         1941: ['Ace',           'STR',      4]
     },
+    1972: {
+        1404: ['Luffy',         'QCK',      3],
+        1467: ['Cavendish',     'PSY',      2],
+        1536: ['Duval',         'PSY',      0],
+        1926: ['Coby',          'INT',      1],
+        1972: ['Sabo',          'DEX',      4]
+    },
     2064: [
         ['Sengoku',     'PSY'],
         ['T-Bone',      'QCK'],
