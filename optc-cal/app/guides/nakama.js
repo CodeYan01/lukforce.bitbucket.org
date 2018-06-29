@@ -196,7 +196,9 @@ var nakama = {
     1220: '5121901',    // Byrnndi World
     1251: '5125001',    // Marco
     1292: '5129101',    // Lao G
+    1294: '5129301',    // Boa Sandersonia
     1310: '5130901',    // Kinemon
+    1312: '5131101',    // Boa Marigold
     1338: '5133701',    // Kanjuro
     1341: '5134001',    // Gedatsu
     1376: '5137501',    // Dellinger
@@ -224,6 +226,7 @@ var nakama = {
     1828: '5182701',    // Shishilian
     1861: '5186001',    // Raizo
     1897: '5189601',    // Eneru
+    1945: '5194401',    // Pedro
 
     1863: '5186201',    // Kinemon (N)
     1899: '5189801',    // Killer (N)

@@ -196,7 +196,9 @@ var gw = {
     1220: '36719',      // Byrnndi World
     1251: '38056',      // Marco
     1292: '39532',      // Lao G
+    1294: '39533',      // Boa Sandersonia
     1310: '63087',      // Kinemon
+    1312: '43750',      // Boa Marigold
     1338: '57556',      // Kanjuro
     1341: '44767',      // Gedatsu
     1376: '46258',      // Dellinger
@@ -224,6 +226,7 @@ var gw = {
     1828: '74382',      // Shishilian
     1861: '80286',      // Raizo
     1897: '84402',      // Eneru
+    1945: '87083',      // Pedro
 
     1863: '80292',      // Kinemon (N)
     1899: '84586',      // Killer (N)

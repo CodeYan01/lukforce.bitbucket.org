@@ -196,7 +196,9 @@ var wiki = {
     1220: 'wiki/coliseum/byrnndi',
     1251: '',                               // Marco
     1292: 'comments/84fp9b',                // Lao G
+    1294: '',                               // Boa Sandersonia
     1310: 'comments/6ywcrv',                // Kinemon
+    1312: '',                               // Boa Marigold
     1338: 'comments/70qjmd',                // Kanjuro
     1341: '',                               // Gedatsu
     1376: 'comments/83o81l',                // Dellinger
@@ -224,6 +226,7 @@ var wiki = {
     1828: 'comments/7t79sc',                // Shishilian
     1861: 'comments/8ahe86',                // Raizo
     1897: '',                               // Eneru
+    1945: '',                               // Pedro
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

@@ -199,10 +199,20 @@ var coliseums = {
         chaos_only: true,
         thumb: 1292
     },
+    1294: {
+        name: 'Boa Sandersonia',
+        chaos_only: false,
+        thumb: 1294
+    },
     1310: {
         name: 'Kinemon',
         chaos_only: true,
         thumb: 1310
+    },
+    1312: {
+        name: 'Boa Marigold',
+        chaos_only: false,
+        thumb: 1312
     },
     1338: {
         name: 'Kanjuro',
@@ -338,6 +348,11 @@ var coliseums = {
         name: 'Eneru',
         chaos_only: true, // Not but important
         thumb: 1897
+    },
+    1945: {
+        name: 'Pedro',
+        chaos_only: true, // Not but important
+        thumb: 1945
     },
 
     // Neo Coliseums

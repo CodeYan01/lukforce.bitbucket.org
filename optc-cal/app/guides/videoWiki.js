@@ -91,7 +91,9 @@ var videoWiki = {
     1220: 'coliseum/byrnndi_world',
     1251: 'coliseum/marco',
     1292: 'coliseum/lao_g',
+    1294: 'coliseum/boa_sandersonia',
     1310: 'coliseum/kinemon',
+    1312: 'coliseum/boa_marigold',
     1338: 'coliseum/kanjuro',
     1341: 'coliseum/gedatsu',
     1376: 'coliseum/dellinger',
@@ -119,6 +121,7 @@ var videoWiki = {
     1828: 'coliseum/sicilian',
     1861: 'coliseum/raizo',
     1897: 'coliseum/enel',
+    1945: 'coliseum/pedro',
 
     1863: '',   // Kinemon (N)
     1899: 'coliseum/killerkai',
