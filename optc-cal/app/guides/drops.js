@@ -102,6 +102,7 @@ drops = {
     1855: 'Supernova!%20Apoo%20and%20Drake!%20Fortnight',
     1867: 'Supernova!%20Hawkins%20and%20Urouge!%20Fortnight',
     1893: 'Perona%27s%20Strange%20Communal%20Life!%20Fortnight',
+    1933: 'Binding%20and%20Bonds!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

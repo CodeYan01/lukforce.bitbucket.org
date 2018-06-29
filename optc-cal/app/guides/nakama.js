@@ -102,6 +102,7 @@ var nakama = {
     1855: '2185500',    // Apoo & X-Drake
     1867: '2186700',    // Hawkins & Urouge
     1893: '2189100',    // Mihawk & Perona
+    1933: '2193300',    // Boa Sisters
 
     // Raids
     227: '4022700',     // Mihawk

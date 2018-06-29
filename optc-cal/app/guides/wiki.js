@@ -102,6 +102,7 @@ var wiki = {
     1855: 'wiki/fortnight/apoodrake',
     1867: 'wiki/fortnight/hawkinsurouge',
     1893: '',                               // Mihawk & Perona
+    1933: '',                               // Boa Sisters
 
     // Raids
     227: 'wiki/raidboss/mihawk',
