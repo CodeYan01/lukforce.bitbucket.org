@@ -1375,6 +1375,11 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Caesar
+            id: 1830,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Barto
             id: 1879,
             type: 'raid',
