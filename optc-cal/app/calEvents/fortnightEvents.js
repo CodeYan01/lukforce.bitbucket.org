@@ -1117,4 +1117,16 @@ var fortnightEvents = [
         end: '2018-07-17',
         is_replay: false
     },
+    {
+        id: [1242, 1597, 1810],
+        start: '2018-07-03',
+        end: '2018-07-10',
+        is_replay: true
+    },
+    {
+        id: [1049, 1137, 1735],
+        start: '2018-07-10',
+        end: '2018-07-17',
+        is_replay: true
+    },
 ];
