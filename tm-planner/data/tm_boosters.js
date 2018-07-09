@@ -1154,6 +1154,22 @@ var tm_boosters = {
         },
     ],
     1972: [
+        {   // Boa Hancock
+            id: 1967,
+            x_pts: 2
+        },
+        {   // Boa Hancock
+            id: 1968,
+            x_pts: 2
+        },
+        {   // Miss Valentine
+            id: 1969,
+            x_pts: 1.5
+        },
+        {   // Miss Valentine
+            id: 1970,
+            x_pts: 1.5
+        },
         {   // Blackbeard
             id: 1937,
             x_pts: 1.5
@@ -1388,6 +1404,21 @@ var tm_boosters = {
         {   // Pink
             id: 1943,
             type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Boa Sandersonia
+            id: 1294,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Boa Marigold
+            id: 1312,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Pedro
+            id: 1945,
+            type: 'coliseum',
             x_pts: 1.2
         },
         {   // Hannyabal
