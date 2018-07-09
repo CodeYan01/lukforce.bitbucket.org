@@ -407,6 +407,10 @@ var fortnights = {
         name: 'Mihawk & Perona',
         thumb: 1893
     },
+    1918: {
+        name: 'Reiju & Sanji',
+        thumb: 1918
+    },
     1933: {
         name: 'Boa Sisters',
         thumb: 1933

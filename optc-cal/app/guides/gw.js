@@ -102,6 +102,7 @@ var gw = {
     1855: '79679',      // Apoo & X-Drake
     1867: '80645',      // Hawkins & Urouge
     1893: '84033',      // Mihawk & Perona
+    1918: '85781',      // Reiju & Sanji
     1933: '86344',      // Boa Sisters
 
     // Raids

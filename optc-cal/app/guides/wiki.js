@@ -102,6 +102,7 @@ var wiki = {
     1855: 'wiki/fortnight/apoodrake',
     1867: 'wiki/fortnight/hawkinsurouge',
     1893: '',                               // Mihawk & Perona
+    1918: '',                               // Reiju & Sanji
     1933: '',                               // Boa Sisters
 
     // Raids
