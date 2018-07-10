@@ -30,7 +30,13 @@ function getBoosters(tmId, server) {
 
     // Change 2x or 2.25x version
     $('.div_x').hide();
-    if (tmId == 2064) {
+    if (tmId == 1972) {
+        // TM Sabo
+        $('#div_2x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x').show();
+        $('#div_1x').show();
+    } else if (tmId == 2064) {
         // TM Kizaru
         $('#div_2_25x').show();
         $('#div_1_75x').show();

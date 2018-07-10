@@ -1186,6 +1186,10 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.35
         },
+        {   // Sabo
+            id: 1972,
+            x_pts: 1.35
+        },
         {   // Boa Hancock v2
             id: 1747,
             type: 'legend',
@@ -1421,57 +1425,7 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Hannyabal
-            id: 929,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Nico Olvia
-            id: 1049,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Jabra
-            id: 1137,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Koala
-            id: 1242,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Don Sai
-            id: 1426,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Law
-            id: 1581,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Monet
-            id: 1582,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Shirahoshi
-            id: 1597,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Trebol
-            id: 1737,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
         {   // Carrot
-            id: 1810,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Wanda
             id: 1812,
             type: 'fortnight',
             x_pts: 1.2
@@ -1520,6 +1474,46 @@ var tm_boosters = {
             id: 1916,
             type: 'other',
             x_pts: 1.2
+        },
+        {   // Hannyabal
+            id: 929,
+            x_pts: 1
+        },
+        {   // Nico Olvia
+            id: 1049,
+            x_pts: 1
+        },
+        {   // Jabra
+            id: 1137,
+            x_pts: 1
+        },
+        {   // Koala
+            id: 1242,
+            x_pts: 1
+        },
+        {   // Don Sai
+            id: 1426,
+            x_pts: 1
+        },
+        {   // Law
+            id: 1581,
+            x_pts: 1
+        },
+        {   // Monet
+            id: 1582,
+            x_pts: 1
+        },
+        {   // Shirahoshi
+            id: 1597,
+            x_pts: 1
+        },
+        {   // Trebol
+            id: 1737,
+            x_pts: 1
+        },
+        {   // Wanda
+            id: 1810,
+            x_pts: 1
         },
     ],
 };
