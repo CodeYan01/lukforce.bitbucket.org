@@ -18,10 +18,10 @@ function getThumb(thumbId) {
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png';
 
     // Special cases for new thumbs
-    if (thumbId === 2132 ||
-        thumbId === 2134 ||
-        thumbId === 2135 ||
-        thumbId === 2137
+    if (thumbId === 2169 ||
+        thumbId === 2171 ||
+        thumbId === 2173 ||
+        thumbId === 2175
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 

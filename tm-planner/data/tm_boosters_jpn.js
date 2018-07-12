@@ -714,4 +714,307 @@ var tm_boosters_jpn = {
             x_pts: 1.2
         },
     ],
+    2175: [
+        {   // Inuarashi
+            id: 2169,
+            x_pts: 2
+        },
+        {   // Shirahoshi
+            id: 2173,
+            x_pts: 1.75
+        },
+        {   // Shishilian
+            id: 2171,
+            x_pts: 1.5
+        },
+        {   // Katakuri
+            id: 2113,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Sanji v2
+            id: 2148,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Tesoro
+            id: 2099,
+            x_pts: 1.25
+        },
+        {   // Croc
+            id: 2137,
+            x_pts: 1.25
+        },
+        {   // Zeff
+            id: 2150,
+            x_pts: 1.25
+        },
+        {   // Pudding
+            id: 2152,
+            x_pts: 1.25
+        },
+        {   // Tamago
+            id: 2154,
+            x_pts: 1.25
+        },
+        {   // Pekoms
+            id: 2156,
+            x_pts: 1.25
+        },
+        {   // Log Luffy
+            id: 578,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Log Luffy
+            id: 1121,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 935,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Inuarashi
+            id: 1571,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Nekomamushi
+            id: 1652,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Judge 6+
+            id: 2138,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Magellan 6+
+            id: 2159,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Reiju 5+
+            id: 2139,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Ichiji 5+
+            id: 2140,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Niji 5+
+            id: 2141,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Yonji 5+
+            id: 2142,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Heracles
+            id: 516,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 836,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 1432,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Fujitora
+            id: 1595,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Doffy
+            id: 1623,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Sabo
+            id: 1727,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Kizaru
+            id: 1780,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Caesar
+            id: 1830,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Neo Boa Hancock
+            id: 2070,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Cracker
+            id: 2158,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Saga
+            id: 1089,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Gladius
+            id: 1401,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Hajrudin
+            id: 1553,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neo Diamante
+            id: 2017,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neptune
+            id: 2123,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Opera
+            id: 2163,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Breed
+            id: 797,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Hannyabal
+            id: 929,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Indigo
+            id: 1095,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 1112,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Baby 5
+            id: 1287,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pekoms
+            id: 1357,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Doc Q
+            id: 1608,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Camie
+            id: 1671,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Kid
+            id: 1690,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Urouge
+            id: 1865,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Hawkins
+            id: 1867,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1893,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Boa Hancock
+            id: 1933,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Yasopp
+            id: 2046,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Diamante
+            id: 2144,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Rebecca
+            id: 2146,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Baby 5
+            id: 2165,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Don Sai
+            id: 2167,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Summer Nami
+            id: 681,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Summer Robin
+            id: 683,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Summer Perona
+            id: 685,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Vergo
+            id: 1715,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Ace
+            id: 1941,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Big Mom
+            id: 2109,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
