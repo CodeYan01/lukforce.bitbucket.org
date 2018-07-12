@@ -27,6 +27,6 @@ var tms = {
     1972: {
         name: 'Sabo',
         thumb: 1972,
-        info: ''
+        info: 'i.imgur.com/Sd6BIUR.png'
     },
 };
