@@ -771,11 +771,6 @@ var tm_boosters_jpn = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Jinbe
-            id: 935,
-            type: 'legend',
-            x_pts: 1.2
-        },
         {   // Inuarashi
             id: 1571,
             type: 'legend',
@@ -783,6 +778,11 @@ var tm_boosters_jpn = {
         },
         {   // Nekomamushi
             id: 1652,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Jinbe 6+
+            id: 2066,
             type: 'legend',
             x_pts: 1.2
         },
