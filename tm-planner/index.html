@@ -164,6 +164,34 @@
         </div>
     </div>
 
+    <div id="confirm-save-modal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-exlaimation-circle"></i>&nbsp;Overwrite Existing Save Slot?
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body" id="confirm-save-info">
+                    You have previously saved teams. Do you want to overwrite the saved data?
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-primary" id="confirm-save-button" data-dismiss="modal">
+                        <i class="fas fa-check"></i>&nbsp;Confirm
+                    </button>
+                    <button type="button" class="btn btn-sm btn-seconday" data-dismiss="modal">
+                        <i class="fas fa-times"></i>&nbsp;Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="container">
         <div class="row">
             <div class="col offset-lg-4 col-lg-3 offset-md-3 col-md-5 offset-sm-2 col-sm-6 col-10">
@@ -549,6 +577,13 @@
                 <button type="button" class="btn btn-sm btn-primary sl-btn not-read-only" id="save-button" disabled>Save</button>
                 <button type="button" class="btn btn-sm btn-info sl-btn not-read-only" id="load-button" disabled>Load</button>
                 Last Saved: <span id="last-save">N/A</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col offset-md-6 col-12">
+                <input type="checkbox" class="confirm-save" id="confirm-save-checkbox" />
+                <label class="confirm-save" for="confirm-save">Confirm before Saving</label>
             </div>
         </div>
 

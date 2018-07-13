@@ -569,8 +569,61 @@ function updateAllPts() {
     });
 }
 
+function doSave(tmId, server) {
+    var teams = {};
+
+    if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
+        $('.team').each(function() {
+            var opId = $(this).data('op_id');
+            var team = getTeamUnits($(this));
+
+            // Check for clone if Friend Captain is not picked
+            if (team[0] == 0 && $(this).find('.booster-clone').length > 0) {
+                var friendCapClone = $(this).find('.booster-clone');
+
+                // Make unit ID negative to identify as clone
+                team[0] = parseInt(friendCapClone.data('id')) * -1;
+            }
+
+            teams[opId] = team;
+        });
+    } else {
+        $('.team').each(function() {
+            var team_num = $(this).data('team');
+            var team = getTeamUnits($(this));
+
+            // Check for clone if Friend Captain is not picked
+            if (team[0] == 0 && $(this).find('.booster-clone').length > 0) {
+                var friendCapClone = $(this).find('.booster-clone');
+
+                // Make unit ID negative to identify as clone
+                team[0] = parseInt(friendCapClone.data('id')) * -1;
+            }
+
+            teams[team_num] = team;
+        });
+    }
+
+    var serverStr = server === 'glb' ? '' : '_jpn';
+    localStorage.setItem('teams_' + tmId + serverStr, JSON.stringify(teams));
+
+    var dontHaves = [];
+
+    $('#dont-have').find('.booster').each(function() {
+        dontHaves.push($(this).data('id'));
+    });
+
+    localStorage.setItem('dontHaves_' + tmId + serverStr, JSON.stringify(dontHaves));
+
+    // Update last save time
+    var now = moment().format('lll');
+    $('#last-save').html(now);
+
+    localStorage.setItem('lastSave_' + tmId + serverStr, now);
+}
+
 $(document).ready(function() {
-    // Retrieve Server
+    // Retrieve Settings
     var server = 'glb';
     if (localStorage.getItem('server') !== null) {
         server = localStorage.getItem('server');
@@ -578,6 +631,14 @@ $(document).ready(function() {
 
         $('.tm-option').hide();
         $('.' + server + '-tm').show();
+    }
+
+    var confirmSave = false;
+    if (localStorage.getItem('confirmSave') !== null) {
+        if (localStorage.getItem('confirmSave') == 'true') {
+            confirmSave = true;
+            $('#confirm-save-checkbox').prop('checked', true);
+        }
     }
 
     var tmId = 0;
@@ -725,6 +786,17 @@ $(document).ready(function() {
 
         // Refresh page
         location.reload();
+    });
+
+    // Set confirm save
+    $('#confirm-save-checkbox').click(function() {
+        if ($(this).prop('checked')) {
+            confirmSave = true;
+            localStorage.setItem('confirmSave', true);
+        } else {
+            confirmSave = false;
+            localStorage.setItem('confirmSave', false);
+        }
     });
 
     $('.team-slot').droppable({
@@ -926,56 +998,18 @@ $(document).ready(function() {
 
     // Save teams
     $('#save-button').click(function() {
-        var teams = {};
-
-        if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
-            $('.team').each(function() {
-                var opId = $(this).data('op_id');
-                var team = getTeamUnits($(this));
-
-                // Check for clone if Friend Captain is not picked
-                if (team[0] == 0 && $(this).find('.booster-clone').length > 0) {
-                    var friendCapClone = $(this).find('.booster-clone');
-
-                    // Make unit ID negative to identify as clone
-                    team[0] = parseInt(friendCapClone.data('id')) * -1;
-                }
-
-                teams[opId] = team;
-            });
-        } else {
-            $('.team').each(function() {
-                var team_num = $(this).data('team');
-                var team = getTeamUnits($(this));
-
-                // Check for clone if Friend Captain is not picked
-                if (team[0] == 0 && $(this).find('.booster-clone').length > 0) {
-                    var friendCapClone = $(this).find('.booster-clone');
-
-                    // Make unit ID negative to identify as clone
-                    team[0] = parseInt(friendCapClone.data('id')) * -1;
-                }
-
-                teams[team_num] = team;
-            });
-        }
-
         var serverStr = server === 'glb' ? '' : '_jpn';
-        localStorage.setItem('teams_' + tmId + serverStr, JSON.stringify(teams));
+        var lastSave = localStorage.getItem('lastSave_' + tmId + serverStr);
 
-        var dontHaves = [];
+        if (confirmSave && lastSave !== null)
+            $('#confirm-save-modal').modal();
+        else
+            doSave(tmId, server);
+    });
 
-        $('#dont-have').find('.booster').each(function() {
-            dontHaves.push($(this).data('id'));
-        });
-
-        localStorage.setItem('dontHaves_' + tmId + serverStr, JSON.stringify(dontHaves));
-
-        // Update last save time
-        var now = moment().format('lll');
-        $('#last-save').html(now);
-
-        localStorage.setItem('lastSave_' + tmId + serverStr, now);
+    // Save teams from confirm save dialog
+    $('#confirm-save-button').click(function() {
+        doSave(tmId, server);
     });
 
     // Load teams
