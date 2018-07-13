@@ -366,4 +366,9 @@ var coliseums = {
         chaos_only: true,
         thumb: 1899
     },
+    1976: {
+        name: 'X-Drake (N)',
+        chaos_only: true,
+        thumb: 1976
+    },
 };

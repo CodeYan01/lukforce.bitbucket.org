@@ -1586,4 +1586,13 @@ var coliseumEvents = [
         end: '2018-07-29',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: 1976,
+        repId: [],
+        start: '2018-07-19',
+        end: '2018-07-26',
+        new_batch: true
+    },
 ]
