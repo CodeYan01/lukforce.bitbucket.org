@@ -101,9 +101,9 @@ var wiki = {
     1842: 'wiki/fortnight/caribou',
     1855: 'wiki/fortnight/apoodrake',
     1867: 'wiki/fortnight/hawkinsurouge',
-    1893: '',                               // Mihawk & Perona
+    1893: 'wiki/fortnight/mihawkperona',
     1918: '',                               // Reiju & Sanji
-    1933: '',                               // Boa Sisters
+    1933: 'wiki/fortnight/boasisters',
 
     // Raids
     227: 'wiki/raidboss/mihawk',
@@ -135,7 +135,7 @@ var wiki = {
     1595: 'wiki/raidboss/fujitora',
     1696: 'comments/7eeu5h',                // Vergo
     1815: 'wiki/raidboss/sanji',
-    1830: '',                               // Caesar
+    1830: 'wiki/raidboss/caesar',
     1879: '',                               // Bartolomeo
     1924: 'comments/77jr7y',                // Rayleigh
     1943: '',                               // Senor Pink
@@ -204,7 +204,7 @@ var wiki = {
     1341: '',                               // Gedatsu
     1376: 'comments/83o81l',                // Dellinger
     1378: '',                               // Marguerite
-    1401: '',                               // Gladius
+    1401: 'wiki/coliseum/gladius',
     1422: 'comments/7t5pis',                // Diamante
     1423: '',                               // T-Bone
     1424: '',                               // Gin
@@ -223,11 +223,11 @@ var wiki = {
     1667: 'wiki/coliseum/kyros',
     1694: 'comments/7v81g8',                // Inuarashi
     1733: 'wiki/coliseum/nekomamushi',
-    1792: '',                               // Lucy
+    1792: 'wiki/coliseum/lucy',
     1828: 'comments/7t79sc',                // Shishilian
     1861: 'comments/8ahe86',                // Raizo
-    1897: '',                               // Eneru
-    1945: '',                               // Pedro
+    1897: 'wiki/coliseum/enel',
+    1945: 'wiki/coliseum/pedro',
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
