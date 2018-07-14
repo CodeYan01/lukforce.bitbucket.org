@@ -63,10 +63,10 @@ var tm_opponents = {
         2137: ['Croc',          'INT',      4]
     },
     2175: {
-        1716: ['Caesar',        'STR',      0],
-        1880: ['Hody',          'INT',      1],
-        1895: ['Urouge',        'QCK',      2],
-        2111: ['Kid',           'DEX',      3],
+        1716: ['Caesar',        'STR',      3],
+        1880: ['Hody',          'INT',      2],
+        1895: ['Urouge',        'QCK',      1],
+        2111: ['Kid',           'DEX',      0],
         2175: ['Jack',          'QCK',      4]
     },
     9999: [
