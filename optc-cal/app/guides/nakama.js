@@ -99,7 +99,7 @@ var nakama = {
     1810: '2181200',    // Wanda & Carrot
     1818: '2181800',    // Riku Family
     1842: '2184200',    // Caribou
-    1855: '2185500',    // Apoo & X-Drake
+    1855: '2185500',    // Apoo & X Drake
     1867: '2186700',    // Hawkins & Urouge
     1893: '2189100',    // Mihawk & Perona
     1918: '2191800',    // Reiju & Sanji
@@ -186,7 +186,7 @@ var nakama = {
     1043: '5104201',    // Killer
     1087: '5108601',    // Musshuru
     1089: '5108801',    // Saga
-    1091: '5109001',    // X-Drake
+    1091: '5109001',    // X Drake
     1102: '5110101',    // Zephyr
     1104: '5110301',    // Ain
     1106: '5110501',    // Binz
@@ -231,7 +231,7 @@ var nakama = {
 
     1863: '5186201',    // Kinemon (N)
     1899: '5189801',    // Killer (N)
-    1976: '5197501',    // X-Drake (N)
+    1976: '5197501',    // X Drake (N)
 
     // TMs
     1808: '8180800',    // Mihawk

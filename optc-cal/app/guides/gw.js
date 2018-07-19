@@ -99,7 +99,7 @@ var gw = {
     1810: '71417',      // Wanda & Carrot
     1818: '72656',      // Riku Family
     1842: '75880',      // Caribou
-    1855: '79679',      // Apoo & X-Drake
+    1855: '79679',      // Apoo & X Drake
     1867: '80645',      // Hawkins & Urouge
     1893: '84033',      // Mihawk & Perona
     1918: '85781',      // Reiju & Sanji
@@ -186,7 +186,7 @@ var gw = {
     1043: '29617',      // Killer
     1087: '30801',      // Musshuru
     1089: '30800',      // Saga
-    1091: '58332',      // X-Drake
+    1091: '58332',      // X Drake
     1102: '33485',      // Zephyr
     1104: '33486',      // Ain
     1106: '33487',      // Binz
@@ -231,7 +231,7 @@ var gw = {
 
     1863: '80292',      // Kinemon (N)
     1899: '84586',      // Killer (N)
-    1976: '92469',      // X-Drake (N)
+    1976: '92469',      // X Drake (N)
 
     // TMs
     1808: '72766',      // Mihawk

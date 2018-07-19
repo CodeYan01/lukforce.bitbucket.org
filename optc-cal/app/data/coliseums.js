@@ -145,7 +145,7 @@ var coliseums = {
         thumb: 1089
     },
     1091: {
-        name: 'X-Drake',
+        name: 'X Drake',
         chaos_only: true,
         thumb: 1091
     },
@@ -367,7 +367,7 @@ var coliseums = {
         thumb: 1899
     },
     1976: {
-        name: 'X-Drake (N)',
+        name: 'X Drake (N)',
         chaos_only: true,
         thumb: 1976
     },

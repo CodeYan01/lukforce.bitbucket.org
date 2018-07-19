@@ -125,5 +125,5 @@ var videoWiki = {
 
     1863: '',   // Kinemon (N)
     1899: 'coliseum/killerkai',
-    1976: '',   // X-Drake (N)
+    1976: '',   // X Drake (N)
 };
