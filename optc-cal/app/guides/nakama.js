@@ -104,6 +104,7 @@ var nakama = {
     1893: '2189100',    // Mihawk & Perona
     1918: '2191800',    // Reiju & Sanji
     1933: '2193300',    // Boa Sisters
+    1965: '2196500',    // Oars
 
     // Raids
     227: '4022700',     // Mihawk

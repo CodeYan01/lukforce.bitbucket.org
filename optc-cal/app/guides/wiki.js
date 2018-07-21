@@ -104,6 +104,7 @@ var wiki = {
     1893: 'wiki/fortnight/mihawkperona',
     1918: '',                               // Reiju & Sanji
     1933: 'wiki/fortnight/boasisters',
+    1965: '',                               // Oars
 
     // Raids
     227: 'wiki/raidboss/mihawk',

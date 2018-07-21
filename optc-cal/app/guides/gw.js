@@ -104,6 +104,7 @@ var gw = {
     1893: '84033',      // Mihawk & Perona
     1918: '85781',      // Reiju & Sanji
     1933: '86344',      // Boa Sisters
+    1965: '91449',      // Oars
 
     // Raids
     227: '4142',        // Mihawk
