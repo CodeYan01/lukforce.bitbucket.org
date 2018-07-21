@@ -331,7 +331,7 @@ function showFooter() {
             if (!isPST
                 && (res['subType'] !== 'Blitz Battle' && spName !== 'Straw Hat Pirates')
                 && (res['subType'] !== 'Blitz Battle' && spName !== 'Donquixote Family')
-                && res['subType'] !== '3rd Anni'
+                && res['subType'] !== 'Socket Book'
                 && res['subType'] !== 'Tea Party'
                 && res['subType'] !== 'Past Memory'
             ) {
@@ -664,7 +664,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
                     || (event['type'] === 'special' && event['subType'] === 'Champion Challenge')
-                    || (event['type'] === 'special' && event['subType'] === '3rd Anni')
+                    || (event['type'] === 'special' && event['subType'] === 'Socket Book')
                     || (event['type'] === 'special' && event['subType'] === 'Tea Party')
                     || (event['type'] === 'special' && event['subType'] === 'Past Memory')
                 ) {

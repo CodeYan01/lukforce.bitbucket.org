@@ -68,9 +68,14 @@ var specials = {
         thumb: 1753
     },
 
-    '3rd_1600': {
-        type: '3rd Anni',
-        name: 'Showdown Luffy',
+    'sb_1023': {
+        type: 'Socket Book',
+        name: 'Ace',
+        thumb: 1023
+    },
+    'sb_1600': {
+        type: 'Socket Book',
+        name: 'Luffy',
         thumb: 1600
     },
 
