@@ -954,11 +954,11 @@ var specialBgEvents = [
     {
         id: '3rd_anni_ship_sp',
         start: '2018-07-24',
-        end: '2018-07-26'
+        end: '2018-07-27'
     },
     {
         id: '3rd_anni_ship',
-        start: '2018-07-26',
+        start: '2018-07-27',
         end: '2018-08-06'
     },
     {
