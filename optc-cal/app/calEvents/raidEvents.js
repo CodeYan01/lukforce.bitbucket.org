@@ -1169,10 +1169,12 @@ var raidEvents = [
     },
     {
         id: 1595,
-        start: '2018-08-03'
+        start: '2018-08-03',
+        ambush: garp
     },
     {
         id: 1432,
-        start: '2018-08-10'
+        start: '2018-08-10',
+        ambush: shanks
     },
 ]
