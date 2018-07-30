@@ -89,6 +89,7 @@ var videoWiki = {
     1145: 'coliseum/porche',
     1196: 'coliseum/gan_fall',
     1220: 'coliseum/byrnndi_world',
+    1222: 'coliseum/oars_jr',
     1251: 'coliseum/marco',
     1292: 'coliseum/lao_g',
     1294: 'coliseum/boa_sandersonia',
@@ -122,6 +123,7 @@ var videoWiki = {
     1861: 'coliseum/raizo',
     1897: 'coliseum/enel',
     1945: 'coliseum/pedro',
+    1978: 'coliseum/rayleigh',
 
     1863: '',   // Kinemon (N)
     1899: 'coliseum/killerkai',
