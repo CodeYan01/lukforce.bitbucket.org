@@ -140,7 +140,7 @@ var gw = {
     1879: '81714',      // Bartolomeo
     1924: '85580',      // Rayleigh
     1943: '88927',      // Senor Pink
-    2201: '',           // Doffy v2
+    2501: '',           // Doffy v2
 
     1623: '',           //'58437',      // Doflamingo (N)
     1669: '61266',      // Aokiji (N)

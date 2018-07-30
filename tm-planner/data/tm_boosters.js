@@ -132,7 +132,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Doffy v2
-            id: 2201,
+            id: 2501,
             type: 'raid',
             x_pts: 1.2
         },

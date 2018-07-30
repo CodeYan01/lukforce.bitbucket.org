@@ -14,7 +14,7 @@ function getThumb(thumbId) {
         paddedThumbId = "0" + paddedThumbId;
 
     // Special case for Doffy v2
-    if (thumbId === 5012 || thumbId === 2201)
+    if (thumbId === 5012 || thumbId === 2501)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png';
 
     // Special cases for new thumbs

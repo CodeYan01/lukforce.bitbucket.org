@@ -140,7 +140,7 @@ var nakama = {
     1879: '4187900',    // Bartolomeo
     1924: '4192400',    // Rayleigh
     1943: '4194300',    // Senor Pink
-    2201: '4220100',    // Doffy v2
+    2501: '4250100',    // Doffy v2
 
     1623: '4162300',    // Doflamingo (N)
     1669: '4166900',    // Aokiji (N)
