@@ -207,6 +207,7 @@ function showFooter() {
 
             var color = e['new_batch'] ? coliColorNew : coliColorRep;
             res['color'] = color;
+            res['textColor'] = 'black';
 
             eventArray.push(res);
         });
