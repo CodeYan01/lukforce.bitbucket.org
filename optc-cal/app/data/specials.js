@@ -247,4 +247,10 @@ var specials = {
         name: 'Akainu',
         thumb: 1314
     },
+
+    'db_1985': {
+        type: 'Double Characters',
+        name: 'Double Mision',
+        thumb: 1985
+    },
 }
