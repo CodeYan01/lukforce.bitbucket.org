@@ -102,7 +102,7 @@ var wiki = {
     1855: 'wiki/fortnight/apoodrake',
     1867: 'wiki/fortnight/hawkinsurouge',
     1893: 'wiki/fortnight/mihawkperona',
-    1918: '',                               // Reiju & Sanji
+    1918: 'wiki/fortnight/reijusanji',
     1933: 'wiki/fortnight/boasisters',
     1965: '',                               // Oars
 
