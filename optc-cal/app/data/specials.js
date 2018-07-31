@@ -231,4 +231,20 @@ var specials = {
         name: 'Zoro',
         thumb: 1900
     },
+
+    'hs_1192': {
+        type: 'High Seas',
+        name: 'Aokiji',
+        thumb: 1192
+    },
+    'hs_1240': {
+        type: 'High Seas',
+        name: 'Kizaru',
+        thumb: 1240
+    },
+    'hs_1314': {
+        type: 'High Seas',
+        name: 'Akainu',
+        thumb: 1314
+    },
 }
