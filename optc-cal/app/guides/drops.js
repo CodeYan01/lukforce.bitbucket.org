@@ -92,6 +92,8 @@ drops = {
     1649: 'Seeking%20The%20Best%20Art!%20Giolla%20and%20Brook!%20Fortnight',
     1670: 'Dead-On%20Prophecy?!%20Madam%20Sharley%20Fortnight',
     1690: 'Brutal%20Fiend!%20Eustass%20Kid%20Fortnight',
+    1709: 'Girls%20of%20Summer%20Paradise',
+    1711: 'Girls%20of%20Summer%20Paradise',
     1725: 'Royal%20Neptune%20Family!%20Fortnight',
     1735: 'Underground%20Trade%20Port!%20Escape!%20Fortnight',
     1766: 'Battle%20Royale!%20Fortnight',

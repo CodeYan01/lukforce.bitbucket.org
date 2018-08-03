@@ -92,6 +92,8 @@ var gw = {
     1649: '60686',      // Giolla & Brook
     1670: '61623',      // Madam Sharley
     1690: '62884',      // Kid
+    1709: '63271',      // Summer TS Nami
+    1711: '63272',      // Summer TS Robin
     1725: '64127',      // Neptune Family
     1735: '66022',      // Sugar & Trebol
     1766: '67117',      // Blue Gilly

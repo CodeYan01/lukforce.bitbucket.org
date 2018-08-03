@@ -367,6 +367,14 @@ var fortnights = {
         name: 'Kid',
         thumb: 1690
     },
+    1709: {
+        name: 'Summer TS Nami',
+        thumb: 1709
+    },
+    1711: {
+        name: 'Summer TS Robin',
+        thumb: 1711
+    },
     1725: {
         name: 'Neptune Family',
         thumb: 1725

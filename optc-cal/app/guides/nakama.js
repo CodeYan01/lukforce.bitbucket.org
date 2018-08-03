@@ -92,6 +92,8 @@ var nakama = {
     1649: '2164900',    // Giolla & Brook
     1670: '2167000',    // Madam Sharley
     1690: '2169000',    // Kid
+    1709: '6068300',    // Summer TS Nami
+    1711: '6068300',    // Summer TS Robin
     1725: '2172300',    // Neptune Family
     1735: '2173500',    // Sugar & Trebol
     1766: '2176600',    // Blue Gilly
