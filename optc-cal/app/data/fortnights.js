@@ -419,4 +419,8 @@ var fortnights = {
         name: 'Oars',
         thumb: 1965
     },
+    1980: {
+        name: 'Bege & Bonney',
+        thumb: 1980
+    },
 };

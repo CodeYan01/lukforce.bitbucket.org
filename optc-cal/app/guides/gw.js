@@ -105,6 +105,7 @@ var gw = {
     1918: '85781',      // Reiju & Sanji
     1933: '86344',      // Boa Sisters
     1965: '91449',      // Oars
+    1980: '93423',      // Bege & Bonney
 
     // Raids
     227: '4142',        // Mihawk

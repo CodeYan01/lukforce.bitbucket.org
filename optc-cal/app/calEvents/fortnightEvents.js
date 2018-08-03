@@ -1187,6 +1187,20 @@ var fortnightEvents = [
         end: '2018-08-07',
         is_replay: true
     },
+
+    // #############################
+    {
+        id: 1980,
+        start: '2018-08-07',
+        end: '2018-08-14',
+        is_replay: false
+    },
+    {
+        id: 1980,
+        start: '2018-08-14',
+        end: '2018-08-21',
+        is_replay: false
+    },
     {
         id: [1302, 1624, 1933],
         start: '2018-08-07',

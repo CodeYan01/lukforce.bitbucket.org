@@ -105,6 +105,7 @@ var wiki = {
     1918: 'wiki/fortnight/reijusanji',
     1933: 'wiki/fortnight/boasisters',
     1965: '',                               // Oars
+    1980: '',                               // Bege & Bonney
 
     // Raids
     227: 'wiki/raidboss/mihawk',

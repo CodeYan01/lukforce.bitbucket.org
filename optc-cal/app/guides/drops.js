@@ -105,6 +105,7 @@ drops = {
     1918: 'Final%20Thoughts%20to%20my%20Brother%20Sanji!%20Fortnight',
     1933: 'Binding%20and%20Bonds!%20Fortnight',
     1965: 'The%20Beast%27s%20Return%20Fortnight',
+    1980: 'Supernova!%20Bonney%20and%20Capone!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',
