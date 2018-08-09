@@ -54,8 +54,12 @@ function getBoosters(tmId, server) {
         $('#div_1_5x').show();
         $('#div_1_35x_v4').show();
         $('#div_1_25x').show();
-    } else if (tmId == 2175) {
+    } else if (
+        tmId == 2175 ||
+        tmId == 2211
+    ) {
         // TM Jack
+        // TM Eneru
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
