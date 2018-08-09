@@ -106,6 +106,7 @@ var gw = {
     1893: '84033',      // Mihawk & Perona
     1918: '85781',      // Reiju & Sanji
     1933: '86344',      // Boa Sisters
+    1947: '88585',      // Vander Decken
     1965: '91449',      // Oars
     1980: '93423',      // Bege & Bonney
 

@@ -106,6 +106,7 @@ var nakama = {
     1893: '2189100',    // Mihawk & Perona
     1918: '2191800',    // Reiju & Sanji
     1933: '2193300',    // Boa Sisters
+    1947: '2194700',    // Vander Decken
     1965: '2196500',    // Oars
     1980: '2198200',    // Bege & Bonney
 

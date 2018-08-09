@@ -423,6 +423,10 @@ var fortnights = {
         name: 'Boa Sisters',
         thumb: 1933
     },
+    1947: {
+        name: 'Vander Decken',
+        thumb: 1947
+    },
     1965: {
         name: 'Oars',
         thumb: 1965

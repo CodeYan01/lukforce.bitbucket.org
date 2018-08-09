@@ -106,6 +106,7 @@ drops = {
     1893: 'Perona%27s%20Strange%20Communal%20Life!%20Fortnight',
     1918: 'Final%20Thoughts%20to%20my%20Brother%20Sanji!%20Fortnight',
     1933: 'Binding%20and%20Bonds!%20Fortnight',
+    1947: 'I%27m%20Now%20Your%20Ideal%20Type!%20I%20Think%20Fortnight',
     1965: 'The%20Beast%27s%20Return%20Fortnight',
     1980: 'Supernova!%20Bonney%20and%20Capone!%20Fortnight',
 

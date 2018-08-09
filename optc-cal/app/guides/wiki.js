@@ -106,6 +106,7 @@ var wiki = {
     1893: 'wiki/fortnight/mihawkperona',
     1918: 'wiki/fortnight/reijusanji',
     1933: 'wiki/fortnight/boasisters',
+    1947: '',                               // Vander Decken
     1965: '',                               // Oars
     1980: '',                               // Bege & Bonney
 
