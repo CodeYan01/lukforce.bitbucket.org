@@ -17,6 +17,14 @@ function getThumb(thumbId) {
     if (thumbId === 5012 || thumbId === 2501)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png';
 
+    // Special case for Kung Fu Luffy
+    if (thumbId === 5014 || thumbId === 2503)
+        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
+
+    // Special case for Croc & Daz
+    if (thumbId === 5015 || thumbId === 2504)
+        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5015.png';
+
     // Special cases for new thumbs
     if (thumbId === 2169 ||
         thumbId === 2171 ||

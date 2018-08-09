@@ -68,9 +68,11 @@ function getBoosters(tmId, server) {
     }
 
     var boosters = [];
-    if (server === 'glb')
+    if (server === 'glb') {
         boosters = tm_boosters[tmId];
-    else
+        $('#div_1_2x_tm_rr').show();
+        $('#div_1_2x_tm').show();
+    } else
         boosters = tm_boosters_jpn[tmId];
 
     if (typeof boosters === 'undefined')

@@ -41,6 +41,13 @@ var tm_opponents = {
         1926: ['Coby',          'INT',      1],
         1972: ['Sabo',          'DEX',      4]
     },
+    2000: {
+         265: [['Meppo & ', 'Coby'],    ['INT', 'QCK'], 1],
+        1491: [['Mr. 5 & ', 'Ms. Val'], ['QCK', 'STR'], 0],
+        1543: [['Usopp & ', 'Chopper'], ['DEX', 'QCK'], 3],
+        1759: [['Brook & ', 'Pedro'],   ['QCK', 'INT'], 2],
+        2000: [['Sanji & ', 'Zoro'],    ['PSY', 'DEX'], 4]
+    },
     2064: [
         ['Sengoku',     'PSY'],
         ['T-Bone',      'QCK'],

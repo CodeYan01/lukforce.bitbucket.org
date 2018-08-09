@@ -23,7 +23,9 @@
     display: none;
 }
 
-.div_x {
+.div_x,
+#div_1_2x_tm_rr,
+#div_1_2x_tm {
     display: none;
 }
 
