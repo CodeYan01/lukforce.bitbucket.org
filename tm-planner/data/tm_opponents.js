@@ -78,9 +78,9 @@ var tm_opponents = {
     },
     2211: {
          463: ['Satori',        'PSY',      0],
-        1197: ['Ohm',           'INT',      1],
-        1253: ['Shura',         'DEX',      2],
-        1341: ['Gedatsu',       'QCK',      3],
+        1197: ['Ohm',           'INT',      3],
+        1253: ['Shura',         'DEX',      1],
+        1341: ['Gedatsu',       'QCK',      2],
         2211: ['Eneru',         'PSY',      4]
     },
     9999: [
