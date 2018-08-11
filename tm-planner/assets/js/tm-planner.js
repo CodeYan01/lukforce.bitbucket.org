@@ -30,8 +30,12 @@ function getBoosters(tmId, server) {
 
     // Change 2x or 2.25x version
     $('.div_x').hide();
-    if (tmId == 1972) {
+    if (
+        tmId == 1972 ||
+        tmId == 2000
+    ) {
         // TM Sabo
+        // TM Sanji & Zoro
         $('#div_2x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();

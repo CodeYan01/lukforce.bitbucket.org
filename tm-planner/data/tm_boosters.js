@@ -1537,24 +1537,28 @@ var tm_boosters = {
             id: 2011,
             x_pts: 1.5
         },
-        {   // Luffy & Ace
-            id: 1985,
-            x_pts: 1.5
-        },
-        {   // Shanks v2
-            id: 2007,
-            x_pts: 1.5
-        },
-        {   // Kung Fu Luffy
-            id: 2503,
-            x_pts: 1.5
-        },
         {   // Miss Valentine
             id: 1970,
             x_pts: 1.35
         },
         {   // Sabo
             id: 1972,
+            x_pts: 1.35
+        },
+        {   // Luffy & Ace
+            id: 1985,
+            x_pts: 1.35
+        },
+        {   // Sanji & Zoro
+            id: 2000,
+            x_pts: 1.35
+        },
+        {   // Shanks v2
+            id: 2007,
+            x_pts: 1.35
+        },
+        {   // Kung Fu Luffy
+            id: 2503,
             x_pts: 1.35
         },
         {   // Law v1 6+
@@ -1722,6 +1726,11 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Lucci
+            id: 2015,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Oars Jr.
             id: 1222,
             type: 'coliseum',
@@ -1747,28 +1756,8 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Marguerite
-            id: 918,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
         {   // Sentomaru
             id: 1469,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Hyouzou
-            id: 1624,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Summer TS Nami
-            id: 1709,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Summer TS Robin
-            id: 1711,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -1847,48 +1836,13 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Luffy 5+
-            id: 1387,
+        {   // Summer TS Nami
+            id: 1709,
             type: 'other',
             x_pts: 1.2
         },
-        {   // Zoro 5+
-            id: 1388,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Nami 5+
-            id: 1389,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Usopp 5+
-            id: 1446,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Sanji 5+
-            id: 1447,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Chopper 5+
-            id: 1448,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Robin 5+
-            id: 1549,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Franky 5+
-            id: 1550,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Brook 5+
-            id: 1551,
+        {   // Summer TS Robin
+            id: 1711,
             type: 'other',
             x_pts: 1.2
         },
@@ -1901,6 +1855,50 @@ var tm_boosters = {
             id: 2504,
             type: 'other',
             x_pts: 1.2
+        },
+        {   // Marguerite
+            id: 918,
+            x_pts: 1
+        },
+        {   // Luffy 5+
+            id: 1387,
+            x_pts: 1
+        },
+        {   // Zoro 5+
+            id: 1388,
+            x_pts: 1
+        },
+        {   // Nami 5+
+            id: 1389,
+            x_pts: 1
+        },
+        {   // Usopp 5+
+            id: 1446,
+            x_pts: 1
+        },
+        {   // Sanji 5+
+            id: 1447,
+            x_pts: 1
+        },
+        {   // Chopper 5+
+            id: 1448,
+            x_pts: 1
+        },
+        {   // Robin 5+
+            id: 1549,
+            x_pts: 1
+        },
+        {   // Franky 5+
+            id: 1550,
+            x_pts: 1
+        },
+        {   // Brook 5+
+            id: 1551,
+            x_pts: 1
+        },
+        {   // Hyouzou
+            id: 1624,
+            x_pts: 1
         },
     ],
 };
