@@ -29,4 +29,9 @@ var tms = {
         thumb: 1972,
         info: 'i.imgur.com/Sd6BIUR.png'
     },
+    2000: {
+        name: 'Sanji & Zoro',
+        thumb: 2000,
+        info: 'i.imgur.com/S91geBt.png'
+    },
 };
