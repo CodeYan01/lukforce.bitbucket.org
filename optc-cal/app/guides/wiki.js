@@ -239,4 +239,5 @@ var wiki = {
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
     1976: '',                               // X Drake (N)
+    2017: '',                               // Diamante (N)
 };

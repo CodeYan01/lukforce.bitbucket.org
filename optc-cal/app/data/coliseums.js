@@ -381,4 +381,9 @@ var coliseums = {
         chaos_only: true,
         thumb: 1976
     },
+    2017: {
+        name: 'Diamante (N)',
+        chaos_only: true,
+        thumb: 2017
+    },
 };

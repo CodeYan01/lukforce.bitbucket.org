@@ -129,4 +129,5 @@ var videoWiki = {
     1863: '',   // Kinemon (N)
     1899: 'coliseum/killerkai',
     1976: 'coliseum/xdrakekai',
+    2017: 'coliseum/diamantekai',
 };
