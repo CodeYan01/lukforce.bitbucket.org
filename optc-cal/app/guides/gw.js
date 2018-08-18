@@ -109,6 +109,7 @@ var gw = {
     1947: '88585',      // Vander Decken
     1965: '91449',      // Oars
     1980: '93423',      // Bege & Bonney
+    1995: '94921',      // Marco & Vista
 
     // Raids
     227: '4142',        // Mihawk

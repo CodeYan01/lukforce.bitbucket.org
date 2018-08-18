@@ -109,6 +109,7 @@ drops = {
     1947: 'I%27m%20Now%20Your%20Ideal%20Type!%20I%20Think%20Fortnight',
     1965: 'The%20Beast%27s%20Return%20Fortnight',
     1980: 'Supernova!%20Bonney%20and%20Capone!%20Fortnight',
+    1995: 'Whitebeard%20Pirates%20Commanders!%20Marco%20and%20Vista!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

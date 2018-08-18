@@ -109,6 +109,7 @@ var wiki = {
     1947: '',                               // Vander Decken
     1965: '',                               // Oars
     1980: '',                               // Bege & Bonney
+    1995: '',                               // Marco & Vista
 
     // Raids
     227: 'wiki/raidboss/mihawk',

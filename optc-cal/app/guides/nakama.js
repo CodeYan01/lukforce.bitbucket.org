@@ -109,6 +109,7 @@ var nakama = {
     1947: '2194700',    // Vander Decken
     1965: '2196500',    // Oars
     1980: '2198200',    // Bege & Bonney
+    1995: '2199700',    // Marco & Vista
 
     // Raids
     227: '4022700',     // Mihawk
