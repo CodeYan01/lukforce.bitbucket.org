@@ -202,6 +202,7 @@ var wiki = {
     1145: '',                               // Porche
     1196: 'wiki/coliseum/ganfor',
     1220: 'wiki/coliseum/byrnndi',
+    1222: '',                               // Oars Jr.
     1251: '',                               // Marco
     1292: 'comments/84fp9b',                // Lao G
     1294: '',                               // Boa Sandersonia
@@ -219,6 +220,7 @@ var wiki = {
     1458: 'comments/6ust2n',                // Kuro
     1460: '',                               // Ms. Valentine
     1487: 'comments/7ujevj',                // Ideo
+    1491: '',                               // Mr. 5
     1525: 'wiki/coliseum/suleiman',
     1527: '',                               // Arlong
     1528: '',                               // Blenheim
@@ -235,6 +237,8 @@ var wiki = {
     1861: 'comments/8ahe86',                // Raizo
     1897: 'wiki/coliseum/enel',
     1945: 'wiki/coliseum/pedro',
+    1978: '',                               // Rayleigh
+    2037: '',                               // Burgess
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
