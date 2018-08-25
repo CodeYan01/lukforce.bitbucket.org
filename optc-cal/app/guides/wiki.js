@@ -110,6 +110,7 @@ var wiki = {
     1965: '',                               // Oars
     1980: '',                               // Bege & Bonney
     1995: '',                               // Marco & Vista
+    2019: '',                               // Shanks & Makino
 
     // Raids
     227: 'wiki/raidboss/mihawk',

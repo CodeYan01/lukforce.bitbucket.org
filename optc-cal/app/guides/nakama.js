@@ -110,6 +110,7 @@ var nakama = {
     1965: '2196500',    // Oars
     1980: '2198200',    // Bege & Bonney
     1995: '2199700',    // Marco & Vista
+    2019: '2202100',    // Shanks & Makino
 
     // Raids
     227: '4022700',     // Mihawk

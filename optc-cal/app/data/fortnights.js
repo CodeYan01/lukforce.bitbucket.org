@@ -439,4 +439,8 @@ var fortnights = {
         name: 'Marco & Vista',
         thumb: 1995
     },
+    2019: {
+        name: 'Shanks & Makino',
+        thumb: 2019
+    },
 };
