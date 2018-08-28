@@ -31,27 +31,32 @@ function getBoosters(tmId, server) {
     // Change 2x or 2.25x version
     $('.div_x').hide();
     if (
-        tmId == 1972 ||
-        tmId == 2000
+        server == 'glb' &&
+        (
+            tmId == 1972 ||
+            tmId == 2000 ||
+            tmId == 2064
+        )
     ) {
         // TM Sabo
         // TM Sanji & Zoro
+        // TM Kizaru
         $('#div_2x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();
         $('#div_1x').show();
-    } else if (tmId == 2064) {
+    } else if (server == 'jpn' && tmId == 2064) {
         // TM Kizaru
         $('#div_2_25x').show();
         $('#div_1_75x').show();
         $('#div_1_35x').show();
-    } else if (tmId == 2109) {
+    } else if (server == 'jpn' && tmId == 2109) {
         // TM Big Mom
         $('#div_1_75x').show();
         $('#div_1_35x_v2').show();
         $('#div_1_35x_v3').show();
         $('#div_1_25x').show();
-    } else if (tmId == 2137) {
+    } else if (server == 'jpn' && tmId == 2137) {
         // TM Croc
         $('#div_2_25x').show();
         $('#div_1_75x').show();
@@ -59,8 +64,11 @@ function getBoosters(tmId, server) {
         $('#div_1_35x_v4').show();
         $('#div_1_25x').show();
     } else if (
-        tmId == 2175 ||
-        tmId == 2211
+        server == 'jpn' &&
+        (
+            tmId == 2175 ||
+            tmId == 2211
+        )
     ) {
         // TM Jack
         // TM Eneru
@@ -157,6 +165,10 @@ function getOpponents(tmId, server) {
     $('#thumb-div').empty();
 
     var opponents = tm_opponents[tmId];
+
+    // JPN TM Kizaru special case
+    if (tmId == 2064 && server == 'jpn')
+        opponents = tm_opponents['2064_jpn'];
 
     if (typeof opponents === 'undefined')
         return false;

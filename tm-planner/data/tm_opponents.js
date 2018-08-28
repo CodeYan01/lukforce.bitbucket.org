@@ -48,7 +48,14 @@ var tm_opponents = {
         1759: [['Brook & ', 'Pedro'],   ['QCK', 'INT'], 2],
         2000: [['Sanji & ', 'Zoro'],    ['PSY', 'DEX'], 4]
     },
-    2064: [
+    2064: {
+         459: ['Sengoku',       'PSY',      0],
+         611: ['Purinpurin',    'PSY',      1],
+        1423: ['T-Bone',        'QCK',      2],
+        1983: [['Smoker & ', 'Tashigi'], ['INT', 'PSY'], 3],
+        2064: ['Kizaru',        'DEX',      4]
+    },
+    '2064_jpn': [
         ['Sengoku',     'PSY'],
         ['T-Bone',      'QCK'],
         [['Smoker & ', 'Tashigi'], ['INT', 'PSY']],
