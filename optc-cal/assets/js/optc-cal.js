@@ -669,6 +669,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Socket Book')
                     || (event['type'] === 'special' && event['subType'] === 'Tea Party')
                     || (event['type'] === 'special' && event['subType'] === 'Past Memory')
+                    || (event['type'] === 'special' && event['subType'] === '1 Turn Dmg Ranking')
                 ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);

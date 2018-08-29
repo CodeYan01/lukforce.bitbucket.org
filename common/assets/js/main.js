@@ -6,6 +6,10 @@ function imgError(img) {
 }
 
 function getThumb(thumbId) {
+    // Special case for 1 Turn Dmg Ranking
+    if (thumbId === '1_turn_dmg_rank')
+        return '/optc-cal/assets/img/1_turn_dmg_rank.jpg';
+
     // Zero pad IDs to get correct thumb
     var paddedThumbId = ('0000' + thumbId).slice(-4);
 

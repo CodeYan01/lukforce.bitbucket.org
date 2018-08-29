@@ -47,6 +47,12 @@ var specials = {
         thumb: 1314
     },
 
+    'rk_0447': {
+        type: '1 Turn Dmg Ranking',
+        name: 'Gan Fall / Mihawk / Blackbeard',
+        thumb: '1_turn_dmg_rank'
+    },
+
     '20_1684': {
         type: '20th Anni SH',
         name: 'SH Showdown 1',
