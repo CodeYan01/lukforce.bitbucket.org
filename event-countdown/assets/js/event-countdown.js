@@ -13,8 +13,8 @@ var x = setInterval(function() {
     var halfSta2Start = moment.utc('2018-09-10 03:00');
     var halfSta2End = moment.utc('2018-09-10 06:00');
 
-    var halfSta3Start = moment.utc('2018-09-10 00:00');
-    var halfSta3End = moment.utc('2018-09-10 03:00');
+    var halfSta3Start = moment.utc('2018-09-11 00:00');
+    var halfSta3End = moment.utc('2018-09-11 03:00');
 
     countdown.setLabels(
         '|s|m|h|d',
