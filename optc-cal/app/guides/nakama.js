@@ -259,6 +259,8 @@ var nakama = {
     'bb_1314': '6131400',   // Three Admirals
     'bb_1404': '6140400',   // Straw Hat Pirates
     'bb_0870': '6087000',   // Donquixote Family
+    'bb_2023': '6202300',   // Face Off! Akainu
+    'bb_2025': '6202300',   // Face Off! Aokiji
     '20_1684': '6168400',   // 20th Anni SH Showdown 1
     '20_1682': '6168600',   // 20th Anni SH Mission 1
     '20_1755': '6175500',   // 20th Anni SH Showdown 2

@@ -40,6 +40,16 @@ var specials = {
         name: 'Donquixote Family',
         thumb: 870
     },
+    'bb_2023': {
+        type: 'Blitz Battle',
+        name: 'Face Off! Akainu',
+        thumb: 2023
+    },
+    'bb_2025': {
+        type: 'Blitz Battle',
+        name: 'Face Off! Aokiji',
+        thumb: 2025
+    },
 
     'rk_1314': {
         type: 'Ranking',

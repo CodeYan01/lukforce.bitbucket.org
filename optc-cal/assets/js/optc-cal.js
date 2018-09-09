@@ -331,8 +331,8 @@ function showFooter() {
             var end = e['end'];
 
             if (!isPST
-                && (res['subType'] !== 'Blitz Battle' && spName !== 'Straw Hat Pirates')
-                && (res['subType'] !== 'Blitz Battle' && spName !== 'Donquixote Family')
+                && !(res['subType'] === 'Blitz Battle' && spName === 'Straw Hat Pirates')
+                && !(res['subType'] === 'Blitz Battle' && spName === 'Donquixote Family')
                 && res['subType'] !== 'Socket Book'
                 && res['subType'] !== 'Tea Party'
                 && res['subType'] !== 'Past Memory'
