@@ -111,6 +111,7 @@ var nakama = {
     1980: '2198200',    // Bege & Bonney
     1995: '2199700',    // Marco & Vista
     2019: '2202100',    // Shanks & Makino
+    2046: '2204400',    // Red Hair Pirates
 
     // Raids
     227: '4022700',     // Mihawk

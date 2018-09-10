@@ -111,6 +111,7 @@ var wiki = {
     1980: '',                               // Bege & Bonney
     1995: '',                               // Marco & Vista
     2019: '',                               // Shanks & Makino
+    2046: '',                               // Red Hair Pirates
 
     // Raids
     227: 'wiki/raidboss/mihawk',
