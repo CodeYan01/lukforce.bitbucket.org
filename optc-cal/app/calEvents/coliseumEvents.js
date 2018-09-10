@@ -1798,6 +1798,7 @@ var coliseumEvents = [
         newId: [2037, 1491],
         repId: [924, 1091, 953],
         start: '2018-09-12',
+        ambush: garp,
         new_batch: true
     },
     {
@@ -1819,5 +1820,32 @@ var coliseumEvents = [
         start: '2018-09-21',
         end: '2018-09-23',
         new_batch: true
+    },
+
+    // ##############################
+    {
+        newId: [2037],
+        repId: [1401],
+        start: '2018-09-17',
+        ambush: shanks,
+        new_batch: false
+    },
+    {
+        newId: [2037],
+        repId: [1401],
+        start: '2018-09-20',
+        new_batch: false
+    },
+    {
+        newId: [2037],
+        repId: [1401],
+        start: '2018-09-24',
+        new_batch: false
+    },
+    {
+        newId: [2037],
+        repId: [1401],
+        start: '2018-09-27',
+        new_batch: false
     },
 ]
