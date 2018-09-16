@@ -1825,26 +1825,26 @@ var coliseumEvents = [
     // ##############################
     {
         newId: [2037],
-        repId: [1401],
+        repId: [1401, 1792, 984, 1603],
         start: '2018-09-17',
         ambush: shanks,
         new_batch: false
     },
     {
         newId: [2037],
-        repId: [1401],
+        repId: [1401, 1792, 984, 1603],
         start: '2018-09-20',
         new_batch: false
     },
     {
         newId: [2037],
-        repId: [1401],
+        repId: [1401, 1792, 984, 1603],
         start: '2018-09-24',
         new_batch: false
     },
     {
         newId: [2037],
-        repId: [1401],
+        repId: [1401, 1792, 984, 1603],
         start: '2018-09-27',
         new_batch: false
     },
