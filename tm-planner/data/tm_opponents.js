@@ -90,6 +90,13 @@ var tm_opponents = {
         1341: ['Gedatsu',       'QCK',      2],
         2211: ['Eneru',         'PSY',      4]
     },
+    2261: {
+         777: ['Lucky Roux',    'PSY',      0],
+        2046: ['Yasopp',        'STR',      1],
+        2256: ['Mihawk',        'DEX',      3],
+        2257: ['Ace',           'QCK',      2],
+        2261: ['Beckman',       'INT',      4]      // Uses Shanks ID
+    },
     9999: [
         ['',            ''],
         ['',            ''],

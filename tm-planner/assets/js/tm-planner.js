@@ -77,6 +77,12 @@ function getBoosters(tmId, server) {
         $('#div_1_5x').show();
         $('#div_1_35x_v4').show();
         $('#div_1_25x').show();
+    } else if (server == 'jpn' && tmId == 2261) {
+        // TM Shanks
+        $('#div_1_5x').show();
+        $('#div_1_35x_v2').show();
+        $('#div_1_3x').show();
+        $('#div_1_25x').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
