@@ -3547,41 +3547,45 @@ window.evolutions = {
         evolution: 2193,
         evolvers: [ 118, 98, 1180, 303, 103 ]
     },
+    1001: {
+        evolution: 2195,
+        evolvers: [  ]
+    },
     2196: {
         evolution: 2197,
         evolvers: [ 118, 88, 266, 99, 304 ]
     },
     2198: {
         evolution: 2199,
-        evolvers: [  ]
+        evolvers: [ 118, 88, 99, 304, 104 ]
     },
     2200: {
         evolution: 2201,
-        evolvers: [  ]
+        evolvers: [ 118, 266, 94, 1180, 267 ]
     },
     2202: {
         evolution: 2203,
-        evolvers: [  ]
+        evolvers: [ 117, 86, 266, 302, 102 ]
     },
     2204: {
         evolution: 2205,
-        evolvers: [  ]
+        evolvers: [ 117, 99, 1180, 304, 104 ]
     },
     2206: {
         evolution: 2207,
-        evolvers: [  ]
+        evolvers: [ 117, 80, 91, 97, 102 ]
     },
     2208: {
         evolution: 2209,
-        evolvers: [  ]
+        evolvers: [ 117, 82, 93, 99, 104 ]
     },
     2210: {
         evolution: 2211,
-        evolvers: [  ]
+        evolvers: [ 115, 116, 117, 118, 103 ]
     },
     2212: {
         evolution: 2213,
-        evolvers: [  ]
+        evolvers: [ 117, 78, 89, 89, 100 ]
     },
     2214: {
         evolution: 2215,
@@ -3589,7 +3593,64 @@ window.evolutions = {
     },
     2216: {
         evolution: 2217,
+        evolvers: [ 117, 86, 91, 97, 102 ]
+    },
+    2218: {
+        evolution: 2219,
+        evolvers: [ 117, 78, 84, 95, 100 ]
+    },
+    1610: {
+        evolution: 2232,
         evolvers: [  ]
+        //evolvers: [ 'skullEneru', 'skullEneru', 'skullEneru', 'skullEneru', 'skullEneru' ]
+    },
+    2233: {
+        evolution: 2234,
+        evolvers: [ 1180, 300, 301, 302, 267 ]
+    },
+    2235: {
+        evolution: 2236,
+        evolvers: [ 118, 86, 302, 102, 267 ]
+    },
+    2237: {
+        evolution: 2238,
+        evolvers: [ 266, 95, 1180, 300, 100 ]
+    },
+    2239: {
+        evolution: 2240,
+        evolvers: [ 118, 83, 86, 97, 102 ]
+    },
+    2241: {
+        evolution: 2242,
+        evolvers: [ 94, 1180, 100, 101, 102 ]
+    },
+    2243: {
+        evolution: 2244,
+        evolvers: [ 85, 96, 301, 101, 267 ]
+    },
+    2246: {
+        evolution: 2247,
+        evolvers: [ 118, 85, 96, 301, 101 ]
+    },
+    2248: {
+        evolution: 2249,
+        evolvers: [ 118, 97, 1180, 302, 102 ]
+    },
+    2250: {
+        evolution: 2251,
+        evolvers: [ 118, 98, 1180, 303, 267 ]
+    },
+    2252: {
+        evolution: 2253,
+        evolvers: [ 117, 81, 87, 98, 103 ]
+    },
+    2258: {
+        evolution: 2259,
+        evolvers: [  ]
+    },
+    2260: {
+        evolution: 2261,
+        evolvers: [ 115, 116, 117, 118, 102 ]
     },
     2500: {
         evolution: 2501,
