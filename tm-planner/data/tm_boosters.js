@@ -1902,8 +1902,24 @@ var tm_boosters = {
         },
     ],
     2064: [
+        {   // Beckman
+            id: 2059,
+            x_pts: 2
+        },
+        {   // Beckman
+            id: 2060,
+            x_pts: 2
+        },
         {   // Kuma
             id: 2009,
+            x_pts: 1.5
+        },
+        {   // Apoo
+            id: 2061,
+            x_pts: 1.5
+        },
+        {   // Apoo
+            id: 2062,
             x_pts: 1.5
         },
         {   // Sanji & Zoro
@@ -1921,6 +1937,60 @@ var tm_boosters = {
         {   // Aokiji v2
             id: 2025,
             x_pts: 1.35
+        },
+        {   // Garp
+            id: 2251,
+            x_pts: 1.35
+        },
+        {   // Usopp
+            id: 1532,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Inuarashi
+            id: 1571,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Lucci v2
+            id: 1763,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Lucy
+            id: 1794,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Rayleigh v2
+            id: 1883,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Doffy v2
+            id: 1910,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 1935,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 1951,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Luffy & Ace
+            id: 1985,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Shanks v2
+            id: 2007,
+            type: 'legend',
+            x_pts: 1.2
         },
         {   // Kizaru 6+
             id: 2034,
@@ -2027,6 +2097,21 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
+        {   // Hancock
+            id: 2039,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // WB
+            id: 2041,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Koala
+            id: 2048,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // Zoro
             id: 1804,
             type: 'tm_rr',
@@ -2077,6 +2162,11 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
+        {   // Neo Sabo
+            id: 1727,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Neo Kuma
             id: 1772,
             type: 'raid',
@@ -2094,6 +2184,11 @@ var tm_boosters = {
         },
         {   // Lucci
             id: 2015,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // G4 Tankman
+            id: 2033,
             type: 'raid',
             x_pts: 1.2
         },
@@ -2172,6 +2267,21 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Beckman
+            id: 2044,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Lucky Roux
+            id: 2045,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Yasopp
+            id: 2046,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Mihawk
             id: 1808,
             type: 'tm',
@@ -2200,6 +2310,11 @@ var tm_boosters = {
         {   // Sabo
             id: 1972,
             type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Kizaru
+            id: 2043,
+            type: 'other',
             x_pts: 1.2
         },
         {   // Croc & Daz
