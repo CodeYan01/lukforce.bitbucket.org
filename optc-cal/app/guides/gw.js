@@ -148,6 +148,7 @@ var gw = {
     1924: '85580',      // Rayleigh
     1943: '88927',      // Senor Pink
     2015: '95424',      // Lucci
+    2033: '97354',      // G4 Tankman
     2501: '',           // Doffy v2
 
     1623: '',           //'58437',      // Doflamingo (N)

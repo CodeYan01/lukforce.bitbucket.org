@@ -135,6 +135,10 @@ var raids = {
         name: 'Lucci',
         thumb: 2015
     },
+    2033: {
+        name: 'G4 Tankman',
+        thumb: 2033
+    },
     2501: {
         name: 'Doflamingo v2',
         thumb: 5012
