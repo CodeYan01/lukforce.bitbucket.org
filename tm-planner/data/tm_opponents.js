@@ -49,9 +49,9 @@ var tm_opponents = {
         2000: [['Sanji & ', 'Zoro'],    ['PSY', 'DEX'], 4]
     },
     2064: {
-         459: ['Sengoku',       'PSY',      0],
+         459: ['Sengoku',       'PSY',      2],
          611: ['Purinpurin',    'PSY',      1],
-        1423: ['T-Bone',        'QCK',      2],
+        1423: ['T-Bone',        'QCK',      0],
         1983: [['Smoker & ', 'Tashigi'], ['INT', 'PSY'], 3],
         2064: ['Kizaru',        'DEX',      4]
     },

@@ -1938,17 +1938,44 @@ var tm_boosters = {
             id: 2025,
             x_pts: 1.35
         },
+        {   // Hancock
+            id: 2039,
+            x_pts: 1.35
+        },
+        {   // WB
+            id: 2041,
+            x_pts: 1.35
+        },
+        {   // Kizaru
+            id: 2064,
+            x_pts: 1.35
+        },
         {   // Garp
             id: 2251,
             x_pts: 1.35
+        },
+        {   // Marco
+            id: 649,
+            type: 'legend',
+            x_pts: 1.2
         },
         {   // Usopp
             id: 1532,
             type: 'legend',
             x_pts: 1.2
         },
+        {   // Usopp 6+
+            id: 1543,
+            type: 'legend',
+            x_pts: 1.2
+        },
         {   // Inuarashi
             id: 1571,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Shanks 6+
+            id: 1707,
             type: 'legend',
             x_pts: 1.2
         },
@@ -2097,16 +2124,6 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Hancock
-            id: 2039,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // WB
-            id: 2041,
-            type: 'rr',
-            x_pts: 1.2
-        },
         {   // Koala
             id: 2048,
             type: 'rr',
@@ -2232,11 +2249,6 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Reiju
-            id: 1918,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
         {   // Vander Decken
             id: 1947,
             type: 'fortnight',
@@ -2317,11 +2329,6 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Croc & Daz
-            id: 2504,
-            type: 'other',
-            x_pts: 1.2
-        },
         {   // Luffy 5+
             id: 1387,
             x_pts: 1
@@ -2356,6 +2363,62 @@ var tm_boosters = {
         },
         {   // Brook 5+
             id: 1551,
+            x_pts: 1
+        },
+        {   // Garp
+            id: 1317,
+            x_pts: 1
+        },
+        {   // Garp
+            id: 1318,
+            x_pts: 1
+        },
+        {   // Moria
+            id: 1617,
+            x_pts: 1
+        },
+        {   // Moria
+            id: 1618,
+            x_pts: 1
+        },
+        {   // Marigold
+            id: 1742,
+            x_pts: 1
+        },
+        {   // Marigold
+            id: 1743,
+            x_pts: 1
+        },
+        {   // Jabra
+            id: 753,
+            x_pts: 1
+        },
+        {   // Jabra
+            id: 754,
+            x_pts: 1
+        },
+        {   // Diamante
+            id: 1795,
+            x_pts: 1
+        },
+        {   // Diamante
+            id: 1796,
+            x_pts: 1
+        },
+        {   // Barto
+            id: 1801,
+            x_pts: 1
+        },
+        {   // Barto
+            id: 1802,
+            x_pts: 1
+        },
+        {   // Reiju
+            id: 1918,
+            x_pts: 1
+        },
+        {   // Croc & Daz
+            id: 2504,
             x_pts: 1
         },
     ],
