@@ -7,6 +7,7 @@ var tm_boosters = [
     1941,
     1972,
     2000,
+    2064,
 
     // Kizaru
     1397,

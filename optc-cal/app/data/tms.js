@@ -34,4 +34,9 @@ var tms = {
         thumb: 2000,
         info: 'i.imgur.com/S91geBt.png'
     },
+    2064: {
+        name: 'Kizaru',
+        thumb: 2064,
+        info: 'i.imgur.com/gw4s7Cr.png'
+    },
 };
