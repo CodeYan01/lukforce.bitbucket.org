@@ -279,6 +279,11 @@ var coliseums = {
         chaos_only: true,
         thumb: 1487
     },
+    1489: {
+        name: 'Don Krieg',
+        chaos_only: false,
+        thumb: 1489
+    },
     1491: {
         name: 'Mr. 5',
         chaos_only: false,
@@ -373,6 +378,11 @@ var coliseums = {
         name: 'Burgess',
         chaos_only: true, // Not but important
         thumb: 2037
+    },
+    2123: {
+        name: 'Neptune',
+        chaos_only: true, // Not but important
+        thumb: 2123
     },
 
     // Neo Coliseums

@@ -109,6 +109,7 @@ var videoWiki = {
     1458: 'coliseum/kuro',
     1460: 'coliseum/miss_valentine',
     1487: 'coliseum/ideo',
+    1489: 'coliseum/don_krieg',
     1491: 'coliseum/mr5',
     1525: 'coliseum/suleiman',
     1527: 'coliseum/arlong',
@@ -128,6 +129,7 @@ var videoWiki = {
     1945: 'coliseum/pedro',
     1978: 'coliseum/rayleigh',
     2037: 'coliseum/jesus_burgess',
+    2123: 'coliseum/neptune',
 
     1863: '',   // Kinemon (N)
     1899: 'coliseum/killerkai',

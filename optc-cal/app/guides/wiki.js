@@ -223,6 +223,7 @@ var wiki = {
     1458: 'comments/6ust2n',                // Kuro
     1460: '',                               // Ms. Valentine
     1487: 'comments/7ujevj',                // Ideo
+    1489: '',                               // Don Krieg
     1491: '',                               // Mr. 5
     1525: 'wiki/coliseum/suleiman',
     1527: '',                               // Arlong
@@ -242,6 +243,7 @@ var wiki = {
     1945: 'wiki/coliseum/pedro',
     1978: '',                               // Rayleigh
     2037: '',                               // Burgess
+    2123: '',                               // Neptune
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
