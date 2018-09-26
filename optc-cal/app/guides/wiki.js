@@ -106,12 +106,12 @@ var wiki = {
     1893: 'wiki/fortnight/mihawkperona',
     1918: 'wiki/fortnight/reijusanji',
     1933: 'wiki/fortnight/boasisters',
-    1947: '',                               // Vander Decken
-    1965: '',                               // Oars
-    1980: '',                               // Bege & Bonney
-    1995: '',                               // Marco & Vista
-    2019: '',                               // Shanks & Makino
-    2046: '',                               // Red Hair Pirates
+    1947: 'wiki/fortnight/decken',
+    1965: 'wiki/fortnight/oars',
+    1980: 'wiki/fortnight/caponebonney',
+    1995: 'wiki/fortnight/marcovista',
+    2019: 'wiki/fortnight/makino',
+    2046: 'wiki/fortnight/redhairpirates',
 
     // Raids
     227: 'wiki/raidboss/mihawk',
@@ -146,9 +146,9 @@ var wiki = {
     1830: 'wiki/raidboss/caesar',
     1879: '',                               // Bartolomeo
     1924: 'comments/77jr7y',                // Rayleigh
-    1943: '',                               // Senor Pink
-    2015: '',                               // Lucci
-    2033: '',                               // G4 Tankman
+    1943: 'wiki/raidboss/pink',
+    2015: 'wiki/raidboss/lucci',
+    2033: 'wiki/raidboss/tankman',
     2501: 'wiki/raidboss/v2doflamingo',
 
     1623: 'wiki/raidboss/doffykai',
@@ -186,7 +186,7 @@ var wiki = {
     926: 'wiki/coliseum/sadie',
     927: 'wiki/coliseum/doberman',
     951: 'wiki/coliseum/ace',
-    953: '',                                // Ben Beckman
+    953: 'wiki/coliseum/benbeckman',
     983: 'wiki/coliseum/vista',
     984: 'wiki/coliseum/paulie',
     1016: 'wiki/coliseum/capone',
@@ -241,8 +241,8 @@ var wiki = {
     1861: 'comments/8ahe86',                // Raizo
     1897: 'wiki/coliseum/enel',
     1945: 'wiki/coliseum/pedro',
-    1978: '',                               // Rayleigh
-    2037: '',                               // Burgess
+    1978: 'wiki/coliseum/rayleigh',
+    2037: 'wiki/coliseum/burgess',
     2123: '',                               // Neptune
 
     1863: '',                               // Kinemon (N)
