@@ -331,6 +331,7 @@ function showFooter() {
             var end = e['end'];
 
             if (!isPST
+                && !e['pst_0']
                 && !(res['subType'] === 'Blitz Battle' && spName === 'Straw Hat Pirates')
                 && !(res['subType'] === 'Blitz Battle' && spName === 'Donquixote Family')
                 && res['subType'] !== 'Socket Book'
@@ -665,7 +666,7 @@ function showFooter() {
                     || event['type'] === 'tm'
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
-                    || (event['type'] === 'special' && event['subType'] === 'Champion Challenge')
+                    || (event['type'] === 'special' && event['subType'] === 'Champion Challenge' && event['id'] !== 'cc_2113')
                     || (event['type'] === 'special' && event['subType'] === 'Socket Book')
                     || (event['type'] === 'special' && event['subType'] === 'Tea Party')
                     || (event['type'] === 'special' && event['subType'] === 'Past Memory')

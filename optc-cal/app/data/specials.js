@@ -221,6 +221,12 @@ var specials = {
         thumb: 1391
     },
 
+    'cc_2113': {
+        type: 'Champion Challenge',
+        name: 'Charlotte Family',
+        thumb: 2113
+    },
+
     'tp_1463': {
         type: 'Tea Party',
         name: 'Luffy',
