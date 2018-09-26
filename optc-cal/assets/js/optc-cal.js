@@ -585,7 +585,10 @@ function showFooter() {
                         if (todayPos)
                             $('.fc-view-container .fc-view').scrollLeft(todayPos.left - 100);
                     } else {
-                        $('#vp').attr('content', '');
+                        var deviceWidth = window.screen.width;
+                        var ratio = deviceWidth / 1052.1;
+
+                        $('#vp').attr('content', 'width=1052.1px, initial-scale=' + ratio);
                         $('#calendar').width('1052.1px');
                     }
                 }
