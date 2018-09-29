@@ -112,6 +112,7 @@ var gw = {
     1995: '94921',      // Marco & Vista
     2019: '96636',      // Shanks & Makino
     2046: '98268',      // Red Hair Pirates
+    2127: '108422',     // Brulee
 
     // Raids
     227: '4142',        // Mihawk

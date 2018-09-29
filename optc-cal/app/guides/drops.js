@@ -112,6 +112,7 @@ drops = {
     1995: 'Whitebeard%20Pirates%20Commanders!%20Marco%20and%20Vista!%20Fortnight',
     2019: 'Makino%27s%20Bar!%20Shanks%20and%20Makino!%20Fortnight',
     2046: 'Anchoring!%20Red%20Hair%20Pirates!%20Fortnight',
+    2127: 'Br%C3%BBl%C3%A9e%27s%20Cauldron%20Party%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

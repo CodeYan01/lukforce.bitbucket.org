@@ -112,6 +112,7 @@ var wiki = {
     1995: 'wiki/fortnight/marcovista',
     2019: 'wiki/fortnight/makino',
     2046: 'wiki/fortnight/redhairpirates',
+    2127: '',                               // Brulee
 
     // Raids
     227: 'wiki/raidboss/mihawk',
