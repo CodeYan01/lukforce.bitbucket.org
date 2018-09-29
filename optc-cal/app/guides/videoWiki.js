@@ -35,7 +35,7 @@ var videoWiki = {
     1943: 'raidboss/senorpink',
     2015: 'raidboss/roblucci',
     2033: 'raidboss/g4tankman',
-    2501: 'raidboss/v2doflamingo',
+    2263: 'raidboss/v2doflamingo',
 
     1623: 'raidboss/doflamingokai',
     1669: 'raidboss/aokijikai',

@@ -150,7 +150,7 @@ var wiki = {
     1943: 'wiki/raidboss/pink',
     2015: 'wiki/raidboss/lucci',
     2033: 'wiki/raidboss/tankman',
-    2501: 'wiki/raidboss/v2doflamingo',
+    2263: 'wiki/raidboss/v2doflamingo',
 
     1623: 'wiki/raidboss/doffykai',
     1669: 'wiki/raidboss/aokijikai',

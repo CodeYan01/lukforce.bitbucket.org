@@ -132,7 +132,7 @@ var sd = {
     1815: 'cy_dzKF5B5g',    // Sanji
     1879: '',               // Bartolomeo
     1924: '',               // Rayleigh
-    2501: '',               // Doffy v2
+    2263: '',               // Doffy v2
 
     1623: '',               //'oirn-E-ayNM',    // Doflamingo (N)
     1669: '',               // Aokiji (N)

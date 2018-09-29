@@ -139,9 +139,9 @@ var raids = {
         name: 'G4 Tankman',
         thumb: 2033
     },
-    2501: {
+    2263: {
         name: 'Doflamingo v2',
-        thumb: 5012
+        thumb: 2263
     },
 
     // Neo Raids
