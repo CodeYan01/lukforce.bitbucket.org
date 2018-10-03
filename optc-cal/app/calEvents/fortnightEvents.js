@@ -1362,9 +1362,15 @@ var fortnightEvents = [
         is_replay: true
     },
     {
-        id: [1918],
+        id: [1918, 1965],
         start: '2018-10-16',
         end: '2018-10-23',
+        is_replay: true
+    },
+    {
+        id: [1520, 1597],
+        start: '2018-10-23',
+        end: '2018-10-30',
         is_replay: true
     },
 ];
