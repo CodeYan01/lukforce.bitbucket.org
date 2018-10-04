@@ -279,4 +279,5 @@ var gw = {
     'tp_1516': '53094', // Tea Party Brook
     'pm_1900': '85046', // Past Memory Zoro
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard
+    'rk_1700': '107881',// 1 Turn Dmg Ranking Jinbe
 };
