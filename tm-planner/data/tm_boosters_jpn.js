@@ -1,6 +1,6 @@
 var tm_boosters_jpn = {
     2064: [
-        {   // Ben Beckman
+        {   // Beckman
             id: 2060,
             x_pts: 2.25
         },
@@ -64,12 +64,12 @@ var tm_boosters_jpn = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Neo X Drake
+        {   // X Drake (N)
             id: 1976,
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Diamante
+        {   // Diamante (N)
             id: 2017,
             type: 'coliseum',
             x_pts: 1.2
@@ -89,12 +89,12 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Kuma
+        {   // Kuma (N)
             id: 1772,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Eneru
+        {   // Eneru (N)
             id: 1930,
             type: 'raid',
             x_pts: 1.2
@@ -179,7 +179,7 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Ben Beckman
+        {   // Beckman
             id: 2044,
             type: 'fortnight',
             x_pts: 1.2
@@ -194,7 +194,7 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // TM Sabo
+        {   // Sabo
             id: 1972,
             type: 'other',
             x_pts: 1.2
@@ -210,12 +210,12 @@ var tm_boosters_jpn = {
             id: 2099,
             x_pts: 1.75
         },
-        {   // Reiju 4th Anni
+        {   // 4th Anni Reiju
             id: 2084,
             ver: 2,
             x_pts: 1.35
         },
-        {   // Sanji 4th Anni
+        {   // 4th Anni Sanji
             id: 2086,
             ver: 2,
             x_pts: 1.35
@@ -255,19 +255,19 @@ var tm_boosters_jpn = {
             ver: 3,
             x_pts: 1.35
         },
-        {   // Chopper WCI
+        {   // WCI Chopper
             id: 2072,
             x_pts: 1.25
         },
-        {   // Carrot WCI
+        {   // WCI Carrot
             id: 2078,
             x_pts: 1.25
         },
-        {   // Brook WCI
+        {   // WCI Brook
             id: 2080,
             x_pts: 1.25
         },
-        {   // Pedro WCI
+        {   // WCI Pedro
             id: 2082,
             x_pts: 1.25
         },
@@ -296,7 +296,7 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Doffy
+        {   // Doffy (N)
             id: 1623,
             type: 'raid',
             x_pts: 1.2
@@ -306,12 +306,12 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Bartolomeo
+        {   // Barto
             id: 1879,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Eneru
+        {   // Eneru (N)
             id: 1930,
             type: 'raid',
             x_pts: 1.2
@@ -321,7 +321,7 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Hancock
+        {   // Hancock (N)
             id: 2070,
             type: 'raid',
             x_pts: 1.2
@@ -351,12 +351,12 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo X-Drake
+        {   // X Drake (N)
             id: 1976,
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Diamante
+        {   // Diamante (N)
             id: 2017,
             type: 'coliseum',
             x_pts: 1.2
@@ -421,27 +421,27 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Luffy Pirate Festival
+        {   // Pirate Festival Luffy
             id: 2087,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Sanji Pirate Festival
+        {   // Pirate Festival Sanji
             id: 2088,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Nami Pirate Festival
+        {   // Pirate Festival Nami
             id: 2089,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Franky Pirate Festival
+        {   // Pirate Festival Franky
             id: 2090,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Usopp Pirate Festival
+        {   // Pirate Festival Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
@@ -458,7 +458,7 @@ var tm_boosters_jpn = {
         },
     ],
     2137: [
-        {   // Ivan
+        {   // Ivankov
             id: 2132,
             x_pts: 2.25
         },
@@ -558,7 +558,7 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Boa Hancock
+        {   // Boa Hancock (N)
             id: 2070,
             type: 'raid',
             x_pts: 1.2
@@ -588,12 +588,12 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo X-Drake
+        {   // X Drake (N)
             id: 1976,
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Diamante
+        {   // Diamante (N)
             id: 2017,
             type: 'coliseum',
             x_pts: 1.2
@@ -668,27 +668,27 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Usopp Pirate Festival
+        {   // Pirate Festival Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Zoro Pirate Festival
+        {   // Pirate Festival Zoro
             id: 2092,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Chopper Pirate Festival
+        {   // Pirate Festival Chopper
             id: 2093,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Brook Pirate Festival
+        {   // Pirate Festival Brook
             id: 2094,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Robin Pirate Festival
+        {   // Pirate Festival Robin
             id: 2095,
             type: 'fortnight',
             x_pts: 1.2
@@ -703,7 +703,7 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Gear 4
+        {   // G4
             id: 1916,
             type: 'other',
             x_pts: 1.2
@@ -836,17 +836,17 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Doffy
+        {   // Doffy (N)
             id: 1623,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Sabo
+        {   // Sabo (N)
             id: 1727,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Kizaru
+        {   // Kizaru (N)
             id: 1780,
             type: 'raid',
             x_pts: 1.2
@@ -856,7 +856,7 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Boa Hancock
+        {   // Boa Hancock (N)
             id: 2070,
             type: 'raid',
             x_pts: 1.2
@@ -881,7 +881,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Diamante
+        {   // Diamante (N)
             id: 2017,
             type: 'coliseum',
             x_pts: 1.2
@@ -911,12 +911,12 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Robin
+        {   // Young Robin
             id: 1112,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Baby 5
+        {   // Young Baby 5
             id: 1287,
             type: 'fortnight',
             x_pts: 1.2
@@ -1185,7 +1185,7 @@ var tm_boosters_jpn = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Boa Hancock
+        {   // Boa Hancock (N)
             id: 2070,
             type: 'raid',
             x_pts: 1.2
@@ -1205,7 +1205,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Killer
+        {   // Killer (N)
             id: 1899,
             type: 'coliseum',
             x_pts: 1.2
@@ -1285,12 +1285,12 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Luffy Pirate Festival
+        {   // Pirate Festival Luffy
             id: 2087,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Usopp Pirate Festival
+        {   // Pirate Festival Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2

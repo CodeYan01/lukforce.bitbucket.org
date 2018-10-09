@@ -27,7 +27,7 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Hancock v1 6+
+        {   // Boa Hancock 6+
             id: 1445,
             type: 'legend',
             x_pts: 1.2
@@ -47,7 +47,7 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Gear 4
+        {   // G4
             id: 1593,
             type: 'legend',
             x_pts: 1.2
@@ -57,17 +57,17 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Neko
+        {   // Nekomamushi
             id: 1652,
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Lucci v1 6+
+        {   // Lucci 6+
             id: 1663,
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Shanks v1 6+
+        {   // Shanks 6+
             id: 1707,
             type: 'legend',
             x_pts: 1.2
@@ -220,12 +220,12 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Hody Jones 6+
+        {   // Hody 6+
             id: 1880,
             type: 'legend',
             x_pts: 1.2
         },
-        {   // World
+        {   // LRR World
             id: 1824,
             type: 'rr',
             x_pts: 1.2
@@ -248,16 +248,6 @@ var tm_boosters = {
         {   // Yonji
             id: 1840,
             type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Cavendish
-            id: 1530,
-            type: 'other', // Ambush
-            x_pts: 1.2
-        },
-        {   // Garp
-            id: 1846,
-            type: 'other', // Ambush
             x_pts: 1.2
         },
         {   // Gin
@@ -290,7 +280,7 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // General Franky
+        {   // Franky
             id: 1432,
             type: 'raid',
             x_pts: 1.2
@@ -300,27 +290,27 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Doffy
+        {   // Doffy (N)
             id: 1623,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Aokiji
+        {   // Aokiji (N)
             id: 1669,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Mihawk
+        {   // Mihawk (N)
             id: 1680,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Kizaru
+        {   // Kizaru (N)
             id: 1780,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Akainu
+        {   // Akainu (N)
             id: 1826,
             type: 'raid',
             x_pts: 1.2
@@ -360,6 +350,16 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Cavendish
+            id: 1530,
+            type: 'other', // Ambush
+            x_pts: 1.2
+        },
+        {   // Garp
+            id: 1846,
+            type: 'other', // Ambush
+            x_pts: 1.2
+        },
     ],
 
     // ========== Cavendish ==========
@@ -384,7 +384,7 @@ var tm_boosters = {
             id: 1853,
             x_pts: 1.35
         },
-        {   // Fujitora
+        {   // Fujitora v2
             id: 1869,
             x_pts: 1.35
         },
@@ -417,22 +417,12 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Law
+        {   // LRR Law
             id: 1678,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Zoro
-            id: 1804,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Buggy
-            id: 1806,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Leo
+        {   // LRR Leo
             id: 1859,
             type: 'rr',
             x_pts: 1.2
@@ -442,12 +432,12 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Kyros
+        {   // Kyros v2
             id: 1873,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Viola
+        {   // Violet v2
             id: 1875,
             type: 'rr',
             x_pts: 1.2
@@ -455,6 +445,16 @@ var tm_boosters = {
         {   // Rebecca
             id: 1877,
             type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'tm_rr',
             x_pts: 1.2
         },
         {   // Doffy
@@ -477,17 +477,17 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Mihawk
+        {   // Mihawk (N)
             id: 1680,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Sabo
+        {   // Sabo (N)
             id: 1727,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Kuma
+        {   // Kuma (N)
             id: 1772,
             type: 'raid',
             x_pts: 1.2
@@ -512,7 +512,7 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Kinemon
+        {   // Kinemon (N)
             id: 1863,
             type: 'coliseum',
             x_pts: 1.2
@@ -557,28 +557,28 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Luffy
+        {   // Mihawk
+            id: 1808,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Tea Party Luffy
             id: 1463,
             type: 'other',
             x_pts: 1.2
         },
-        {   // Chopper
+        {   // Tea Party Chopper
             id: 1465,
             type: 'other',
             x_pts: 1.2
         },
-        {   // Sanji
+        {   // Tea Party Sanji
             id: 1508,
             type: 'other',
             x_pts: 1.2
         },
-        {   // Brook
+        {   // Tea Party Brook
             id: 1516,
-            type: 'other',
-            x_pts: 1.2
-        },
-        {   // Mihawk
-            id: 1808,
             type: 'other',
             x_pts: 1.2
         },
@@ -686,7 +686,7 @@ var tm_boosters = {
             id: 1889,
             x_pts: 1.35
         },
-        {   // Zoro
+        {   // Memory Zoro
             id: 1900,
             x_pts: 1.35
         },
@@ -700,32 +700,12 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Bartolomeo 6+
+        {   // Barto 6+
             id: 1928,
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Zoro
-            id: 1804,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Buggy
-            id: 1806,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Akainu
-            id: 1849,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Squard
-            id: 1851,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Urouge
+        {   // LRR Urouge
             id: 1895,
             type: 'rr',
             x_pts: 1.2
@@ -735,24 +715,44 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Senor Pink
+        {   // Senor Pink v2
             id: 1904,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Sugar
+        {   // Sugar v2
             id: 1906,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Trebol
+        {   // Trebol v2
             id: 1908,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Coby
+        {   // LRR Coby
             id: 1926,
             type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1849,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Squard
+            id: 1851,
+            type: 'tm_rr',
             x_pts: 1.2
         },
         {   // Senor Pink
@@ -770,7 +770,7 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Killer
+        {   // Killer (N)
             id: 1899,
             type: 'coliseum',
             x_pts: 1.2
@@ -790,19 +790,19 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // X-Drake
+        {   // X Drake
             id: 1857,
             type: 'fortnight',
             x_pts: 1.2
         },
         {   // Mihawk
             id: 1808,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
         {   // WB
             id: 1853,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
     ],
@@ -866,7 +866,7 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Bartolomeo 6+
+        {   // Barto 6+
             id: 1928,
             type: 'legend',
             x_pts: 1.2
@@ -906,16 +906,6 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Zoro
-            id: 1804,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Buggy
-            id: 1806,
-            type: 'rr',
-            x_pts: 1.2
-        },
         {   // Reiju
             id: 1834,
             type: 'rr',
@@ -936,27 +926,17 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Akainu
-            id: 1849,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Squard
-            id: 1851,
-            type: 'rr',
-            x_pts: 1.2
-        },
         {   // Bellamy
             id: 1871,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Kyros
+        {   // Kyros v2
             id: 1873,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Violet
+        {   // Violet v2
             id: 1875,
             type: 'rr',
             x_pts: 1.2
@@ -966,17 +946,7 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Robin
-            id: 1885,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Gladius
-            id: 1887,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Urouge
+        {   // LRR Urouge
             id: 1895,
             type: 'rr',
             x_pts: 1.2
@@ -986,34 +956,64 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Senor Pink
+        {   // Senor Pink v2
             id: 1904,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Sugar
+        {   // Sugar v2
             id: 1906,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Trebol
+        {   // Trebol v2
             id: 1908,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Coby
+        {   // LRR Coby
             id: 1926,
             type: 'rr',
             x_pts: 1.2
         },
+        {   // Zoro
+            id: 1804,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1849,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Squard
+            id: 1851,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 1885,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Gladius
+            id: 1887,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
         {   // Urouge
             id: 1912,
-            type: 'rr',
+            type: 'tm_rr',
             x_pts: 1.2
         },
         {   // Vivi
             id: 1914,
-            type: 'rr',
+            type: 'tm_rr',
             x_pts: 1.2
         },
         {   // Zephyr
@@ -1041,7 +1041,7 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Eneru
+        {   // Eneru (N)
             id: 1930,
             type: 'raid',
             x_pts: 1.2
@@ -1101,7 +1101,7 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Killer
+        {   // Killer (N)
             id: 1899,
             type: 'coliseum',
             x_pts: 1.2
@@ -1126,7 +1126,7 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // X-Drake
+        {   // X Drake
             id: 1857,
             type: 'fortnight',
             x_pts: 1.2
@@ -1143,20 +1143,20 @@ var tm_boosters = {
         },
         {   // Mihawk
             id: 1808,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
         {   // WB
             id: 1853,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
         {   // Cavendish
             id: 1889,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
-        {   // Zoro
+        {   // Memory Zoro
             id: 1900,
             type: 'other',
             x_pts: 1.2
@@ -1173,20 +1173,20 @@ var tm_boosters = {
             id: 1968,
             x_pts: 2
         },
-        {   // Miss Valentine
-            id: 1969,
-            x_pts: 1.5
-        },
-        {   // Miss Valentine
-            id: 1970,
-            x_pts: 1.5
-        },
         {   // Blackbeard
             id: 1937,
             x_pts: 1.5
         },
         {   // Robin
             id: 1951,
+            x_pts: 1.5
+        },
+        {   // Miss Valentine
+            id: 1969,
+            x_pts: 1.5
+        },
+        {   // Miss Valentine
+            id: 1970,
             x_pts: 1.5
         },
         {   // Thatch
@@ -1286,42 +1286,22 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Akainu
+        {   // LRR Akainu
             id: 1713,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Jinbe
+        {   // LRR Jinbe
             id: 1721,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Zoro
-            id: 1804,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Buggy
-            id: 1806,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Akainu
-            id: 1849,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Squard
-            id: 1851,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Kyros
+        {   // Kyros v2
             id: 1873,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Violet
+        {   // Violet v2
             id: 1875,
             type: 'rr',
             x_pts: 1.2
@@ -1331,54 +1311,74 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Robin
-            id: 1885,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // Gladius
-            id: 1887,
-            type: 'rr',
-            x_pts: 1.2
-        },
         {   // Pica
             id: 1902,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Sugar
+        {   // Sugar v2
             id: 1906,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Trebol
+        {   // Trebol v2
             id: 1908,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Coby
+        {   // LRR Coby
             id: 1926,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Koala
+        {   // Valentine Koala
             id: 1953,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Nami
+        {   // Valentine Nami
             id: 1955,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Carrot
+        {   // Valentine Carrot
             id: 1957,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Shirahoshi
+        {   // Valentine Shirahoshi
             id: 1959,
             type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 1804,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1849,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Squard
+            id: 1851,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 1885,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Gladius
+            id: 1887,
+            type: 'tm_rr',
             x_pts: 1.2
         },
         {   // Heracles
@@ -1386,22 +1386,22 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Sabo
+        {   // Sabo (N)
             id: 1727,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Bellamy
+        {   // Bellamy (N)
             id: 1739,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Kuma
+        {   // Kuma (N)
             id: 1772,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Akainu
+        {   // Akainu (N)
             id: 1826,
             type: 'raid',
             x_pts: 1.2
@@ -1441,7 +1441,7 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Perona
+        {   // Perona v2
             id: 1891,
             type: 'fortnight',
             x_pts: 1.2
@@ -1468,22 +1468,22 @@ var tm_boosters = {
         },
         {   // Mihawk
             id: 1808,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
         {   // WB
             id: 1853,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
         {   // Cavendish
             id: 1889,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
         {   // G4
             id: 1916,
-            type: 'other',
+            type: 'tm',
             x_pts: 1.2
         },
         {   // Hannyabal
@@ -1574,12 +1574,12 @@ var tm_boosters = {
             id: 2503,
             x_pts: 1.35
         },
-        {   // Law v1 6+
+        {   // Law 6+
             id: 2001,
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Jinbe v1 6+
+        {   // Jinbe 6+
             id: 2066,
             type: 'legend',
             x_pts: 1.2
@@ -1624,12 +1624,12 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Aokiji
+        {   // LRR Aokiji
             id: 1665,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Kyros
+        {   // Kyros v2
             id: 1873,
             type: 'rr',
             x_pts: 1.2
@@ -1639,32 +1639,32 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Sugar
+        {   // Sugar v2
             id: 1906,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Trebol
+        {   // Trebol v2
             id: 1908,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Koala
+        {   // Valentine Koala
             id: 1953,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Nami
+        {   // Valentine Nami
             id: 1955,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Carrot
+        {   // Valentine Carrot
             id: 1957,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Hawkins
+        {   // LRR Hawkins
             id: 1974,
             type: 'rr',
             x_pts: 1.2
@@ -1754,12 +1754,12 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Kinemon
+        {   // Kinemon (N)
             id: 1863,
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo X Drake
+        {   // X Drake (N)
             id: 1976,
             type: 'coliseum',
             x_pts: 1.2
@@ -1869,10 +1869,6 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Marguerite
-            id: 918,
-            x_pts: 1
-        },
         {   // Luffy 5+
             id: 1387,
             x_pts: 1
@@ -1907,6 +1903,10 @@ var tm_boosters = {
         },
         {   // Brook 5+
             id: 1551,
+            x_pts: 1
+        },
+        {   // Marguerite
+            id: 918,
             x_pts: 1
         },
         {   // Hyouzou
@@ -2064,12 +2064,12 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Kyros
+        {   // Kyros v2
             id: 1873,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Voilet
+        {   // Voilet v2
             id: 1875,
             type: 'rr',
             x_pts: 1.2
@@ -2079,27 +2079,27 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Sugar
+        {   // Sugar v2
             id: 1906,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Koala
+        {   // Valentine Koala
             id: 1953,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Nami
+        {   // Valentine Nami
             id: 1955,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Carrot
+        {   // Valentine Carrot
             id: 1957,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Shirahoshi
+        {   // Valentine Shirahoshi
             id: 1959,
             type: 'rr',
             x_pts: 1.2
@@ -2119,7 +2119,7 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Bonney
+        {   // LRR Bonney
             id: 2013,
             type: 'rr',
             x_pts: 1.2
@@ -2139,7 +2139,7 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Koala
+        {   // LRR Koala
             id: 2048,
             type: 'rr',
             x_pts: 1.2
@@ -2194,17 +2194,17 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
-        {   // Neo Sabo
+        {   // Sabo (N)
             id: 1727,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Kuma
+        {   // Kuma (N)
             id: 1772,
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Neo Eneru
+        {   // Eneru (N)
             id: 1930,
             type: 'raid',
             x_pts: 1.2
@@ -2234,7 +2234,7 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Neo Diamante
+        {   // Diamante (N)
             id: 2017,
             type: 'coliseum',
             x_pts: 1.2
@@ -2388,11 +2388,11 @@ var tm_boosters = {
             id: 1318,
             x_pts: 1
         },
-        {   // Moria
+        {   // Moria v2
             id: 1617,
             x_pts: 1
         },
-        {   // Moria
+        {   // Moria v2
             id: 1618,
             x_pts: 1
         },
@@ -2412,11 +2412,11 @@ var tm_boosters = {
             id: 754,
             x_pts: 1
         },
-        {   // Diamante
+        {   // Diamante v2
             id: 1795,
             x_pts: 1
         },
-        {   // Diamante
+        {   // Diamante v2
             id: 1796,
             x_pts: 1
         },
@@ -2641,27 +2641,27 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Trebol
+        {   // Trebol v2
             id: 1908,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Koala
+        {   // Valentine Koala
             id: 1953,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Carrot
+        {   // Valentine Carrot
             id: 1957,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Shirahoshi
+        {   // Valentine Shirahoshi
             id: 1959,
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Marco
+        {   // Marco v2
             id: 1987,
             type: 'rr',
             x_pts: 1.2
