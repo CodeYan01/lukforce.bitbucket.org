@@ -260,6 +260,7 @@ var gw = {
     1972: '91382',      // Sabo
     2000: '94667',      // Sanji & Zoro
     2064: '101870',     // Kizaru
+    2137: '109127',     // Croc
 
     // Events
     'bb_1314': '61665', // Three Admirals
