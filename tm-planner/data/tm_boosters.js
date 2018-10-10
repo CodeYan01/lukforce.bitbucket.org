@@ -2440,6 +2440,22 @@ var tm_boosters = {
 
     // ========== Crocodile ==========
     2137: [
+        {   // Ivankov
+            id: 2131,
+            x_pts: 2.25
+        },
+        {   // Ivankov
+            id: 2132,
+            x_pts: 2.25
+        },
+        {   // Jozu
+            id: 2133,
+            x_pts: 2
+        },
+        {   // Jozu
+            id: 2134,
+            x_pts: 2
+        },
         {   // Beckman
             id: 2060,
             x_pts: 1.5
@@ -2454,6 +2470,14 @@ var tm_boosters = {
         },
         {   // Katakuri
             id: 2113,
+            x_pts: 1.35
+        },
+        {   // Mr. 1
+            id: 2135,
+            x_pts: 1.35
+        },
+        {   // Croc
+            id: 2137,
             x_pts: 1.35
         },
         {   // Marco
@@ -2626,7 +2650,7 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
-        {   // Beckman
+        {   // LRR Beckman
             id: 1770,
             type: 'rr',
             x_pts: 1.2
@@ -2678,6 +2702,11 @@ var tm_boosters = {
         },
         {   // Brannew
             id: 2031,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // LRR Moria
+            id: 2050,
             type: 'rr',
             x_pts: 1.2
         },
@@ -2808,6 +2837,26 @@ var tm_boosters = {
         },
         {   // Hawkins
             id: 1867,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Brulee
+            id: 2127,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Randolph
+            id: 2128,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Aristocroc
+            id: 2129,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Diesel
+            id: 2130,
             type: 'fortnight',
             x_pts: 1.2
         },

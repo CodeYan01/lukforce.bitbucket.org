@@ -35,14 +35,19 @@ function getBoosters(tmId, server) {
         (
             tmId == 1972 ||
             tmId == 2000 ||
-            tmId == 2064 ||
-            tmId == 2137
+            tmId == 2064
         )
     ) {
         // TM Sabo
         // TM Sanji & Zoro
         // TM Kizaru
+        $('#div_2x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x').show();
+        $('#div_1x').show();
+    } else if (server == 'glb' && tmId == 2137) {
         // TM Croc
+        $('#div_2_25x').show();
         $('#div_2x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();
