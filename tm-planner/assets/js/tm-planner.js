@@ -90,6 +90,12 @@ function getBoosters(tmId, server) {
         $('#div_1_35x_v2').show();
         $('#div_1_3x').show();
         $('#div_1_25x').show();
+    } else if (server == 'jpn' && tmId == 2299) {
+        // TM Hancock
+        $('#div_1_75x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x_v2').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -143,12 +149,16 @@ function getBoosters(tmId, server) {
             $('#booster_' + _x_pts + 'x_' + b.type).append(imgDiv);
         } else if (b.x_pts === 1.35 && b.ver)
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
+        else if (b.x_pts === 1.25 && b.ver)
+            $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
         else
             $('#booster_' + _x_pts + 'x').append(imgDiv);
 
         _x_pts += 'x';
 
         if (b.x_pts === 1.35 && b.ver)
+            _x_pts += '_v' + b.ver;
+        else if (b.x_pts === 1.25 && b.ver)
             _x_pts += '_v' + b.ver;
 
         imgDiv.data('_x_pts', _x_pts);

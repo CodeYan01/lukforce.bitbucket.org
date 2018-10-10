@@ -97,6 +97,13 @@ var tm_opponents = {
         2257: ['Ace',           'QCK',      2],
         2261: ['Beckman',       'INT',      4]      // Uses Shanks ID
     },
+    2299: {
+        1300: ['Rebecca',       'INT',      0],
+        1306: ['Sugar',         'DEX',      1],
+        2292: ['Vivi',          'PSY',      2],
+        2297: ['Perona',        'PSY',      3],
+        2299: ['Moria',         'STR',      4]      // Uses Hancock ID
+    },
     9999: [
         ['',            ''],
         ['',            ''],
