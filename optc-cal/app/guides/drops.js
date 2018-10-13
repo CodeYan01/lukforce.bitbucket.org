@@ -112,6 +112,7 @@ drops = {
     1995: 'Whitebeard%20Pirates%20Commanders!%20Marco%20and%20Vista!%20Fortnight',
     2019: 'Commotion%20at%20Makino%27s%20Tavern?!%20Fortnight',
     2046: 'Red%20Hair%20Pirates%20at%20the%20Harbor!%20Fortnight',
+    2056: 'Germa%27s%20Lineage%20Factor!%20Fortnight',
     2127: 'Br%C3%BBl%C3%A9e%27s%20Cauldron%20Party%20Fortnight',
 
     // 20 Stamina Raids

@@ -112,6 +112,7 @@ var nakama = {
     1995: '2199700',    // Marco & Vista
     2019: '2202100',    // Shanks & Makino
     2046: '2204400',    // Red Hair Pirates
+    2056: '2205600',    // Germa Kids
     2127: '2212700',    // Brulee
 
     // Raids

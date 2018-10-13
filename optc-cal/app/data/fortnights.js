@@ -447,6 +447,10 @@ var fortnights = {
         name: 'Red Hair Pirates',
         thumb: 2046
     },
+    2056: {
+        name: 'Germa Kids',
+        thumb: 2056
+    },
     2127: {
         name: 'Brulee',
         thumb: 2127
