@@ -1431,7 +1431,8 @@ var raidEvents = [
     },
     {
         id: 1924,
-        start: '2018-10-21'
+        start: '2018-10-21',
+        ambush: ywb
     },
     {
         id: 1374,
@@ -1451,7 +1452,8 @@ var raidEvents = [
     },
     {
         id: 2263,
-        start: '2018-10-26'
+        start: '2018-10-26',
+        ambush: cavendish
     },
     {
         id: 933,
