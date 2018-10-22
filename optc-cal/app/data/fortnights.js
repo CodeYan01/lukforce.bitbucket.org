@@ -381,7 +381,7 @@ var fortnights = {
     },
     1735: {
         name: 'Sugar & Trebol',
-        thumb: 1737
+        thumb: 1735
     },
     1766: {
         name: 'Blue Gilly',
