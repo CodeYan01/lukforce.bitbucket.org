@@ -269,17 +269,24 @@ var gw = {
     'bb_0870': '68282', // Donquixote Family
     'bb_2023': '98809', // Face Off! Akainu
     'bb_2025': '98808', // Face Off! Aokiji
+
     '20_1684': '62384', // 20th Anni SH Showdown 1
     '20_1682': '62390', // 20th Anni SH Mission 1
     '20_1755': '66020', // 20th Anni SH Showdown 2
     '20_1753': '66092', // 20th Anni SH Mission 2
+
     'sb_1023': '29680', // Socket Book Ace
     'sb_1600': '56964', // Socket Book Luffy
+
     'tp_1463': '51652', // Tea Party Luffy
     'tp_1465': '51896', // Tea Party Chopper
     'tp_1508': '52627', // Tea Party Sanji
     'tp_1516': '53094', // Tea Party Brook
+
     'pm_1900': '85046', // Past Memory Zoro
+
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard
     'rk_1700': '107881',// 1 Turn Dmg Ranking Jinbe
+
+    'se_2138': '109674',// Super Evolve Germa 66
 };

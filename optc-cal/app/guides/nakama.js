@@ -269,15 +269,21 @@ var nakama = {
     'bb_0870': '6087000',   // Donquixote Family
     'bb_2023': '6202300',   // Face Off! Akainu
     'bb_2025': '6202300',   // Face Off! Aokiji
+
     '20_1684': '6168400',   // 20th Anni SH Showdown 1
     '20_1682': '6168600',   // 20th Anni SH Mission 1
     '20_1755': '6175500',   // 20th Anni SH Showdown 2
     '20_1753': '6175700',   // 20th Anni SH Mission 2
+
     'sb_1023': '6102300',   // Socket Book Ace
     'sb_1600': '6160000',   // Socket Book Luffy
+
     'tp_1463': '6146300',   // Tea Party Luffy
     'tp_1465': '6146300',   // Tea Party Chopper
     'tp_1508': '6146300',   // Tea Party Sanji
     'tp_1516': '6146300',   // Tea Party Brook
+
     'pm_1900': '6190000',   // Past Memory Zoro
+
+    'se_2138': '6213800',   // Super Evolve Germa 66
 };

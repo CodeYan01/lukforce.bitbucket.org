@@ -280,4 +280,10 @@ var specials = {
         name: 'Double Mision',
         thumb: 1985
     },
+
+    'se_2138': {
+        type: 'Super Evolve',
+        name: 'Germa 66',
+        thumb: 2138
+    },
 }
