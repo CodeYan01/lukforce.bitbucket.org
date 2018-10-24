@@ -93,6 +93,7 @@ var videoWiki = {
     1220: 'coliseum/byrnndi_world',
     1222: 'coliseum/oars_jr',
     1251: 'coliseum/marco',
+    1252: 'coliseum/doma',
     1292: 'coliseum/lao_g',
     1294: 'coliseum/boa_sandersonia',
     1310: 'coliseum/kinemon',
@@ -130,6 +131,7 @@ var videoWiki = {
     1978: 'coliseum/rayleigh',
     2037: 'coliseum/jesus_burgess',
     2123: 'coliseum/neptune',
+    2163: 'coliseum/charlotte_opera',
 
     1863: '',   // Kinemon (N)
     1899: 'coliseum/killerkai',

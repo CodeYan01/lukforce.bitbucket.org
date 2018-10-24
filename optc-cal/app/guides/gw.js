@@ -209,6 +209,7 @@ var gw = {
     1220: '36719',      // Byrnndi World
     1222: '36718',      // Oars Jr.
     1251: '38056',      // Marco
+    1252: '38055',      // Doma
     1292: '39532',      // Lao G
     1294: '39533',      // Boa Sandersonia
     1310: '63087',      // Kinemon
@@ -246,6 +247,7 @@ var gw = {
     1978: '92603',      // Rayleigh
     2037: '97356',      // Burgess
     2123: '107866',     // Neptune
+    2163: '110906',     // Opera
 
     1863: '80292',      // Kinemon (N)
     1899: '84586',      // Killer (N)

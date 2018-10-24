@@ -209,6 +209,7 @@ var wiki = {
     1220: 'wiki/coliseum/byrnndi',
     1222: '',                               // Oars Jr.
     1251: '',                               // Marco
+    1252: '',                               // Doma
     1292: 'comments/84fp9b',                // Lao G
     1294: '',                               // Boa Sandersonia
     1310: 'comments/6ywcrv',                // Kinemon
@@ -246,6 +247,7 @@ var wiki = {
     1978: 'wiki/coliseum/rayleigh',
     2037: 'wiki/coliseum/burgess',
     2123: '',                               // Neptune
+    2163: '',                               // Opera
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

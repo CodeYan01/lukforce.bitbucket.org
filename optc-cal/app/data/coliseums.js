@@ -199,6 +199,11 @@ var coliseums = {
         chaos_only: true,
         thumb: 1251
     },
+    1252: {
+        name: 'Doma',
+        chaos_only: false,
+        thumb: 1252
+    },
     1292: {
         name: 'Lao G',
         chaos_only: true,
@@ -346,7 +351,7 @@ var coliseums = {
     },
     1792: {
         name: 'Lucy',
-        chaos_only: true, // Not but important
+        chaos_only: true, // Not but new format
         thumb: 1792
     },
     1828: {
@@ -356,33 +361,38 @@ var coliseums = {
     },
     1861: {
         name: 'Raizo',
-        chaos_only: true, // Not but important
+        chaos_only: true, // Not but new format
         thumb: 1861
     },
     1897: {
         name: 'Eneru',
-        chaos_only: true, // Not but important
+        chaos_only: true, // Not but new format
         thumb: 1897
     },
     1945: {
         name: 'Pedro',
-        chaos_only: true, // Not but important
+        chaos_only: true, // Not but new format
         thumb: 1945
     },
     1978: {
         name: 'Rayleigh',
-        chaos_only: true, // Not but important
+        chaos_only: true, // Not but new format
         thumb: 1978
     },
     2037: {
         name: 'Burgess',
-        chaos_only: true, // Not but important
+        chaos_only: true, // Not but new format
         thumb: 2037
     },
     2123: {
         name: 'Neptune',
-        chaos_only: true, // Not but important
+        chaos_only: true, // Not but new format
         thumb: 2123
+    },
+    2163: {
+        name: 'Opera',
+        chaos_only: true, // Not but new format
+        thumb: 2163
     },
 
     // Neo Coliseums
