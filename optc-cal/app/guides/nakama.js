@@ -114,6 +114,7 @@ var nakama = {
     2046: '2204400',    // Red Hair Pirates
     2056: '2205600',    // Germa Kids
     2127: '2212700',    // Brulee
+    2144: '2214600',    // Diamante
 
     // Raids
     227: '4022700',     // Mihawk

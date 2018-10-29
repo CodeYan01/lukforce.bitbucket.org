@@ -114,6 +114,7 @@ var wiki = {
     2046: 'wiki/fortnight/redhairpirates',
     2056: '',                               // Germa Kids
     2127: '',                               // Brulee
+    2144: '',                               // Diamante
 
     // Raids
     227: 'wiki/raidboss/mihawk',

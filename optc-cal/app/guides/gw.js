@@ -114,6 +114,7 @@ var gw = {
     2046: '98268',      // Red Hair Pirates
     2056: '99700',      // Germa Kids
     2127: '108422',     // Brulee
+    2144: '109801',     // Diamante
 
     // Raids
     227: '4142',        // Mihawk
