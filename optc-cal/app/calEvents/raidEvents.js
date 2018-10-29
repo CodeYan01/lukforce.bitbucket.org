@@ -1471,4 +1471,14 @@ var raidEvents = [
         id: 865,
         start: '2018-10-30'
     },
+    {
+        id: 1879,
+        start: '2018-11-03',
+        ambush: garp
+    },
+    {
+        id: 1924,
+        start: '2018-11-10',
+        ambush: shanks
+    },
 ]
