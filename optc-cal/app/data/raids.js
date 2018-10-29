@@ -149,6 +149,10 @@ var raids = {
         name: 'Doflamingo (N)',
         thumb: 1623
     },
+    1647: {
+        name: 'Pica (N)',
+        thumb: 1647
+    },
     1669: {
         name: 'Aokiji (N)',
         thumb: 1669

@@ -114,6 +114,7 @@ function showFooter() {
             if (!isPST
                 && !e['pst_0']
                 && eId !== 1623
+                && eId !== 1647
                 && eId !== 1669
                 && eId !== 1680
                 && eId !== 1727

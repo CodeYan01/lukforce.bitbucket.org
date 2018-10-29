@@ -38,6 +38,7 @@ var videoWiki = {
     2263: 'raidboss/v2doflamingo',
 
     1623: 'raidboss/doflamingokai',
+    1647: 'raidboss/picakai',
     1669: 'raidboss/aokijikai',
     1680: 'raidboss/mihawkkai',
     1727: 'raidboss/sabokai',

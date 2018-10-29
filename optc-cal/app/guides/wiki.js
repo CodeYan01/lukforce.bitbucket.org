@@ -155,6 +155,7 @@ var wiki = {
     2263: 'wiki/raidboss/v2doflamingo',
 
     1623: 'wiki/raidboss/doffykai',
+    1647: 'wiki/raidboss/picakai',
     1669: 'wiki/raidboss/aokijikai',
     1680: 'wiki/raidboss/mihawkkai',
     1727: 'wiki/raidboss/sabokai',
