@@ -50,6 +50,9 @@ var specials_bg = {
     'ray_tome': {
         thumb: 'ray_tome'
     },
+    'cola': {
+        thumb: 'cola'
+    },
     'celestials': {
         thumb: 'celestials'
     },

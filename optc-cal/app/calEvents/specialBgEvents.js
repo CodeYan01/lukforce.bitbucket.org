@@ -1117,14 +1117,14 @@ var specialBgEvents = [
         end: '2018-09-14'
     },
     {
+        id: 'cola',
+        start: '2018-09-11',
+        end: '2018-09-14'
+    },
+    {
         id: 'sp',
         start: '2018-09-14',
         end: '2018-09-18'
-    },
-    {
-        id: 'ss',
-        start: '2018-09-18',
-        end: '2018-09-21'
     },
     {
         id: 'mat',
@@ -1135,6 +1135,16 @@ var specialBgEvents = [
         id: 'sugo',
         start: '2018-09-17',
         end: '2018-09-23'
+    },
+    {
+        id: 'ss',
+        start: '2018-09-18',
+        end: '2018-09-21'
+    },
+    {
+        id: 'cola',
+        start: '2018-09-19',
+        end: '2018-09-21'
     },
     {
         id: 'sp',
@@ -1217,6 +1227,11 @@ var specialBgEvents = [
         end: '2018-10-19'
     },
     {
+        id: 'cola',
+        start: '2018-10-16',
+        end: '2018-10-19'
+    },
+    {
         id: 'ss',
         start: '2018-10-19',
         end: '2018-10-22'
@@ -1265,6 +1280,11 @@ var specialBgEvents = [
         id: 'ss',
         start: '2018-11-03',
         end: '2018-11-07'
+    },
+    {
+        id: 'cola',
+        start: '2018-11-04',
+        end: '2018-11-09'
     },
     {
         id: 'sp',
