@@ -2947,6 +2947,10 @@ var tm_boosters = {
             id: 2137,
             x_pts: 1.35
         },
+        {   // Sanji v2
+            id: 2148,
+            x_pts: 1.35
+        },
         {   // Log Luffy
             id: 578,
             type: 'legend',
@@ -3004,6 +3008,11 @@ var tm_boosters = {
         },
         {   // Judge 6+
             id: 2138,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Magellan 6+
+            id: 2159,
             type: 'legend',
             x_pts: 1.2
         },
@@ -3112,6 +3121,26 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
+        {   // Zeff
+            id: 2150,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Pudding
+            id: 2152,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Tamago
+            id: 2154,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Pekoms
+            id: 2156,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // Zoro
             id: 1804,
             type: 'tm_rr',
@@ -3202,9 +3231,29 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Pica (N)
+            id: 1647,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Caesar
             id: 1830,
             type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Cracker
+            id: 2158,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Doma
+            id: 1252,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Opera
+            id: 2163,
+            type: 'coliseum',
             x_pts: 1.2
         },
         {   // Noland
@@ -3249,6 +3298,16 @@ var tm_boosters = {
         },
         {   // Yonji
             id: 2058,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Diamante
+            id: 2144,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Rebecca
+            id: 2146,
             type: 'fortnight',
             x_pts: 1.2
         },
