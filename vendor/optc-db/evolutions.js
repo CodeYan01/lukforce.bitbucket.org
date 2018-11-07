@@ -3017,7 +3017,7 @@ window.evolutions = {
     },
     1909: {
         evolution: 1910,
-        evolvers: [ 118, 102, 97, 102, 267 ]
+        evolvers: [ 118, 102, 97, 302, 267 ]
     },
     1911: {
         evolution: 1912,
@@ -3627,6 +3627,10 @@ window.evolutions = {
         evolution: 2244,
         evolvers: [ 85, 96, 301, 101, 267 ]
     },
+    1588: {
+        evolution: 2245,
+        evolvers: [ 'skullSanji2', 'skullSanji2', 'skullSanji2', 'skullSanji2', 'skullSanji2' ]
+    },
     2246: {
         evolution: 2247,
         evolvers: [ 118, 85, 96, 301, 101 ]
@@ -3695,6 +3699,10 @@ window.evolutions = {
         evolution: 2285,
         evolvers: [ 118, 84, 95, 300, 100 ]
     },
+    2286: {
+        evolution: 2287,
+        evolvers: [ 118, 84, 95, 300, 100 ]
+    },
     2288: {
         evolution: 2289,
         evolvers: [ 117, 81, 87, 98, 103 ]
@@ -3707,8 +3715,76 @@ window.evolutions = {
         evolution: 2292,
         evolvers: [ 116, 117, 81, 87, 103 ]
     },
+    2293: {
+        evolution: 2294,
+        evolvers: [ 116, 117, 80, 86, 102 ]
+    },
     2298: {
         evolution: 2299,
+        evolvers: [ 115, 116, 117, 118, 104 ]
+    },
+    1935: {
+        evolution: 2300,
+        evolvers: [ 'skullFrankie', 'skullFrankie', 'skullFrankie', 'skullFrankie', 'skullFrankie' ]
+    },
+    2301: {
+        evolution: 2302,
+        evolvers: [ 118, 266, 99, 304, 267 ]
+    },
+    2303: {
+        evolution: 2304,
+        evolvers: [ 117, 87, 1180, 303, 103 ]
+    },
+    2305: {
+        evolution: 2306,
+        evolvers: [ 117, 86, 1180, 302, 102 ]
+    },
+    2307: {
+        evolution: 2308,
+        evolvers: [ 117, 86, 1180, 302, 102 ]
+    },
+    2309: {
+        evolution: 2310,
+        evolvers: [ 117, 83, 90, 96, 101 ]
+    },
+    2322: {
+        evolution: 2323,
+        evolvers: [ 118, 95, 1180, 300, 100 ]
+    },
+    2324: {
+        evolution: 2325,
+        evolvers: [  ]
+    },
+    2326: {
+        evolution: 2327,
+        evolvers: [  ]
+    },
+    2329: {
+        evolution: 2330,
+        evolvers: [  ]
+    },
+    2331: {
+        evolution: 2332,
+        evolvers: [  ]
+    },
+    2333: {
+        evolution: 2334,
+        evolvers: [  ]
+    },
+    2335: {
+        evolution: 2336,
+        evolvers: [  ]
+    },
+    2400: {
+        evolution: 2401,
+        evolvers: [  ]
+    },
+    2402: {
+        evolution: 2403,
+        evolvers: [  ]
+    },
+    2404: {
+        evolution: 2405,
         evolvers: [  ]
     },
     2502: {
