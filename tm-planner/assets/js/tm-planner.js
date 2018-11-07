@@ -92,8 +92,15 @@ function getBoosters(tmId, server) {
         $('#div_1_35x_v2').show();
         $('#div_1_3x').show();
         $('#div_1_25x').show();
-    } else if (server == 'jpn' && tmId == 2299) {
+    } else if (
+        server == 'jpn' &&
+        (
+            tmId == 2299 ||
+            tmId == 2336
+        )
+    ) {
         // TM Hancock
+        // TM Law
         $('#div_1_75x').show();
         $('#div_1_5x').show();
         $('#div_1_35x_v4').show();

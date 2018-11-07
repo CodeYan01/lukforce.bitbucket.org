@@ -104,6 +104,13 @@ var tm_opponents = {
         2297: ['Perona',        'PSY',      2],
         2299: ['Moria',         'STR',      4]      // Uses Hancock ID
     },
+    2336: {
+        1004: ['Sachi & Penguin', 'QCK',    1],
+        1532: ['Usopp',         'DEX',      2],
+        1593: ['Gear 4',        'PSY',      3],
+        1749: ['Bepo',          'QCK',      0],
+        2336: ['Chopper',       'STR',      4]      // Uses Law ID
+    },
     9999: [
         ['',            ''],
         ['',            ''],
