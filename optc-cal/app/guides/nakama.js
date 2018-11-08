@@ -267,6 +267,7 @@ var nakama = {
     2000: '8200000',    // Sanji & Zoro
     2064: '8206400',    // Kizaru
     2137: '8213700',    // Croc
+    2175: '8217500',    // Jack
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

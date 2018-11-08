@@ -267,6 +267,7 @@ var gw = {
     2000: '94667',      // Sanji & Zoro
     2064: '101870',     // Kizaru
     2137: '109127',     // Croc
+    2175: '112951',     // Jack
 
     // Events
     'bb_1314': '61665', // Three Admirals
