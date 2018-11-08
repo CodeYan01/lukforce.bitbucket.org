@@ -2935,20 +2935,56 @@ var tm_boosters = {
 
     // ========== Jack ==========
     2175: [
+        {   // Inuarashi
+            id: 2168,
+            x_pts: 2
+        },
+        {   // Inuarashi
+            id: 2169,
+            x_pts: 2
+        },
         {   // Ivankov
             id: 2132,
-            x_pts: 1.5
+            x_pts: 1.75
+        },
+        {   // Shirahoshi
+            id: 2172,
+            x_pts: 1.75
+        },
+        {   // Shirahoshi
+            id: 2173,
+            x_pts: 1.75
         },
         {   // Jozu
             id: 2134,
+            x_pts: 1.5
+        },
+        {   // Shishilian
+            id: 2170,
+            x_pts: 1.5
+        },
+        {   // Shishilian
+            id: 2171,
+            x_pts: 1.5
+        },
+        {   // Mr. 1
+            id: 2135,
             x_pts: 1.35
         },
         {   // Croc
             id: 2137,
             x_pts: 1.35
         },
+        {   // Judge 6+
+            id: 2138,
+            x_pts: 1.35
+        },
         {   // Sanji v2
             id: 2148,
+            x_pts: 1.35
+        },
+        {   // Jack
+            id: 2175,
             x_pts: 1.35
         },
         {   // Log Luffy
@@ -2991,7 +3027,7 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Jimbe 6+
+        {   // Jinbe 6+
             id: 2066,
             type: 'legend',
             x_pts: 1.2
@@ -3003,11 +3039,6 @@ var tm_boosters = {
         },
         {   // Katakuri
             id: 2113,
-            type: 'legend',
-            x_pts: 1.2
-        },
-        {   // Judge 6+
-            id: 2138,
             type: 'legend',
             x_pts: 1.2
         },
@@ -3141,6 +3172,11 @@ var tm_boosters = {
             type: 'rr',
             x_pts: 1.2
         },
+        {   // LRR Doffy
+            id: 2161,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // Zoro
             id: 1804,
             type: 'tm_rr',
@@ -3208,11 +3244,6 @@ var tm_boosters = {
         },
         {   // Apoo
             id: 2062,
-            type: 'tm_rr',
-            x_pts: 1.2
-        },
-        {   // Mr. 1
-            id: 2135,
             type: 'tm_rr',
             x_pts: 1.2
         },
@@ -3385,6 +3416,30 @@ var tm_boosters = {
         },
         {   // Brook 5+
             id: 1551,
+            x_pts: 1
+        },
+        {   // TS Chopper
+            id: 1411,
+            x_pts: 1
+        },
+        {   // TS Chopper
+            id: 1412,
+            x_pts: 1
+        },
+        {   // Jinbe v2
+            id: 1699,
+            x_pts: 1
+        },
+        {   // Jinbe v2
+            id: 1700,
+            x_pts: 1
+        },
+        {   // Lucci
+            id: 1613,
+            x_pts: 1
+        },
+        {   // Lucci
+            id: 1614,
             x_pts: 1
         },
     ],

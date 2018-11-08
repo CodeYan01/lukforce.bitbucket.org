@@ -35,14 +35,12 @@ function getBoosters(tmId, server) {
         (
             tmId == 1972 ||
             tmId == 2000 ||
-            tmId == 2064 ||
-            tmId == 2175
+            tmId == 2064
         )
     ) {
         // TM Sabo
         // TM Sanji & Zoro
         // TM Kizaru
-        // TM Jack
         $('#div_2x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();
@@ -51,6 +49,13 @@ function getBoosters(tmId, server) {
         // TM Croc
         $('#div_2_25x').show();
         $('#div_2x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x').show();
+        $('#div_1x').show();
+    } else if (server == 'glb' && tmId == 2175) {
+        // TM Jack
+        $('#div_2x').show();
+        $('#div_1_75x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();
         $('#div_1x').show();
