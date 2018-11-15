@@ -51,6 +51,12 @@ var specials = {
         thumb: 2025
     },
 
+    'wc_2401': {
+        type: 'World Clash',
+        name: 'World vs Japan',
+        thumb: 2401
+    },
+
     'rk_1314': {
         type: 'Ranking',
         name: 'Three Admirals',
