@@ -115,6 +115,7 @@ var gw = {
     2056: '99700',      // Germa Kids
     2127: '108422',     // Brulee
     2144: '109801',     // Diamante
+    2165: '111404',     // Baby 5 & Sai
 
     // Raids
     227: '4142',        // Mihawk

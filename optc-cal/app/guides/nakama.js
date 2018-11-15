@@ -115,6 +115,7 @@ var nakama = {
     2056: '2205600',    // Germa Kids
     2127: '2212700',    // Brulee
     2144: '2214600',    // Diamante
+    2165: '2216500',    // Baby 5 & Sai
 
     // Raids
     227: '4022700',     // Mihawk

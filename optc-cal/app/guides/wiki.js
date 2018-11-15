@@ -115,6 +115,7 @@ var wiki = {
     2056: '',                               // Germa Kids
     2127: '',                               // Brulee
     2144: '',                               // Diamante
+    2165: '',                               // Baby 5 & Sai
 
     // Raids
     227: 'wiki/raidboss/mihawk',
