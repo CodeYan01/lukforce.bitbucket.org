@@ -374,7 +374,13 @@ function showFooter() {
             var start = e['start'];
             var end = e['end'];
 
-            if (!isPST && (id === 'sugo' || id === 'free_pull')) {
+            if (!isPST
+                && (
+                    id === 'sugo'
+                    || id === 'free_pull'
+                    || e['pst_19']
+                )
+            ) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
                 start = startDate.format('YYYY-MM-DD');

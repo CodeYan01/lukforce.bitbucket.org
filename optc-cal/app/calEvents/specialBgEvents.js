@@ -1306,4 +1306,40 @@ var specialBgEvents = [
         start: '2018-11-11',
         end: '2018-11-14'
     },
+    {
+        id: 'sp_x3',
+        start: '2018-11-14',
+        end: '2018-11-17',
+        pst_19: true
+    },
+    {
+        id: 'ray_tome',
+        start: '2018-11-14',
+        end: '2018-11-19',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2018-11-17',
+        end: '2018-11-20',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp',
+        start: '2018-11-19',
+        end: '2018-11-25',
+        pst_19: true
+    },
+    {
+        id: 'sp_x3',
+        start: '2018-11-20',
+        end: '2018-11-23',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2018-11-23',
+        end: '2018-11-25',
+        pst_19: true
+    },
 ]
