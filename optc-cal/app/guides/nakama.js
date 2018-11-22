@@ -277,6 +277,8 @@ var nakama = {
     'bb_2023': '6202300',   // Face Off! Akainu
     'bb_2025': '6202300',   // Face Off! Aokiji
 
+    'wc_2401': '6240700',   // World Clash
+
     '20_1684': '6168400',   // 20th Anni SH Showdown 1
     '20_1682': '6168600',   // 20th Anni SH Mission 1
     '20_1755': '6175500',   // 20th Anni SH Showdown 2
