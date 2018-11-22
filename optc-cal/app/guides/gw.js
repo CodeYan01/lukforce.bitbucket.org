@@ -277,7 +277,7 @@ var gw = {
     'bb_2023': '98809', // Face Off! Akainu
     'bb_2025': '98808', // Face Off! Aokiji
 
-    'wc_2401': '130875',// World Clash
+    'wc_2401': '130091',// World Clash
 
     '20_1684': '62384', // 20th Anni SH Showdown 1
     '20_1682': '62390', // 20th Anni SH Mission 1
