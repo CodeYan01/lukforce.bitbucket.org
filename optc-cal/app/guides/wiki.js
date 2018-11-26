@@ -113,6 +113,7 @@ var wiki = {
     2019: 'wiki/fortnight/makino',
     2046: 'wiki/fortnight/redhairpirates',
     2056: '',                               // Germa Kids
+    2087: '',                               // Pizza Party 1
     2127: '',                               // Brulee
     2144: '',                               // Diamante
     2165: '',                               // Baby 5 & Sai

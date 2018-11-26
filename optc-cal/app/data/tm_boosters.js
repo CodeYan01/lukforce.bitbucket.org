@@ -13,6 +13,8 @@ var tm_boosters = [
 
     // ===== BM =====
     // FNs
+    2087,
+    2165,
 
     // Raids
 
