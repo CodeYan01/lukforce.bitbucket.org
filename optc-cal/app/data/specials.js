@@ -270,6 +270,17 @@ var specials = {
         thumb: 1900
     },
 
+    'fa_2072': {
+        type: 'Strange Forest Adventure',
+        name: 'Chopper',
+        thumb: 2072
+    },
+    'fa_2078': {
+        type: 'Strange Forest Adventure',
+        name: 'Carrot',
+        thumb: 2078
+    },
+
     'hs_1192': {
         type: 'High Seas',
         name: 'Aokiji',
