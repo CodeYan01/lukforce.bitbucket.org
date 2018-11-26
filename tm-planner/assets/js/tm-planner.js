@@ -52,8 +52,15 @@ function getBoosters(tmId, server) {
         $('#div_1_5x').show();
         $('#div_1_35x').show();
         $('#div_1x').show();
-    } else if (server == 'glb' && tmId == 2175) {
+    } else if (
+        server == 'glb' &&
+        (
+            tmId == 2175 ||
+            tmId == 2109
+        )
+    ) {
         // TM Jack
+        // TM Big Mom
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
