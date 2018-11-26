@@ -105,6 +105,7 @@ var videoWiki = {
     1376: 'coliseum/dellinger',
     1378: 'coliseum/marguerite',
     1401: 'coliseum/gladius',
+    1402: 'coliseum/dalton',
     1422: 'coliseum/diamante',
     1423: 'coliseum/tbone',
     1424: 'coliseum/gin',
@@ -132,6 +133,7 @@ var videoWiki = {
     1945: 'coliseum/pedro',
     1978: 'coliseum/rayleigh',
     2037: 'coliseum/jesus_burgess',
+    2111: 'coliseum/timeskip_captainkid',
     2123: 'coliseum/neptune',
     2163: 'coliseum/charlotte_opera',
 

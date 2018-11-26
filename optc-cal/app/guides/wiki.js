@@ -223,6 +223,7 @@ var wiki = {
     1376: 'comments/83o81l',                // Dellinger
     1378: '',                               // Marguerite
     1401: 'wiki/coliseum/gladius',
+    1402: '',                               // Dalton
     1422: 'comments/7t5pis',                // Diamante
     1423: '',                               // T-Bone
     1424: '',                               // Gin
@@ -250,6 +251,7 @@ var wiki = {
     1945: 'wiki/coliseum/pedro',
     1978: 'wiki/coliseum/rayleigh',
     2037: 'wiki/coliseum/burgess',
+    2111: '',                               // TS Kid
     2123: '',                               // Neptune
     2163: '',                               // Opera
 

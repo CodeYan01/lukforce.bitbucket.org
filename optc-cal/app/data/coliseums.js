@@ -249,6 +249,11 @@ var coliseums = {
         chaos_only: true,
         thumb: 1401
     },
+    1402: {
+        name: 'Dalton',
+        chaos_only: false,
+        thumb: 1402
+    },
     1422: {
         name: 'Diamante',
         chaos_only: true,
@@ -383,6 +388,11 @@ var coliseums = {
         name: 'Burgess',
         chaos_only: true, // Not but new format
         thumb: 2037
+    },
+    2111: {
+        name: 'TS Kid',
+        chaos_only: true, // Not but new format
+        thumb: 2111
     },
     2123: {
         name: 'Neptune',
