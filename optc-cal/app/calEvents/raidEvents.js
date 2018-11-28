@@ -1609,6 +1609,10 @@ var raidEvents = [
         end: '2018-12-03'
     },
     {
+        id: 2097,
+        start: '2018-11-30'
+    },
+    {
         id: 1432,
         start: '2018-12-01',
         ambush: cavendish

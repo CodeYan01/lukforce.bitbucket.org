@@ -154,6 +154,7 @@ var wiki = {
     1943: 'wiki/raidboss/pink',
     2015: 'wiki/raidboss/lucci',
     2033: 'wiki/raidboss/tankman',
+    2097: '',                               // Zoro
     2158: '',                               // Cracker
     2263: 'wiki/raidboss/v2doflamingo',
 
