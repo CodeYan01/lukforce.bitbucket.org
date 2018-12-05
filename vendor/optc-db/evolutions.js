@@ -3747,44 +3747,80 @@ window.evolutions = {
         evolution: 2310,
         evolvers: [ 117, 83, 90, 96, 101 ]
     },
+    2320: {
+        evolution: 2321,
+        evolvers: [ 118, 266, 93, 304, 104 ]
+    },
     2322: {
         evolution: 2323,
         evolvers: [ 118, 95, 1180, 300, 100 ]
     },
     2324: {
         evolution: 2325,
-        evolvers: [  ]
+        evolvers: [ 118, 87, 98, 303, 103 ]
     },
     2326: {
         evolution: 2327,
-        evolvers: [  ]
+        evolvers: [ 117, 79, 85, 96, 101 ]
     },
     2329: {
         evolution: 2330,
-        evolvers: [  ]
+        evolvers: [ 118, 1180, 301, 301, 267 ]
     },
     2331: {
         evolution: 2332,
-        evolvers: [  ]
+        evolvers: [ 117, 266, 304, 304, 104 ]
     },
     2333: {
         evolution: 2334,
-        evolvers: [  ]
+        evolvers: [ 117, 266, 303, 303, 103 ]
     },
     2335: {
         evolution: 2336,
+        evolvers: [ 115, 116, 117, 118, 100 ]
+    },
+    2337: {
+        evolution: 2338,
+        evolvers: [ 118, 266, 96, 301, 267 ]
+    },
+    2339: {
+        evolution: 2340,
+        evolvers: [ 117, 85, 1180, 301, 101 ]
+    },
+    2341: {
+        evolution: 2342,
+        evolvers: [ 117, 87, 1180, 303, 103 ]
+    },
+    2343: {
+        evolution: 2344,
+        evolvers: [ 117, 87, 94, 303, 103 ]
+    },
+    2345: {
+        evolution: 2346,
+        evolvers: [ 117, 83, 93, 99, 104 ]
+    },
+    2348: {
+        evolution: 2349,
+        evolvers: [  ]
+    },
+    2353: {
+        evolution: 2354,
         evolvers: [  ]
     },
     2400: {
         evolution: 2401,
-        evolvers: [  ]
+        evolvers: [ 118, 84, 89, 95, 100 ]
     },
     2402: {
         evolution: 2403,
-        evolvers: [  ]
+        evolvers: [ 118, 86, 91, 97, 102 ]
     },
     2404: {
         evolution: 2405,
+        evolvers: [ 118, 85, 90, 96, 101 ]
+    },
+    2406: {
+        evolution: 2407,
         evolvers: [  ]
     },
     2502: {
