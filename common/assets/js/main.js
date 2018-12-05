@@ -29,6 +29,10 @@ function getThumb(thumbId) {
     if (thumbId === 5015 || thumbId === 2504)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5015.png';
 
+    // Special case for Lucci v2 6+
+    if (thumbId === 5016 || thumbId === 2505)
+        return '/tm-planner/assets/img/new-thumbs/5016.png';
+
     // Special cases for new thumbs
     if (thumbId === 2330 ||
         thumbId === 2332 ||

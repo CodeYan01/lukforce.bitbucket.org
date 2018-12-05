@@ -2448,6 +2448,14 @@ var tm_boosters = {
             id: 2173,
             x_pts: 1.5
         },
+        {   // Gear 4 v2
+            id: 2074,
+            x_pts: 1.35
+        },
+        {   // Nami
+            id: 2076,
+            x_pts: 1.35
+        },
         {   // Shishilian
             id: 2171,
             x_pts: 1.35
@@ -2455,6 +2463,36 @@ var tm_boosters = {
         {   // Jack
             id: 2175,
             x_pts: 1.35
+        },
+        {   // Lucci v2 6+
+            id: 2505,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // LRR Urouge
+            id: 1895,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // WCI Chopper
+            id: 2072,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // WCI Carrot
+            id: 2078,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // WCI Brook
+            id: 2080,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // WCI Pedro
+            id: 2082,
+            type: 'rr',
+            x_pts: 1.2
         },
         {   // WC Luffy
             id: 2401,
@@ -2556,6 +2594,76 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
+        {   // Doffy (N)
+            id: 1623,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kuma (N)
+            id: 1772,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kizaru (N)
+            id: 1780,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Akainu (N)
+            id: 1826,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 2097,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Dalton
+            id: 1402,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // TS Kid
+            id: 2111,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Luffy
+            id: 2087,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Sanji
+            id: 2088,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Nami
+            id: 2089,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Franky
+            id: 2090,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Usopp
+            id: 2091,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Baby 5
+            id: 2165,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sai
+            id: 2167,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Mihawk
             id: 1808,
             type: 'tm',
@@ -2599,6 +2707,11 @@ var tm_boosters = {
         {   // Croc
             id: 2137,
             type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Pudding
+            id: 2065,
+            type: 'other',
             x_pts: 1.2
         },
         {   // Luffy 5+
