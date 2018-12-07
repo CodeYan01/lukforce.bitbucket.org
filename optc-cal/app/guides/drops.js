@@ -114,6 +114,7 @@ drops = {
     2046: 'Red%20Hair%20Pirates%20at%20the%20Harbor!%20Fortnight',
     2056: 'Germa%27s%20Lineage%20Factor!%20Fortnight',
     2087: 'Strawhat%20Pirates%20Pizza%20Party!!%20Lunch%20Fortnight',
+    2092: 'Strawhat%20Pirates%20Pizza%20Party!!%20Dinner%20Fortnight',
     2127: 'Br%C3%BBl%C3%A9e%27s%20Cauldron%20Party%20Fortnight',
     2144: 'Coliseum%20Executioner!%20Diamante%20Fortnight',
     2165: 'Baby%205%27s%20Journey%20to%20Become%20a%20Bride%20Fortnight',

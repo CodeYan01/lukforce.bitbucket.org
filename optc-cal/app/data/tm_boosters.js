@@ -26,4 +26,12 @@ var tm_boosters = [
     // Coliseums
     1402,
     2111,
+
+    // ===== Eneru =====
+    // FNs
+    2092,
+
+    // Raids
+
+    // Coliseums
 ]

@@ -114,6 +114,7 @@ var nakama = {
     2046: '2204400',    // Red Hair Pirates
     2056: '2205600',    // Germa Kids
     2087: '2208700',    // Pizza Party 1
+    2092: '2209200',    // Pizza Party 2
     2127: '2212700',    // Brulee
     2144: '2214600',    // Diamante
     2165: '2216500',    // Baby 5 & Sai

@@ -455,6 +455,10 @@ var fortnights = {
         name: 'Pizza Party 1',
         thumb: 2087
     },
+    2092: {
+        name: 'Pizza Party 2',
+        thumb: 2092
+    },
     2127: {
         name: 'Brulee',
         thumb: 2127

@@ -114,6 +114,7 @@ var gw = {
     2046: '98268',      // Red Hair Pirates
     2056: '99700',      // Germa Kids
     2087: '102411',     // Pizza Party 1
+    2092: '106869',     // Pizza Party 2
     2127: '108422',     // Brulee
     2144: '109801',     // Diamante
     2165: '111404',     // Baby 5 & Sai

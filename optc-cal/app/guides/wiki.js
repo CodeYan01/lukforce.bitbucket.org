@@ -114,6 +114,7 @@ var wiki = {
     2046: 'wiki/fortnight/redhairpirates',
     2056: '',                               // Germa Kids
     2087: '',                               // Pizza Party 1
+    2092: '',                               // Pizza Party 2
     2127: '',                               // Brulee
     2144: '',                               // Diamante
     2165: '',                               // Baby 5 & Sai
