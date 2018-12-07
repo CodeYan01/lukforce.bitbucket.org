@@ -1383,6 +1383,15 @@ var specialBgEvents = [
         end: '2018-12-11'
     },
     {
+        id: 'train_drink',
+        start: '2018-12-07'
+    },
+    {
+        id: 'free_pull',
+        start: '2018-12-06',
+        end: '2018-12-16'
+    },
+    {
         id: 'strawhats',
         start: '2018-12-07',
         end: '2018-12-11'

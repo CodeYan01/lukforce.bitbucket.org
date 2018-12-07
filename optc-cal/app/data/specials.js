@@ -111,6 +111,12 @@ var specials = {
         thumb: 1600
     },
 
+    'univ_sp': {
+        type: 'Almighty Manuals',
+        name: '',
+        thumb: 'univ_sp'
+    },
+
     'cc_0261': {
         type: 'Champion Challenge',
         name: 'Whitebeard',

@@ -341,4 +341,9 @@ var specialEvents = [
         end: '2018-12-11',
         pst_0: true
     },
+    {
+        id: 'univ_sp',
+        start: '2018-12-06',
+        end: '2018-12-11'
+    },
 ]

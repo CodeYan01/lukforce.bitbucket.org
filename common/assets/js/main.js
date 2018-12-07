@@ -10,6 +10,10 @@ function getThumb(thumbId) {
     if (thumbId === '1_turn_dmg_rank')
         return '/optc-cal/assets/img/1_turn_dmg_rank.jpg';
 
+    // Special case for Universal SP Book
+    if (thumbId === 'univ_sp')
+        return '/optc-cal/assets/img/univ_sp.png';
+
     // Zero pad IDs to get correct thumb
     var paddedThumbId = ('0000' + thumbId).slice(-4);
 
