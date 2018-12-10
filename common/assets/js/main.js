@@ -38,10 +38,12 @@ function getThumb(thumbId) {
         return '/tm-planner/assets/img/new-thumbs/5016.png';
 
     // Special cases for new thumbs
-    if (thumbId === 2330 ||
-        thumbId === 2332 ||
-        thumbId === 2334 ||
-        thumbId === 2336
+    if (thumbId === 2356 ||
+        thumbId === 2357 ||
+        thumbId === 2358 ||
+        thumbId === 2359 ||
+        thumbId === 2360 ||
+        thumbId === 2362
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 

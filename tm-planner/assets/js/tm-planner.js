@@ -117,6 +117,13 @@ function getBoosters(tmId, server) {
         $('#div_1_5x').show();
         $('#div_1_35x_v4').show();
         $('#div_1_25x_v2').show();
+    } else if (server == 'jpn' && tmId == 2362) {
+        // TM Nami
+        $('#div_2_25x').show();
+        $('#div_1_85x').show();
+        $('#div_1_6x').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_3x_v2').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -170,6 +177,8 @@ function getBoosters(tmId, server) {
             $('#booster_' + _x_pts + 'x_' + b.type).append(imgDiv);
         } else if (b.x_pts === 1.35 && b.ver)
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
+        else if (b.x_pts === 1.3 && b.ver)
+            $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
         else if (b.x_pts === 1.25 && b.ver)
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
         else
@@ -178,6 +187,8 @@ function getBoosters(tmId, server) {
         _x_pts += 'x';
 
         if (b.x_pts === 1.35 && b.ver)
+            _x_pts += '_v' + b.ver;
+        else if (b.x_pts === 1.3 && b.ver)
             _x_pts += '_v' + b.ver;
         else if (b.x_pts === 1.25 && b.ver)
             _x_pts += '_v' + b.ver;
