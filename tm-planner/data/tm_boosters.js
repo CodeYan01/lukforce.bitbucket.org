@@ -2440,6 +2440,18 @@ var tm_boosters = {
 
     // ========== Big Mom ==========
     2109: [
+        {   // Tesoro
+            id: 2099,
+            x_pts: 2
+        },
+        {   // Reiju
+            id: 2084,
+            x_pts: 1.75
+        },
+        {   // Sanji
+            id: 2086,
+            x_pts: 1.75
+        },
         {   // Inuarashi
             id: 2169,
             x_pts: 1.75
@@ -2456,6 +2468,26 @@ var tm_boosters = {
             id: 2076,
             x_pts: 1.35
         },
+        {   // Dice
+            id: 2101,
+            x_pts: 1.35
+        },
+        {   // Baccarat
+            id: 2103,
+            x_pts: 1.35
+        },
+        {   // Tanaka
+            id: 2105,
+            x_pts: 1.35
+        },
+        {   // Carina
+            id: 2107,
+            x_pts: 1.35
+        },
+        {   // Big Mom
+            id: 2109,
+            x_pts: 1.35
+        },
         {   // Shishilian
             id: 2171,
             x_pts: 1.35
@@ -2464,13 +2496,65 @@ var tm_boosters = {
             id: 2175,
             x_pts: 1.35
         },
+        {   // WC Luffy
+            id: 2401,
+            x_pts: 1.35
+        },
+        {   // WC Blackbeard
+            id: 2403,
+            x_pts: 1.35
+        },
+        {   // WC Akainu
+            id: 2405,
+            x_pts: 1.35
+        },
+        {   // Akainu v2
+            id: 2023,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Aokiji v2
+            id: 2025,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Katakuri
+            id: 2113,
+            type: 'legend',
+            x_pts: 1.2
+        },
         {   // Lucci v2 6+
             id: 2505,
             type: 'legend',
             x_pts: 1.2
         },
+        {   // LRR World
+            id: 1824,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Niji
+            id: 1838,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // LRR Urouge
             id: 1895,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 1902,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Marco v2
+            id: 1987,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Hina
+            id: 2027,
             type: 'rr',
             x_pts: 1.2
         },
@@ -2491,21 +2575,6 @@ var tm_boosters = {
         },
         {   // WCI Pedro
             id: 2082,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // WC Luffy
-            id: 2401,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // WC Blackbeard
-            id: 2403,
-            type: 'rr',
-            x_pts: 1.2
-        },
-        {   // WC Akainu
-            id: 2405,
             type: 'rr',
             x_pts: 1.2
         },
@@ -2654,6 +2723,26 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Pirate Festival Zoro
+            id: 2092,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Chopper
+            id: 2093,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Brook
+            id: 2094,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Robin
+            id: 2095,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Baby 5
             id: 2165,
             type: 'fortnight',
@@ -2709,11 +2798,6 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Pudding
-            id: 2065,
-            type: 'other',
-            x_pts: 1.2
-        },
         {   // Luffy 5+
             id: 1387,
             x_pts: 1
@@ -2748,6 +2832,34 @@ var tm_boosters = {
         },
         {   // Brook 5+
             id: 1551,
+            x_pts: 1
+        },
+        {   // Van Augur
+            id: 1271,
+            x_pts: 1
+        },
+        {   // Van Augur
+            id: 1272,
+            x_pts: 1
+        },
+        {   // Tsuru
+            id: 1319,
+            x_pts: 1
+        },
+        {   // Tsuru
+            id: 1320,
+            x_pts: 1
+        },
+        {   // Kuma v2
+            id: 1611,
+            x_pts: 1
+        },
+        {   // Kuma v2
+            id: 1612,
+            x_pts: 1
+        },
+        {   // Pudding
+            id: 2065,
             x_pts: 1
         },
     ],
