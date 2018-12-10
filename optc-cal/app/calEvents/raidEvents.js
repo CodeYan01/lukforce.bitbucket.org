@@ -1674,7 +1674,8 @@ var raidEvents = [
     },
     {
         id: 1924,
-        start: '2018-12-13'
+        start: '2018-12-13',
+        ambush: cavendish
     },
     {
         id: 353,
@@ -1683,5 +1684,26 @@ var raidEvents = [
     {
         id: 353,
         start: '2018-12-15'
+    },
+    {
+        id: 1163,
+        start: '2018-12-20'
+    },
+    {
+        id: 1163,
+        start: '2018-12-21'
+    },
+    {
+        id: 2158,
+        start: '2018-12-22',
+        ambush: shanks
+    },
+    {
+        id: 353,
+        start: '2018-12-23'
+    },
+    {
+        id: 353,
+        start: '2018-12-24'
     },
 ]
