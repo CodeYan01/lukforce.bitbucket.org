@@ -39,6 +39,11 @@ var tms = {
         thumb: 2064,
         info: 'i.imgur.com/gw4s7Cr.png'
     },
+    2109: {
+        name: 'Big Mom',
+        thumb: 2109,
+        info: 'i.imgur.com/c17jXBm.jpg'
+    },
     2137: {
         name: 'Crocodile',
         thumb: 2137,
