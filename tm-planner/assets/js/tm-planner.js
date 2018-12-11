@@ -1299,7 +1299,7 @@ $(document).ready(function() {
 
     // Multi Class mode
     createTooltip($('#multi-class-mode-label'),
-        "Select units for Captain Abilities benefiting from multiple classes, e.g. Katakuri, Carrot");
+        "Select units for Captain Abilities benefiting from multiple classes, e.g. Katakuri, Carrot (Disables 2 Classes restriction)");
 
     $('#multi-class-mode-checkbox').click(function() {
         if ($(this).prop('checked'))
