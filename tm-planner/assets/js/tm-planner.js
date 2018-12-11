@@ -1293,25 +1293,52 @@ $(document).ready(function() {
         }
     });
 
-    var classFilters = [];
-
     // Class filter
+    var classFilters = [];
+    var multiClassMode = false;
+
+    // Multi Class mode
+    createTooltip($('#multi-class-mode-label'),
+        "Select units for Captain Abilities benefiting from multiple classes, e.g. Katakuri, Carrot");
+
+    $('#multi-class-mode-checkbox').click(function() {
+        if ($(this).prop('checked'))
+            multiClassMode = true;
+        else
+            multiClassMode = false;
+
+        // Clear existing Class Filters
+        classFilters = [];
+        $('.class-filter').removeClass('selected');
+        $('.class-filtered').removeClass('class-filtered');
+    });
+
     $('.class-filter').click(function() {
         var filter = $(this).data('filter');
 
-        if ($(this).hasClass('selected')) {
-            $(this).removeClass('selected');
-            classFilters.splice(classFilters.indexOf(filter), 1);
+        if (multiClassMode) {
+            if ($(this).hasClass('selected')) {
+                $(this).removeClass('selected');
+                classFilters.splice(classFilters.indexOf(filter), 1);
+            } else {
+                $(this).addClass('selected');
+                classFilters.push(filter);
+            }
         } else {
-            var removedFilter = [];
-            if (classFilters.length > 1)
-                removedFilter = classFilters.splice(0, 1);
+            if ($(this).hasClass('selected')) {
+                $(this).removeClass('selected');
+                classFilters.splice(classFilters.indexOf(filter), 1);
+            } else {
+                var removedFilter = [];
+                if (classFilters.length > 1)
+                    removedFilter = classFilters.splice(0, 1);
 
-            if (removedFilter.length > 0)
-                $('.' + removedFilter[0].replace(' ', '-').toLowerCase() + '-div').removeClass('selected');
+                if (removedFilter.length > 0)
+                    $('.' + removedFilter[0].replace(' ', '-').toLowerCase() + '-div').removeClass('selected');
 
-            $(this).addClass('selected');
-            classFilters.push(filter);
+                $(this).addClass('selected');
+                classFilters.push(filter);
+            }
         }
 
         if (classFilters.length == 0) {
