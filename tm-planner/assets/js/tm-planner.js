@@ -1268,10 +1268,10 @@ $(document).ready(function() {
     // Type filter
     $('.type-filter').click(function() {
         var filter = $(this).data('filter');
-        $('.booster, .booster-clone').removeClass('type-filtered');
 
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
+            $('.type-filtered').removeClass('type-filtered');
         } else {
             $('.type-filter').removeClass('selected');
             $(this).addClass('selected');
@@ -1281,32 +1281,71 @@ $(document).ready(function() {
                 if (Array.isArray(unitType)) {
                     if (unitType.indexOf(filter) == -1)
                         $(this).addClass('type-filtered');
+                    else
+                        $(this).removeClass('type-filtered');
                 } else {
                     if ($(this).data('type') !== filter)
                         $(this).addClass('type-filtered');
+                    else
+                        $(this).removeClass('type-filtered');
                 }
             });
         }
     });
 
+    var classFilters = [];
+
     // Class filter
     $('.class-filter').click(function() {
         var filter = $(this).data('filter');
-        $('.booster, .booster-clone').removeClass('class-filtered');
 
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
+            classFilters.splice(classFilters.indexOf(filter), 1);
         } else {
-            $('.class-filter').removeClass('selected');
-            $(this).addClass('selected');
+            var removedFilter = [];
+            if (classFilters.length > 1)
+                removedFilter = classFilters.splice(0, 1);
 
+            if (removedFilter.length > 0)
+                $('.' + removedFilter[0].replace(' ', '-').toLowerCase() + '-div').removeClass('selected');
+
+            $(this).addClass('selected');
+            classFilters.push(filter);
+        }
+
+        if (classFilters.length == 0) {
+            // Clear filters if no Class Filters are currently selected
+            $('.class-filtered').removeClass('class-filtered');
+        } else {
             $('.booster, .booster-clone').each(function() {
-                if ($(this).data('class2')) {
-                    if ($(this).data('class1') !== filter && $(this).data('class2') !== filter)
-                        $(this).addClass('class-filtered');
+                var unitClass1 = $(this).data('class1');
+                var unitClass2 = $(this).data('class2');
+
+                if (unitClass2) {
+                    // Units with 2 Classes
+                    if (classFilters.length > 1) {
+                        if (classFilters.indexOf(unitClass1) == -1 || classFilters.indexOf(unitClass2) == -1)
+                            $(this).addClass('class-filtered');
+                        else
+                            $(this).removeClass('class-filtered');
+                    } else {
+                        if (unitClass1 !== classFilters[0] && unitClass2 !== classFilters[0])
+                            $(this).addClass('class-filtered');
+                        else
+                            $(this).removeClass('class-filtered');
+                    }
                 } else {
-                    if ($(this).data('class1') !== filter)
+                    // Units with only 1 Class
+                    if (classFilters.length > 1) {
+                        // Disqualify units with 1 Class if 2 Class Filters are selected
                         $(this).addClass('class-filtered');
+                    } else {
+                        if (unitClass1 !== classFilters[0])
+                            $(this).addClass('class-filtered');
+                        else
+                            $(this).removeClass('class-filtered');
+                    }
                 }
             });
         }
