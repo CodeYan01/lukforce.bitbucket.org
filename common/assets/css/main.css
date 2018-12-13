@@ -57,6 +57,18 @@ body {
     cursor: pointer;
 }
 
+.lb-filter {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    float: left;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .selected {
     opacity: 1;
 }

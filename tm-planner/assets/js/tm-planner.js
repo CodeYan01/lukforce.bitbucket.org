@@ -164,6 +164,15 @@ function getBoosters(tmId, server) {
             imgDiv.data('class1', unitClass);
         }
 
+        // Has LB
+        var uDetail = details[b.id];
+        var hasLb = false;
+        if (uDetail.limit || uDetail.potential) {
+            if (server === 'jpn' || server === 'glb' && glb_no_lb.indexOf(b.id) == -1)
+                hasLb = true;
+        }
+        imgDiv.data('has_lb', hasLb);
+
         imgDiv.data('max_lv', units[b.id - 1][7])
         imgDiv.data('team', -1);
         imgDiv.attr('id', 'booster_' + b.id);
@@ -1374,6 +1383,25 @@ $(document).ready(function() {
                             $(this).removeClass('class-filtered');
                     }
                 }
+            });
+        }
+    });
+
+
+    // LB Filter
+    $('.lb-filter').click(function() {
+        if ($(this).hasClass('selected')) {
+            $(this).removeClass('selected');
+            $('.lb-filtered').removeClass('lb-filtered');
+        } else {
+            $(this).addClass('selected');
+
+            $('.booster, .booster-clone').each(function() {
+                var hasLb = $(this).data('has_lb');
+                if (!hasLb)
+                    $(this).addClass('lb-filtered');
+                else
+                    $(this).removeClass('lb-filtered');
             });
         }
     });

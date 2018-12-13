@@ -126,7 +126,8 @@
 }
 
 .type-filtered,
-.class-filtered {
+.class-filtered,
+.lb-filtered {
     opacity: 0.3;
 }
 
