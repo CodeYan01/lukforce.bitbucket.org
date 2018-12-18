@@ -49,6 +49,7 @@ var videoWiki = {
     1780: 'raidboss/kizarukai',
     1826: '',   // Akainu (N)
     1930: 'raidboss/enelkai',
+    2070: 'raidboss/hancockkai',
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',

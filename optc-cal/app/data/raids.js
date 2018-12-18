@@ -193,4 +193,8 @@ var raids = {
         name: 'Eneru (N)',
         thumb: 1930
     },
+    2070: {
+        name: 'Boa Hancock (N)',
+        thumb: 2070
+    },
 };

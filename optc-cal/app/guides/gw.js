@@ -169,6 +169,7 @@ var gw = {
     1780: '68681',      // Kizaru (N)
     1826: '73951',      // Akainu (N)
     1930: '86020',      // Eneru (N)
+    2070: '102084',     // Boa Hancock (N)
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks

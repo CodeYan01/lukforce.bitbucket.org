@@ -169,6 +169,7 @@ var wiki = {
     1780: 'wiki/raidboss/kizarukai',
     1826: '',                               // Akainu (N)
     1930: '',                               // Eneru (N)
+    2070: '',                               // Boa Hancock (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
