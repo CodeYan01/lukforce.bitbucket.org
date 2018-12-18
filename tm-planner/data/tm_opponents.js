@@ -112,10 +112,10 @@ var tm_opponents = {
         2336: ['Chopper',       'STR',      4]      // Uses Law ID
     },
     2362: {
-        1413: ['Whitebeard',    'STR',      0],
-        1635: ['Brownbeard',    'PSY',      1],
+        1413: ['Whitebeard',    'STR',      3],
+        1635: ['Brownbeard',    'PSY',      0],
         1882: ['Rayleigh',      'DEX',      2],
-        2197: ['Blackbeard',    'INT',      3],
+        2197: ['Blackbeard',    'INT',      1],
         2362: ['Nami',          'PSY',      4]
     },
     9999: [
