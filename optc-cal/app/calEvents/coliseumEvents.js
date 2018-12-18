@@ -2178,4 +2178,30 @@ var coliseumEvents = [
         end: '2018-12-30',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: [2111],
+        repId: [1102, 1602, 1733, 1104],
+        start: '2018-12-17',
+        new_batch: false
+    },
+    {
+        newId: [2111],
+        repId: [1102, 1602, 1733, 1104],
+        start: '2018-12-20',
+        new_batch: false
+    },
+    {
+        newId: [2111],
+        repId: [1102, 1602, 1733, 1104],
+        start: '2018-12-24',
+        new_batch: false
+    },
+    {
+        newId: [2111],
+        repId: [1102, 1602, 1733, 1104],
+        start: '2018-12-27',
+        new_batch: false
+    },
 ]
