@@ -3869,4 +3869,195 @@ var tm_boosters = {
             x_pts: 1
         },
     ],
+
+    // ========== Eneru ==========
+    2211: [
+        {   // Tesoro
+            id: 2099,
+            x_pts: 1.5
+        },
+        {   // Reiju
+            id: 2084,
+            x_pts: 1.35
+        },
+        {   // Sanji
+            id: 2086,
+            x_pts: 1.35
+        },
+        {   // Big Mom
+            id: 2109,
+            x_pts: 1.35
+        },
+        {   // LRR Tashigi
+            id: 2068,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1806,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Akainu
+            id: 1849,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 1885,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Blackbeard
+            id: 1937,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Boa Hancock
+            id: 1968,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 2009,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Beckman
+            id: 2060,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Apoo
+            id: 2062,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Ivankov
+            id: 2132,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Jozu
+            id: 2134,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Mr. 1
+            id: 2135,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Inuarashi
+            id: 2169,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Shishilian
+            id: 2171,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Shirahoshi
+            id: 2173,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Boa Hancock (N)
+            id: 2070,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Nekomamushi
+            id: 2177,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1808,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // WB
+            id: 1853,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1889,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // G4
+            id: 1916,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Ace
+            id: 1941,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Sabo
+            id: 1972,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Sanji & Zoro
+            id: 2000,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Kizaru
+            id: 2064,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Croc
+            id: 2137,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Jack
+            id: 2175,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Luffy 5+
+            id: 1387,
+            x_pts: 1
+        },
+        {   // Zoro 5+
+            id: 1388,
+            x_pts: 1
+        },
+        {   // Nami 5+
+            id: 1389,
+            x_pts: 1
+        },
+        {   // Usopp 5+
+            id: 1446,
+            x_pts: 1
+        },
+        {   // Sanji 5+
+            id: 1447,
+            x_pts: 1
+        },
+        {   // Chopper 5+
+            id: 1448,
+            x_pts: 1
+        },
+        {   // Robin 5+
+            id: 1549,
+            x_pts: 1
+        },
+        {   // Franky 5+
+            id: 1550,
+            x_pts: 1
+        },
+        {   // Brook 5+
+            id: 1551,
+            x_pts: 1
+        },
+    ],
 };

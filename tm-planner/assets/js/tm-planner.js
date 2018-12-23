@@ -56,11 +56,13 @@ function getBoosters(tmId, server) {
         server == 'glb' &&
         (
             tmId == 2175 ||
-            tmId == 2109
+            tmId == 2109 ||
+            tmId == 2211
         )
     ) {
         // TM Jack
         // TM Big Mom
+        // TM Eneru
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
