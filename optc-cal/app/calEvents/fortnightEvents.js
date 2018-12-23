@@ -1504,6 +1504,20 @@ var fortnightEvents = [
         end: '2018-12-25',
         is_replay: true
     },
+
+    // #############################
+    {
+        id: 2177,
+        start: '2018-12-25',
+        end: '2019-01-01',
+        is_replay: false
+    },
+    {
+        id: 2177,
+        start: '2019-01-01',
+        end: '2019-01-08',
+        is_replay: false
+    },
     {
         id: [420, 866],
         start: '2018-12-25',

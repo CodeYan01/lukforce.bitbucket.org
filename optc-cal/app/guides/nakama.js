@@ -118,6 +118,7 @@ var nakama = {
     2127: '2212700',    // Brulee
     2144: '2214600',    // Diamante
     2165: '2216500',    // Baby 5 & Sai
+    2177: '2217700',    // Nekomamushi
 
     // Raids
     227: '4022700',     // Mihawk

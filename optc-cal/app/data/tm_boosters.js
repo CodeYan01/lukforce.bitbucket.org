@@ -31,6 +31,7 @@ var tm_boosters = [
 
     // ===== Eneru =====
     // FNs
+    2177,
 
     // Raids
     2070,

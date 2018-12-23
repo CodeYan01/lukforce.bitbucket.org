@@ -118,6 +118,7 @@ drops = {
     2127: 'Br%C3%BBl%C3%A9e%27s%20Cauldron%20Party%20Fortnight',
     2144: 'Coliseum%20Executioner!%20Diamante%20Fortnight',
     2165: 'Baby%205%27s%20Journey%20to%20Become%20a%20Bride%20Fortnight',
+    2177: 'Let%27s%20Go%20See%20Master%20Nekomamushi!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

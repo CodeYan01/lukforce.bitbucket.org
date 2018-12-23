@@ -118,6 +118,7 @@ var wiki = {
     2127: '',                               // Brulee
     2144: '',                               // Diamante
     2165: '',                               // Baby 5 & Sai
+    2177: '',                               // Nekomamushi
 
     // Raids
     227: 'wiki/raidboss/mihawk',

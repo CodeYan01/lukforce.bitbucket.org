@@ -118,6 +118,7 @@ var gw = {
     2127: '108422',     // Brulee
     2144: '109801',     // Diamante
     2165: '111404',     // Baby 5 & Sai
+    2177: '114146',     // Nekomamushi
 
     // Raids
     227: '4142',        // Mihawk
