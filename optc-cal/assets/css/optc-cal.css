@@ -45,7 +45,7 @@ button {
 .fc td.fc-today {
     border-color: goldenrod;
     border-style: solid;
-    border-width: thick;
+    border-width: 5px;
 }
 
 .fc-unthemed td.fc-today {
