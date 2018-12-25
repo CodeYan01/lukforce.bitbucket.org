@@ -139,7 +139,7 @@ var videoWiki = {
     2123: 'coliseum/neptune',
     2163: 'coliseum/charlotte_opera',
 
-    1863: '',   // Kinemon (N)
+    1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',
     1976: 'coliseum/xdrakekai',
     2017: 'coliseum/diamantekai',

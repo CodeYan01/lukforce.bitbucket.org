@@ -112,12 +112,12 @@ var wiki = {
     1995: 'wiki/fortnight/marcovista',
     2019: 'wiki/fortnight/makino',
     2046: 'wiki/fortnight/redhairpirates',
-    2056: '',                               // Germa Kids
+    2056: 'wiki/fortnight/germa',
     2087: '',                               // Pizza Party 1
     2092: '',                               // Pizza Party 2
-    2127: '',                               // Brulee
-    2144: '',                               // Diamante
-    2165: '',                               // Baby 5 & Sai
+    2127: 'wiki/fortnight/brulee',
+    2144: 'wiki/fortnight/diamante_rebecca',
+    2165: 'wiki/fortnight/baby5_donsai',
     2177: '',                               // Nekomamushi
 
     // Raids
@@ -151,13 +151,13 @@ var wiki = {
     1696: 'comments/7eeu5h',                // Vergo
     1815: 'wiki/raidboss/sanji',
     1830: 'wiki/raidboss/caesar',
-    1879: '',                               // Bartolomeo
+    1879: 'wiki/raidboss/barto',
     1924: 'comments/77jr7y',                // Rayleigh
     1943: 'wiki/raidboss/pink',
     2015: 'wiki/raidboss/lucci',
     2033: 'wiki/raidboss/tankman',
-    2097: '',                               // Zoro
-    2158: '',                               // Cracker
+    2097: 'comments/a25q11',                // Zoro
+    2158: 'wiki/raidboss/cracker',
     2263: 'wiki/raidboss/v2doflamingo',
 
     1623: 'wiki/raidboss/doffykai',
@@ -257,8 +257,8 @@ var wiki = {
     1978: 'wiki/coliseum/rayleigh',
     2037: 'wiki/coliseum/burgess',
     2111: '',                               // TS Kid
-    2123: '',                               // Neptune
-    2163: '',                               // Opera
+    2123: 'wiki/coliseum/neptune',
+    2163: 'wiki/coliseum/opera',
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
