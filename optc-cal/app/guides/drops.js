@@ -118,7 +118,7 @@ drops = {
     2127: 'Br%C3%BBl%C3%A9e%27s%20Cauldron%20Party%20Fortnight',
     2144: 'Coliseum%20Executioner!%20Fortnight',
     2165: 'Baby%205%27s%20Wedding%20Plans%20Fortnight',
-    2177: 'Let%27s%20Go%20See%20Master%20Nekomamushi!%20Fortnight',
+    2177: 'Let%27s%20Go%20See%20The%20Cat%20Viper!%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',
