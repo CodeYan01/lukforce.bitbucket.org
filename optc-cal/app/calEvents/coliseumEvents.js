@@ -2210,6 +2210,7 @@ var coliseumEvents = [
         newId: [],
         repId: [1141, 1220, 1602, 1897, 2037],
         start: '2019-01-02',
+        ambush: ywb,
         new_batch: true
     },
     {
