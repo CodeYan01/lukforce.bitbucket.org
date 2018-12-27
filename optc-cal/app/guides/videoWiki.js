@@ -38,6 +38,7 @@ var videoWiki = {
     2097: 'raidboss/zoro',
     2158: 'raidboss/cracker',
     2263: 'raidboss/v2doflamingo',
+    2507: '',   // Sengoku & Garp
 
     1623: 'raidboss/doflamingokai',
     1647: 'raidboss/picakai',
