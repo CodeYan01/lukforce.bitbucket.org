@@ -1324,7 +1324,7 @@ var specialBgEvents = [
         end: '2018-11-25'
     },
     {
-        id: 'ss',
+        id: 'ss_x3',
         start: '2018-11-17',
         end: '2018-11-20',
         pst_19: true
@@ -1342,7 +1342,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'ss',
+        id: 'ss_x3',
         start: '2018-11-23',
         end: '2018-11-25',
         pst_19: true
@@ -1444,5 +1444,30 @@ var specialBgEvents = [
     {
         id: 'ss',
         start: '2018-12-27'
+    },
+    {
+        id: 'sp_x3',
+        start: '2018-12-28',
+        end: '2019-01-01'
+    },
+    {
+        id: 'celestials',
+        start: '2018-12-28',
+        end: '2018-12-31'
+    },
+    {
+        id: 'strawhats',
+        start: '2018-12-31',
+        end: '2019-01-04'
+    },
+    {
+        id: 'ss_x3',
+        start: '2019-01-01',
+        end: '2019-01-04'
+    },
+    {
+        id: 'ray_tome',
+        start: '2019-01-04',
+        end: '2019-01-08'
     },
 ]
