@@ -118,6 +118,13 @@ var tm_opponents = {
         2197: ['Blackbeard',    'INT',      1],
         2362: ['Nami',          'PSY',      4]
     },
+    2387: {
+         418: ['Doffy',         'DEX',      0],
+        1091: ['X Drake',       'PSY',      1],
+        1830: ['Caesar',        'INT',      2],
+        2230: ['Sheepshead',    'QCK',      3],
+        2231: ['Jack',          'STR',      4]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
