@@ -308,4 +308,5 @@ var gw = {
     'rk_1873': '111278',// 1 Turn Dmg Ranking Kyros
 
     'se_2138': '109674',// Super Evolve Germa 66
+    'se_2232': '117538',// Super Evolve Eneru
 };

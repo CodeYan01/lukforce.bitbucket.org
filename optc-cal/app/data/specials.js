@@ -314,4 +314,9 @@ var specials = {
         name: 'Germa 66',
         thumb: 2138
     },
+    'se_2232': {
+        type: 'Super Evolve',
+        name: 'Eneru',
+        thumb: 2232
+    },
 }
