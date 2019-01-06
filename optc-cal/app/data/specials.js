@@ -62,6 +62,11 @@ var specials = {
         name: 'Three Admirals',
         thumb: 1314
     },
+    'rk_0870': {
+        type: 'Ranking',
+        name: 'Donquixote Family',
+        thumb: 870
+    },
 
     'rk_0447': {
         type: '1 Turn Dmg Ranking',
