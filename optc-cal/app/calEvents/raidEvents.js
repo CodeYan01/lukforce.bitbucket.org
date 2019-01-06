@@ -1820,4 +1820,9 @@ var raidEvents = [
         id: 1374,
         start: '2019-01-16'
     },
+    {
+        id: 2097,
+        start: '2019-01-19',
+        ambush: garp
+    },
 ]
