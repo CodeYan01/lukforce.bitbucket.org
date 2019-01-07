@@ -1085,7 +1085,15 @@ $(document).ready(function() {
                 calUrl += ',';
         }
 
-        calUrl += 'C33,10B0D0E0Q0L0G0R0S100H';
+        calUrl += 'C33,10B0D';
+
+        // Append TM Map effect
+        if (server === 'glb')
+            calUrl += '43';
+        else
+            calUrl += '44';
+
+        calUrl += 'E0Q0L0G0R0S100H';
 
         window.open(calUrl);
     });
