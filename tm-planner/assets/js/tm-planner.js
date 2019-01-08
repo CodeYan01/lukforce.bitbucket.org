@@ -166,8 +166,21 @@ function getBoosters(tmId, server) {
 
         var unitClass = units[b.id - 1][2];
         if (Array.isArray(unitClass)) {
-            imgDiv.data('class1', unitClass[0]);
-            imgDiv.data('class2', unitClass[1]);
+            var class1;
+            var class2;
+
+            if (Array.isArray(unitClass[0])) {
+                // Dual Units
+                var dualClass = unitClass[2];
+                class1 = dualClass[0];
+                class2 = dualClass[1];
+            } else {
+                class1 = unitClass[0];
+                class2 = unitClass[1];
+            }
+
+            imgDiv.data('class1', class1);
+            imgDiv.data('class2', class2);
         } else {
             imgDiv.data('class1', unitClass);
         }
@@ -404,10 +417,20 @@ function populateUnitDetail(unitId) {
 
         var unitClass = units[unitId - 1][2];
         if (Array.isArray(unitClass)) {
-            var class1 = unitClass[0].replace(' ', '-').toLowerCase();
-            $('#unit-detail-class1').addClass(class1 + '-div');
+            var class1;
+            var class2;
 
-            var class2 = unitClass[1].replace(' ', '-').toLowerCase();
+            if (Array.isArray(unitClass[0])) {
+                // Dual Units
+                var dualClass = unitClass[2];
+                class1 = dualClass[0].replace(' ', '-').toLowerCase();
+                class2 = dualClass[1].replace(' ', '-').toLowerCase();
+            } else {
+                class1 = unitClass[0].replace(' ', '-').toLowerCase();
+                class2 = unitClass[1].replace(' ', '-').toLowerCase();
+            }
+
+            $('#unit-detail-class1').addClass(class1 + '-div');
             $('#unit-detail-class2').addClass(class2 + '-div');
         } else {
             var class1 = unitClass.replace(' ', '-').toLowerCase();
