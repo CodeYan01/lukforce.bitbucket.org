@@ -3888,6 +3888,11 @@ var tm_boosters = {
             id: 2109,
             x_pts: 1.35
         },
+        {   // Eneru 6+
+            id: 2232,
+            type: 'legend',
+            x_pts: 1.2
+        },
         {   // LRR Tashigi
             id: 2068,
             type: 'rr',
@@ -3963,9 +3968,29 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
+        {   // Eneru
+            id: 603,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Eneru (N)
+            id: 1930,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Boa Hancock (N)
             id: 2070,
             type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Sengoku & Garp
+            id: 2507,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 1897,
+            type: 'coliseum',
             x_pts: 1.2
         },
         {   // Nekomamushi
@@ -4021,6 +4046,11 @@ var tm_boosters = {
         {   // Jack
             id: 2175,
             type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Doffy 5+
+            id: 2126,
+            type: 'other',
             x_pts: 1.2
         },
         {   // Luffy 5+
