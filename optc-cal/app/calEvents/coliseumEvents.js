@@ -2332,7 +2332,7 @@ var coliseumEvents = [
         repId: [],
         start: '2019-01-22',
         end: '2019-01-27',
-        new_batch: false
+        new_batch: true
     },
 
     // ##############################
@@ -2341,6 +2341,6 @@ var coliseumEvents = [
         repId: [],
         start: '2019-01-27',
         end: '2019-02-01',
-        new_batch: false
+        new_batch: true
     },
 ]
