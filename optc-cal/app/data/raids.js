@@ -201,4 +201,8 @@ var raids = {
         name: 'Boa Hancock (N)',
         thumb: 2070
     },
+    9999: {
+        name: 'Garp (N)',
+        thumb: 9999
+    },
 };
