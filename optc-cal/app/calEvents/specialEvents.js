@@ -116,10 +116,6 @@ var specialEvents = [
     },
     {
         id: 'dummy',
-        start: '2019-01-21'
-    },
-    {
-        id: 'dummy',
         start: '2019-01-26'
     },
 
@@ -368,5 +364,15 @@ var specialEvents = [
         id: 'rk_0870',
         start: '2019-01-13',
         end: '2019-01-21'
+    },
+    {
+        id: 'tp_1463',
+        start: '2019-01-22',
+        end: '2019-01-27'
+    },
+    {
+        id: 'tp_1465',
+        start: '2019-01-27',
+        end: '2019-02-01'
     },
 ]
