@@ -124,7 +124,7 @@ function showFooter() {
                 && eId !== 1826
                 && eId !== 1930
                 && eId !== 2070
-                && eId !== 9999
+                && eId !== 2511
             ) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
