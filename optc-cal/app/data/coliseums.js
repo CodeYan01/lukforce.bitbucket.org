@@ -184,6 +184,11 @@ var coliseums = {
         chaos_only: false,
         thumb: 1196
     },
+    1197: {
+        name: 'Ohm',
+        chaos_only: false,
+        thumb: 1197
+    },
     1220: {
         name: 'Byrnndi World',
         chaos_only: true,
@@ -403,6 +408,11 @@ var coliseums = {
         name: 'Opera',
         chaos_only: true, // Not but new format
         thumb: 2163
+    },
+    2193: {
+        name: 'Kuma',
+        chaos_only: true, // Not but new format
+        thumb: 2193
     },
 
     // Neo Coliseums

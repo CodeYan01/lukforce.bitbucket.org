@@ -216,6 +216,7 @@ var wiki = {
     1143: '',                               // Foxy
     1145: '',                               // Porche
     1196: 'wiki/coliseum/ganfor',
+    1197: '',                               // Ohm
     1220: 'wiki/coliseum/byrnndi',
     1222: '',                               // Oars Jr.
     1251: '',                               // Marco
@@ -260,6 +261,7 @@ var wiki = {
     2111: '',                               // TS Kid
     2123: 'wiki/coliseum/neptune',
     2163: 'wiki/coliseum/opera',
+    2193: '',                               // Kuma
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

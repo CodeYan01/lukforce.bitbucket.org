@@ -95,6 +95,7 @@ var videoWiki = {
     1143: 'coliseum/foxy',
     1145: 'coliseum/porche',
     1196: 'coliseum/gan_fall',
+    1197: 'coliseum/ohm',
     1220: 'coliseum/byrnndi_world',
     1222: 'coliseum/oars_jr',
     1251: 'coliseum/marco',
@@ -139,6 +140,7 @@ var videoWiki = {
     2111: 'coliseum/timeskip_captainkid',
     2123: 'coliseum/neptune',
     2163: 'coliseum/charlotte_opera',
+    2193: 'coliseum/kuma',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',
