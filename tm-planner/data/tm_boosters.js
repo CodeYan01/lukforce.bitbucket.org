@@ -3888,6 +3888,10 @@ var tm_boosters = {
             id: 2109,
             x_pts: 1.35
         },
+        {   // Sabo v2
+            id: 2509,
+            x_pts: 1.35
+        },
         {   // Eneru 6+
             id: 2232,
             type: 'legend',
@@ -3895,6 +3899,26 @@ var tm_boosters = {
         },
         {   // LRR Tashigi
             id: 2068,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // LRR Killer
+            id: 2199,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Wild West Luffy
+            id: 2410,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Wild West Nami
+            id: 2412,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Wild West Zoro
+            id: 2414,
             type: 'rr',
             x_pts: 1.2
         },
@@ -3968,8 +3992,23 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
+        {   // Aokiji
+            id: 575,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Eneru
             id: 603,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Vergo
+            id: 1696,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bartolomeo
+            id: 1879,
             type: 'raid',
             x_pts: 1.2
         },
@@ -3983,14 +4022,64 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Zoro
+            id: 2097,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Sengoku & Garp
             id: 2507,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Garp (N)
+            id: 2511,
             type: 'raid',
             x_pts: 1.2
         },
         {   // Eneru
             id: 1897,
             type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Gairam
+            id: 1215,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Squard
+            id: 1254,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Shambles Tashigi
+            id: 1397,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Marco
+            id: 1995,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Yasopp
+            id: 2046,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Luffy
+            id: 2087,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Festival Usopp
+            id: 2091,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Diamante
+            id: 2144,
+            type: 'fortnight',
             x_pts: 1.2
         },
         {   // Nekomamushi
