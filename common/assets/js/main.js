@@ -41,6 +41,10 @@ function getThumb(thumbId) {
     if (thumbId === 5018 || thumbId === 2507)
         return '/tm-planner/assets/img/new-thumbs/5018.png';
 
+    // Special case for Sabo v2
+    if (thumbId === 5022 || thumbId === 2509)
+        return '/tm-planner/assets/img/new-thumbs/5022.png';
+
     // Special cases for new thumbs
     if (thumbId === 2363 ||
         thumbId === 2365 ||
