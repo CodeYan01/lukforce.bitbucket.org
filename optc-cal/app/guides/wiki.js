@@ -107,6 +107,8 @@ var wiki = {
     1918: 'wiki/fortnight/reijusanji',
     1933: 'wiki/fortnight/boasisters',
     1947: 'wiki/fortnight/decken',
+    1961: '',                               // Wedding Sanji
+    1963: '',                               // Wedding Pudding
     1965: 'wiki/fortnight/oars',
     1980: 'wiki/fortnight/caponebonney',
     1995: 'wiki/fortnight/marcovista',

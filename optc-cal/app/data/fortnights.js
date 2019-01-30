@@ -427,6 +427,14 @@ var fortnights = {
         name: 'Vander Decken',
         thumb: 1947
     },
+    1961: {
+        name: 'Wedding Sanji',
+        thumb: 1961
+    },
+    1963: {
+        name: 'Wedding Pudding',
+        thumb: 1963
+    },
     1965: {
         name: 'Oars',
         thumb: 1965

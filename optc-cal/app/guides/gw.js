@@ -107,6 +107,8 @@ var gw = {
     1918: '85781',      // Reiju & Sanji
     1933: '86344',      // Boa Sisters
     1947: '88585',      // Vander Decken
+    1961: '88897',      // Wedding Sanji
+    1963: '88899',      // Wedding Pudding
     1965: '91449',      // Oars
     1980: '93423',      // Bege & Bonney
     1995: '94921',      // Marco & Vista

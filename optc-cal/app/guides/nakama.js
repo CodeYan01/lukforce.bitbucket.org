@@ -107,6 +107,8 @@ var nakama = {
     1918: '2191800',    // Reiju & Sanji
     1933: '2193300',    // Boa Sisters
     1947: '2194700',    // Vander Decken
+    1961: '6196100',    // Wedding Sanji
+    1963: '6196100',    // Wedding Pudding
     1965: '2196500',    // Oars
     1980: '2198200',    // Bege & Bonney
     1995: '2199700',    // Marco & Vista

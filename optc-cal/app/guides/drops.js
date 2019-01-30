@@ -107,6 +107,8 @@ drops = {
     1918: 'Last%20Wish%20for%20Sanji!%20Fortnight',
     1933: 'Branded%20in%20Shackles!%20Fortnight',
     1947: 'I%27m%20Now%20Your%20Ideal%20Type!%20I%20Think%20Fortnight',
+    1961: 'Sweet%20Heart%20Memory',
+    1963: 'Sweet%20Heart%20Memory',
     1965: 'The%20Beast%27s%20Return%20Fortnight',
     1980: 'Volatile%20Meal!%20Bonney%20and%20Bege!%20Fortnight',
     1995: 'Whitebeard%20Pirates%20Commanders!%20Marco%20and%20Vista!%20Fortnight',
