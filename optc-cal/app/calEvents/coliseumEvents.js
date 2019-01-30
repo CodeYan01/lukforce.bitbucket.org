@@ -2371,4 +2371,30 @@ var coliseumEvents = [
         end: '2019-02-10',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: [2193],
+        repId: [1292, 1422, 833, 1603],
+        start: '2019-02-04',
+        new_batch: false
+    },
+    {
+        newId: [2193],
+        repId: [1292, 1422, 833, 1603],
+        start: '2019-02-07',
+        new_batch: false
+    },
+    {
+        newId: [2193],
+        repId: [1292, 1422, 833, 1603],
+        start: '2019-02-11',
+        new_batch: false
+    },
+    {
+        newId: [2193],
+        repId: [1292, 1422, 833, 1603],
+        start: '2019-02-14',
+        new_batch: false
+    },
 ]
