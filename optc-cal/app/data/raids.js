@@ -155,6 +155,10 @@ var raids = {
         name: 'Sengoku & Garp',
         thumb: 5018
     },
+    9999: {
+        name: 'Shanks & Mihawk',
+        thumb: 9999
+    },
 
     // Neo Raids
     1623: {
