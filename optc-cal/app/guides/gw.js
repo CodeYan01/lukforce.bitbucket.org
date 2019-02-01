@@ -162,6 +162,7 @@ var gw = {
     2158: '110184',     // Cracker
     2263: '120330',     // Doffy v2
     2507: '',           // Sengoku & Garp
+    2513: '',           // Shanks & Mihawk
 
     1623: '',           //'58437',      // Doflamingo (N)
     1647: '60095',      // Pica (N)

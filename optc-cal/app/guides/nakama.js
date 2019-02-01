@@ -162,6 +162,7 @@ var nakama = {
     2158: '4215800',    // Cracker
     2263: '4226300',    // Doffy v2
     2507: '',           // Sengoku & Garp
+    2513: '4251300',    // Shanks & Mihawk
 
     1623: '4162300',    // Doflamingo (N)
     1647: '4164700',    // Pica (N)
