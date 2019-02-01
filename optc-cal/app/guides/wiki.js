@@ -161,7 +161,7 @@ var wiki = {
     2097: 'comments/a25q11',                // Zoro
     2158: 'wiki/raidboss/cracker',
     2263: 'wiki/raidboss/v2doflamingo',
-    2507: '',                               // Sengoku & Garp
+    2507: 'comments/aa693j',                // Sengoku & Garp
     2513: '',                               // Shanks & Mihawk
 
     1623: 'wiki/raidboss/doffykai',
