@@ -45,6 +45,10 @@ function getThumb(thumbId) {
     if (thumbId === 5022 || thumbId === 2509)
         return '/tm-planner/assets/img/new-thumbs/5022.png';
 
+    // Special case for Shanks & Mihawk
+    if (thumbId === 5024 || thumbId === 2513)
+        return '/tm-planner/assets/img/new-thumbs/5024.png';
+
     // Special cases for new thumbs
     if (thumbId === 2363 ||
         thumbId === 2365 ||
