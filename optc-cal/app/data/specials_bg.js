@@ -50,6 +50,9 @@ var specials_bg = {
     'ray_tome': {
         thumb: 'ray_tome'
     },
+    'shanks_exp': {
+        thumb: 'shanks_exp'
+    },
     'cola': {
         thumb: 'cola'
     },
@@ -64,6 +67,9 @@ var specials_bg = {
     },
     'mat': {
         thumb: 'mat'
+    },
+    'mat2': {
+        thumb: 'mat2'
     },
     'train_drink': {
         thumb: 'train_drink'

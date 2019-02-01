@@ -1545,4 +1545,44 @@ var specialBgEvents = [
         start: '2019-01-30',
         end: '2019-02-05'
     },
+    {
+        id: 'shanks_exp',
+        start: '2019-01-31',
+        end: '2019-02-05',
+        pst_19: true
+    },
+    {
+        id: 'princess',
+        start: '2019-02-01',
+        end: '2019-02-06'
+    },
+    {
+        id: 'ss',
+        start: '2019-02-01',
+        end: '2019-02-03',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-02-04',
+        end: '2019-02-06',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-02-06',
+        end: '2019-02-10',
+        pst_19: true
+    },
+    {
+        id: 'mat2',
+        start: '2019-02-06',
+        end: '2019-02-11',
+        pst_19: true
+    },
+    {
+        id: 'cotton',
+        start: '2019-02-07',
+        end: '2019-02-10'
+    },
 ]
