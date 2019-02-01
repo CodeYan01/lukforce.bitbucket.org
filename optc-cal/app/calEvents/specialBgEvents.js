@@ -1531,7 +1531,7 @@ var specialBgEvents = [
         end: '2019-02-01'
     },
     {
-        id: 'mat',
+        id: 'mat2',
         start: '2019-01-27',
         end: '2019-02-01'
     },
