@@ -3888,9 +3888,18 @@ var tm_boosters = {
             id: 2109,
             x_pts: 1.35
         },
+        {   // Whitebeard & Marco
+            id: 2181,
+            x_pts: 1.35
+        },
         {   // Sabo v2
             id: 2509,
             x_pts: 1.35
+        },
+        {   // Corazon 6+
+            id: 2195,
+            type: 'legend',
+            x_pts: 1.2
         },
         {   // Eneru 6+
             id: 2232,
@@ -3899,6 +3908,26 @@ var tm_boosters = {
         },
         {   // LRR Tashigi
             id: 2068,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Boa Hancock
+            id: 2183,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 2185,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kizaru
+            id: 2187,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Strawberry
+            id: 2189,
             type: 'rr',
             x_pts: 1.2
         },
@@ -4037,8 +4066,23 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Shanks & Mihawk
+            id: 2513,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Ohm
+            id: 1197,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
         {   // Eneru
             id: 1897,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 2193,
             type: 'coliseum',
             x_pts: 1.2
         },
@@ -4054,6 +4098,16 @@ var tm_boosters = {
         },
         {   // Shambles Tashigi
             id: 1397,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Wedding Sanji
+            id: 1961,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Wedding Pudding
+            id: 1963,
             type: 'fortnight',
             x_pts: 1.2
         },
