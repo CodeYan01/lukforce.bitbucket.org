@@ -67,7 +67,8 @@ var tm_opponents = {
         2076: ['Nami',          'INT',      3],
         2080: ['Brook',         'STR',      2],
         2082: ['Pedro',         'QCK',      1],
-        2109: ['Sanji',         'STR',      4]      // Uses Big Mom ID
+        1815: ['Sanji',         'STR',      4],
+        2109: ['Big Mom',       'STR',      5]
     },
     2137: {
          257: ['Izo',           'DEX',      0],
@@ -95,21 +96,24 @@ var tm_opponents = {
         2046: ['Yasopp',        'STR',      1],
         2256: ['Mihawk',        'DEX',      3],
         2257: ['Ace',           'QCK',      2],
-        2261: ['Beckman',       'INT',      4]      // Uses Shanks ID
+        1770: ['Beckman',       'INT',      4],
+        2261: ['Shanks',        'DEX',      5]
     },
     2299: {
         1300: ['Rebecca',       'INT',      3],
         1306: ['Sugar',         'DEX',      1],
         2292: ['Vivi',          'PSY',      0],
         2297: ['Perona',        'PSY',      2],
-        2299: ['Moria',         'STR',      4]      // Uses Hancock ID
+        2295: ['Moria',         'STR',      4],
+        2299: ['Hancock',       'INT',      5]
     },
     2336: {
         1004: ['Sachi & Penguin', 'QCK',    1],
         1532: ['Usopp',         'DEX',      2],
         1593: ['Gear 4',        'PSY',      3],
         1749: ['Bepo',          'QCK',      0],
-        2336: ['Chopper',       'STR',      4]      // Uses Law ID
+        1412: ['Chopper',       'STR',      4],
+        2336: ['Law',           'STR',      5]
     },
     2362: {
         1413: ['Whitebeard',    'STR',      3],
@@ -123,7 +127,8 @@ var tm_opponents = {
         1091: ['X Drake',       'PSY',      1],
         1830: ['Caesar',        'INT',      2],
         2230: ['Sheepshead',    'QCK',      3],
-        2231: ['Jack',          'STR',      4]
+        2231: ['Jack',          'STR',      4],
+        2387: ['Kaido',         'STR',      5]
     },
     9999: [
         ['',            ''],

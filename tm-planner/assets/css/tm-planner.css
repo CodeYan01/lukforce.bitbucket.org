@@ -70,7 +70,12 @@
     min-height: 40px;
 }
 
-.team-slot {
+#ambush-team {
+    display: none;
+}
+
+.team-slot,
+.ambush-team-slot {
     float: left;
     width: 40px;
     height: 40px;
