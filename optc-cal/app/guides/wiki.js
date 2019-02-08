@@ -160,6 +160,7 @@ var wiki = {
     2033: 'wiki/raidboss/tankman',
     2097: 'comments/a25q11',                // Zoro
     2158: 'wiki/raidboss/cracker',
+    2197: '',                               // Blackbeard v2
     2263: 'wiki/raidboss/v2doflamingo',
     2507: 'comments/aa693j',                // Sengoku & Garp
     2513: '',                               // Shanks & Mihawk

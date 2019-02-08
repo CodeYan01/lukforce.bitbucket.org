@@ -147,6 +147,10 @@ var raids = {
         name: 'Cracker',
         thumb: 2158
     },
+    2197: {
+        name: 'Blackbeard v2',
+        thumb: 2197
+    },
     2263: {
         name: 'Doflamingo v2',
         thumb: 2263

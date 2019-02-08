@@ -160,6 +160,7 @@ var gw = {
     2033: '97354',      // G4 Tankman
     2097: '105734',     // Zoro
     2158: '110184',     // Cracker
+    2197: '115114',     // Blackbeard v2
     2263: '120330',     // Doffy v2
     2507: '',           // Sengoku & Garp
     2513: '',           // Shanks & Mihawk
