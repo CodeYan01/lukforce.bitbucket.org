@@ -3872,8 +3872,36 @@ var tm_boosters = {
 
     // ========== Eneru ==========
     2211: [
+        {   // Shiki
+            id: 2201,
+            x_pts: 2
+        },
+        {   // Luffy
+            id: 2206,
+            x_pts: 1.75
+        },
+        {   // Luffy
+            id: 2207,
+            x_pts: 1.75
+        },
         {   // Tesoro
             id: 2099,
+            x_pts: 1.5
+        },
+        {   // Whitebeard & Marco
+            id: 2181,
+            x_pts: 1.5
+        },
+        {   // Sabo v2
+            id: 2509,
+            x_pts: 1.5
+        },
+        {   // Ganfor
+            id: 2208,
+            x_pts: 1.5
+        },
+        {   // Ganfor
+            id: 2209,
             x_pts: 1.5
         },
         {   // Reiju
@@ -3888,13 +3916,42 @@ var tm_boosters = {
             id: 2109,
             x_pts: 1.35
         },
-        {   // Whitebeard & Marco
-            id: 2181,
+        {   // Indigo
+            id: 2203,
             x_pts: 1.35
         },
-        {   // Sabo v2
-            id: 2509,
+        {   // Scarlet
+            id: 2205,
             x_pts: 1.35
+        },
+        {   // Eneru
+            id: 2211,
+            x_pts: 1.35
+        },
+        {   // Gear 4
+            id: 1593,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Luffy & Ace
+            id: 1985,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Gear 4 v2
+            id: 2074,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Nami
+            id: 2076,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Katakuri
+            id: 2113,
+            type: 'legend',
+            x_pts: 1.2
         },
         {   // Corazon 6+
             id: 2195,
@@ -3986,11 +4043,6 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
-        {   // Apoo
-            id: 2062,
-            type: 'tm_rr',
-            x_pts: 1.2
-        },
         {   // Ivankov
             id: 2132,
             type: 'tm_rr',
@@ -4006,21 +4058,6 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
-        {   // Inuarashi
-            id: 2169,
-            type: 'tm_rr',
-            x_pts: 1.2
-        },
-        {   // Shishilian
-            id: 2171,
-            type: 'tm_rr',
-            x_pts: 1.2
-        },
-        {   // Shirahoshi
-            id: 2173,
-            type: 'tm_rr',
-            x_pts: 1.2
-        },
         {   // Aokiji
             id: 575,
             type: 'raid',
@@ -4028,6 +4065,11 @@ var tm_boosters = {
         },
         {   // Eneru
             id: 603,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Shiki
+            id: 1108,
             type: 'raid',
             x_pts: 1.2
         },
@@ -4056,6 +4098,11 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Blackbeard v2
+            id: 2197,
+            type: 'raid',
+            x_pts: 1.2
+        },
         {   // Sengoku & Garp
             id: 2507,
             type: 'raid',
@@ -4071,6 +4118,16 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
+        {   // Moria
+            id: 1141,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Foxy
+            id: 1143,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
         {   // Ohm
             id: 1197,
             type: 'coliseum',
@@ -4081,9 +4138,49 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
+        {   // Opera
+            id: 2163,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
         {   // Kuma
             id: 2193,
             type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Ganfor
+            id: 713,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Breed
+            id: 797,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Rakuyo
+            id: 946,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Gasparde
+            id: 1072,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Indigo
+            id: 1095,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Scarlet
+            id: 1097,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Blueno
+            id: 1138,
+            type: 'fortnight',
             x_pts: 1.2
         },
         {   // Gairam
@@ -4096,8 +4193,18 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Toy Soldier
+            id: 1384,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Shambles Tashigi
             id: 1397,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sentomaru
+            id: 1469,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -4191,8 +4298,18 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
+        {   // Decken
+            id: 1504,
+            type: 'other',
+            x_pts: 1.2
+        },
         {   // Doffy 5+
             id: 2126,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Reiju
+            id: 2194,
             type: 'other',
             x_pts: 1.2
         },
@@ -4230,6 +4347,42 @@ var tm_boosters = {
         },
         {   // Brook 5+
             id: 1551,
+            x_pts: 1
+        },
+        {   // Van Augur
+            id: 1271,
+            x_pts: 1
+        },
+        {   // Van Augur
+            id: 1272,
+            x_pts: 1
+        },
+        {   // Tsuru
+            id: 1319,
+            x_pts: 1
+        },
+        {   // Tsuru
+            id: 1320,
+            x_pts: 1
+        },
+        {   // Kuma
+            id: 1611,
+            x_pts: 1
+        },
+        {   // Kuma
+            id: 1612,
+            x_pts: 1
+        },
+        {   // Haruta
+            id: 1186,
+            x_pts: 1
+        },
+        {   // Neptune
+            id: 1475,
+            x_pts: 1
+        },
+        {   // Violet v2
+            id: 1875,
             x_pts: 1
         },
     ],
