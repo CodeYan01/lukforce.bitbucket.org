@@ -261,7 +261,7 @@ function showFooter() {
         eventArray.push(res);
     }
 
-    function createTmEvent(eventArray) {
+    function createTmEvent(eventArray, isPST) {
         tmEvents.forEach(function(e) {
             var res = {};
 
@@ -274,8 +274,21 @@ function showFooter() {
 
             res['type'] = 'tm';
 
+            // Add one day for 19:00 events for GMT mode
             var start = e['start'];
             var end = e['end'];
+
+            if (!isPST && e['pst_19']) {
+                var startDate = moment(start);
+                startDate.add(1, 'd');
+                start = startDate.format('YYYY-MM-DD');
+
+                if (end) {
+                    var endDate = moment(end);
+                    endDate.add(1, 'd');
+                    end = endDate.format('YYYY-MM-DD');
+                }
+            }
 
             start += ' 02:00';
             res['start'] = start;
@@ -566,7 +579,7 @@ function showFooter() {
         createFortnightEvent(eventArray, isPST);
         createRaidEvent(eventArray, isPST);
         createColiseumEvent(eventArray, isPST);
-        createTmEvent(eventArray);
+        createTmEvent(eventArray, isPST);
         createSpecialEvent(eventArray, isPST);
         createSpecialBgEvent(eventArray, isPST);
 

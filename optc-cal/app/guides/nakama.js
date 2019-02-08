@@ -284,6 +284,7 @@ var nakama = {
     2109: '8210900',    // Big Mom
     2137: '8213700',    // Croc
     2175: '8217500',    // Jack
+    2211: '8221100',    // Eneru
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

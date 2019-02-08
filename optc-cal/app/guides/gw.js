@@ -284,6 +284,7 @@ var gw = {
     2109: '105881',     // Big Mom
     2137: '109127',     // Croc
     2175: '112951',     // Jack
+    2211: '116377',     // Eneru
 
     // Events
     'bb_1314': '61665', // Three Admirals
