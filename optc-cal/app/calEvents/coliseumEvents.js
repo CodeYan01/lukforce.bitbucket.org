@@ -2397,4 +2397,33 @@ var coliseumEvents = [
         start: '2019-02-14',
         new_batch: false
     },
+
+    // ========== New Rotation Time ==========
+    // ##############################
+    {
+        newId: [2193, 1197],
+        repId: [1196, 1222],
+        start: '2019-02-12',
+        end: '2019-02-14',
+        new_batch: true
+    },
+    {
+        newId: [2193, 1197],
+        repId: [1196, 1222],
+        start: '2019-02-16',
+        new_batch: true
+    },
+    {
+        newId: [2193, 1197],
+        repId: [1196, 1222],
+        start: '2019-02-19',
+        end: '2019-02-21',
+        new_batch: true
+    },
+    {
+        newId: [2193, 1197],
+        repId: [1196, 1222],
+        start: '2019-02-23',
+        new_batch: true
+    },
 ]
