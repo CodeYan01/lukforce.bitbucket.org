@@ -1585,4 +1585,68 @@ var specialBgEvents = [
         start: '2019-02-07',
         end: '2019-02-10'
     },
+    {
+        id: '4th_anni_ship',
+        start: '2019-02-11',
+        end: '2019-02-22',
+        pst_19: true
+    },
+    {
+        id: 'free_pull',
+        start: '2019-02-11',
+        end: '2019-02-17'
+    },
+    {
+        id: 'ray_exp',
+        start: '2019-02-11',
+        end: '2019-02-17',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-02-11',
+        end: '2019-02-14',
+        pst_19: true
+    },
+    {
+        id: 'sp_x4',
+        start: '2019-02-13',
+        end: '2019-02-18',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-02-17',
+        end: '2019-02-21',
+        pst_19: true
+    },
+    {
+        id: 'ss_x4',
+        start: '2019-02-18',
+        end: '2019-02-24',
+        pst_19: true
+    },
+    {
+        id: 'princess',
+        start: '2019-02-22',
+        end: '2019-02-27'
+    },
+    {
+        id: '4th_anni_ship_sp',
+        start: '2019-02-22',
+        end: '2019-03-03',
+        pst_19: true
+    },
+    {
+        id: 'sp_x4',
+        start: '2019-02-24',
+        end: '2019-03-03',
+        pst_19: true
+    },
+    {
+        id: 'ray_tome',
+        start: '2019-02-26',
+        end: '2019-03-03',
+        pst_19: true
+    },
 ]

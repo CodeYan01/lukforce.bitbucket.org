@@ -5,11 +5,17 @@ var specials_bg = {
     'sp_x3': {
         thumb: 'sp_x3'
     },
+    'sp_x4': {
+        thumb: 'sp'
+    },
     'ss': {
         thumb: 'ss'
     },
     'ss_x3': {
         thumb: 'ss_x3'
+    },
+    'ss_x4': {
+        thumb: 'ss'
     },
     'ss_100': {
         thumb: 'ss_100'
@@ -87,6 +93,12 @@ var specials_bg = {
         thumb: '3rd_anni_ship'
     },
     '3rd_anni_ship_sp': {
+        thumb: '3rd_anni_ship_sp'
+    },
+    '4th_anni_ship': {
+        thumb: '3rd_anni_ship'
+    },
+    '4th_anni_ship_sp': {
         thumb: '3rd_anni_ship_sp'
     },
     'usopp_ship': {
