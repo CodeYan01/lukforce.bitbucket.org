@@ -57,6 +57,6 @@ var tms = {
     2211: {
         name: 'Eneru',
         thumb: 2211,
-        info: 'i.imgur.com/TN5UI1l.jpg'
+        info: 'i.imgur.com/g6OUbLO.jpg'
     },
 };

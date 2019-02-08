@@ -3943,11 +3943,6 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Nami
-            id: 2076,
-            type: 'legend',
-            x_pts: 1.2
-        },
         {   // Katakuri
             id: 2113,
             type: 'legend',
