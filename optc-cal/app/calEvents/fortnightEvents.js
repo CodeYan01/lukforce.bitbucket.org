@@ -1565,12 +1565,12 @@ var fortnightEvents = [
     {
         id: [1961, 1963],
         start: '2019-02-05',
-        end: '2019-02-12',
+        end: '2019-02-11',
         is_replay: false
     },
     {
         id: [1961, 1963],
-        start: '2019-02-12',
+        start: '2019-02-11',
         end: '2019-02-18',
         is_replay: false
     },
@@ -1578,6 +1578,24 @@ var fortnightEvents = [
         id: [1215, 1450, 1509, 1867],
         start: '2019-01-29',
         end: '2019-02-05',
+        is_replay: true
+    },
+    {
+        id: [1203, 1426, 1725, 2087],
+        start: '2019-02-05',
+        end: '2019-02-11',
+        is_replay: true
+    },
+    {
+        id: [1095, 1416, 1670, 1766, 1995],
+        start: '2019-02-11',
+        end: '2019-02-18',
+        is_replay: true
+    },
+    {
+        id: [1049, 1095],
+        start: '2019-02-18',
+        end: '2019-02-25',
         is_replay: true
     },
 ];
