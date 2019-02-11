@@ -49,6 +49,10 @@ function getThumb(thumbId) {
     if (thumbId === 5024 || thumbId === 2513)
         return '/tm-planner/assets/img/new-thumbs/5024.png';
 
+    // Special case for Garp (N)
+    if (thumbId === 5028 || thumbId === 2511)
+        return '/tm-planner/assets/img/new-thumbs/5028.png';
+
     // Special cases for new thumbs
     if (thumbId === 2363 ||
         thumbId === 2365 ||
