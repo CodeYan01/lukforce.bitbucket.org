@@ -6,7 +6,7 @@ var specials_bg = {
         thumb: 'sp_x3'
     },
     'sp_x4': {
-        thumb: 'sp'
+        thumb: 'sp_x4'
     },
     'ss': {
         thumb: 'ss'
@@ -15,7 +15,7 @@ var specials_bg = {
         thumb: 'ss_x3'
     },
     'ss_x4': {
-        thumb: 'ss'
+        thumb: 'ss_x4'
     },
     'ss_100': {
         thumb: 'ss_100'
