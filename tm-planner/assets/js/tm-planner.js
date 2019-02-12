@@ -716,14 +716,14 @@ function doSave(tmId, server) {
     var teams = {};
 
     if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
-        $('.team').each(function() {
+        $('.team:visible').each(function() {
             var opId = $(this).data('op_id');
             var team = getTeamUnits($(this));
 
             teams[opId] = team;
         });
     } else {
-        $('.team').each(function() {
+        $('.team:visible').each(function() {
             var team_num = $(this).data('team');
             var team = getTeamUnits($(this));
 
@@ -1187,57 +1187,60 @@ $(document).ready(function() {
                 for (var opId in teams) {
                     var team = teams[opId];
                     var op = opponents[opId];
-                    var opPos = op[2];
 
-                    var opPosDiv = $('#op-' + (opPos + 1));
-                    var opPosTeam = opPosDiv.closest('.team');
-                    var teamNum = opPosTeam.data('team');
+                    if (team && op) {
+                        var opPos = op[2];
 
-                    if (opPos != 5) {
-                        // Regular Teams
-                        for (var i = 0; i < team.length; i++) {
-                            var unitId = team[i];
+                        var opPosDiv = $('#op-' + (opPos + 1));
+                        var opPosTeam = opPosDiv.closest('.team');
+                        var teamNum = opPosTeam.data('team');
 
-                            if (unitId !== 0) {
-                                // Check whether unit is clone and restore unit ID
-                                var isClone = false;
-                                if (unitId < 0) {
-                                    isClone = true;
-                                    unitId = parseInt(unitId) * -1;
+                        if (opPos != 5) {
+                            // Regular Teams
+                            for (var i = 0; i < team.length; i++) {
+                                var unitId = team[i];
+
+                                if (unitId !== 0) {
+                                    // Check whether unit is clone and restore unit ID
+                                    var isClone = false;
+                                    if (unitId < 0) {
+                                        isClone = true;
+                                        unitId = parseInt(unitId) * -1;
+                                    }
+
+                                    var b = $('#booster_' + unitId);
+                                    var teamSlot = $('#team-slot-' + teamNum + i);
+
+                                    if (isClone) {
+                                        createCloneInSlot(b, teamSlot, false);
+                                    } else {
+                                        b.addClass('assigned');
+                                        b.detach().css({
+                                            top: 0,
+                                            left: 0
+                                        }).prependTo(teamSlot);
+                                    }
+
+                                    // Mirror to Friend Cap slot if it is empty
+                                    if (i == 1)
+                                        mirrorToFriendCap(teamSlot.closest('.team'), b, true);
                                 }
-
-                                var b = $('#booster_' + unitId);
-                                var teamSlot = $('#team-slot-' + teamNum + i);
-
-                                if (isClone) {
-                                    createCloneInSlot(b, teamSlot, false);
-                                } else {
-                                    b.addClass('assigned');
-                                    b.detach().css({
-                                        top: 0,
-                                        left: 0
-                                    }).prependTo(teamSlot);
-                                }
-
-                                // Mirror to Friend Cap slot if it is empty
-                                if (i == 1)
-                                    mirrorToFriendCap(teamSlot.closest('.team'), b, true);
                             }
-                        }
-                    } else {
-                        // Ambush Team
-                        for (var i = 0; i < team.length; i++) {
-                            var unitId = team[i];
+                        } else {
+                            // Ambush Team
+                            for (var i = 0; i < team.length; i++) {
+                                var unitId = team[i];
 
-                            if (unitId !== 0) {
-                                // Restore unit ID
-                                if (unitId < 0)
-                                    unitId = parseInt(unitId) * -1;
+                                if (unitId !== 0) {
+                                    // Restore unit ID
+                                    if (unitId < 0)
+                                        unitId = parseInt(unitId) * -1;
 
-                                var b = $('#booster_' + unitId);
-                                var teamSlot = $('#team-slot-' + teamNum + i);
+                                    var b = $('#booster_' + unitId);
+                                    var teamSlot = $('#team-slot-' + teamNum + i);
 
-                                createCloneInSlot(b, teamSlot, true);
+                                    createCloneInSlot(b, teamSlot, true);
+                                }
                             }
                         }
                     }
@@ -1309,14 +1312,14 @@ $(document).ready(function() {
         url += '&server=' + server;
 
         if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
-            $('.team').each(function() {
+            $('.team:visible').each(function() {
                 var opId = $(this).data('op_id');
                 var team = getTeamUnits($(this));
 
                 url += '&op' + opId + '=' + team.join();
             });
         } else {
-            $('.team').each(function() {
+            $('.team:visible').each(function() {
                 var team_num = $(this).data('team');
                 var team = getTeamUnits($(this));
 
