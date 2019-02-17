@@ -3869,11 +3869,11 @@ window.evolutions = {
     },
     2396: {
         evolution: 2398,
-        evolvers: [ 2397, 2395 ]
+        evolvers: [ 2395, 2397 ]
     },
     2397: {
         evolution: 2398,
-        evolvers: [ 2396, 2395 ]
+        evolvers: [ 2395, 2396 ]
     },
     2400: {
         evolution: 2401,
@@ -3893,15 +3893,15 @@ window.evolutions = {
     },
     2409: {
         evolution: 2410,
-        evolvers: [  ]
+        evolvers: [ 118, 85, 96, 301, 101 ]
     },
     2411: {
         evolution: 2412,
-        evolvers: [  ]
+        evolvers: [ 118, 88, 99, 304, 104 ]
     },
     2413: {
         evolution: 2414,
-        evolvers: [  ]
+        evolvers: [ 118, 86, 97, 302, 102 ]
     },
     2415: {
         evolution: 2416,
@@ -3909,27 +3909,31 @@ window.evolutions = {
     },
     2417: {
         evolution: 2418,
-        evolvers: [  ]
+        evolvers: [ 118, 302, 301, 1180, 267 ]
     },
     2419: {
         evolution: 2420,
-        evolvers: [  ]
+        evolvers: [ 84, 266, 95, 300, 100 ]
     },
     2421: {
         evolution: 2422,
-        evolvers: [  ]
+        evolvers: [ 85, 96, 1180, 301, 101 ]
     },
     2423: {
         evolution: 2424,
-        evolvers: [  ]
+        evolvers: [ 83, 266, 99, 304, 104 ]
     },
     2425: {
         evolution: 2426,
-        evolvers: [  ]
+        evolvers: [ 83, 266, 98, 303, 103 ]
     },
     2427: {
         evolution: 2428,
-        evolvers: [  ]
+        evolvers: [ 117, 81, 87, 98, 103 ]
+    },
+    2430: {
+        evolution: 2431,
+        evolvers: [ 118, 87, 98, 303, 103 ]
     },
     2502: {
         evolution: 2503,
@@ -3943,9 +3947,17 @@ window.evolutions = {
         evolution: 2505,
         evolvers: [ 'skullQCK', 'skullQCK', 'skullQCK', 1180, 301 ]
     },
-    2508: {
-        evolution: 2509,
+    2440: {
+        evolution: 2441,
         evolvers: [  ]
+    },
+    2442: {
+        evolution: 2443,
+        evolvers: [  ]
+    },
+    870: {
+        evolution: 2444,
+        evolvers: [ 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', ]
     },
     2510: {
         evolution: 2511,
