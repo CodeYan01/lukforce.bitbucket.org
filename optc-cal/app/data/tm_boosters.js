@@ -57,4 +57,8 @@ var tm_boosters = [
 
     // Other
     2232,
+
+    // ===== Shanks =====
+    // FNs
+    2219,
 ]

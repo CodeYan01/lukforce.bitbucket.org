@@ -121,6 +121,7 @@ var wiki = {
     2144: 'wiki/fortnight/diamante_rebecca',
     2165: 'wiki/fortnight/baby5_donsai',
     2177: '',                               // Nekomamushi
+    2219: '',                               // Inuarashi
 
     // Raids
     227: 'wiki/raidboss/mihawk',

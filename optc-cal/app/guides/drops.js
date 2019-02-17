@@ -121,6 +121,7 @@ drops = {
     2144: 'Coliseum%20Executioner!%20Fortnight',
     2165: 'Baby%205%27s%20Wedding%20Plans%20Fortnight',
     2177: 'Let%27s%20Go%20See%20The%20Cat%20Viper!%20Fortnight',
+    2219: 'Recover!%20King%20of%20Day%20Duke%20Inuarashi%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',
