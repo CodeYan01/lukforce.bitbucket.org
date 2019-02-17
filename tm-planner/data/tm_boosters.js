@@ -3893,7 +3893,7 @@ var tm_boosters = {
             x_pts: 1.5
         },
         {   // Sabo v2
-            id: 2509,
+            id: 2441,
             x_pts: 1.5
         },
         {   // Ganfor

@@ -21,10 +21,6 @@ function getThumb(thumbId) {
     if (thumbId === 575)
         paddedThumbId = "0" + paddedThumbId;
 
-    // Special case for Doffy v2
-    if (thumbId === 5012 || thumbId === 2263)
-        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5012.png';
-
     // Special case for Kung Fu Luffy
     if (thumbId === 5014 || thumbId === 2503)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
@@ -40,10 +36,6 @@ function getThumb(thumbId) {
     // Special case for Sengoku & Garp
     if (thumbId === 5018 || thumbId === 2507)
         return '/tm-planner/assets/img/new-thumbs/5018.png';
-
-    // Special case for Sabo v2
-    if (thumbId === 5022 || thumbId === 2509)
-        return '/tm-planner/assets/img/new-thumbs/5022.png';
 
     // Special case for Shanks & Mihawk
     if (thumbId === 5024 || thumbId === 2513)
@@ -65,7 +57,8 @@ function getThumb(thumbId) {
         thumbId === 2383 ||
         thumbId === 2384 ||
         thumbId === 2385 ||
-        thumbId === 2387
+        thumbId === 2387 ||
+        thumbId === 2441
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
