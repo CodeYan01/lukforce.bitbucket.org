@@ -46,19 +46,11 @@ function getThumb(thumbId) {
         return '/tm-planner/assets/img/new-thumbs/5028.png';
 
     // Special cases for new thumbs
-    if (thumbId === 2363 ||
-        thumbId === 2365 ||
-        thumbId === 2367 ||
-        thumbId === 2369 ||
-        thumbId === 2371 ||
-        thumbId === 2372 ||
-        thumbId === 2373 ||
-        thumbId === 2377 ||
-        thumbId === 2383 ||
-        thumbId === 2384 ||
-        thumbId === 2385 ||
-        thumbId === 2387 ||
-        thumbId === 2441
+    if (
+        thumbId === 2439 ||
+        thumbId === 2441 ||
+        thumbId === 2443 ||
+        thumbId === 2444
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
