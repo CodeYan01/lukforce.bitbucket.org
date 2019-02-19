@@ -132,6 +132,14 @@ function getBoosters(tmId, server) {
         $('#div_1_35x_v2').show();
         $('#div_1_3x').show();
         $('#div_1_25x_v2').show();
+    } else if (server == 'jpn' && tmId == 2443) {
+        // TM Kaido
+        $('#div_1_85x').show();
+        $('#div_1_75x').show();
+        $('#div_1_6x').show();
+        $('#div_1_4x').show();
+        $('#div_1_3x').show();
+        $('#div_1_25x').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();

@@ -130,6 +130,13 @@ var tm_opponents = {
         2231: ['Jack',          'STR',      4],
         2387: ['Kaido',         'STR',      5]
     },
+    2443: {
+        1401: ['Gladius',       'STR',      0],
+        1902: ['Pica',          'INT',      1],
+        1906: ['Sugar',         'PSY',      2],
+        2144: ['Diamante',      'DEX',      3],
+        2443: ['Doflamingo',    'QCK',      4]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
