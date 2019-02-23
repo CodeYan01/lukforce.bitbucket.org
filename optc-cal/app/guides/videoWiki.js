@@ -143,6 +143,7 @@ var videoWiki = {
     2123: 'coliseum/neptune',
     2163: 'coliseum/charlotte_opera',
     2193: 'coliseum/kuma',
+    2249: 'coliseum/charlotte_daifuku',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

@@ -267,6 +267,7 @@ var wiki = {
     2123: 'wiki/coliseum/neptune',
     2163: 'wiki/coliseum/opera',
     2193: '',                               // Kuma
+    2249: '',                               // Daifuku
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

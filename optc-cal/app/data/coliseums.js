@@ -414,6 +414,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2193
     },
+    2249: {
+        name: 'Daifuku',
+        chaos_only: true, // Not but new format
+        thumb: 2249
+    },
 
     // Neo Coliseums
     1863: {

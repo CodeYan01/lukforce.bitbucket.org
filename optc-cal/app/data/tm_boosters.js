@@ -61,4 +61,7 @@ var tm_boosters = [
     // ===== Shanks =====
     // FNs
     2219,
+
+    // Coliseums
+    2249,
 ]
