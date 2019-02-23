@@ -324,4 +324,10 @@ var specials = {
         name: 'Eneru',
         thumb: 2232
     },
+
+    'co_2161': {
+        type: 'Co-op Mission',
+        name: 'Powerful Foes',
+        thumb: 2161
+    },
 }
