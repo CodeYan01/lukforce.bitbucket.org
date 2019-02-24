@@ -2008,7 +2008,8 @@ var raidEvents = [
     },
     {
         id: 2507,
-        start: '2019-02-23'
+        start: '2019-02-23',
+        ambush: ywb
     },
     {
         id: 306,
