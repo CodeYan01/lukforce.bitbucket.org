@@ -330,4 +330,9 @@ var specials = {
         name: 'Powerful Foes',
         thumb: 2161
     },
+    'co_2234': {
+        type: 'Co-op Mission',
+        name: 'Big Mom',
+        thumb: 2234
+    },
 }
