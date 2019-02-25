@@ -57,7 +57,8 @@ function getBoosters(tmId, server) {
         (
             tmId == 2175 ||
             tmId == 2109 ||
-            tmId == 2211
+            tmId == 2211 ||
+            tmId == 2261
         )
     ) {
         // TM Jack
