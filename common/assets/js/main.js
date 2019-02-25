@@ -37,9 +37,21 @@ function getThumb(thumbId) {
     if (thumbId === 5018 || thumbId === 2507)
         return '/tm-planner/assets/img/new-thumbs/5018.png';
 
+    // Special case for Knight Zoro
+    if (thumbId === 5019 || thumbId === 2514)
+        return '/tm-planner/assets/img/new-thumbs/5019.png';
+
+    // Special case for Knight Sanji
+    if (thumbId === 5020 || thumbId === 2515)
+        return '/tm-planner/assets/img/new-thumbs/5020.png';
+
     // Special case for Shanks & Mihawk
     if (thumbId === 5024 || thumbId === 2513)
         return '/tm-planner/assets/img/new-thumbs/5024.png';
+
+    // Special case for Whitebeard v2
+    if (thumbId === 5026 || thumbId === 2517)
+        return '/tm-planner/assets/img/new-thumbs/5026.png';
 
     // Special case for Garp (N)
     if (thumbId === 5028 || thumbId === 2511)
@@ -50,7 +62,8 @@ function getThumb(thumbId) {
         thumbId === 2439 ||
         thumbId === 2441 ||
         thumbId === 2443 ||
-        thumbId === 2444
+        thumbId === 2444 ||
+        thumbId === 2500
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
