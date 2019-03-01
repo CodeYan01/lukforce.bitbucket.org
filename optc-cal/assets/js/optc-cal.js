@@ -111,21 +111,7 @@ function showFooter() {
             var start = e['start'];
             var end = e['end'];
 
-            if (!isPST
-                && !e['pst_0']
-                && eId !== 1623
-                && eId !== 1647
-                && eId !== 1669
-                && eId !== 1680
-                && eId !== 1727
-                && eId !== 1739
-                && eId !== 1772
-                && eId !== 1780
-                && eId !== 1826
-                && eId !== 1930
-                && eId !== 2070
-                && eId !== 2511
-            ) {
+            if (!isPST && !e['pst_0']) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
                 start = startDate.format('YYYY-MM-DD');
