@@ -1624,4 +1624,28 @@ var fortnightEvents = [
         end: '2019-03-04',
         is_replay: true
     },
+    {
+        id: [724, 1766, 1810],
+        start: '2019-03-04',
+        end: '2019-03-11',
+        is_replay: true
+    },
+    {
+        id: [607, 1003, 1735],
+        start: '2019-03-11',
+        end: '2019-03-18',
+        is_replay: true
+    },
+    {
+        id: [1547, 1597, 1774, 2056],
+        start: '2019-03-18',
+        end: '2019-03-25',
+        is_replay: true
+    },
+    {
+        id: [1670, 1818, 1918, 1980],
+        start: '2019-03-25',
+        end: '2019-04-01',
+        is_replay: true
+    },
 ];
