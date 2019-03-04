@@ -86,6 +86,9 @@ var specials_bg = {
     'strawhats': {
         thumb: 'strawhats'
     },
+    'garp': {
+        thumb: 'garp'
+    },
     'chopper_exp': {
         thumb: 'chopper_exp'
     },
