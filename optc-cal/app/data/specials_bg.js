@@ -65,6 +65,9 @@ var specials_bg = {
     'celestials': {
         thumb: 'celestials'
     },
+    'buggy': {
+        thumb: 'buggy'
+    },
     'princess': {
         thumb: 'princess'
     },

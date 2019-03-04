@@ -1664,4 +1664,45 @@ var specialBgEvents = [
         end: '2019-03-03',
         pst_19: true
     },
+    {
+        id: 'free_pull',
+        start: '2019-03-03',
+        end: '2019-03-09'
+    },
+    {
+        id: 'buggy',
+        start: '2019-03-04',
+        end: '2019-03-09',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-03-09',
+        end: '2019-03-15',
+        pst_19: true
+    },
+    {
+        id: 'ray_tome',
+        start: '2019-03-09',
+        end: '2019-03-15',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-03-15',
+        end: '2019-03-19',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-03-15',
+        end: '2019-03-19',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp',
+        start: '2019-03-15',
+        end: '2019-03-19',
+        pst_19: true
+    },
 ]
