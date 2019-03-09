@@ -487,4 +487,8 @@ var fortnights = {
         name: 'Inuarashi',
         thumb: 2219
     },
+    2253: {
+        name: 'Pound',
+        thumb: 2253
+    },
 };

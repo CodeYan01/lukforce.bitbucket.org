@@ -122,6 +122,7 @@ var nakama = {
     2165: '2216500',    // Baby 5 & Sai
     2177: '2217700',    // Nekomamushi
     2219: '2221900',    // Inuarashi
+    2253: '2225300',    // Pound
 
     // Raids
     227: '4022700',     // Mihawk

@@ -122,6 +122,7 @@ var gw = {
     2165: '111404',     // Baby 5 & Sai
     2177: '114146',     // Nekomamushi
     2219: '116883',     // Inuarashi
+    2253: '118916',     // Pound
 
     // Raids
     227: '4142',        // Mihawk

@@ -122,6 +122,7 @@ var wiki = {
     2165: 'wiki/fortnight/baby5_donsai',
     2177: '',                               // Nekomamushi
     2219: '',                               // Inuarashi
+    2253: '',                               // Pound
 
     // Raids
     227: 'wiki/raidboss/mihawk',
