@@ -251,6 +251,7 @@ var wiki = {
     1528: '',                               // Blenheim
     1553: 'wiki/coliseum/hajrudin',
     1584: '',                               // Orlumbus
+    1586: '',                               // Helmeppo
     1602: 'wiki/coliseum/shiryu',
     1603: 'wiki/coliseum/mcguychaos',
     1628: 'wiki/coliseum/machvise',

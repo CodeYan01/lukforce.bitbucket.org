@@ -57,4 +57,8 @@ var tm_boosters = [
     2037,
     2163,
     2249,
+
+    // ===== Boa Hancock =====
+    // Coliseums
+    1586,
 ]

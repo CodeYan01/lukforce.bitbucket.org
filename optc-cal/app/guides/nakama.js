@@ -251,6 +251,7 @@ var nakama = {
     1528: '5152801',    // Blenheim
     1553: '5155201',    // Hajrudin
     1584: '5158301',    // Orlumbus
+    1586: '5158501',    // Helmeppo
     1602: '5160101',    // Shiryu
     1603: '5160301',    // McGuy
     1628: '5162701',    // Machvise

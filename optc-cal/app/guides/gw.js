@@ -251,6 +251,7 @@ var gw = {
     1528: '53591',      // Blenheim
     1553: '54672',      // Hajrudin
     1584: '56053',      // Orlumbus
+    1586: '56051',      // Helmeppo
     1602: '57471',      // Shiryu
     1603: '57472',      // McGuy
     1628: '59479',      // Machvise

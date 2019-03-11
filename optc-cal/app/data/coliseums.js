@@ -329,6 +329,11 @@ var coliseums = {
         chaos_only: true,
         thumb: 1584
     },
+    1586: {
+        name: 'Helmeppo',
+        chaos_only: false,
+        thumb: 1586
+    },
     1602: {
         name: 'Shiryu',
         chaos_only: true,
