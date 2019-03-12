@@ -324,6 +324,11 @@ var specials = {
         name: 'Eneru',
         thumb: 2232
     },
+    'se_2259': {
+        type: 'Super Evolve',
+        name: 'Higuma',
+        thumb: 2259
+    },
 
     'co_2161': {
         type: 'Co-op Mission',
