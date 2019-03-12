@@ -57,6 +57,14 @@ function getThumb(thumbId) {
     if (thumbId === 5028 || thumbId === 2511)
         return '/tm-planner/assets/img/new-thumbs/5028.png';
 
+    // Special case for Log Vivi
+    if (thumbId === 5030 || thumbId === 2519)
+        return '/tm-planner/assets/img/new-thumbs/5030.png';
+
+    // Special case for Log Ace
+    if (thumbId === 5032 || thumbId === 2521)
+        return '/tm-planner/assets/img/new-thumbs/5032.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 2439 ||
