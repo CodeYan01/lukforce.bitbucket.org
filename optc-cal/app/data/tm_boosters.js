@@ -12,6 +12,7 @@ var tm_boosters = [
     2137,
     2175,
     2211,
+    2261,
 
     // ===== Shanks =====
     // FNs
@@ -50,6 +51,7 @@ var tm_boosters = [
     882,
     983,
     1087,
+    1586,
     1792,
     1861,
     1945,
@@ -58,7 +60,6 @@ var tm_boosters = [
     2163,
     2249,
 
-    // ===== Boa Hancock =====
-    // Coliseums
-    1586,
+    // Other
+    2259,
 ]

@@ -289,6 +289,7 @@ var gw = {
     2137: '109127',     // Croc
     2175: '112951',     // Jack
     2211: '116377',     // Eneru
+    2261: '119738',     // Shanks
 
     // Events
     'bb_1314': '61665', // Three Admirals
