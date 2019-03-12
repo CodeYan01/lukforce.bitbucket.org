@@ -4384,52 +4384,52 @@ var tm_boosters = {
 
     // ========== Shanks ==========
     2261: [
+        {   // Mihawk
+            id: 2256,
+            x_pts: 2
+        },
+        {   // Ace
+            id: 2257,
+            x_pts: 1.75
+        },
+        {   // Higuma 5+
+            id: 2259,
+            x_pts: 1.75
+        },
         {   // Shiki
             id: 2201,
             x_pts: 1.5
         },
-        {   // Luffy
-            id: 2207,
-            x_pts: 1.5
-        },
-        {   // Big Mom
-            id: 2234,
+        {   // Higuma
+            id: 2258,
             x_pts: 1.5
         },
         {   // Big Mom 6+
             id: 2500,
             x_pts: 1.5
         },
-        {   // Brook
-            id: 2236,
-            x_pts: 1.5
-        },
         {   // Whitebeard v2
             id: 2517,
             x_pts: 1.5
         },
-        {   // Ganfor
-            id: 2209,
+        {   // Luffy
+            id: 2207,
             x_pts: 1.35
         },
         {   // Eneru
             id: 2211,
             x_pts: 1.35
         },
-        {   // Smoothie
-            id: 2238,
+        {   // Big Mom
+            id: 2234,
             x_pts: 1.35
         },
-        {   // Perospero
-            id: 2240,
+        {   // Brook
+            id: 2236,
             x_pts: 1.35
         },
-        {   // Cracker
-            id: 2242,
-            x_pts: 1.35
-        },
-        {   // Daifuku
-            id: 2244,
+        {   // Shanks
+            id: 2261,
             x_pts: 1.35
         },
         {   // Log Vivi
@@ -4439,6 +4439,56 @@ var tm_boosters = {
         {   // Log Ace
             id: 2521,
             x_pts: 1.35
+        },
+        {   // G4 v2
+            id: 2074,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Katakuri
+            id: 2113,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Sanji v2
+            id: 2148,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Whitebeard & Marco
+            id: 2181,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Garp
+            id: 2251,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Smoothie
+            id: 2238,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Perospero
+            id: 2240,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Cracker
+            id: 2242,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Daifuku
+            id: 2244,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // LRR Vivi
+            id: 2247,
+            type: 'rr',
+            x_pts: 1.2
         },
         {   // Knight Zoro
             id: 2514,
@@ -4477,6 +4527,11 @@ var tm_boosters = {
         },
         {   // Shirahoshi
             id: 2173,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Ganfor
+            id: 2209,
             type: 'tm_rr',
             x_pts: 1.2
         },
@@ -4545,6 +4600,11 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
+        {   // Helmeppo
+            id: 1586,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
         {   // Lucy
             id: 1792,
             type: 'coliseum',
@@ -4575,17 +4635,22 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // New Year Luffy
+        {   // Daifuku
+            id: 2249,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kimono Luffy
             id: 420,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // New Year Robin
+        {   // Kimono Robin
             id: 866,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // New Year Croc
+        {   // Kimono Croc
             id: 897,
             type: 'fortnight',
             x_pts: 1.2
@@ -4670,6 +4735,16 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Pound
+            id: 2253,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // King Baum
+            id: 2254,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Mihawk
             id: 1808,
             type: 'tm',
@@ -4723,6 +4798,11 @@ var tm_boosters = {
         {   // Jack
             id: 2175,
             type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Jack
+            id: 2231,
+            type: 'other',
             x_pts: 1.2
         },
         {   // Luffy 5+

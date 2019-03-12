@@ -64,6 +64,7 @@ function getBoosters(tmId, server) {
         // TM Jack
         // TM Big Mom
         // TM Eneru
+        // TM Shanks
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
