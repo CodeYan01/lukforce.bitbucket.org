@@ -142,6 +142,14 @@ function getBoosters(tmId, server) {
         $('#div_1_4x').show();
         $('#div_1_3x').show();
         $('#div_1_25x').show();
+    } else if (server == 'jpn' && tmId == 2469) {
+        // TM Smoothie & Oven
+        $('#div_1_8x').show();
+        $('#div_1_7x').show();
+        $('#div_1_5x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_3x').show();
+        $('#div_1_25x_v2').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -215,7 +223,9 @@ function getBoosters(tmId, server) {
         if (b.x_pts === 1.2) {
             imgDiv.data('_type', b.type);
             $('#booster_' + _x_pts + 'x_' + b.type).append(imgDiv);
-        } else if (b.x_pts === 1.35 && b.ver)
+        } else if (b.x_pts === 1.4 && b.ver)
+            $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
+        else if (b.x_pts === 1.35 && b.ver)
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
         else if (b.x_pts === 1.3 && b.ver)
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
@@ -226,7 +236,9 @@ function getBoosters(tmId, server) {
 
         _x_pts += 'x';
 
-        if (b.x_pts === 1.35 && b.ver)
+        if (b.x_pts === 1.4 && b.ver)
+            _x_pts += '_v' + b.ver;
+        else if (b.x_pts === 1.35 && b.ver)
             _x_pts += '_v' + b.ver;
         else if (b.x_pts === 1.3 && b.ver)
             _x_pts += '_v' + b.ver;
@@ -354,7 +366,8 @@ function init(tmId, server) {
         tmId == 2261 ||
         tmId == 2299 ||
         tmId == 2336 ||
-        tmId == 2387
+        tmId == 2387 ||
+        tmId == 2469
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');

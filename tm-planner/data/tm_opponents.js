@@ -137,6 +137,14 @@ var tm_opponents = {
         2144: ['Diamante',      'DEX',      3],
         2443: ['Doflamingo',    'QCK',      4]
     },
+    2469: {
+        2240: ['Perospero',     'DEX',      3],
+        2344: ['Bavarois',      'PSY',      0],
+        2346: ['Galette',       'INT',      2],
+        2369: ['Montd\'Or',     'STR',      1],
+        2234: ['Big Mom',       'STR',      4],
+        2469: [['Smoothie & ', 'Oven'], ['PSY', 'QCK'], 5],
+    },
     9999: [
         ['',            ''],
         ['',            ''],
