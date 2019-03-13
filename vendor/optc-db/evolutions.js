@@ -3959,9 +3959,45 @@ window.evolutions = {
         evolution: 2444,
         evolvers: [ 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', 'skullDoflamingo', ]
     },
+    2445: {
+        evolution: 2446,
+        evolvers: [ 118, 103, 98, 303, 267 ]
+    },
+    2447: {
+        evolution: 2448,
+        evolvers: [ 'skullIchiji2', 'skullIchiji2', 'skullIchiji2', 'skullIchiji2', 'skullIchiji2' ]
+    },
+    2449: {
+        evolution: 2450,
+        evolvers: [ 'skullNiji2', 'skullNiji2', 'skullNiji2', 'skullNiji2', 'skullNiji2' ]
+    },
+    2451: {
+        evolution: 2452,
+        evolvers: [ 'skullYonji2', 'skullYonji2', 'skullYonji2', 'skullYonji2', 'skullYonji2' ]
+    },
+    2453: {
+        evolution: 2454,
+        evolvers: [ 'skullReiju2', 'skullReiju2', 'skullReiju2', 'skullReiju2', 'skullReiju2' ]
+    },
+    2456: {
+        evolution: 2457,
+        evolvers: [ 117, 82, 88, 99, 104 ]
+    },
+    2462: {
+        evolution: 2463,
+        evolvers: [  ]
+    },
+    2464: {
+        evolution: 2465,
+        evolvers: [  ]
+    },
+    2468: {
+        evolution: 2469,
+        evolvers: [  ]
+    },
     2234: {
         evolution: 2500,
-        evolvers: [  ]
+        evolvers: [ 'skullSTR', 118, 84, 300, 267 ]
     },
     2510: {
         evolution: 2511,
@@ -3973,14 +4009,14 @@ window.evolutions = {
     },
     2516: {
         evolution: 2517,
-        evolvers: [  ]
+        evolvers: [ 118, 79, 1180, 301, 267 ]
     },
     2518: {
         evolution: 2519,
-        evolvers: [  ]
+        evolvers: [ 117, 83, 86, 302, 102 ]
     },
     2520: {
         evolution: 2521,
-        evolvers: [  ]
+        evolvers: [ 117, 83, 84, 300, 100 ]
     },
 };
