@@ -2139,7 +2139,8 @@ var raidEvents = [
     },
     {
         id: 2197,
-        start: '2019-03-16'
+        start: '2019-03-16',
+        ambush: garp
     },
     {
         id: 518,
