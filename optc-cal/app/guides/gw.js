@@ -318,6 +318,7 @@ var gw = {
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard
     'rk_1700': '107881',// 1 Turn Dmg Ranking Jinbe
     'rk_1873': '111278',// 1 Turn Dmg Ranking Kyros
+    'rk_1298': '',      // 1 Turn Dmg Ranking Akainu
 
     'se_2138': '109674',// Super Evolve Germa 66
     'se_2232': '117538',// Super Evolve Eneru

@@ -83,6 +83,11 @@ var specials = {
         name: 'Wanda / Ivankov / Kyros',
         thumb: '1_turn_dmg_rank'
     },
+    'rk_1298': {
+        type: '1 Turn Dmg Ranking',
+        name: 'Bege / Buggy / Akainu',
+        thumb: '1_turn_dmg_rank'
+    },
 
     '20_1684': {
         type: '20th Anni SH',
