@@ -1721,4 +1721,33 @@ var specialBgEvents = [
         end: '2019-03-19',
         pst_19: true
     },
+    {
+        id: 'mat',
+        start: '2019-03-20',
+        end: '2019-03-23',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-03-21',
+        end: '2019-03-24',
+        pst_19: true
+    },
+    {
+        id: 'lobster',
+        start: '2019-03-23',
+        end: '2019-03-26',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-03-24',
+        end: '2019-03-28',
+        pst_19: true
+    },
+    {
+        id: 'cotton',
+        start: '2019-03-29',
+        end: '2019-04-01'
+    },
 ]
