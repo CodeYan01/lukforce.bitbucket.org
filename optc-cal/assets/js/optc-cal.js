@@ -173,12 +173,7 @@ function showFooter() {
             var start = e['start'];
             var end = e['end'];
 
-            if (!isPST
-                && newId !== 1863
-                && newId !== 1899
-                && newId !== 1976
-                && newId !== 2017
-            ) {
+            if (!isPST && !e['pst_0']) {
                 var startDate = moment(start);
                 startDate.add(1, 'd');
                 start = startDate.format('YYYY-MM-DD');
