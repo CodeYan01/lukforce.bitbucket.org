@@ -2168,7 +2168,8 @@ var raidEvents = [
     },
     {
         id: 2507,
-        start: '2019-03-23'
+        start: '2019-03-23',
+        ambush: shanks
     },
     {
         id: [516, 1924, 2263],
