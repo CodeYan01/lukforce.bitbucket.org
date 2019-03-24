@@ -270,6 +270,7 @@ var wiki = {
     2163: 'wiki/coliseum/opera',
     2193: '',                               // Kuma
     2249: '',                               // Daifuku
+    2290: '',                               // Niwatori
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

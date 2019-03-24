@@ -62,4 +62,12 @@ var tm_boosters = [
 
     // Other
     2259,
+
+    // ===== Boa Hancock =====
+    // FNs
+
+    // Raids
+
+    // Coliseums
+    2290,
 ]

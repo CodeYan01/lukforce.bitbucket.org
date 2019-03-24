@@ -424,6 +424,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2249
     },
+    2290: {
+        name: 'Niwatori',
+        chaos_only: true, // Not but new format
+        thumb: 2290
+    },
 
     // Neo Coliseums
     1863: {
