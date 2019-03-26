@@ -15,4 +15,8 @@ var ambushes = {
         name: 'Garp',
         thumb: 1846
     },
+    2283: {
+        name: 'Sengoku',
+        thumb: 2283
+    },
 };

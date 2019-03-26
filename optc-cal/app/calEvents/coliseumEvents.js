@@ -2582,12 +2582,14 @@ var coliseumEvents = [
         repId: [1310, 1456, 1487, 1897],
         start: '2019-03-26',
         end: '2019-03-28',
+        ambush: sengoku,
         new_batch: true
     },
     {
         newId: [2290],
         repId: [1310, 1456, 1487, 1897],
         start: '2019-03-30',
+        ambush: sengoku,
         new_batch: true
     },
     {
@@ -2595,12 +2597,14 @@ var coliseumEvents = [
         repId: [1310, 1456, 1487, 1897],
         start: '2019-04-02',
         end: '2019-04-04',
+        ambush: sengoku,
         new_batch: true
     },
     {
         newId: [2290],
         repId: [1310, 1456, 1487, 1897],
         start: '2019-04-06',
+        ambush: sengoku,
         new_batch: true
     },
 
@@ -2609,24 +2613,28 @@ var coliseumEvents = [
         newId: [2290],
         repId: [831, 1667, 926, 1423],
         start: '2019-03-29',
+        ambush: sengoku,
         new_batch: false
     },
     {
         newId: [2290],
         repId: [831, 1667, 926, 1423],
         start: '2019-04-01',
+        ambush: sengoku,
         new_batch: false
     },
     {
         newId: [2290],
         repId: [831, 1667, 926, 1423],
         start: '2019-04-05',
+        ambush: sengoku,
         new_batch: false
     },
     {
         newId: [2290],
         repId: [831, 1667, 926, 1423],
         start: '2019-04-08',
+        ambush: sengoku,
         new_batch: false
     },
 ]

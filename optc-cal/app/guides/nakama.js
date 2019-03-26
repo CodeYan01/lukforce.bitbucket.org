@@ -183,6 +183,7 @@ var nakama = {
     1380: '6138000',    // Shanks
     1530: '6153000',    // Cavendish
     1846: '6184600',    // Young Garp
+    2283: '6228300',    // Young Sengoku
 
     // Coliseums
     777: '5077601',     // Lucky Roux

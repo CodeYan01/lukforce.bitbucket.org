@@ -183,6 +183,7 @@ var gw = {
     1380: '46369',      // Shanks
     1530: '53621',      // Cavendish
     1846: '75260',      // Young Garp
+    2283: '122270',     // Young Sengoku
 
     // Coliseums
     777: '17609',       // Lucky Roux

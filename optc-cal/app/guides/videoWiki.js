@@ -58,6 +58,7 @@ var videoWiki = {
     1380: 'raidboss/invadeshanks',
     1530: 'raidboss/invadecavendish',
     1846: 'raidboss/invadegarp',
+    2283: 'raidboss/invadesengoku',
 
     // Coliseums
     777: 'coliseum/luckyroo',

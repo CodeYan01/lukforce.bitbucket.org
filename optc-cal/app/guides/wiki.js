@@ -183,6 +183,7 @@ var wiki = {
     1380: 'wiki/shanks',
     1530: 'wiki/cavendish',
     1846: 'wiki/primegarp',
+    2283: '',                               // Young Sengoku
 
     // Coliseums
     777: '',                                // Lucky Roux
