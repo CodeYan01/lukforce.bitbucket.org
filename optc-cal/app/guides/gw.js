@@ -123,6 +123,7 @@ var gw = {
     2177: '114146',     // Nekomamushi
     2219: '116883',     // Inuarashi
     2253: '118916',     // Pound
+    2277: '121547',     // TS Buggy
 
     // Raids
     227: '4142',        // Mihawk

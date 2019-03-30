@@ -123,6 +123,7 @@ var nakama = {
     2177: '2217700',    // Nekomamushi
     2219: '2221900',    // Inuarashi
     2253: '2225300',    // Pound
+    2277: '2227700',    // TS Buggy
 
     // Raids
     227: '4022700',     // Mihawk

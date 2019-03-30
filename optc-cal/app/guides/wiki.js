@@ -123,6 +123,7 @@ var wiki = {
     2177: '',                               // Nekomamushi
     2219: '',                               // Inuarashi
     2253: '',                               // Pound
+    2277: '',                               // TS Buggy
 
     // Raids
     227: 'wiki/raidboss/mihawk',
