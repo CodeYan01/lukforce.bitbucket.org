@@ -124,6 +124,7 @@ var wiki = {
     2219: '',                               // Inuarashi
     2253: '',                               // Pound
     2277: '',                               // TS Buggy
+    2292: '',                               // Halloween Vivi
 
     // Raids
     227: 'wiki/raidboss/mihawk',

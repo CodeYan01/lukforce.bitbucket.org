@@ -17,6 +17,7 @@ var tm_boosters = [
     // ===== Boa Hancock =====
     // FNs
     2277,
+    2292,
 
     // Raids
     2281,

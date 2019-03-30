@@ -124,6 +124,7 @@ var gw = {
     2219: '116883',     // Inuarashi
     2253: '118916',     // Pound
     2277: '121547',     // TS Buggy
+    2292: '122996',     // Halloween Vivi
 
     // Raids
     227: '4142',        // Mihawk
