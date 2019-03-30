@@ -164,6 +164,7 @@ var wiki = {
     2158: 'wiki/raidboss/cracker',
     2197: '',                               // Blackbeard v2
     2263: 'wiki/raidboss/v2doflamingo',
+    2281: '',                               // Judge
     2507: 'comments/aa693j',                // Sengoku & Garp
     2513: '',                               // Shanks & Mihawk
 

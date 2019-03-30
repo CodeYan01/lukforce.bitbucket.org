@@ -155,6 +155,10 @@ var raids = {
         name: 'Doflamingo v2',
         thumb: 2263
     },
+    2281: {
+        name: 'Judge',
+        thumb: 2281
+    },
     2507: {
         name: 'Sengoku & Garp',
         thumb: 5018

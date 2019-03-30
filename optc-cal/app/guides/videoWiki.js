@@ -39,6 +39,7 @@ var videoWiki = {
     2158: 'raidboss/cracker',
     2197: 'raidboss/blackbeardv2',
     2263: 'raidboss/v2doflamingo',
+    2281: 'raidboss/judge',
     2507: 'raidboss/sengokugarp',
     2513: 'raidboss/shanksmihawk',
 
