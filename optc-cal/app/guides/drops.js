@@ -125,6 +125,7 @@ drops = {
     2253: 'Lets%20Play%20in%20The%20Seducing%20Woods%20Fortnight',
     2277: 'The%20Genius%20Jester!%20Buggy%27s%20Festival!%20Fortnight',
     2292: 'Dead%20or%20Treat!!%20Sweetie%20Party',
+    2294: 'Dead%20or%20Treat!!%20Sweetie%20Party',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

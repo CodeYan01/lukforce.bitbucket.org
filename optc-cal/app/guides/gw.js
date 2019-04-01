@@ -125,6 +125,7 @@ var gw = {
     2253: '118916',     // Pound
     2277: '121547',     // TS Buggy
     2292: '122996',     // Halloween Vivi
+    2294: '124308',     // Halloween Katakuri
 
     // Raids
     227: '4142',        // Mihawk

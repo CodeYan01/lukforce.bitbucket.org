@@ -125,6 +125,7 @@ var nakama = {
     2253: '2225300',    // Pound
     2277: '2227700',    // TS Buggy
     2292: '6229200',    // Halloween Vivi
+    2294: '6229200',    // Halloween Katakuri
 
     // Raids
     227: '4022700',     // Mihawk

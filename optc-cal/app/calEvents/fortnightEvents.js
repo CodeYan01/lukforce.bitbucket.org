@@ -1706,4 +1706,24 @@ var fortnightEvents = [
         end: '2019-04-22',
         is_replay: false
     },
+
+    // #############################
+    {
+        id: 2294,
+        start: '2019-04-15',
+        end: '2019-04-22',
+        is_replay: false
+    },
+    {
+        id: 2294,
+        start: '2019-04-22',
+        end: '2019-04-29',
+        is_replay: false
+    },
+    {
+        id: 2294,
+        start: '2019-04-29',
+        end: '2019-05-06',
+        is_replay: false
+    },
 ];

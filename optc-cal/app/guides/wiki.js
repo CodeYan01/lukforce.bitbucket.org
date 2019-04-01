@@ -125,6 +125,7 @@ var wiki = {
     2253: '',                               // Pound
     2277: '',                               // TS Buggy
     2292: '',                               // Halloween Vivi
+    2294: '',                               // Halloween Katakuri
 
     // Raids
     227: 'wiki/raidboss/mihawk',

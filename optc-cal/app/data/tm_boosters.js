@@ -27,4 +27,12 @@ var tm_boosters = [
 
     // Other
     2283,
+
+    // ===== Law =====
+    // FNs
+    2294,
+
+    // Raids
+
+    // Coliseums
 ]
