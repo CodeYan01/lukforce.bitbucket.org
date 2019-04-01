@@ -1760,4 +1760,37 @@ var specialBgEvents = [
         start: '2019-03-29',
         end: '2019-04-01'
     },
+    {
+        id: 'sp',
+        start: '2019-04-01'
+    },
+    {
+        id: 'usopp_ship',
+        start: '2019-04-01',
+        end: '2019-04-07'
+    },
+    {
+        id: 'strawhats',
+        start: '2019-04-01',
+        end: '2019-04-06',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-04-06',
+        end: '2019-04-10',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-04-06',
+        end: '2019-04-16',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-04-10',
+        end: '2019-04-16',
+        pst_19: true
+    },
 ]
