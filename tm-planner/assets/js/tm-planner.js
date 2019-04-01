@@ -58,13 +58,15 @@ function getBoosters(tmId, server) {
             tmId == 2175 ||
             tmId == 2109 ||
             tmId == 2211 ||
-            tmId == 2261
+            tmId == 2261 ||
+            tmId == 2299
         )
     ) {
         // TM Jack
         // TM Big Mom
         // TM Eneru
         // TM Shanks
+        // TM Hancock
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
