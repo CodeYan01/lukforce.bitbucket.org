@@ -1724,6 +1724,12 @@ var fortnightEvents = [
         end: '2019-04-08',
         is_replay: true
     },
+    {
+        id: [405, 571, 1287, 1416],
+        start: '2019-04-08',
+        end: '2019-04-15',
+        is_replay: true
+    },
 
     // #############################
     {
@@ -1743,5 +1749,11 @@ var fortnightEvents = [
         start: '2019-04-29',
         end: '2019-05-06',
         is_replay: false
+    },
+    {
+        id: [1203, 1450, 1735, 1995],
+        start: '2019-04-15',
+        end: '2019-04-22',
+        is_replay: true
     },
 ];
