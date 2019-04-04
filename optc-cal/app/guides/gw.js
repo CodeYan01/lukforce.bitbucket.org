@@ -328,5 +328,7 @@ var gw = {
 
     'se_2138': '109674',// Super Evolve Germa 66
     'se_2232': '117538',// Super Evolve Eneru
+    'se_2245': '',      // Super Evolve Sanji
     'se_2259': '119604',// Super Evolve Higuma
+    'se_2300': '',      // Super Evolve Franky
 };

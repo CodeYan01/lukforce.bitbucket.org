@@ -329,10 +329,20 @@ var specials = {
         name: 'Eneru',
         thumb: 2232
     },
+    'se_2245': {
+        type: 'Super Evolve',
+        name: 'Sanji',
+        thumb: 2245
+    },
     'se_2259': {
         type: 'Super Evolve',
         name: 'Higuma',
         thumb: 2259
+    },
+    'se_2300': {
+        type: 'Super Evolve',
+        name: 'Franky',
+        thumb: 2300
     },
 
     'co_2161': {

@@ -323,5 +323,7 @@ var nakama = {
 
     'se_2138': '6213800',   // Super Evolve Germa 66
     'se_2232': '6223200',   // Super Evolve Eneru
+    'se_2245': '6230000',   // Super Evolve Sanji
     'se_2259': '6225900',   // Super Evolve Higuma
+    'se_2300': '6230000',   // Super Evolve Franky
 };
