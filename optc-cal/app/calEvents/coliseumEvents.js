@@ -2637,4 +2637,45 @@ var coliseumEvents = [
         ambush: sengoku,
         new_batch: false
     },
+
+    // ##############################
+    {
+        newId: [2290, 1253],
+        repId: [882, 2111, 1378],
+        start: '2019-04-09',
+        end: '2019-04-11',
+        new_batch: true
+    },
+    {
+        newId: [2290, 1253],
+        repId: [882, 2111, 1378],
+        start: '2019-04-13',
+        new_batch: true
+    },
+    {
+        newId: [2290, 1253],
+        repId: [882, 2111, 1378],
+        start: '2019-04-16',
+        end: '2019-04-18',
+        new_batch: true
+    },
+    {
+        newId: [2290, 1253],
+        repId: [882, 2111, 1378],
+        start: '2019-04-20',
+        new_batch: true
+    },
+    {
+        newId: [2290, 1253],
+        repId: [882, 2111, 1378],
+        start: '2019-04-23',
+        end: '2019-04-25',
+        new_batch: true
+    },
+    {
+        newId: [2290, 1253],
+        repId: [882, 2111, 1378],
+        start: '2019-04-27',
+        new_batch: true
+    },
 ]

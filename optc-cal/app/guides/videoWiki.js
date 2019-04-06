@@ -104,6 +104,7 @@ var videoWiki = {
     1222: 'coliseum/oars_jr',
     1251: 'coliseum/marco',
     1252: 'coliseum/doma',
+    1253: 'coliseum/shura',
     1292: 'coliseum/lao_g',
     1294: 'coliseum/boa_sandersonia',
     1310: 'coliseum/kinemon',

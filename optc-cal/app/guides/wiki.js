@@ -232,6 +232,7 @@ var wiki = {
     1222: '',                               // Oars Jr.
     1251: '',                               // Marco
     1252: '',                               // Doma
+    1253: '',                               // Shura
     1292: 'comments/84fp9b',                // Lao G
     1294: '',                               // Boa Sandersonia
     1310: 'comments/6ywcrv',                // Kinemon
