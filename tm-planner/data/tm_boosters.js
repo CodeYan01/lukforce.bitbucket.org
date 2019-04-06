@@ -4865,6 +4865,21 @@ var tm_boosters = {
             id: 2265,
             x_pts: 1.35
         },
+        {   // Sanji 6+
+            id: 2245,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Franky 6+
+            id: 2300,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Neptune
+            id: 1475,
+            type: 'rr',
+            x_pts: 1.2
+        },
         {   // Aladdin
             id: 2267,
             type: 'rr',
@@ -5035,6 +5050,21 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Halloween Rebecca
+            id: 1300,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Sugar
+            id: 1306,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Corazon
+            id: 1326,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Leo
             id: 1328,
             type: 'fortnight',
@@ -5132,6 +5162,16 @@ var tm_boosters = {
         },
         {   // Yonji
             id: 2058,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // TS Buggy
+            id: 2277,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Vivi
+            id: 2292,
             type: 'fortnight',
             x_pts: 1.2
         },
