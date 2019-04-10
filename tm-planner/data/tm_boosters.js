@@ -1571,7 +1571,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Kung Fu Luffy
-            id: 2503,
+            id: 3334,
             x_pts: 1.35
         },
         {   // Law 6+
@@ -1865,7 +1865,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Croc & Daz
-            id: 2504,
+            id: 3335,
             type: 'other',
             x_pts: 1.2
         },
@@ -2433,7 +2433,7 @@ var tm_boosters = {
             x_pts: 1
         },
         {   // Croc & Daz
-            id: 2504,
+            id: 3335,
             x_pts: 1
         },
     ],
@@ -2524,7 +2524,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Lucci v2 6+
-            id: 2505,
+            id: 3336,
             type: 'legend',
             x_pts: 1.2
         },
@@ -3047,7 +3047,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Kung Fu Luffy
-            id: 2503,
+            id: 3334,
             type: 'legend',
             x_pts: 1.2
         },
@@ -3474,7 +3474,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Kung Fu Luffy
-            id: 2503,
+            id: 3334,
             type: 'legend',
             x_pts: 1.2
         },
@@ -4099,17 +4099,17 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Sengoku & Garp
-            id: 2507,
+            id: 3338,
             type: 'raid',
             x_pts: 1.2
         },
         {   // Garp (N)
-            id: 2511,
+            id: 3340,
             type: 'raid',
             x_pts: 1.2
         },
         {   // Shanks & Mihawk
-            id: 2513,
+            id: 3342,
             type: 'raid',
             x_pts: 1.2
         },
@@ -4409,7 +4409,7 @@ var tm_boosters = {
             x_pts: 1.5
         },
         {   // Whitebeard v2
-            id: 2517,
+            id: 3346,
             x_pts: 1.5
         },
         {   // Luffy
@@ -4433,11 +4433,11 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Log Vivi
-            id: 2519,
+            id: 3348,
             x_pts: 1.35
         },
         {   // Log Ace
-            id: 2521,
+            id: 3350,
             x_pts: 1.35
         },
         {   // G4 v2
@@ -4491,12 +4491,12 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Knight Zoro
-            id: 2514,
+            id: 3343,
             type: 'rr',
             x_pts: 1.2
         },
         {   // Knight Sanji
-            id: 2515,
+            id: 3344,
             type: 'rr',
             x_pts: 1.2
         },

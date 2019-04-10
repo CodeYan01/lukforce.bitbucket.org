@@ -159,11 +159,11 @@ var raids = {
         name: 'Judge',
         thumb: 2281
     },
-    2507: {
+    3338: {
         name: 'Sengoku & Garp',
         thumb: 5018
     },
-    2513: {
+    3342: {
         name: 'Shanks & Mihawk',
         thumb: 5024
     },
@@ -213,7 +213,7 @@ var raids = {
         name: 'Boa Hancock (N)',
         thumb: 2070
     },
-    2511: {
+    3340: {
         name: 'Garp (N)',
         thumb: 5028
     },

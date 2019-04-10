@@ -22,47 +22,47 @@ function getThumb(thumbId) {
         paddedThumbId = "0" + paddedThumbId;
 
     // Special case for Kung Fu Luffy
-    if (thumbId === 5014 || thumbId === 2503)
+    if (thumbId === 5014 || thumbId === 3334)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
     // Special case for Croc & Daz
-    if (thumbId === 5015 || thumbId === 2504)
+    if (thumbId === 5015 || thumbId === 3335)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5015.png';
 
     // Special case for Lucci v2 6+
-    if (thumbId === 5016 || thumbId === 2505)
+    if (thumbId === 5016 || thumbId === 3336)
         return '/tm-planner/assets/img/new-thumbs/5016.png';
 
     // Special case for Sengoku & Garp
-    if (thumbId === 5018 || thumbId === 2507)
+    if (thumbId === 5018 || thumbId === 3338)
         return '/tm-planner/assets/img/new-thumbs/5018.png';
 
     // Special case for Knight Zoro
-    if (thumbId === 5019 || thumbId === 2514)
+    if (thumbId === 5019 || thumbId === 3343)
         return '/tm-planner/assets/img/new-thumbs/5019.png';
 
     // Special case for Knight Sanji
-    if (thumbId === 5020 || thumbId === 2515)
+    if (thumbId === 5020 || thumbId === 3344)
         return '/tm-planner/assets/img/new-thumbs/5020.png';
 
     // Special case for Shanks & Mihawk
-    if (thumbId === 5024 || thumbId === 2513)
+    if (thumbId === 5024 || thumbId === 3342)
         return '/tm-planner/assets/img/new-thumbs/5024.png';
 
     // Special case for Whitebeard v2
-    if (thumbId === 5026 || thumbId === 2517)
+    if (thumbId === 5026 || thumbId === 3346)
         return '/tm-planner/assets/img/new-thumbs/5026.png';
 
     // Special case for Garp (N)
-    if (thumbId === 5028 || thumbId === 2511)
+    if (thumbId === 5028 || thumbId === 3340)
         return '/tm-planner/assets/img/new-thumbs/5028.png';
 
     // Special case for Log Vivi
-    if (thumbId === 5030 || thumbId === 2519)
+    if (thumbId === 5030 || thumbId === 3348)
         return '/tm-planner/assets/img/new-thumbs/5030.png';
 
     // Special case for Log Ace
-    if (thumbId === 5032 || thumbId === 2521)
+    if (thumbId === 5032 || thumbId === 3350)
         return '/tm-planner/assets/img/new-thumbs/5032.png';
 
     // Special cases for new thumbs
