@@ -4845,9 +4845,33 @@ var tm_boosters = {
 
     // ========== Boa Hancock ==========
     2299: [
+        {   // Rayleigh
+            id: 2296,
+            x_pts: 2
+        },
+        {   // Perona
+            id: 2297,
+            x_pts: 1.75
+        },
         {   // Mihawk
             id: 2256,
             x_pts: 1.5
+        },
+        {   // Moria
+            id: 2295,
+            x_pts: 1.5
+        },
+        {   // Sanji 6+
+            id: 2245,
+            x_pts: 1.35
+        },
+        {   // Jinbe v2
+            id: 2265,
+            x_pts: 1.35
+        },
+        {   // Franky 6+
+            id: 2300,
+            x_pts: 1.35
         },
         {   // Ace
             id: 2257,
@@ -4857,21 +4881,68 @@ var tm_boosters = {
             id: 2259,
             x_pts: 1.35
         },
+        {   // Judge
+            id: 2281,
+            x_pts: 1.35
+        },
+        {   // Niwatori
+            id: 2290,
+            x_pts: 1.35
+        },
         {   // Shanks
             id: 2261,
             x_pts: 1.35
         },
-        {   // Jinbe v2
-            id: 2265,
+        {   // Boa Hancock
+            id: 2299,
             x_pts: 1.35
         },
-        {   // Sanji 6+
-            id: 2245,
+        {   // Sengoku
+            id: 2283,
+            x_pts: 1.35
+        },
+        {   // G4
+            id: 1593,
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Franky 6+
-            id: 2300,
+        {   // Sengoku 6+
+            id: 1847,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Law v2 6+
+            id: 1922,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Shiki
+            id: 2201,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Brook
+            id: 2236,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Garp
+            id: 2251,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Sabo
+            id: 2441,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Big Mom 6+
+            id: 2500,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Whitebeard v2
+            id: 3346,
             type: 'legend',
             x_pts: 1.2
         },
@@ -5010,9 +5081,19 @@ var tm_boosters = {
             type: 'raid',
             x_pts: 1.2
         },
-        {   // Judge
-            id: 2281,
-            type: 'raid',
+        {   // Shura
+            id: 1253,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Boa Sandersonia
+            id: 1294,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Boa Marigold
+            id: 1312,
+            type: 'coliseum',
             x_pts: 1.2
         },
         {   // Kinemon (N)
@@ -5025,18 +5106,23 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // Niwatori
-            id: 2290,
-            type: 'coliseum',
-            x_pts: 1.2
-        },
         {   // Perona
             id: 392,
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Absalom
+            id: 405,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Wedding Nami
             id: 808,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Marguerite
+            id: 918,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -5072,6 +5158,11 @@ var tm_boosters = {
         },
         {   // Sengoku
             id: 1416,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Violet
+            id: 1450,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -5165,6 +5256,16 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Baby 5
+            id: 2165,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sai
+            id: 2167,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // TS Buggy
             id: 2277,
             type: 'fortnight',
@@ -5233,11 +5334,6 @@ var tm_boosters = {
         {   // Eneru
             id: 2211,
             type: 'tm',
-            x_pts: 1.2
-        },
-        {   // Sengoku
-            id: 2283,
-            type: 'other',
             x_pts: 1.2
         },
         {   // WC Ace
