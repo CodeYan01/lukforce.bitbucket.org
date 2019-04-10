@@ -64,4 +64,9 @@ var tms = {
         thumb: 2261,
         info: 'i.imgur.com/AiMEgJY.jpg'
     },
+    2299: {
+        name: 'Boa Hancock',
+        thumb: 2299,
+        info: 'i.imgur.com/wrLWAbA.png'
+    },
 };

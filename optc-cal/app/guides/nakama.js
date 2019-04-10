@@ -297,6 +297,7 @@ var nakama = {
     2175: '8217500',    // Jack
     2211: '8221100',    // Eneru
     2261: '8226100',    // Shanks
+    2299: '8229900',    // Boa Hancock
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

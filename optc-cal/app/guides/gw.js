@@ -297,6 +297,7 @@ var gw = {
     2175: '112951',     // Jack
     2211: '116377',     // Eneru
     2261: '119738',     // Shanks
+    2299: '123536',     // Boa Hancock
 
     // Events
     'bb_1314': '61665', // Three Admirals
