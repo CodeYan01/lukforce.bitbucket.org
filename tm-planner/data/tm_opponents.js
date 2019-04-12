@@ -100,11 +100,11 @@ var tm_opponents = {
         2261: ['Shanks',        'DEX',      5]
     },
     2299: {
-        1300: ['Rebecca',       'INT',      3],
-        1306: ['Sugar',         'DEX',      1],
-        2292: ['Vivi',          'PSY',      0],
-        2297: ['Perona',        'PSY',      2],
-        2295: ['Moria',         'STR',      4],
+        1300: ['Rebecca',       'STR',      3],
+        1306: ['Sugar',         'QCK',      1],
+        2292: ['Vivi',          'INT',      0],
+        2297: ['Perona',        'DEX',      2],
+        2295: ['Moria',         'QCK',      4],
         2299: ['Hancock',       'INT',      5]
     },
     2336: {
