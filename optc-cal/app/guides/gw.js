@@ -327,6 +327,7 @@ var gw = {
     'rk_1700': '107881',// 1 Turn Dmg Ranking Jinbe
     'rk_1873': '111278',// 1 Turn Dmg Ranking Kyros
     'rk_1298': '',      // 1 Turn Dmg Ranking Akainu
+    'rk_0912': '120486',// 1 Turn Dmg Ranking Sanji
 
     'se_2138': '109674',// Super Evolve Germa 66
     'se_2232': '117538',// Super Evolve Eneru

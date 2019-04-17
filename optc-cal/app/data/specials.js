@@ -88,6 +88,11 @@ var specials = {
         name: 'Bege / Buggy / Akainu',
         thumb: '1_turn_dmg_rank'
     },
+    'rk_0912': {
+        type: '1 Turn Dmg Ranking',
+        name: 'Sanji',
+        thumb: '1_turn_dmg_rank'
+    },
 
     '20_1684': {
         type: '20th Anni SH',
