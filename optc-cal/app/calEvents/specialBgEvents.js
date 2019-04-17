@@ -1803,4 +1803,34 @@ var specialBgEvents = [
         end: '2019-04-16',
         pst_19: true
     },
+    {
+        id: 'easter_egg',
+        start: '2019-04-17',
+        end: '2019-04-21',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-04-17',
+        end: '2019-04-22',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-04-21',
+        end: '2019-04-24',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-04-22',
+        end: '2019-04-27',
+        pst_19: true
+    },
+    {
+        id: 'ray_tome',
+        start: '2019-04-24',
+        end: '2019-04-27',
+        pst_19: true
+    },
 ]
