@@ -1671,37 +1671,19 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 2277,
+        id: [2277, 2292],
         start: '2019-04-01',
         end: '2019-04-08',
         is_replay: false
     },
     {
-        id: 2277,
+        id: [2277, 2292],
         start: '2019-04-08',
         end: '2019-04-15',
         is_replay: false
     },
     {
-        id: 2277,
-        start: '2019-04-15',
-        end: '2019-04-22',
-        is_replay: false
-    },
-    {
-        id: 2292,
-        start: '2019-04-01',
-        end: '2019-04-08',
-        is_replay: false
-    },
-    {
-        id: 2292,
-        start: '2019-04-08',
-        end: '2019-04-15',
-        is_replay: false
-    },
-    {
-        id: 2292,
+        id: [2277, 2292, 2294],
         start: '2019-04-15',
         end: '2019-04-22',
         is_replay: false
@@ -1732,12 +1714,6 @@ var fortnightEvents = [
     },
 
     // #############################
-    {
-        id: 2294,
-        start: '2019-04-15',
-        end: '2019-04-22',
-        is_replay: false
-    },
     {
         id: 2294,
         start: '2019-04-22',
