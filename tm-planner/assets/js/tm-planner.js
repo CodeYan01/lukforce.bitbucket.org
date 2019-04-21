@@ -146,8 +146,15 @@ function getBoosters(tmId, server) {
         $('#div_1_4x').show();
         $('#div_1_3x').show();
         $('#div_1_25x').show();
-    } else if (server == 'jpn' && tmId == 2469) {
+    } else if (
+        server == 'jpn' &&
+        (
+            tmId == 2469 ||
+            tmId == 2510
+        )
+    ) {
         // TM Smoothie & Oven
+        // TM Edward Weevil
         $('#div_1_8x').show();
         $('#div_1_7x').show();
         $('#div_1_5x').show();

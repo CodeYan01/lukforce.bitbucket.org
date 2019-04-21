@@ -4087,4 +4087,434 @@ var tm_boosters_jpn = {
             x_pts: 1.2
         },
     ],
+
+    // ========== Edward Weevil ==========
+    2510: [
+        {   // Marco
+            id: 2508,
+            x_pts: 1.8
+        },
+        {   // Kizaru
+            id: 2507,
+            x_pts: 1.7
+        },
+        {   // A.O
+            id: 2506,
+            x_pts: 1.5
+        },
+        {   // Smoothie & Oven
+            id: 2469,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Mihawk v2
+            id: 2475,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Zoro v2
+            id: 2477,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Sanji & Judge
+            id: 2446,
+            x_pts: 1.3
+        },
+        {   // Cracker
+            id: 2465,
+            x_pts: 1.3
+        },
+        {   // Big Mom 6+
+            id: 2500,
+            x_pts: 1.3
+        },
+        {   // Fujitora v2 6+
+            id: 2505,
+            x_pts: 1.3
+        },
+        {   // Mr. 1
+            id: 2479,
+            x_pts: 1.3
+        },
+        {   // Hyouzou v2
+            id: 2481,
+            x_pts: 1.3
+        },
+        {   // Kaku v2
+            id: 2483,
+            x_pts: 1.3
+        },
+        {   // Ryuma
+            id: 2485,
+            x_pts: 1.3
+        },
+        {   // LRR Kinemon
+            id: 2487,
+            x_pts: 1.3
+        },
+        {   // Big Mom
+            id: 2473,
+            x_pts: 1.3
+        },
+        {   // Bege
+            id: 2504,
+            x_pts: 1.3
+        },
+        {   // Katakuri
+            id: 2471,
+            x_pts: 1.3
+        },
+        {   // Brook
+            id: 2489,
+            x_pts: 1.3
+        },
+        {   // Moria (EX)
+            id: 2512,
+            x_pts: 1.3
+        },
+        {   // Hiriluk
+            id: 2491,
+            x_pts: 1.3
+        },
+        {   // Perona
+            id: 2499,
+            x_pts: 1.3
+        },
+        {   // Ace
+            id: 1941,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sabo
+            id: 1972,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sanji & Zoro
+            id: 2000,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Big Mom
+            id: 2109,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Jack
+            id: 2175,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Nami
+            id: 2362,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Doffy
+            id: 2443,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Brook
+            id: 2236,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Barto & Cavendish
+            id: 2418,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Sabo v2
+            id: 2441,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Jozu
+            id: 253,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Whitey Bay
+            id: 645,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kingdew
+            id: 1184,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Haruta
+            id: 1186,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Speed Jil
+            id: 1190,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 2466,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Pound
+            id: 2467,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Zephyr
+            id: 353,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 836,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Tesoro
+            id: 1163,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Magellan
+            id: 1374,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Fujitora
+            id: 1595,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Doffy (N)
+            id: 1623,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Aokiji (N)
+            id: 1669,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Mihawk (N)
+            id: 1680,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Sabo (N)
+            id: 1727,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bellamy (N)
+            id: 1739,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kuma (N)
+            id: 1772,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Akainu (N)
+            id: 1826,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bartolomeo
+            id: 1879,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Eneru (N)
+            id: 1930,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Senor Pink
+            id: 1943,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Boa Hancock (N)
+            id: 2070,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 2097,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Cracker
+            id: 2158,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Blackbeard v2
+            id: 2197,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 2281,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Big Emperor
+            id: 2398,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Alvida
+            id: 862,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kinemon
+            id: 1310,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Ideo
+            id: 1487,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Suleiman
+            id: 1525,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Blenheim
+            id: 1528,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Shiryu
+            id: 1602,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Inuarashi
+            id: 1694,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 1897,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 2193,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Niwatori
+            id: 2290,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Oven
+            id: 2323,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Smoothie
+            id: 2375,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 2416,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Mr. 3
+            id: 1304,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Kinemon
+            id: 1774,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Wanda
+            id: 1810,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Caribou
+            id: 1842,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Oars
+            id: 1965,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Hogback
+            id: 1966,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Bonney
+            id: 1982,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Vista
+            id: 1997,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Beckman
+            id: 2044,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Lucky Roux
+            id: 2045,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Diamante
+            id: 2144,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 2428,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Suleiman
+            id: 2429,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pudding
+            id: 2457,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Chiffon
+            id: 2458,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Weevil
+            id: 2510,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
