@@ -67,8 +67,7 @@ function getThumb(thumbId) {
 
     // Special cases for new thumbs
     if (
-        thumbId === 2469 ||
-        thumbId === 2500
+        thumbId === 9999
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
