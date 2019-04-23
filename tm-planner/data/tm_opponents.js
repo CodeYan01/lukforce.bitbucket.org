@@ -146,9 +146,9 @@ var tm_opponents = {
         2469: [['Smoothie & ', 'Oven'], ['PSY', 'QCK'], 5],
     },
     2510: {
-         836: ['Kuma',          'STR',      0],
-        1445: ['Hancock',       'QCK',      1],
-        2277: ['Buggy',         'INT',      2],
+         836: ['Kuma',          'STR',      1],
+        1445: ['Hancock',       'QCK',      2],
+        2277: ['Buggy',         'INT',      0],
         2475: ['Mihawk',        'DEX',      3],
         2510: ['Weevil',        'PSY',      4]
     },
