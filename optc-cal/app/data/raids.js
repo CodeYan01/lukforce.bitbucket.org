@@ -217,4 +217,8 @@ var raids = {
         name: 'Garp (N)',
         thumb: 5028
     },
+    3352: {
+        name: 'Ivankov (N)',
+        thumb: 5034
+    },
 };

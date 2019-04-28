@@ -182,6 +182,7 @@ var wiki = {
     1826: '',                               // Akainu (N)
     1930: '',                               // Eneru (N)
     2070: '',                               // Boa Hancock (N)
+    3352: '',                               // Ivankov (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
