@@ -1,6 +1,6 @@
 var ambushes = {
     1258: {
-        name: 'Young Whitebeard',
+        name: 'Young WB',
         thumb: 1258
     },
     1380: {
@@ -22,7 +22,7 @@ var ambushes = {
 
     // Neo Ambushes
     3354: {
-        name: 'Young Whitebeard (N)',
+        name: 'Young WB (N)',
         thumb: 5036
     },
 };
