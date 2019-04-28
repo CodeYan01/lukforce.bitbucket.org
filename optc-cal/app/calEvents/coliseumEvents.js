@@ -2764,4 +2764,19 @@ var coliseumEvents = [
         end: '2019-04-22',
         new_batch: true,
     },
+
+    // ##############################
+    {
+        newId: [2323],
+        repId: [1401, 1861, 2193, 1491],
+        start: '2019-04-30',
+        end: '2019-05-02',
+        new_batch: true
+    },
+    {
+        newId: [2323],
+        repId: [1401, 1861, 2193, 1491],
+        start: '2019-05-04',
+        new_batch: true
+    },
 ]

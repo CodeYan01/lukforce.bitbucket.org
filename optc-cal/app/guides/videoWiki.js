@@ -149,6 +149,7 @@ var videoWiki = {
     2193: 'coliseum/kuma',
     2249: 'coliseum/charlotte_daifuku',
     2290: 'coliseum/count_niwatori',
+    2323: 'coliseum/charlotte_oven',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

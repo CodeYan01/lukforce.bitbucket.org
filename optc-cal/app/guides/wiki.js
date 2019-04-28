@@ -277,6 +277,7 @@ var wiki = {
     2193: '',                               // Kuma
     2249: '',                               // Daifuku
     2290: '',                               // Niwatori
+    2323: '',                               // Oven
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
