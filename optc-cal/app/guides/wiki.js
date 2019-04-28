@@ -190,6 +190,8 @@ var wiki = {
     1846: 'wiki/primegarp',
     2283: '',                               // Young Sengoku
 
+    3354: '',                               // Young Whitebeard (N)
+
     // Coliseums
     777: '',                                // Lucky Roux
     779: 'wiki/coliseum/rebeca',

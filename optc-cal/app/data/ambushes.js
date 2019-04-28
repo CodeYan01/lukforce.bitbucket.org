@@ -19,4 +19,10 @@ var ambushes = {
         name: 'Sengoku',
         thumb: 2283
     },
+
+    // Neo Ambushes
+    3354: {
+        name: 'Young Whitebeard (N)',
+        thumb: 5036
+    },
 };

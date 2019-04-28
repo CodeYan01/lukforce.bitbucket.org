@@ -190,6 +190,8 @@ var nakama = {
     1846: '6184600',    // Young Garp
     2283: '6228300',    // Young Sengoku
 
+    3354: '',           // Young Whitebeard (N)
+
     // Coliseums
     777: '5077601',     // Lucky Roux
     779: '5077801',     // Rebecca

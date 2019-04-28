@@ -62,6 +62,8 @@ var videoWiki = {
     1846: 'raidboss/invadegarp',
     2283: 'raidboss/invadesengoku',
 
+    3354: '',   // Young Whitebeard (N)
+
     // Coliseums
     777: 'coliseum/luckyroo',
     779: 'coliseum/rebecca',

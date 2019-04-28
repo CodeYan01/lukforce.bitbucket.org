@@ -190,6 +190,8 @@ var gw = {
     1846: '75260',      // Young Garp
     2283: '122270',     // Young Sengoku
 
+    3354: '',           // Young Whitebeard (N)
+
     // Coliseums
     777: '17609',       // Lucky Roux
     779: '17610',       // Rebecca

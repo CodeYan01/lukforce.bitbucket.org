@@ -4,6 +4,8 @@ var cavendish = 1530;
 var garp = 1846;
 var sengoku = 2283;
 
+var ywb_n = 3354;
+
 var raidEvents = [
     {
         id: 603,
@@ -2421,11 +2423,13 @@ var raidEvents = [
     {
         id: 3352,
         start: '2019-04-28',
-        end: '2019-04-30'
+        end: '2019-04-30',
+        ambush: ywb_n
     },
     {
         id: 3352,
         start: '2019-04-30',
-        end: '2019-05-03'
+        end: '2019-05-03',
+        ambush: ywb_n
     },
 ]
