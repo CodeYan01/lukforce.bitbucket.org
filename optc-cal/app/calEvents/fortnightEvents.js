@@ -188,12 +188,24 @@ var fortnightEvents = [
     {
         id: 766,
         start: '2017-05-26',
+        end: '2017-05-30',
+        is_replay: true
+    },
+    {
+        id: 766,
+        start: '2017-05-30',
         end: '2017-06-02',
         is_replay: true
     },
     {
         id: 761,
         start: '2017-06-02',
+        end: '2017-06-06',
+        is_replay: true
+    },
+    {
+        id: 761,
+        start: '2017-06-06',
         end: '2017-06-09',
         is_replay: true
     },
@@ -373,25 +385,13 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 897,
+        id: [897, 1416],
         start: '2017-08-29',
         end: '2017-09-05',
         is_replay: false
     },
     {
-        id: 897,
-        start: '2017-09-05',
-        end: '2017-09-12',
-        is_replay: false
-    },
-    {
-        id: 1416,
-        start: '2017-08-29',
-        end: '2017-09-05',
-        is_replay: false
-    },
-    {
-        id: 1416,
+        id: [897, 1416, 1426],
         start: '2017-09-05',
         end: '2017-09-12',
         is_replay: false
@@ -403,25 +403,19 @@ var fortnightEvents = [
         is_replay: true,
         ranking: 1203
     },
-
-    // #############################
-    {
-        id: 1426,
-        start: '2017-09-05',
-        end: '2017-09-12',
-        is_replay: false
-    },
-    {
-        id: 1426,
-        start: '2017-09-12',
-        end: '2017-09-19',
-        is_replay: false
-    },
     {
         id: [571, 808, 848],
         start: '2017-09-05',
         end: '2017-09-12',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 1426,
+        start: '2017-09-12',
+        end: '2017-09-19',
+        is_replay: false
     },
     {
         id: [424, 1254, 1302],
@@ -438,7 +432,7 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 1450,
+        id: [1450, 1469],
         start: '2017-09-26',
         end: '2017-10-03',
         is_replay: false
@@ -449,20 +443,6 @@ var fortnightEvents = [
         end: '2017-09-26',
         is_replay: true
     },
-
-    // #############################
-    {
-        id: 1469,
-        start: '2017-09-26',
-        end: '2017-10-03',
-        is_replay: false
-    },
-    {
-        id: 1469,
-        start: '2017-10-03',
-        end: '2017-10-10',
-        is_replay: false
-    },
     {
         id: [436, 599, 1049],
         start: '2017-09-26',
@@ -472,7 +452,20 @@ var fortnightEvents = [
     {
         id: 1300,
         start: '2017-10-02',
+        is_replay: false
+    },
+    {
+        id: 1300,
+        start: '2017-10-03',
         end: '2017-10-09',
+        is_replay: false
+    },
+
+    // #############################
+    {
+        id: 1469,
+        start: '2017-10-03',
+        end: '2017-10-10',
         is_replay: false
     },
     {
@@ -484,27 +477,26 @@ var fortnightEvents = [
     {
         id: 1306,
         start: '2017-10-09',
+        is_replay: false
+    },
+    {
+        id: 1306,
+        start: '2017-10-10',
         end: '2017-10-16',
         is_replay: false
     },
 
     // #############################
     {
-        id: 1509,
+        id: [885, 1509],
         start: '2017-10-10',
         end: '2017-10-17',
         is_replay: false
     },
     {
-        id: 1509,
+        id: [866, 1509, 1520],
         start: '2017-10-17',
         end: '2017-10-24',
-        is_replay: false
-    },
-    {
-        id: 885,
-        start: '2017-10-10',
-        end: '2017-10-17',
         is_replay: false
     },
     {
@@ -516,27 +508,12 @@ var fortnightEvents = [
     {
         id: 1326,
         start: '2017-10-16',
+        is_replay: false
+    },
+    {
+        id: 1326,
+        start: '2017-10-17',
         end: '2017-10-23',
-        is_replay: false
-    },
-
-    // #############################
-    {
-        id: 1520,
-        start: '2017-10-17',
-        end: '2017-10-24',
-        is_replay: false
-    },
-    {
-        id: 1520,
-        start: '2017-10-24',
-        end: '2017-10-31',
-        is_replay: false
-    },
-    {
-        id: 866,
-        start: '2017-10-17',
-        end: '2017-10-24',
         is_replay: false
     },
     {
@@ -548,6 +525,19 @@ var fortnightEvents = [
     {
         id: [1300, 1306, 1326],
         start: '2017-10-23',
+        is_replay: false
+    },
+    {
+        id: [1300, 1306, 1326],
+        start: '2017-10-24',
+        end: '2017-10-31',
+        is_replay: false
+    },
+
+    // #############################
+    {
+        id: 1520,
+        start: '2017-10-24',
         end: '2017-10-31',
         is_replay: false
     },
@@ -684,6 +674,12 @@ var fortnightEvents = [
     {
         id: [420, 885],
         start: '2017-12-30',
+        end: '2018-01-02',
+        is_replay: true
+    },
+    {
+        id: [420, 885],
+        start: '2018-01-02',
         end: '2018-01-06',
         is_replay: true
     },
@@ -696,6 +692,12 @@ var fortnightEvents = [
     {
         id: [866, 897],
         start: '2018-01-06',
+        end: '2018-01-09',
+        is_replay: true
+    },
+    {
+        id: [866, 897],
+        start: '2018-01-09',
         end: '2018-01-13',
         is_replay: true
     },
@@ -734,7 +736,7 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 1649,
+        id: [1649, 1670],
         start: '2018-01-30',
         end: '2018-02-06',
         is_replay: false
@@ -745,25 +747,19 @@ var fortnightEvents = [
         end: '2018-01-30',
         is_replay: true
     },
-
-    // #############################
-    {
-        id: 1670,
-        start: '2018-01-30',
-        end: '2018-02-06',
-        is_replay: false
-    },
-    {
-        id: 1670,
-        start: '2018-02-06',
-        end: '2018-02-13',
-        is_replay: false
-    },
     {
         id: [571, 599, 1520],
         start: '2018-01-30',
         end: '2018-02-06',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 1670,
+        start: '2018-02-06',
+        end: '2018-02-13',
+        is_replay: false
     },
     {
         id: [1049, 1287, 1384],
@@ -876,7 +872,7 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 1766,
+        id: [1766, 1774],
         start: '2018-04-03',
         end: '2018-04-10',
         is_replay: false
@@ -887,25 +883,19 @@ var fortnightEvents = [
         end: '2018-04-03',
         is_replay: true
     },
-
-    // #############################
-    {
-        id: 1774,
-        start: '2018-04-03',
-        end: '2018-04-10',
-        is_replay: false
-    },
-    {
-        id: 1774,
-        start: '2018-04-10',
-        end: '2018-04-17',
-        is_replay: false
-    },
     {
         id: [538, 550, 918],
         start: '2018-04-03',
         end: '2018-04-10',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 1774,
+        start: '2018-04-10',
+        end: '2018-04-17',
+        is_replay: false
     },
     {
         id: [510, 1384, 1624],
@@ -1092,7 +1082,7 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 1893,
+        id: [1893, 1933],
         start: '2018-07-03',
         end: '2018-07-10',
         is_replay: false
@@ -1103,25 +1093,19 @@ var fortnightEvents = [
         end: '2018-07-03',
         is_replay: true
     },
-
-    // #############################
-    {
-        id: 1933,
-        start: '2018-07-03',
-        end: '2018-07-10',
-        is_replay: false
-    },
-    {
-        id: 1933,
-        start: '2018-07-10',
-        end: '2018-07-17',
-        is_replay: false
-    },
     {
         id: [1242, 1597, 1810],
         start: '2018-07-03',
         end: '2018-07-10',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 1933,
+        start: '2018-07-10',
+        end: '2018-07-17',
+        is_replay: false
     },
     {
         id: [1049, 1137, 1735],
@@ -1138,7 +1122,7 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 1918,
+        id: [1918, 1965],
         start: '2018-07-24',
         end: '2018-07-31',
         is_replay: false
@@ -1148,20 +1132,6 @@ var fortnightEvents = [
         start: '2018-07-17',
         end: '2018-07-24',
         is_replay: true
-    },
-
-    // #############################
-    {
-        id: 1965,
-        start: '2018-07-24',
-        end: '2018-07-31',
-        is_replay: false
-    },
-    {
-        id: 1965,
-        start: '2018-07-31',
-        end: '2018-08-07',
-        is_replay: false
     },
     {
         id: [1469, 1624, 1690],
@@ -1174,6 +1144,14 @@ var fortnightEvents = [
         start: '2018-07-24',
         end: '2018-07-31',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 1965,
+        start: '2018-07-31',
+        end: '2018-08-07',
+        is_replay: false
     },
     {
         id: [1509, 1774, 1818],
@@ -1190,21 +1168,15 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 1980,
+        id: [1709, 1980],
         start: '2018-08-07',
         end: '2018-08-14',
         is_replay: false
     },
     {
-        id: 1980,
+        id: [1711, 1947, 1980],
         start: '2018-08-14',
         end: '2018-08-21',
-        is_replay: false
-    },
-    {
-        id: 1709,
-        start: '2018-08-07',
-        end: '2018-08-14',
         is_replay: false
     },
     {
@@ -1219,26 +1191,6 @@ var fortnightEvents = [
         end: '2018-08-14',
         is_replay: true
     },
-
-    // #############################
-    {
-        id: 1947,
-        start: '2018-08-14',
-        end: '2018-08-21',
-        is_replay: false
-    },
-    {
-        id: 1947,
-        start: '2018-08-21',
-        end: '2018-08-28',
-        is_replay: false
-    },
-    {
-        id: 1711,
-        start: '2018-08-14',
-        end: '2018-08-21',
-        is_replay: false
-    },
     {
         id: [866, 1357, 1606],
         start: '2018-08-14',
@@ -1248,19 +1200,7 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 1995,
-        start: '2018-08-21',
-        end: '2018-08-28',
-        is_replay: false
-    },
-    {
-        id: 1995,
-        start: '2018-08-28',
-        end: '2018-09-04',
-        is_replay: false
-    },
-    {
-        id: [1709, 1711],
+        id: [1709, 1711, 1947, 1995],
         start: '2018-08-21',
         end: '2018-08-28',
         is_replay: false
@@ -1274,15 +1214,9 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 2019,
+        id: [1995, 2019],
         start: '2018-08-28',
         end: '2018-09-04',
-        is_replay: false
-    },
-    {
-        id: 2019,
-        start: '2018-09-04',
-        end: '2018-09-11',
         is_replay: false
     },
     {
@@ -1290,6 +1224,14 @@ var fortnightEvents = [
         start: '2018-08-28',
         end: '2018-09-04',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 2019,
+        start: '2018-09-04',
+        end: '2018-09-11',
+        is_replay: false
     },
     {
         id: [946, 1564, 1918],
@@ -1410,6 +1352,13 @@ var fortnightEvents = [
     {
         id: [1300, 1306, 1326],
         start: '2018-10-30',
+        end: '2018-11-06',
+        pst_0: true,
+        is_replay: true
+    },
+    {
+        id: [1300, 1306, 1326],
+        start: '2018-11-06',
         end: '2018-11-09',
         pst_0: true,
         is_replay: true
@@ -1441,7 +1390,7 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 2165,
+        id: [2087, 2165],
         start: '2018-11-27',
         end: '2018-12-04',
         is_replay: false
@@ -1452,25 +1401,19 @@ var fortnightEvents = [
         end: '2018-11-27',
         is_replay: true
     },
-
-    // #############################
-    {
-        id: 2087,
-        start: '2018-11-27',
-        end: '2018-12-04',
-        is_replay: false
-    },
-    {
-        id: 2087,
-        start: '2018-12-04',
-        end: '2018-12-11',
-        is_replay: false
-    },
     {
         id: [1242, 1426],
         start: '2018-11-27',
         end: '2018-12-04',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 2087,
+        start: '2018-12-04',
+        end: '2018-12-11',
+        is_replay: false
     },
     {
         id: [1670, 1980],
