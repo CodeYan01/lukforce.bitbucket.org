@@ -49,6 +49,7 @@ function showFooter() {
             }
 
             res['type'] = 'fortnight';
+            res['is_replay'] = e['is_replay'];
 
             // Add one day for 19:00 events for GMT mode
             var start = e['start'];
@@ -520,6 +521,42 @@ function showFooter() {
         $(modalCloseButton).show();
     }
 
+    function eventTypeToOrder(eProps) {
+        var order = -1;
+
+        switch (eProps.type) {
+            case 'fortnight':
+                if (eProps.is_replay)
+                    order = 7;
+                else
+                    order = 8;
+
+                break;
+            case 'raid':
+                order = 2;
+                break;
+            case 'raidAmbush':
+                order = 1;
+                break;
+            case 'coliseum':
+                order = 4;
+                break;
+            case 'coliAmbush':
+                order = 3;
+                break;
+            case 'tm':
+                order = 6;
+                break;
+            case 'special':
+                order = 5;
+                break;
+            default:
+                order = -1;
+        }
+
+        return order;
+    }
+
     $(document).ready(function() {
         // Retrieve User Time Mode
         var timeMode = "PST";
@@ -686,12 +723,26 @@ function showFooter() {
                 }
             },
             eventOrder: function(a, b) {
-                if (Array.isArray(a.id))
-                    return 1;
-                if (Array.isArray(b.id))
-                    return -1;
+                var idA;
+                var idB;
 
-                return a.id < b.id ? -1 : 1;
+                if (Array.isArray(a.rawId))
+                    idA = a.rawId[0];
+                else
+                    idA = a.rawId;
+
+                if (Array.isArray(b.rawId))
+                    idB = b.rawId[0];
+                else
+                    idB = b.rawId;
+
+                var orderA = eventTypeToOrder(a.miscProps);
+                var orderB = eventTypeToOrder(b.miscProps);
+
+                if (orderA !== orderB)
+                    return orderA > orderB ? -1 : 1;
+
+                return idA > idB ? -1 : 1;
             },
             displayEventTime: false,
             firstDay: isPST ? 0 : 1,
