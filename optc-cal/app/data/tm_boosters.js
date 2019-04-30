@@ -18,6 +18,7 @@ var tm_boosters = [
     // ===== Law =====
     // FNs
     2294,
+    2327,
 
     // Raids
     5034,

@@ -503,4 +503,8 @@ var fortnights = {
         name: 'Halloween Katakuri',
         thumb: 2294
     },
+    2327: {
+        name: 'Amande & Bobbin',
+        thumb: 2327
+    },
 };
