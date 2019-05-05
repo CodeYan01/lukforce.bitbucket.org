@@ -260,6 +260,7 @@ var wiki = {
     1527: '',                               // Arlong
     1528: '',                               // Blenheim
     1553: 'wiki/coliseum/hajrudin',
+    1555: '',                               // Ryuma
     1584: '',                               // Orlumbus
     1586: '',                               // Helmeppo
     1602: 'wiki/coliseum/shiryu',

@@ -131,6 +131,7 @@ var videoWiki = {
     1527: 'coliseum/arlong',
     1528: 'coliseum/blenheim',
     1553: 'coliseum/hajrudin',
+    1555: 'coliseum/ryuma',
     1584: 'coliseum/orlumbus',
     1586: 'coliseum/helmeppo',
     1602: 'coliseum/shiryu',

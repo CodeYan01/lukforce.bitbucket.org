@@ -260,6 +260,7 @@ var gw = {
     1527: '53588',      // Arlong
     1528: '53591',      // Blenheim
     1553: '54672',      // Hajrudin
+    1555: '54673',      // Ryuma
     1584: '56053',      // Orlumbus
     1586: '56051',      // Helmeppo
     1602: '57471',      // Shiryu

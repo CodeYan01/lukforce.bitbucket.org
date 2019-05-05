@@ -329,6 +329,11 @@ var coliseums = {
         chaos_only: true,
         thumb: 1553
     },
+    1555: {
+        name: 'Ryuma',
+        chaos_only: false,
+        thumb: 1555
+    },
     1584: {
         name: 'Orlumbus',
         chaos_only: true,
