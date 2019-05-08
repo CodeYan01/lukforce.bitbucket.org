@@ -110,4 +110,15 @@ var tmEvents = [
         start: '2019-04-15',
         pst_19: true
     },
+    {
+        id: 2336,
+        start: '2019-05-10',
+        end: '2019-05-13',
+        pst_19: true
+    },
+    {
+        id: 2336,
+        start: '2019-05-13',
+        pst_19: true
+    },
 ]

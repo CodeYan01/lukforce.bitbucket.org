@@ -69,4 +69,9 @@ var tms = {
         thumb: 2299,
         info: 'i.imgur.com/wrLWAbA.png'
     },
+    2336: {
+        name: 'Law',
+        thumb: 2336,
+        info: 'i.imgur.com/GaFJQ8Y.jpg'
+    },
 };
