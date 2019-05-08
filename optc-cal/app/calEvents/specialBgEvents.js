@@ -1873,4 +1873,40 @@ var specialBgEvents = [
         end: '2019-05-08',
         pst_19: true
     },
+    {
+        id: 'cola',
+        start: '2019-05-09',
+        end: '2019-05-14',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-05-10',
+        end: '2019-05-16',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-05-14',
+        end: '2019-05-17',
+        pst_19: true
+    },
+    {
+        id: 'fp',
+        start: '2019-05-14',
+        end: '2019-05-21',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-05-16',
+        end: '2019-05-21',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-05-17',
+        end: '2019-05-21',
+        pst_19: true
+    },
 ]
