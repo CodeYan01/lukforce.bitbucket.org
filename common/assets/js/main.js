@@ -65,6 +65,14 @@ function getThumb(thumbId) {
     if (thumbId === 5032 || thumbId === 3350)
         return '/tm-planner/assets/img/new-thumbs/5032.png';
 
+    // Special case for Ivankov (N)
+    if (thumbId === 5034 || thumbId === 3352)
+        return '/tm-planner/assets/img/new-thumbs/5034.png';
+
+    // Special case for YWB (N)
+    if (thumbId === 5036 || thumbId === 3354)
+        return '/tm-planner/assets/img/new-thumbs/5036.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
