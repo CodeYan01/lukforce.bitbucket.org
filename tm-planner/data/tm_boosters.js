@@ -5386,9 +5386,61 @@ var tm_boosters = {
 
     // ========== Law ==========
     2336: [
+        {   // Zephyr
+            id: 2330,
+            x_pts: 2
+        },
+        {   // Sanji
+            id: 1514,
+            x_pts: 1.75
+        },
+        {   // Cavendish
+            id: 1467,
+            x_pts: 1.5
+        },
         {   // Rayleigh
             id: 2296,
             x_pts: 1.5
+        },
+        {   // Ain
+            id: 2332,
+            x_pts: 1.5
+        },
+        {   // Bege
+            id: 2302,
+            x_pts: 1.35
+        },
+        {   // Zephyr
+            id: 2329,
+            x_pts: 1.35
+        },
+        {   // LRR Judge
+            id: 2287,
+            x_pts: 1.35
+        },
+        {   // Chiffon
+            id: 2304,
+            x_pts: 1.35
+        },
+        {   // Gastino
+            id: 2306,
+            x_pts: 1.35
+        },
+        {   // Vito
+            id: 2308,
+            x_pts: 1.35
+        },
+        {   // Gotti
+            id: 2310,
+            x_pts: 1.35
+        },
+        {   // Binz
+            id: 2334,
+            x_pts: 1.35
+        },
+        {   // Moria
+            id: 2295,
+            x_pts: 1.35
         },
         {   // Perona
             id: 2297,
@@ -5398,8 +5450,42 @@ var tm_boosters = {
             id: 2299,
             x_pts: 1.35
         },
+        {   // Law
+            id: 2336,
+            x_pts: 1.35
+        },
+        {   // Tesoro
+            id: 2099,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Katakuri
+            id: 2113,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Shiki
+            id: 2201,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Brook
+            id: 2236,
+            type: 'legend',
+            x_pts: 1.2
+        },
         {   // Sanji 6+
             id: 2245,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Garp
+            id: 2251,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Jinbe v2
+            id: 2265,
             type: 'legend',
             x_pts: 1.2
         },
@@ -5408,8 +5494,33 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // LRR Judge
-            id: 2287,
+        {   // Big Mom 6+
+            id: 2500,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1466,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 1513,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // LRR Usopp
+            id: 2325,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Ain
+            id: 2331,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Binz
+            id: 2333,
             type: 'rr',
             x_pts: 1.2
         },
@@ -5438,9 +5549,319 @@ var tm_boosters = {
             type: 'tm_rr',
             x_pts: 1.2
         },
-        {   // Moria
-            id: 2295,
-            type: 'tm_rr',
+        {   // Heracles
+            id: 516,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Usopp-un
+            id: 518,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Boa Hancock
+            id: 865,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 1432,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Vergo
+            id: 1696,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Caesar
+            id: 1830,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Lucci
+            id: 2015,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 2097,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Cracker
+            id: 2158,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 2281,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Garp (N)
+            id: 3340,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Ivankov (N)
+            id: 3352,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Lucky Roux
+            id: 777,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 901,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kid
+            id: 924,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Foxy
+            id: 1143,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // World
+            id: 1220,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Oars Jr.
+            id: 1222,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Dellinger
+            id: 1376,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Gladius
+            id: 1401,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Don Krieg
+            id: 1489,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Mr. 5
+            id: 1491,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Ryuma
+            id: 1555,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Raizo
+            id: 1861,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 1897,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // TS Kid
+            id: 2111,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 2193,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Niwatori
+            id: 2290,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Oven
+            id: 2323,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Jerry
+            id: 722,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // T-Bone
+            id: 724,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Luffy
+            id: 761,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Usopp
+            id: 762,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Franky
+            id: 763,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Nami
+            id: 764,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Chopper
+            id: 765,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Zoro
+            id: 766,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Robin
+            id: 767,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Sanji
+            id: 768,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Brook
+            id: 769,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Wapol
+            id: 852,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Bepo
+            id: 1003,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Ivankov
+            id: 1037,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Inazuma
+            id: 1039,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Buggy
+            id: 1302,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Mr. 3
+            id: 1304,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Van Augur
+            id: 1607,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Hyouzou
+            id: 1624,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Giolla
+            id: 1649,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Art Brook
+            id: 1650,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Kid
+            id: 1690,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sugar
+            id: 1735,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Trebol
+            id: 1737,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Perona
+            id: 1891,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1893,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Decken
+            id: 1947,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Bege
+            id: 1980,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Marco
+            id: 1995,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Beckman
+            id: 2044,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Lucky Roux
+            id: 2045,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Yasopp
+            id: 2046,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Halloween Katakuri
+            id: 2294,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Amande
+            id: 2327,
+            type: 'fortnight',
             x_pts: 1.2
         },
         {   // Mihawk
@@ -5506,6 +5927,21 @@ var tm_boosters = {
         {   // Shanks
             id: 2261,
             type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Sengoku
+            id: 2283,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Young WB (N)
+            id: 3354,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Cracker
+            id: 2321,
+            type: 'other',
             x_pts: 1.2
         },
         {   // Luffy 5+
