@@ -33,10 +33,6 @@ function getThumb(thumbId) {
     if (thumbId === 5016 || thumbId === 3336)
         return '/tm-planner/assets/img/new-thumbs/5016.png';
 
-    // Special case for Sengoku & Garp
-    if (thumbId === 5018 || thumbId === 3338)
-        return '/tm-planner/assets/img/new-thumbs/5018.png';
-
     // Special case for Knight Zoro
     if (thumbId === 5019 || thumbId === 3343)
         return '/tm-planner/assets/img/new-thumbs/5019.png';

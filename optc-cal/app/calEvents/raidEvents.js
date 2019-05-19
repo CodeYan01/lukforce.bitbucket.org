@@ -1879,7 +1879,7 @@ var raidEvents = [
         start: '2018-12-26'
     },
     {
-        id: 3338,
+        id: 2552,
         start: '2018-12-27'
     },
     {
@@ -1900,7 +1900,7 @@ var raidEvents = [
         start: '2018-12-31'
     },
     {
-        id: 3338,
+        id: 2552,
         start: '2019-01-01'
     },
     {
@@ -2005,11 +2005,11 @@ var raidEvents = [
         start: '2019-01-23'
     },
     {
-        id: 3338,
+        id: 2552,
         start: '2019-01-24'
     },
     {
-        id: 3338,
+        id: 2552,
         start: '2019-01-25'
     },
     {
@@ -2151,7 +2151,7 @@ var raidEvents = [
         start: '2019-02-22'
     },
     {
-        id: 3338,
+        id: 2552,
         start: '2019-02-23',
         ambush: ywb
     },
@@ -2272,7 +2272,7 @@ var raidEvents = [
         start: '2019-03-22'
     },
     {
-        id: 3338,
+        id: 2552,
         start: '2019-03-23',
         ambush: shanks
     },
@@ -2508,7 +2508,7 @@ var raidEvents = [
         start: '2019-05-17'
     },
     {
-        id: 3338,
+        id: 2552,
         start: '2019-05-18',
         ambush: cavendish
     },

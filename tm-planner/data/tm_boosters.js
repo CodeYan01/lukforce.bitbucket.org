@@ -4099,7 +4099,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Sengoku & Garp
-            id: 3338,
+            id: 2552,
             type: 'raid',
             x_pts: 1.2
         },

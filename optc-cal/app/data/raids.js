@@ -159,9 +159,9 @@ var raids = {
         name: 'Judge',
         thumb: 2281
     },
-    3338: {
+    2552: {
         name: 'Sengoku & Garp',
-        thumb: 5018
+        thumb: 2552
     },
     3342: {
         name: 'Shanks & Mihawk',

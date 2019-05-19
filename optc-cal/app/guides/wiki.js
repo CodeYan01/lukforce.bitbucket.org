@@ -170,7 +170,7 @@ var wiki = {
     2197: '',                               // Blackbeard v2
     2263: 'wiki/raidboss/v2doflamingo',
     2281: '',                               // Judge
-    3338: 'comments/aa693j',                // Sengoku & Garp
+    2552: 'comments/aa693j',                // Sengoku & Garp
     3342: '',                               // Shanks & Mihawk
 
     1623: 'wiki/raidboss/doffykai',
