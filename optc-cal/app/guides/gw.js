@@ -170,7 +170,7 @@ var gw = {
     2197: '115114',     // Blackbeard v2
     2263: '120330',     // Doffy v2
     2281: '121664',     // Judge
-    2552: '',           // Sengoku & Garp
+    2552: '150061',     // Sengoku & Garp
     3342: '',           // Shanks & Mihawk
 
     1623: '',           //'58437',      // Doflamingo (N)
