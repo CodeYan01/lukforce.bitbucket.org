@@ -127,6 +127,7 @@ var wiki = {
     2292: '',                               // Halloween Vivi
     2294: '',                               // Halloween Katakuri
     2327: '',                               // Amande & Bobbin
+    2377: '',                               // Mother Carmel
 
     // Raids
     227: 'wiki/raidboss/mihawk',
