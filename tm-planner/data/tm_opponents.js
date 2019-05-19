@@ -152,6 +152,14 @@ var tm_opponents = {
         2475: ['Mihawk',        'DEX',      3],
         2510: ['Weevil',        'PSY',      4]
     },
+    2557: {
+         860: ['Coby',          'PSY',      0],
+        1192: ['Aokiji',        'QCK',      3],
+        1780: ['Kizaru',        'DEX',      2],
+        2197: ['Blackbeard',    'INT',      1],
+        1314: ['Akainu',        'STR',      4],
+        2557: [['Shanks & ', 'Beckman'], ['INT', 'DEX'], 5],
+    },
     9999: [
         ['',            ''],
         ['',            ''],

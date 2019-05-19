@@ -139,7 +139,7 @@ function getBoosters(tmId, server) {
         $('#div_1_3x').show();
         $('#div_1_25x_v2').show();
     } else if (server == 'jpn' && tmId == 2443) {
-        // TM Kaido
+        // TM Doffy
         $('#div_1_85x').show();
         $('#div_1_75x').show();
         $('#div_1_6x').show();
@@ -159,6 +159,15 @@ function getBoosters(tmId, server) {
         $('#div_1_7x').show();
         $('#div_1_5x').show();
         $('#div_1_4x_v2').show();
+        $('#div_1_3x').show();
+        $('#div_1_25x_v2').show();
+    } else if (server == 'jpn' && tmId == 2557) {
+        // TM Shanks & Beckman
+        $('#div_2x').show();
+        $('#div_1_8x').show();
+        $('#div_1_6x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v2').show();
         $('#div_1_3x').show();
         $('#div_1_25x_v2').show();
     } else {
@@ -378,7 +387,8 @@ function init(tmId, server) {
         tmId == 2299 ||
         tmId == 2336 ||
         tmId == 2387 ||
-        tmId == 2469
+        tmId == 2469 ||
+        tmId == 2557
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
