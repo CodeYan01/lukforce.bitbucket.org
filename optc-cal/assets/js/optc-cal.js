@@ -721,6 +721,7 @@ function showFooter() {
                     || event['type'] === 'coliseum'
                     || event['type'] === 'tm'
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
+                    || (event['type'] === 'special' && event['subType'] === 'Face Off')
                     || (event['type'] === 'special' && event['subType'] === 'World Clash')
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
                     || (event['type'] === 'special' && event['subType'] === 'Champion Challenge' && event['id'] !== 'cc_2113')

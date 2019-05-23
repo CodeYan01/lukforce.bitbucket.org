@@ -313,6 +313,7 @@ var nakama = {
     'bb_0870': '6087000',   // Donquixote Family
     'bb_2023': '6202300',   // Face Off! Akainu
     'bb_2025': '6202300',   // Face Off! Aokiji
+    'bb_2363': '6236300',   // Face Off! Luffy vs. Katakuri
 
     'wc_2401': '6240700',   // World Clash
 

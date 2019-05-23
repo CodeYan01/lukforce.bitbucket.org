@@ -50,6 +50,11 @@ var specials = {
         name: 'Face Off! Aokiji',
         thumb: 2025
     },
+    'bb_2363': {
+        type: 'Face Off',
+        name: 'Luffy vs. Katakuri',
+        thumb: 2363
+    },
 
     'wc_2401': {
         type: 'World Clash',
