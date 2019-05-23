@@ -15,7 +15,7 @@ function showFooter() {
     const coliColorNew = 'rgba(30, 144, 255, 0.6)';
     const coliColorRep = 'rgba(30, 144, 255, 0.3)';
     const tmColor = 'rgba(255, 165, 0, 0.6)';
-    const spColor = 'rgba(70, 130, 180, 0.6)';
+    const spColor = 'rgba(147, 112, 219, 0.6)';
 
     function createFortnightEvent(eventArray, isPST) {
         fortnightEvents.forEach(function(e) {
