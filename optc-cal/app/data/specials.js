@@ -258,6 +258,32 @@ var specials = {
         thumb: 1391
     },
 
+    'cc2_1268': {
+        type: 'Champion Challenge 2',
+        name: 'Blackbeard',
+        thumb: 1268
+    },
+    'cc2_1473': {
+        type: 'Champion Challenge 2',
+        name: 'Shirahoshi',
+        thumb: 1473
+    },
+    'cc2_1652': {
+        type: 'Champion Challenge 2',
+        name: 'Nekomamushi',
+        thumb: 1652
+    },
+    'cc2_1921': {
+        type: 'Champion Challenge 2',
+        name: 'Zoro',
+        thumb: 1921
+    },
+    'cc2_1922': {
+        type: 'Champion Challenge 2',
+        name: 'Law',
+        thumb: 1922
+    },
+
     'cc_2113': {
         type: 'Champion Challenge',
         name: 'Charlotte Family',

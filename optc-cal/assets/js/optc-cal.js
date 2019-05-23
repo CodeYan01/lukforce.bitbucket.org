@@ -444,13 +444,24 @@ function showFooter() {
             ids.push(e['ambush']);
 
         if (e['type'] === 'special' && e['subType'] === 'Champion Challenge') {
-            // Special case for Champion Challenge
+            // Special case for Champion Challenge (3rd Anniversary)
             var ed = $('#eventDetailClone').clone();
             ed.attr('id', 'eventDetail_cc');
             ed.find('.eventTitle').text('Champion Challenge');
 
             createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
             createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', '56742', 'Gamewith Stage Guide');
+
+            $('#eventDetail').append(ed);
+            ed.show();
+        } else if (e['type'] === 'special' && e['subType'] === 'Champion Challenge 2') {
+            // Special case for Champion Challenge (4th Anniversary)
+            var ed = $('#eventDetailClone').clone();
+            ed.attr('id', 'eventDetail_cc');
+            ed.find('.eventTitle').text('Champion Challenge');
+
+            createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
+            createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', '100803', 'Gamewith Stage Guide');
 
             $('#eventDetail').append(ed);
             ed.show();
@@ -713,6 +724,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'World Clash')
                     || (event['type'] === 'special' && event['subType'] === '20th Anni SH')
                     || (event['type'] === 'special' && event['subType'] === 'Champion Challenge' && event['id'] !== 'cc_2113')
+                    || (event['type'] === 'special' && event['subType'] === 'Champion Challenge 2')
                     || (event['type'] === 'special' && event['subType'] === 'Socket Book')
                     || (event['type'] === 'special' && event['subType'] === 'Tea Party')
                     || (event['type'] === 'special' && event['subType'] === 'Past Memory')

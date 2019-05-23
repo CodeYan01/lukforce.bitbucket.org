@@ -1919,4 +1919,46 @@ var specialBgEvents = [
         end: '2019-05-21',
         pst_19: true
     },
+    {
+        id: '4th_anni_ship_sp',
+        start: '2019-05-22',
+        end: '2019-06-03',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp',
+        start: '2019-05-22',
+        end: '2019-05-26',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-05-22',
+        end: '2019-05-25',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-05-25',
+        end: '2019-06-03',
+        pst_19: true
+    },
+    {
+        id: 'mat2',
+        start: '2019-05-25',
+        end: '2019-05-31',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-05-31',
+        end: '2019-06-03',
+        pst_19: true
+    },
+    {
+        id: '4th_anni_ship',
+        start: '2019-06-03',
+        end: '2019-06-16',
+        pst_19: true
+    },
 ]
