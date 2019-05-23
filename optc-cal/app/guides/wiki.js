@@ -284,6 +284,7 @@ var wiki = {
     2249: '',                               // Daifuku
     2290: '',                               // Niwatori
     2323: '',                               // Oven
+    2375: '',                               // Smoothie
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
