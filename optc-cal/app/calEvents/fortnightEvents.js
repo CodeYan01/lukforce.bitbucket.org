@@ -1755,4 +1755,10 @@ var fortnightEvents = [
         end: '2019-05-27',
         is_replay: true
     },
+    {
+        id: [341, 386, 420, 2277],
+        start: '2019-05-27',
+        end: '2019-06-03',
+        is_replay: true
+    },
 ];
