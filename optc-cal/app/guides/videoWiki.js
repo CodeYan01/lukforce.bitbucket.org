@@ -54,7 +54,8 @@ var videoWiki = {
     1826: '',   // Akainu (N)
     1930: 'raidboss/enelkai',
     2070: 'raidboss/hancockkai',
-    3352: '',   // Ivankov (N)
+    3340: 'raidboss/garpkai',
+    3352: 'raidboss/ivankovkai',
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',
@@ -62,7 +63,7 @@ var videoWiki = {
     1846: 'raidboss/invadegarp',
     2283: 'raidboss/invadesengoku',
 
-    3354: '',   // Young Whitebeard (N)
+    3354: 'raidboss/youngwbkai',
 
     // Coliseums
     777: 'coliseum/luckyroo',

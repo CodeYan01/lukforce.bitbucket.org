@@ -184,6 +184,7 @@ var gw = {
     1826: '73951',      // Akainu (N)
     1930: '86020',      // Eneru (N)
     2070: '102084',     // Boa Hancock (N)
+    3340: '',           // Garp (N)
     3352: '',           // Ivankov (N)
 
     1258: '38237',      // Young Whitebeard

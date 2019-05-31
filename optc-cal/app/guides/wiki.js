@@ -115,16 +115,16 @@ var wiki = {
     2019: 'wiki/fortnight/makino',
     2046: 'wiki/fortnight/redhairpirates',
     2056: 'wiki/fortnight/germa',
-    2087: '',                               // Pizza Party 1
-    2092: '',                               // Pizza Party 2
+    2087: 'comments/a14wir',                // Pizza Party 1
+    2092: 'wiki/fortnight/pizza_party_dinner',
     2127: 'wiki/fortnight/brulee',
     2144: 'wiki/fortnight/diamante_rebecca',
     2165: 'wiki/fortnight/baby5_donsai',
-    2177: '',                               // Nekomamushi
-    2219: '',                               // Inuarashi
+    2177: 'comments/ac1goh',                // Nekomamushi
+    2219: 'wiki/fortnight/comeback_duke_dogstorm',
     2253: '',                               // Pound
-    2277: '',                               // TS Buggy
-    2292: '',                               // Halloween Vivi
+    2277: 'wiki/fortnight/buggy_pirates',
+    2292: 'wiki/fortnight/halloween_vivi',
     2294: '',                               // Halloween Katakuri
     2327: '',                               // Amande & Bobbin
     2377: '',                               // Mother Carmel
@@ -167,9 +167,9 @@ var wiki = {
     2033: 'wiki/raidboss/tankman',
     2097: 'comments/a25q11',                // Zoro
     2158: 'wiki/raidboss/cracker',
-    2197: '',                               // Blackbeard v2
+    2197: 'wiki/raidboss/v2bb',
     2263: 'wiki/raidboss/v2doflamingo',
-    2281: '',                               // Judge
+    2281: 'wiki/raidboss/judge',
     2552: 'comments/aa693j',                // Sengoku & Garp
     3342: '',                               // Shanks & Mihawk
 
@@ -184,13 +184,14 @@ var wiki = {
     1826: '',                               // Akainu (N)
     1930: '',                               // Eneru (N)
     2070: '',                               // Boa Hancock (N)
+    3340: '',                               // Garp (N)
     3352: '',                               // Ivankov (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
     1530: 'wiki/cavendish',
     1846: 'wiki/primegarp',
-    2283: '',                               // Young Sengoku
+    2283: 'wiki/primesengoku',
 
     3354: '',                               // Young Whitebeard (N)
 
@@ -228,7 +229,7 @@ var wiki = {
     1102: 'wiki/coliseum/zephyr2',
     1104: 'wiki/coliseum/ain',
     1106: 'wiki/coliseum/binz',
-    1141: 'comments/6rmms9',                // Moria
+    1141: 'wiki/coliseum/moria',
     1143: '',                               // Foxy
     1145: '',                               // Porche
     1196: 'wiki/coliseum/ganfor',
@@ -238,23 +239,23 @@ var wiki = {
     1251: '',                               // Marco
     1252: '',                               // Doma
     1253: '',                               // Shura
-    1292: 'comments/84fp9b',                // Lao G
+    1292: 'wiki/coliseum/lao_g',
     1294: '',                               // Boa Sandersonia
-    1310: 'comments/6ywcrv',                // Kinemon
+    1310: 'wiki/coliseum/kinemon',
     1312: '',                               // Boa Marigold
-    1338: 'comments/70qjmd',                // Kanjuro
+    1338: 'wiki/coliseum/kanjuro',
     1341: '',                               // Gedatsu
-    1376: 'comments/83o81l',                // Dellinger
+    1376: 'wiki/coliseum/dellinger',
     1378: '',                               // Marguerite
     1401: 'wiki/coliseum/gladius',
     1402: '',                               // Dalton
-    1422: 'comments/7t5pis',                // Diamante
+    1422: 'wiki/coliseum/diamante',
     1423: '',                               // T-Bone
     1424: '',                               // Gin
     1456: 'wiki/coliseum/donchinjao',
-    1458: 'comments/6ust2n',                // Kuro
+    1458: 'wiki/coliseum/kuro',
     1460: '',                               // Ms. Valentine
-    1487: 'comments/7ujevj',                // Ideo
+    1487: 'wiki/coliseum/ideo',
     1489: '',                               // Don Krieg
     1491: '',                               // Mr. 5
     1525: 'wiki/coliseum/suleiman',
@@ -268,11 +269,11 @@ var wiki = {
     1603: 'wiki/coliseum/mcguychaos',
     1628: 'wiki/coliseum/machvise',
     1667: 'wiki/coliseum/kyros',
-    1694: 'comments/7v81g8',                // Inuarashi
+    1694: 'wiki/coliseum/inuarashi',
     1733: 'wiki/coliseum/nekomamushi',
     1792: 'wiki/coliseum/lucy',
-    1828: 'comments/7t79sc',                // Shishilian
-    1861: 'comments/8ahe86',                // Raizo
+    1828: 'wiki/coliseum/sicillian',
+    1861: 'wiki/coliseum/raizo',
     1897: 'wiki/coliseum/enel',
     1945: 'wiki/coliseum/pedro',
     1978: 'wiki/coliseum/rayleigh',
@@ -280,11 +281,11 @@ var wiki = {
     2111: '',                               // TS Kid
     2123: 'wiki/coliseum/neptune',
     2163: 'wiki/coliseum/opera',
-    2193: '',                               // Kuma
-    2249: '',                               // Daifuku
-    2290: '',                               // Niwatori
-    2323: '',                               // Oven
-    2375: '',                               // Smoothie
+    2193: 'wiki/coliseum/kuma',
+    2249: 'wiki/coliseum/daifuku',
+    2290: 'wiki/coliseum/niwatori',
+    2323: 'wiki/coliseum/oven',
+    2375: 'wiki/coliseum/smoothie',
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

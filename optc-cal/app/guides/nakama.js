@@ -184,7 +184,8 @@ var nakama = {
     1826: '4182600',    // Akainu (N)
     1930: '4193000',    // Eneru (N)
     2070: '4207000',    // Boa Hancock (N)
-    3352: '',           // Ivankov (N)
+    3340: '4334000',    // Garp (N)
+    3352: '4335200',    // Ivankov (N)
 
     1258: '6125800',    // Young Whitebeard
     1380: '6138000',    // Shanks
@@ -192,7 +193,7 @@ var nakama = {
     1846: '6184600',    // Young Garp
     2283: '6228300',    // Young Sengoku
 
-    3354: '',           // Young Whitebeard (N)
+    3354: '6335400',    // Young Whitebeard (N)
 
     // Coliseums
     777: '5077601',     // Lucky Roux
