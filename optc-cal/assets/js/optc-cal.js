@@ -731,6 +731,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Past Memory')
                     || (event['type'] === 'special' && event['subType'] === '1 Turn Dmg Ranking')
                     || (event['type'] === 'special' && event['subType'] === 'Super Evolve')
+                    || (event['type'] === 'special' && event['subType'] === 'Support Raid')
                 ) {
                     $('#eventDetail').empty();
                     getEventDetail(event);

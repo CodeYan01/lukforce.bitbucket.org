@@ -342,4 +342,6 @@ var nakama = {
     'se_2245': '6230000',   // Super Evolve Sanji
     'se_2259': '6225900',   // Super Evolve Higuma
     'se_2300': '6230000',   // Super Evolve Franky
+
+    'sp_0603': '',          // Support Raid Eneru
 };

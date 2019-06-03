@@ -422,4 +422,10 @@ var specials = {
         name: 'Big Mom',
         thumb: 2234
     },
+
+    'sp_0603': {
+        type: 'Support Raid',
+        name: 'Eneru',
+        thumb: 603
+    },
 }
