@@ -239,6 +239,11 @@ var coliseums = {
         chaos_only: true,
         thumb: 1338
     },
+    1339: {
+        name: 'Chopper',
+        chaos_only: false,
+        thumb: 1339
+    },
     1341: {
         name: 'Gedatsu',
         chaos_only: false,
@@ -358,6 +363,11 @@ var coliseums = {
         name: 'Machvise',
         chaos_only: true,
         thumb: 1628
+    },
+    1630: {
+        name: 'Ikaros',
+        chaos_only: false,
+        thumb: 1630
     },
     1667: {
         name: 'Kyros',

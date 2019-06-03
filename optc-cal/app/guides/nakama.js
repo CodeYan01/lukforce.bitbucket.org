@@ -244,6 +244,7 @@ var nakama = {
     1310: '5130901',    // Kinemon
     1312: '5131101',    // Boa Marigold
     1338: '5133701',    // Kanjuro
+    1339: '5133901',    // Chopper
     1341: '5134001',    // Gedatsu
     1376: '5137501',    // Dellinger
     1378: '5137701',    // Marguerite
@@ -268,6 +269,7 @@ var nakama = {
     1602: '5160101',    // Shiryu
     1603: '5160301',    // McGuy
     1628: '5162701',    // Machvise
+    1630: '5162901',    // Ikaros
     1667: '5166601',    // Kyros
     1694: '5169301',    // Inuarashi
     1733: '5173201',    // Nekomamushi

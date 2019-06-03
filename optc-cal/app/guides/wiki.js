@@ -244,6 +244,7 @@ var wiki = {
     1310: 'wiki/coliseum/kinemon',
     1312: '',                               // Boa Marigold
     1338: 'wiki/coliseum/kanjuro',
+    1339: '',                               // Chopper
     1341: '',                               // Gedatsu
     1376: 'wiki/coliseum/dellinger',
     1378: '',                               // Marguerite
@@ -268,6 +269,7 @@ var wiki = {
     1602: 'wiki/coliseum/shiryu',
     1603: 'wiki/coliseum/mcguychaos',
     1628: 'wiki/coliseum/machvise',
+    1630: '',                               // Ikaros
     1667: 'wiki/coliseum/kyros',
     1694: 'wiki/coliseum/inuarashi',
     1733: 'wiki/coliseum/nekomamushi',

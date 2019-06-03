@@ -244,6 +244,7 @@ var gw = {
     1310: '63087',      // Kinemon
     1312: '43750',      // Boa Marigold
     1338: '57556',      // Kanjuro
+    1339: '44769',      // Chopper
     1341: '44767',      // Gedatsu
     1376: '46258',      // Dellinger
     1378: '46329',      // Marguerite
@@ -268,6 +269,7 @@ var gw = {
     1602: '57471',      // Shiryu
     1603: '57472',      // McGuy
     1628: '59479',      // Machvise
+    1630: '59476',      // Ikaros
     1667: '61260',      // Kyros
     1694: '62895',      // Inuarashi
     1733: '66570',      // Nekomamushi
