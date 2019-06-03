@@ -14,6 +14,10 @@ function getThumb(thumbId) {
     if (thumbId === 'univ_sp')
         return '/optc-cal/assets/img/univ_sp.png';
 
+    // Special case for All Raid
+    if (thumbId === 'all_raid')
+        return 'https://onepiece-treasurecruise.com/wp-content/themes/onepiece-treasurecruise/images/noimage.png';
+
     // Zero pad IDs to get correct thumb
     var paddedThumbId = ('0000' + thumbId).slice(-4);
 

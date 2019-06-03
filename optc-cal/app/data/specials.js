@@ -423,6 +423,12 @@ var specials = {
         thumb: 2234
     },
 
+    'rd_9999': {
+        type: 'Raid',
+        name: 'All',
+        thumb: 'all_raid'
+    },
+
     'sp_0603': {
         type: 'Support Raid',
         name: 'Eneru',

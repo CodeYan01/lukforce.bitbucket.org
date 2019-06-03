@@ -306,6 +306,8 @@ function showFooter() {
                         res['thumb'].push(eSp['thumb']);
                         res['subType'] = eSp['type'];
                     }
+
+                    res['color'] = spColor;
                 } else {
                     res['id'] = eId;
                     var sp = specials[eId];
@@ -318,9 +320,13 @@ function showFooter() {
 
                     res['thumb'] = sp['thumb'];
                     res['subType'] = sp['type'];
+
+                    if (sp['type'] !== 'Raid')
+                        res['color'] = spColor;
+                    else
+                        res['color'] = raidColor;
                 }
 
-                res['color'] = spColor;
                 res['textColor'] = 'black';
             }
 
