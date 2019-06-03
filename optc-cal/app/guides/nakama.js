@@ -328,6 +328,7 @@ var nakama = {
 
     'sb_1023': '6102300',   // Socket Book Ace
     'sb_1600': '6160000',   // Socket Book Luffy
+    'sb_1985': '',          // Socket Book Luffy & Ace
 
     'tp_1463': '6146300',   // Tea Party Luffy
     'tp_1465': '6146300',   // Tea Party Chopper

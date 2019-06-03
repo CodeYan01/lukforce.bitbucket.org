@@ -1966,4 +1966,34 @@ var specialBgEvents = [
         end: '2019-06-16',
         pst_19: true
     },
+    {
+        id: 'sp',
+        start: '2019-06-03',
+        end: '2019-06-10',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp',
+        start: '2019-06-03',
+        end: '2019-06-07',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-06-07',
+        end: '2019-06-11',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-06-10',
+        end: '2019-06-16',
+        pst_19: true
+    },
+    {
+        id: 'strawhats',
+        start: '2019-06-11',
+        end: '2019-06-17',
+        pst_19: true
+    },
 ]

@@ -130,6 +130,11 @@ var specials = {
         name: 'Luffy',
         thumb: 1600
     },
+    'sb_1985': {
+        type: 'Socket Book',
+        name: 'Luffy & Ace',
+        thumb: 1985
+    },
 
     'univ_sp': {
         type: 'Almighty Manuals',
@@ -287,6 +292,32 @@ var specials = {
         type: 'Champion Challenge 2',
         name: 'Law',
         thumb: 1922
+    },
+
+    'cc2_1314': {
+        type: 'Champion Challenge 2',
+        name: 'Akainu',
+        thumb: 1314
+    },
+    'cc2_1593': {
+        type: 'Champion Challenge 2',
+        name: 'Luffy',
+        thumb: 1593
+    },
+    'cc2_1794': {
+        type: 'Champion Challenge 2',
+        name: 'Lucy',
+        thumb: 1794
+    },
+    'cc2_1832': {
+        type: 'Champion Challenge 2',
+        name: 'Judge',
+        thumb: 1832
+    },
+    'cc2_1869': {
+        type: 'Champion Challenge 2',
+        name: 'Fujitora',
+        thumb: 1869
     },
 
     'cc_2113': {

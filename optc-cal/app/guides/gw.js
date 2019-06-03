@@ -328,6 +328,7 @@ var gw = {
 
     'sb_1023': '29680', // Socket Book Ace
     'sb_1600': '56964', // Socket Book Luffy
+    'sb_1985': '100032',// Socket Book Luffy & Ace
 
     'tp_1463': '51652', // Tea Party Luffy
     'tp_1465': '51896', // Tea Party Chopper
