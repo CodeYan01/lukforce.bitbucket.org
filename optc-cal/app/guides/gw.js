@@ -310,6 +310,7 @@ var gw = {
     2261: '119738',     // Shanks
     2299: '123536',     // Boa Hancock
     2336: '128733',     // Law
+    2387: '137053',     // Kaido
 
     // Events
     'bb_1314': '61665', // Three Admirals

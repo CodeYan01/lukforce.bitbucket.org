@@ -74,4 +74,9 @@ var tms = {
         thumb: 2336,
         info: 'i.imgur.com/GaFJQ8Y.jpg'
     },
+    2387: {
+        name: 'Kaido',
+        thumb: 2387,
+        info: 'i.imgur.com/iTBw5FQ.jpg'
+    },
 };
