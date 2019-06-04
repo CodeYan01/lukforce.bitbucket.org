@@ -1865,7 +1865,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Croc & Daz
-            id: 3335,
+            id: 2399,
             type: 'other',
             x_pts: 1.2
         },
@@ -2433,7 +2433,7 @@ var tm_boosters = {
             x_pts: 1
         },
         {   // Croc & Daz
-            id: 3335,
+            id: 2399,
             x_pts: 1
         },
     ],
