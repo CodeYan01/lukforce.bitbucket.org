@@ -1762,7 +1762,7 @@ var fortnightEvents = [
         is_replay: true
     },
     {
-        id: [462, 1735, 2253],
+        id: [462, 713, 1735, 2253],
         start: '2019-06-03',
         end: '2019-06-10',
         is_replay: true
