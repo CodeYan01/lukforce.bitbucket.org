@@ -605,6 +605,8 @@ function populateUnitModal(src, selectedId, assigned) {
     $('#available-units').empty();
     $('.units-in-team-el').hide();
     $('#units-in-team').empty();
+    $('.units-assigned-el').hide();
+    $('#units-assigned').empty();
     $('.unit-detail-el').hide();
     $('#unit-modal-title').empty();
 
@@ -618,13 +620,7 @@ function populateUnitModal(src, selectedId, assigned) {
     }
 
     if (src) {
-        var boosterList;
-
-        // Show all non-filtered units if picking for Ambush Team
-        if ($('#' + src).length > 0 && $('#' + src).closest('.team').attr('id') == 'ambush-team')
-            boosterList = $('.booster').not('.type-filtered, .class-filtered');
-        else
-            boosterList = $('.booster').not('.assigned, .assigned-dh, .type-filtered, .class-filtered');
+        var boosterList = $('.booster').not('.assigned, .assigned-dh, .type-filtered, .class-filtered');
 
         // Available units
         boosterList.each(function() {
@@ -669,6 +665,31 @@ function populateUnitModal(src, selectedId, assigned) {
             });
 
             $('.units-in-team-el').show();
+        }
+
+        // Show assigned units if picking for Ambush Team
+        if ($('#' + src).length > 0 && $('#' + src).closest('.team').attr('id') == 'ambush-team') {
+            var assignedList = $('.booster.assigned');
+
+            assignedList.each(function() {
+                var ab = $(this);
+                var unitId = ab.data('id');
+
+                var imgDiv = $('<div></div>');
+                imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
+                imgDiv.data('id', unitId);
+                imgDiv.data('src', src);
+
+                // Name in tooltip
+                createTooltip(imgDiv, units[unitId - 1][0]);
+
+                imgDiv.addClass('select-modal-unit');
+                imgDiv.css('display', 'inline-block');
+
+                $('#units-assigned').append(imgDiv);
+            });
+
+            $('.units-assigned-el').show();
         }
     }
 }

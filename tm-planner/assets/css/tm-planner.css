@@ -103,6 +103,7 @@
 .remove-button-el,
 .available-units-el,
 .units-in-team-el,
+.units-assigned-el,
 .unit-detail-el {
     display: none;
 }
