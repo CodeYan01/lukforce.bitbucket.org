@@ -126,7 +126,7 @@ var tm_opponents = {
          418: ['Doffy',         'DEX',      0],
         1091: ['X Drake',       'PSY',      1],
         1830: ['Caesar',        'INT',      2],
-        2230: ['Sheepshead',    'QCK',      3],
+        2230: ['Sheepshead',    'STR',      3],
         2231: ['Jack',          'STR',      4],
         2387: ['Kaido',         'STR',      5]
     },
