@@ -123,10 +123,10 @@ var tm_opponents = {
         2362: ['Nami',          'PSY',      4]
     },
     2387: {
-         418: ['Doffy',         'DEX',      0],
-        1091: ['X Drake',       'PSY',      1],
-        1830: ['Caesar',        'INT',      2],
-        2230: ['Sheepshead',    'STR',      3],
+         418: ['Doffy',         'DEX',      2],
+        1091: ['X Drake',       'PSY',      0],
+        1830: ['Caesar',        'INT',      3],
+        2230: ['Sheepshead',    'STR',      1],
         2231: ['Jack',          'STR',      4],
         2387: ['Kaido',         'STR',      5]
     },
