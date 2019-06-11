@@ -160,6 +160,13 @@ var tm_opponents = {
         1314: ['Akainu',        'STR',      4],
         2557: [['Shanks & ', 'Beckman'], ['INT', 'DEX'], 5],
     },
+    2583: {
+         963: ['Charlos',       'STR',      0],
+         964: ['Roswald',       'DEX',      1],
+        1595: ['Fujitora',      'PSY',      2],
+        2340: ['Stussy',        'QCK',      3],
+        2583: ['Lucci',         'INT',      4]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
