@@ -319,6 +319,7 @@ var gw = {
     'bb_2023': '98809', // Face Off! Akainu
     'bb_2025': '98808', // Face Off! Aokiji
     'bb_2363': '136432',// Face Off! Luffy vs. Katakuri
+    'bb_2365': '136432',// Face Off! Luffy vs. Katakuri
 
     'wc_2401': '130091',// World Clash
 

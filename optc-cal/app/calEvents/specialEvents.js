@@ -574,4 +574,9 @@ var specialEvents = [
         end: '2019-06-15',
         pst_0: true
     },
+    {
+        id: 'bb_2365',
+        start: '2019-06-12',
+        end: '2019-06-16'
+    },
 ]

@@ -52,8 +52,13 @@ var specials = {
     },
     'bb_2363': {
         type: 'Face Off',
-        name: 'Luffy vs. Katakuri',
+        name: 'Luffy vs. Katakuri (R1)',
         thumb: 2363
+    },
+    'bb_2365': {
+        type: 'Face Off',
+        name: 'Luffy vs. Katakuri (R3)',
+        thumb: 2365
     },
 
     'wc_2401': {
