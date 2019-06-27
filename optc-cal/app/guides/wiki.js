@@ -127,6 +127,7 @@ var wiki = {
     2292: 'wiki/fortnight/halloween_vivi',
     2294: '',                               // Halloween Katakuri
     2327: '',                               // Amande & Bobbin
+    2351: '',                               // Perospero
     2377: '',                               // Mother Carmel
 
     // Raids

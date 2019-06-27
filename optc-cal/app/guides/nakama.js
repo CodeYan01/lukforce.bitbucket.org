@@ -127,6 +127,7 @@ var nakama = {
     2292: '6229200',    // Halloween Vivi
     2294: '6229200',    // Halloween Katakuri
     2327: '2232700',    // Amande & Bobbin
+    2351: '2235100',    // Perospero
     2377: '2237700',    // Mother Carmel
 
     // Raids

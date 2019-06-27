@@ -127,6 +127,7 @@ var gw = {
     2292: '122996',     // Halloween Vivi
     2294: '124308',     // Halloween Katakuri
     2327: '127787',     // Amande & Bobbin
+    2351: '133025',     // Perospero
     2377: '136822',     // Mother Carmel
 
     // Raids
