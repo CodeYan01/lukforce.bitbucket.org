@@ -2046,4 +2046,40 @@ var specialBgEvents = [
         start: '2019-06-27',
         end: '2019-07-05'
     },
+    {
+        id: 'sp',
+        start: '2019-06-27',
+        end: '2019-07-01',
+        pst_19: true
+    },
+    {
+        id: 'buggy',
+        start: '2019-06-27',
+        end: '2019-07-02',
+        pst_19: true
+    },
+    {
+        id: 'cotton',
+        start: '2019-06-27',
+        end: '2019-06-30',
+        pst_19: true
+    },
+    {
+        id: 'lobster',
+        start: '2019-06-30',
+        end: '2019-07-04',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-07-02',
+        end: '2019-07-07',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-07-04',
+        end: '2019-07-08',
+        pst_19: true
+    },
 ]
