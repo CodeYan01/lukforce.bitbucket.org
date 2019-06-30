@@ -288,6 +288,7 @@ var wiki = {
     2249: 'wiki/coliseum/daifuku',
     2290: 'wiki/coliseum/niwatori',
     2323: 'wiki/coliseum/oven',
+    2354: '',                               // Magellan
     2375: 'wiki/coliseum/smoothie',
 
     1863: '',                               // Kinemon (N)
