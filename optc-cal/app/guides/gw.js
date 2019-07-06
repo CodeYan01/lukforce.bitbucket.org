@@ -171,6 +171,7 @@ var gw = {
     2197: '115114',     // Blackbeard v2
     2263: '120330',     // Doffy v2
     2281: '121664',     // Judge
+    2356: '134034',     // Arlong
     2552: '150061',     // Sengoku & Garp
     3342: '',           // Shanks & Mihawk
 

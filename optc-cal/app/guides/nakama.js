@@ -171,6 +171,7 @@ var nakama = {
     2197: '4219700',    // Blackbeard v2
     2263: '4226300',    // Doffy v2
     2281: '4228100',    // Judge
+    2356: '4235600',    // Arlong
     2552: '4255200',    // Sengoku & Garp
     3342: '4334200',    // Shanks & Mihawk
 

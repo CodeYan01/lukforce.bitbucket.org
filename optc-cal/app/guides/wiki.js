@@ -171,6 +171,7 @@ var wiki = {
     2197: 'wiki/raidboss/v2bb',
     2263: 'wiki/raidboss/v2doflamingo',
     2281: 'wiki/raidboss/judge',
+    2356: '',                               // Arlong
     2552: 'comments/aa693j',                // Sengoku & Garp
     3342: '',                               // Shanks & Mihawk
 

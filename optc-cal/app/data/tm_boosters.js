@@ -19,6 +19,7 @@ var tm_boosters = [
 
     // ===== Nami =====
     // Raids
+    2356,
 
     // Coliseums
     2354,
