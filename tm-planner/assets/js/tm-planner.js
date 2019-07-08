@@ -180,8 +180,15 @@ function getBoosters(tmId, server) {
         $('#div_1_35x_v2').show();
         $('#div_1_3x').show();
         $('#div_1_25x_v2').show();
-    } else if (server == 'jpn' && tmId == 2583) {
+    } else if (
+        server == 'jpn' &&
+        (
+            tmId == 2583 ||
+            tmId == 2618
+        )
+    ) {
         // TM Lucci
+        // TM Sakazuki & Issho
         $('#div_2_25x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();

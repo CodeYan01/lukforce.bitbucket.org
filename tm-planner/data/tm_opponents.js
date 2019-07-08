@@ -143,7 +143,7 @@ var tm_opponents = {
         2346: ['Galette',       'INT',      2],
         2369: ['Montd\'Or',     'STR',      1],
         2234: ['Big Mom',       'STR',      4],
-        2469: [['Smoothie & ', 'Oven'], ['PSY', 'QCK'], 5],
+        2469: [['Smoothie & ', 'Oven'], ['PSY', 'QCK'], 5]
     },
     2510: {
          836: ['Kuma',          'STR',      1],
@@ -158,7 +158,7 @@ var tm_opponents = {
         1780: ['Kizaru',        'DEX',      2],
         2197: ['Blackbeard',    'INT',      1],
         1314: ['Akainu',        'STR',      4],
-        2557: [['Shanks & ', 'Beckman'], ['INT', 'DEX'], 5],
+        2557: [['Shanks & ', 'Beckman'], ['INT', 'DEX'], 5]
     },
     2583: {
          963: ['Charlos',       'STR',      0],
@@ -166,6 +166,13 @@ var tm_opponents = {
         1595: ['Fujitora',      'PSY',      2],
         2340: ['Stussy',        'QCK',      3],
         2583: ['Lucci',         'INT',      4]
+    },
+    2618: {
+         927: ['Doberman',      'INT',      0],
+        1320: ['Tsuru',         'QCK',      2],
+        2251: ['Garp',          'PSY',      3],
+        2605: ['Coby',          'STR',      1],
+        2618: [['Sakazuki & ', 'Issho'], ['STR', 'INT'], 4]
     },
     9999: [
         ['',            ''],
