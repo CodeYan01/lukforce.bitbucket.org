@@ -69,6 +69,10 @@ function getThumb(thumbId) {
     if (thumbId === 5036 || thumbId === 3354)
         return '/tm-planner/assets/img/new-thumbs/5036.png';
 
+    // Special case for Ranking Wanda
+    if (thumbId === 5037 || thumbId === 3355)
+        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5037.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
