@@ -74,6 +74,11 @@ var tms = {
         thumb: 2336,
         info: 'i.imgur.com/GaFJQ8Y.jpg'
     },
+    2362: {
+        name: 'Nami',
+        thumb: 2362,
+        info: 'i.imgur.com/EwKiR7y.png'
+    },
     2387: {
         name: 'Kaido',
         thumb: 2387,
