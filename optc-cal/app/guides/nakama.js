@@ -188,6 +188,7 @@ var nakama = {
     2070: '4207000',    // Boa Hancock (N)
     3340: '4334000',    // Garp (N)
     3352: '4335200',    // Ivankov (N)
+    3357: '4335700',    // Nightmare Luffy (N)
 
     1258: '6125800',    // Young Whitebeard
     1380: '6138000',    // Shanks

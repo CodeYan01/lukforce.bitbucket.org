@@ -188,6 +188,7 @@ var gw = {
     2070: '102084',     // Boa Hancock (N)
     3340: '',           // Garp (N)
     3352: '',           // Ivankov (N)
+    3357: '',           // Nightmare Luffy (N)
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks

@@ -188,6 +188,7 @@ var wiki = {
     2070: '',                               // Boa Hancock (N)
     3340: '',                               // Garp (N)
     3352: '',                               // Ivankov (N)
+    3357: '',                               // Nightmare Luffy (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',

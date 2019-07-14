@@ -225,4 +225,8 @@ var raids = {
         name: 'Ivankov (N)',
         thumb: 5034
     },
+    3357: {
+        name: 'Nightmare Luffy (N)',
+        thumb: 5043
+    },
 };
