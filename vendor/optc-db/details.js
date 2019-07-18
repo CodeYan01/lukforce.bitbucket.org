@@ -17619,15 +17619,15 @@ window.details = {
         captain: "Boosts ATK of all characters by 2x after the 2nd PERFECT in a row and by 3x after the 5th PERFECT in a row.",
         special: [
             {
-                "description": "If HP is below 3,000, reduces No Healing debuff by 1 turn. Recovers 3x character's RCV in HP",
+                "description": "If HP is below 3,000, reduces No Healing debuff duration by 1 turn. Recovers 3x character's RCV in HP",
                 "cooldown": [ 15, 9 ],
             },
             {
-                "description": "If HP is below 3,000, reduces No Healing debuff by 3 turns. Recovers 6x character's RCV in HP",
+                "description": "If HP is below 3,000, reduces No Healing debuff duration by 3 turns. Recovers 6x character's RCV in HP",
                 "cooldown": [ 20, 14 ],
             },
             {
-                "description": "If HP is below 3,000, removes No Healing debuff. Recovers 13x character's RCV in HP",
+                "description": "If HP is below 3,000, removes No Healing debuff duration completely. Recovers 13x character's RCV in HP",
                 "cooldown": [ 24, 18 ],
             },
         ],
@@ -17639,15 +17639,15 @@ window.details = {
         captain: "Boosts ATK of all characters by 2.5x after the 2nd PERFECT in a row and by 3.5x after the 5th PERFECT in a row.",
         special: [
             {
-                "description": "If HP is below 3,000, reduces No Healing debuff by 1 turn. Recovers 3x character's RCV in HP",
+                "description": "If HP is below 3,000, reduces No Healing debuff duration by 1 turn. Recovers 3x character's RCV in HP",
                 "cooldown": [ 15, 9 ],
             },
             {
-                "description": "If HP is below 3,000, reduces No Healing debuff by 3 turns. Recovers 6x character's RCV in HP",
+                "description": "If HP is below 3,000, reduces No Healing debuff duration by 3 turns. Recovers 6x character's RCV in HP",
                 "cooldown": [ 20, 14 ],
             },
             {
-                "description": "If HP is below 3,000, removes No Healing debuff. Recovers 13x character's RCV in HP",
+                "description": "If HP is below 3,000, removes No Healing debuff duration completely. Recovers 13x character's RCV in HP",
                 "cooldown": [ 24, 18 ],
             },
         ],
@@ -21467,7 +21467,7 @@ window.details = {
     },
     1494: {//QCK Fishman Outlaw
         captain: "Boosts ATK of [QCK] characters by 1.5x",
-        special: "Locks Captain's orb for 1 turn",
+        special: "Locks orb for your Captain for 1 turn",
         specialName: "Captain Slot Hold: Light",
     },
     1495: {//DEX Fishman Outlaw
@@ -38789,12 +38789,12 @@ window.details = {
         ]
     },
     2262: {//Doflamingo Raid v2
-        captain: "Boosts ATK of Driven and Cerebral characters by 2.5x when HP is 50% or below, 1.5x otherwise",
+        captain: "Boosts ATK of Driven and Cerebral characters by 2.5x when HP is 50% or below, by 1.5x otherwise",
         special: "Randomizes all non-Matching orbs, including [BLOCK] orbs and locks all orbs for 1 turn. If your Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
         specialName: "Athlete",
     },
     2263: {//Doflamingo Raid v2
-        captain: "Boosts ATK of Driven and Cerebral characters by 3x when HP is 50% or below, 1.5x otherwise",
+        captain: "Boosts ATK of Driven and Cerebral characters by 3x when HP is 50% or below, by 1.5x otherwise",
         special: "Randomizes all non-Matching orbs, including [BLOCK] orbs and locks all orbs for 1 turn. If your Captain is a Cerebral or Driven character, increases duration of any Class/Type boosting buffs and Orb Amplification buffs by 2 turns",
         specialName: "Athlete",
         sailor: {
@@ -39559,7 +39559,7 @@ window.details = {
     },
     2298: {//TM Hancock
         captain: "Boosts ATK of Shooter characters by 1.5x and their RCV by 1.1x",
-        special: "Reduces the defense of all enemies by 80% for 1 turn, reduces enemies' Threshold Damage Reduction, ATK Up, End of Turn Heal and Resilience Buffs duration by 2 turns, recovers 10,310 HP, Changes Captain's [EMPTY] orb into an [INT] orb and locks Captain's orb for 1 turn. If your Captain's orb is [INT] at the time the special is activated, boosts ATK against enemies with reduced defense by 1.75x for 1 turn and changes Captain's orb into [PSY]. If your Captain's orb is [PSY] at the time the special is activated, amplifies the effect of orbs for Shooter characters by 2x for 1 turn and changes Captain's orb into [INT].",
+        special: "Reduces the defense of all enemies by 80% for 1 turn, reduces enemies' Threshold Damage Reduction, ATK Up, End of Turn Heal and Resilience Buffs duration by 2 turns, recovers 10,310 HP, Changes Captain's [EMPTY] orb into an [INT] orb and locks orb for your Captain for 1 turn. If your Captain's orb is [INT] at the time the special is activated, boosts ATK against enemies with reduced defense by 1.75x for 1 turn and changes Captain's orb into [PSY]. If your Captain's orb is [PSY] at the time the special is activated, amplifies the effect of orbs for Shooter characters by 2x for 1 turn and changes Captain's orb into [INT].",
         specialName: "Mischievous Love-Love Beam",
     },
     2299: {//TM Hancock
@@ -39572,7 +39572,7 @@ window.details = {
             "level5": "Boosts ATK of Shooter characters by 2x and their RCV by 1.3x. If you defeat an enemy, increases ATK boost slightly. Stacks up to 6 times to a maximum of 3x",
             "level6": "Boosts ATK of Shooter characters by 2.25x and their RCV by 1.3x. If you defeat an enemy, increases ATK boost slightly. Stacks up to 6 times to a maximum of 3.25x.",
         },
-        special: "Reduces the defense of all enemies by 80% for 1 turn, reduces enemies' Threshold Damage Reduction, ATK Up, End of Turn Heal and Resilience Buffs duration by 2 turns, recovers 10,310 HP, Changes Captain's [EMPTY] orb into an [INT] orb and locks Captain's orb for 1 turn. If your Captain's orb is [INT] at the time the special is activated, boosts ATK against enemies with reduced defense by 1.75x for 1 turn and changes Captain's orb into [PSY]. If your Captain's orb is [PSY] at the time the special is activated, amplifies the effect of orbs for Shooter characters by 2x for 1 turn and changes Captain's orb into [INT].",
+        special: "Reduces the defense of all enemies by 80% for 1 turn, reduces enemies' Threshold Damage Reduction, ATK Up, End of Turn Heal and Resilience Buffs duration by 2 turns, recovers 10,310 HP, Changes Captain's [EMPTY] orb into an [INT] orb and locks orb for your Captain for 1 turn. If your Captain's orb is [INT] at the time the special is activated, boosts ATK against enemies with reduced defense by 1.75x for 1 turn and changes Captain's orb into [PSY]. If your Captain's orb is [PSY] at the time the special is activated, amplifies the effect of orbs for Shooter characters by 2x for 1 turn and changes Captain's orb into [INT].",
         specialName: "Mischievous Love-Love Beam",
         sailor: {
             "base": "None",
@@ -41308,11 +41308,11 @@ window.details = {
     2362: {//TM Nami
         captain: {
             "base": "Boosts ATK of Striker and Cerebral characters by 1.75x if HP is above 50%, by 1.5x otherwise",
-            "level1": "Not Translated",
-            "level2": "Not Translated",
-            "level3": "Not Translated",
-            "level4": "Not Translated",
-            "level5": "Not Translated",
+            "level1": "Reduces cooldown of all specials by 1 turn at the start of the fight. Boosts ATK of Striker and Cerebral characters by 1.75x if HP is above 50%, by 1.5x otherwise",
+            "level2": "Reduces cooldown of all specials by 1 turn at the start of the fight. Boosts ATK of Striker and Cerebral characters by 2x if HP is above 50%, by 1.5x otherwise",
+            "level3": "Reduces cooldown of all specials by 1 turn at the start of the fight. Boosts ATK of Striker and Cerebral characters by 2x if HP is above 50%, by 1.75x otherwise",
+            "level4": "Reduces cooldown of all specials by 1 turn at the start of the fight. Boosts ATK of Striker and Cerebral characters by 2.5x if HP is above 50%, by 1.75x otherwise",
+            "level5": "Reduces cooldown of all specials by 1 turn at the start of the fight. Boosts ATK of Striker and Cerebral characters by 2.75x if HP is above 50%, by 2x otherwise",
             "level6": "Reduces cooldown of all specials by 1 turn at the start of the fight. Boosts ATK of Striker and Cerebral characters by 3x if HP is above 50%, by 2x otherwise",
         },
         special: "Reduces Paralysis, ATK DOWN, Chain Multiplier Limit, Chain Coefficient Reduction, Burn and Blindness duration by 3 turns. Changes [BLOCK] and Badly Matching orbs into Matching orbs",
@@ -43308,10 +43308,10 @@ window.details = {
             {
                 "Characters": "Kaido",
                 "description": [
-                    "Level 1: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 2: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 3: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 4: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 1: Adds 6% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 2: Adds 7% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 3: Adds 9% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 4: Adds 11% of this character's base ATK and HP to the supported character's base ATK and HP.",
                     "Level 5: Adds 13% of this character's base ATK and HP to the supported character's base ATK and HP."
                 ]
             }
@@ -49221,12 +49221,12 @@ window.details = {
         ],
         support: [
             {
-                "Characters": "Nemi, Chopper, Brook and Carrot",
+                "Characters": "Nami, Chopper, Brook and Carrot",
                 "description": [
-                    "Level 1: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 2: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 3: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
-                    "Level 4: Adds ?% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 1: Adds 1% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 2: Adds 2% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 3: Adds 3% of this character's base ATK and HP to the supported character's base ATK and HP.",
+                    "Level 4: Adds 4% of this character's base ATK and HP to the supported character's base ATK and HP.",
                     "Level 5: Adds 5% of this character's base ATK and HP to the supported character's base ATK and HP."
                 ]
             }
@@ -49257,11 +49257,11 @@ window.details = {
             {
                 "Characters": "Cerebral characters",
                 "description": [
-                    "Level 1: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
-                    "Level 2: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
-                    "Level 3: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
-                    "Level 4: Once per an adventure, when the supported character uses their special, locks the supported character's orbs for 1 turn.",
-                    "Level 5: Once per an adventure, when the supported character uses their special, locks Cerebral character's orbs for 1 turn."
+                    "Level 1: Once per an adventure, when the supported character uses their special, locks the supported character's orb for 1 turn.",
+                    "Level 2: Once per an adventure, when the supported character uses their special, locks the supported character's orb for 1 turn.",
+                    "Level 3: Once per an adventure, when the supported character uses their special, locks the supported character's orb for 1 turn.",
+                    "Level 4: Once per an adventure, when the supported character uses their special, locks the supported character's orb for 1 turn.",
+                    "Level 5: Once per an adventure, when the supported character uses their special, locks orbs for  Cerebral characters for 1 turn."
                 ]
             }
         ],
@@ -49281,29 +49281,214 @@ window.details = {
         special: "Instantly defeats all enemies with HP equal to or below 120x character's ATK, randomizes all orbs into either [STR] or [INT] orbs, cuts the current HP of each enemy by 20% and becomes Sakazuki & Issho for 2 turns.",
         swap: "When Change is activated, amplifies the effect of orbs on [STR], [DEX] and [INT] characters by 1.5x for 1 turn and cuts the current HP of each enemy by 7% at the end of each turn for 1 turn.",
         specialName: "Heavenly Eruption",
+        limit: [
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Sailor Ability 1: When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
         potential: [
             {
                 "Name": "[DEX] Damage Reduction",
                 "description": [
-                    "Level 1: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 2: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 3: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 4: Reduce damage taken from [DEX] characters by ?%",
-                    "Level 5: Reduce damage taken from [DEX] characters by ?%"
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
                 ]
             },
             {
                 "Name": "Enrage",
                 "description": [
-                    "Level 1: Boosts base ATK by ?",
-                    "Level 2: Boosts base ATK by ?",
-                    "Level 3: Boosts base ATK by ?",
-                    "Level 4: Boosts base ATK by ?",
-                    "Level 5: Boosts base ATK by ?"
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 80",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 120",
+                    "Level 5: Boosts base ATK by 200"
                 ]
             },
         ],
         potentialNotes: "#{enrage}"
+    },
+    2619: {//Vivi
+        captain: "Boosts ATK of [INT] characters by 2x at the start of the chain, boosts ATK by 3x following a chain of [DEX] > [PSY] attacks no lower than Good and reduces damage received from [PSY] enemies by 30%",
+        special: "Reduces Special Cooldown of all characters by 1 turn, reduces Chain Multiplier Limit duration by 5 turns and changes [BLOCK], [DEX] and [PSY] orbs into Matching orbs. If Vivi is your Captain or Friend/Guest Captain, boosts ATK of [INT] characters by 2.25x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "Beach Princess's Smile",
+    },
+    2620: {//Vivi
+        captain: "Boosts ATK of [INT] characters by 2.5x at the start of the chain, boosts ATK by 4x following a chain of [DEX] > [PSY] attacks no lower than Good and reduces damage received from [PSY] enemies by 30%",
+        special: "Reduces Special Cooldown of all characters by 1 turn, reduces Chain Multiplier Limit duration by 5 turns and changes [BLOCK], [DEX] and [PSY] orbs into Matching orbs. If Vivi is your Captain or Friend/Guest Captain, boosts ATK of [INT] characters by 2.25x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "Beach Princess's Smile",
+    },
+    2621: {//Kalifa
+        captain: "Boosts ATK of [PSY] characters by 2x at the start of the chain, boosts ATK by 3x following a chain of [INT] > [DEX] attacks no lower than Good and reduces damage received from [INT] enemies by 30%",
+        special: "Reduces Paralysis and Silence duration by 5 turns and makes [DEX], [INT] and [BOMB] orbs beneficial for all characters for 1 turn. If Kalifa is your Captain or Friend/Guest Captain, boosts ATK of [PSY] characters by 2.25x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "A Smile on Top of the Soap",
+    },
+    2622: {//Kalifa
+        captain: "Boosts ATK of [PSY] characters by 2.5x at the start of the chain, boosts ATK by 4x following a chain of [INT] > [DEX] attacks no lower than Good and reduces damage received from [INT] enemies by 30%",
+        special: "Reduces Paralysis and Silence duration by 5 turns and makes [DEX], [INT] and [BOMB] orbs beneficial for all characters for 1 turn. If Kalifa is your Captain or Friend/Guest Captain, boosts ATK of [PSY] characters by 2.25x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "A Smile on Top of the Soap",
+    },
+    2623: {//Sugar
+        captain: "Boosts ATK of [DEX] characters by 2x at the start of the chain, boosts ATK by 3x following a chain of [PSY] > [INT] attacks no lower than Good and reduces damage received from [QCK] enemies by 30%",
+        special: "Reduces enemies' Percent Damage Reduction and Resilience Buffs duration by 5 turns and changes all orbs to [DEX] orbs. If Sugar is your Captain or Friend/Guest Captain, boosts ATK of [DEX] characters by 2.25x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "Summer Mischievous Smile:  \"Sweet Little Black Bears\"",
+    },
+    2624: {//Sugar
+        captain: "Boosts ATK of [DEX] characters by 2.5x at the start of the chain, boosts ATK by 4x following a chain of [PSY] > [INT] attacks no lower than Good and reduces damage received from [QCK] enemies by 30%",
+        special: "Reduces enemies' Percent Damage Reduction and Resilience Buffs duration by 5 turns and changes all orbs to [DEX] orbs. If Sugar is your Captain or Friend/Guest Captain, boosts ATK of [DEX] characters by 2.25x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "Summer Mischievous Smile:  \"Sweet Little Black Bears\"",
+    },
+    2625: {//Carrot
+        captain: "Boosts ATK of Free Spirit and Powerhouse characters by 2.25x",
+        special: "Reduces crew's Chain Multiplier Limit and Silence duration by 2 turns, reduces enemies' Percent Damage Reduction Buff duration by 2 turns. If your crew has 3 or more characters of the same Type, amplifies the effect of orbs for all characters by 2x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of all characters by 20",
+        specialName: "Breathtaking Smile",
+    },
+    2626: {//Carrot
+        captain: "Boosts ATK of Free Spirit and Powerhouse characters by 2.75x",
+        special: "Reduces crew's Chain Multiplier Limit and Silence duration by 2 turns, reduces enemies' Percent Damage Reduction Buff duration by 2 turns. If your crew has 3 or more characters of the same Type, amplifies the effect of orbs for all characters by 2x for 1 turn.",
+        sailor: "Boosts base ATK, HP and RCV of all characters by 20",
+        specialName: "Breathtaking Smile",
+    },
+    2627: {//Smoothie
+        captain: "Boosts ATK of [DEX], [PSY] and [INT] characters by 2x",
+        special: "Makes [DEX], [PSY] and [INT] orbs beneficial for [DEX], [PSY] and [INT] characters for 2 turns and adds 0.4x to Chain multiplier for 2 turns.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "Juicy Smile",
+    },
+    2628: {//Smoothie
+        captain: "Boosts ATK of [DEX], [PSY] and [INT] characters by 2.25x and their HP by 1.25x. Recovers 3x character's RCV in HP at the end of each turn",
+        special: "Makes [DEX], [PSY] and [INT] orbs beneficial for [DEX], [PSY] and [INT] characters for 2 turns and adds 0.4x to Chain multiplier for 2 turns.",
+        sailor: "Boosts base ATK, HP and RCV of [DEX], [PSY] and [INT] characters by 30",
+        specialName: "Juicy Smile",
+    },
+    2631: {//Shirahoshi
+        captain: "Boosts ATK of all characters by 2.5x, but boosts her OWN attack by 1.25x, recovers 5x character's RCV in HP at the end of each turn and if you don't attack with her, reduces damage received by 15% for that turn.",
+        special: [
+            {
+                "description": "Changes adjacent orbs, including [BLOCK] orbs, into [RAINBOW] orbs, recovers 14x character's RCV in HP and reduces RCV DOWN and No Healing duration by 5 turns.",
+                "cooldown": [ 13, 9 ],
+            },
+            {
+                "description": "Changes all orbs, including [BLOCK] orbs, into [RAINBOW] orbs, recovers 125x character's RCV in HP and reduces RCV DOWN and No Healing duration by 15 turns.",
+                "cooldown": [ 21, 17 ],
+            },
+        ],
+        specialNotes: "Rainbow orbs are the beneficial form of [BLOCK] orbs. They can not be shuffled or swapped by you or your opponent. They count as beneficial orbs to any character. They do not count as [STR] orbs for Sakazuki but do act like Matching orbs for Black Clad Ace or Fujitora captain abilities.<br>#{stages}",
+        specialName: "A Glimpse of Poseidon's Power",
+        sailor: {
+            "base": "Changes all orbs into [RAINBOW] orbs at the start of the fight.",
+            "level1": "Boosts amount healed from [RCV] orbs by 150 each",
+        },
+        limit: [
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Acquire Potential 1: [INT] Damage Reduction" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Acquire Potential 2: Slot Bind Self-reduction" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base HP by 35" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base HP by 45" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base HP by 55" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Boosts base HP by 65" },
+            { "description": "Boosts base HP by 70" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Acquire Sailor Ability 1: Boosts amount healed from [RCV] orbs by 150 each" },
+            { "description": "Boosts base ATK by 60" },
+            { "description": "Boosts base ATK by 70" },
+            { "description": "Acquire Potential 3: Reduce No Healing duration" },
+        ],
+        potential: [
+            {
+                "Name": "[INT] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [INT] characters by 2%",
+                    "Level 2: Reduce damage taken from [INT] characters by 3%",
+                    "Level 3: Reduce damage taken from [INT] characters by 4%",
+                    "Level 4: Reduce damage taken from [INT] characters by 5%",
+                    "Level 5: Reduce damage taken from [INT] characters by 7%"
+                ]
+            },
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 5 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 7 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 10 turns on this character"
+                ]
+            },
+            {
+                "Name": "Reduce No Healing duration",
+                "description": [
+                    "Level 1: Reduces No Healing duration by 1 turn",
+                    "Level 2: Reduces No Healing duration by 2 turns",
+                    "Level 3: Reduces No Healing duration by 3 turns",
+                    "Level 4: Reduces No Healing duration by 5 turns",
+                    "Level 5: Reduces No Healing duration by 10 turns"
+                ]
+            },
+        ]
     },
     2632: {//Garp
         captain: "Boosts ATK of all characters by 2.5x, their HP by 1.2x and makes [STR] and [DEX] orbs beneficial for all characters. If this character becomes your captain in the middle of an island, boosts ATK of all characters by 4x instead",
@@ -49911,6 +50096,65 @@ window.details = {
                 ]
             }
         ],
+    },
+    3356: {
+        special: "Deals 17 hits of random [QCK] damage to random enemies, reduces enemies' Threshold Damage Reduction duration by 4 turns and boosts ATK of Powerhouse characters by 1.75x for 1 turn.",
+        //specialNotes: "#{randomHits : 17}<br>#{random : 1,000 : 30,000 : for each hit}",
+        specialName: "Gum-Gum Storm [Neo]",
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Powerhouse characters by 3x, reduces crew's current HP by 10% at the end of each turn and reduces his own ATK multiplier by 0.1x at the end of each turn",
+        captainNotes: "His ATK multiplier will be 3.0x on the first turn, 2.9x on the second, 2.8x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all Powerhouse characters. You will not die to the HP reduction"
+    },
+    3357: {
+        special: "Deals 17 hits of random [QCK] damage to random enemies, reduces enemies' Threshold Damage Reduction duration by 4 turns and boosts ATK of Powerhouse characters by 1.75x for 1 turn.",
+        //specialNotes: "#{randomHits : 17}<br>#{random : 1,000 : 30,000 : for each hit}",
+        specialName: "Gum-Gum Storm [Neo]",
+        captain: "Reduces cooldown of all specials by 1 turn at the start of the fight, boosts ATK of Powerhouse characters by 3.5x, reduces crew's current HP by 10% at the end of each turn and reduces his own ATK multiplier by 0.1x at the end of each turn",
+        captainNotes: "His ATK multiplier will be 3.5x on the first turn, 3.4x on the second, 3.3x on the third and so on. The reduction stops once the multiplier is 1.0x. The multiplier affects all Powerhouse characters. You will not die to the HP reduction",
+        /*sailor: {
+            "base": "None",
+            "level1": "When HP is below ?% at the start of the turn, boosts base ATK of all characters by 40",
+            "level2": "When HP is below ?% at the start of the turn, boosts own base ATK by 80",
+        },
+        limit: [
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base ATK by 30" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Acquire Potential 1: Slot Bind Self-reduction" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base HP by 80" },
+            { "description": "Acquire Sailor Ability 1: When HP is below ?% at the start of the turn, boosts base ATK of all characters by 40" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 60" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire Sailor Ability 2: When HP is below ?% at the start of the turn, boosts own base ATK by 80" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
+        potential: [
+            {
+                "Name": "Slot Bind Self-reduction",
+                "description": [
+                    "Level 1: Reduces Slot Bind duration by 1 turn on this character",
+                    "Level 2: Reduces Slot Bind duration by 2 turns on this character",
+                    "Level 3: Reduces Slot Bind duration by 3 turns on this character",
+                    "Level 4: Reduces Slot Bind duration by 4 turns on this character",
+                    "Level 5: Reduces Slot Bind duration by 8 turns on this character"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 75",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 150",
+                    "Level 5: Boosts base ATK by 200"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"*/
     },
     5000: {//Smoker&Tashigi
         captain: "Boosts ATK of [INT] and [PSY] characters by 2.5x, reduce damage received by 7% and makes [INT] and [PSY] orbs beneficial for [INT] and [PSY] characters",
@@ -56215,5 +56459,305 @@ window.details = {
                 ]
             },
         ],
+    },
+    5176: {//Akainu&Fujitora
+        captain: "Boosts ATK of [STR] characters by 3.25x, boosts ATK of [DEX] and [INT] characters by 2.5x and makes [STR] orbs beneficial for [DEX] and [INT] characters.",
+        sailor: {
+            "base": "Boosts base ATK and HP of [STR], [DEX] and [INT] characters by 25",
+            "level1": "When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns"
+        },
+        special: "Instantly defeats all enemies with HP equal to or below 120x character's ATK, randomizes all orbs into either [STR] or [INT] orbs, cuts the current HP of each enemy by 20% and becomes Sakazuki & Issho for 2 turns.",
+        swap: "When Change is activated, amplifies the effect of orbs on [STR], [DEX] and [INT] characters by 1.5x for 1 turn and cuts the current HP of each enemy by 7% at the end of each turn for 1 turn.",
+        specialName: "Heavenly Eruption",
+        limit: [
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Sailor Ability 1: When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 80",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 120",
+                    "Level 5: Boosts base ATK by 200"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
+    },
+    5177: {//Akainu&Fujitora
+        captain: "Boosts ATK of [INT] characters by 3.25x, boosts ATK of [STR] and [DEX] characters by 2.5x and makes [INT] orbs beneficial for [STR] and [DEX] characters.",
+        sailor: {
+            "base": "Boosts base ATK and RCV of [STR], [DEX] and [INT] characters by 25",
+            "level1": "When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns"
+        },
+        special: "Instantly defeats all enemies with HP equal to or below 120x character's ATK, randomizes all orbs into either [STR] or [INT] orbs, cuts the current HP of each enemy by 20% and becomes Sakazuki & Issho for 2 turns.",
+        swap: "When Change is activated, amplifies the effect of orbs on [STR], [DEX] and [INT] characters by 1.5x for 1 turn and cuts the current HP of each enemy by 7% at the end of each turn for 1 turn.",
+        specialName: "Heavenly Eruption",
+        limit: [
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Sailor Ability 1: When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 80",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 120",
+                    "Level 5: Boosts base ATK by 200"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
+    },
+    5178: {//Akainu&Fujitora
+        captain: "Boosts ATK of [STR], [DEX] and [INT] characters by 3.75x, makes [STR] and [INT] orbs beneficial for [STR], [DEX] and [INT] characters and cuts the current HP of each enemy by 10% at the end of each turn.",
+        sailor: {
+            "base": "Boosts base ATK, HP and RCV of [STR], [DEX] and [INT] characters by 50",
+            "level1": "When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns"
+        },
+        special: "Instantly defeats all enemies with HP equal to or below 120x character's ATK, randomizes all orbs into either [STR] or [INT] orbs, cuts the current HP of each enemy by 20% and becomes Sakazuki & Issho for 2 turns.",
+        swap: "When Change is activated, amplifies the effect of orbs on [STR], [DEX] and [INT] characters by 1.5x for 1 turn and cuts the current HP of each enemy by 7% at the end of each turn for 1 turn.",
+        specialName: "Heavenly Eruption",
+        limit: [
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Sailor Ability 1: When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 80",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 120",
+                    "Level 5: Boosts base ATK by 200"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
+    },
+    5179: {//Akainu&Fujitora
+        captain: "Boosts ATK of [STR], [DEX] and [INT] characters by 3.75x, makes [STR] and [INT] orbs beneficial for [STR], [DEX] and [INT] characters and cuts the current HP of each enemy by 10% at the end of each turn.",
+        sailor: {
+            "base": "Boosts base ATK, HP and RCV of [STR], [DEX] and [INT] characters by 50",
+            "level1": "When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns"
+        },
+        special: "Instantly defeats all enemies with HP equal to or below 120x character's ATK, randomizes all orbs into either [STR] or [INT] orbs, cuts the current HP of each enemy by 20% and becomes Sakazuki & Issho for 2 turns.",
+        swap: "When Change is activated, amplifies the effect of orbs on [STR], [DEX] and [INT] characters by 1.5x for 1 turn and cuts the current HP of each enemy by 7% at the end of each turn for 1 turn.",
+        specialName: "Heavenly Eruption",
+        limit: [
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 10" },
+            { "description": "Boosts base HP by 30" },
+            { "description": "Boosts base RCV by 5" },
+            { "description": "Acquire Potential 1: [DEX] Damage Reduction" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 15" },
+            { "description": "Boosts base HP by 40" },
+            { "description": "Boosts base RCV by 10" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 20" },
+            { "description": "Reduce base Special Cooldown by 1 turn" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 20" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 30" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 25" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Acquire Sailor Ability 1: When any other [STR], [DEX] or [INT] character uses a special, reduces own cooldown by 4 turns" },
+            { "description": "Boosts base ATK by 40" },
+            { "description": "Boosts base HP by 50" },
+            { "description": "Boosts base RCV by 50" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Acquire 1 additional Socket slot" },
+            { "description": "Reduce base Special Cooldown by 2 turns" },
+            { "description": "Boosts base ATK by 45" },
+            { "description": "Boosts base HP by 60" },
+            { "description": "Reduce base Special Cooldown by 3 turns" },
+            { "description": "Acquire Potential 2: Enrage" },
+        ],
+        potential: [
+            {
+                "Name": "[DEX] Damage Reduction",
+                "description": [
+                    "Level 1: Reduce damage taken from [DEX] characters by 1%",
+                    "Level 2: Reduce damage taken from [DEX] characters by 2%",
+                    "Level 3: Reduce damage taken from [DEX] characters by 3%",
+                    "Level 4: Reduce damage taken from [DEX] characters by 4%",
+                    "Level 5: Reduce damage taken from [DEX] characters by 5%"
+                ]
+            },
+            {
+                "Name": "Enrage",
+                "description": [
+                    "Level 1: Boosts base ATK by 50",
+                    "Level 2: Boosts base ATK by 80",
+                    "Level 3: Boosts base ATK by 100",
+                    "Level 4: Boosts base ATK by 120",
+                    "Level 5: Boosts base ATK by 200"
+                ]
+            },
+        ],
+        potentialNotes: "#{enrage}"
     },
 };
