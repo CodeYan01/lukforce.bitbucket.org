@@ -336,27 +336,6 @@ var specials = {
         thumb: 2113
     },
 
-    'tp_1463': {
-        type: 'Tea Party',
-        name: 'Luffy',
-        thumb: 1463
-    },
-    'tp_1465': {
-        type: 'Tea Party',
-        name: 'Chopper',
-        thumb: 1465
-    },
-    'tp_1508': {
-        type: 'Tea Party',
-        name: 'Sanji',
-        thumb: 1508
-    },
-    'tp_1516': {
-        type: 'Tea Party',
-        name: 'Brook',
-        thumb: 1516
-    },
-
     'pm_1900': {
         type: 'Past Memory',
         name: 'Zoro',

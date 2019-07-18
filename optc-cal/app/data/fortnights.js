@@ -319,13 +319,29 @@ var fortnights = {
         name: 'Violet',
         thumb: 1450
     },
+    1463: {
+        name: 'Tea Party Luffy',
+        thumb: 1463
+    },
+    1465: {
+        name: 'Tea Party Chopper',
+        thumb: 1465
+    },
     1469: {
         name: 'Sentomaru',
         thumb: 1469
     },
+    1508: {
+        name: 'Tea Party Sanji',
+        thumb: 1508
+    },
     1509: {
         name: 'WB Pirates 3',
         thumb: 1509
+    },
+    1516: {
+        name: 'Tea Party Brook',
+        thumb: 1516
     },
     1520: {
         name: 'Dadan',

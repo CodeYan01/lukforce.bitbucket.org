@@ -80,8 +80,12 @@ var gw = {
     1416: '48083',      // Sengoku
     1426: '49863',      // Don Sai
     1450: '50896',      // Violet
+    1463: '51652',      // Tea Party Luffy
+    1465: '51896',      // Tea Party Chopper
     1469: '51925',      // Sentomaru
+    1508: '52627',      // Tea Party Sanji
     1509: '52630',      // WB Pirates 3
+    1516: '53094',      // Tea Party Brook
     1520: '53570',      // Dadan
     1547: '54303',      // Soul King
     1564: '55146',      // Elizabello
@@ -336,11 +340,6 @@ var gw = {
     'sb_1023': '29680', // Socket Book Ace
     'sb_1600': '56964', // Socket Book Luffy
     'sb_1985': '100032',// Socket Book Luffy & Ace
-
-    'tp_1463': '51652', // Tea Party Luffy
-    'tp_1465': '51896', // Tea Party Chopper
-    'tp_1508': '52627', // Tea Party Sanji
-    'tp_1516': '53094', // Tea Party Brook
 
     'pm_1900': '85046', // Past Memory Zoro
 

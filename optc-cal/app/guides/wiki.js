@@ -80,8 +80,12 @@ var wiki = {
     1416: 'wiki/fortnight/sengoku',
     1426: 'comments/6ydcrn',                // Don Sai
     1450: 'comments/71b58c',                // Violet
+    1463: '',                               // Tea Party Luffy
+    1465: '',                               // Tea Party Chopper
     1469: 'comments/72pt8v',                // Sentomaru
+    1508: '',                               // Tea Party Sanji
     1509: 'comments/75o9wt',                // WB Pirates 3
+    1516: '',                               // Tea Party Brook
     1520: 'comments/7742ll',                // Dadan
     1547: 'comments/7a1efx',                // Soul King
     1564: 'comments/7d1cp1',                // Elizabello

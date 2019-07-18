@@ -80,8 +80,12 @@ drops = {
     1416: 'Full%20Defense!%20Buddha%20Sengoku!%20Fortnight',
     1426: 'Chinjao%20Family!%20Fortnight',
     1450: 'Fugitive%20of%20Love%20and%20Passion!!%20Fortnight',
+    1463: 'Sweet%20Tea%20Time',
+    1465: 'Sweet%20Tea%20Time',
     1469: 'Gatekeeper%20of%20the%20New%20World!%20Fortnight',
+    1508: 'Sweet%20Tea%20Time',
     1509: 'Departure!%20Whitebeard%20Pirates%20Fortnight',
+    1516: 'Sweet%20Tea%20Time',
     1520: 'Bandits!%20Dadan%20Family!%20Fortnight',
     1547: 'Encourage%20the%20Soul!%20Fortnight',
     1564: 'Fight%20for%20your%20Friends!%20Fortnight',
@@ -135,9 +139,5 @@ drops = {
     989: 'Clash!?%20Impostor%20Straw%20Hat%20Pirates%20Raid',
 
     // Events
-    'tp_1463': 'Sweet%20Tea%20Time',
-    'tp_1465': 'Sweet%20Tea%20Time',
-    'tp_1508': 'Sweet%20Tea%20Time',
-    'tp_1516': 'Sweet%20Tea%20Time',
     'pm_1900': 'Pirate%20Hunter%27s%20Memories%20of%20Training',
 };

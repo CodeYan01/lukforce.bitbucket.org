@@ -892,7 +892,7 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 1774,
+        id: [1465, 1774],
         start: '2018-04-10',
         end: '2018-04-17',
         is_replay: false
@@ -906,13 +906,13 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 1810,
+        id: [1463, 1810],
         start: '2018-04-17',
         end: '2018-04-24',
         is_replay: false
     },
     {
-        id: 1810,
+        id: [1508, 1810],
         start: '2018-04-24',
         end: '2018-05-01',
         is_replay: false
@@ -945,7 +945,7 @@ var fortnightEvents = [
 
     // #############################
     {
-        id: 1818,
+        id: [1516, 1818],
         start: '2018-05-01',
         end: '2018-05-08',
         is_replay: false
@@ -1486,9 +1486,27 @@ var fortnightEvents = [
         is_replay: true
     },
     {
+        id: 1463,
+        start: '2019-01-22',
+        end: '2019-01-27',
+        is_replay: true
+    },
+    {
         id: [1328, 1520, 1774, 1947],
         start: '2019-01-22',
         end: '2019-01-29',
+        is_replay: true
+    },
+    {
+        id: 1465,
+        start: '2019-01-27',
+        end: '2019-01-29',
+        is_replay: true
+    },
+    {
+        id: 1465,
+        start: '2019-01-29',
+        end: '2019-02-01',
         is_replay: true
     },
 
@@ -1848,19 +1866,25 @@ var fortnightEvents = [
         is_replay: true
     },
     {
-        id: [337, 424],
+        id: [337, 424, 1463, 1465],
         start: '2019-07-15',
         end: '2019-07-22',
         is_replay: true
     },
     {
-        id: [1918, 2056],
+        id: [1508, 1516],
+        start: '2019-07-22',
+        end: '2019-07-25',
+        is_replay: true
+    },
+    {
+        id: [1508, 1516, 1918, 2056],
         start: '2019-07-25',
         end: '2019-07-29',
         is_replay: true
     },
     {
-        id: [1918, 2056, 1357, 2253],
+        id: [1357, 2253, 1918, 2056],
         start: '2019-07-29',
         end: '2019-08-04',
         is_replay: true
