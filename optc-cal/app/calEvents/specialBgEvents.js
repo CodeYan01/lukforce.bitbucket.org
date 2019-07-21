@@ -2122,4 +2122,9 @@ var specialBgEvents = [
         start: '2019-07-16',
         end: '2019-07-21'
     },
+    {
+        id: 'sugo',
+        start: '2019-07-21',
+        end: '2019-07-25'
+    },
 ]
