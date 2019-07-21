@@ -2682,23 +2682,28 @@ var raidEvents = [
     },
     {
         id: [1924, 1930],
-        start: '2019-07-20'
+        start: '2019-07-20',
+        ambush: cavendish
     },
     {
         id: 2097,
-        start: '2019-07-21'
+        start: '2019-07-21',
+        ambush: garp
     },
     {
         id: [1432, 2097],
-        start: '2019-07-22'
+        start: '2019-07-22',
+        ambush: garp
     },
     {
         id: [1432, 2033],
-        start: '2019-07-23'
+        start: '2019-07-23',
+        ambush: garp
     },
     {
         id: 2033,
-        start: '2019-07-24'
+        start: '2019-07-24',
+        ambush: garp
     },
     {
         id: 447,
