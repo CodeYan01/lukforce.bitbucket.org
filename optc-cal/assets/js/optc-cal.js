@@ -48,7 +48,13 @@ function showFooter() {
                     res['ranking'].push(fortnights[e['ranking']]['thumb']);
             }
 
+            if (e['ambush']) {
+                res['ambush'] = e['ambush'];
+                createAmbushEvent(eventArray, e['ambush'], e['start'], e['end'], 'fn', isPST);
+            }
+
             res['type'] = 'fortnight';
+
             res['is_replay'] = e['is_replay'];
 
             // Add one day for 19:00 events for GMT mode
@@ -232,11 +238,17 @@ function showFooter() {
 
             start += ' 06:00';
             res['start'] = start;
-        } else {
+        } else if ('coliseum' === src) {
             res['type'] = 'coliAmbush';
             res['color'] = coliColorNew;
 
             start += ' 04:00';
+            res['start'] = start;
+        } else if ('fn' === src) {
+            res['type'] = 'fnAmbush';
+            res['color'] = fnColorNew;
+
+            start += ' 01:45';
             res['start'] = start;
         }
 
@@ -499,10 +511,11 @@ function showFooter() {
                 ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
                 ed.find('.eventTitle').text(data['name']);
 
-                if (e['type'] === 'raid' ||
+                if (
+                    e['type'] === 'raid' ||
                     e['type'] === 'coliseum' ||
-                    e['type'] === 'ambush' ||
-                    e['type'] === 'tm')
+                    e['type'] === 'tm'
+                )
                     createListItem(ed, '.db', 'http://optc-db.github.io/characters/#/view/', id, 'OPTC-DB Character Page');
 
                 if (drops[id])
@@ -546,10 +559,13 @@ function showFooter() {
         switch (eProps.type) {
             case 'fortnight':
                 if (eProps.is_replay)
-                    order = 7;
-                else
                     order = 8;
+                else
+                    order = 9;
 
+                break;
+            case 'fnAmbush':
+                order = 7;
                 break;
             case 'raid':
                 order = 2;
@@ -709,7 +725,11 @@ function showFooter() {
                     }
 
                     element.css('min-height', '32px');
-                } else if (event['type'] === 'raidAmbush' || event['type'] === 'coliAmbush') {
+                } else if (
+                    event['type'] === 'raidAmbush' ||
+                    event['type'] === 'coliAmbush' ||
+                    event['type'] === 'fnAmbush'
+                ) {
                     var unitImg = createImgHtml(getThumb(event['thumb']), 15, true);
                     unitImg.addClass('unit-img');
                     unitImg.data('id', parseInt(event['thumb']), 10);

@@ -1878,9 +1878,10 @@ var fortnightEvents = [
         is_replay: true
     },
     {
-        id: [1508, 1516, 1918, 2056],
+        id: [1508, 1516, 1918, 2056, 2377],
         start: '2019-07-25',
         end: '2019-07-29',
+        ambush: kid_bm,
         is_replay: true
     },
     {

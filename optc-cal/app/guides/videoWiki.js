@@ -64,6 +64,7 @@ var videoWiki = {
     1530: 'raidboss/invadecavendish',
     1846: 'raidboss/invadegarp',
     2283: 'raidboss/invadesengoku',
+    2381: 'raidboss/invadelinlin',
 
     3354: 'raidboss/youngwbkai',
 

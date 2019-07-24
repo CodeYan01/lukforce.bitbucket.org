@@ -199,6 +199,7 @@ var nakama = {
     1530: '6153000',    // Cavendish
     1846: '6184600',    // Young Garp
     2283: '6228300',    // Young Sengoku
+    2381: '6238100',    // Kid Big Mom
 
     3354: '6335400',    // Young Whitebeard (N)
 

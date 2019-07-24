@@ -199,6 +199,7 @@ var gw = {
     1530: '53621',      // Cavendish
     1846: '75260',      // Young Garp
     2283: '122270',     // Young Sengoku
+    2381: '136823',     // Kid Big Mom
 
     3354: '',           // Young Whitebeard (N)
 

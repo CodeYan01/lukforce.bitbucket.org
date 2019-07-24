@@ -3,6 +3,7 @@ var shanks = 1380;
 var cavendish = 1530;
 var garp = 1846;
 var sengoku = 2283;
+var kid_bm = 2381;
 
 var ywb_n = 3354;
 

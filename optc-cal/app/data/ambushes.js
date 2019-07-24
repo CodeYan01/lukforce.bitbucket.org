@@ -19,6 +19,10 @@ var ambushes = {
         name: 'Sengoku',
         thumb: 2283
     },
+    2381: {
+        name: 'Kid Big Mom',
+        thumb: 2381
+    },
 
     // Neo Ambushes
     3354: {

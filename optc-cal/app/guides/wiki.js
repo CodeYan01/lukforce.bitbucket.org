@@ -199,6 +199,7 @@ var wiki = {
     1530: 'wiki/cavendish',
     1846: 'wiki/primegarp',
     2283: 'wiki/primesengoku',
+    2381: '',                               // Kid Big Mom
 
     3354: '',                               // Young Whitebeard (N)
 
