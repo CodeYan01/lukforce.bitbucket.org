@@ -336,6 +336,7 @@ var nakama = {
     '20_1682': '6168600',   // 20th Anni SH Mission 1
     '20_1755': '6175500',   // 20th Anni SH Showdown 2
     '20_1753': '6175700',   // 20th Anni SH Mission 2
+    '21_1755': '',          // 20th Anni SH Skillbooks
 
     'sb_1023': '6102300',   // Socket Book Ace
     'sb_1600': '6160000',   // Socket Book Luffy

@@ -129,6 +129,11 @@ var specials = {
         name: 'SH Mission 2',
         thumb: 1753
     },
+    '21_1755': {
+        type: '20th Anni SH',
+        name: 'Skillbooks',
+        thumb: 1755
+    },
 
     'sb_1023': {
         type: 'Socket Book',

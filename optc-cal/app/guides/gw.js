@@ -336,6 +336,7 @@ var gw = {
     '20_1682': '62390', // 20th Anni SH Mission 1
     '20_1755': '66020', // 20th Anni SH Showdown 2
     '20_1753': '66092', // 20th Anni SH Mission 2
+    '21_1755': '114166',// 20th Anni SH Skillbooks
 
     'sb_1023': '29680', // Socket Book Ace
     'sb_1600': '56964', // Socket Book Luffy
