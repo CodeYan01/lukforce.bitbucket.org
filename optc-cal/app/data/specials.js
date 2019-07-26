@@ -433,4 +433,20 @@ var specials = {
         name: 'Eneru',
         thumb: 603
     },
+
+    '66_2234': {
+        type: 'Germa 66 Counter',
+        name: 'Big Mom',
+        thumb: 2234
+    },
+    '66_2365': {
+        type: 'Germa 66 Counter',
+        name: 'Katakuri',
+        thumb: 2365
+    },
+    '66_2351': {
+        type: 'Germa 66 Counter',
+        name: 'Perospero',
+        thumb: 2351
+    },
 }
