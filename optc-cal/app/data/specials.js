@@ -405,6 +405,11 @@ var specials = {
         name: 'Franky',
         thumb: 2300
     },
+    'se_2446': {
+        type: 'Super Evolve',
+        name: 'Germa 66 v2',
+        thumb: 2446
+    },
 
     'co_2161': {
         type: 'Co-op Mission',
