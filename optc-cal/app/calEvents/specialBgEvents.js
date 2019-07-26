@@ -2140,6 +2140,42 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'ss',
+        start: '2019-07-25',
+        end: '2019-07-27',
+        pst_19: true
+    },
+    {
+        id: 'train_drink',
+        start: '2019-07-25',
+        end: '2019-07-29',
+        pst_19: true
+    },
+    {
+        id: 'cola',
+        start: '2019-07-25',
+        end: '2019-07-28',
+        pst_19: true
+    },
+    {
+        id: 'sp_x4',
+        start: '2019-07-27',
+        end: '2019-07-31',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-07-28',
+        end: '2019-08-05',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-07-31',
+        end: '2019-08-03',
+        pst_19: true
+    },
+    {
         id: 'sugo',
         start: '2019-07-27',
         end: '2019-08-06'
