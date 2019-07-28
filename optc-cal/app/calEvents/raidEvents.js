@@ -2716,7 +2716,8 @@ var raidEvents = [
     },
     {
         id: 1879,
-        start: '2019-07-27'
+        start: '2019-07-27',
+        ambush: ywb
     },
     {
         id: 2158,
