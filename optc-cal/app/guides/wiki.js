@@ -297,6 +297,7 @@ var wiki = {
     2323: 'wiki/coliseum/oven',
     2354: '',                               // Magellan
     2375: 'wiki/coliseum/smoothie',
+    2471: '',                               // Katakuri
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

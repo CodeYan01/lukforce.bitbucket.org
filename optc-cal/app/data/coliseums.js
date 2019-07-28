@@ -464,6 +464,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2375
     },
+    2471: {
+        name: 'Katakuri',
+        chaos_only: true, // Not but new format
+        thumb: 2471
+    },
 
     // Neo Coliseums
     1863: {
