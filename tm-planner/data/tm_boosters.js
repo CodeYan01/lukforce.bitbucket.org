@@ -7032,13 +7032,62 @@ var tm_boosters = {
 
     // ========== Smoothie & Oven ==========
     2469: [
-        {   // Nami
-            id: 2362,
+        {   // Sanji & Judge
+            id: 2446,
+            x_pts: 1.35
+        },
+        {   // Ichiji v2
+            id: 2447,
+            x_pts: 1.35
+        },
+        {   // Ichiji v2 5+
+            id: 2448,
+            x_pts: 1.35
+        },
+        {   // Niji v2
+            id: 2449,
+            x_pts: 1.35
+        },
+        {   // Niji v2 5+
+            id: 2450,
+            x_pts: 1.35
+        },
+        {   // Yonji v2
+            id: 2451,
+            x_pts: 1.35
+        },
+        {   // Yonji v2 5+
+            id: 2452,
+            x_pts: 1.35
+        },
+        {   // Reiju v2
+            id: 2453,
+            x_pts: 1.35
+        },
+        {   // Reiju v2 5+
+            id: 2454,
             x_pts: 1.35
         },
         {   // Nightmare Luffy (N)
             id: 3357,
             x_pts: 1.35
+        },
+        {   // Katakuri
+            id: 2471,
+            x_pts: 1.35
+        },
+        {   // Nami
+            id: 2362,
+            x_pts: 1.35
+        },
+        {   // Young Big Mom
+            id: 2381,
+            x_pts: 1.35
+        },
+        {   // LRR Judge
+            id: 2287,
+            type: 'rr',
+            x_pts: 1.2
         },
         {   // Wild West Luffy
             id: 2410,
