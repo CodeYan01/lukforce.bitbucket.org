@@ -3124,4 +3124,30 @@ var coliseumEvents = [
         start: '2019-08-10',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: [2471],
+        repId: [1220, 1792, 2123, 2163],
+        start: '2019-08-02',
+        new_batch: false
+    },
+    {
+        newId: [2471],
+        repId: [1220, 1792, 2123, 2163],
+        start: '2019-08-05',
+        new_batch: false
+    },
+    {
+        newId: [2471],
+        repId: [1220, 1792, 2123, 2163],
+        start: '2019-08-09',
+        new_batch: false
+    },
+    {
+        newId: [2471],
+        repId: [1220, 1792, 2123, 2163],
+        start: '2019-08-12',
+        new_batch: false
+    },
 ]
