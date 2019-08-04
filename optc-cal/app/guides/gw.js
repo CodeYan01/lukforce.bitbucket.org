@@ -125,6 +125,8 @@ var gw = {
     2144: '109801',     // Diamante
     2165: '111404',     // Baby 5 & Sai
     2177: '114146',     // Nekomamushi
+    2215: '114689',     // Summer Reiju
+    2217: '116142',     // Summer Conis
     2219: '116883',     // Inuarashi
     2253: '118916',     // Pound
     2277: '121547',     // TS Buggy

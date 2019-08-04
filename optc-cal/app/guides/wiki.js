@@ -125,6 +125,8 @@ var wiki = {
     2144: 'wiki/fortnight/diamante_rebecca',
     2165: 'wiki/fortnight/baby5_donsai',
     2177: 'comments/ac1goh',                // Nekomamushi
+    2215: '',                               // Summer Reiju
+    2217: '',                               // Summer Conis
     2219: 'wiki/fortnight/comeback_duke_dogstorm',
     2253: '',                               // Pound
     2277: 'wiki/fortnight/buggy_pirates',

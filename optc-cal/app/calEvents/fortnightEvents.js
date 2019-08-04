@@ -1895,4 +1895,18 @@ var fortnightEvents = [
         start: '2019-08-04',
         is_replay: true
     },
+
+    // #############################
+    {
+        id: [2215, 2217],
+        start: '2019-08-05',
+        end: '2019-08-12',
+        is_replay: false
+    },
+    {
+        id: [2215, 2217],
+        start: '2019-08-12',
+        end: '2019-08-19',
+        is_replay: false
+    },
 ];

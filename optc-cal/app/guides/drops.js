@@ -125,6 +125,8 @@ drops = {
     2144: 'Coliseum%20Executioner!%20Fortnight',
     2165: 'Baby%205%27s%20Wedding%20Plans%20Fortnight',
     2177: 'Let%27s%20Go%20See%20The%20Cat%20Viper!%20Fortnight',
+    2215: 'Girls%20of%20Summer%20Paradise',
+    2217: 'Girls%20of%20Summer%20Paradise',
     2219: 'Recover!%20King%20of%20Day%20Duke%20Inuarashi%20Fortnight',
     2253: 'Lets%20Play%20in%20The%20Seducing%20Woods%20Fortnight',
     2277: 'The%20Genius%20Jester!%20Buggy%27s%20Festival!%20Fortnight',

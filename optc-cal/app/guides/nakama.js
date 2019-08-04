@@ -125,6 +125,8 @@ var nakama = {
     2144: '2214600',    // Diamante
     2165: '2216500',    // Baby 5 & Sai
     2177: '2217700',    // Nekomamushi
+    2215: '6068300',    // Summer Reiju
+    2217: '6068300',    // Summer Conis
     2219: '2221900',    // Inuarashi
     2253: '2225300',    // Pound
     2277: '2227700',    // TS Buggy

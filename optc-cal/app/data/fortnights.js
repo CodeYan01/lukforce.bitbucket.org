@@ -499,6 +499,14 @@ var fortnights = {
         name: 'Nekomamushi',
         thumb: 2177
     },
+    2215: {
+        name: 'Summer Reiju',
+        thumb: 2215
+    },
+    2217: {
+        name: 'Summer Conis',
+        thumb: 2217
+    },
     2219: {
         name: 'Inuarashi',
         thumb: 2219
