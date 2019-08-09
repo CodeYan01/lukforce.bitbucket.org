@@ -195,6 +195,7 @@ var wiki = {
     3340: '',                               // Garp (N)
     3352: '',                               // Ivankov (N)
     3357: '',                               // Nightmare Luffy (N)
+    3359: '',                               // Vergo (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',

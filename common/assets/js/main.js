@@ -73,9 +73,13 @@ function getThumb(thumbId) {
     if (thumbId === 5037 || thumbId === 3355)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5037.png';
 
-    // Special case for Ranking Wanda
+    // Special case for Nightmare Luffy (N)
     if (thumbId === 5043 || thumbId === 3357)
         return '/tm-planner/assets/img/new-thumbs/5043.png';
+
+    // Special case for Vergo (N)
+    if (thumbId === 5045 || thumbId === 3359)
+        return '/tm-planner/assets/img/new-thumbs/5045.png';
 
     // Special cases for new thumbs
     if (

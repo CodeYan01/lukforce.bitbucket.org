@@ -58,6 +58,7 @@ var videoWiki = {
     3340: 'raidboss/garpkai',
     3352: 'raidboss/ivankovkai',
     3357: '',   // Nightmare Luffy (N)
+    3359: '',   // Vergo (N)
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',

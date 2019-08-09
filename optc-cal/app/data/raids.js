@@ -229,8 +229,8 @@ var raids = {
         name: 'Nightmare Luffy (N)',
         thumb: 5043
     },
-    9999: {
+    3359: {
         name: 'Vergo (N)',
-        thumb: -1
+        thumb: 5045
     },
 };
