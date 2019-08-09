@@ -1910,13 +1910,25 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: [1201, 1709, 1711, 1049, 2177],
+        id: [683, 1201, 1709, 1049, 2177],
         start: '2019-08-05',
         end: '2019-08-12',
         is_replay: true
     },
     {
-        id: [681, 683, 685, 1199],
+        id: 685,
+        start: '2019-08-09',
+        end: '2019-08-12',
+        is_replay: true
+    },
+    {
+        id: 685,
+        start: '2019-08-12',
+        end: '2019-08-16',
+        is_replay: true
+    },
+    {
+        id: [681, 1199, 1711],
         start: '2019-08-12',
         end: '2019-08-19',
         is_replay: true
