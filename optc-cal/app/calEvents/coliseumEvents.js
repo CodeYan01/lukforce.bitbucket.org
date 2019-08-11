@@ -3155,10 +3155,29 @@ var coliseumEvents = [
     // ##############################
     {
         newId: [2471],
-        repId: [],
+        repId: [1310, 1553, 2249, 1018],
         start: '2019-08-13',
         end: '2019-08-15',
         ambush: sengoku,
+        new_batch: true
+    },
+    {
+        newId: [2471],
+        repId: [1310, 1553, 2249, 1018],
+        start: '2019-08-17',
+        new_batch: true
+    },
+    {
+        newId: [2471],
+        repId: [1310, 1553, 2249, 1018],
+        start: '2019-08-20',
+        end: '2019-08-22',
+        new_batch: true
+    },
+    {
+        newId: [2471],
+        repId: [1310, 1553, 2249, 1018],
+        start: '2019-08-24',
         new_batch: true
     },
 ]
