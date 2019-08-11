@@ -28,6 +28,9 @@ function getBoosters(tmId, server) {
     // Reset
     $('.booster').remove();
 
+    $('#info_1_2x_main').show();
+    $('#info_1_2x_alt').hide();
+
     // Change 2x or 2.25x version
     $('.div_x').hide();
     if (
@@ -197,6 +200,19 @@ function getBoosters(tmId, server) {
         $('#div_1_4x_v2').show();
         $('#div_1_3x').show();
         $('#div_1_25x_v3').show();
+    } else if (server == 'jpn' && tmId == 2659) {
+        // TM Smoker
+        $('#div_2x').show();
+        $('#div_1_8x').show();
+        $('#div_1_6x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v2').show();
+        $('#div_1_3x').show();
+        $('#div_1_25x_v3').show();
+        $('#div_1_25x_v4').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -419,7 +435,8 @@ function init(tmId, server) {
         tmId == 2336 ||
         tmId == 2387 ||
         tmId == 2469 ||
-        tmId == 2557
+        tmId == 2557 ||
+        tmId == 2659
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');

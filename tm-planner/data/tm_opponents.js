@@ -174,6 +174,14 @@ var tm_opponents = {
         2605: ['Coby',          'STR',      1],
         2618: [['Sakazuki & ', 'Issho'], ['STR', 'INT'], 4]
     },
+    2659: {
+        1974: ['Hawkins',       'STR',      1],
+        2302: ['Bege',          'INT',      3],
+        2642: ['Kid & Killer',  'STR',      0],
+        2644: ['Drake & Urouge', 'DEX',     2],
+        2633: ['Luffy',         'PSY',      4],
+        2659: ['Smoker',        'QCK',      5]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
