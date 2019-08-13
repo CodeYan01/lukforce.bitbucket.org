@@ -64,8 +64,7 @@ function getBoosters(tmId, server) {
             tmId == 2261 ||
             tmId == 2299 ||
             tmId == 2336 ||
-            tmId == 2387 ||
-            tmId == 2469
+            tmId == 2387
         )
     ) {
         // TM Jack
@@ -75,7 +74,6 @@ function getBoosters(tmId, server) {
         // TM Hancock
         // TM Law
         // TM Kaido
-        // TM Smoothie & Oven
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
@@ -84,6 +82,15 @@ function getBoosters(tmId, server) {
     } else if (server == 'glb' && tmId == 2362) {
         // TM Nami
         $('#div_2_2x').show();
+        $('#div_1_75x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x').show();
+        $('#div_1_1x').show();
+        $('#div_1x').show();
+    } else if (server == 'glb' && tmId == 2469) {
+        // TM Smoothie & Oven
+        $('#div_2_2x').show();
+        $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();
@@ -223,11 +230,7 @@ function getBoosters(tmId, server) {
     if (server === 'glb') {
         boosters = tm_boosters[tmId];
         $('#div_1_2x_tm_rr').show();
-
-        if (tmId !== 2362)
-            $('#div_1_2x_tm').show();
-        else
-            $('#div_1_2x_tm').hide();
+        $('#div_1_2x_tm').show();
     } else
         boosters = tm_boosters_jpn[tmId];
 
