@@ -325,6 +325,7 @@ var nakama = {
     2336: '8233600',    // Law
     2362: '8236200',    // Nami
     2387: '8238700',    // Kaido
+    2469: '8246900',    // Smoothie & Oven
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

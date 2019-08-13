@@ -325,6 +325,7 @@ var gw = {
     2336: '128733',     // Law
     2362: '134017',     // Nami
     2387: '137053',     // Kaido
+    2469: '144785',     // Smoothie & Oven
 
     // Events
     'bb_1314': '61665', // Three Admirals
