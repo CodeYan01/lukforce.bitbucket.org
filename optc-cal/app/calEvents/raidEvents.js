@@ -2817,11 +2817,13 @@ var raidEvents = [
     },
     {
         id: 2552,
-        start: '2019-08-18'
+        start: '2019-08-18',
+        ambush: kid_bm
     },
     {
         id: 2552,
-        start: '2019-08-19'
+        start: '2019-08-19',
+        ambush: kid_bm
     },
     {
         id: 978,
