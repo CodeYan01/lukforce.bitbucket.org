@@ -2231,4 +2231,22 @@ var specialBgEvents = [
         start: '2019-08-19',
         end: '2019-08-26'
     },
+    {
+        id: 'mat',
+        start: '2019-08-19',
+        end: '2019-08-24',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-08-21',
+        end: '2019-08-24',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-08-24',
+        end: '2019-08-26',
+        pst_19: true
+    },
 ]
