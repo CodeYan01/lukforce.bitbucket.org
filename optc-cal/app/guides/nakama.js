@@ -359,4 +359,5 @@ var nakama = {
     'se_2446': '6244600',   // Super Evolve Germa 66 v2
 
     'sp_0603': '4060301',   // Support Raid Eneru
+    'sp_1879': '4187901',   // Support Raid Bartolomeo
 };

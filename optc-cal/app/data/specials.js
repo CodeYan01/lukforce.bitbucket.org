@@ -433,6 +433,11 @@ var specials = {
         name: 'Eneru',
         thumb: 603
     },
+    'sp_1879': {
+        type: 'Support Raid',
+        name: 'Bartolomeo',
+        thumb: 1879
+    },
 
     '66_2234': {
         type: 'Germa 66 Counter',

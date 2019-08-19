@@ -366,4 +366,5 @@ var gw = {
     'se_2446': '143826',// Super Evolve Germa 66 v2
 
     'sp_0603': '138206',// Support Raid Eneru
+    'sp_1879': '142094',// Support Raid Bartolomeo
 };
