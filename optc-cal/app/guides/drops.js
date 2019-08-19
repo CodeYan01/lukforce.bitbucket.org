@@ -135,6 +135,7 @@ drops = {
     2327: 'Forces%20of%20Rage%20-%20Amande%20and%20Bobbin%20Fortnight',
     2351: 'The%20Finest%20of%20Tea%20Parties!%20Fortnight',
     2377: 'Our%20Lady%27s%20Motherly%20Love%20Fortnight',
+    2428: 'Cavendish%27s%20Rose%20Colored%20Melancholy%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

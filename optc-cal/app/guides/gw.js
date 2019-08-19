@@ -135,6 +135,7 @@ var gw = {
     2327: '127787',     // Amande & Bobbin
     2351: '133025',     // Perospero
     2377: '136822',     // Mother Carmel
+    2428: '141693',     // Cavendish
 
     // Raids
     227: '4142',        // Mihawk

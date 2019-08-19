@@ -135,6 +135,7 @@ var nakama = {
     2327: '2232700',    // Amande & Bobbin
     2351: '2235100',    // Perospero
     2377: '2237700',    // Mother Carmel
+    2428: '2242800',    // Cavendish
 
     // Raids
     227: '4022700',     // Mihawk

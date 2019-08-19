@@ -135,6 +135,7 @@ var wiki = {
     2327: '',                               // Amande & Bobbin
     2351: '',                               // Perospero
     2377: '',                               // Mother Carmel
+    2428: '',                               // Cavendish
 
     // Raids
     227: 'wiki/raidboss/mihawk',
