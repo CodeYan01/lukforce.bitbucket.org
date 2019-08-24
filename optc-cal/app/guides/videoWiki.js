@@ -163,6 +163,7 @@ var videoWiki = {
     2323: 'coliseum/charlotte_oven',
     2354: 'coliseum/magellan',
     2375: 'coliseum/charlotte_smoothie',
+    2416: 'coliseum/pica',
     2471: 'coliseum/charlotte_katakuri',
 
     1863: 'coliseum/kinemonkai',

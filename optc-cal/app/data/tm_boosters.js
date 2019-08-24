@@ -78,6 +78,7 @@ var tm_boosters = [
     // Raids
 
     // Coliseums
+    2416,
 
     // FNs
     2428,

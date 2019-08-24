@@ -464,6 +464,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2375
     },
+    2416: {
+        name: 'Pica',
+        chaos_only: true, // Not but new format
+        thumb: 2416
+    },
     2471: {
         name: 'Katakuri',
         chaos_only: true, // Not but new format
