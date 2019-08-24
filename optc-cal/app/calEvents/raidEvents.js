@@ -2843,15 +2843,18 @@ var raidEvents = [
     },
     {
         id: 2097,
-        start: '2019-08-24'
+        start: '2019-08-24',
+        ambush: garp
     },
     {
         id: 2281,
-        start: '2019-08-25'
+        start: '2019-08-25',
+        ambush: kid_bm
     },
     {
         id: 2281,
-        start: '2019-08-26'
+        start: '2019-08-26',
+        ambush: kid_bm
     },
     {
         id: 1879,
