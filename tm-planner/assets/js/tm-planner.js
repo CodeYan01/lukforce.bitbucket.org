@@ -64,7 +64,8 @@ function getBoosters(tmId, server) {
             tmId == 2261 ||
             tmId == 2299 ||
             tmId == 2336 ||
-            tmId == 2387
+            tmId == 2387 ||
+            tmId == 2443
         )
     ) {
         // TM Jack
@@ -74,6 +75,7 @@ function getBoosters(tmId, server) {
         // TM Hancock
         // TM Law
         // TM Kaido
+        // TM Doffy
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
