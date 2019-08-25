@@ -533,9 +533,6 @@ function showFooter() {
                 if (videoWiki[id])
                     createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
 
-                if (sd[id])
-                    createListItem(ed, '.sevenDays', 'https://youtu.be/', sd[id], '7 Days YouTube Stage Guide');
-
                 if (e['type'] === 'tm') {
                     if (data.info != '')
                         createListItem(ed, '.tmInfo', 'https://', data.info, 'TM Info Graphic');
