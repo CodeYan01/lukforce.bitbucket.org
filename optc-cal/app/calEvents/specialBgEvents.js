@@ -2250,6 +2250,12 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'sp',
+        start: '2019-08-26',
+        end: '2019-09-02',
+        pst_19: true
+    },
+    {
         id: 'sugo',
         start: '2019-08-26',
         end: '2019-09-03'
@@ -2258,6 +2264,17 @@ var specialBgEvents = [
         id: 'garp',
         start: '2019-08-26',
         end: '2019-09-30',
+        pst_19: true
+    },
+    {
+        id: 'princess',
+        start: '2019-08-27',
+        end: '2019-09-01'
+    },
+    {
+        id: 'celestials',
+        start: '2019-08-31',
+        end: '2019-09-03',
         pst_19: true
     },
 ]
