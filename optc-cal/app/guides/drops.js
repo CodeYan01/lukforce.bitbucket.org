@@ -127,15 +127,15 @@ drops = {
     2177: 'Let%27s%20Go%20See%20The%20Cat%20Viper!%20Fortnight',
     2215: 'Girls%20of%20Summer%20Paradise',
     2217: 'Girls%20of%20Summer%20Paradise',
-    2219: 'Recover!%20King%20of%20Day%20Duke%20Inuarashi%20Fortnight',
+    2219: 'Comeback!%20%22King%20of%20the%20Day%22%20Duke%20Dogstorm%20Fortnight',
     2253: 'Lets%20Play%20in%20The%20Seducing%20Woods%20Fortnight',
     2277: 'The%20Genius%20Jester!%20Buggy%27s%20Festival!%20Fortnight',
     2292: 'Dead%20or%20Treat!!%20Sweetie%20Party',
     2294: 'Dead%20or%20Treat!!%20Sweetie%20Party',
     2327: 'Forces%20of%20Rage%20-%20Amande%20and%20Bobbin%20Fortnight',
     2351: 'The%20Finest%20of%20Tea%20Parties!%20Fortnight',
-    2377: 'Our%20Lady%27s%20Motherly%20Love%20Fortnight',
-    2428: 'Cavendish%27s%20Rose%20Colored%20Melancholy%20Fortnight',
+    2377: 'Holy%20Mother%27s%20Love%20-%20Mother%20Carmel%20Fortnight',
+    2428: 'Rosy%20Melancholy%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',
