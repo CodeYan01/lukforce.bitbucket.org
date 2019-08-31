@@ -178,7 +178,7 @@ var wiki = {
     2197: 'wiki/raidboss/v2bb',
     2263: 'wiki/raidboss/v2doflamingo',
     2281: 'wiki/raidboss/judge',
-    2356: '',                               // Arlong
+    2356: 'wiki/raidboss/arlong',
     2552: 'comments/aa693j',                // Sengoku & Garp
     3342: '',                               // Shanks & Mihawk
 
@@ -299,7 +299,7 @@ var wiki = {
     2249: 'wiki/coliseum/daifuku',
     2290: 'wiki/coliseum/niwatori',
     2323: 'wiki/coliseum/oven',
-    2354: '',                               // Magellan
+    2354: 'wiki/coliseum/magellan',
     2375: 'wiki/coliseum/smoothie',
     2416: '',                               // Pica
     2471: '',                               // Katakuri
