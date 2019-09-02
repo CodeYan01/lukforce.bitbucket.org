@@ -2277,4 +2277,46 @@ var specialBgEvents = [
         end: '2019-09-03',
         pst_19: true
     },
+    {
+        id: 'ss',
+        start: '2019-09-03',
+        end: '2019-09-09',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp',
+        start: '2019-09-10',
+        end: '2019-09-13',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-09-14',
+        end: '2019-09-16',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-09-18',
+        end: '2019-09-22',
+        pst_19: true
+    },
+    {
+        id: 'celestials',
+        start: '2019-09-22',
+        end: '2019-09-26',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-09-25',
+        end: '2019-09-30',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-09-25',
+        end: '2019-09-30',
+        pst_19: true
+    },
 ]
