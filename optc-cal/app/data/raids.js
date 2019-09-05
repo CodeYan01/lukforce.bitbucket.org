@@ -233,8 +233,8 @@ var raids = {
         name: 'Vergo (N)',
         thumb: 5045
     },
-    9999: {
+    3368: {
         name: 'Duval (N)',
-        thumb: -1
+        thumb: 5041
     },
 };

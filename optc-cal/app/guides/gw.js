@@ -197,6 +197,7 @@ var gw = {
     3352: '',           // Ivankov (N)
     3357: '',           // Nightmare Luffy (N)
     3359: '',           // Vergo (N)
+    3368: '',           // Duval (N)
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks

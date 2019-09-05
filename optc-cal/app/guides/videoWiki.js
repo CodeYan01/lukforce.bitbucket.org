@@ -59,6 +59,7 @@ var videoWiki = {
     3352: 'raidboss/ivankovkai',
     3357: '',   // Nightmare Luffy (N)
     3359: '',   // Vergo (N)
+    3368: '',   // Duval (N)
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',
