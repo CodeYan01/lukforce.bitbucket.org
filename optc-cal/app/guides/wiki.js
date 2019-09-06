@@ -309,4 +309,6 @@ var wiki = {
     1899: '',                               // Killer (N)
     1976: '',                               // X Drake (N)
     2017: '',                               // Diamante (N)
+
+    2529: '',                               // Neptune (EX)
 };

@@ -496,4 +496,11 @@ var coliseums = {
         chaos_only: true,
         thumb: 2017
     },
+
+    // EX Coliseums
+    2529: {
+        name: 'Neptune (EX)',
+        chaos_only: true,
+        thumb: 2529
+    },
 };

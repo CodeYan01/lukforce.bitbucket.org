@@ -310,6 +310,8 @@ var gw = {
     1976: '92469',      // X Drake (N)
     2017: '95570',      // Diamante (N)
 
+    2529: '149444',     // Neptune (EX)
+
     // TMs
     1808: '72766',      // Mihawk
     1853: '79614',      // Whitebeard
