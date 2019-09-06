@@ -4,17 +4,20 @@ function highlightNavbar() {
 }
 
 var x = setInterval(function() {
-    var mainStart = moment.utc('2018-09-09 03:00');
-    var mainEnd = moment.utc('2018-09-11 03:00');
+    var mainStart = moment.utc('2019-09-07 03:00');
+    var mainEnd = moment.utc('2019-09-10 03:00');
 
-    var halfSta1Start = moment.utc('2018-09-09 03:00');
-    var halfSta1End = moment.utc('2018-09-09 06:00');
+    var halfSta1Start = moment.utc('2019-09-07 03:00');
+    var halfSta1End = moment.utc('2019-09-07 06:00');
 
-    var halfSta2Start = moment.utc('2018-09-10 03:00');
-    var halfSta2End = moment.utc('2018-09-10 06:00');
+    var halfSta2Start = moment.utc('2019-09-08 03:00');
+    var halfSta2End = moment.utc('2019-09-08 06:00');
 
-    var halfSta3Start = moment.utc('2018-09-11 00:00');
-    var halfSta3End = moment.utc('2018-09-11 03:00');
+    var halfSta3Start = moment.utc('2019-09-09 03:00');
+    var halfSta3End = moment.utc('2019-09-09 06:00');
+
+    var halfSta4Start = moment.utc('2019-09-10 00:00');
+    var halfSta4End = moment.utc('2019-09-10 03:00');
 
     countdown.setLabels(
         '|s|m|h|d',
@@ -93,6 +96,25 @@ var x = setInterval(function() {
         $('#half-sta3-txt').html('has ended');
         $('#half-sta3-active').hide();
         $('#half-sta3-col').removeClass('active-bg');
+    }
+
+    // Half Stamina 4 timer
+    var halfSta4StartCd = countdown(null, halfSta4Start, units);
+    var halfSta4EndCd = countdown(null, halfSta4End, units);
+    if (halfSta4StartCd.value > 0) {
+        $('#half-sta4-begin-end').html('begins');
+        $('#half-sta4-cd').html(halfSta4StartCd.toString());
+        $('#half-sta4-local').html(halfSta4Start.local().format('llll'));
+    } else if (halfSta4EndCd.value > 0) {
+        $('#half-sta4-begin-end').html('ends');
+        $('#half-sta4-cd').html(halfSta4EndCd.toString());
+        $('#half-sta4-local').html(halfSta4End.local().format('llll'));
+        $('#half-sta4-active').show();
+        $('#half-sta4-col').addClass('active-bg');
+    } else {
+        $('#half-sta4-txt').html('has ended');
+        $('#half-sta4-active').hide();
+        $('#half-sta4-col').removeClass('active-bg');
     }
 
     // Clear interval after event ends
