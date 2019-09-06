@@ -1026,7 +1026,7 @@ $(document).ready(function() {
             updateAllPts();
 
             // Disable controls
-            $('#read-only-button-div').show();
+            $('#read-only-button-div').css('display', 'flex');
             $('.not-read-only').prop('disabled', true);
         } else {
             alert('Invalid transfer link');

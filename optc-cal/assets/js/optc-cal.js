@@ -437,7 +437,7 @@ function showFooter() {
             liUrl += '/details';
 
         li.find('.url').html(createUrlHtml(liUrl, urlText));
-        li.show();
+        li.css('display', 'flex');
     }
 
     function highlightTmBoosters(isChecked) {
@@ -463,31 +463,31 @@ function showFooter() {
 
         if (e['type'] === 'special' && e['subType'] === 'Champion Challenge') {
             // Special case for Champion Challenge (3rd Anniversary)
-            var ed = $('#eventDetailClone').clone();
-            ed.attr('id', 'eventDetail_cc');
-            ed.find('.eventTitle').text('Champion Challenge');
+            var ed = $('#event-detail-clone').clone();
+            ed.attr('id', 'event-detail-cc');
+            ed.find('.event-title').text('Champion Challenge');
 
-            createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
+            createListItem(ed, '.drop-list', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
             createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', '56742', 'Gamewith Stage Guide');
 
-            $('#eventDetail').append(ed);
+            $('#event-detail').append(ed);
             ed.show();
         } else if (e['type'] === 'special' && e['subType'] === 'Champion Challenge 2') {
             // Special case for Champion Challenge (4th Anniversary)
-            var ed = $('#eventDetailClone').clone();
-            ed.attr('id', 'eventDetail_cc');
-            ed.find('.eventTitle').text('Champion Challenge');
+            var ed = $('#event-detail-clone').clone();
+            ed.attr('id', 'event-detail-cc');
+            ed.find('.event-title').text('Champion Challenge');
 
-            createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
+            createListItem(ed, '.drop-list', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
             createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', '100803', 'Gamewith Stage Guide');
 
-            $('#eventDetail').append(ed);
+            $('#event-detail').append(ed);
             ed.show();
         } else {
             for (var i = 0; i < ids.length; i++) {
-                var ed = $('#eventDetailClone').clone();
+                var ed = $('#event-detail-clone').clone();
                 var id = ids[i];
-                ed.attr('id', 'eventDetail_' + id);
+                ed.attr('id', 'event-detail_' + id);
 
                 var data;
                 if (e['type'] === 'fortnight')
@@ -506,10 +506,10 @@ function showFooter() {
 
                 // Special case for Blitz Battle
                 if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
-                    ed.find('.countdown').show();
+                    ed.find('.countdown').css('display', 'flex');
 
-                ed.find('.eventThumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
-                ed.find('.eventTitle').text(data['name']);
+                ed.find('.event-thumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
+                ed.find('.event-title').text(data['name']);
 
                 if (
                     e['type'] === 'raid' ||
@@ -519,7 +519,7 @@ function showFooter() {
                     createListItem(ed, '.db', 'http://optc-db.github.io/characters/#/view/', id, 'OPTC-DB Character Page');
 
                 if (drops[id])
-                    createListItem(ed, '.dropList', 'http://optc-db.github.io/drops/?', drops[id], 'Drop List');
+                    createListItem(ed, '.drop-list', 'http://optc-db.github.io/drops/?', drops[id], 'Drop List');
 
                 if (gw[id])
                     createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', gw[id], 'Gamewith Stage Guide');
@@ -528,26 +528,26 @@ function showFooter() {
                     createListItem(ed, '.nakama', 'https://www.nakama.network/stages/', nakama[id], 'Nakama Network');
 
                 if (wiki[id])
-                    createListItem(ed, '.redditWiki', 'https://www.reddit.com/r/OnePieceTC/', wiki[id], 'Reddit Stage Guide Wiki');
+                    createListItem(ed, '.reddit-wiki', 'https://www.reddit.com/r/OnePieceTC/', wiki[id], 'Reddit Stage Guide Wiki');
 
                 if (videoWiki[id])
-                    createListItem(ed, '.redditVideoWiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
+                    createListItem(ed, '.reddit-video-wiki', 'https://www.reddit.com/r/OnePieceTC/wiki/video/', videoWiki[id], 'Reddit Video Wiki');
 
                 if (e['type'] === 'tm') {
                     if (data.info != '')
-                        createListItem(ed, '.tmInfo', 'https://', data.info, 'TM Info Graphic');
+                        createListItem(ed, '.tm-info', 'https://', data.info, 'TM Info Graphic');
 
-                    createListItem(ed, '.tmPlanner', '/tm-planner/?tmId=', id, 'TM Team Planner');
+                    createListItem(ed, '.tm-planner', '/tm-planner/?tmId=', id, 'TM Team Planner');
                 }
 
-                $('#eventDetail').append(ed);
+                $('#event-detail').append(ed);
                 ed.show();
             }
         }
 
-        var modalCloseButton = $('#modalCloseButton').clone();
-        $('#eventDetail').append(modalCloseButton);
-        $(modalCloseButton).show();
+        var modalCloseButton = $('#modal-close-button').clone();
+        $('#event-detail').append(modalCloseButton);
+        $(modalCloseButton).css('display', 'flex');
     }
 
     function eventTypeToOrder(eProps) {
@@ -756,9 +756,9 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Super Evolve')
                     || (event['type'] === 'special' && event['subType'] === 'Support Raid')
                 ) {
-                    $('#eventDetail').empty();
+                    $('#event-detail').empty();
                     getEventDetail(event);
-                    $('#eventDetailModal').modal();
+                    $('#event-detail-modal').modal();
                 }
             },
             eventOrder: function(a, b) {

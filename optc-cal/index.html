@@ -1,173 +1,169 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" id="vp" content="">
-    <meta name="author" content="zl1814, qblcookie">
-    <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Calendar, Guides, Events">
-    <meta name="description" content="One Piece Treasure Cruise event calendar for global server. View past, current, and future events in month view. Links to guides in individual events.">
+<meta charset="utf-8">
+<meta name="viewport" id="vp" content="">
+<meta name="author" content="zl1814, qblcookie">
+<meta name="keywords" content="OPTC, One Piece Treasure Cruise, Calendar, Guides, Events">
+<meta name="description" content="One Piece Treasure Cruise event calendar for global server. View past, current, and future events in month view. Links to guides in individual events.">
 
-    <title>OPTC Global Calendar | OPTC Voyage Log</title>
+<title>OPTC Global Calendar | OPTC Voyage Log</title>
 
-    <link rel="icon" sizes="192x192" href="/pappagu.png">
+<link rel="icon" sizes="192x192" href="/pappagu.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.2/fullcalendar.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+<!-- Vendor JS & CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.2/fullcalendar.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
-    <link href="/common/assets/css/main.css" rel="stylesheet">
-    <link href="/optc-cal/assets/css/optc-cal.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.2/fullcalendar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.2/fullcalendar.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- Self JS & CSS -->
+<link rel="stylesheet" href="/common/assets/css/main.css">
+<link rel="stylesheet" href="/optc-cal/assets/css/optc-cal.css">
 
-    <script src="/common/assets/js/main.js"></script>
-    <script src="/optc-cal/assets/js/optc-cal.js"></script>
+<script src="/common/assets/js/main.js"></script>
+<script src="/optc-cal/assets/js/optc-cal.js"></script>
 
-    <script src="/optc-cal/app/data/raids.js"></script>
-    <script src="/optc-cal/app/data/coliseums.js"></script>
-    <script src="/optc-cal/app/data/fortnights.js"></script>
-    <script src="/optc-cal/app/data/ambushes.js"></script>
-    <script src="/optc-cal/app/data/tms.js"></script>
-    <script src="/optc-cal/app/data/specials.js"></script>
-    <script src="/optc-cal/app/data/specials_bg.js"></script>
-    <script src="/optc-cal/app/data/tm_boosters.js"></script>
+<script src="/optc-cal/app/data/raids.js"></script>
+<script src="/optc-cal/app/data/coliseums.js"></script>
+<script src="/optc-cal/app/data/fortnights.js"></script>
+<script src="/optc-cal/app/data/ambushes.js"></script>
+<script src="/optc-cal/app/data/tms.js"></script>
+<script src="/optc-cal/app/data/specials.js"></script>
+<script src="/optc-cal/app/data/specials_bg.js"></script>
+<script src="/optc-cal/app/data/tm_boosters.js"></script>
 
-    <script src="/optc-cal/app/guides/drops.js"></script>
-    <script src="/optc-cal/app/guides/gw.js"></script>
-    <script src="/optc-cal/app/guides/wiki.js"></script>
-    <script src="/optc-cal/app/guides/videoWiki.js"></script>
-    <script src="/optc-cal/app/guides/nakama.js"></script>
+<script src="/optc-cal/app/guides/drops.js"></script>
+<script src="/optc-cal/app/guides/gw.js"></script>
+<script src="/optc-cal/app/guides/wiki.js"></script>
+<script src="/optc-cal/app/guides/videoWiki.js"></script>
+<script src="/optc-cal/app/guides/nakama.js"></script>
 
-    <script src="/optc-cal/app/calEvents/raidEvents.js"></script>
-    <script src="/optc-cal/app/calEvents/coliseumEvents.js"></script>
-    <script src="/optc-cal/app/calEvents/fortnightEvents.js"></script>
-    <script src="/optc-cal/app/calEvents/tmEvents.js"></script>
-    <script src="/optc-cal/app/calEvents/specialEvents.js"></script>
-    <script src="/optc-cal/app/calEvents/specialBgEvents.js"></script>
+<script src="/optc-cal/app/calEvents/raidEvents.js"></script>
+<script src="/optc-cal/app/calEvents/coliseumEvents.js"></script>
+<script src="/optc-cal/app/calEvents/fortnightEvents.js"></script>
+<script src="/optc-cal/app/calEvents/tmEvents.js"></script>
+<script src="/optc-cal/app/calEvents/specialEvents.js"></script>
+<script src="/optc-cal/app/calEvents/specialBgEvents.js"></script>
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-102555316-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-</head>
+  ga('create', 'UA-102555316-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
-<body>
-    <div id="header"></div>
+<div id="header"></div>
 
-    <div id="eventDetailModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">
-                        <i class="fas fa-external-link-alt"></i>&nbsp;Helpful Resources
-                    </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
+<div class="modal fade" id="event-detail-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-external-link-alt"></i>&nbsp;Helpful Resources
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
 
-                <div class="modal-body">
-                    <div id="eventDetail" class="container-fluid"></div>
-                </div>
+            <div class="modal-body">
+                <div id="event-detail" class="container-fluid"></div>
             </div>
         </div>
     </div>
+</div>
 
-    <div id="eventDetailClone" class="row justify-content-center" style="display: none;">
-        <div class="col-3">
-            <div class="eventThumb"></div>
-        </div>
-        <div class="col-9">
-            <h6 class="eventTitle"></h6>
-            <ul class="fa-ul">
-                <li class="db" style="display: none;">
-                    <i class="fa-li fas fa-database"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="dropList" style="display: none;">
-                    <i class="fa-li fas fa-chevron-circle-down"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="gamewith" style="display: none;">
-                    <i class="fa-li fas fa-globe"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="nakama" style="display: none;">
-                    <i class="fa-li fas fa-globe"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="redditWiki" style="display: none;">
-                    <i class="fa-li fab fa-reddit"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="redditVideoWiki" style="display: none;">
-                    <i class="fa-li fab fa-reddit"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="tmInfo" style="display: none;">
-                    <i class="fa-li fas fa-image"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="tmPlanner" style="display: none;">
-                    <i class="fa-li fas fa-clipboard-list"></i>
-                    <span class="url"></span>
-                </li>
-                <li class="countdown" style="display: none;">
-                    <i class="fa-li far fa-clock"></i>
-                    <span class="url">
-                        <a href="/event-countdown" target="_blank">Event Countdown</a>
-                    </span>
-                </li>
-            </ul>
+<div class="row justify-content-center" id="event-detail-clone">
+    <div class="col-3">
+        <div class="event-thumb"></div>
+    </div>
+    <div class="col-9">
+        <h6 class="event-title"></h6>
+        <ul class="fa-ul">
+            <li class="event-detail-item db">
+                <i class="fa-li fas fa-database"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item drop-list">
+                <i class="fa-li fas fa-chevron-circle-down"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item gamewith">
+                <i class="fa-li fas fa-globe"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item nakama">
+                <i class="fa-li fas fa-globe"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item reddit-wiki">
+                <i class="fa-li fab fa-reddit"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item reddit-video-wiki">
+                <i class="fa-li fab fa-reddit"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item tm-info">
+                <i class="fa-li fas fa-image"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item tm-planner">
+                <i class="fa-li fas fa-clipboard-list"></i>
+                <span class="url"></span>
+            </li>
+            <li class="event-detail-item countdown">
+                <i class="fa-li far fa-clock"></i>
+                <span class="url">
+                    <a href="/event-countdown" target="_blank">Event Countdown</a>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row justify-content-center" id="modal-close-button">
+    <div class="col-2">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <i class="fas fa-times"></i>&nbsp;Close
+        </button>
+    </div>
+</div>
+
+<div id="container">
+    <div class="row">
+        <div class="col-12 cal-setting-div">
+            <i class="far fa-clock"></i>&nbsp;
+            <span id="ctime"></span>&nbsp;<span id="ctime-mode"></span>&nbsp;|&nbsp;
+            <a id="time-mode-link" href="#"></a>
         </div>
     </div>
 
-    <div id="modalCloseButton" class="row justify-content-center" style="display: none;">
-        <div class="col-2">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                <i class="fas fa-times"></i>&nbsp;Close
-            </button>
+    <div class="row">
+        <div class="col-12 cal-setting-div">
+            <input type="checkbox" id="highlight-tm-boosters">
+            <label for="highlight-tm-boosters">Highlight Future TM Boosters</label>
         </div>
     </div>
 
-    <div id="container">
-        <div class="row">
-            <div class="col col-12 cal-setting-div">
-                <i class="far fa-clock"></i>&nbsp;
-                <span id="ctime"></span>&nbsp;<span id="ctime-mode"></span>&nbsp;|&nbsp;
-                <a id="time-mode-link" href="#"></a>
-            </div>
+    <div class="row">
+        <div class="col-12" id="info">
+            <i class="fas fa-info-circle"></i>&nbsp;
+            Click on Events for links to drops and guides
         </div>
-
-        <div class="row">
-            <div class="col col-12 cal-setting-div">
-                <input type="checkbox" id="highlight-tm-boosters" />
-                <label for="highlight-tm-boosters">Highlight Future TM Boosters</label>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col col-12" id="info">
-                <i class="fas fa-info-circle"></i>&nbsp;
-                Click on Events for links to drops and guides
-            </div>
-        </div>
-
-        <div id="calendar"></div>
     </div>
 
-    <div id="footer"></div>
-</body>
-</html>
+    <div id="calendar"></div>
+</div>
+
+<div id="footer"></div>

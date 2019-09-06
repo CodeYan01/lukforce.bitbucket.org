@@ -1,17 +1,11 @@
 #container {
-    width: 100%;
-    text-align: center;
     padding: 5px;
+    text-align: center;
+    width: 100%;
 }
 
 #main-cd {
     font-size: 30px;
-}
-
-#akainu-cd,
-#kizaru-cd,
-#aokiji-cd {
-    font-size: 25px;
 }
 
 .begin-end {
@@ -19,8 +13,8 @@
 }
 
 .halfSta-active {
-    display: none;
     color: red;
+    display: none;
     font-weight: bold;
 }
 

@@ -2,12 +2,11 @@ button {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.footer,
 .cal-setting-div,
+.footer,
 #info {
-    width: 100%;
-    text-align: center;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 #info {
@@ -15,14 +14,20 @@ button {
 }
 
 #calendar {
-    width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
     margin: 0 auto;
+    width: 1052.1px;  /* 150px per cell, with 2.1px of lines */
+}
+
+.event-detail-item,
+#event-detail-clone,
+#modal-close-button {
+    display: none;
 }
 
 .fc-title {
-    padding-left: 10px;
-    -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding-left: 10px;
 }
 
 .fc-bgevent {

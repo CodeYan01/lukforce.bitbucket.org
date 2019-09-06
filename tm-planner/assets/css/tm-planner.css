@@ -19,9 +19,9 @@
 }
 
 .server-radio-div {
+    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    display: inline-block;
 }
 
 .jpn-tm {
@@ -41,20 +41,21 @@
 #nakama-info {
     margin-top: 20px;
     padding: 5px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
-    .col-margin > .col {
+    .col-margin {
         margin-bottom: 5px;
     }
 }
 
 #unit-detail-class1,
 #unit-detail-class2 {
-    margin: 5px;
-    height: 25px;
-    width: 25px;
     display: inline-block;
+    height: 25px;
+    margin: 5px;
+    width: 25px;
 }
 
 .booster-info,
@@ -81,27 +82,27 @@
 
 .team-slot,
 .ambush-team-slot {
-    float: left;
-    width: 40px;
-    height: 40px;
-    margin: 1px;
     background-image: url('/tm-planner/assets/img/add.png');
     background-size: 100%;
     cursor: pointer;
+    float: left;
+    height: 40px;
+    margin: 1px;
+    width: 40px;
 }
 
 #add-button {
-    width: 40px;
-    height: 40px;
-    margin: 1px;
     background-image: url('/tm-planner/assets/img/add.png');
     background-size: 100%;
     display: inline-block;
+    height: 40px;
+    margin: 1px;
+    width: 40px;
 }
 
 #help-button {
-    width: 100%;
     margin: 5px;
+    width: 100%;
 }
 
 .remove-button-el,
@@ -113,8 +114,8 @@
 }
 
 .select-modal-unit {
-    margin: 1px;
     cursor: pointer;
+    margin: 1px;
 }
 
 .assigned-dh {
@@ -122,13 +123,13 @@
 }
 
 .assigned-dh > img {
-    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 .booster-clone > img {
-    -webkit-filter: brightness(0.5);
     filter: brightness(0.5);
+    -webkit-filter: brightness(0.5);
 }
 
 #export-url-div,
@@ -143,11 +144,11 @@
 }
 
 .class-decorate {
-    width: 13px;
+    background-size: cover;
+    display: inline-block;
     height: 13px;
     margin-right: 3px;
-    display: inline-block;
-    background-size: cover;
+    width: 13px;
 }
 
 /* Overwrite Bootstrap */

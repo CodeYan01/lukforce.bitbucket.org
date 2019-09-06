@@ -42,57 +42,57 @@ var x = setInterval(function() {
     var halfSta1StartCd = countdown(null, halfSta1Start, units);
     var halfSta1EndCd = countdown(null, halfSta1End, units);
     if (halfSta1StartCd.value > 0) {
-        $('#halfSta1-begin-end').html('begins');
-        $('#halfSta1-cd').html(halfSta1StartCd.toString());
-        $('#halfSta1-local').html(halfSta1Start.local().format('llll'));
+        $('#half-sta1-begin-end').html('begins');
+        $('#half-sta1-cd').html(halfSta1StartCd.toString());
+        $('#half-sta1-local').html(halfSta1Start.local().format('llll'));
     } else if (halfSta1EndCd.value > 0) {
-        $('#halfSta1-begin-end').html('ends');
-        $('#halfSta1-cd').html(halfSta1EndCd.toString());
-        $('#halfSta1-local').html(halfSta1End.local().format('llll'));
-        $('#halfSta1-active').show();
-        $('#halfSta1-col').addClass('active-bg');
+        $('#half-sta1-begin-end').html('ends');
+        $('#half-sta1-cd').html(halfSta1EndCd.toString());
+        $('#half-sta1-local').html(halfSta1End.local().format('llll'));
+        $('#half-sta1-active').show();
+        $('#half-sta1-col').addClass('active-bg');
     } else {
-        $('#halfSta1-txt').html('has ended');
-        $('#halfSta1-active').hide();
-        $('#halfSta1-col').removeClass('active-bg');
+        $('#half-sta1-txt').html('has ended');
+        $('#half-sta1-active').hide();
+        $('#half-sta1-col').removeClass('active-bg');
     }
 
     // Half Stamina 2 timer
     var halfSta2StartCd = countdown(null, halfSta2Start, units);
     var halfSta2EndCd = countdown(null, halfSta2End, units);
     if (halfSta2StartCd.value > 0) {
-        $('#halfSta2-begin-end').html('begins');
-        $('#halfSta2-cd').html(halfSta2StartCd.toString());
-        $('#halfSta2-local').html(halfSta2Start.local().format('llll'));
+        $('#half-sta2-begin-end').html('begins');
+        $('#half-sta2-cd').html(halfSta2StartCd.toString());
+        $('#half-sta2-local').html(halfSta2Start.local().format('llll'));
     } else if (halfSta2EndCd.value > 0) {
-        $('#halfSta2-begin-end').html('ends');
-        $('#halfSta2-cd').html(halfSta2EndCd.toString());
-        $('#halfSta2-local').html(halfSta2End.local().format('llll'));
-        $('#halfSta2-active').show();
-        $('#halfSta2-col').addClass('active-bg');
+        $('#half-sta2-begin-end').html('ends');
+        $('#half-sta2-cd').html(halfSta2EndCd.toString());
+        $('#half-sta2-local').html(halfSta2End.local().format('llll'));
+        $('#half-sta2-active').show();
+        $('#half-sta2-col').addClass('active-bg');
     } else {
-        $('#halfSta2-txt').html('has ended');
-        $('#halfSta2-active').hide();
-        $('#halfSta2-col').removeClass('active-bg');
+        $('#half-sta2-txt').html('has ended');
+        $('#half-sta2-active').hide();
+        $('#half-sta2-col').removeClass('active-bg');
     }
 
     // Half Stamina 3 timer
     var halfSta3StartCd = countdown(null, halfSta3Start, units);
     var halfSta3EndCd = countdown(null, halfSta3End, units);
     if (halfSta3StartCd.value > 0) {
-        $('#halfSta3-begin-end').html('begins');
-        $('#halfSta3-cd').html(halfSta3StartCd.toString());
-        $('#halfSta3-local').html(halfSta3Start.local().format('llll'));
+        $('#half-sta3-begin-end').html('begins');
+        $('#half-sta3-cd').html(halfSta3StartCd.toString());
+        $('#half-sta3-local').html(halfSta3Start.local().format('llll'));
     } else if (halfSta3EndCd.value > 0) {
-        $('#halfSta3-begin-end').html('ends');
-        $('#halfSta3-cd').html(halfSta3EndCd.toString());
-        $('#halfSta3-local').html(halfSta3End.local().format('llll'));
-        $('#halfSta3-active').show();
-        $('#halfSta3-col').addClass('active-bg');
+        $('#half-sta3-begin-end').html('ends');
+        $('#half-sta3-cd').html(halfSta3EndCd.toString());
+        $('#half-sta3-local').html(halfSta3End.local().format('llll'));
+        $('#half-sta3-active').show();
+        $('#half-sta3-col').addClass('active-bg');
     } else {
-        $('#halfSta3-txt').html('has ended');
-        $('#halfSta3-active').hide();
-        $('#halfSta3-col').removeClass('active-bg');
+        $('#half-sta3-txt').html('has ended');
+        $('#half-sta3-active').hide();
+        $('#half-sta3-col').removeClass('active-bg');
     }
 
     // Clear interval after event ends
@@ -101,6 +101,6 @@ var x = setInterval(function() {
 
         $('#main-txt').html('has ended');
         $('.event-row').hide();
-        $('.end-event-row').show();
+        $('.end-event-row').css('display', 'flex');
     }
 }, 1000);
