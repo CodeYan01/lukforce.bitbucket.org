@@ -311,7 +311,7 @@ var nakama = {
     1976: '5197501',    // X Drake (N)
     2017: '5201601',    // Diamante (N)
 
-    2529: '5252901',    // Neptune (EX)
+    2529: '5253001',    // Neptune (EX)
 
     // TMs
     1808: '8180800',    // Mihawk
