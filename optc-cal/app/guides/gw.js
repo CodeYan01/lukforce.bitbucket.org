@@ -179,6 +179,7 @@ var gw = {
     2263: '120330',     // Doffy v2
     2281: '121664',     // Judge
     2356: '134034',     // Arlong
+    2394: '',           // Ace
     2552: '150061',     // Sengoku & Garp
     3342: '',           // Shanks & Mihawk
 
