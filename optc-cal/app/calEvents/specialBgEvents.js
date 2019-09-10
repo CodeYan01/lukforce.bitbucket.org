@@ -2294,6 +2294,16 @@ var specialBgEvents = [
         end: '2019-09-16'
     },
     {
+        id: '4th_anni_ship',
+        start: '2019-09-10',
+        end: '2019-09-17'
+    },
+    {
+        id: 'fp',
+        start: '2019-09-10',
+        end: '2019-09-17'
+    },
+    {
         id: 'ray_exp',
         start: '2019-09-10',
         end: '2019-09-13',

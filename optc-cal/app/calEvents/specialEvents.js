@@ -72,6 +72,10 @@ var specialEvents = [
         start: '2019-08-16',
         end: '2019-08-18'
     },
+    {
+        id: 'dummy',
+        start: '2019-09-14'
+    },
 
     {
         id: 'ss_0436',
@@ -635,5 +639,11 @@ var specialEvents = [
         id: ['bb_2023', 'bb_2025'],
         start: '2019-09-06',
         end: '2019-09-09'
+    },
+    {
+        id: 'sb_1023',
+        start: '2019-09-10',
+        end: '2019-09-17',
+        pst_0: true
     },
 ]
