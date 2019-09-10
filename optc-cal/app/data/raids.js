@@ -167,6 +167,10 @@ var raids = {
         name: 'Sengoku & Garp',
         thumb: 2552
     },
+    9999: {
+        name: 'Ace',
+        thumb: -1
+    },
     3342: {
         name: 'Shanks & Mihawk',
         thumb: 5024
