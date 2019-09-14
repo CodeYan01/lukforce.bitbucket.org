@@ -180,6 +180,7 @@ var gw = {
     2281: '121664',     // Judge
     2356: '134034',     // Arlong
     2394: '',           // Ace
+    2398: '140044',     // Big Emperor
     2552: '150061',     // Sengoku & Garp
     3342: '',           // Shanks & Mihawk
 

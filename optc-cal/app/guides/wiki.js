@@ -180,6 +180,7 @@ var wiki = {
     2281: 'wiki/raidboss/judge',
     2356: 'wiki/raidboss/arlong',
     2394: '',                               // Ace
+    2398: '',                               // Big Emperor
     2552: 'comments/aa693j',                // Sengoku & Garp
     3342: '',                               // Shanks & Mihawk
 

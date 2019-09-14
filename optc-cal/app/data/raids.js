@@ -167,6 +167,10 @@ var raids = {
         name: 'Ace',
         thumb: 2394
     },
+    2398: {
+        name: 'Big Emperor',
+        thumb: 2398
+    },
     2552: {
         name: 'Sengoku & Garp',
         thumb: 2552
