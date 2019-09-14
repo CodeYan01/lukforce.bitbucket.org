@@ -136,6 +136,7 @@ var gw = {
     2351: '133025',     // Perospero
     2377: '136822',     // Mother Carmel
     2428: '141693',     // Cavendish
+    2457: '144058',     // Pudding
 
     // Raids
     227: '4142',        // Mihawk

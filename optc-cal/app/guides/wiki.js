@@ -136,6 +136,7 @@ var wiki = {
     2351: '',                               // Perospero
     2377: '',                               // Mother Carmel
     2428: '',                               // Cavendish
+    2457: '',                               // Pudding
 
     // Raids
     227: 'wiki/raidboss/mihawk',
