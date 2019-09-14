@@ -647,7 +647,12 @@ var specialEvents = [
     {
         id: 'sb_1023',
         start: '2019-09-10',
-        end: '2019-09-17',
+        end: '2019-09-16',
+        pst_0: true
+    },
+    {
+        id: 'sb_1023',
+        start: '2019-09-16',
         pst_0: true
     },
 ]

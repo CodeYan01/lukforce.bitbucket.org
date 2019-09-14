@@ -2015,6 +2015,12 @@ var fortnightEvents = [
         is_replay: false
     },
     {
+        id: [808, 1725, 1774, 1980],
+        start: '2019-09-16',
+        end: '2019-09-23',
+        is_replay: true
+    },
+    {
         id: [2327, 2351, 2377],
         start: '2019-09-23',
         end: '2019-09-30',
