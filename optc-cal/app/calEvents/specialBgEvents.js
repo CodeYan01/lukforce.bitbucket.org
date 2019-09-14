@@ -2316,6 +2316,11 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'sugo',
+        start: '2019-09-16',
+        end: '2019-09-22'
+    },
+    {
         id: 'sp',
         start: '2019-09-18',
         end: '2019-09-22',
