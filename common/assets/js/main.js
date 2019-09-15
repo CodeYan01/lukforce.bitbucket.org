@@ -33,14 +33,6 @@ function getThumb(thumbId) {
     if (thumbId === 5016 || thumbId === 3336)
         return '/tm-planner/assets/img/new-thumbs/5016.png';
 
-    // Special case for Knight Zoro
-    if (thumbId === 5019 || thumbId === 3343)
-        return '/tm-planner/assets/img/new-thumbs/5019.png';
-
-    // Special case for Knight Sanji
-    if (thumbId === 5020 || thumbId === 3344)
-        return '/tm-planner/assets/img/new-thumbs/5020.png';
-
     // Special case for Shanks & Mihawk
     if (thumbId === 5024 || thumbId === 3342)
         return '/tm-planner/assets/img/new-thumbs/5024.png';

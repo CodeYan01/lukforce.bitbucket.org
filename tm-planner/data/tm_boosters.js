@@ -4491,12 +4491,12 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Knight Zoro
-            id: 3343,
+            id: 2663,
             type: 'rr',
             x_pts: 1.2
         },
         {   // Knight Sanji
-            id: 3344,
+            id: 2664,
             type: 'rr',
             x_pts: 1.2
         },
