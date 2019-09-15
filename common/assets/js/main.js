@@ -73,6 +73,10 @@ function getThumb(thumbId) {
     if (thumbId === 5037 || thumbId === 3355)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5037.png';
 
+    // Special case for Duval (N)
+    if (thumbId === 5041 || thumbId === 3368)
+        return '/tm-planner/assets/img/new-thumbs/5041.png';
+
     // Special case for Nightmare Luffy (N)
     if (thumbId === 5043 || thumbId === 3357)
         return '/tm-planner/assets/img/new-thumbs/5043.png';
@@ -80,6 +84,14 @@ function getThumb(thumbId) {
     // Special case for Vergo (N)
     if (thumbId === 5045 || thumbId === 3359)
         return '/tm-planner/assets/img/new-thumbs/5045.png';
+
+    // Special case for SRR Akainu
+    if (thumbId === 5049 || thumbId === 3363)
+        return '/tm-planner/assets/img/new-thumbs/5049.png';
+
+    // Special case for SRR Aokiji
+    if (thumbId === 5051 || thumbId === 3365)
+        return '/tm-planner/assets/img/new-thumbs/5051.png';
 
     // Special cases for new thumbs
     if (
