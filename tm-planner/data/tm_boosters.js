@@ -4409,7 +4409,7 @@ var tm_boosters = {
             x_pts: 1.5
         },
         {   // Whitebeard v2
-            id: 3346,
+            id: 2686,
             x_pts: 1.5
         },
         {   // Luffy
@@ -4942,7 +4942,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Whitebeard v2
-            id: 3346,
+            id: 2686,
             type: 'legend',
             x_pts: 1.2
         },
@@ -6094,7 +6094,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Whitebeard v2
-            id: 3346,
+            id: 2686,
             type: 'legend',
             x_pts: 1.2
         },
@@ -6583,7 +6583,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Whitebeard v2
-            id: 3346,
+            id: 2686,
             type: 'legend',
             x_pts: 1.2
         },

@@ -45,10 +45,6 @@ function getThumb(thumbId) {
     if (thumbId === 5024 || thumbId === 3342)
         return '/tm-planner/assets/img/new-thumbs/5024.png';
 
-    // Special case for Whitebeard v2
-    if (thumbId === 5026 || thumbId === 3346)
-        return '/tm-planner/assets/img/new-thumbs/5026.png';
-
     // Special case for Garp (N)
     if (thumbId === 5028 || thumbId === 3340)
         return '/tm-planner/assets/img/new-thumbs/5028.png';
