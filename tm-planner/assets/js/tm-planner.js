@@ -64,8 +64,7 @@ function getBoosters(tmId, server) {
             tmId == 2261 ||
             tmId == 2299 ||
             tmId == 2336 ||
-            tmId == 2387 ||
-            tmId == 2443
+            tmId == 2387
         )
     ) {
         // TM Jack
@@ -75,7 +74,6 @@ function getBoosters(tmId, server) {
         // TM Hancock
         // TM Law
         // TM Kaido
-        // TM Doffy
         $('#div_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
@@ -85,6 +83,14 @@ function getBoosters(tmId, server) {
         // TM Nami
         $('#div_2_2x').show();
         $('#div_1_75x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x').show();
+        $('#div_1_1x').show();
+        $('#div_1x').show();
+    } else if (server == 'glb' && tmId == 2443) {
+        // TM Doffy
+        $('#div_2_2x').show();
+        $('#div_2x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();
         $('#div_1_1x').show();
@@ -450,6 +456,7 @@ function init(tmId, server) {
         tmId == 2299 ||
         tmId == 2336 ||
         tmId == 2387 ||
+        tmId == 2443 ||
         tmId == 2469 ||
         tmId == 2557 ||
         tmId == 2659 ||

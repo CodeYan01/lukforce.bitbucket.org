@@ -135,7 +135,8 @@ var tm_opponents = {
         1902: ['Pica',          'INT',      1],
         1906: ['Sugar',         'PSY',      2],
         2144: ['Diamante',      'DEX',      3],
-        2443: ['Doflamingo',    'QCK',      4]
+        2443: ['Doflamingo',    'QCK',      4],
+        1943: ['Pink',          'STR',      5]
     },
     2469: {
         2240: ['Perospero',     'DEX',      3],
