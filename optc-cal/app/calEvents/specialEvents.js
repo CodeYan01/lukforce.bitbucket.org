@@ -80,6 +80,14 @@ var specialEvents = [
         id: 'dummy',
         start: '2019-09-14'
     },
+    {
+        id: 'dummy',
+        start: '2019-09-17'
+    },
+    {
+        id: 'dummy',
+        start: '2019-09-19'
+    },
 
     {
         id: 'ss_0436',

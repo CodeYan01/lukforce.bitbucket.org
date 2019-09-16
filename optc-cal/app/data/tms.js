@@ -84,6 +84,11 @@ var tms = {
         thumb: 2387,
         info: 'i.imgur.com/iTBw5FQ.jpg'
     },
+    2443: {
+        name: 'Doflamingo',
+        thumb: 2443,
+        info: 'i.imgur.com/shsApVp.png'
+    },
     2469: {
         name: 'Smoothie & Oven',
         thumb: 2469,
