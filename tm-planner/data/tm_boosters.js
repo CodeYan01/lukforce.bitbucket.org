@@ -7174,7 +7174,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Jack
-            id: 2443,
+            id: 2433,
             type: 'legend',
             x_pts: 1.2
         },
