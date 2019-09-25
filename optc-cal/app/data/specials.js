@@ -438,6 +438,11 @@ var specials = {
         name: 'Bartolomeo',
         thumb: 1879
     },
+    'sp_2281': {
+        type: 'Support Raid',
+        name: 'Judge',
+        thumb: 2281
+    },
 
     '66_2234': {
         type: 'Germa 66 Counter',

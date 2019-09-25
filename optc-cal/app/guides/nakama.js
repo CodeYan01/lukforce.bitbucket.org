@@ -368,4 +368,5 @@ var nakama = {
 
     'sp_0603': '4060301',   // Support Raid Eneru
     'sp_1879': '4187901',   // Support Raid Bartolomeo
+    'sp_2281': '4228101',   // Support Raid Judge
 };

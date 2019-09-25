@@ -375,4 +375,5 @@ var gw = {
 
     'sp_0603': '138206',// Support Raid Eneru
     'sp_1879': '142094',// Support Raid Bartolomeo
+    'sp_2281': '144312',// Support Raid Judge
 };
