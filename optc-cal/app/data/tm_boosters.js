@@ -74,10 +74,11 @@ var tm_boosters = [
     // Others
     2381,
 
-    // ===== ??? =====
+    // ===== Weevil =====
     // Raids
 
     // Coliseums
+    2489,
 
     // FNs
     2457,

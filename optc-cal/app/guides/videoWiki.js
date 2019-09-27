@@ -168,6 +168,7 @@ var videoWiki = {
     2375: 'coliseum/charlotte_smoothie',
     2416: 'coliseum/pica',
     2471: 'coliseum/charlotte_katakuri',
+    2489: 'coliseum/brook',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

@@ -3335,9 +3335,9 @@ var coliseumEvents = [
         new_batch: false
     },
     {
-        start: '2019-09-16',
         newId: [2416],
         repId: [1667, 2375, 1222, 1460],
+        start: '2019-09-16',
         new_batch: false
     },
     {
@@ -3357,6 +3357,47 @@ var coliseumEvents = [
         newId: [2416],
         repId: [1667, 2375, 1222, 1460],
         start: '2019-09-27',
+        new_batch: false
+    },
+
+    // ##############################
+    {
+        newId: [2489],
+        repId: [983, 1525, 2193, 1555],
+        start: '2019-09-28',
+        new_batch: true
+    },
+    {
+        newId: [2489],
+        repId: [983, 1525, 2193, 1555],
+        start: '2019-10-01',
+        end: '2019-10-03',
+        new_batch: true
+    },
+    {
+        newId: [2489],
+        repId: [983, 1525, 2193, 1555],
+        start: '2019-10-05',
+        new_batch: true
+    },
+
+    // ##############################
+    {
+        newId: [2489],
+        repId: [1401, 2323, 2354, 1402],
+        start: '2019-09-30',
+        new_batch: false
+    },
+    {
+        newId: [2489],
+        repId: [1401, 2323, 2354, 1402],
+        start: '2019-10-04',
+        new_batch: false
+    },
+    {
+        newId: [2489],
+        repId: [1401, 2323, 2354, 1402],
+        start: '2019-10-07',
         new_batch: false
     },
 ]

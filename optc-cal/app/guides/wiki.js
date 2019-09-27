@@ -307,6 +307,7 @@ var wiki = {
     2375: 'wiki/coliseum/smoothie',
     2416: '',                               // Pica
     2471: '',                               // Katakuri
+    2489: '',                               // Brook
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
