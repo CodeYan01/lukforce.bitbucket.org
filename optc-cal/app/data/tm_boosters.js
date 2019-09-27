@@ -76,6 +76,7 @@ var tm_boosters = [
 
     // ===== Weevil =====
     // Raids
+    2473,
 
     // Coliseums
     2489,

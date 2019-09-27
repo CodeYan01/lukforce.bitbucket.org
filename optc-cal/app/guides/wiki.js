@@ -182,6 +182,7 @@ var wiki = {
     2356: 'wiki/raidboss/arlong',
     2394: '',                               // Ace
     2398: '',                               // Big Emperor
+    2473: '',                               // Big Mom
     2552: 'comments/aa693j',                // Sengoku & Garp
     3342: '',                               // Shanks & Mihawk
 
