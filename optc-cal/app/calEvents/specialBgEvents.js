@@ -2354,4 +2354,46 @@ var specialBgEvents = [
         start: '2019-09-26',
         end: '2019-10-04'
     },
+    {
+        id: 'celestials',
+        start: '2019-09-30',
+        end: '2019-10-04',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-10-06',
+        end: '2019-10-10',
+        pst_19: true
+    },
+    {
+        id: 'buggy',
+        start: '2019-10-06',
+        end: '2019-10-13',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2019-10-12',
+        end: '2019-10-16',
+        pst_19: true
+    },
+    {
+        id: 'shanks_exp',
+        start: '2019-10-15',
+        end: '2019-10-20',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-10-16',
+        end: '2019-10-22',
+        pst_19: true
+    },
+    {
+        id: 'ray_tome',
+        start: '2019-10-21',
+        end: '2019-10-28',
+        pst_19: true
+    },
 ]
