@@ -137,6 +137,7 @@ var gw = {
     2377: '136822',     // Mother Carmel
     2428: '141693',     // Cavendish
     2457: '144058',     // Pudding
+    2491: '146866',     // Hiriluk
 
     // Raids
     227: '4142',        // Mihawk

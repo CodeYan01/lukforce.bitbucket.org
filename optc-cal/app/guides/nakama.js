@@ -137,6 +137,7 @@ var nakama = {
     2377: '2237700',    // Mother Carmel
     2428: '2242800',    // Cavendish
     2457: '2245700',    // Pudding
+    2491: '2249100',    // Hiriluk
 
     // Raids
     227: '4022700',     // Mihawk

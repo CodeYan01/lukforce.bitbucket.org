@@ -2009,7 +2009,13 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 2457,
+        id: 2491,
+        start: '2019-10-04',
+        end: '2019-10-07',
+        is_replay: false
+    },
+    {
+        id: [2457, 2491],
         start: '2019-10-07',
         end: '2019-10-14',
         is_replay: false
@@ -2031,5 +2037,19 @@ var fortnightEvents = [
         start: '2019-09-30',
         end: '2019-10-07',
         is_replay: true
+    },
+
+    // #############################
+    {
+        id: 2491,
+        start: '2019-10-14',
+        end: '2019-10-21',
+        is_replay: false
+    },
+    {
+        id: 2491,
+        start: '2019-10-21',
+        end: '2019-10-26',
+        is_replay: false
     },
 ];

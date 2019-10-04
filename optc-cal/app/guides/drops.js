@@ -137,6 +137,7 @@ drops = {
     2377: 'Holy%20Mother%27s%20Love%20-%20Mother%20Carmel%20Fortnight',
     2428: 'Rosy%20Melancholy%20Fortnight',
     2457: 'Pudding%27s%20Sweet%20Cooking%20Fortnight',
+    2491: 'Miracle%20Cherry%20Blossoms%20Return%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',
