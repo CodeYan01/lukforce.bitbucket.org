@@ -361,6 +361,7 @@ var gw = {
     'sb_1985': '100032',// Socket Book Luffy & Ace
 
     'pm_1900': '85046', // Past Memory Zoro
+    'bl_2475': '147515',// Black Blade Training
 
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard
     'rk_1700': '107881',// 1 Turn Dmg Ranking Jinbe

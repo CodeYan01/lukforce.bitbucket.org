@@ -347,6 +347,12 @@ var specials = {
         thumb: 1900
     },
 
+    'bl_2475': {
+        type: 'Black Blade Training',
+        name: 'Mihawk & Zoro',
+        thumb: 2475
+    },
+
     'fa_2072': {
         type: 'Strange Forest Adventure',
         name: 'Chopper',

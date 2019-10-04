@@ -361,6 +361,7 @@ var nakama = {
     'sb_1985': '',          // Socket Book Luffy & Ace
 
     'pm_1900': '6190000',   // Past Memory Zoro
+    'bl_2475': '6247500',   // Black Blade Training
 
     'se_2138': '6213800',   // Super Evolve Germa 66
     'se_2232': '6223200',   // Super Evolve Eneru
