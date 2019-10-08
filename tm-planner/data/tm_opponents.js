@@ -191,6 +191,14 @@ var tm_opponents = {
         2690: ['Blackbeard',    'INT',      4],
         1313: ['Akainu',        'STR',      5]
     },
+    2729: {
+        2385: ['Apoo',          'QCK',      2],
+        2702: ['Jack',          'DEX',      3],
+        2704: ['Holdem',        'PSY',      1],
+        2706: ['Speed',         'QCK',      0],
+        2729: ['Hawkins',       'QCK',      4],
+        2700: ['Kaido',         'DEX',      5]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
