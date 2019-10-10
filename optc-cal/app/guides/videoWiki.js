@@ -176,5 +176,6 @@ var videoWiki = {
     1976: 'coliseum/xdrakekai',
     2017: 'coliseum/diamantekai',
 
+    2512: 'coliseum/moriaex',
     2529: 'coliseum/neptuneex',
 };

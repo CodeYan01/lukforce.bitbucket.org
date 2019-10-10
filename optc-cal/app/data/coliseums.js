@@ -503,6 +503,11 @@ var coliseums = {
     },
 
     // EX Coliseums
+    2512: {
+        name: 'Moria (EX)',
+        chaos_only: true,
+        thumb: 2512
+    },
     2529: {
         name: 'Neptune (EX)',
         chaos_only: true,

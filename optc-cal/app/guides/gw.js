@@ -316,6 +316,7 @@ var gw = {
     1976: '92469',      // X Drake (N)
     2017: '95570',      // Diamante (N)
 
+    2512: '147896',     // Moria (EX)
     2529: '149444',     // Neptune (EX)
 
     // TMs

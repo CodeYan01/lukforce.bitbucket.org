@@ -316,5 +316,6 @@ var wiki = {
     1976: '',                               // X Drake (N)
     2017: '',                               // Diamante (N)
 
+    2512: '',                               // Moria (EX)
     2529: '',                               // Neptune (EX)
 };
