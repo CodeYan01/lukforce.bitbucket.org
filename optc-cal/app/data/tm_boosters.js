@@ -44,6 +44,7 @@ var tm_boosters = [
     2281,
     2398,
     2473,
+    2504,
 
     // Coliseums
     1310,

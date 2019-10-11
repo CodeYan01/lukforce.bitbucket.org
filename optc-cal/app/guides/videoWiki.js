@@ -44,6 +44,7 @@ var videoWiki = {
     2394: '',   // Ace
     2398: 'raidboss/dockingsix',
     2473: 'raidboss/bigmom',
+    2504: 'raidboss/capone',
     2552: 'raidboss/sengokugarp',
     3342: 'raidboss/shanksmihawk',
 
