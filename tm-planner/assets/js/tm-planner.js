@@ -87,23 +87,23 @@ function getBoosters(tmId, server) {
         $('#div_1_35x').show();
         $('#div_1_1x').show();
         $('#div_1x').show();
-    } else if (
-        server == 'glb' &&
-        (
-            tmId == 2443 ||
-            tmId == 2510
-        )
-    ) {
+    } else if (server == 'glb' && tmId == 2443) {
         // TM Doffy
-        // TM Weevil
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_5x').show();
         $('#div_1_35x').show();
         $('#div_1_1x').show();
         $('#div_1x').show();
-    } else if (server == 'glb' && tmId == 2469) {
+    } else if (
+        server == 'glb' &&
+        (
+            tmId == 2469 ||
+            tmId == 2510
+        )
+    ) {
         // TM Smoothie & Oven
+        // TM Weevil
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();
@@ -476,6 +476,7 @@ function init(tmId, server) {
         tmId == 2387 ||
         tmId == 2443 ||
         tmId == 2469 ||
+        tmId == 2510 ||
         tmId == 2557 ||
         tmId == 2659 ||
         tmId == 2690 ||

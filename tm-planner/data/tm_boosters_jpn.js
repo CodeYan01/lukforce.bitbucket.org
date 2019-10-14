@@ -4098,7 +4098,7 @@ var tm_boosters_jpn = {
             id: 2507,
             x_pts: 1.7
         },
-        {   // A.O
+        {   // A.O.
             id: 2506,
             x_pts: 1.5
         },
@@ -4765,7 +4765,7 @@ var tm_boosters_jpn = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // A.O
+        {   // A.O.
             id: 2506,
             type: 'rr',
             x_pts: 1.2

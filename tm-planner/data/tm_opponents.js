@@ -151,7 +151,8 @@ var tm_opponents = {
         1445: ['Hancock',       'QCK',      2],
         2277: ['Buggy',         'INT',      0],
         2475: ['Mihawk',        'DEX',      3],
-        2510: ['Weevil',        'PSY',      4]
+        2510: ['Weevil',        'PSY',      4],
+        1751: ['Law',           'QCK',      5]
     },
     2557: {
          860: ['Coby',          'PSY',      0],
