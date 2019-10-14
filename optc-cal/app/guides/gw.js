@@ -340,6 +340,7 @@ var gw = {
     2387: '137053',     // Kaido
     2443: '143066',     // Doffy
     2469: '144785',     // Smoothie & Oven
+    2510: '148609',     // Weevil
 
     // Events
     'bb_1314': '61665', // Three Admirals

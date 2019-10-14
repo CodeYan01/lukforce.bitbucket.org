@@ -94,4 +94,9 @@ var tms = {
         thumb: 2469,
         info: 'i.imgur.com/o5PWrbW.png'
     },
+    2510: {
+        name: 'Weevil',
+        thumb: 2510,
+        info: 'i.imgur.com/yd2O3of.png'
+    },
 };
