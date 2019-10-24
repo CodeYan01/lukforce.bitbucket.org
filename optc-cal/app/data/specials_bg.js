@@ -53,6 +53,9 @@ var specials_bg = {
     'ray_exp': {
         thumb: 'ray_exp'
     },
+    'ray_exp2': {
+        thumb: 'ray_exp2'
+    },
     'ray_tome': {
         thumb: 'ray_tome'
     },

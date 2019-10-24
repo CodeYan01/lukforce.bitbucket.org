@@ -2407,8 +2407,43 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'fp',
+        start: '2019-10-22',
+        end: '2019-11-11',
+        pst_19: true
+    },
+    {
         id: 'sugo',
         start: '2019-10-24',
         end: '2019-10-28'
+    },
+    {
+        id: 'free_pull',
+        start: '2019-10-24',
+        end: '2019-10-29'
+    },
+    {
+        id: '4th_anni_ship',
+        start: '2019-10-24',
+        end: '2019-11-06',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp2',
+        start: '2019-10-24',
+        end: '2019-10-28',
+        pst_19: true
+    },
+    {
+        id: 'sp_x3',
+        start: '2019-10-28',
+        end: '2019-11-11',
+        pst_19: true
+    },
+    {
+        id: '4th_anni_ship_sp',
+        start: '2019-11-06',
+        end: '2019-11-11',
+        pst_19: true
     },
 ]
