@@ -2406,4 +2406,9 @@ var specialBgEvents = [
         end: '2019-10-28',
         pst_19: true
     },
+    {
+        id: 'sugo',
+        start: '2019-10-24',
+        end: '2019-10-28'
+    },
 ]
