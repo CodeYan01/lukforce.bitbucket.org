@@ -138,6 +138,7 @@ var gw = {
     2428: '141693',     // Cavendish
     2457: '144058',     // Pudding
     2491: '146866',     // Hiriluk
+    2519: '149417',     // Dress Up 1
 
     // Raids
     227: '4142',        // Mihawk

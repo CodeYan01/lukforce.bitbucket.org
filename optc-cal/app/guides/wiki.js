@@ -138,6 +138,7 @@ var wiki = {
     2428: '',                               // Cavendish
     2457: '',                               // Pudding
     2491: '',                               // Hiriluk
+    2519: '',                               // Dress Up 1
 
     // Raids
     227: 'wiki/raidboss/mihawk',
