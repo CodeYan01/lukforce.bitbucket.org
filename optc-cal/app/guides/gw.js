@@ -188,6 +188,7 @@ var gw = {
     2504: '147262',     // Capone Bege
     2552: '150061',     // Sengoku & Garp
     3342: '',           // Shanks & Mihawk
+    3370: '',           // Usopp & Chopper
 
     1623: '',           //'58437',      // Doflamingo (N)
     1647: '60095',      // Pica (N)

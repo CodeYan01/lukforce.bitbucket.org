@@ -188,6 +188,7 @@ var nakama = {
     2504: '4250400',    // Capone Bege
     2552: '4255200',    // Sengoku & Garp
     3342: '4334200',    // Shanks & Mihawk
+    3370: '4337000',    // Usopp & Chopper
 
     1623: '4162300',    // Doflamingo (N)
     1647: '4164700',    // Pica (N)
