@@ -79,6 +79,7 @@ var tm_boosters = [
 
     // ===== Shanks & Beckman =====
     // Raids
+    2517,
     5052,
 
     // Coliseums

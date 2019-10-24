@@ -186,6 +186,7 @@ var wiki = {
     2398: '',                               // Big Emperor
     2473: '',                               // Big Mom
     2504: '',                               // Capone Bege
+    2517: '',                               // Magellan & Hannyabal
     2552: 'comments/aa693j',                // Sengoku & Garp
     3342: '',                               // Shanks & Mihawk
     3370: '',                               // Usopp & Chopper

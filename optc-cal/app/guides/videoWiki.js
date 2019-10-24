@@ -45,6 +45,7 @@ var videoWiki = {
     2398: 'raidboss/dockingsix',
     2473: 'raidboss/bigmom',
     2504: 'raidboss/capone',
+    2517: 'raidboss/magellanhannyabal',
     2552: 'raidboss/sengokugarp',
     3342: 'raidboss/shanksmihawk',
     3370: '',   // Usopp & Chopper

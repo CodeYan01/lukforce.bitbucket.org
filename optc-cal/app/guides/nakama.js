@@ -186,6 +186,7 @@ var nakama = {
     2398: '4239800',    // Big Emperor
     2473: '4247300',    // Big Mom
     2504: '4250400',    // Capone Bege
+    2517: '4251700',    // Magellan & Hannyabal
     2552: '4255200',    // Sengoku & Garp
     3342: '4334200',    // Shanks & Mihawk
     3370: '4337000',    // Usopp & Chopper

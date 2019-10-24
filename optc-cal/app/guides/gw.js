@@ -186,6 +186,7 @@ var gw = {
     2398: '140044',     // Big Emperor
     2473: '145832',     // Big Mom
     2504: '147262',     // Capone Bege
+    2517: '149117',     // Magellan & Hannyabal
     2552: '150061',     // Sengoku & Garp
     3342: '',           // Shanks & Mihawk
     3370: '',           // Usopp & Chopper
