@@ -479,6 +479,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2489
     },
+    2550: {
+        name: 'Doflamingo & Trebol',
+        chaos_only: true, // Not but new format
+        thumb: 2550
+    },
 
     // Neo Coliseums
     1863: {

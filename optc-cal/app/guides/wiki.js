@@ -314,6 +314,7 @@ var wiki = {
     2416: '',                               // Pica
     2471: '',                               // Katakuri
     2489: '',                               // Brook
+    2550: '',                               // Doffy & Trebol
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
