@@ -61,6 +61,10 @@ function getThumb(thumbId) {
     if (thumbId === 5037 || thumbId === 3355)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5037.png';
 
+    // Special case for Sanji & Pudding
+    if (thumbId === 5038 || thumbId === 3369)
+        return '/tm-planner/assets/img/new-thumbs/5038.png';
+
     // Special case for Duval (N)
     if (thumbId === 5041 || thumbId === 3368)
         return '/tm-planner/assets/img/new-thumbs/5041.png';
@@ -72,6 +76,10 @@ function getThumb(thumbId) {
     // Special case for Vergo (N)
     if (thumbId === 5045 || thumbId === 3359)
         return '/tm-planner/assets/img/new-thumbs/5045.png';
+
+    // Special case for Swimsuit Pudding (white)
+    if (thumbId === 5047 || thumbId === 3361)
+        return '/tm-planner/assets/img/new-thumbs/5047.png';
 
     // Special case for SRR Akainu
     if (thumbId === 5049 || thumbId === 3363)
