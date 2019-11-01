@@ -139,6 +139,7 @@ drops = {
     2457: 'Pudding%27s%20Sweet%20Cooking%20Fortnight',
     2491: 'Miracle%20Cherry%20Blossoms%20Return%20Fortnight',
     2519: 'Dress%20Up%20for%20the%20Pirate%20Festival!%20Pop%20Fortnight',
+    2524: 'Dress%20Up%20for%20the%20Pirate%20Festival!%20Chic%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

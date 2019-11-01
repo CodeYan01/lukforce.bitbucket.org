@@ -31,4 +31,5 @@ var tm_boosters = [
 
     // FNs
     2519,
+    2524,
 ]

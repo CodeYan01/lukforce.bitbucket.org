@@ -2085,19 +2085,24 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: 2519,
+        id: 2524,
+        start: '2019-11-03',
+        is_replay: false
+    },
+    {
+        id: [2519, 2524],
         start: '2019-11-04',
         end: '2019-11-11',
         is_replay: false
     },
     {
-        id: 2519,
+        id: [2519, 2524],
         start: '2019-11-11',
         end: '2019-11-18',
         is_replay: false
     },
     {
-        id: 2519,
+        id: [2519, 2524],
         start: '2019-11-18',
         end: '2019-11-22',
         is_replay: false
