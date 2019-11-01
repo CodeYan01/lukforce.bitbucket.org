@@ -83,6 +83,9 @@ var specials_bg = {
     'mat2': {
         thumb: 'mat2'
     },
+    'cyo': {
+        thumb: 'cyo'
+    },
     'train_drink': {
         thumb: 'train_drink'
     },

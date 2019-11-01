@@ -2446,6 +2446,12 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'cyo',
+        start: '2019-10-28',
+        end: '2019-11-11',
+        pst_19: true
+    },
+    {
         id: '4th_anni_ship_sp',
         start: '2019-11-06',
         end: '2019-11-11',

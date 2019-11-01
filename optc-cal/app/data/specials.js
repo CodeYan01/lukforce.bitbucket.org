@@ -341,6 +341,12 @@ var specials = {
         thumb: 2113
     },
 
+    'mf_9999': {
+        type: 'Manual Festival',
+        name: 'Lucy - Jinbe v2',
+        thumb: 'generic'
+    },
+
     'pm_1900': {
         type: 'Past Memory',
         name: 'Zoro',
@@ -431,7 +437,7 @@ var specials = {
     'rd_9999': {
         type: 'Raid',
         name: 'All',
-        thumb: 'all_raid'
+        thumb: 'generic'
     },
 
     'sp_0603': {
