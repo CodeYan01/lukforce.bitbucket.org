@@ -3508,6 +3508,7 @@ var coliseumEvents = [
         newId: [2550],
         repId: [1792, 1897, 1978, 2375],
         start: '2019-11-02',
+        ambush: sengoku,
         new_batch: true
     },
     {
