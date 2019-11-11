@@ -89,6 +89,10 @@ function getThumb(thumbId) {
     if (thumbId === 5051 || thumbId === 3365)
         return '/tm-planner/assets/img/new-thumbs/5051.png';
 
+    // Special case for Usopp & Chopper
+    if (thumbId === 5052 || thumbId === 3370)
+        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5052.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
