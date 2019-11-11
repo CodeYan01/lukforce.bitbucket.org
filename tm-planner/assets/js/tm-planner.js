@@ -99,11 +99,13 @@ function getBoosters(tmId, server) {
         server == 'glb' &&
         (
             tmId == 2469 ||
-            tmId == 2510
+            tmId == 2510 ||
+            tmId == 2557
         )
     ) {
         // TM Smoothie & Oven
         // TM Weevil
+        // TM Shanks & Beckman
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();
