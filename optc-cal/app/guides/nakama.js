@@ -346,6 +346,7 @@ var nakama = {
     2443: '8244300',    // Doffy
     2469: '8246900',    // Smoothie & Oven
     2510: '8251000',    // Weevil
+    2557: '8255700',    // Shanks & Beckman
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

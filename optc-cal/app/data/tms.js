@@ -99,4 +99,9 @@ var tms = {
         thumb: 2510,
         info: 'i.imgur.com/yd2O3of.png'
     },
+    2557: {
+        name: 'Shanks & Beckman',
+        thumb: 2557,
+        info: ''
+    },
 };
