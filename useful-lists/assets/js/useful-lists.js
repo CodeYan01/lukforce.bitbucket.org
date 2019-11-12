@@ -8,7 +8,7 @@ function getFinalForms() {
     var baseForms = Object.keys(evolutions);
 
     var finalForms = allUnits.filter(function(el) {
-        return baseForms.indexOf(el) === -1;
+        return baseForms.indexOf(el) === -1 && el < 5000;
     });
 
     return finalForms;
