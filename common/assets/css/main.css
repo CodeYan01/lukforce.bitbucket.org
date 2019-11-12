@@ -29,7 +29,7 @@ body {
 
 .night-mode {
     background-color: rgb(25, 25, 25);
-    color: rgb(205, 205, 205);
+    color: #fafafa;
 }
 
 .night-mode .modal-content {
@@ -89,6 +89,21 @@ body {
 .RAINBOW-div { background: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
 .G-div       { background-color: orange; }
 .EMPTY-div   { background-color: #777; }
+
+.STR-div,
+.QCK-div,
+.DEX-div,
+.PSY-div,
+.INT-div,
+.RCV-div,
+.TND-div,
+.BLOCK-div,
+.BOMB-div,
+.RAINBOW-div,
+.G-div,
+.EMPTY-div {
+    color: #0a0a0a;
+}
 
 .fighter-div        { background-image: url('/common/assets/img/class_fighter.png'); }
 .slasher-div        { background-image: url('/common/assets/img/class_slasher.png'); }
