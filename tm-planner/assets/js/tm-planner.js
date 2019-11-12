@@ -573,7 +573,7 @@ function populateUnitDetail(unitId) {
             var class1;
             var class2;
 
-            if (Array.isArray(unitClass[0])) {
+            if (unitClass[2]) {
                 // Dual Units
                 var dualClass = unitClass[2];
                 class1 = dualClass[0].replace(' ', '-').toLowerCase();
@@ -627,10 +627,23 @@ function populateUnitDetail(unitId) {
         // Special
         var special = unitDetail.special;
         if (special) {
+            $('#unit-detail-special').empty();
+
             if (Array.isArray(special)) {
                 var specialMax = special[special.length - 1].description;
                 specialMax = decorateStr(specialMax);
                 $('#unit-detail-special').html(specialMax);
+            } else if (special.character1) {
+                // Dual Units with different special
+                var special1 = special.character1;
+                special1 = decorateStr(special1);
+                $('#unit-detail-special').append('<b>Character 1:</b> ' + special1);
+                $('#unit-detail-special').append('<br />');
+
+                var special2 = special.character2;
+                special2 = decorateStr(special2);
+                $('#unit-detail-special').append('<b>Character 2:</b> ' + special2);
+                $('#unit-detail-special').append('<br />');
             } else {
                 special = decorateStr(special);
                 $('#unit-detail-special').html(special);
