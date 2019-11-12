@@ -200,6 +200,14 @@ var tm_opponents = {
         2729: ['Hawkins',       'QCK',      4],
         2700: ['Kaido',         'DEX',      5]
     },
+    2763: {
+         765: ['Chopper',       'INT',      0],
+        2295: ['Moria',         'STR',      1],
+        2743: ['Koala',         'PSY',      2],
+        2745: ['Reiju',         'PSY',      3],
+        2299: ['Hancock',       'INT',      4],
+        2763: ['Nami',          'INT',      5]
+    },
     9999: [
         ['',            ''],
         ['',            ''],

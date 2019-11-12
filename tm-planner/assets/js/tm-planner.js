@@ -80,7 +80,7 @@ function getBoosters(tmId, server) {
         $('#div_1_35x').show();
         $('#div_1x').show();
     } else if (server == 'glb' && tmId == 2362) {
-        // TM Nami
+        // TM Christmas Nami
         $('#div_2_2x').show();
         $('#div_1_75x').show();
         $('#div_1_5x').show();
@@ -165,7 +165,7 @@ function getBoosters(tmId, server) {
         $('#div_1_35x_v4').show();
         $('#div_1_25x_v2').show();
     } else if (server == 'jpn' && tmId == 2362) {
-        // TM Nami
+        // TM Christmas Nami
         $('#div_2_25x').show();
         $('#div_1_85x').show();
         $('#div_1_6x').show();
@@ -256,6 +256,17 @@ function getBoosters(tmId, server) {
         $('#div_1_4x_v2').show();
         $('#div_1_3x').show();
         $('#div_1_25x_v3').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
+    } else if (server == 'jpn' && tmId == 2763) {
+        // TM Halloween Nami
+        $('#div_2x').show();
+        $('#div_1_8x').show();
+        $('#div_1_6x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_3x').show();
+        $('#div_1_25x_v2').show();
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();

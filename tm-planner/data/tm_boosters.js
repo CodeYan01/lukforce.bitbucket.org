@@ -5982,7 +5982,7 @@ var tm_boosters = {
         },
     ],
 
-    // ========== Nami ==========
+    // ========== Christmas Nami ==========
     2362: [
         {   // Chopper
             id: 2358,
@@ -6040,7 +6040,7 @@ var tm_boosters = {
             id: 2354,
             x_pts: 1.35
         },
-        {   // Nami
+        {   // Christmas Nami
             id: 2362,
             x_pts: 1.35
         },
@@ -7538,7 +7538,7 @@ var tm_boosters = {
             id: 2336,
             x_pts: 1.1
         },
-        {   // Nami
+        {   // Christmas Nami
             id: 2362,
             x_pts: 1.1
         },
@@ -7646,7 +7646,7 @@ var tm_boosters = {
             id: 2471,
             x_pts: 1.35
         },
-        {   // Nami
+        {   // Christmas Nami
             id: 2362,
             x_pts: 1.35
         },
@@ -8580,7 +8580,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Nami
+        {   // Christmas Nami
             id: 2362,
             type: 'tm',
             x_pts: 1.2
@@ -9237,7 +9237,7 @@ var tm_boosters = {
             id: 2336,
             x_pts: 1.1
         },
-        {   // Nami
+        {   // Christmas Nami
             id: 2362,
             x_pts: 1.1
         },
