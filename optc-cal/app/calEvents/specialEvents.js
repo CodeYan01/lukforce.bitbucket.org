@@ -92,6 +92,10 @@ var specialEvents = [
         id: 'dummy',
         start: '2019-10-26'
     },
+    {
+        id: 'dummy',
+        start: '2019-11-14'
+    },
 
     {
         id: 'ss_0436',
