@@ -2125,4 +2125,16 @@ var fortnightEvents = [
         end: '2019-11-18',
         is_replay: true
     },
+    {
+        id: [424, 1766, 1918, 1980],
+        start: '2019-11-18',
+        end: '2019-11-25',
+        is_replay: true
+    },
+    {
+        id: [318, 420, 1137, 1947],
+        start: '2019-11-25',
+        end: '2019-12-02',
+        is_replay: true
+    },
 ];
