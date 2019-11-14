@@ -563,6 +563,9 @@ function populateUnitDetail(unitId) {
     var unitDetail = details[unitId];
 
     if (unitDetail) {
+        $('#db-button').data('id', unitId);
+        $('.unit-detail-el').show();
+
         // Thumb
         $('#unit-detail-thumb').empty();
 
@@ -634,6 +637,14 @@ function populateUnitDetail(unitId) {
             }
         } else
             $('#unit-detail-captain-ability').html('None');
+
+        // Swap Effect
+        if (captain && captain.combined) {
+            var swapEffect = unitDetail.swap;
+            swapEffect = decorateStr(swapEffect);
+            $('#unit-detail-swap').html(swapEffect);
+        } else
+            $('.unit-detail-swap-el').hide();
 
         // Special
         var special = unitDetail.special;
@@ -708,9 +719,6 @@ function populateUnitDetail(unitId) {
             }
         } else
             $('#unit-detail-sailor').html('None');
-
-        $('#db-button').data('id', unitId);
-        $('.unit-detail-el').show();
     }
 }
 
