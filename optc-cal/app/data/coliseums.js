@@ -518,4 +518,9 @@ var coliseums = {
         chaos_only: true,
         thumb: 2529
     },
+    3372: {
+        name: 'Coby (EX)',
+        chaos_only: true,
+        thumb: 5055
+    },
 };
