@@ -105,7 +105,12 @@ function showFooter() {
             } else {
                 var rd = raids[eId];
                 res['id'] = eId;
-                res['title'] = '『Raid』\n' + rd['name'];
+
+                if (rd['altType'])
+                    res['title'] = '『' + rd['altType'] + '』\n' + rd['name'];
+                else
+                    res['title'] = '『Raid』\n' + rd['name'];
+
                 res['thumb'] = rd['thumb'];
             }
 

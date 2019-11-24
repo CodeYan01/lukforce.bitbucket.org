@@ -80,8 +80,9 @@ var tm_boosters = [
     2519,
     2524,
 
-    // ===== ??? =====
+    // ===== Lucci =====
     // Raids
+    2559,
 
     // Coliseums
     5055,

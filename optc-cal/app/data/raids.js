@@ -187,6 +187,11 @@ var raids = {
         name: 'Sengoku & Garp',
         thumb: 2552
     },
+    2559: {
+        name: 'Leo',
+        altType: 'Fight',
+        thumb: 2559
+    },
     3342: {
         name: 'Shanks & Mihawk',
         thumb: 5024

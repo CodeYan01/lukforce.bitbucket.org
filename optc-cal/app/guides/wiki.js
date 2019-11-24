@@ -189,6 +189,7 @@ var wiki = {
     2504: '',                               // Capone Bege
     2517: '',                               // Magellan & Hannyabal
     2552: 'comments/aa693j',                // Sengoku & Garp
+    2559: '',                               // Leo
     3342: '',                               // Shanks & Mihawk
     3370: '',                               // Usopp & Chopper
 
