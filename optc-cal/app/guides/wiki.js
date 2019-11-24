@@ -317,6 +317,7 @@ var wiki = {
     2471: '',                               // Katakuri
     2489: '',                               // Brook
     2550: '',                               // Doffy & Trebol
+    2569: '',                               // Morley
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

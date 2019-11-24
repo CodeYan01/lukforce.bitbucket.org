@@ -175,6 +175,7 @@ var videoWiki = {
     2471: 'coliseum/charlotte_katakuri',
     2489: 'coliseum/brook',
     2550: 'coliseum/doflamingotrebol',
+    2569: 'coliseum/morley',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',
