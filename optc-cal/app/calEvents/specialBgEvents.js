@@ -2509,4 +2509,28 @@ var specialBgEvents = [
         end: '2019-11-30',
         pst_19: true
     },
+    {
+        id: 'ss',
+        start: '2019-11-30',
+        end: '2019-12-11',
+        pst_19: true
+    },
+    {
+        id: 'strawhats',
+        start: '2019-12-02',
+        end: '2019-12-05',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2019-12-06',
+        end: '2019-12-09',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2019-12-11',
+        end: '2019-12-19',
+        pst_19: true
+    },
 ]
