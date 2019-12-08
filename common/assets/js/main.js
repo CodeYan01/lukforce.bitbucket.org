@@ -29,10 +29,6 @@ function getThumb(thumbId) {
     if (thumbId === 5014 || thumbId === 3334)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
-    // Special case for Lucci v2 6+
-    if (thumbId === 5016 || thumbId === 3336)
-        return '/tm-planner/assets/img/new-thumbs/5016.png';
-
     // Special case for Shanks & Mihawk
     if (thumbId === 5024 || thumbId === 3342)
         return '/tm-planner/assets/img/new-thumbs/5024.png';
@@ -57,10 +53,6 @@ function getThumb(thumbId) {
     if (thumbId === 5036 || thumbId === 3354)
         return '/tm-planner/assets/img/new-thumbs/5036.png';
 
-    // Special case for Ranking Wanda
-    if (thumbId === 5037 || thumbId === 3355)
-        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5037.png';
-
     // Special case for Sanji & Pudding
     if (thumbId === 5038 || thumbId === 3369)
         return '/tm-planner/assets/img/new-thumbs/5038.png';
@@ -80,14 +72,6 @@ function getThumb(thumbId) {
     // Special case for Swimsuit Pudding (white)
     if (thumbId === 5047 || thumbId === 3361)
         return '/tm-planner/assets/img/new-thumbs/5047.png';
-
-    // Special case for SRR Akainu
-    if (thumbId === 5049 || thumbId === 3363)
-        return '/tm-planner/assets/img/new-thumbs/5049.png';
-
-    // Special case for SRR Aokiji
-    if (thumbId === 5051 || thumbId === 3365)
-        return '/tm-planner/assets/img/new-thumbs/5051.png';
 
     // Special case for Usopp & Chopper
     if (thumbId === 5052 || thumbId === 3370)

@@ -2524,7 +2524,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Lucci v2 6+
-            id: 3336,
+            id: 2784,
             type: 'legend',
             x_pts: 1.2
         },
@@ -6384,7 +6384,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Wanda
-            id: 3355,
+            id: 2772,
             type: 'other',
             x_pts: 1.2
         },
@@ -7085,11 +7085,11 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Akainu
-            id: 3363,
+            id: 2769,
             x_pts: 1.35
         },
         {   // Aokiji
-            id: 3365,
+            id: 2771,
             x_pts: 1.35
         },
         {   // Ace
