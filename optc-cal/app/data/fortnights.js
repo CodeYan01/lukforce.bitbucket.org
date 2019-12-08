@@ -559,4 +559,8 @@ var fortnights = {
         name: 'Dress Up 2',
         thumb: 2524
     },
+    2571: {
+        name: 'Kid Doffy',
+        thumb: 2571
+    },
 };

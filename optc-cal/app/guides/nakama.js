@@ -140,6 +140,7 @@ var nakama = {
     2491: '2249100',    // Hiriluk
     2519: '2251900',    // Dress Up 1
     2524: '2252400',    // Dress Up 2
+    2571: '2257100',    // Kid Doffy
 
     // Raids
     227: '4022700',     // Mihawk

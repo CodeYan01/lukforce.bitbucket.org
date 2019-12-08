@@ -2143,6 +2143,32 @@ var fortnightEvents = [
         end: '2019-12-09',
         is_replay: true
     },
+
+    // #############################
+    {
+        id: 2571,
+        start: '2019-12-05',
+        end: '2019-12-09',
+        is_replay: false
+    },
+    {
+        id: 2571,
+        start: '2019-12-09',
+        end: '2019-12-16',
+        is_replay: false
+    },
+    {
+        id: 2571,
+        start: '2019-12-16',
+        end: '2019-12-23',
+        is_replay: false
+    },
+    {
+        id: 2571,
+        start: '2019-12-23',
+        end: '2019-12-28',
+        is_replay: false
+    },
     {
         id: [599, 1332, 2327, 2351],
         start: '2019-12-09',

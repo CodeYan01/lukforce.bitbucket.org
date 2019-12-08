@@ -140,6 +140,7 @@ var wiki = {
     2491: '',                               // Hiriluk
     2519: '',                               // Dress Up 1
     2524: '',                               // Dress Up 2
+    2571: '',                               // Kid Doffy
 
     // Raids
     227: 'wiki/raidboss/mihawk',

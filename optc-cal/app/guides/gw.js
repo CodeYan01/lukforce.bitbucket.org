@@ -140,6 +140,7 @@ var gw = {
     2491: '146866',     // Hiriluk
     2519: '149417',     // Dress Up 1
     2524: '150791',     // Dress Up 2
+    2571: '153186',     // Kid Doffy
 
     // Raids
     227: '4142',        // Mihawk
