@@ -209,7 +209,7 @@ var nakama = {
     3352: '4335200',    // Ivankov (N)
     3357: '4335700',    // Nightmare Luffy (N)
     3359: '4335900',    // Vergo (N)
-    3368: '4065401',    // Duval (N)
+    3368: '4336800',    // Duval (N)
 
     1258: '6125800',    // Young Whitebeard
     1380: '6138000',    // Shanks
