@@ -77,6 +77,14 @@ function getThumb(thumbId) {
     if (thumbId === 5052 || thumbId === 3370)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5052.png';
 
+    // Special case for Coby (EX)
+    if (thumbId === 5055 || thumbId === 3372)
+        return '/tm-planner/assets/img/new-thumbs/5055.png';
+
+    // Special case for Helmeppo (EX)
+    if (thumbId === 5056 || thumbId === 3373)
+        return '/tm-planner/assets/img/new-thumbs/5056.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
