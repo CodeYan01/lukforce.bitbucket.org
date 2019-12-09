@@ -3395,7 +3395,7 @@ var tm_boosters_jpn = {
             id: 2429,
             x_pts: 1.3
         },
-        {   // Young Big Mom
+        {   // Kid Big Mom
             id: 2381,
             x_pts: 1.3
         },
@@ -4056,7 +4056,7 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Young Big Mom
+        {   // Kid Big Mom
             id: 2381,
             type: 'other',
             x_pts: 1.2
@@ -5004,7 +5004,7 @@ var tm_boosters_jpn = {
 
     // ========== Lucci ==========
     2583: [
-        {   // Mjosgard
+        {   // Myosgard
             id: 2579,
             x_pts: 2.25
         },
@@ -5092,7 +5092,7 @@ var tm_boosters_jpn = {
             id: 2283,
             x_pts: 1.3
         },
-        {   // Young Big Mom
+        {   // Kid Big Mom
             id: 2381,
             x_pts: 1.3
         },
@@ -5451,7 +5451,7 @@ var tm_boosters_jpn = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Mjosgard
+        {   // Myosgard
             id: 2579,
             type: 'rr',
             x_pts: 1.2
@@ -5651,7 +5651,7 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Young Big Mom
+        {   // Kid Big Mom
             id: 2381,
             type: 'other',
             x_pts: 1.2
@@ -7032,7 +7032,7 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Young Big Mom
+        {   // Kid Big Mom
             id: 2381,
             type: 'other',
             x_pts: 1.2
