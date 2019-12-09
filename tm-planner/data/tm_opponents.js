@@ -167,7 +167,8 @@ var tm_opponents = {
          964: ['Roswald',       'DEX',      1],
         1595: ['Fujitora',      'PSY',      2],
         2340: ['Stussy',        'QCK',      3],
-        2583: ['Lucci',         'INT',      4]
+        2583: ['Lucci',         'INT',      4],
+        1926: ['Coby',          'INT',      5],
     },
     2618: {
          927: ['Doberman',      'INT',      0],

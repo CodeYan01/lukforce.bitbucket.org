@@ -493,6 +493,7 @@ function init(tmId, server) {
         tmId == 2469 ||
         tmId == 2510 ||
         tmId == 2557 ||
+        tmId == 2583 ||
         tmId == 2659 ||
         tmId == 2690 ||
         tmId == 2729
