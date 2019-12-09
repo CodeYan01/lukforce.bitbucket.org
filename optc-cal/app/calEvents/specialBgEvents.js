@@ -2533,6 +2533,11 @@ var specialBgEvents = [
         end: '2019-12-15'
     },
     {
+        id: 'free_pull',
+        start: '2019-12-09',
+        end: '2019-12-15'
+    },
+    {
         id: 'sp',
         start: '2019-12-11',
         end: '2019-12-19',
