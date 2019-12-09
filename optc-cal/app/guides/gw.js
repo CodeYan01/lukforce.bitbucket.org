@@ -351,6 +351,7 @@ var gw = {
     2469: '144785',     // Smoothie & Oven
     2510: '148609',     // Weevil
     2557: '151643',     // Shanks & Beckman
+    2583: '154065',     // Lucci
 
     // Events
     'bb_1314': '61665', // Three Admirals

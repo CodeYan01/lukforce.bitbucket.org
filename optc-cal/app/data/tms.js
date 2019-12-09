@@ -104,4 +104,9 @@ var tms = {
         thumb: 2557,
         info: ''
     },
+    2583: {
+        name: 'Lucci',
+        thumb: 2583,
+        info: ''
+    },
 };
