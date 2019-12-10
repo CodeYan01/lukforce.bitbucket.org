@@ -272,6 +272,17 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
+    } else if (server == 'jpn' && tmId == 2792) {
+        // TM O-Robi
+        $('#div_2_25x').show();
+        $('#div_1_8x').show();
+        $('#div_1_6x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_3x').show();
+        $('#div_1_25x_v2').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -496,7 +507,9 @@ function init(tmId, server) {
         tmId == 2583 ||
         tmId == 2659 ||
         tmId == 2690 ||
-        tmId == 2729
+        tmId == 2729 ||
+        tmId == 2763 ||
+        tmId == 2792
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');

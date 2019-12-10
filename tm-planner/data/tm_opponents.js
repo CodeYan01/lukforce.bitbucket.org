@@ -209,6 +209,14 @@ var tm_opponents = {
         2299: ['Hancock',       'INT',      4],
         2763: ['Nami',          'INT',      5]
     },
+    2792: {
+        2707: ['Zorojuro',      'PSY',      0],
+        2776: ['Komurasaki',    'QCK',      1],
+        2778: ['O-Kiku',        'QCK',      2],
+        2780: ['O-Tama',        'INT',      3],
+        2792: ['O-Robi',        'QCK',      4],
+        2774: ['O-Nami',        'QCK',      5]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
