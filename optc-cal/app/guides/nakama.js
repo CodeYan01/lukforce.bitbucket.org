@@ -382,7 +382,9 @@ var nakama = {
     'se_2245': '6230000',   // Super Evolve Sanji
     'se_2259': '6225900',   // Super Evolve Higuma
     'se_2300': '6230000',   // Super Evolve Franky
+    'se_2434': '6243400',   // Super Evolve Boa Hancock v2
     'se_2446': '6244600',   // Super Evolve Germa 66 v2
+    'se_2588': '6258800',   // Super Evolve Nami
 
     'sp_0603': '4060301',   // Support Raid Eneru
     'sp_1879': '4187901',   // Support Raid Bartolomeo

@@ -389,7 +389,9 @@ var gw = {
     'se_2245': '124622',// Super Evolve Sanji
     'se_2259': '119604',// Super Evolve Higuma
     'se_2300': '124622',// Super Evolve Franky
+    'se_2434': '155240',// Super Evolve Boa Hancock v2
     'se_2446': '143826',// Super Evolve Germa 66 v2
+    'se_2588': '155238',// Super Evolve Nami
 
     'sp_0603': '138206',// Support Raid Eneru
     'sp_1879': '142094',// Support Raid Bartolomeo

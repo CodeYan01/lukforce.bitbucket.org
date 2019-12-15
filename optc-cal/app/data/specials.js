@@ -417,10 +417,20 @@ var specials = {
         name: 'Franky',
         thumb: 2300
     },
+    'se_2434': {
+        type: 'Super Evolve',
+        name: 'Boa Hancock v2',
+        thumb: 2434
+    },
     'se_2446': {
         type: 'Super Evolve',
         name: 'Germa 66 v2',
         thumb: 2446
+    },
+    'se_2588': {
+        type: 'Super Evolve',
+        name: 'Nami',
+        thumb: 2588
     },
 
     'co_2161': {
