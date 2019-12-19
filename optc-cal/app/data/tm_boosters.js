@@ -69,4 +69,12 @@ var tm_boosters = [
     2283,
     2381,
     5036,
+
+    // ===== Sakazuki & Issho =====
+    // Raids
+    5058,
+
+    // Coliseums
+
+    // FNs
 ]

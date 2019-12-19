@@ -266,4 +266,8 @@ var raids = {
         name: 'Duval (N)',
         thumb: 5041
     },
+    3376: {
+        name: 'Heracles (N)',
+        thumb: 5058
+    },
 };

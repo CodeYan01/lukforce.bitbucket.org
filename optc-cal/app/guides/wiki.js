@@ -210,6 +210,7 @@ var wiki = {
     3357: '',                               // Nightmare Luffy (N)
     3359: '',                               // Vergo (N)
     3368: '',                               // Duval (N)
+    3376: '',                               // Heracles (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/shanks',
