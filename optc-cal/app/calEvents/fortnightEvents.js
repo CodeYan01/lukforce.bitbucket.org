@@ -2178,12 +2178,26 @@ var fortnightEvents = [
     {
         id: [656, 1735, 1774, 2377],
         start: '2019-12-16',
+        end: '2019-12-19',
+        is_replay: true
+    },
+    {
+        id: [1360, 656, 1735, 1774, 2377],
+        start: '2019-12-19',
         end: '2019-12-23',
+        ambush: xmas_cavendish,
+        is_replay: true
+    },
+    {
+        id: [1360, 2253, 2277, 2519, 2524],
+        start: '2019-12-23',
+        end: '2019-12-28',
+        ambush: xmas_cavendish,
         is_replay: true
     },
     {
         id: [2253, 2277, 2519, 2524],
-        start: '2019-12-23',
+        start: '2019-12-28',
         end: '2019-12-30',
         is_replay: true
     },

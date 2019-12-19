@@ -563,4 +563,10 @@ var fortnights = {
         name: 'Kid Doffy',
         thumb: 2571
     },
+
+    // Special Fortnights
+    1360: {
+        name: 'Winter Luffy',
+        thumb: 1360
+    },
 };

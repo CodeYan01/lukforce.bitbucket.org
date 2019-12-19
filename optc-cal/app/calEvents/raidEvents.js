@@ -7,6 +7,8 @@ var kid_bm = 2381;
 
 var ywb_n = 3354;
 
+var xmas_cavendish = 1888;
+
 var raidEvents = [
     {
         id: 603,

@@ -29,4 +29,10 @@ var ambushes = {
         name: 'Young WB (N)',
         thumb: 5036
     },
+
+    // Special Ambushes
+    1888: {
+        name: 'X-Mas Cavendish',
+        thumb: 1889
+    },
 };
