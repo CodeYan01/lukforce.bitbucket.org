@@ -320,6 +320,7 @@ var wiki = {
     2489: '',                               // Brook
     2550: '',                               // Doffy & Trebol
     2569: '',                               // Morley
+    2611: '',                               // Jinbe
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
