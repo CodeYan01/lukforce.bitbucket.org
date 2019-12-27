@@ -2202,13 +2202,13 @@ var fortnightEvents = [
         is_replay: true
     },
     {
-        id: [1416, 1597, 2219],
+        id: [1416, 1597, 1774, 2219],
         start: '2019-12-30',
         end: '2020-01-06',
         is_replay: true
     },
     {
-        id: [1416, 1597, 2219],
+        id: [1416, 1597, 1774, 2219],
         start: '2020-01-06',
         is_replay: true
     },
