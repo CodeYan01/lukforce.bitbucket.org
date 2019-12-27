@@ -60,6 +60,11 @@ var specials = {
         name: 'Luffy vs. Katakuri (R3)',
         thumb: 2365
     },
+    'bb_2620': {
+        type: 'Blitz Battle',
+        name: 'Summer Girls',
+        thumb: 2620
+    },
 
     'wc_2401': {
         type: 'World Clash',

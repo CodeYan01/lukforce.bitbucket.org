@@ -363,6 +363,7 @@ var nakama = {
     'bb_2025': '6202300',   // Face Off! Aokiji
     'bb_2363': '6236300',   // Face Off! Luffy vs. Katakuri
     'bb_2365': '6236300',   // Face Off! Luffy vs. Katakuri
+    'bb_2620': '6262600',   // Summer Girls
 
     'wc_2401': '6240700',   // World Clash
 

@@ -510,8 +510,8 @@ function showFooter() {
                     data = ambushes[id];
 
                 // Special case for Blitz Battle
-                if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
-                    ed.find('.countdown').css('display', 'flex');
+                //if (e['type'] === 'special' && e['subType'] === 'Blitz Battle')
+                //    ed.find('.countdown').css('display', 'flex');
 
                 ed.find('.event-thumb').html(createImgHtml(getThumb(data['thumb']), 50, false));
                 ed.find('.event-title').text(data['name']);
