@@ -4453,15 +4453,47 @@ window.evolutions = {
     },
     2786: {
         evolution: 2787,
-        evolvers: [  ]
+        evolvers: [ 118, 301, 2662, 101, 267 ]
     },
     2788: {
         evolution: 2789,
-        evolvers: [  ]
+        evolvers: [ 94, 2662, 304, 304, 104 ]
     },
     2791: {
         evolution: 2792,
-        evolvers: [  ]
+        evolvers: [ 115, 116, 117, 118, 101 ]
+    },
+    2796: {
+        evolution: 2797,
+        evolvers: [ 118, 303, 2662, 103, 267 ]
+    },
+    2801: {
+        evolution: 2802,
+        evolvers: [ 118, 118, 100, 102, 267 ]
+    },
+    2803: {
+        evolution: 2804,
+        evolvers: [ 118, 101, 301, 2662, 267 ]
+    },
+    2805: {
+        evolution: 2806,
+        evolvers: [ 266, 89, 95, 300, 100 ]
+    },
+    2807: {
+        evolution: 2808,
+        evolvers: [ 266, 93, 99, 304, 104 ]
+    },
+    2809: {
+        evolution: 2810,
+        evolvers: [ 266, 91, 97, 302, 102 ]
+    },
+    2811: {
+        evolution: 2812,
+        evolvers: [ 117, 84, 95, 300, 100 ]
+    },
+    1794: {
+        evolution: 2814,
+        evolvers: [ 'skullSTR', 'skullQCK', 96, 301, 267 ]
     },
     3333: {
         evolution: 3334,
@@ -4513,6 +4545,10 @@ window.evolutions = {
     },
     3371: {
         evolution: 3372,
-        evolvers: [ ]
+        evolvers: [ 117, 84, 95, 95, 300 ]
+    },
+    3375: {
+        evolution: 3376,
+        evolvers: [  ]
     },
 };
