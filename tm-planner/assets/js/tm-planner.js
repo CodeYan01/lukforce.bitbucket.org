@@ -101,13 +101,15 @@ function getBoosters(tmId, server) {
             tmId == 2469 ||
             tmId == 2510 ||
             tmId == 2557 ||
-            tmId == 2583
+            tmId == 2583 ||
+            tmId == 2618
         )
     ) {
         // TM Smoothie & Oven
         // TM Weevil
         // TM Shanks & Beckman
         // TM Lucci
+        // TM Sakazuki & Issho
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();
@@ -505,6 +507,7 @@ function init(tmId, server) {
         tmId == 2510 ||
         tmId == 2557 ||
         tmId == 2583 ||
+        tmId == 2618 ||
         tmId == 2659 ||
         tmId == 2690 ||
         tmId == 2729 ||

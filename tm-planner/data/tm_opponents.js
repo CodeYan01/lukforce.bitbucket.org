@@ -175,7 +175,8 @@ var tm_opponents = {
         1320: ['Tsuru',         'QCK',      2],
         2251: ['Garp',          'PSY',      3],
         2605: ['Coby',          'STR',      1],
-        2618: [['Sakazuki & ', 'Issho'], ['STR', 'INT'], 4]
+        2618: [['Sakazuki & ', 'Issho'], ['STR', 'INT'], 4],
+        2507: ['Kizaru',        'PSY',      5],
     },
     2659: {
         1974: ['Hawkins',       'STR',      1],
