@@ -109,4 +109,9 @@ var tms = {
         thumb: 2583,
         info: ''
     },
+    2618: {
+        name: 'Sakazuki & Issho',
+        thumb: 2618,
+        info: 'i.imgur.com/Ye3vCLH.png'
+    },
 };
