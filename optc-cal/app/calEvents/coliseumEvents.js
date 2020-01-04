@@ -3798,4 +3798,30 @@ var coliseumEvents = [
         start: '2020-01-11',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: [2611],
+        repId: [1828, 2111, 2489, 1630],
+        start: '2020-01-03',
+        new_batch: false
+    },
+    {
+        newId: [2611],
+        repId: [1828, 2111, 2489, 1630],
+        start: '2020-01-06',
+        new_batch: false
+    },
+    {
+        newId: [2611],
+        repId: [1828, 2111, 2489, 1630],
+        start: '2020-01-10',
+        new_batch: false
+    },
+    {
+        newId: [2611],
+        repId: [1828, 2111, 2489, 1630],
+        start: '2020-01-13',
+        new_batch: false
+    },
 ]
