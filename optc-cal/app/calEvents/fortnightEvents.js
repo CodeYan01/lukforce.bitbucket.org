@@ -2301,7 +2301,7 @@ var fortnightEvents = [
     {
         id: [1095, 1112, 1167],
         start: '2020-02-03',
-        end: '2020-02-09',
+        end: '2020-02-08',
         is_replay: true
     },
 ];
