@@ -192,6 +192,10 @@ var raids = {
         altType: 'Fight',
         thumb: 2559
     },
+    2642: {
+        name: 'Stampede',
+        thumb: 2642
+    },
     3342: {
         name: 'Shanks & Mihawk',
         thumb: 5024

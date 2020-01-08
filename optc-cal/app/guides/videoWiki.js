@@ -48,6 +48,7 @@ var videoWiki = {
     2517: 'raidboss/magellanhannyabal',
     2552: 'raidboss/sengokugarp',
     2559: '',   // Leo
+    2642: '',   // Stampede
     3342: 'raidboss/shanksmihawk',
     3370: '',   // Usopp & Chopper
 

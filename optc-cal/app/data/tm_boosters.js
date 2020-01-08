@@ -26,6 +26,7 @@ var tm_boosters = [
 
     // ===== Smoker =====
     // Raids
+    2642,
 
     // Coliseums
 

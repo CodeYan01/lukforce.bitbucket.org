@@ -193,6 +193,7 @@ var gw = {
     2517: '149117',     // Magellan & Hannyabal
     2552: '150061',     // Sengoku & Garp
     2559: '152009',     // Leo
+    2642: '160324',     // Stampede
     3342: '',           // Shanks & Mihawk
     3370: '',           // Usopp & Chopper
 
