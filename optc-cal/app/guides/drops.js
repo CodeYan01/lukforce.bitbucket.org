@@ -141,6 +141,8 @@ drops = {
     2519: 'Dress%20Up%20for%20the%20Pirate%20Festival!%20Pop%20Fortnight',
     2524: 'Dress%20Up%20for%20the%20Pirate%20Festival!%20Chic%20Fortnight',
     2571: 'Hell%27s%20Past!%20Young%20Doflamingo%20Fortnight',
+    2633: 'Pirate%20Expo!%20Festival%20Fortnight',
+    2635: 'Pirate%20Expo!%20Vacation%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

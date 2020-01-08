@@ -563,6 +563,14 @@ var fortnights = {
         name: 'Kid Doffy',
         thumb: 2571
     },
+    2633: {
+        name: 'Summertime 2',
+        thumb: 2633
+    },
+    2635: {
+        name: 'Summertime 1',
+        thumb: 2635
+    },
 
     // Special Fortnights
     1360: {

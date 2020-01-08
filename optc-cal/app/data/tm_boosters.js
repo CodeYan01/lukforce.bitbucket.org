@@ -30,4 +30,6 @@ var tm_boosters = [
     // Coliseums
 
     // FNs
+    2633,
+    2635,
 ]
