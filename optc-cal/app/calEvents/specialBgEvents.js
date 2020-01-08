@@ -2589,4 +2589,40 @@ var specialBgEvents = [
         end: '2020-01-04',
         pst_19: true
     },
+    {
+        id: 'ss',
+        start: '2020-01-07',
+        end: '2020-01-18',
+        pst_19: true
+    },
+    {
+        id: 'stampede_ship',
+        start: '2020-01-09',
+        end: '2020-02-10',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2020-01-18',
+        end: '2020-01-23',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2020-01-23',
+        end: '2020-01-29',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2020-01-29',
+        end: '2020-02-05',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2020-02-05',
+        end: '2020-02-10',
+        pst_19: true
+    },
 ]
