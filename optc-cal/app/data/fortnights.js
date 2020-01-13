@@ -564,11 +564,11 @@ var fortnights = {
         thumb: 2571
     },
     2633: {
-        name: 'Summertime 2',
+        name: 'Pirate Expo 2',
         thumb: 2633
     },
     2635: {
-        name: 'Summertime 1',
+        name: 'Pirate Expo 1',
         thumb: 2635
     },
 

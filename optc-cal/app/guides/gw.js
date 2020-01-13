@@ -141,8 +141,8 @@ var gw = {
     2519: '149417',     // Dress Up 1
     2524: '150791',     // Dress Up 2
     2571: '153186',     // Kid Doffy
-    2633: '161560',     // Summertime 2
-    2635: '159294',     // Summertime 1
+    2633: '161560',     // Pirate Expo 2
+    2635: '159294',     // Pirate Expo 1
 
     // Raids
     227: '4142',        // Mihawk

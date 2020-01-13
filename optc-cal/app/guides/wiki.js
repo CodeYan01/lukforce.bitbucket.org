@@ -141,8 +141,8 @@ var wiki = {
     2519: '',                               // Dress Up 1
     2524: '',                               // Dress Up 2
     2571: '',                               // Kid Doffy
-    2633: '',                               // Summertime 2
-    2635: '',                               // Summertime 1
+    2633: '',                               // Pirate Expo 2
+    2635: '',                               // Pirate Expo 1
 
     // Raids
     227: 'wiki/raidboss/mihawk',
