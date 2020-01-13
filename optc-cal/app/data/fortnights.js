@@ -571,6 +571,10 @@ var fortnights = {
         name: 'Pirate Expo 1',
         thumb: 2635
     },
+    2665: {
+        name: 'Ann',
+        thumb: 2665
+    },
 
     // Special Fortnights
     1360: {

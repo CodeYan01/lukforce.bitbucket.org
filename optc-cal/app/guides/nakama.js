@@ -143,6 +143,7 @@ var nakama = {
     2571: '2257100',    // Kid Doffy
     2633: '2263300',    // Pirate Expo 2
     2635: '2263500',    // Pirate Expo 1
+    2665: '2266500',    // Ann
 
     // Raids
     227: '4022700',     // Mihawk

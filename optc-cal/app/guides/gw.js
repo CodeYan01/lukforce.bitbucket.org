@@ -143,6 +143,7 @@ var gw = {
     2571: '153186',     // Kid Doffy
     2633: '161560',     // Pirate Expo 2
     2635: '159294',     // Pirate Expo 1
+    2665: '162860',     // Ann
 
     // Raids
     227: '4142',        // Mihawk

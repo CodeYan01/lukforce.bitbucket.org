@@ -2251,25 +2251,25 @@ var fortnightEvents = [
         is_replay: false
     },
     {
-        id: [2633, 2635],
+        id: [2633, 2635, 2665],
         start: '2020-01-13',
         end: '2020-01-20',
         is_replay: false
     },
     {
-        id: [2633, 2635],
+        id: [2633, 2635, 2665],
         start: '2020-01-20',
         end: '2020-01-27',
         is_replay: false
     },
     {
-        id: [2633, 2635],
+        id: [2633, 2635, 2665],
         start: '2020-01-27',
         end: '2020-02-03',
         is_replay: false
     },
     {
-        id: [2633, 2635],
+        id: [2633, 2635, 2665],
         start: '2020-02-03',
         end: '2020-02-08',
         is_replay: false

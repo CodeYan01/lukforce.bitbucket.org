@@ -143,6 +143,7 @@ var wiki = {
     2571: '',                               // Kid Doffy
     2633: '',                               // Pirate Expo 2
     2635: '',                               // Pirate Expo 1
+    2665: '',                               // Ann
 
     // Raids
     227: 'wiki/raidboss/mihawk',
