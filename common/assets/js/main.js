@@ -85,6 +85,10 @@ function getThumb(thumbId) {
     if (thumbId === 5056 || thumbId === 3373)
         return '/tm-planner/assets/img/new-thumbs/5056.png';
 
+    // Special case for Heracles (N)
+    if (thumbId === 5058 || thumbId === 3376)
+        return '/tm-planner/assets/img/new-thumbs/5058.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
