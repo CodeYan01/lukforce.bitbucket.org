@@ -218,6 +218,14 @@ var tm_opponents = {
         2792: ['O-Robi',        'QCK',      4],
         2774: ['O-Nami',        'QCK',      5]
     },
+    2823: {
+        2231: ['Jack',          'STR',      3],
+        2704: ['Holdem',        'PSY',      0],
+        2785: ['Kyoshiro',      'INT',      2],
+        2813: ['Shutenmaru',    'DEX',      1],
+        2823: ['X Drake',       'STR',      4],
+        2804: ['O-Soba Mask',   'QCK',      5]
+    },
     9999: [
         ['',            ''],
         ['',            ''],

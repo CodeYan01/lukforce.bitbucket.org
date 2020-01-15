@@ -263,8 +263,15 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
-    } else if (server == 'jpn' && tmId == 2763) {
+    } else if (
+        server == 'jpn' &&
+        (
+            tmId == 2763 ||
+            tmId == 2823
+        )
+    ) {
         // TM Halloween Nami
+        // TM X Drake
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -512,7 +519,8 @@ function init(tmId, server) {
         tmId == 2690 ||
         tmId == 2729 ||
         tmId == 2763 ||
-        tmId == 2792
+        tmId == 2792 ||
+        tmId == 2823
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
