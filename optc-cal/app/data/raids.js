@@ -196,6 +196,10 @@ var raids = {
         name: 'Stampede',
         thumb: 2642
     },
+    2670: {
+        name: 'Lucci v2',
+        thumb: 2670
+    },
     3342: {
         name: 'Shanks & Mihawk',
         thumb: 5024

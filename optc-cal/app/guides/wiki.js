@@ -195,6 +195,7 @@ var wiki = {
     2552: 'comments/aa693j',                // Sengoku & Garp
     2559: '',                               // Leo
     2642: '',                               // Stampede
+    2670: '',                               // Lucci v2
     3342: '',                               // Shanks & Mihawk
     3370: '',                               // Usopp & Chopper
 

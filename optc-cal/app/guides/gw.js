@@ -195,6 +195,7 @@ var gw = {
     2552: '150061',     // Sengoku & Garp
     2559: '152009',     // Leo
     2642: '160324',     // Stampede
+    2670: '163423',     // Lucci v2
     3342: '',           // Shanks & Mihawk
     3370: '',           // Usopp & Chopper
 
