@@ -29,10 +29,6 @@ function getThumb(thumbId) {
     if (thumbId === 5014 || thumbId === 3334)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
-    // Special case for Shanks & Mihawk
-    if (thumbId === 5024 || thumbId === 3342)
-        return '/tm-planner/assets/img/new-thumbs/5024.png';
-
     // Special case for Garp (N)
     if (thumbId === 5028 || thumbId === 3340)
         return '/tm-planner/assets/img/new-thumbs/5028.png';

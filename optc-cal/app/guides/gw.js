@@ -196,7 +196,7 @@ var gw = {
     2559: '152009',     // Leo
     2642: '160324',     // Stampede
     2670: '163423',     // Lucci v2
-    3342: '',           // Shanks & Mihawk
+    2819: '',           // Shanks & Mihawk
     3370: '',           // Usopp & Chopper
 
     1623: '',           //'58437',      // Doflamingo (N)

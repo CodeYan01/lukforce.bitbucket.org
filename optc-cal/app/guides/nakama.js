@@ -196,7 +196,7 @@ var nakama = {
     2559: '4255900',    // Leo
     2642: '4264200',    // Stampede
     2670: '4267000',    // Lucci v2
-    3342: '4334200',    // Shanks & Mihawk
+    2819: '4281900',    // Shanks & Mihawk
     3370: '4337000',    // Usopp & Chopper
 
     1623: '4162300',    // Doflamingo (N)

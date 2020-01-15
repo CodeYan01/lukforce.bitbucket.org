@@ -50,7 +50,7 @@ var videoWiki = {
     2559: '',   // Leo
     2642: '',   // Stampede
     2670: '',   // Lucci v2
-    3342: 'raidboss/shanksmihawk',
+    2819: 'raidboss/shanksmihawk',
     3370: '',   // Usopp & Chopper
 
     1623: 'raidboss/doflamingokai',

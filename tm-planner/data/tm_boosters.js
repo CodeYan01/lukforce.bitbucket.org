@@ -4109,7 +4109,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Shanks & Mihawk
-            id: 3342,
+            id: 2819,
             type: 'raid',
             x_pts: 1.2
         },
@@ -8932,7 +8932,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Mihawk & Shanks
-            id: 3342,
+            id: 2819,
             type: 'raid',
             x_pts: 1.2
         },
