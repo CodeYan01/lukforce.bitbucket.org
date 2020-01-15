@@ -386,6 +386,7 @@ var gw = {
 
     'pm_1900': '85046', // Past Memory Zoro
     'bl_2475': '147515',// Black Blade Training
+    'stp_2668': '162504',// Stampede Fujitora
 
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard
     'rk_1700': '107881',// 1 Turn Dmg Ranking Jinbe

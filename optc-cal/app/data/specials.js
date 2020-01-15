@@ -486,4 +486,10 @@ var specials = {
         name: 'Perospero',
         thumb: 2351
     },
+
+    'stp_2668': {
+        type: 'Stampede',
+        name: 'Fujitora',
+        thumb: 2668
+    },
 }
