@@ -5814,47 +5814,47 @@ var tm_boosters_jpn = {
             ver: 4,
             x_pts: 1.25
         },
-        {   // Summer Vacation Luffy
+        {   // Pirate Expo Luffy
             id: 2633,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Zoro
+        {   // Pirate Expo Zoro
             id: 2634,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Sanji
+        {   // Pirate Expo Sanji
             id: 2635,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Nami
+        {   // Pirate Expo Nami
             id: 2636,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Usopp
+        {   // Pirate Expo Usopp
             id: 2637,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Chopper
+        {   // Pirate Expo Chopper
             id: 2638,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Robin
+        {   // Pirate Expo Robin
             id: 2639,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Franky
+        {   // Pirate Expo Franky
             id: 2640,
             ver: 3,
             x_pts: 1.25
         },
-        {   // Summer Vacation Brook
+        {   // Pirate Expo Brook
             id: 2641,
             ver: 3,
             x_pts: 1.25
