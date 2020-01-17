@@ -361,6 +361,7 @@ var nakama = {
     2557: '8255700',    // Shanks & Beckman
     2583: '8258300',    // Lucci
     2618: '8261800',    // Sakazuki & Issho
+    2659: '8265900',    // Smoker
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

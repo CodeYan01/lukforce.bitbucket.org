@@ -361,6 +361,7 @@ var gw = {
     2557: '151643',     // Shanks & Beckman
     2583: '154065',     // Lucci
     2618: '157969',     // Sakazuki & Issho
+    2659: '162014',     // Smoker
 
     // Events
     'bb_1314': '61665', // Three Admirals

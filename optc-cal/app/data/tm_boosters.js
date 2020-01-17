@@ -23,6 +23,7 @@ var tm_boosters = [
     2557,
     2583,
     2618,
+    2659,
 
     // ===== Smoker =====
     // Raids
