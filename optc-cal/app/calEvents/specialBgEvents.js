@@ -2617,6 +2617,11 @@ var specialBgEvents = [
         end: '2020-01-22'
     },
     {
+        id: 'sugo',
+        start: '2020-01-22',
+        end: '2020-02-03'
+    },
+    {
         id: 'sp',
         start: '2020-01-18',
         end: '2020-01-23',
