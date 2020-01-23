@@ -437,6 +437,11 @@ var specials = {
         name: 'Nami',
         thumb: 2588
     },
+    'se_2681': {
+        type: 'Super Evolve',
+        name: 'Bullet',
+        thumb: 2681
+    },
 
     'co_2161': {
         type: 'Co-op Mission',
