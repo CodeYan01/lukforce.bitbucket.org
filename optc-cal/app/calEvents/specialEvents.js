@@ -107,11 +107,20 @@ var specialEvents = [
     },
     {
         id: 'dummy',
-        start: '2020-01-21'
+        start: '2020-01-20',
+        end: '2020-01-22'
     },
     {
         id: 'dummy',
         start: '2020-01-23'
+    },
+    {
+        id: 'dummy',
+        start: '2020-01-30'
+    },
+    {
+        id: 'dummy',
+        start: '2020-02-06'
     },
 
     {
