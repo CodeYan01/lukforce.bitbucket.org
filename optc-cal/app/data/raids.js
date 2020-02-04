@@ -200,6 +200,10 @@ var raids = {
         name: 'Lucci v2',
         thumb: 2670
     },
+    2684: {
+        name: 'Sabo v2',
+        thumb: 2684
+    },
     2819: {
         name: 'Shanks & Mihawk',
         thumb: 2819

@@ -28,6 +28,7 @@ var tm_boosters = [
     // ===== Blackbeard =====
     // Raids
     2670,
+    2684,
 
     // Coliseums
 
