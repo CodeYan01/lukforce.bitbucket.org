@@ -365,6 +365,9 @@ var nakama = {
     2659: '8265900',    // Smoker
 
     // Kizunas
+    2518: '9251800',    // Zoro & Sanji (Bartolomeo)
+    2615: '9261501',    // Zoro & Sanji (Perospero)
+    2630: '9263002',    // Zoro & Sanji (Marguerite)
     2682: '9268204',    // Boa Hancock
 
     // Events

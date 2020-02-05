@@ -365,6 +365,9 @@ var gw = {
     2659: '162014',     // Smoker
 
     // Kizunas
+    2518: '150056',     // Zoro & Sanji (Bartolomeo)
+    2615: '155125',     // Zoro & Sanji (Perospero)
+    2630: '156782',     // Zoro & Sanji (Marguerite)
     2682: '164565',     // Boa Hancock
 
     // Events

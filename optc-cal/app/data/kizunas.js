@@ -1,4 +1,19 @@
 var kizunas = {
+    2518: {
+        name: 'Zoro & Sanji',
+        thumb: 2531,
+        xch_id: 2518
+    },
+    2615: {
+        name: 'Zoro & Sanji',
+        thumb: 2531,
+        xch_id: 2615
+    },
+    2630: {
+        name: 'Zoro & Sanji',
+        thumb: 2531,
+        xch_id: 2630
+    },
     2682: {
         name: 'Boa Hancock',
         thumb: 2682,
