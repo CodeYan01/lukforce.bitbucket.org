@@ -15,6 +15,7 @@ function showFooter() {
     const coliColorNew = 'rgba(30, 144, 255, 0.6)';
     const coliColorRep = 'rgba(30, 144, 255, 0.3)';
     const tmColor = 'rgba(255, 165, 0, 0.6)';
+    const kizunaColor = 'rgba(255, 140, 0, 0.6)';
     const spColor = 'rgba(147, 112, 219, 0.6)';
 
     function createFortnightEvent(eventArray, isPST) {
@@ -302,6 +303,47 @@ function showFooter() {
         });
     }
 
+    function createKizunaEvent(eventArray, isPST) {
+        kizunaEvents.forEach(function(e) {
+            var res = {};
+
+            var eId = e['id'];
+
+            var kizuna = kizunas[eId];
+            res['id'] = eId;
+            res['title'] = '『Kizuna』\n' + kizuna['name'];
+            res['thumb'] = kizuna['thumb'];
+            res['xch_id'] = kizuna['xch_id'];
+
+            res['type'] = 'kizuna';
+
+            // Add one day for 19:00 events for GMT mode
+            var start = e['start'];
+            var end = e['end'];
+
+            if (!isPST && e['pst_19']) {
+                var startDate = moment(start);
+                startDate.add(1, 'd');
+                start = startDate.format('YYYY-MM-DD');
+
+                if (end) {
+                    var endDate = moment(end);
+                    endDate.add(1, 'd');
+                    end = endDate.format('YYYY-MM-DD');
+                }
+            }
+
+            start += ' 02:30';
+            res['start'] = start;
+            res['end'] = end;
+
+            res['color'] = kizunaColor;
+            res['textColor'] = 'black';
+
+            eventArray.push(res);
+        });
+    }
+
     function createSpecialEvent(eventArray, isPST) {
         specialEvents.forEach(function(e) {
             var res = {};
@@ -503,6 +545,8 @@ function showFooter() {
                     data = coliseums[id];
                 else if (e['type'] === 'tm')
                     data = tms[id];
+                else if (e['type'] === 'kizuna')
+                    data = kizunas[id];
                 else if (e['type'] === 'special')
                     data = specials[id];
 
@@ -635,6 +679,7 @@ function showFooter() {
         createRaidEvent(eventArray, isPST);
         createColiseumEvent(eventArray, isPST);
         createTmEvent(eventArray, isPST);
+        createKizunaEvent(eventArray, isPST);
         createSpecialEvent(eventArray, isPST);
         createSpecialBgEvent(eventArray, isPST);
 
@@ -676,6 +721,7 @@ function showFooter() {
                 if (event['type'] === 'fortnight'
                     || event['type'] === 'raid'
                     || event['type'] === 'tm'
+                    || event['type'] === 'kizuna'
                     || (event['type'] === 'special' && event['id'] !== 'dummy')
                 ) {
                     var thumbArray = [];
@@ -700,6 +746,13 @@ function showFooter() {
                         }
 
                         element.find('.fc-title').after('<i class="fas fa-trophy"></i>');
+                    }
+
+                    if (event['type'] === 'kizuna') {
+                        var xchImg = createImgHtml(getThumb(event['xch_id']), 23, true);
+                        xchImg.addClass('unit-img');
+                        xchImg.data('id', parseInt(event['xch_id']), 10);
+                        element.find('.fc-title').before(xchImg);
                     }
 
                     element.css('min-height', '32px');
@@ -748,6 +801,7 @@ function showFooter() {
                     || event['type'] === 'raid'
                     || event['type'] === 'coliseum'
                     || event['type'] === 'tm'
+                    || event['type'] === 'kizuna'
                     || (event['type'] === 'special' && event['subType'] === 'Blitz Battle')
                     || (event['type'] === 'special' && event['subType'] === 'Face Off')
                     || (event['type'] === 'special' && event['subType'] === 'World Clash')

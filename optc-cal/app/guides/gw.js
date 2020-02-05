@@ -364,6 +364,9 @@ var gw = {
     2618: '157969',     // Sakazuki & Issho
     2659: '162014',     // Smoker
 
+    // Kizunas
+    2682: '164565',     // Boa Hancock
+
     // Events
     'bb_1314': '61665', // Three Admirals
     'bb_1404': '65078', // Straw Hat Pirates

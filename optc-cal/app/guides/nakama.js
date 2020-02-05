@@ -364,6 +364,9 @@ var nakama = {
     2618: '8261800',    // Sakazuki & Issho
     2659: '8265900',    // Smoker
 
+    // Kizunas
+    2682: '9268204',    // Boa Hancock
+
     // Events
     'bb_1314': '6131400',   // Three Admirals
     'bb_1404': '6140400',   // Straw Hat Pirates
