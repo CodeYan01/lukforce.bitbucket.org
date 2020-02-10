@@ -396,6 +396,10 @@ var gw = {
     'bl_2475': '147515',// Black Blade Training
     'stp_2668': '162504',// Stampede Fujitora
 
+    'wj_2825': '183897',// World Journey Boa Hancock
+    'wj_2827': '183898',// World Journey Mihawk
+    'wj_2829': '183899',// World Journey Crocodile
+
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard
     'rk_1700': '107881',// 1 Turn Dmg Ranking Jinbe
     'rk_1873': '111278',// 1 Turn Dmg Ranking Kyros

@@ -813,6 +813,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Past Memory')
                     || (event['type'] === 'special' && event['subType'] === 'Black Blade Training')
                     || (event['type'] === 'special' && event['subType'] === 'Stampede')
+                    || (event['type'] === 'special' && event['subType'] === 'World Journey')
                     || (event['type'] === 'special' && event['subType'] === '1 Turn Dmg Ranking')
                     || (event['type'] === 'special' && event['subType'] === 'Super Evolve')
                     || (event['type'] === 'special' && event['subType'] === 'Support Raid')

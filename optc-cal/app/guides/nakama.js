@@ -396,6 +396,10 @@ var nakama = {
     'bl_2475': '6247500',   // Black Blade Training
     'stp_2668': '6266800',  // Stampede Fujitora
 
+    'wj_2825': '6282500',   // World Journey Boa Hancock
+    'wj_2827': '6282500',   // World Journey Mihawk
+    'wj_2829': '6282500',   // World Journey Crocodile
+
     'se_2138': '6213800',   // Super Evolve Germa 66
     'se_2232': '6223200',   // Super Evolve Eneru
     'se_2245': '6230000',   // Super Evolve Sanji

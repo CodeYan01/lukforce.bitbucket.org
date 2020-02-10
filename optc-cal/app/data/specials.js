@@ -497,4 +497,20 @@ var specials = {
         name: 'Fujitora',
         thumb: 2668
     },
+
+    'wj_2825': {
+        type: 'World Journey',
+        name: 'Boa Hancock',
+        thumb: 2825
+    },
+    'wj_2827': {
+        type: 'World Journey',
+        name: 'Mihawk',
+        thumb: 2827
+    },
+    'wj_2829': {
+        type: 'World Journey',
+        name: 'Crocodile',
+        thumb: 2829
+    },
 }
