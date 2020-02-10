@@ -3638,7 +3638,8 @@ var raidEvents = [
     },
     {
         id: 2197,
-        start: '2020-02-08'
+        start: '2020-02-08',
+        ambush: kid_bm
     },
     {
         id: [933, 3376],
