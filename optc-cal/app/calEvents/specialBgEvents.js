@@ -2617,15 +2617,15 @@ var specialBgEvents = [
         end: '2020-01-22'
     },
     {
-        id: 'sugo',
-        start: '2020-01-22',
-        end: '2020-02-03'
-    },
-    {
         id: 'sp',
         start: '2020-01-18',
         end: '2020-01-23',
         pst_19: true
+    },
+    {
+        id: 'sugo',
+        start: '2020-01-22',
+        end: '2020-02-03'
     },
     {
         id: 'ss',
@@ -2650,6 +2650,11 @@ var specialBgEvents = [
         start: '2020-02-09',
         end: '2020-02-13',
         pst_19: true
+    },
+    {
+        id: 'sugo',
+        start: '2020-02-11',
+        end: '2020-02-17'
     },
     {
         id: 'sp',
