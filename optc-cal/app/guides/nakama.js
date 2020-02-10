@@ -409,6 +409,7 @@ var nakama = {
     'se_2446': '6244600',   // Super Evolve Germa 66 v2
     'se_2588': '6258800',   // Super Evolve Nami
     'se_2681': '6268100',   // Super Evolve Bullet
+    'se_3379': '6337900',   // Super Evolve Whitebeard v2
 
     'sp_0603': '4060301',   // Support Raid Eneru
     'sp_1879': '4187901',   // Support Raid Bartolomeo

@@ -442,6 +442,11 @@ var specials = {
         name: 'Bullet',
         thumb: 2681
     },
+    'se_3379': {
+        type: 'Super Evolve',
+        name: 'Whitebeard v2',
+        thumb: 5063
+    },
 
     'co_2161': {
         type: 'Co-op Mission',
