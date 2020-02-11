@@ -226,6 +226,14 @@ var tm_opponents = {
         2823: ['X Drake',       'STR',      4],
         2804: ['O-Soba Mask',   'QCK',      5]
     },
+    2850: {
+        1968: ['Hancock',       'STR',      0],
+        2084: ['Reiju',         'QCK',      1],
+        2548: ['Perona',        'DEX',      2],
+        2743: ['Koala',         'PSY',      3],
+        2850: [['Rebecca & ', 'Viola'], ['DEX', 'INT'], 4],
+        2078: ['Carrot',        'PSY',      5],
+    },
     9999: [
         ['',            ''],
         ['',            ''],
