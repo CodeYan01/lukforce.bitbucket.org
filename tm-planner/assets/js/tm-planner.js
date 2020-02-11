@@ -103,7 +103,8 @@ function getBoosters(tmId, server) {
             tmId == 2557 ||
             tmId == 2583 ||
             tmId == 2618 ||
-            tmId == 2659
+            tmId == 2659 ||
+            tmId == 2690
         )
     ) {
         // TM Smoothie & Oven
@@ -112,6 +113,7 @@ function getBoosters(tmId, server) {
         // TM Lucci
         // TM Sakazuki & Issho
         // TM Smoker
+        // TM Blackbeard
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();

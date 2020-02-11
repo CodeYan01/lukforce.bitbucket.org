@@ -187,10 +187,10 @@ var tm_opponents = {
         2659: ['Smoker',        'QCK',      5]
     },
     2690: {
-         418: ['Doffy',         'DEX',      0],
-         972: ['PX-5',          'INT',      1],
+         418: ['Doffy',         'DEX',      3],
+         972: ['PX-5',          'INT',      0],
         1274: ['Burgess',       'STR',      2],
-        1278: ['Doc Q',         'PSY',      3],
+        1278: ['Doc Q',         'PSY',      1],
         2690: ['Blackbeard',    'INT',      4],
         1313: ['Akainu',        'STR',      5]
     },
