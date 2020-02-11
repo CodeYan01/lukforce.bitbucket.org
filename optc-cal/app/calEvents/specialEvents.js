@@ -120,8 +120,7 @@ var specialEvents = [
     },
     {
         id: 'dummy',
-        start: '2020-02-12',
-        end: '2020-02-16'
+        start: '2020-02-12'
     },
     {
         id: 'dummy',

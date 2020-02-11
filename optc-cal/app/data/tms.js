@@ -119,4 +119,9 @@ var tms = {
         thumb: 2659,
         info: 'i.imgur.com/CMGb9OQ.png'
     },
+    2690: {
+        name: 'Blackbeard',
+        thumb: 2690,
+        info: 'i.imgur.com/KtGlRXi.png'
+    },
 };
