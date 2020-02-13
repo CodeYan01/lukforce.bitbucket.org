@@ -157,14 +157,17 @@
     font-size: inherit;
 }
 
+#tm-team-sets {
+    padding-right: 10px;
+}
+
 #tm-team-sets > div {
     width: 100%;
     align-items: flex-end;
 }
 
 .team {
-    padding-left: 25px;
-    padding-right: 0;
+    padding: 0 0 5px 25px;
 }
 
 .fixed-teams {
@@ -174,21 +177,22 @@
     bottom: 0;
     z-index: 10;
     border-top: 1px solid;
-    padding-bottom: 10px;
 }
 
 @media (max-width: 767px) {
+    .fixed-teams div#tm-team-sets {
+        overflow: auto;
+    }
+
     .fixed-teams div#tm-team-sets > div.row {
         display: flex;
         flex-flow: nowrap;
-        overflow: scroll;
     }
 }
 
 #team-hints {
     float: left;
     color: #ffc107;
-    display: none;
 }
 
 @media (min-width: 768px) {
