@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark navbar-bg">
     <a class="navbar-brand" href="/">
         <img src="/pappagu.png" width="30" height="30">
         OPTC Voyage Log
@@ -49,10 +49,12 @@
             $('#night-mode-icon').removeClass('fa-moon');
             $('#night-mode-icon').addClass('fa-sun');
             $('body').addClass('night-mode');
+            $('.dropdown-menu').addClass('bg-dark');
         } else {
             $('#night-mode-icon').removeClass('fa-sun');
             $('#night-mode-icon').addClass('fa-moon');
             $('body').removeClass('night-mode');
+            $('.dropdown-menu').removeClass('bg-dark');
         }
 
         localStorage.setItem('night-mode', nightMode);
