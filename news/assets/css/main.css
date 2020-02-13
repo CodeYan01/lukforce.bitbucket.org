@@ -1,0 +1,25 @@
+.news-container {
+    background: var(--bg-color-nav);
+    border-radius: 25px;
+    color: var(--font-color-main);
+    margin-bottom: 40px;
+}
+
+.news-title {
+    color: var(--font-color-title);
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 15px;
+}
+
+.news-card {
+    padding: 5px;
+    align-items: center;
+}
+
+.news-date {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}

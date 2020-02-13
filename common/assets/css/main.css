@@ -55,6 +55,9 @@ body {
     font-size: 12px;
     padding: 5px;
     text-align: center;
+}
+
+.home-footer {
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
