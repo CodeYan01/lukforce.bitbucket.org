@@ -1,6 +1,19 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
+}
+
+.menu-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .tooltip {
@@ -12,6 +25,9 @@ body {
     font-size: 12px;
     padding: 5px;
     text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #cal-footer {
