@@ -394,22 +394,6 @@ function getBoosters(tmId, server) {
             _x_pts += '_v' + b.ver;
 
         imgDiv.data('_x_pts', _x_pts);
-
-        imgDiv.draggable({
-            cursor: 'move',
-            stack: '#container',
-            revert: function(event, ui) {
-                if (event &&
-                        (event[0].className.indexOf('team-slot') != -1 ||
-                        event[0].id.indexOf('dont-have') != -1)
-                )
-                    return false;
-                else {
-                    resetPosition($(this));
-                    return true;
-                }
-            },
-        });
     }
 
     return true;
@@ -856,7 +840,8 @@ function createCloneInSlot(orig, slot, isAmbush) {
     // Replace existing units and put the previous unit back
     if (slot.find('.booster').length > 0)
         resetPosition(slot.find('.booster').detach());
-    else if (slot.find('.booster-clone').length > 0)
+
+    if (slot.find('.booster-clone').length > 0) 
         slot.find('.booster-clone').remove();
 
     var clone = orig.clone();
@@ -889,8 +874,9 @@ function mirrorToFriendCap(teamDiv, cap, autoFill) {
 
     if (autoFill) {
         if (friendCapSlot.find('.booster').length == 0 &&
-            friendCapSlot.find('.booster-clone').length == 0)
+            friendCapSlot.find('.booster-clone').length == 0) {
             validFill = true;
+        }
     } else
         validFill = true;
 
@@ -1170,54 +1156,6 @@ $(document).ready(function() {
         } else {
             confirmSave = false;
             localStorage.setItem('confirmSave', false);
-        }
-    });
-
-    $('.team-slot').droppable({
-        accept: '.booster',
-        activeClass: 'ui-state-hover',
-        drop: function(event, ui) {
-            // Replace existing units and put the previous unit back
-            if ($(this).find('.booster').length > 0)
-                resetPosition($(this).find('.booster').detach());
-            else if ($(this).find('.booster-clone').length > 0)
-                $(this).find('.booster-clone').remove();
-
-            // Put new unit in place
-            $(ui.draggable).detach().css({
-                top: 0,
-                left: 0
-            }).prependTo($(this));
-
-            var assignedTeam = $(this).closest('.team').data('team');
-
-            // Remove corresponding Clone if moved to another Team
-            if ($(ui.draggable).data('team') !== assignedTeam)
-                $('#booster-clone_' + $(ui.draggable).data('id') + '_clone').remove();
-
-            $(ui.draggable).data('team', assignedTeam);
-            $(ui.draggable).addClass('assigned');
-
-            // Mirror to Friend Cap slot if it is empty
-            if ($(this).data('slot') == 1)
-                mirrorToFriendCap($(this).closest('.team'), $(ui.draggable), true);
-        }
-    });
-
-    $('#dont-have').droppable({
-        accept: '.booster',
-        activeClass: 'ui-state-hover',
-        drop: function(event, ui) {
-            $(ui.draggable).detach().css({
-                top: 0,
-                left: 0
-            }).insertBefore($('#add-button'));
-
-            $(ui.draggable).data('team', -1);
-            $(ui.draggable).addClass('assigned-dh');
-
-            // Remove corresponding Clone
-            $('#booster-clone_' + $(ui.draggable).data('id') + '_clone').remove();
         }
     });
 
@@ -1690,7 +1628,6 @@ $(document).ready(function() {
         }
     });
 
-
     // LB Filter
     $('.lb-filter').click(function() {
         if ($(this).hasClass('selected')) {
@@ -1727,4 +1664,114 @@ $(document).ready(function() {
         if (e.keyCode == 27)
             $('.modal').modal('hide');
     });
+
+    // Set up drag and drop for each booster section
+    var ids = ["booster_2_25x", "booster_2_2x", "booster_2x", "booster_1_85x", "booster_1_8x", "booster_1_75x",
+                "booster_1_7x", "booster_1_6x", "booster_1_5x", "booster_1_4x", "booster_1_4x_v2", "booster_1_35x",
+                "booster_1_35x_v2", "booster_1_35x_v3", "booster_1_35x_v4", "booster_1_3x", "booster_1_3x_v2",
+                "booster_1_3x_v3", "booster_1_25x", "booster_1_25x_v2", "booster_1_25x_v3", "booster_1_25x_v4",
+                "booster_1_2x_legend", "booster_1_2x_rr", "booster_1_2x_tm_rr", "booster_1_2x_tm_rr",
+                "booster_1_2x_coliseum", "booster_1_2x_raid", "booster_1_2x_fortnight", "booster_1_2x_tm",
+                "booster_1_2x_tm", "booster_1_2x_other", "booster_1_1x", "booster_1x"];
+
+    for (var id of ids) {
+        var boosterEl = document.getElementById(id);
+        new Sortable(boosterEl, {
+            group: {
+                name: 'booster-group',
+                pull: true,
+                put: false // Do not allow items to be put into this list
+            },
+            animation: 150
+        });
+    }
+
+    // Set up drag and drop for dont have section
+    var dontHaveEl = document.getElementById("dont-have");
+    new Sortable(dontHaveEl, {
+        group: {
+            name: 'booster-group',
+            pull: true,
+            put: true
+        },
+        onAdd: function(evt) {
+            var item = $("#" + evt.item.id);
+            item.data('team', -1);
+            item.addClass('assigned-dh');
+
+            // Remove corresponding Clone
+            $('#booster-clone_' + item.data('id') + '_clone').remove();
+        },
+        onRemove: function(evt) {
+            var item = $("#" + evt.item.id);
+            item.removeClass('assigned-dh');
+        },
+        resetPositionOnSpill: true,
+        animation: 150,
+        sort: false // To disable sorting: set sort to false
+    });
+
+    // Set up drag and drop for each team section
+    for (var i = 0; i < 5; i++) {
+        for (var j = 0; j < 6; j++) {
+            var team = "team-slot-" + i + j;
+            var teamEl = document.getElementById(team);
+            new Sortable(teamEl, {
+                group: {
+                    name: 'booster-group',
+                    pull: true,
+                    put: true 
+                },
+                animation: 150,
+                resetPositionOnSpill: true, // Reset booster to original position it is spilled
+                onAdd: function(evt) {
+                    var item = $("#" + evt.item.id);
+                    var to_list = $("#" + evt.to.id);
+
+                    to_list.find( ".booster" ).each(function() {
+                        if ($(this).attr("id") != item.attr("id"))
+                            resetPosition($(this));
+                    });
+
+                    var assignedTeam = to_list.closest('.team').data('team');
+
+                    // Remove corresponding Clone if moved to another Team
+                    if (item.data('team') !== assignedTeam)
+                        $('#booster-clone_' + item.data('id') + '_clone').remove();
+
+                    item.data('team', assignedTeam);
+                    item.addClass('assigned');
+
+                    // Mirror to Friend Cap slot if it is empty
+                    if (to_list.data('slot') == 1)
+                        mirrorToFriendCap(to_list.closest('.team'), item, true);
+                }
+            });
+        }
+    }
+
+    // Set up drag and drop for Ambush team section
+    for (var j = 0; j < 6; j++) {
+        var team = "team-slot-5" + j;
+        var teamEl = document.getElementById(team);
+        new Sortable(teamEl, {
+            group: {
+                name: 'booster-group',
+                pull: true,
+                put: true
+            },
+            animation: 150,
+            resetPositionOnSpill: true, // Reset booster to original position it is spilled
+            onAdd: function(evt) {
+                var item = $("#" + evt.item.id);
+                var to_list = $("#" + evt.to.id);
+
+                createCloneInSlot(item, to_list, true); 
+
+                // Mirror to Friend Cap slot if it is empty
+                if (to_list.data('slot') == 1)
+                    mirrorToFriendCap(to_list.closest('.team'), item, true);
+            }
+        });
+    }
 });
