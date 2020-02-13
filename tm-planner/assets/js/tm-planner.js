@@ -1665,6 +1665,42 @@ $(document).ready(function() {
             $('.modal').modal('hide');
     });
 
+    var elemTop;
+    $(window).resize(function() {
+        elemTop = $("#dont-have").offset().top + 200;
+    });
+
+    $(window).scroll(function() {
+        var win = $(window).height() + $(window).scrollTop();
+        elemTop = $("#dont-have").offset().top + 200;
+        
+        if (win <= elemTop) {
+            $("#tm-team-container:not(.fixed-teams)").addClass("fixed-teams");
+            $(".expand-collapse-icons-row").show();
+
+            if ($("#expand-icon").data("status") == "up")
+                $("#tm-team-sets").hide();
+        } else {
+            $("#tm-team-container.fixed-teams").removeClass("fixed-teams");
+            $(".expand-collapse-icons-row").hide();
+            $("#tm-team-sets").show();
+        }
+    });
+
+    $("#expand-icon").click(function() {
+        if($(this).data("status") == "down") {
+            $("#tm-team-sets").hide();
+            $("#team-hints").hide();
+            $(this).data("status", "up");
+            $(this).attr("src", "assets/img/details_up.png");
+        } else {
+            $("#tm-team-sets").show();
+            $("#team-hints").show();
+            $(this).data("status", "down");
+            $(this).attr("src", "assets/img/details_down.png");
+        }
+    });
+
     // Set up drag and drop for each booster section
     var ids = ["booster_2_25x", "booster_2_2x", "booster_2x", "booster_1_85x", "booster_1_8x", "booster_1_75x",
                 "booster_1_7x", "booster_1_6x", "booster_1_5x", "booster_1_4x", "booster_1_4x_v2", "booster_1_35x",

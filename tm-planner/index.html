@@ -512,225 +512,200 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="offset-md-1 col-md-2 col-sm-4 col-6 team" id="first-team" data-team="0">
-            <h5>vs <span id="op-1"></span></h5>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot friend-cap" id="team-slot-00" data-slot="0"></div>
-                    <div class="team-slot" id="team-slot-01" data-slot="1"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-02" data-slot="2"></div>
-                    <div class="team-slot" id="team-slot-03" data-slot="3"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-04" data-slot="4"></div>
-                    <div class="team-slot" id="team-slot-05" data-slot="5"></div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
-                    <span class="x_pts">1.00</span>x
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
-                </div>
-            </div>
+    <div id="tm-team-container" class="row fixed-teams">
+        <div class="col-md-1 col-12">
+            <!-- Empty Space -->
         </div>
 
-        <div class="col-md-2 col-sm-4 col-6 team" data-team="1">
-            <h5>vs <span id="op-2"></span></h5>
-
-            <div class="row">
+        <div class="col-md-11 col-12">
+            <div class="row expand-collapse-icons-row">
                 <div class="col-12">
-                    <div class="team-slot friend-cap" id="team-slot-10" data-slot="0"></div>
-                    <div class="team-slot" id="team-slot-11" data-slot="1"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-12" data-slot="2"></div>
-                    <div class="team-slot" id="team-slot-13" data-slot="3"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-14" data-slot="4"></div>
-                    <div class="team-slot" id="team-slot-15" data-slot="5"></div>
+                    <div id="team-hints">>>> Scroll >>></div>
+                    <img id="expand-icon" src="assets/img/details_down.png" data-img="details_down" data-status="down"/>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
-                    <span class="x_pts">1.00</span>x
-                </div>
-            </div>
+            <div id="tm-team-sets" class="row">
+                <div class="row">
+                    <div class="col-md-2 col-sm-4 col-6 team" id="first-team" data-team="0">
+                        <h5 class="team-title">vs <span id="op-1"></span></h5>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
-                </div>
-            </div>
-        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot friend-cap" id="team-slot-00" data-slot="0"></div>
+                                <div class="team-slot" id="team-slot-01" data-slot="1"></div>
+                            </div>
 
-        <div class="col-md-2 col-sm-4 col-6 team" data-team="2">
-            <h5>vs <span id="op-3"></span></h5>
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-02" data-slot="2"></div>
+                                <div class="team-slot" id="team-slot-03" data-slot="3"></div>
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot friend-cap" id="team-slot-20" data-slot="0"></div>
-                    <div class="team-slot" id="team-slot-21" data-slot="1"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-22" data-slot="2"></div>
-                    <div class="team-slot" id="team-slot-23" data-slot="3"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-24" data-slot="4"></div>
-                    <div class="team-slot" id="team-slot-25" data-slot="5"></div>
-                </div>
-            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-04" data-slot="4"></div>
+                                <div class="team-slot" id="team-slot-05" data-slot="5"></div>
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
-                    <span class="x_pts">1.00</span>x
-                </div>
-            </div>
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
+                                <span class="x_pts">1.00</span>x
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
-                </div>
-            </div>
-        </div>
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="col-md-2 col-sm-4 col-6 team" data-team="3">
-            <h5>vs <span id="op-4"></span></h5>
+                    <div class="col-md-2 col-sm-4 col-6 team" data-team="1">
+                        <h5 class="team-title">vs <span id="op-2"></span></h5>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot friend-cap" id="team-slot-30" data-slot="0"></div>
-                    <div class="team-slot" id="team-slot-31" data-slot="1"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-32" data-slot="2"></div>
-                    <div class="team-slot" id="team-slot-33" data-slot="3"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-34" data-slot="4"></div>
-                    <div class="team-slot" id="team-slot-35" data-slot="5"></div>
-                </div>
-            </div>
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot friend-cap" id="team-slot-10" data-slot="0"></div>
+                                <div class="team-slot" id="team-slot-11" data-slot="1"></div>
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
-                    <span class="x_pts">1.00</span>x
-                </div>
-            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-12" data-slot="2"></div>
+                                <div class="team-slot" id="team-slot-13" data-slot="3"></div>
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
-                </div>
-            </div>
-        </div>
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-14" data-slot="4"></div>
+                                <div class="team-slot" id="team-slot-15" data-slot="5"></div>
+                            </div>
 
-        <div class="col-md-2 col-sm-4 col-6 team" data-team="4">
-            <h5>vs <span id="op-5"></span></h5>
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
+                                <span class="x_pts">1.00</span>x
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot friend-cap" id="team-slot-40" data-slot="0"></div>
-                    <div class="team-slot" id="team-slot-41" data-slot="1"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-42" data-slot="2"></div>
-                    <div class="team-slot" id="team-slot-43" data-slot="3"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slot" id="team-slot-44" data-slot="4"></div>
-                    <div class="team-slot" id="team-slot-45" data-slot="5"></div>
-                </div>
-            </div>
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
-                    <span class="x_pts">1.00</span>x
-                </div>
-            </div>
+                    <div class="col-md-2 col-sm-4 col-6 team" data-team="2">
+                        <h5 class="team-title">vs <span id="op-3"></span></h5>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
-                </div>
-            </div>
-        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot friend-cap" id="team-slot-20" data-slot="0"></div>
+                                <div class="team-slot" id="team-slot-21" data-slot="1"></div>
+                            </div>
 
-        <div class="col-md-2 col-sm-4 col-6 team" id="ambush-team" data-team="5">
-            <h5>vs <span id="op-6"></span></h5>
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-22" data-slot="2"></div>
+                                <div class="team-slot" id="team-slot-23" data-slot="3"></div>
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="ambush-team-slot" id="team-slot-50" data-slot="0"></div>
-                    <div class="ambush-team-slot" id="team-slot-51" data-slot="1"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="ambush-team-slot" id="team-slot-52" data-slot="2"></div>
-                    <div class="ambush-team-slot" id="team-slot-53" data-slot="3"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="ambush-team-slot" id="team-slot-54" data-slot="4"></div>
-                    <div class="ambush-team-slot" id="team-slot-55" data-slot="5"></div>
-                </div>
-            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-24" data-slot="4"></div>
+                                <div class="team-slot" id="team-slot-25" data-slot="5"></div>
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
-                    <span class="x_pts">1.00</span>x
-                </div>
-            </div>
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
+                                <span class="x_pts">1.00</span>x
+                            </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
-                </div>
-            </div>
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="row">
-                <div class="col-12 team-6-info">
-                    (Click to add only)
+                    <div class="col-md-2 col-sm-4 col-6 team" data-team="3">
+                        <h5 class="team-title">vs <span id="op-4"></span></h5>
+
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot friend-cap" id="team-slot-30" data-slot="0"></div>
+                                <div class="team-slot" id="team-slot-31" data-slot="1"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-32" data-slot="2"></div>
+                                <div class="team-slot" id="team-slot-33" data-slot="3"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-34" data-slot="4"></div>
+                                <div class="team-slot" id="team-slot-35" data-slot="5"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
+                                <span class="x_pts">1.00</span>x
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-6 team" data-team="4">
+                        <h5 class="team-title">vs <span id="op-5"></span></h5>
+
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot friend-cap" id="team-slot-40" data-slot="0"></div>
+                                <div class="team-slot" id="team-slot-41" data-slot="1"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-42" data-slot="2"></div>
+                                <div class="team-slot" id="team-slot-43" data-slot="3"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <div class="team-slot" id="team-slot-44" data-slot="4"></div>
+                                <div class="team-slot" id="team-slot-45" data-slot="5"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
+                                <span class="x_pts">1.00</span>x
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4 col-6 team" id="ambush-team" data-team="5">
+                        <h5 class="team-title">vs <span id="op-6"></span></h5>
+
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class="ambush-team-slot friend-cap" id="team-slot-50" data-slot="0"></div>
+                                <div class="ambush-team-slot" id="team-slot-51" data-slot="1"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <div class="ambush-team-slot" id="team-slot-52" data-slot="2"></div>
+                                <div class="ambush-team-slot" id="team-slot-53" data-slot="3"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <div class="ambush-team-slot" id="team-slot-54" data-slot="4"></div>
+                                <div class="ambush-team-slot" id="team-slot-55" data-slot="5"></div>
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-secondary btn-sm pts-button">Update Pts</button>
+                                <span class="x_pts">1.00</span>x
+                            </div>
+
+                            <div class="col-md-12 col-12">
+                                <button type="button" class="btn btn-dark btn-sm cal-button">Export to Calculator</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

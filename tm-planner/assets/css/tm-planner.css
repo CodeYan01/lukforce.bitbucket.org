@@ -156,3 +156,72 @@
 .badge {
     font-size: inherit;
 }
+
+#tm-team-sets > div {
+    width: 100%;
+    align-items: flex-end;
+}
+
+.team {
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+.fixed-teams {
+    width: 100%;
+    background: var(--bg-color-main);
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    border-top: 1px solid;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .fixed-teams div#tm-team-sets > div.row {
+        display: flex;
+        flex-flow: nowrap;
+        overflow: scroll;
+    }
+}
+
+#team-hints {
+    float: left;
+    color: #ffc107;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #team-hints {
+        display: none!important;
+    }
+}
+
+.team .row div {
+    padding-right: 0;
+}
+
+.booster.ui-draggable-dragging {
+    z-index: 11;
+}
+
+.expand-collapse-icons-row {
+    text-align: right;
+}
+
+.cal-button {
+    white-space: normal;
+}
+
+button.pts-button,
+button.cal-button {
+    background: var(--bg-color-team-button);
+    color: aliceblue;
+}
+
+button.pts-button:hover,
+button.cal-button:hover {
+    color: var(--font-highlight-dl-button);
+    background-color: var(--bg-highlight-dl-button);
+    border-color: var(--bg-highlight-dl-button);
+}
