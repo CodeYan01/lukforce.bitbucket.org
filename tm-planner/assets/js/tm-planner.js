@@ -836,7 +836,7 @@ function populateUnitModal(src, selectedId, assigned) {
     }
 }
 
-function createCloneInSlot(orig, slot, isAmbush) {
+function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
     // Replace existing units and put the previous unit back
     if (slot.find('.booster').length > 0)
         resetPosition(slot.find('.booster').detach());
@@ -848,8 +848,12 @@ function createCloneInSlot(orig, slot, isAmbush) {
     var origId = orig.data('id');
 
     var cloneType;
-    if (isAmbush)
-        cloneType = 'ambush';
+    if (isAmbush) {
+        if (isAmbushClone)
+            cloneType = 'ambush_clone';
+        else
+            cloneType = 'ambush';
+    }
     else
         cloneType = 'clone';
 
@@ -868,7 +872,7 @@ function createCloneInSlot(orig, slot, isAmbush) {
     }).prependTo(slot);
 }
 
-function mirrorToFriendCap(teamDiv, cap, autoFill) {
+function mirrorToFriendCap(teamDiv, cap, autoFill, isAmbush) {
     var friendCapSlot = teamDiv.find('.friend-cap');
     var validFill = false;
 
@@ -880,8 +884,14 @@ function mirrorToFriendCap(teamDiv, cap, autoFill) {
     } else
         validFill = true;
 
-    if (validFill)
-        createCloneInSlot(cap, friendCapSlot, false);
+    if (validFill) {
+        if (isAmbush)
+            createCloneInSlot(cap, friendCapSlot, true, true);
+        else
+            createCloneInSlot(cap, friendCapSlot, false);
+    }
+        
+        
 }
 
 function getTeamUnits(team) {
@@ -1718,7 +1728,8 @@ $(document).ready(function() {
                 pull: true,
                 put: false // Do not allow items to be put into this list
             },
-            animation: 150
+            animation: 150,
+            revertOnSpill: true
         });
     }
 
@@ -1768,6 +1779,11 @@ $(document).ready(function() {
                         if ($(this).attr("id") != item.attr("id"))
                             resetPosition($(this));
                     });
+                    
+                    to_list.find( ".booster-clone" ).each(function() {
+                        if ($(this).attr("id") != item.attr("id"))
+                            $(this).remove();
+                    });
 
                     var assignedTeam = to_list.closest('.team').data('team');
 
@@ -1806,7 +1822,7 @@ $(document).ready(function() {
 
                 // Mirror to Friend Cap slot if it is empty
                 if (to_list.data('slot') == 1)
-                    mirrorToFriendCap(to_list.closest('.team'), item, true);
+                    mirrorToFriendCap(to_list.closest('.team'), item, true, true);
             }
         });
     }
