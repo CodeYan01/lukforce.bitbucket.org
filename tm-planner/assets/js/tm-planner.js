@@ -1729,7 +1729,9 @@ $(document).ready(function() {
                 put: false // Do not allow items to be put into this list
             },
             animation: 150,
-            revertOnSpill: true
+            revertOnSpill: true,
+            delay: 60, // time in milliseconds to define when the sorting should start
+            delayOnTouchOnly: true
         });
     }
 
@@ -1770,6 +1772,8 @@ $(document).ready(function() {
                     put: true 
                 },
                 animation: 150,
+                delay: 60, // time in milliseconds to define when the sorting should start
+                delayOnTouchOnly: true,
                 resetPositionOnSpill: true, // Reset booster to original position it is spilled
                 onAdd: function(evt) {
                     var item = $("#" + evt.item.id);
@@ -1813,6 +1817,8 @@ $(document).ready(function() {
                 put: true
             },
             animation: 150,
+            delay: 60, // time in milliseconds to define when the sorting should start
+            delayOnTouchOnly: true,
             resetPositionOnSpill: true, // Reset booster to original position it is spilled
             onAdd: function(evt) {
                 var item = $("#" + evt.item.id);
