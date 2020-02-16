@@ -1779,16 +1779,20 @@ $(document).ready(function() {
                 resetPositionOnSpill: true, // Reset booster to original position it is spilled
                 onAdd: function(evt) {
                     var item = $("#" + evt.item.id);
-                    var to_list = $("#" + evt.to.id);
 
+                    var assigned = item.hasClass("assigned");
+                    var to_list = $("#" + evt.to.id);
+                    var from_list = $("#" + evt.from.id);
+
+                    to_list.find( ".booster-clone" ).remove();
                     to_list.find( ".booster" ).each(function() {
-                        if ($(this).attr("id") != item.attr("id"))
-                            resetPosition($(this));
-                    });
-                    
-                    to_list.find( ".booster-clone" ).each(function() {
-                        if ($(this).attr("id") != item.attr("id"))
-                            $(this).remove();
+                        if ($(this).attr("id") != item.attr("id")) {
+                            if (assigned) 
+                                from_list.append($(this));
+                            else 
+                                resetPosition($(this));
+                            
+                        }
                     });
 
                     var assignedTeam = to_list.closest('.team').data('team');
@@ -1801,7 +1805,7 @@ $(document).ready(function() {
                     item.addClass('assigned');
 
                     // Mirror to Friend Cap slot if it is empty
-                    if (to_list.data('slot') == 1)
+                    if (to_list.data('slot') == 1 && !item.hasClass("booster-clone"))
                         mirrorToFriendCap(to_list.closest('.team'), item, true);
                 }
             });
@@ -1827,7 +1831,18 @@ $(document).ready(function() {
                 var item = $("#" + evt.item.id);
                 var to_list = $("#" + evt.to.id);
 
-                createCloneInSlot(item, to_list, true); 
+                if (evt.to.id.charAt(11) == '0')
+                    $(".booster-ambush-fc").remove();
+
+                if (evt.to.id.charAt(10) == evt.from.id.charAt(10)) {
+                    var from_list = $("#" + evt.from.id);
+                    
+                    to_list.find( ".booster-clone" ).each(function() {
+                        if ($(this).attr("id") != item.attr("id"))
+                            from_list.append($(this));
+                    });
+                } else
+                    createCloneInSlot(item, to_list, true); 
 
                 // Mirror to Friend Cap slot if it is empty
                 if (to_list.data('slot') == 1)
