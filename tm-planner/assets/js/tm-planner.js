@@ -849,9 +849,10 @@ function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
 
     var cloneType;
     if (isAmbush) {
-        if (isAmbushClone)
+        if (isAmbushClone) {
             cloneType = 'ambush_clone';
-        else
+            clone.addClass('booster-ambush-fc');
+        } else
             cloneType = 'ambush';
     }
     else
@@ -1771,6 +1772,7 @@ $(document).ready(function() {
                     pull: true,
                     put: true 
                 },
+                draggable: ".booster",
                 animation: 150,
                 delay: 60, // time in milliseconds to define when the sorting should start
                 delayOnTouchOnly: true,
@@ -1816,6 +1818,7 @@ $(document).ready(function() {
                 pull: true,
                 put: true
             },
+            draggable: ".booster-clone:not(.booster-ambush-fc)",
             animation: 150,
             delay: 60, // time in milliseconds to define when the sorting should start
             delayOnTouchOnly: true,
