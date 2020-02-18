@@ -144,6 +144,7 @@ drops = {
     2633: 'Pirate%20Expo!%20Festival%20Fortnight',
     2635: 'Pirate%20Expo!%20Vacation%20Fortnight',
     2665: 'Diva%20Ann%27s%20Special%20Live%20Show%20Fortnight',
+    2692: 'Impel%20Down%20Breakout%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

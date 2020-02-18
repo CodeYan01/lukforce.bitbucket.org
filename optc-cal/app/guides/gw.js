@@ -144,6 +144,7 @@ var gw = {
     2633: '161560',     // Pirate Expo 2
     2635: '159294',     // Pirate Expo 1
     2665: '162860',     // Ann
+    2692: '167197',     // Impel Down Escapees
 
     // Raids
     227: '4142',        // Mihawk

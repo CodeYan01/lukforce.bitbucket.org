@@ -575,6 +575,10 @@ var fortnights = {
         name: 'Ann',
         thumb: 2665
     },
+    2692: {
+        name: 'Impel Down Escapees',
+        thumb: 2692
+    },
 
     // Special Fortnights
     1360: {

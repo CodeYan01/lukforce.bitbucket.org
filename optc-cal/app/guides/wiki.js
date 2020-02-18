@@ -144,6 +144,7 @@ var wiki = {
     2633: '',                               // Pirate Expo 2
     2635: '',                               // Pirate Expo 1
     2665: '',                               // Ann
+    2692: '',                               // Impel Down Escapees
 
     // Raids
     227: 'wiki/raidboss/mihawk',
