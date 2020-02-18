@@ -1834,13 +1834,12 @@ $(document).ready(function() {
             onAdd: function(evt) {
                 var item = $("#" + evt.item.id);
                 var to_list = $("#" + evt.to.id);
+                var from_list = $("#" + evt.from.id);
 
                 if (evt.to.id.charAt(11) == '0')
                     $(".booster-ambush-fc").remove();
 
-                if (evt.to.id.charAt(10) == evt.from.id.charAt(10)) {
-                    var from_list = $("#" + evt.from.id);
-                    
+                if (item.hasClass('booster-clone')) {
                     to_list.find( ".booster-clone" ).each(function() {
                         if ($(this).attr("id") != item.attr("id"))
                             from_list.append($(this));
