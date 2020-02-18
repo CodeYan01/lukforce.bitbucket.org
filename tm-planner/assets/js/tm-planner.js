@@ -1498,7 +1498,7 @@ $(document).ready(function() {
                     var b = $('#booster_' + unitId);
 
                     b.addClass('assigned-dh');
-                    if (dontHaveMode == 0) {
+                    if (dontHaveMode == null || dontHaveMode == 0) {
                         b.detach().css({
                             top: 0,
                             left: 0
