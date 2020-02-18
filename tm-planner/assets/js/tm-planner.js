@@ -958,7 +958,7 @@ function doSave(tmId, server) {
 
     var dontHaves = [];
 
-    $('#dont-have').find('.booster').each(function() {
+    $('.booster.assigned-dh').each(function() {
         dontHaves.push($(this).data('id'));
     });
 
@@ -980,6 +980,16 @@ $(document).ready(function() {
 
         $('.tm-option').hide();
         $('.' + server + '-tm').show();
+    }
+    
+    var dontHaveMode = 0;
+    if (localStorage.getItem('dontHaveMode') !== null) {
+        dontHaveMode = localStorage.getItem('dontHaveMode');
+        $('#server-dont-have-mode').val(dontHaveMode);
+        if (dontHaveMode == 1) {
+            $('#dont-have-div').css('visibility', 'hidden');
+            $('#dont-have-div').css('height', '0');
+        }
     }
 
     var confirmSave = false;
@@ -1119,10 +1129,12 @@ $(document).ready(function() {
                         var b = $('#booster_' + unitId);
 
                         b.addClass('assigned-dh');
-                        b.detach().css({
-                            top: 0,
-                            left: 0
-                        }).insertBefore($('#add-button'));
+                        if (dontHaveMode == 0) {
+                            b.detach().css({
+                                top: 0,
+                                left: 0
+                            }).insertBefore($('#add-button'));
+                        }
                     }
                 }
             }
@@ -1159,6 +1171,14 @@ $(document).ready(function() {
         location.reload();
     });
 
+    // Set user Server
+    $('#server-dont-have-mode').change(function() {
+        localStorage.setItem('dontHaveMode', $(this).val());
+
+        // Refresh page
+        location.reload();
+    });
+
     // Set confirm save
     $('#confirm-save-checkbox').click(function() {
         if ($(this).prop('checked')) {
@@ -1183,6 +1203,21 @@ $(document).ready(function() {
 
         // Hide tooltip on click
         $(this).tooltip('hide');
+    });
+
+    $(document).on('contextmenu', '.booster:not(.assigned)', function(event) {
+        event.preventDefault();
+        if (dontHaveMode == 0) {
+            if ($(this).hasClass('assigned-dh'))
+                resetPosition($(this));
+            else {
+                $(this).addClass('assigned-dh').detach().css({
+                    top: 0,
+                    left: 0
+                }).insertBefore($('#add-button'));
+            }
+        } else
+            $(this).toggleClass('assigned-dh');
     });
 
     // Click to add / remove
@@ -1453,6 +1488,7 @@ $(document).ready(function() {
                 });
             }
 
+            var dontHaveMode = localStorage.getItem('dontHaveMode');
             var dontHaves = JSON.parse(localStorage.getItem('dontHaves_' + tmId + serverStr));
 
             for (var i = 0; i < dontHaves.length; i++) {
@@ -1462,10 +1498,12 @@ $(document).ready(function() {
                     var b = $('#booster_' + unitId);
 
                     b.addClass('assigned-dh');
-                    b.detach().css({
-                        top: 0,
-                        left: 0
-                    }).insertBefore($('#add-button'));
+                    if (dontHaveMode == 0) {
+                        b.detach().css({
+                            top: 0,
+                            left: 0
+                        }).insertBefore($('#add-button'));
+                    }
                 }
             }
 
@@ -1729,6 +1767,7 @@ $(document).ready(function() {
                 pull: true,
                 put: false // Do not allow items to be put into this list
             },
+            draggable: ".booster:not(.assigned-dh)",
             animation: 150,
             revertOnSpill: true,
             delay: 60, // time in milliseconds to define when the sorting should start
@@ -1748,7 +1787,8 @@ $(document).ready(function() {
             var item = $("#" + evt.item.id);
             item.data('team', -1);
             item.addClass('assigned-dh');
-
+            item.insertBefore('#add-button');
+            
             // Remove corresponding Clone
             $('#booster-clone_' + item.data('id') + '_clone').remove();
         },
