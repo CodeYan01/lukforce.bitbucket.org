@@ -198,6 +198,7 @@ var nakama = {
     2642: '4264200',    // Stampede
     2670: '4267000',    // Lucci v2
     2684: '4268400',    // Sabo v2
+    2698: '4269800',    // Croc
     2819: '4281900',    // Shanks & Mihawk
     3370: '4337000',    // Usopp & Chopper
 

@@ -51,6 +51,7 @@ var videoWiki = {
     2642: '',   // Stampede
     2670: '',   // Lucci v2
     2684: '',   // Sabo v2
+    2698: '',   // Croc
     2819: 'raidboss/shanksmihawk',
     3370: '',   // Usopp & Chopper
 

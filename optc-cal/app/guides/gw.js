@@ -198,6 +198,7 @@ var gw = {
     2642: '160324',     // Stampede
     2670: '163423',     // Lucci v2
     2684: '165289',     // Sabo v2
+    2698: '168159',     // Croc
     2819: '',           // Shanks & Mihawk
     3370: '',           // Usopp & Chopper
 
