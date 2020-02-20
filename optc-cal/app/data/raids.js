@@ -208,6 +208,11 @@ var raids = {
         name: 'Crocodile',
         thumb: 2698
     },
+    2707: {
+        name: 'Zorojuro',
+        altType: 'Fight',
+        thumb: 2707
+    },
     2819: {
         name: 'Shanks & Mihawk',
         thumb: 2819

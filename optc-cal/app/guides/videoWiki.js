@@ -52,6 +52,7 @@ var videoWiki = {
     2670: '',   // Lucci v2
     2684: '',   // Sabo v2
     2698: '',   // Croc
+    2707: '',   // Zorojuro
     2819: 'raidboss/shanksmihawk',
     3370: '',   // Usopp & Chopper
 
