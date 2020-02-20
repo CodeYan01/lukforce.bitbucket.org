@@ -145,6 +145,7 @@ var wiki = {
     2635: '',                               // Pirate Expo 1
     2665: '',                               // Ann
     2692: '',                               // Impel Down Escapees
+    2723: '',                               // TS Marco
 
     // Raids
     227: 'wiki/raidboss/mihawk',

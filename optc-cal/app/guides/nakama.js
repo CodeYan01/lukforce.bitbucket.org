@@ -145,6 +145,7 @@ var nakama = {
     2635: '2263500',    // Pirate Expo 1
     2665: '2266500',    // Ann
     2692: '2269200',    // Impel Down Escapees
+    2723: '2272300',    // TS Marco
 
     // Raids
     227: '4022700',     // Mihawk
