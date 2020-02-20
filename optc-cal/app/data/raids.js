@@ -213,6 +213,10 @@ var raids = {
         altType: 'Fight',
         thumb: 2707
     },
+    2709: {
+        name: 'Law',
+        thumb: 2709
+    },
     2819: {
         name: 'Shanks & Mihawk',
         thumb: 2819

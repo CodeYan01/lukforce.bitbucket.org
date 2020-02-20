@@ -201,6 +201,7 @@ var wiki = {
     2684: '',                               // Sabo v2
     2698: '',                               // Croc
     2707: '',                               // Zorojuro
+    2709: '',                               // Law
     2819: '',                               // Shanks & Mihawk
     3370: '',                               // Usopp & Chopper
 

@@ -201,6 +201,7 @@ var gw = {
     2684: '165289',     // Sabo v2
     2698: '168159',     // Croc
     2707: '168824',     // Zorojuro
+    2709: '168822',     // Law
     2819: '',           // Shanks & Mihawk
     3370: '',           // Usopp & Chopper
 
