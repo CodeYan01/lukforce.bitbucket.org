@@ -841,7 +841,7 @@ function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
     if (slot.find('.booster').length > 0)
         resetPosition(slot.find('.booster').detach());
 
-    if (slot.find('.booster-clone').length > 0) 
+    if (slot.find('.booster-clone').length > 0)
         slot.find('.booster-clone').remove();
 
     var clone = orig.clone();
@@ -891,8 +891,6 @@ function mirrorToFriendCap(teamDiv, cap, autoFill, isAmbush) {
         else
             createCloneInSlot(cap, friendCapSlot, false);
     }
-        
-        
 }
 
 function getTeamUnits(team) {
@@ -981,11 +979,11 @@ $(document).ready(function() {
         $('.tm-option').hide();
         $('.' + server + '-tm').show();
     }
-    
+
     var dontHaveMode = 0;
     if (localStorage.getItem('dontHaveMode') !== null) {
         dontHaveMode = localStorage.getItem('dontHaveMode');
-        $('#server-dont-have-mode').val(dontHaveMode);
+        $('#dont-have-mode').val(dontHaveMode);
         if (dontHaveMode == 1) {
             $('#dont-have-div').css('visibility', 'hidden');
             $('#dont-have-div').css('height', '0');
@@ -1172,7 +1170,7 @@ $(document).ready(function() {
     });
 
     // Set user Server
-    $('#server-dont-have-mode').change(function() {
+    $('#dont-have-mode').change(function() {
         localStorage.setItem('dontHaveMode', $(this).val());
 
         // Refresh page
@@ -1722,7 +1720,7 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var win = $(window).height() + $(window).scrollTop();
         elemTop = $("#dont-have").offset().top + 200;
-        
+
         if (win <= elemTop) {
             $("#tm-team-container:not(.fixed-teams)").addClass("fixed-teams");
             $(".expand-collapse-icons-row").show();
@@ -1788,7 +1786,7 @@ $(document).ready(function() {
             item.data('team', -1);
             item.addClass('assigned-dh');
             item.insertBefore('#add-button');
-            
+
             // Remove corresponding Clone
             $('#booster-clone_' + item.data('id') + '_clone').remove();
         },
@@ -1810,7 +1808,7 @@ $(document).ready(function() {
                 group: {
                     name: 'booster-group',
                     pull: true,
-                    put: true 
+                    put: true
                 },
                 draggable: ".booster",
                 animation: 150,
@@ -1831,11 +1829,10 @@ $(document).ready(function() {
                     to_list.find( ".booster-clone" ).remove();
                     to_list.find( ".booster" ).each(function() {
                         if ($(this).attr("id") != item.attr("id")) {
-                            if (assigned) 
+                            if (assigned)
                                 from_list.append($(this));
-                            else 
+                            else
                                 resetPosition($(this));
-                            
                         }
                     });
 
@@ -1885,7 +1882,7 @@ $(document).ready(function() {
                             from_list.append($(this));
                     });
                 } else
-                    createCloneInSlot(item, to_list, true); 
+                    createCloneInSlot(item, to_list, true);
 
                 // Mirror to Friend Cap slot if it is empty
                 if (to_list.data('slot') == 1)

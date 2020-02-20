@@ -13,7 +13,7 @@
     cursor: not-allowed;
 }
 
-#server-setting-div {
+.server-setting-div {
     margin-top: 5px;
     margin-bottom: 5px;
 }
