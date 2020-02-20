@@ -2679,6 +2679,12 @@ var specialBgEvents = [
         end: '2020-02-24'
     },
     {
+        id: 'ss_x5',
+        start: '2020-02-20',
+        end: '2020-02-25',
+        pst_19: true
+    },
+    {
         id: 'sugo',
         start: '2020-02-24',
         end: '2020-03-02'
@@ -2686,5 +2692,29 @@ var specialBgEvents = [
     {
         id: 'free_pull',
         start: '2020-02-24'
+    },
+    {
+        id: 'sp_x5',
+        start: '2020-02-25',
+        end: '2020-02-28',
+        pst_19: true
+    },
+    {
+        id: 'ss_x5',
+        start: '2020-02-28',
+        end: '2020-03-04',
+        pst_19: true
+    },
+    {
+        id: 'sp_x5',
+        start: '2020-03-04',
+        end: '2020-03-09',
+        pst_19: true
+    },
+    {
+        id: 'ss_x5',
+        start: '2020-03-09',
+        end: '2020-03-16',
+        pst_19: true
     },
 ]
