@@ -2341,4 +2341,34 @@ var fortnightEvents = [
         end: '2020-02-24',
         is_replay: true
     },
+    {
+        id: [1450, 1818, 1947, 2519, 2524],
+        start: '2020-02-24',
+        end: '2020-03-02',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-03-02',
+        end: '2020-03-09',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-03-09',
+        end: '2020-03-16',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-03-16',
+        end: '2020-03-23',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-03-23',
+        end: '2020-03-28',
+        is_replay: true
+    },
 ];
