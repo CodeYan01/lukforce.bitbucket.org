@@ -518,4 +518,20 @@ var specials = {
         name: 'Crocodile',
         thumb: 2829
     },
+
+    'ca_2711': {
+        type: 'Clash Assist',
+        name: 'Blue Gilly',
+        thumb: 2711
+    },
+    'ca_2712': {
+        type: 'Clash Assist',
+        name: 'Monet',
+        thumb: 2712
+    },
+    'ca_2714': {
+        type: 'Clash Assist',
+        name: 'Paulie',
+        thumb: 2714
+    },
 }

@@ -420,4 +420,8 @@ var nakama = {
     'sp_0603': '4060301',   // Support Raid Eneru
     'sp_1879': '4187901',   // Support Raid Bartolomeo
     'sp_2281': '4228101',   // Support Raid Judge
+
+    'ca_2711': '2271100',   // Clash Assist Blue Gilly
+    'ca_2712': '2271200',   // Clash Assist Monet
+    'ca_2714': '2271400',   // Clash Assist Paulie
 };

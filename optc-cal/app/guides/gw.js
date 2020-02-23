@@ -427,4 +427,8 @@ var gw = {
     'sp_0603': '138206',// Support Raid Eneru
     'sp_1879': '142094',// Support Raid Bartolomeo
     'sp_2281': '144312',// Support Raid Judge
+
+    'ca_2711': '170436',// Clash Assist Blue Gilly
+    'ca_2712': '170435',// Clash Assist Monet
+    'ca_2714': '170434',// Clash Assist Paulie
 };
