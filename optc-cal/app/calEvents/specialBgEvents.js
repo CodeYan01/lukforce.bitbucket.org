@@ -2679,6 +2679,12 @@ var specialBgEvents = [
         end: '2020-02-24'
     },
     {
+        id: '5th_anni_ship',
+        start: '2020-02-20',
+        end: '2020-03-02',
+        pst_19: true
+    },
+    {
         id: 'ss_x5',
         start: '2020-02-20',
         end: '2020-02-25',
@@ -2703,6 +2709,12 @@ var specialBgEvents = [
         id: 'ss_x5',
         start: '2020-02-28',
         end: '2020-03-04',
+        pst_19: true
+    },
+    {
+        id: '5th_anni_ship_sp',
+        start: '2020-03-02',
+        end: '2020-03-16',
         pst_19: true
     },
     {
