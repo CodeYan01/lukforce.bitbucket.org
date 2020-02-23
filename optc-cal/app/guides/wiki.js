@@ -333,6 +333,7 @@ var wiki = {
     2569: '',                               // Morley
     2611: '',                               // Jinbe
     2649: '',                               // Law
+    2721: '',                               // Hody
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

@@ -185,6 +185,7 @@ var videoWiki = {
     2569: 'coliseum/morley',
     2611: 'coliseum/jinbe',
     2649: '',   // Law
+    2721: '',   // Hody
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',
