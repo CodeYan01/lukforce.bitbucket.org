@@ -376,6 +376,7 @@ var nakama = {
     2615: '9261501',    // Zoro & Sanji (Perospero)
     2630: '9263002',    // Zoro & Sanji (Marguerite)
     2682: '9268204',    // Boa Hancock
+    2531: '',           // Zoro & Sanji (Round 4)
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

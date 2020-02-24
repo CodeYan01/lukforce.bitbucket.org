@@ -376,6 +376,7 @@ var gw = {
     2615: '155125',     // Zoro & Sanji (Perospero)
     2630: '156782',     // Zoro & Sanji (Marguerite)
     2682: '164565',     // Boa Hancock
+    2531: '159688',     // Zoro & Sanji (Round 4)
 
     // Events
     'bb_1314': '61665', // Three Admirals

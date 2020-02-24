@@ -748,7 +748,7 @@ function showFooter() {
                         element.find('.fc-title').after('<i class="fas fa-trophy"></i>');
                     }
 
-                    if (event['type'] === 'kizuna') {
+                    if (event['type'] === 'kizuna' && event['xch_id']) {
                         var xchImg = createImgHtml(getThumb(event['xch_id']), 23, true);
                         xchImg.addClass('unit-img');
                         xchImg.data('id', parseInt(event['xch_id']), 10);

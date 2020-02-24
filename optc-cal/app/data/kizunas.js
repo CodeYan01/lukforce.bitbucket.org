@@ -19,4 +19,8 @@ var kizunas = {
         thumb: 2682,
         xch_id: 2531
     },
+    2531: {
+        name: 'Zoro & Sanji',
+        thumb: 2531
+    },
 };
