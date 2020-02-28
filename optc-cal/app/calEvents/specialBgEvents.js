@@ -2734,4 +2734,34 @@ var specialBgEvents = [
         end: '2020-03-16',
         pst_19: true
     },
+    {
+        id: 'ray_exp',
+        start: '2020-03-09',
+        end: '2020-03-12',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2020-03-16',
+        end: '2020-03-22',
+        pst_19: true
+    },
+    {
+        id: 'mat',
+        start: '2020-03-16',
+        end: '2020-03-19',
+        pst_19: true
+    },
+    {
+        id: 'buggy',
+        start: '2020-03-19',
+        end: '2020-03-23',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2020-03-22',
+        end: '2020-03-29',
+        pst_19: true
+    },
 ]
