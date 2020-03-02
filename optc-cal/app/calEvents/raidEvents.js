@@ -3750,7 +3750,8 @@ var raidEvents = [
     },
     {
         id: 2158,
-        start: '2020-02-29'
+        start: '2020-02-29',
+        ambush: shanks
     },
     {
         id: 2398,
