@@ -124,4 +124,9 @@ var tms = {
         thumb: 2690,
         info: 'i.imgur.com/KtGlRXi.png'
     },
+    2729: {
+        name: 'Hawkins',
+        thumb: 2729,
+        info: 'i.imgur.com/XHWoQs9.png'
+    },
 };

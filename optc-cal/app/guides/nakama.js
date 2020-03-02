@@ -370,6 +370,7 @@ var nakama = {
     2618: '8261800',    // Sakazuki & Issho
     2659: '8265900',    // Smoker
     2690: '8269000',    // Blackbeard
+    2729: '8272900',    // Hawkins
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)

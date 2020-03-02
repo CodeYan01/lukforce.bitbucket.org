@@ -370,6 +370,7 @@ var gw = {
     2618: '157969',     // Sakazuki & Issho
     2659: '162014',     // Smoker
     2690: '167160',     // Blackbeard
+    2729: '171580',     // Hawkins
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
