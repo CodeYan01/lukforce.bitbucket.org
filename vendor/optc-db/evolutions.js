@@ -4511,6 +4511,10 @@ window.evolutions = {
         evolution: 2829,
         evolvers: [ 118, 85, 96, 301, 101 ]
     },
+    1951: {
+        evolution: 2830,
+        evolvers: [ 'skullPSY', 'skullINT', 99, 304, 267 ]
+    },
     2834: {
         evolution: 2835,
         evolvers: [ 118, 118, 104, 102, 267 ]
@@ -4533,7 +4537,27 @@ window.evolutions = {
     },
     2844: {
         evolution: 2845,
-        evolvers: [  ]
+        evolvers: [ 118, 99, 1180, 304, 104 ]
+    },
+    2859: {
+        evolution: 2860,
+        evolvers: [ 118, 100, 95, 300, 267 ]
+    },
+    2861: {
+        evolution: 2862,
+        evolvers: [ 118, 118, 103, 101, 267 ]
+    },
+    2863: {
+        evolution: 2864,
+        evolvers: [ 84, 85, 266, 300, 301 ]
+    },
+    2865: {
+        evolution: 2866,
+        evolvers: [ 96, 97, 1180, 301, 302 ]
+    },
+    649: {
+        evolution: 2868,
+        evolvers: [ 'skullQCK', 118, 96, 301, 267 ]
     },
     3333: {
         evolution: 3334,
@@ -4589,10 +4613,10 @@ window.evolutions = {
     },
     3377: {
         evolution: 3378,
-        evolvers: [  ]
+        evolvers: [ 118, 266, 301, 101, 267 ]
     },
     2686: {
         evolution: 3379,
-        evolvers: [  ]
+        evolvers: [ 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard' ]
     },
 };
