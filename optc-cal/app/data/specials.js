@@ -534,4 +534,10 @@ var specials = {
         name: 'Paulie',
         thumb: 2714
     },
+
+    'wa_2802': {
+        type: 'Wano Act 3',
+        name: 'Luffytaro & Zorojuro',
+        thumb: 2802
+    },
 }
