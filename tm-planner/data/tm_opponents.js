@@ -234,6 +234,14 @@ var tm_opponents = {
         2850: [['Rebecca & ', 'Viola'], ['DEX', 'INT'], 4],
         2078: ['Carrot',        'PSY',      5],
     },
+    2879: {
+          11: ['Nami',          'INT',      0],
+          18: ['Sanji',         'QCK',      1],
+          23: ['Chopper',       'INT',      2],
+         219: ['Zoro',          'DEX',      3],
+        2879: ['Vivi',          'PSY',      4],
+         727: ['Luffy',         'DEX',      5]
+    },
     9999: [
         ['',            ''],
         ['',            ''],

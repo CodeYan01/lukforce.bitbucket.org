@@ -274,12 +274,14 @@ function getBoosters(tmId, server) {
         (
             tmId == 2763 ||
             tmId == 2823 ||
-            tmId == 2850
+            tmId == 2850 ||
+            tmId == 2879
         )
     ) {
         // TM Halloween Nami
         // TM X Drake
         // TM Rebecca & Viola
+        // TM Vivi
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -513,7 +515,8 @@ function init(tmId, server) {
         tmId == 2763 ||
         tmId == 2792 ||
         tmId == 2823 ||
-        tmId == 2850
+        tmId == 2850 ||
+        tmId == 2879
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
