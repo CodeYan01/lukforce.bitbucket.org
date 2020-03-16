@@ -23,4 +23,9 @@ var kizunas = {
         name: 'Zoro & Sanji',
         thumb: 2531
     },
+    2405: {
+        name: 'Akainu',
+        thumb: 2405,
+        xch_id: 2531
+    },
 };
