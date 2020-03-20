@@ -171,39 +171,39 @@ var wiki = {
     1108: 'wiki/raidboss/shiki',
     1163: 'wiki/raidboss/tesoro',
     1298: 'wiki/raidboss/akainu',
-    1374: 'comments/6zwvcn',                // Magellan
+    1374: 'wiki/raidboss/magellan',
     1432: 'wiki/raidboss/franky',
-    1518: 'comments/6za7ru',                // Bellamy
+    1518: 'wiki/raidboss/bellamy',
     1595: 'wiki/raidboss/fujitora',
-    1696: 'comments/7eeu5h',                // Vergo
+    1696: 'wiki/raidboss/vergo',
     1815: 'wiki/raidboss/sanji',
     1830: 'wiki/raidboss/caesar',
     1879: 'wiki/raidboss/barto',
-    1924: 'comments/77jr7y',                // Rayleigh
+    1924: 'wiki/raidboss/youngrayleigh',
     1943: 'wiki/raidboss/pink',
     2015: 'wiki/raidboss/lucci',
     2033: 'wiki/raidboss/tankman',
-    2097: 'comments/a25q11',                // Zoro
+    2097: 'wiki/raidboss/zoro',
     2158: 'wiki/raidboss/cracker',
     2197: 'wiki/raidboss/v2bb',
     2263: 'wiki/raidboss/v2doflamingo',
     2281: 'wiki/raidboss/judge',
     2356: 'wiki/raidboss/arlong',
-    2394: '',                               // Ace
-    2398: '',                               // Big Emperor
-    2473: '',                               // Big Mom
-    2504: '',                               // Capone Bege
-    2517: '',                               // Magellan & Hannyabal
-    2552: 'comments/aa693j',                // Sengoku & Garp
+    2394: 'wiki/raidboss/ace',
+    2398: 'wiki/raidboss/bigemperor',
+    2473: 'wiki/raidboss/bigmom',
+    2504: 'wiki/raidboss/bege',
+    2517: 'wiki/raidboss/magellanhannyabal',
+    2552: 'wiki/raidboss/sengokugarp',
     2559: '',                               // Leo
-    2642: '',                               // Stampede
-    2670: '',                               // Lucci v2
-    2684: '',                               // Sabo v2
-    2698: '',                               // Croc
+    2642: 'wiki/raidboss/stampede',
+    2670: 'wiki/raidboss/v2lucci',
+    2684: 'wiki/raidboss/v2sabo',
+    2698: 'wiki/raidboss/crocodile',
     2707: '',                               // Zorojuro
     2709: '',                               // Law
     2819: '',                               // Shanks & Mihawk
-    3370: '',                               // Usopp & Chopper
+    3370: 'wiki/raidboss/usoppchopper',
 
     1623: 'wiki/raidboss/doffykai',
     1647: 'wiki/raidboss/picakai',
@@ -213,7 +213,7 @@ var wiki = {
     1739: 'wiki/raidboss/bellamykai',
     1772: 'wiki/raidboss/kumakai',
     1780: 'wiki/raidboss/kizarukai',
-    1826: '',                               // Akainu (N)
+    1826: 'wiki/raidboss/akainukai',
     1930: '',                               // Eneru (N)
     2070: '',                               // Boa Hancock (N)
     3340: '',                               // Garp (N)
@@ -224,11 +224,11 @@ var wiki = {
     3376: '',                               // Heracles (N)
 
     1258: 'wiki/raidboss/ywb',
-    1380: 'wiki/shanks',
-    1530: 'wiki/cavendish',
-    1846: 'wiki/primegarp',
-    2283: 'wiki/primesengoku',
-    2381: '',                               // Kid Big Mom
+    1380: 'wiki/raidboss/ambushshanks',
+    1530: 'wiki/raidboss/ambushcavendish',
+    1846: 'wiki/raidboss/primegarp',
+    2283: 'wiki/raidboss/primesengoku',
+    2381: 'wiki/raidboss/younglinlin',
 
     3354: '',                               // Young Whitebeard (N)
 
@@ -317,7 +317,7 @@ var wiki = {
     1945: 'wiki/coliseum/pedro',
     1978: 'wiki/coliseum/rayleigh',
     2037: 'wiki/coliseum/burgess',
-    2111: '',                               // TS Kid
+    2111: 'wiki/coliseum/kidv2',
     2123: 'wiki/coliseum/neptune',
     2163: 'wiki/coliseum/opera',
     2193: 'wiki/coliseum/kuma',
@@ -326,14 +326,14 @@ var wiki = {
     2323: 'wiki/coliseum/oven',
     2354: 'wiki/coliseum/magellan',
     2375: 'wiki/coliseum/smoothie',
-    2416: '',                               // Pica
-    2471: '',                               // Katakuri
-    2489: '',                               // Brook
-    2550: '',                               // Doffy & Trebol
-    2569: '',                               // Morley
-    2611: '',                               // Jinbe
-    2649: '',                               // Law
-    2721: '',                               // Hody
+    2416: 'wiki/coliseum/pica',
+    2471: 'wiki/coliseum/katakuri',
+    2489: 'wiki/coliseum/brook',
+    2550: 'wiki/coliseum/doflamingotrebol',
+    2569: 'wiki/coliseum/morley',
+    2611: 'wiki/coliseum/jinbe',
+    2649: 'wiki/coliseum/law',
+    2721: 'wiki/coliseum/hody',
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

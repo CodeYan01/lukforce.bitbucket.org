@@ -41,7 +41,7 @@ var videoWiki = {
     2263: 'raidboss/v2doflamingo',
     2281: 'raidboss/judge',
     2356: 'raidboss/arlong',
-    2394: '',   // Ace
+    2394: 'raidboss/ace',
     2398: 'raidboss/dockingsix',
     2473: 'raidboss/bigmom',
     2504: 'raidboss/capone',
@@ -55,7 +55,7 @@ var videoWiki = {
     2707: '',   // Zorojuro
     2709: '',   // Law
     2819: 'raidboss/shanksmihawk',
-    3370: '',   // Usopp & Chopper
+    3370: 'raidboss/usoppchopper',
 
     1623: 'raidboss/doflamingokai',
     1647: 'raidboss/picakai',
@@ -194,5 +194,5 @@ var videoWiki = {
 
     2512: 'coliseum/moriaex',
     2529: 'coliseum/neptuneex',
-    3372: '',   // Coby (EX)
+    3372: 'coliseum/cobyex',
 };
