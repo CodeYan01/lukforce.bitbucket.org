@@ -29,6 +29,7 @@ var tm_boosters = [
 
     // ===== ??? =====
     // Raids
+    2883,
 
     // Coliseums
 

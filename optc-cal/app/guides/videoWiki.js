@@ -55,6 +55,7 @@ var videoWiki = {
     2707: '',   // Zorojuro
     2709: '',   // Law
     2819: 'raidboss/shanksmihawk',
+    2883: '',   // Bullet
     3370: 'raidboss/usoppchopper',
 
     1623: 'raidboss/doflamingokai',

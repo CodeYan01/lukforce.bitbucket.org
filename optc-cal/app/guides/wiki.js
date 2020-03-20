@@ -203,6 +203,7 @@ var wiki = {
     2707: '',                               // Zorojuro
     2709: '',                               // Law
     2819: '',                               // Shanks & Mihawk
+    2883: '',                               // Bullet
     3370: 'wiki/raidboss/usoppchopper',
 
     1623: 'wiki/raidboss/doffykai',

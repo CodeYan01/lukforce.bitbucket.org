@@ -203,6 +203,7 @@ var nakama = {
     2707: '4270700',    // Zorojuro
     2709: '4270900',    // Law
     2819: '4281900',    // Shanks & Mihawk
+    2883: '4288300',    // Bullet
     3370: '4337000',    // Usopp & Chopper
 
     1623: '4162300',    // Doflamingo (N)
