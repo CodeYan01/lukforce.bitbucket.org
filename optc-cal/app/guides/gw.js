@@ -189,7 +189,7 @@ var gw = {
     2263: '120330',     // Doffy v2
     2281: '121664',     // Judge
     2356: '134034',     // Arlong
-    2394: '',           // Ace
+    2394: '165759',     // Ace
     2398: '140044',     // Big Emperor
     2473: '145832',     // Big Mom
     2504: '147262',     // Capone Bege
@@ -202,7 +202,7 @@ var gw = {
     2698: '168159',     // Croc
     2707: '168824',     // Zorojuro
     2709: '168822',     // Law
-    2819: '',           // Shanks & Mihawk
+    2819: '182533',     // Shanks & Mihawk
     3370: '',           // Usopp & Chopper
 
     1623: '',           //'58437',      // Doflamingo (N)
