@@ -143,6 +143,10 @@ var specialEvents = [
         id: 'dummy',
         start: '2020-03-12'
     },
+    {
+        id: 'dummy',
+        start: '2020-03-28'
+    },
 
     {
         id: 'ss_0436',
@@ -849,5 +853,14 @@ var specialEvents = [
         id: 'wa_2802',
         start: '2020-03-09',
         end: '2020-03-16'
+    },
+    {
+        id: 'rk_2672',
+        start: '2020-03-22',
+    },
+    {
+        id: 'rk_2672',
+        start: '2020-03-23',
+        end: '2020-03-29'
     },
 ]

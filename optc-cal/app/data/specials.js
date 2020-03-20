@@ -82,6 +82,11 @@ var specials = {
         name: 'Donquixote Family',
         thumb: 870
     },
+    'rk_2672': {
+        type: 'Dmg Ranking',
+        name: 'Stampede Luffy',
+        thumb: 2672
+    },
 
     'rk_0447': {
         type: '1 Turn Dmg Ranking',
