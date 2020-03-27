@@ -146,6 +146,7 @@ var wiki = {
     2665: '',                               // Ann
     2692: '',                               // Impel Down Escapees
     2723: '',                               // TS Marco
+    2751: '',                               // Galette
 
     // Raids
     227: 'wiki/raidboss/mihawk',

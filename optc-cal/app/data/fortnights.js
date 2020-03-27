@@ -583,6 +583,10 @@ var fortnights = {
         name: 'TS Marco',
         thumb: 2723
     },
+    2751: {
+        name: 'Galette',
+        thumb: 2751
+    },
 
     // Special Fortnights
     1360: {

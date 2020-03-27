@@ -146,6 +146,7 @@ drops = {
     2665: 'Diva%20Ann%27s%20Special%20Live%20Show%20Fortnight',
     2692: 'Escapees,%20Join%20the%20Fight!%20Fortnight',
     2723: 'Remembering%20Pops%20Fortnight',
+    2751: 'Revenge%20of%20the%20Assassins!%20Galette%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',

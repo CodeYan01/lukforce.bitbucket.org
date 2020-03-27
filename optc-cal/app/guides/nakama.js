@@ -146,6 +146,7 @@ var nakama = {
     2665: '2266500',    // Ann
     2692: '2269200',    // Impel Down Escapees
     2723: '2272300',    // TS Marco
+    2751: '2275100',    // Galette
 
     // Raids
     227: '4022700',     // Mihawk

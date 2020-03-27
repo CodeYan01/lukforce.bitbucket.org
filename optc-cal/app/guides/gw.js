@@ -146,6 +146,7 @@ var gw = {
     2665: '162860',     // Ann
     2692: '167197',     // Impel Down Escapees
     2723: '171113',     // TS Marco
+    2751: '174577',     // Galette
 
     // Raids
     227: '4142',        // Mihawk
