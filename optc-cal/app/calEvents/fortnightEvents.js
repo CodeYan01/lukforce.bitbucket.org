@@ -2466,4 +2466,10 @@ var fortnightEvents = [
         end: '2020-04-06',
         is_replay: true
     },
+    {
+        id: [420, 1961, 1963],
+        start: '2020-04-06',
+        end: '2020-04-13',
+        is_replay: true
+    },
 ];
