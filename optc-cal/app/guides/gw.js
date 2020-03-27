@@ -412,6 +412,8 @@ var gw = {
     'wj_2827': '183898',// World Journey Mihawk
     'wj_2829': '183899',// World Journey Crocodile
 
+    'hw_2749': '174437',// Halloween Luffy
+
     'rk_2672': '191098',// Dmg Ranking Stampede Luffy
 
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard
