@@ -2781,6 +2781,12 @@ var specialBgEvents = [
         end: '2020-04-11'
     },
     {
+        id: 'usopp_ship',
+        start: '2020-04-01',
+        end: '2020-04-11',
+        pst_19: true
+    },
+    {
         id: 'sp',
         start: '2020-04-05',
         end: '2020-04-11',
@@ -2793,9 +2799,27 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'celestials',
+        start: '2020-04-11',
+        end: '2020-04-15',
+        pst_19: true
+    },
+    {
+        id: 'fp',
+        start: '2020-04-11',
+        end: '2020-04-15',
+        pst_19: true
+    },
+    {
         id: 'sp',
         start: '2020-04-15',
         end: '2020-04-19',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2020-04-21',
+        end: '2020-04-26',
         pst_19: true
     },
 ]
