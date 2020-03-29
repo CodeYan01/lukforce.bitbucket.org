@@ -3875,7 +3875,8 @@ var raidEvents = [
     },
     {
         id: [2473, 2642, 2670, 2684],
-        start: '2020-03-28'
+        start: '2020-03-28',
+        ambush: garp
     },
     {
         id: 516,
