@@ -203,6 +203,7 @@ var wiki = {
     2698: 'wiki/raidboss/crocodile',
     2707: '',                               // Zorojuro
     2709: '',                               // Law
+    2749: '',                               // Halloween Luffy
     2819: '',                               // Shanks & Mihawk
     2883: '',                               // Bullet
     3370: 'wiki/raidboss/usoppchopper',

@@ -545,10 +545,4 @@ var specials = {
         name: 'Luffytaro & Zorojuro',
         thumb: 2802
     },
-
-    'hw_2749': {
-        type: 'Halloween',
-        name: 'Luffy',
-        thumb: 2749
-    },
 }

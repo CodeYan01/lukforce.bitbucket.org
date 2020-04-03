@@ -54,6 +54,7 @@ var videoWiki = {
     2698: '',   // Croc
     2707: '',   // Zorojuro
     2709: '',   // Law
+    2749: '',   // Halloween Luffy
     2819: 'raidboss/shanksmihawk',
     2883: '',   // Bullet
     3370: 'raidboss/usoppchopper',

@@ -203,6 +203,7 @@ var gw = {
     2698: '168159',     // Croc
     2707: '168824',     // Zorojuro
     2709: '168822',     // Law
+    2749: '174437',     // Halloween Luffy
     2819: '182533',     // Shanks & Mihawk
     2883: '191097',     // Bullet
     3370: '',           // Usopp & Chopper
@@ -411,8 +412,6 @@ var gw = {
     'wj_2825': '183897',// World Journey Boa Hancock
     'wj_2827': '183898',// World Journey Mihawk
     'wj_2829': '183899',// World Journey Crocodile
-
-    'hw_2749': '174437',// Halloween Luffy
 
     'rk_2672': '191098',// Dmg Ranking Stampede Luffy
 

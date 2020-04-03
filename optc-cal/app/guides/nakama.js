@@ -203,6 +203,7 @@ var nakama = {
     2698: '4269800',    // Croc
     2707: '4270700',    // Zorojuro
     2709: '4270900',    // Law
+    2749: '6274900',    // Halloween Luffy
     2819: '4281900',    // Shanks & Mihawk
     2883: '4288300',    // Bullet
     3370: '4337000',    // Usopp & Chopper
@@ -411,8 +412,6 @@ var nakama = {
     'wj_2825': '6282500',   // World Journey Boa Hancock
     'wj_2827': '6282500',   // World Journey Mihawk
     'wj_2829': '6282500',   // World Journey Crocodile
-
-    'hw_2749': '6274900',   // Halloween Luffy
 
     'se_2138': '6213800',   // Super Evolve Germa 66
     'se_2232': '6223200',   // Super Evolve Eneru
