@@ -447,6 +447,11 @@ var specials = {
         name: 'Bullet',
         thumb: 2681
     },
+    'se_2739': {
+        type: 'Super Evolve',
+        name: 'Katakuri',
+        thumb: 2739
+    },
     'se_3379': {
         type: 'Super Evolve',
         name: 'Whitebeard v2',

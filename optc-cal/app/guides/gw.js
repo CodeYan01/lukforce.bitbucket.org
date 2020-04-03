@@ -431,6 +431,7 @@ var gw = {
     'se_2446': '143826',// Super Evolve Germa 66 v2
     'se_2588': '155238',// Super Evolve Nami
     'se_2681': '164245',// Super Evolve Bullet
+    'se_2739': '173943',// Super Evolve Katakuri
     'se_3379': '',      // Super Evolve Whitebeard v2
 
     'sp_0603': '138206',// Support Raid Eneru
