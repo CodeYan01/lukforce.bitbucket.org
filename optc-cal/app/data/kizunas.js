@@ -28,4 +28,9 @@ var kizunas = {
         thumb: 2405,
         xch_id: 2531
     },
+    2758: {
+        name: 'HW Sabo',
+        thumb: 2758,
+        xch_id: 2531
+    },
 };

@@ -382,6 +382,7 @@ var gw = {
     2682: '164565',     // Boa Hancock
     2531: '159688',     // Zoro & Sanji (Round 4)
     2405: '',           // Akainu
+    2758: '174863',     // Halloween Sabo
 
     // Events
     'bb_1314': '61665', // Three Admirals
