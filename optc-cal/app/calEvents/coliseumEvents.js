@@ -4163,4 +4163,32 @@ var coliseumEvents = [
         start: '2020-04-06',
         new_batch: false
     },
+
+    // ##############################
+    {
+        newId: [2755],
+        repId: [1525, 2569, 884, 903],
+        start: '2020-04-07',
+        end: '2020-04-09',
+        new_batch: true
+    },
+    {
+        newId: [2755],
+        repId: [1525, 2569, 884, 903],
+        start: '2020-04-11',
+        new_batch: true
+    },
+    {
+        newId: [2755],
+        repId: [1525, 2569, 884, 903],
+        start: '2020-04-14',
+        end: '2020-04-16',
+        new_batch: true
+    },
+    {
+        newId: [2755],
+        repId: [1525, 2569, 884, 903],
+        start: '2020-04-18',
+        new_batch: true
+    },
 ]

@@ -504,6 +504,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2721
     },
+    2755: {
+        name: 'Oars',
+        chaos_only: true, // Not but new format
+        thumb: 2755
+    },
 
     // Neo Coliseums
     1863: {

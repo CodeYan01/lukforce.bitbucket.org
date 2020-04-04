@@ -337,6 +337,7 @@ var wiki = {
     2611: 'wiki/coliseum/jinbe',
     2649: 'wiki/coliseum/law',
     2721: 'wiki/coliseum/hody',
+    2755: '',                               // Oars
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
