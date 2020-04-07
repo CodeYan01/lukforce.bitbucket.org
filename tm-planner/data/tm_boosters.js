@@ -10792,7 +10792,7 @@ var tm_boosters = {
             x_pts: 2
         },
         {   // Whitebeard v2 6+
-            id: 3379,
+            id: 2909,
             x_pts: 1.75
         },
         {   // Stampede Luffy
@@ -11419,7 +11419,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Whitebeard v2 6+
-            id: 3379,
+            id: 2909,
             type: 'legend',
             x_pts: 1.2
         },

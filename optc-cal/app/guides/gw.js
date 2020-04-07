@@ -434,7 +434,7 @@ var gw = {
     'se_2588': '155238',// Super Evolve Nami
     'se_2681': '164245',// Super Evolve Bullet
     'se_2739': '173943',// Super Evolve Katakuri
-    'se_3379': '',      // Super Evolve Whitebeard v2
+    'se_2909': '',      // Super Evolve Whitebeard v2
 
     'sp_0603': '138206',// Support Raid Eneru
     'sp_1879': '142094',// Support Raid Bartolomeo

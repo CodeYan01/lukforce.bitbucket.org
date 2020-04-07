@@ -452,10 +452,10 @@ var specials = {
         name: 'Katakuri',
         thumb: 2739
     },
-    'se_3379': {
+    'se_2909': {
         type: 'Super Evolve',
         name: 'Whitebeard v2',
-        thumb: 5063
+        thumb: 2909
     },
 
     'co_2161': {
