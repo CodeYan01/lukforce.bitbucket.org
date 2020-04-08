@@ -242,6 +242,14 @@ var tm_opponents = {
         2879: ['Vivi',          'PSY',      4],
          727: ['Luffy',         'DEX',      5]
     },
+    2913: {
+        1477: ['Fukaboshi',     'DEX',      2],
+        1598: ['Ryuboshi',      'STR',      1],
+        1599: ['Manboshi',      'STR',      0],
+        2123: ['Neptune',       'INT',      3],
+        2913: ['Shirahoshi',    'INT',      4],
+        2066: ['Jinbe',         'DEX',      5]
+    },
     9999: [
         ['',            ''],
         ['',            ''],
