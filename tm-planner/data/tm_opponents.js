@@ -189,7 +189,7 @@ var tm_opponents = {
     2690: {
          418: ['Doffy',         'DEX',      3],
          972: ['PX-5',          'INT',      0],
-        1274: ['Burgess',       'STR',      2],
+        1274: ['Burgess',       'QCK',      2],
         1278: ['Doc Q',         'PSY',      1],
         2690: ['Blackbeard',    'INT',      4],
         1313: ['Akainu',        'STR',      5]
@@ -204,10 +204,10 @@ var tm_opponents = {
     },
     2763: {
          765: ['Chopper',       'INT',      0],
-        2295: ['Moria',         'STR',      1],
+        2295: ['Moria',         'STR',      3],
         2743: ['Koala',         'PSY',      2],
-        2745: ['Reiju',         'PSY',      3],
-        2299: ['Hancock',       'INT',      4],
+        2745: ['Reiju',         'PSY',      1],
+        2299: ['Hancock',       'PSY',      4],
         2763: ['Nami',          'INT',      5]
     },
     2792: {

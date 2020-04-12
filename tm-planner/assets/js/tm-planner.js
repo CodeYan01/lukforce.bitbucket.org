@@ -105,7 +105,8 @@ function getBoosters(tmId, server) {
             tmId == 2618 ||
             tmId == 2659 ||
             tmId == 2690 ||
-            tmId == 2729
+            tmId == 2729 ||
+            tmId == 2763
         )
     ) {
         // TM Smoothie & Oven
@@ -116,6 +117,7 @@ function getBoosters(tmId, server) {
         // TM Smoker
         // TM Blackbeard
         // TM Hawkins
+        // TM Halloween Nami
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();
