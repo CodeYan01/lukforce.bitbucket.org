@@ -159,6 +159,10 @@ var specialEvents = [
         id: 'dummy',
         start: '2020-04-07'
     },
+    {
+        id: 'dummy',
+        start: '2020-04-16'
+    },
 
     {
         id: 'ss_0436',

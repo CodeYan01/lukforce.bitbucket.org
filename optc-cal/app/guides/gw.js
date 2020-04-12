@@ -364,7 +364,7 @@ var gw = {
     2261: '119738',     // Shanks
     2299: '123536',     // Boa Hancock
     2336: '128733',     // Law
-    2362: '134017',     // Nami
+    2362: '134017',     // Christmas Nami
     2387: '137053',     // Kaido
     2443: '143066',     // Doffy
     2469: '144785',     // Smoothie & Oven
@@ -375,6 +375,7 @@ var gw = {
     2659: '162014',     // Smoker
     2690: '167160',     // Blackbeard
     2729: '171580',     // Hawkins
+    2763: '175499',     // Halloween Nami
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

@@ -75,7 +75,7 @@ var tms = {
         info: 'i.imgur.com/GaFJQ8Y.jpg'
     },
     2362: {
-        name: 'Nami',
+        name: 'Christmas Nami',
         thumb: 2362,
         info: 'i.imgur.com/EwKiR7y.png'
     },
@@ -128,5 +128,10 @@ var tms = {
         name: 'Hawkins',
         thumb: 2729,
         info: 'i.imgur.com/XHWoQs9.png'
+    },
+    2763: {
+        name: 'Halloween Nami',
+        thumb: 2763,
+        info: 'i.imgur.com/ABVTYHz.png'
     },
 };

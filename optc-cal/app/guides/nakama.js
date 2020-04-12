@@ -364,7 +364,7 @@ var nakama = {
     2261: '8226100',    // Shanks
     2299: '8229900',    // Boa Hancock
     2336: '8233600',    // Law
-    2362: '8236200',    // Nami
+    2362: '8236200',    // Christmas Nami
     2387: '8238700',    // Kaido
     2443: '8244300',    // Doffy
     2469: '8246900',    // Smoothie & Oven
@@ -375,6 +375,7 @@ var nakama = {
     2659: '8265900',    // Smoker
     2690: '8269000',    // Blackbeard
     2729: '8272900',    // Hawkins
+    2763: '8276300',    // Halloween Nami
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
