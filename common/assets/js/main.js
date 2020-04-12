@@ -85,6 +85,10 @@ function getThumb(thumbId) {
     if (thumbId === 5058 || thumbId === 3376)
         return '/tm-planner/assets/img/new-thumbs/5058.png';
 
+    // Special case for Aokiji v3
+    if (thumbId === 5061 || thumbId === 3378)
+        return '/tm-planner/assets/img/new-thumbs/5061.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
