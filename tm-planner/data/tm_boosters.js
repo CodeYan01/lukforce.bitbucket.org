@@ -11827,6 +11827,10 @@ var tm_boosters = {
             id: 2747,
             x_pts: 1.35
         },
+        {   // Kung Fu Chopper
+            id: 2756,
+            x_pts: 1.35
+        },
         {   // Stampede Croc
             id: 2881,
             x_pts: 1.35
