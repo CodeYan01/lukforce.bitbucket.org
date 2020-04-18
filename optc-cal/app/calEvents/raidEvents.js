@@ -3981,6 +3981,7 @@ var raidEvents = [
     },
     {
         id: 2473,
-        start: '2020-04-18'
+        start: '2020-04-18',
+        ambush: kid_bm
     },
 ]
