@@ -395,6 +395,7 @@ var gw = {
     'bb_2363': '136432',// Face Off! Luffy vs. Katakuri
     'bb_2365': '136432',// Face Off! Luffy vs. Katakuri
     'bb_2620': '158510',// Summer Girls
+    'bb_2734': '173414',// Four Emperors
 
     'wc_2401': '130091',// World Clash
 
@@ -411,6 +412,7 @@ var gw = {
     'pm_1900': '85046', // Past Memory Zoro
     'bl_2475': '147515',// Black Blade Training
     'stp_2668': '162504',// Stampede Fujitora
+    '4e_2738': '173400',// Emperor in Action
 
     'wj_2825': '183897',// World Journey Boa Hancock
     'wj_2827': '183898',// World Journey Mihawk

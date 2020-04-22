@@ -395,6 +395,7 @@ var nakama = {
     'bb_2363': '6236300',   // Face Off! Luffy vs. Katakuri
     'bb_2365': '6236300',   // Face Off! Luffy vs. Katakuri
     'bb_2620': '6262600',   // Summer Girls
+    'bb_2734': '6273400',   // Four Emperors
 
     'wc_2401': '6240700',   // World Clash
 
@@ -411,6 +412,7 @@ var nakama = {
     'pm_1900': '6190000',   // Past Memory Zoro
     'bl_2475': '6247500',   // Black Blade Training
     'stp_2668': '6266800',  // Stampede Fujitora
+    '4e_2738': '6273800',   // Emperor in Action
 
     'wj_2825': '6282500',   // World Journey Boa Hancock
     'wj_2827': '6282500',   // World Journey Mihawk

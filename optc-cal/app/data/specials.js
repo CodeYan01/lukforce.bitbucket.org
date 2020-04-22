@@ -65,6 +65,11 @@ var specials = {
         name: 'Summer Girls',
         thumb: 2620
     },
+    'bb_2734': {
+        type: 'Blitz Battle',
+        name: 'Four Emperors',
+        thumb: 2734
+    },
 
     'wc_2401': {
         type: 'World Clash',
@@ -549,5 +554,11 @@ var specials = {
         type: 'Wano Act 3',
         name: 'Luffytaro & Zorojuro',
         thumb: 2802
+    },
+
+    '4e_2738': {
+        type: 'Four Emperors',
+        name: 'Emperor in Action',
+        thumb: 2738
     },
 }
