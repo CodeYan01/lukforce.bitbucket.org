@@ -204,6 +204,7 @@ var gw = {
     2707: '168824',     // Zorojuro
     2709: '168822',     // Law
     2749: '174437',     // Halloween Luffy
+    2781: '178033',     // Carrot
     2819: '182533',     // Shanks & Mihawk
     2883: '191097',     // Bullet
     3370: '',           // Usopp & Chopper

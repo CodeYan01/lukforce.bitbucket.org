@@ -30,6 +30,7 @@ var tm_boosters = [
 
     // ===== Orobi =====
     // Raids
+    2781,
 
     // Coliseums
 
