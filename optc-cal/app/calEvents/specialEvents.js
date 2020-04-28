@@ -163,11 +163,6 @@ var specialEvents = [
         id: 'dummy',
         start: '2020-04-16'
     },
-    {
-        id: 'dummy',
-        start: '2020-05-01',
-        end: '2020-05-03'
-    },
 
     {
         id: 'ss_0436',

@@ -147,6 +147,7 @@ drops = {
     2692: 'Escapees,%20Join%20the%20Fight!%20Fortnight',
     2723: 'Remembering%20Pops%20Fortnight',
     2751: 'Revenge%20of%20the%20Assassins!%20Galette%20Fortnight',
+    2782: 'The%20Charming%20Tea%20House%20Owner%20Fortnight',
 
     // 20 Stamina Raids
     518: 'Clash!?%20Usopp%27n%20Raid',
