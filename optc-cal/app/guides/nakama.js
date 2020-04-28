@@ -386,6 +386,7 @@ var nakama = {
     2531: '9253199',    // Zoro & Sanji (Round 4)
     2405: '9257899',    // Akainu
     2758: '9275800',    // Halloween Sabo
+    2733: '9273305',    // Zoro & Sanji (Magellan)
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

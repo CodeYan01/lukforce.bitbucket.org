@@ -386,6 +386,7 @@ var gw = {
     2531: '159688',     // Zoro & Sanji (Round 4)
     2405: '',           // Akainu
     2758: '174863',     // Halloween Sabo
+    2733: '172467',     // Zoro & Sanji (Magellan)
 
     // Events
     'bb_1314': '61665', // Three Admirals
