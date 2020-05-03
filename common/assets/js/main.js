@@ -49,10 +49,6 @@ function getThumb(thumbId) {
     if (thumbId === 5036 || thumbId === 3354)
         return '/tm-planner/assets/img/new-thumbs/5036.png';
 
-    // Special case for Sanji & Pudding
-    if (thumbId === 5038 || thumbId === 3369)
-        return '/tm-planner/assets/img/new-thumbs/5038.png';
-
     // Special case for Duval (N)
     if (thumbId === 5041 || thumbId === 3368)
         return '/tm-planner/assets/img/new-thumbs/5041.png';
@@ -84,10 +80,6 @@ function getThumb(thumbId) {
     // Special case for Heracles (N)
     if (thumbId === 5058 || thumbId === 3376)
         return '/tm-planner/assets/img/new-thumbs/5058.png';
-
-    // Special case for Aokiji v3
-    if (thumbId === 5061 || thumbId === 3378)
-        return '/tm-planner/assets/img/new-thumbs/5061.png';
 
     // Special cases for new thumbs
     if (

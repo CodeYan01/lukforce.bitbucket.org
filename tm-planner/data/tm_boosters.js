@@ -8148,7 +8148,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Sanji & Pudding
-            id: 3369,
+            id: 2919,
             x_pts: 1.35
         },
         {   // Big Mom
@@ -11808,7 +11808,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Aokiji v3
-            id: 3378,
+            id: 2930,
             x_pts: 1.35
         },
         {   // Chopper
