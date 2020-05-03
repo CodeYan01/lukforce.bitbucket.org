@@ -4587,6 +4587,54 @@ window.evolutions = {
         evolution: 2909,
         evolvers: [ 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard', 'skullWhitebeard' ]
     },
+    2922: {
+        evolution: 2923,
+        evolvers: [ 'skullRaidKaido', 'skullRaidKaido', 'skullRaidKaido', 'skullRaidKaido', 'skullRaidKaido' ]
+    },
+    2929: {
+        evolution: 2930,
+        evolvers: [ 118, 266, 301, 101, 267 ]
+    },
+    2935: {
+        evolution: 2936,
+        evolvers: [ 118, 103, 98, 92, 267 ]
+    },
+    2937: {
+        evolution: 2938,
+        evolvers: [ 81, 117, 103, 87, 1180 ]
+    },
+    2939: {
+        evolution: 2940,
+        evolvers: [ 117, 98, 87, 266, 303 ]
+    },
+    2941: {
+        evolution: 2942,
+        evolvers: [ 303, 117, 81, 2662, 92 ]
+    },
+    2943: {
+        evolution: 2944,
+        evolvers: [ 81, 117, 103, 87, 1180 ]
+    },
+    2945: {
+        evolution: 2946,
+        evolvers: [ 117, 98, 87, 266, 303 ]
+    },
+    2947: {
+        evolution: 2948,
+        evolvers: [ 303, 117, 81, 2662, 92 ]
+    },
+    2949: {
+        evolution: 2950,
+        evolvers: [ 81, 117, 103, 87, 1180 ]
+    },
+    2951: {
+        evolution: 2952,
+        evolvers: [ 117, 98, 87, 266, 303 ]
+    },
+    1085: {
+        evolution: 2954,
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
+    },
     3333: {
         evolution: 3334,
         evolvers: [ 118, 86, 266, 302, 267 ]
@@ -4638,9 +4686,5 @@ window.evolutions = {
     3375: {
         evolution: 3376,
         evolvers: [ 118, 88, 266, 304, 104 ]
-    },
-    3377: {
-        evolution: 3378,
-        evolvers: [ 118, 266, 301, 101, 267 ]
     },
 };
