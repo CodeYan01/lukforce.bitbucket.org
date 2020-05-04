@@ -211,12 +211,12 @@ var tm_opponents = {
         2763: ['Nami',          'INT',      5]
     },
     2792: {
-        2707: ['Zorojuro',      'PSY',      0],
-        2776: ['Komurasaki',    'QCK',      1],
-        2778: ['O-Kiku',        'QCK',      2],
-        2780: ['O-Tama',        'INT',      3],
-        2792: ['O-Robi',        'QCK',      4],
-        2774: ['O-Nami',        'QCK',      5]
+        2707: ['Zorojuro',      'PSY',      1],
+        2776: ['Komurasaki',    'QCK',      3],
+        2778: ['O-Kiku',        'PSY',      2],
+        2780: ['O-Tama',        'INT',      0],
+        2792: ['O-Robi',        'STR',      4],
+        2774: ['O-Nami',        'STR',      5]
     },
     2823: {
         2231: ['Jack',          'STR',      3],
