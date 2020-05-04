@@ -379,6 +379,7 @@ var gw = {
     2690: '167160',     // Blackbeard
     2729: '171580',     // Hawkins
     2763: '175499',     // Halloween Nami
+    2792: '179702',     // O-Robi
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

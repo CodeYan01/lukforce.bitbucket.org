@@ -134,4 +134,9 @@ var tms = {
         thumb: 2763,
         info: 'i.imgur.com/ABVTYHz.png'
     },
+    2792: {
+        name: 'O-Robi',
+        thumb: 2792,
+        info: 'i.imgur.com/q7DHvOq.png'
+    },
 };
