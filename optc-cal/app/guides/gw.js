@@ -147,7 +147,7 @@ var gw = {
     2692: '167197',     // Impel Down Escapees
     2723: '171113',     // TS Marco
     2751: '174577',     // Galette
-    2782: '178712',     // Otsuru
+    2782: '178712',     // O-Tsuru
 
     // Raids
     227: '4142',        // Mihawk

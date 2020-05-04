@@ -147,7 +147,7 @@ var nakama = {
     2692: '2269200',    // Impel Down Escapees
     2723: '2272300',    // TS Marco
     2751: '2275100',    // Galette
-    2782: '2278200',    // Otsuru
+    2782: '2278200',    // O-Tsuru
 
     // Raids
     227: '4022700',     // Mihawk

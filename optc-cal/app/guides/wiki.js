@@ -147,7 +147,7 @@ var wiki = {
     2692: '',                               // Impel Down Escapees
     2723: '',                               // TS Marco
     2751: '',                               // Galette
-    2782: '',                               // Otsuru
+    2782: '',                               // O-Tsuru
 
     // Raids
     227: 'wiki/raidboss/mihawk',
