@@ -981,6 +981,35 @@ function doSave(tmId, server) {
     localStorage.setItem('lastSave_' + tmId + serverStr, now);
 }
 
+function applyClassFilter(classFilters, excludeOtherClasses, excludeSingleClass) {
+    if (classFilters.length == 0) {
+        // Clear filters if no Class Filters are currently selected
+        $('.class-filtered').removeClass('class-filtered');
+    } else {
+        $('.booster, .booster-clone').each(function() {
+            var unitClass1 = $(this).data('class1');
+            var unitClass2 = $(this).data('class2');
+
+            if (excludeOtherClasses) {
+                if (classFilters.indexOf(unitClass1) === -1 ||
+                        (unitClass2 && classFilters.indexOf(unitClass2) === -1))
+                    $(this).addClass('class-filtered');
+                else
+                    $(this).removeClass('class-filtered');
+            } else {
+                if (classFilters.indexOf(unitClass1) !== -1 ||
+                        (unitClass2 && classFilters.indexOf(unitClass2) !== -1))
+                    $(this).removeClass('class-filtered');
+                else
+                    $(this).addClass('class-filtered');
+            }
+
+            if (excludeSingleClass && !unitClass2 && classFilters.length > 1)
+                $(this).addClass('class-filtered');
+        });
+    }
+}
+
 $(document).ready(function() {
     // Retrieve Settings
     var server = 'glb';
@@ -1604,87 +1633,68 @@ $(document).ready(function() {
 
     // Class filter
     var classFilters = [];
-    var multiClassMode = false;
+    var excludeOtherClasses = false;
 
-    // Multi Class mode
-    createTooltip($('#multi-class-mode-label'),
-        "Select units for Captain Abilities benefiting from multiple classes, e.g. Katakuri, Carrot (Disables 2 Classes restriction)");
+    // Exclude other Classes
+    $('#exclude-other-checkbox').click(function() {
+        if ($('#preset-filters').val() != -1) {
+            $('#preset-filters').val(-1);
+            classFilters = [];
+        }
 
-    $('#multi-class-mode-checkbox').click(function() {
         if ($(this).prop('checked'))
-            multiClassMode = true;
+            excludeOtherClasses = true;
         else
-            multiClassMode = false;
+            excludeOtherClasses = false;
 
-        // Clear existing Class Filters
+        applyClassFilter(classFilters, excludeOtherClasses, false);
+    });
+
+    // Preset filters
+    $('#preset-filters').change(function() {
+        if ($(this).val() == -1) {
+            $('#exclude-other-checkbox').prop('checked', false);
+            excludeOtherClasses = false;
+        } else {
+            $('#exclude-other-checkbox').prop('checked', true);
+            excludeOtherClasses = true;
+        }
+
         classFilters = [];
-        $('.class-filter').removeClass('selected');
-        $('.class-filtered').removeClass('class-filtered');
+
+        if ($(this).val() == 2113) // Katakuri
+            classFilters.push('Fighter', 'Striker', 'Shooter', 'Cerebral', 'Powerhouse');
+        else if ($(this).val() == 2739) // Katakuri 6+
+            classFilters.push('Slasher', 'Striker', 'Driven', 'Cerebral', 'Powerhouse');
+        else if ($(this).val() == 2365) // Katakuri v2
+            classFilters.push('Fighter', 'Slasher', 'Shooter', 'Driven', 'Powerhouse');
+        else if ($(this).val() == 2338) // Carrot
+            classFilters.push('Fighter', 'Slasher', 'Striker', 'Shooter', 'Cerebral');
+        else if ($(this).val() == 2336) // TM Law
+            classFilters.push('Fighter', 'Slasher', 'Cerebral', 'Free Spirit',);
+
+        applyClassFilter(classFilters, excludeOtherClasses, true);
     });
 
     $('.class-filter').click(function() {
+        if ($('#preset-filters').val() != -1) {
+            $('#preset-filters').val(-1);
+            $('#exclude-other-checkbox').prop('checked', false);
+            excludeOtherClasses = false;
+            classFilters = [];
+        }
+
         var filter = $(this).data('filter');
 
-        if (multiClassMode) {
-            if ($(this).hasClass('selected')) {
-                $(this).removeClass('selected');
-                classFilters.splice(classFilters.indexOf(filter), 1);
-            } else {
-                $(this).addClass('selected');
-                classFilters.push(filter);
-            }
+        if ($(this).hasClass('selected')) {
+            $(this).removeClass('selected');
+            classFilters.splice(classFilters.indexOf(filter), 1);
         } else {
-            if ($(this).hasClass('selected')) {
-                $(this).removeClass('selected');
-                classFilters.splice(classFilters.indexOf(filter), 1);
-            } else {
-                var removedFilter = [];
-                if (classFilters.length > 1)
-                    removedFilter = classFilters.splice(0, 1);
-
-                if (removedFilter.length > 0)
-                    $('.' + removedFilter[0].replace(' ', '-').toLowerCase() + '-div').removeClass('selected');
-
-                $(this).addClass('selected');
-                classFilters.push(filter);
-            }
+            $(this).addClass('selected');
+            classFilters.push(filter);
         }
 
-        if (classFilters.length == 0) {
-            // Clear filters if no Class Filters are currently selected
-            $('.class-filtered').removeClass('class-filtered');
-        } else {
-            $('.booster, .booster-clone').each(function() {
-                var unitClass1 = $(this).data('class1');
-                var unitClass2 = $(this).data('class2');
-
-                if (unitClass2) {
-                    // Units with 2 Classes
-                    if (classFilters.length > 1) {
-                        if (classFilters.indexOf(unitClass1) == -1 || classFilters.indexOf(unitClass2) == -1)
-                            $(this).addClass('class-filtered');
-                        else
-                            $(this).removeClass('class-filtered');
-                    } else {
-                        if (unitClass1 !== classFilters[0] && unitClass2 !== classFilters[0])
-                            $(this).addClass('class-filtered');
-                        else
-                            $(this).removeClass('class-filtered');
-                    }
-                } else {
-                    // Units with only 1 Class
-                    if (classFilters.length > 1) {
-                        // Disqualify units with 1 Class if 2 Class Filters are selected
-                        $(this).addClass('class-filtered');
-                    } else {
-                        if (unitClass1 !== classFilters[0])
-                            $(this).addClass('class-filtered');
-                        else
-                            $(this).removeClass('class-filtered');
-                    }
-                }
-            });
-        }
+        applyClassFilter(classFilters, excludeOtherClasses, false);
     });
 
     // LB Filter

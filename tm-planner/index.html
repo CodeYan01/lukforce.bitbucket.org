@@ -326,10 +326,26 @@
 
             <div class="row">
                 <div class="offset-md-0 col-md-12 offset-6 col-6">
-                    <input type="checkbox" id="multi-class-mode-checkbox">
-                    <label for="multi-class-mode-checkbox" id="multi-class-mode-label">
-                        Multi-Class Mode
+                    <input type="checkbox" class="class-filter-option" id="exclude-other-checkbox">
+                    <label for="exclude-other-checkbox" class="class-filter-option" id="exclude-other-checkbox-label">
+                        Exclude other Classes
                     </label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-md-0 col-md-12 offset-6 col-6">
+                    <label for="preset-filters" class="class-filter-option"  id="preset-filter-label">
+                        Presets
+                    </label>
+                    <select class="class-filter-option" id="preset-filters">
+                        <option value="-1">(none)</option>
+                        <option value="2113">Katakuri</option>
+                        <option value="2739">Katakuri 6+</option>
+                        <option value="2365">Katakuri v2</option>
+                        <option value="2338">Carrot</option>
+                        <option value="2336">TM Law</option>
+                    </select>
                 </div>
             </div>
 
