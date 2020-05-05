@@ -1660,24 +1660,32 @@ $(document).ready(function() {
             classFilters = [];
         }
 
-        if ($(this).hasClass('selected')) {
-            $(this).removeClass("selected");
-            excludeOtherClasses = false;
-        }
-        else {
-            $(this).addClass("selected");
+<<<<<<< Updated upstream
+        if ($(this).prop('checked'))
             excludeOtherClasses = true;
+        else
+            excludeOtherClasses = false;
+=======
+    $('.class-mode').click(function() {
+        if ($(this).hasClass('selected')) {
+            multiClassMode = false;
+            $(this).removeClass('selected');
+        } else {
+            multiClassMode = true;
+            $(this).addClass('selected');
         }
+>>>>>>> Stashed changes
+
         applyClassFilter(classFilters, excludeOtherClasses, false);
     });
 
     // Preset filters
     $('#preset-filters').change(function() {
         if ($(this).val() == -1) {
-            $('#exclude-other-checkbox').removeClass("selected");
+            $('#exclude-other-checkbox').prop('checked', false);
             excludeOtherClasses = false;
         } else {
-            $('#exclude-other-checkbox').addClass("selected");
+            $('#exclude-other-checkbox').prop('checked', true);
             excludeOtherClasses = true;
         }
 
@@ -1768,8 +1776,8 @@ $(document).ready(function() {
         elemTop = $("#dont-have").offset().top + 200;
 
         if (win <= elemTop) {
-            $(".expand-button-div").show();
             $("#tm-team-container:not(.fixed-teams)").addClass("fixed-teams");
+            $(".expand-button-div").show();
             $(".filter-button-div").removeClass("fixed-filter-button");
 
             if ($("#expand-icon").data("status") == "up")
@@ -1778,7 +1786,6 @@ $(document).ready(function() {
             $("#tm-team-container.fixed-teams").removeClass("fixed-teams");
             $(".expand-button-div").hide();
             $(".filter-button-div").addClass("fixed-filter-button");
-
             $("#tm-team-sets").show();
         }
     });
@@ -1941,12 +1948,12 @@ $(document).ready(function() {
     }
 
     // Filter button events
-    $(".filter-button").click(function() {
+    $("#filter-button").click(function() {
         if ($(this).hasClass("active")) {
-            $("#tm-team-container").show();
+            $(this).removeClass("active");
             $(".fixed-filters").fadeOut("slow");
         } else {
-            $("#tm-team-container.fixed-teams").hide();
+            $(this).addClass("active");
             $(".fixed-filters").fadeIn("slow");
         }
     });

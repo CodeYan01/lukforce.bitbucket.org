@@ -172,17 +172,7 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     background-color: var(--bg-highlight-dl-button);
 }
 
-.type-filter {
-    float: left;
-    font-weight: bold;
-    margin: 5px;
-    opacity: .5;
-    padding: 5px;
-    text-align: center;
-    width: 50px;
-}
-
-.class-filter {
+.class-filter, .type-filter {
     cursor: pointer;
     float: left;
     height: 25px;
@@ -191,7 +181,7 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     width: 25px;
 }
 
-.lb-filter {
+.lb-filter, .class-mode {
     cursor: pointer;
     float: left;
     font-size: 12px;
@@ -200,24 +190,15 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     opacity: .5;
     padding: 5px;
     text-align: center;
-    width: 100px;
+    width: 100%;
+    min-width: 50px;
+    max-width: 200px;
 }
 
 .selected {
     opacity: 1;
 }
 
-.STR { color: red; }
-.DEX { color: green; }
-.QCK { color: blue; }
-.PSY { color: goldenrod; }
-.INT { color: darkorchid; }
-
-.STR-div     { background-color: salmon; }
-.QCK-div     { background-color: lightskyblue; }
-.DEX-div     { background-color: lightgreen; }
-.PSY-div     { background-color: gold; }
-.INT-div     { background-color: orchid; }
 .RCV-div     { background-color: sandybrown; }
 .TND-div     { background-color: peru; }
 .BLOCK-div   { background-color: slateblue; }
@@ -226,11 +207,6 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
 .G-div       { background-color: orange; }
 .EMPTY-div   { background-color: #777; }
 
-.STR-div,
-.QCK-div,
-.DEX-div,
-.PSY-div,
-.INT-div,
 .RCV-div,
 .TND-div,
 .BLOCK-div,
@@ -249,3 +225,9 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
 .cerebral-div       { background-image: url('/common/assets/img/class_cerebral.png'); }
 .powerhouse-div     { background-image: url('/common/assets/img/class_powerhouse.png'); }
 .driven-div         { background-image: url('/common/assets/img/class_driven.png'); }
+
+.STR-div    { background-image: url('/common/assets/img/slot_s.png'); background-size: 24px 24px; }
+.DEX-div    { background-image: url('/common/assets/img/slot_d.png'); background-size: 24px 24px; }
+.QCK-div    { background-image: url('/common/assets/img/slot_q.png'); background-size: 24px 24px; }
+.PSY-div    { background-image: url('/common/assets/img/slot_p.png'); background-size: 24px 24px; }
+.INT-div    { background-image: url('/common/assets/img/slot_i.png'); background-size: 24px 24px; }

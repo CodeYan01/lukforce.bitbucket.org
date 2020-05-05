@@ -294,9 +294,77 @@
     </div>
 
     <div class="row">
-                <div class="col-12">
+        <div class="col-12">
             <div class="row">
+<<<<<<< Updated upstream
+                <div class="col-12">
+                    <button type="button" class="btn btn-sm btn-info" id="help-button">
+                        <i class="fas fa-question-circle"></i>&nbsp;Help
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-6">
+                    <div class="filter type-filter STR-div btn" data-filter="STR">STR</div>
+                    <div class="filter type-filter DEX-div btn" data-filter="DEX">DEX</div>
+                    <div class="filter type-filter QCK-div btn" data-filter="QCK">QCK</div>
+                    <div class="filter type-filter PSY-div btn" data-filter="PSY">PSY</div>
+                    <div class="filter type-filter INT-div btn" data-filter="INT">INT</div>
+                </div>
+
+                <div class="col-md-12 col-6">
+                    <div class="filter class-filter fighter-div" data-filter="Fighter"></div>
+                    <div class="filter class-filter slasher-div" data-filter="Slasher"></div>
+                    <div class="filter class-filter striker-div" data-filter="Striker"></div>
+                    <div class="filter class-filter shooter-div" data-filter="Shooter"></div>
+                    <div class="filter class-filter free-spirit-div" data-filter="Free Spirit"></div>
+                    <div class="filter class-filter cerebral-div" data-filter="Cerebral"></div>
+                    <div class="filter class-filter powerhouse-div" data-filter="Powerhouse"></div>
+                    <div class="filter class-filter driven-div" data-filter="Driven"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-md-0 col-md-12 offset-6 col-6">
+                    <input type="checkbox" class="class-filter-option" id="exclude-other-checkbox">
+                    <label for="exclude-other-checkbox" class="class-filter-option" id="exclude-other-checkbox-label">
+                        Exclude other Classes
+                    </label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-md-0 col-md-12 offset-6 col-6">
+                    <label for="preset-filters" class="class-filter-option"  id="preset-filter-label">
+                        Presets
+                    </label>
+                    <select class="class-filter-option" id="preset-filters">
+                        <option value="-1">(none)</option>
+                        <option value="2113">Katakuri</option>
+                        <option value="2739">Katakuri 6+</option>
+                        <option value="2365">Katakuri v2</option>
+                        <option value="2338">Carrot</option>
+                        <option value="2336">TM Law</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="filter lb-filter btn btn-warning">
+                        Has LB
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-11 col-12">
+            <div class="row">
+                <div class="col-md-4 col-12 div_x" id="div_2_25x">
+=======
                 <div class="col-md-4 col-sm-6 col-12 div_x" id="div_2_25x">
+>>>>>>> Stashed changes
                     <h4>2.25x Booster(s)</h4>
                     <div class="booster-info">Stats 2.5x, CD -10</div>
                     <div class="booster-div" id="booster_2_25x"></div>
@@ -480,7 +548,7 @@
         <div class="col-12">
             <div class="row expand-collapse-icons-row">
                 <div class="filter-button-div col-5">
-                    <div class="filter-button" data-status="in-team">
+                    <div id="filter-button">
                         Filter
                     </div>
                 </div>
@@ -679,12 +747,6 @@
 
     <div id="tm-filter-container" class="fixed-filters">
         <div>
-            <div class="col-5 fixed-filter-button">
-                <div class="filter-button active">
-                    Filter
-                </div>
-            </div>
-            
             <div id="tm-filter-sets">
                 <div class="tm-filter">
                     <div class="filter-title">
@@ -713,25 +775,12 @@
                         <div class="filter class-filter driven-div" data-filter="Driven"></div>
                         <div class="filter class-filter cerebral-div" data-filter="Cerebral"></div>
                         <div class="filter class-filter powerhouse-div" data-filter="Powerhouse"></div>
-                        <div id="exclude-other-checkbox" class="class-mode btn btn-warning">
-                            Exclude other Classes
-                        </div>
-                        <div>
-                            <label for="preset-filters" class="class-filter-option"  id="preset-filter-label">
-                                Presets
-                            </label>
-                            <select class="class-filter-option" id="preset-filters">
-                                <option value="-1">(none)</option>
-                                <option value="2113">Katakuri</option>
-                                <option value="2739">Katakuri 6+</option>
-                                <option value="2365">Katakuri v2</option>
-                                <option value="2338">Carrot</option>
-                                <option value="2336">TM Law</option>
-                            </select>
+                        <div class="class-mode btn btn-warning">
+                            Multi Class Mode
                         </div>
                     </div>
                 </div>
-                <div class="tm-filter" style="display: none;">
+                <div class="tm-filter">
                     <div class="filter-title">
                         <h4 class="stroke-single">SPECIAL</h4>
                     </div>

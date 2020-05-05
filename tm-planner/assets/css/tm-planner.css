@@ -143,6 +143,9 @@
     opacity: 0.3;
 }
 
+.class-mode {
+    white-space: normal;
+}
 .class-decorate {
     background-size: cover;
     display: inline-block;
@@ -169,6 +172,33 @@
     padding: 0 0 5px 25px;
 }
 
+.filter-button-div {
+    z-index: 10;    
+}
+
+.fixed-filter-button {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+.filter-button {
+    background: url(../img/filter_bg.png);
+    width: 120px;
+    height: 40px;
+    background-size: 100% 100%;
+    text-align: center;
+    opacity: 0.5;
+    color: white;
+    font-size: 25px;
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+}
+
+.filter-button.active {
+    opacity: 1;
+}
+
 .fixed-teams {
     width: 100%;
     background: var(--bg-color-main);
@@ -178,7 +208,75 @@
     border-top: 1px solid;
 }
 
+.fixed-filters {
+    display: none;
+}
+
+.filter-group-div {
+    z-index: 11;
+    background: var(--bg-color-main);
+}
+
+.filter-group-holder {
+    display: none;
+}
+
+#tm-filter-sets {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    overflow: auto;
+}
+
+.tm-filter {
+    background: url("../img/pop_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fixed-filters {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    width: 100%;
+    z-index: 11;
+    padding: 35px 0 40px 0;
+    background: var(--bg-color-main);
+}
+
+#filter-action {
+    float: right;
+    text-decoration: underline;    
+}
+
+.filter-title {
+    background: url("../img/title_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 30px;
+    min-height: 30px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.filter-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.filter-title>img {
+    position: relative;
+    left: 10%;
+    top: 5px;
+    height: 20px;
+}
+
 @media (max-width: 767px) {
+    .filter-group-div {
+        z-index: 9;
+    }
+
     .fixed-teams div#tm-team-sets {
         overflow: auto;
     }
@@ -227,4 +325,23 @@ button.cal-button:hover {
     color: var(--font-highlight-dl-button);
     background-color: var(--bg-highlight-dl-button);
     border-color: var(--bg-highlight-dl-button);
+}
+
+/* prepare the selectors to add a stroke to */
+.stroke-single {
+    position: relative;
+    background: transparent;
+    z-index: 0;
+    color: #FFEB3B;
+    font-size: 15px;
+    font-family: monospace;
+    top: 8px;
+    text-align: center;
+}
+/* add a single stroke */
+.stroke-single:before {
+    content: attr(title);
+    position: absolute;
+    -webkit-text-stroke: 0.3em #000000;
+    z-index: -1;
 }
