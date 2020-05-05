@@ -1608,28 +1608,36 @@ $(document).ready(function() {
     });
 
     // Type filter
+    var typeFilters = [];
     $('.type-filter').click(function() {
         var filter = $(this).data('filter');
 
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
+            typeFilters.splice(typeFilters.indexOf(filter, 1));
+        } else {
+            $(this).addClass('selected');
+            typeFilters.push(filter);
+        }
+
+        if (typeFilters.length == 0) {
+            // Clear filters if no Type Filters are currently selected
             $('.type-filtered').removeClass('type-filtered');
         } else {
-            $('.type-filter').removeClass('selected');
-            $(this).addClass('selected');
-
             $('.booster, .booster-clone').each(function() {
                 var unitType = $(this).data('type');
+
                 if (Array.isArray(unitType)) {
-                    if (unitType.indexOf(filter) == -1)
-                        $(this).addClass('type-filtered');
-                    else
+                    if (typeFilters.indexOf(unitType[0]) !== -1 ||
+                            typeFilters.indexOf(unitType[1]) !== -1)
                         $(this).removeClass('type-filtered');
+                    else
+                        $(this).addClass('type-filtered');
                 } else {
-                    if ($(this).data('type') !== filter)
-                        $(this).addClass('type-filtered');
-                    else
+                    if (typeFilters.indexOf(unitType) !== -1)
                         $(this).removeClass('type-filtered');
+                    else
+                        $(this).addClass('type-filtered');
                 }
             });
         }
