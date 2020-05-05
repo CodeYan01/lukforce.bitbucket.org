@@ -153,7 +153,7 @@ body {
 }
 
 nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
-    color: var(--font-color-nav);	
+    color: var(--font-color-nav);
 }
 
 .btn-secondary {
@@ -198,6 +198,12 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
 .selected {
     opacity: 1;
 }
+
+.STR { color: red; }
+.DEX { color: green; }
+.QCK { color: blue; }
+.PSY { color: goldenrod; }
+.INT { color: darkorchid; }
 
 .RCV-div     { background-color: sandybrown; }
 .TND-div     { background-color: peru; }

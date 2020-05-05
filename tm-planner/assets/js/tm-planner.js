@@ -1259,23 +1259,9 @@ $(document).ready(function() {
             $(this).toggleClass('assigned-dh');
     });
 
-    /*$("#filter-action").click(function() {
-        console.log("Click");
-        
-        if ($(this).data("action") == "hide") {
-            $(".filter-group").hide();
-            $(this).text("Show");
-            $(this).data("action","show");
-        } else {
-            $(".filter-group").show();
-            $(this).text("Hide");
-            $(this).data("action","hide");
-        }
-    });*/
-
     $('.stroke-double, .stroke-single').attr('title', function(){
         return $(this).html();
-      });
+    });
 
     // Click to add / remove
     $('.team-slot, .ambush-team-slot').click(function() {
@@ -1663,11 +1649,11 @@ $(document).ready(function() {
         if ($(this).hasClass('selected')) {
             $(this).removeClass("selected");
             excludeOtherClasses = false;
-        }
-        else {
+        } else {
             $(this).addClass("selected");
             excludeOtherClasses = true;
         }
+
         applyClassFilter(classFilters, excludeOtherClasses, false);
     });
 
@@ -1756,7 +1742,7 @@ $(document).ready(function() {
     });
 
     var elemTop;
-    
+
     $(window).resize(function() {
         elemTop = $("#dont-have").offset().top + 200;
     });
@@ -1764,7 +1750,7 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var scrHeight = $(window).scrollTop();
         var win = $(window).height() + scrHeight;
-        
+
         elemTop = $("#dont-have").offset().top + 200;
 
         if (win <= elemTop) {

@@ -173,7 +173,7 @@
 }
 
 .filter-button-div {
-    z-index: 10;    
+    z-index: 10;
 }
 
 .fixed-filter-button {
@@ -245,7 +245,7 @@
 
 #filter-action {
     float: right;
-    text-decoration: underline;    
+    text-decoration: underline;
 }
 
 .filter-title {
