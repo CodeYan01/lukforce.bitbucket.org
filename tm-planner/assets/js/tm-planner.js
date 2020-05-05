@@ -1647,10 +1647,10 @@ $(document).ready(function() {
         }
 
         if ($(this).hasClass('selected')) {
-            $(this).removeClass("selected");
+            $(this).removeClass('selected');
             excludeOtherClasses = false;
         } else {
-            $(this).addClass("selected");
+            $(this).addClass('selected');
             excludeOtherClasses = true;
         }
 
@@ -1660,14 +1660,15 @@ $(document).ready(function() {
     // Preset filters
     $('#preset-filters').change(function() {
         if ($(this).val() == -1) {
-            $('#exclude-other-checkbox').removeClass("selected");
+            $('#exclude-other-checkbox').removeClass('selected');
             excludeOtherClasses = false;
         } else {
-            $('#exclude-other-checkbox').addClass("selected");
+            $('#exclude-other-checkbox').addClass('selected');
             excludeOtherClasses = true;
         }
 
         classFilters = [];
+        $('.class-filter').removeClass('selected');
 
         if ($(this).val() == 2113) // Katakuri
             classFilters.push('Fighter', 'Striker', 'Shooter', 'Cerebral', 'Powerhouse');
