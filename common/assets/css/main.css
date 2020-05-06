@@ -172,7 +172,9 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     background-color: var(--bg-highlight-dl-button);
 }
 
-.class-filter, .type-filter {
+.class-filter,
+.type-filter,
+.sp-filter {
     cursor: pointer;
     float: left;
     height: 25px;
@@ -181,7 +183,8 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     width: 25px;
 }
 
-.lb-filter, .class-mode {
+.lb-filter,
+.class-mode {
     cursor: pointer;
     float: left;
     font-size: 12px;

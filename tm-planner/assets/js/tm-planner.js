@@ -1713,6 +1713,38 @@ $(document).ready(function() {
         applyClassFilter(classFilters, excludeOtherClasses, false);
     });
 
+    // Special Filter
+    $('.sp-filter').click(function() {
+        var filter = $(this).data('filter');
+        var filterClass = 'sp-filtered-' + filter;
+        var filterRegex = filter_map[filter];
+
+        if ($(this).hasClass('selected')) {
+            // Clear filters of units filtered by this special
+            $(this).removeClass('selected');
+            $('.' + filterClass).removeClass(filterClass);
+        } else {
+            $(this).addClass('selected');
+
+            $('.booster, .booster-clone').each(function() {
+                var unitId = $(this).data('id');
+                var unitDetail = details[unitId];
+                var spDesc = unitDetail.special;
+
+                var special;
+                if (Array.isArray(spDesc))
+                    special = spDesc[spDesc.length - 1].description;
+                else if (spDesc.character1)
+                    special = spDesc.character1;
+                else
+                    special = spDesc;
+
+                if (!filterRegex.test(special))
+                    $(this).addClass(filterClass);
+            });
+        }
+    });
+
     // LB Filter
     $('.lb-filter').click(function() {
         if ($(this).hasClass('selected')) {

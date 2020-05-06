@@ -30,6 +30,7 @@
 <script src="/tm-planner/data/tm_boosters.js"></script>
 <script src="/tm-planner/data/tm_boosters_jpn.js"></script>
 <script src="/tm-planner/data/tm_opponents.js"></script>
+<script src="/tm-planner/data/filter_map.js"></script>
 <script src="/tm-planner/data/glb_no_lb.js"></script>
 <script src="/vendor/optc-db/units.js"></script>
 <script src="/vendor/optc-db/details.js"></script>
@@ -699,6 +700,7 @@
                         <div class="filter type-filter INT-div" data-filter="INT"></div>
                     </div>
                 </div>
+
                 <div class="tm-filter">
                     <div class="filter-title">
                         <h4 class="stroke-single">CLASS</h4>
@@ -713,14 +715,16 @@
                         <div class="filter class-filter driven-div" data-filter="Driven"></div>
                         <div class="filter class-filter cerebral-div" data-filter="Cerebral"></div>
                         <div class="filter class-filter powerhouse-div" data-filter="Powerhouse"></div>
+
                         <div id="exclude-other-checkbox" class="class-mode btn btn-warning">
                             Exclude other Classes
                         </div>
+
                         <div>
-                            <label for="preset-filters" class="class-filter-option"  id="preset-filter-label">
+                            <label for="preset-filters" id="preset-filter-label">
                                 Presets
                             </label>
-                            <select class="class-filter-option" id="preset-filters">
+                            <select id="preset-filters">
                                 <option value="-1">(none)</option>
                                 <option value="2113">Katakuri</option>
                                 <option value="2739">Katakuri 6+</option>
@@ -731,12 +735,80 @@
                         </div>
                     </div>
                 </div>
-                <div class="tm-filter" style="display: none;">
+
+                <div class="tm-filter">
                     <div class="filter-title">
-                        <h4 class="stroke-single">SPECIAL</h4>
+                        <h4 class="stroke-single">SPECIAL 1/3</h4>
                     </div>
 
                     <div class="filter-icons">
+                        <div class="filter sp-filter atk-boost-div" data-filter="atk-boost"></div>
+                        <div class="filter sp-filter orb-boost-div" data-filter="orb-boost"></div>
+                        <div class="filter sp-filter affinity-div" data-filter="affinity"></div>
+                        <div class="filter sp-filter atk-delay-div" data-filter="atk-delay"></div>
+                        <div class="filter sp-filter atk-def-down-div" data-filter="atk-def-down"></div>
+                        <div class="filter sp-filter atk-poison-div" data-filter="atk-poison"></div>
+                        <div class="filter sp-filter chain-boost-div" data-filter="chain-boost"></div>
+                        <div class="filter sp-filter chain-lock-div" data-filter="chain-lock"></div>
+                        <div class="filter sp-filter slot-change-div" data-filter="slot-change"></div>
+                        <div class="filter sp-filter slot-lock-div" data-filter="slot-lock"></div>
+                        <div class="filter sp-filter slot-pos-div" data-filter="slot-pos"></div>
+                        <div class="filter sp-filter delay-div" data-filter="delay"></div>
+                        <div class="filter sp-filter def-down-div" data-filter="def-down"></div>
+                        <div class="filter sp-filter poison-div" data-filter="poison"></div>
+                        <div class="filter sp-filter dmg-normal-div" data-filter="dmg-normal"></div>
+                        <div class="filter sp-filter dmg-fixed-div" data-filter="dmg-fixed"></div>
+                        <div class="filter sp-filter dmg-eot-div" data-filter="dmg-eot"></div>
+                        <div class="filter sp-filter hp-cut-div" data-filter="hp-cut"></div>
+                    </div>
+                </div>
+
+                <div class="tm-filter">
+                    <div class="filter-title">
+                        <h4 class="stroke-single">SPECIAL 2/3</h4>
+                    </div>
+
+                    <div class="filter-icons">
+                        <div class="filter sp-filter dmg-add-div" data-filter="dmg-add"></div>
+                        <div class="filter sp-filter heal-div" data-filter="heal"></div>
+                        <div class="filter sp-filter def-perc-div" data-filter="def-perc"></div>
+                        <div class="filter sp-filter def-thres-div" data-filter="def-thres"></div>
+                        <div class="filter sp-filter def-null-div" data-filter="def-null"></div>
+                        <div class="filter sp-filter resil-div" data-filter="resil"></div>
+                        <div class="filter sp-filter cd-red-div" data-filter="cd-red"></div>
+                        <div class="filter sp-filter bind-red-div" data-filter="bind-red"></div>
+                        <div class="filter sp-filter desp-red-div" data-filter="desp-red"></div>
+                        <div class="filter sp-filter silence-red-div" data-filter="silence-red"></div>
+                        <div class="filter sp-filter para-red-div" data-filter="para-red"></div>
+                        <div class="filter sp-filter poison-red-div" data-filter="poison-red"></div>
+                        <div class="filter sp-filter blind-red-div" data-filter="blind-red"></div>
+                        <div class="filter sp-filter burn-red-div" data-filter="burn-red"></div>
+                        <div class="filter sp-filter atk-down-red-div" data-filter="atk-down-red"></div>
+                        <div class="filter sp-filter chain-lock-red-div" data-filter="chain-lock-red"></div>
+                        <div class="filter sp-filter chain-down-red-div" data-filter="chain-down-red"></div>
+                        <div class="filter sp-filter dmg-up-red-div" data-filter="dmg-up-red"></div>
+                    </div>
+                </div>
+
+                <div class="tm-filter">
+                    <div class="filter-title">
+                        <h4 class="stroke-single">SPECIAL 3/3</h4>
+                    </div>
+
+                    <div class="filter-icons">
+                        <div class="filter sp-filter dmg-eot-red-e-div" data-filter="dmg-eot-red-e"></div>
+                        <div class="filter sp-filter atk-red-e-div" data-filter="atk-red-e"></div>
+                        <div class="filter sp-filter def-red-e-div" data-filter="def-red-e"></div>
+                        <div class="filter sp-filter def-perc-red-e-div" data-filter="def-perc-red-e"></div>
+                        <div class="filter sp-filter def-thres-red-e-div" data-filter="def-thres-red-e"></div>
+                        <div class="filter sp-filter def-null-red-e-div" data-filter="def-null-red-e"></div>
+                        <div class="filter sp-filter bar-red-e-div" data-filter="bar-red-e"></div>
+                        <div class="filter sp-filter resil-red-e-div" data-filter="resil-red-e"></div>
+                        <div class="filter sp-filter enrage-red-e-div" data-filter="enrage-red-e"></div>
+                    </div>
+
+                    <div id="sp-filter-info">
+                        Special Filter algorithm provided by OPTC-DB
                     </div>
                 </div>
             </div>
