@@ -208,6 +208,12 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
 .PSY { color: goldenrod; }
 .INT { color: darkorchid; }
 
+.STR-badge   { background-color: salmon; }
+.QCK-badge   { background-color: lightskyblue; }
+.DEX-badge   { background-color: lightgreen; }
+.PSY-badge   { background-color: gold; }
+.INT-badge   { background-color: orchid; }
+
 .RCV-div     { background-color: sandybrown; }
 .TND-div     { background-color: peru; }
 .BLOCK-div   { background-color: slateblue; }

@@ -577,7 +577,7 @@ function resetAll() {
 function decorateStr(str) {
     // Decorate Type strings
     str = str
-        .replace(/\[?(STR|DEX|QCK|PSY|INT)\]?/g, '<span class="$1-div badge">$1</span>')
+        .replace(/\[?(STR|DEX|QCK|PSY|INT)\]?/g, '<span class="$1-badge badge">$1</span>')
         .replace(/\[(RCV|TND|BLOCK|BOMB|RAINBOW|G|EMPTY)\]/g, '<span class="$1-div badge">$1</span>');
 
     // Decorate Class strings
