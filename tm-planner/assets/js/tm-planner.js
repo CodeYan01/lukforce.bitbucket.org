@@ -569,6 +569,35 @@ function resetAll() {
     updateAllPts();
 }
 
+function parseLbStats(unitId) {
+    var lbStats = {
+        cd: 0,
+        cdEx: 0
+    };
+
+    var lbs = details[unitId].limit;
+    var keyLv = 999;
+
+    if (lbs) {
+        for (var l in lbs) {
+            var lbDesc = lbs[l].description;
+
+            if (l < keyLv) {
+                if (lbDesc.includes('Reduce base Special Cooldown by '))
+                    lbStats.cd += parseInt(lbDesc.substring(32, 33), 10);
+
+                if (lbDesc.includes('LOCKED WITH KEY'))
+                    keyLv = l;
+            } else {
+                if (lbDesc.includes('Reduce base Special Cooldown by '))
+                    lbStats.cdEx += parseInt(lbDesc.substring(32, 33), 10);
+            }
+        }
+    }
+
+    return lbStats;
+}
+
 function decorateStr(str) {
     // Decorate Type strings
     str = str
@@ -697,6 +726,17 @@ function populateUnitDetail(unitId) {
         var special = unitDetail.special;
         if (special) {
             $('#unit-detail-special').empty();
+
+            // Parse CD
+            var baseCd = cooldowns[unitId - 1][1];
+            var lbStats = parseLbStats(unitId);
+
+            $('#unit-detail-sp-cd').html('[Base|LB] <span class="unit-detail-sp-cd-num">' + (baseCd - lbStats.cd) + '</span>');
+
+            if (lbStats.cdEx !== 0)
+                $('#unit-detail-sp-cd-ex').html('→ [LB+] <span class="unit-detail-sp-cd-num">' + (baseCd - lbStats.cd - lbStats.cdEx)) + '</span>';
+            else
+                $('#unit-detail-sp-cd-ex').empty();
 
             if (Array.isArray(special)) {
                 var specialMax = special[special.length - 1].description;
@@ -1393,7 +1433,7 @@ $(document).ready(function() {
             $('#mini-guide-boss').addClass(op.type);
 
             if (op.guide) {
-                for (gi in op.guide) {
+                for (var gi in op.guide) {
                     var g = op.guide[gi];
 
                     var guideStageClone = $('#guide-stage-clone').clone();
@@ -1415,7 +1455,7 @@ $(document).ready(function() {
                         guideStageClone.find('.guide-boss-atk-div').hide();
                     }
 
-                    for (di in g.detail) {
+                    for (var di in g.detail) {
                         var d = g.detail[di];
 
                         var guideStageTypeClone = $('#guide-stage-type-clone').clone();
@@ -1425,7 +1465,7 @@ $(document).ready(function() {
                         guideStageTypeClone.find('.guide-stage-type').text(d.type);
 
                         var i = 0;
-                        for (ai in d.action) {
+                        for (var ai in d.action) {
                             var a = d.action[ai];
 
                             if (d.type === 'Interrupt') {
@@ -1445,7 +1485,7 @@ $(document).ready(function() {
                                 var aCounter = counters[a[0]];
                                 if (aCounter) {
                                     if (Array.isArray(aCounter)) {
-                                        for (ac in aCounter)
+                                        for (var ac in aCounter)
                                             createActionCounterBtn(guideActionClone, aCounter[ac]);
                                     } else
                                         createActionCounterBtn(guideActionClone, aCounter);

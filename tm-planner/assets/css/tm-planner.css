@@ -63,6 +63,10 @@
     margin-bottom: 10px;
 }
 
+#unit-detail-sp-cd-span {
+    font-size: 13px;
+}
+
 .booster,
 .op-name,
 .guide-sp-filter {
@@ -358,6 +362,7 @@ button.cal-button:hover {
     display: none;
 }
 
+.unit-detail-sp-cd-num,
 .guide-stage-type {
     font-weight: bold;
 }

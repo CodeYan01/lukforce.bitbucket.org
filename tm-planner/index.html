@@ -35,6 +35,7 @@
 <script src="/tm-planner/data/glb_no_lb.js"></script>
 <script src="/vendor/optc-db/units.js"></script>
 <script src="/vendor/optc-db/details.js"></script>
+<script src="/vendor/optc-db/cooldowns.js"></script>
 
 <!-- Google Analytics -->
 <script>
@@ -101,7 +102,13 @@
                 <h6 class="unit-detail-el unit-detail-swap-el">Swap Effect</h6>
                 <div class="unit-detail-el unit-detail-swap-el" id="unit-detail-swap">None</div>
 
-                <h6 class="unit-detail-el">Special</h6>
+                <h6 class="unit-detail-el">
+                    Special
+                    <span id="unit-detail-sp-cd-span">
+                        (Max: <span id="unit-detail-sp-cd"></span>
+                              <span id="unit-detail-sp-cd-ex"></span> Turns)
+                    </span>
+                </h6>
                 <div class="unit-detail-el" id="unit-detail-special">None</div>
 
                 <h6 class="unit-detail-el">Sailor</h6>
