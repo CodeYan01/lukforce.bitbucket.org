@@ -31,6 +31,7 @@
 <script src="/tm-planner/data/tm_boosters_jpn.js"></script>
 <script src="/tm-planner/data/tm_opponents.js"></script>
 <script src="/tm-planner/data/filter_map.js"></script>
+<script src="/tm-planner/data/counters.js"></script>
 <script src="/tm-planner/data/glb_no_lb.js"></script>
 <script src="/vendor/optc-db/units.js"></script>
 <script src="/vendor/optc-db/details.js"></script>
@@ -110,6 +111,81 @@
                     <i class="fas fa-info-circle"></i>&nbsp;
                     Unit data provided by <a href="http://optc-db.github.io/characters/#/search/">OPTC DB</a>
                 </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-seconday" data-dismiss="modal">
+                    <i class="fas fa-times"></i>&nbsp;Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="mini-guide-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-book"></i>&nbsp;Mini Guide: <span id="mini-guide-boss"></span>
+                </h5>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label for="guide-nav-lv" class="col-3 col-form-label">Nav Lv:</label>
+                    <div class="col-3">
+                        <input type="number" class="form-control form-control-sm" id="guide-nav-lv" min="1" value="1">
+                    </div>
+                </div>
+
+                <div id="mini-guide-content"></div>
+
+                <div id="guide-stage-clone">
+                    <h5>
+                        Stage <span class="guide-stage-num"></span>:
+                        <span class="guide-boss"></span>
+                    </h5>
+
+                    <div class="guide-boss-hp-div">
+                        HP: <span class="guide-boss-hp"></span>
+                        <input type="hidden" class="guide-boss-hp-base">
+                    </div>
+                    <div class="guide-boss-atk-div">
+                        ATK: <span class="guide-boss-atk"></span>
+                        <input type="hidden" class="guide-boss-atk-base">
+                    </div>
+
+                    <div class="container-fluid mt-4 guide-stage-list"></div>
+                </div>
+
+                <div class="row my-2" id="guide-stage-type-clone">
+                    <div class="col-12">
+                        <span class="guide-stage-type"></span>:
+                    </div>
+
+                    <div class="container-fluid guide-action-list"></div>
+                </div>
+
+                <div class="row my-2" id="guide-action-clone">
+                    <div class="col-4 guide-action-type"></div>
+                    <div class="col-4">
+                        (<span class="guide-action-detail"></span>)
+                    </div>
+                    <div class="col-4 guide-sp-filter-list"></div>
+                </div>
+
+                <div class="row my-2" id="guide-interrupt-clone">
+                    <div class="col-4 guide-action-type"></div>
+                </div>
+
+                <button type="button" class="btn-btn-sm btn-warning" id="guide-filter-clone">
+                    <div class="guide-sp-filter"></div>
+                </button>
             </div>
 
             <div class="modal-footer">
@@ -495,7 +571,7 @@
             <div id="tm-team-sets" class="row">
                 <div class="row">
                     <div class="col-md-2 col-sm-4 col-6 team" id="first-team" data-team="0">
-                        <h5 class="team-title">vs <span id="op-1"></span></h5>
+                        <h5 class="team-title">vs <span class="op-name" id="op-1"></span></h5>
 
                         <div class="row">
                             <div class="col-md-12 col-12">
@@ -525,7 +601,7 @@
                     </div>
 
                     <div class="col-md-2 col-sm-4 col-6 team" data-team="1">
-                        <h5 class="team-title">vs <span id="op-2"></span></h5>
+                        <h5 class="team-title">vs <span class="op-name" id="op-2"></span></h5>
 
                         <div class="row">
                             <div class="col-md-12 col-12">
@@ -555,7 +631,7 @@
                     </div>
 
                     <div class="col-md-2 col-sm-4 col-6 team" data-team="2">
-                        <h5 class="team-title">vs <span id="op-3"></span></h5>
+                        <h5 class="team-title">vs <span class="op-name" id="op-3"></span></h5>
 
                         <div class="row">
                             <div class="col-md-12 col-12">
@@ -585,7 +661,7 @@
                     </div>
 
                     <div class="col-md-2 col-sm-4 col-6 team" data-team="3">
-                        <h5 class="team-title">vs <span id="op-4"></span></h5>
+                        <h5 class="team-title">vs <span class="op-name" id="op-4"></span></h5>
 
                         <div class="row">
                             <div class="col-md-12 col-12">
@@ -615,7 +691,7 @@
                     </div>
 
                     <div class="col-md-2 col-sm-4 col-6 team" data-team="4">
-                        <h5 class="team-title">vs <span id="op-5"></span></h5>
+                        <h5 class="team-title">vs <span class="op-name" id="op-5"></span></h5>
 
                         <div class="row">
                             <div class="col-md-12 col-12">
@@ -645,7 +721,7 @@
                     </div>
 
                     <div class="col-md-2 col-sm-4 col-6 team" id="ambush-team" data-team="5">
-                        <h5 class="team-title">vs <span id="op-6"></span></h5>
+                        <h5 class="team-title">vs <span class="op-name" id="op-6"></span></h5>
 
                         <div class="row">
                             <div class="col-md-12 col-12">
@@ -834,13 +910,13 @@
     <div class="row">
         <div class="offset-md-2 col-md-4 col-12">
             <button type="button" class="btn btn-sm btn-secondary" id="pts-all-button">Update All Pts</button>
-            <button type="button" class="btn btn-sm btn-dark sl-btn" id="export-url-button">Export URL</button>
+            <button type="button" class="btn btn-sm btn-dark" id="export-url-button">Export URL</button>
             <button type="button" class="btn btn-sm btn-danger not-read-only" id="reset-button">Reset</button>
         </div>
 
         <div class="col-md-4 col-12">
-            <button type="button" class="btn btn-sm btn-primary sl-btn not-read-only" id="save-button" disabled>Save</button>
-            <button type="button" class="btn btn-sm btn-info sl-btn not-read-only" id="load-button" disabled>Load</button>
+            <button type="button" class="btn btn-sm btn-primary not-read-only" id="save-button">Save</button>
+            <button type="button" class="btn btn-sm btn-info not-read-only" id="load-button">Load</button>
             Last Saved: <span id="last-save">N/A</span>
         </div>
     </div>

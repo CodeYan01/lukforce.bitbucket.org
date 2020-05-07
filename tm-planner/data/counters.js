@@ -1,0 +1,22 @@
+var counters = {
+    //'atk-boost':        'clear-buff',
+    //'orb-boost':        'clear-buff',
+    'atk-down':         'atk-down-red',
+    'bar-color':        'bar-red-e',
+    'bar-hit':          'bar-red-e',
+    'bar-p':            'bar-red-e',
+    'bar-gt':           'bar-red-e',
+    'bar-gd':           'bar-red-e',
+    'bind':             'bind-red',
+    'blind':            'blind-red',
+    'cd-rew':           'cd-red',
+    'chain-down':       ['chain-lock', 'chain-down-red'],
+    'chain-lock':       'chain-lock-red',
+    'def':              ['def-down-e', 'def-red-e'],
+    'def-thres':        'def-thres-red-e',
+    'desp':             'desp-red',
+    'dmg-up':           'dmg-up-red',
+    'para':             'para-red',
+    'resil':            'resil-red-e',
+    'slot-change':      'slot-change'
+}

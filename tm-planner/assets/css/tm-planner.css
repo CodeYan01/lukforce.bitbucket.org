@@ -63,7 +63,9 @@
     margin-bottom: 10px;
 }
 
-.booster {
+.booster,
+.op-name,
+.guide-sp-filter {
     cursor: pointer;
 }
 
@@ -348,11 +350,31 @@ button.cal-button:hover {
     z-index: -1;
 }
 
+#guide-stage-clone,
+#guide-stage-type-clone,
+#guide-action-clone,
+#guide-interrupt-clone,
+#guide-filter-clone {
+    display: none;
+}
+
+.guide-stage-type {
+    font-weight: bold;
+}
+
 #sp-filter-info {
     color: darkgray;
     font-size: 10px;
     margin-top: 30px;
     text-align: center;
+}
+
+.guide-action-icon,
+.guide-sp-filter {
+    float: left;
+    height: 25px;
+    margin: 5px;
+    width: 25px;
 }
 
 .atk-boost-div              { background-image: url('/tm-planner/assets/img/special_icons/atk_boost.png');          background-size: 24px 24px; }
@@ -400,3 +422,33 @@ button.cal-button:hover {
 .bar-red-e-div              { background-image: url('/tm-planner/assets/img/special_icons/bar_red_e.png');          background-size: 24px 24px; }
 .resil-red-e-div            { background-image: url('/tm-planner/assets/img/special_icons/resil_red_e.png');        background-size: 24px 24px; }
 .enrage-red-e-div           { background-image: url('/tm-planner/assets/img/special_icons/enrage_red_e.png');       background-size: 24px 24px; }
+
+.bind-div                   { background-image: url('/tm-planner/assets/img/special_icons/bind.png');               background-size: 24px 24px; }
+.desp-div                   { background-image: url('/tm-planner/assets/img/special_icons/desp.png');               background-size: 24px 24px; }
+.silence-div                { background-image: url('/tm-planner/assets/img/special_icons/silence.png');            background-size: 24px 24px; }
+.para-div                   { background-image: url('/tm-planner/assets/img/special_icons/para.png');               background-size: 24px 24px; }
+.blind-div                  { background-image: url('/tm-planner/assets/img/special_icons/blind.png');              background-size: 24px 24px; }
+.burn-div                   { background-image: url('/tm-planner/assets/img/special_icons/burn.png');               background-size: 24px 24px; }
+.atk-down-div               { background-image: url('/tm-planner/assets/img/special_icons/atk_down.png');           background-size: 24px 24px; }
+.chain-down-div             { background-image: url('/tm-planner/assets/img/special_icons/chain_down.png');         background-size: 24px 24px; }
+.dmg-up-div                 { background-image: url('/tm-planner/assets/img/special_icons/dmg_up.png');             background-size: 24px 24px; }
+.cd-rew-div                 { background-image: url('/tm-planner/assets/img/special_icons/cd_rew.png');             background-size: 24px 24px; }
+.slot-block-div             { background-image: url('/tm-planner/assets/img/special_icons/slot_block.png');         background-size: 24px 24px; }
+.slot-neg-div               { background-image: url('/tm-planner/assets/img/special_icons/slot_neg.png');           background-size: 24px 24px; }
+.immu-all-div               { background-image: url('/tm-planner/assets/img/special_icons/immu_all.png');           background-size: 24px 24px; }
+.immu-delay-div             { background-image: url('/tm-planner/assets/img/special_icons/immu_delay.png');         background-size: 24px 24px; }
+.immu-def-div               { background-image: url('/tm-planner/assets/img/special_icons/immu_def.png');           background-size: 24px 24px; }
+.immu-poison-div            { background-image: url('/tm-planner/assets/img/special_icons/immu_poison.png');        background-size: 24px 24px; }
+.atk-div                    { background-image: url('/tm-planner/assets/img/special_icons/atk.png');                background-size: 24px 24px; }
+.def-div                    { background-image: url('/tm-planner/assets/img/special_icons/def.png');                background-size: 24px 24px; }
+.bar-p-div                  { background-image: url('/tm-planner/assets/img/special_icons/bar_p.png');              background-size: 24px 24px; }
+.bar-gt-div                 { background-image: url('/tm-planner/assets/img/special_icons/bar_gt.png');             background-size: 24px 24px; }
+.bar-gd-div                 { background-image: url('/tm-planner/assets/img/special_icons/bar_gd.png');             background-size: 24px 24px; }
+.bar-hit-div                { background-image: url('/tm-planner/assets/img/special_icons/bar_hit.png');            background-size: 24px 24px; }
+.bar-color-div              { background-image: url('/tm-planner/assets/img/special_icons/bar_color.png');          background-size: 24px 24px; }
+.dmg-eot-e-div              { background-image: url('/tm-planner/assets/img/special_icons/dmg_eot_e.png');          background-size: 24px 24px; }
+.enrage-div                 { background-image: url('/tm-planner/assets/img/special_icons/enrage.png');             background-size: 24px 24px; }
+.fixed-target-div           { background-image: url('/tm-planner/assets/img/special_icons/fixed_target.png');       background-size: 24px 24px; }
+.nao-div                    { background-image: url('/tm-planner/assets/img/special_icons/nao.png');                background-size: 24px 24px; }
+.no-heal-div                { background-image: url('/tm-planner/assets/img/special_icons/no_heal.png');            background-size: 24px 24px; }
+.sp-limit-div               { background-image: url('/tm-planner/assets/img/special_icons/sp_limit.png');           background-size: 24px 24px; }

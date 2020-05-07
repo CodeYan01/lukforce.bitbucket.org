@@ -425,9 +425,9 @@ function getOpponents(tmId, server) {
     if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
         for (var opId in opponents) {
             var op = opponents[opId];
-            var opName = op[0];
-            var opType = op[1];
-            var opPos = op[2];
+            var opName = op.name;
+            var opType = op.type;
+            var opPos = op.pos;
 
             var opPosDiv = $('#op-' + (opPos + 1));
             var opPosTeam = opPosDiv.closest('.team');
@@ -455,8 +455,8 @@ function getOpponents(tmId, server) {
     } else {
         for (var i = 0; i < opponents.length; i++) {
             var op = opponents[i];
-            var opName = op[0];
-            var opType = op[1];
+            var opName = op.name;
+            var opType = op.type;
 
             if (Array.isArray(opName) && Array.isArray(opType)) {
                 $('#op-' + (i + 1)).empty();
@@ -496,11 +496,6 @@ function init(tmId, server) {
         alert('Invalid TM');
         return false;
     }
-
-    if (tmId != 9999)
-        $('.sl-btn').attr('disabled', false);
-    else
-        $('.sl-btn').attr('disabled', true);
 
     // Display Ambush Team
     if (
@@ -587,6 +582,28 @@ function decorateStr(str) {
     });
 
     return str;
+}
+
+function decorateSpIcon(iconKey, isAction) {
+    if (iconKey === 'clear-buff' || iconKey === 'blow')
+        return iconKey;
+
+    if (isAction)
+        iconKey = '<div class="guide-action-icon ' + iconKey + '-div"></div>';
+    else
+        iconKey = iconKey + '-div';
+
+    return iconKey;
+}
+
+function createActionCounterBtn(guideActionClone, counter) {
+    var guideFilterClone = $('#guide-filter-clone').clone();
+    guideFilterClone.attr('id', '');
+
+    guideFilterClone.find('.guide-sp-filter').addClass(decorateSpIcon(counter, false));
+    guideFilterClone.find('.guide-sp-filter').data('filter', counter);
+
+    guideActionClone.find('.guide-sp-filter-list').append(guideFilterClone);
 }
 
 function populateUnitDetail(unitId) {
@@ -1057,7 +1074,7 @@ $(document).ready(function() {
                         var team = teamStr.split(',');
 
                         var op = opponents[opId];
-                        var opPos = op[2];
+                        var opPos = op.pos;
 
                         var opPosDiv = $('#op-' + (opPos + 1));
                         var opPosTeam = opPosDiv.closest('.team');
@@ -1360,6 +1377,130 @@ $(document).ready(function() {
         }
     });
 
+    // Mini guide
+    $(document).on('click', '.op-name', function() {
+        var opId = $(this).closest('.team').data('op_id');
+        var op = tm_opponents[tmId][opId];
+
+        if (op) {
+            // Reset
+            $('#guide-nav-lv').val(1);
+            $('#mini-guide-content').empty();
+            $('#mini-guide-boss').removeClass();
+
+            // Populate main boss
+            $('#mini-guide-boss').text(op.name);
+            $('#mini-guide-boss').addClass(op.type);
+
+            if (op.guide) {
+                for (gi in op.guide) {
+                    var g = op.guide[gi];
+
+                    var guideStageClone = $('#guide-stage-clone').clone();
+                    var guideStageId = 'guide-stage-' + g.stageNum;
+                    guideStageClone.attr('id', guideStageId);
+
+                    guideStageClone.find('.guide-stage-num').text(g.stageNum);
+
+                    if (g.boss) {
+                        guideStageClone.find('.guide-boss').text(g.boss[0]);
+                        guideStageClone.find('.guide-boss').addClass(g.boss[1]);
+                        guideStageClone.find('.guide-boss-hp').text(g.hp);
+                        guideStageClone.find('.guide-boss-hp-base').val(g.hp);
+                        guideStageClone.find('.guide-boss-atk').text(g.atk);
+                        guideStageClone.find('.guide-boss-atk-base').val(g.atk);
+                    } else {
+                        guideStageClone.find('.guide-boss').hide();
+                        guideStageClone.find('.guide-boss-hp-div').hide();
+                        guideStageClone.find('.guide-boss-atk-div').hide();
+                    }
+
+                    for (di in g.detail) {
+                        var d = g.detail[di];
+
+                        var guideStageTypeClone = $('#guide-stage-type-clone').clone();
+                        var guideStageTypeId = 'guide-stage-type-' + d.type.replace('', '-').toLowerCase();
+                        guideStageTypeClone.attr('id', guideStageTypeId);
+
+                        guideStageTypeClone.find('.guide-stage-type').text(d.type);
+
+                        var i = 0;
+                        for (ai in d.action) {
+                            var a = d.action[ai];
+
+                            if (d.type === 'Interrupt') {
+                                var guideActionClone = $('#guide-interrupt-clone').clone();
+                                var guideActionId = guideStageTypeId + '-i' + i;
+                                guideActionClone.attr('id', guideActionId);
+
+                                guideActionClone.find('.guide-action-type').html(decorateSpIcon(a, true));
+                            } else {
+                                var guideActionClone = $('#guide-action-clone').clone();
+                                var guideActionId = guideStageTypeId + '-a' + i;
+                                guideActionClone.attr('id', guideActionId);
+
+                                guideActionClone.find('.guide-action-type').html(decorateSpIcon(a[0], true));
+                                guideActionClone.find('.guide-action-detail').text(a[1]);
+
+                                var aCounter = counters[a[0]];
+                                if (aCounter) {
+                                    if (Array.isArray(aCounter)) {
+                                        for (ac in aCounter)
+                                            createActionCounterBtn(guideActionClone, aCounter[ac]);
+                                    } else
+                                        createActionCounterBtn(guideActionClone, aCounter);
+                                }
+                            }
+
+                            guideStageTypeClone.find('.guide-action-list').append(guideActionClone);
+                            i++;
+                        }
+
+                        guideStageClone.find('.guide-stage-list').append(guideStageTypeClone);
+                    }
+
+                    $('#mini-guide-content').append(guideStageClone);
+                }
+            } else {
+                $('#mini-guide-content').append('No guide available.');
+            }
+
+            $('#mini-guide-modal').modal();
+        }
+    });
+
+    // Activate Counter Special Filter after clicking from Mini Guide
+    $(document).on('click', '.guide-sp-filter', function() {
+        $('#mini-guide-modal').modal('hide');
+
+        // Clear all Special Filters
+        $('.sp-filter').removeClass('selected');
+        $('.booster, .booster-clone').removeClass(function(i, cName) {
+            return (cName.match(/(^|\s)sp-filtered-\S+/g) || []).join(' ');
+        });
+
+        // Activate actual Filter
+        var filter = $(this).data('filter');
+        $('.sp-filter[data-filter=' + filter  + ']').click();
+    });
+
+    // Change Boss HP and ATK based on Nav Lv
+    $('#guide-nav-lv').change(function() {
+        var navLv = parseInt($(this).val());
+
+        $('.guide-boss-hp').each(function() {
+            var baseBossHp = parseInt($(this).closest('.guide-boss-hp-div').find('.guide-boss-hp-base').val());
+            var cBossHp = baseBossHp + (baseBossHp * (navLv - 1) * 0.1);
+            $(this).text(cBossHp);
+        });
+
+        $('.guide-boss-atk').each(function() {
+            var baseBossAtk = parseInt($(this).closest('.guide-boss-atk-div').find('.guide-boss-atk-base').val());
+            var cBossAtk = baseBossAtk + (baseBossAtk * (navLv - 1) * 0.05);
+            $(this).text(cBossAtk);
+        });
+    });
+
     // Point calculation button
     $('.pts-button').click(function() {
         updatePts($(this));
@@ -1441,7 +1582,7 @@ $(document).ready(function() {
                     var op = opponents[opId];
 
                     if (team && op) {
-                        var opPos = op[2];
+                        var opPos = op.pos;
 
                         var opPosDiv = $('#op-' + (opPos + 1));
                         var opPosTeam = opPosDiv.closest('.team');
