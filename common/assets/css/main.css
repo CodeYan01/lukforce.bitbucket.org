@@ -12,7 +12,7 @@
     --font-highlight-dl-button: #fff;
     --font-color-news: #006f65;
 
-        /* Scroll bar colors */
+    /* Scroll bar colors */
     --scrollbar-color-track: #f7c273;
     --scrollbar-color-thumb: #009688;
     --scrollbar-color-thumb-hover: #3effc6;
@@ -32,7 +32,7 @@
     --font-highlight-dl-button: #fff;
     --font-color-news: #000;
 
-        /* Scroll bar colors */
+    /* Scroll bar colors */
     --scrollbar-color-track: #343a40;
     --scrollbar-color-thumb: #ffb444;
     --scrollbar-color-thumb-hover: gray;
@@ -179,7 +179,7 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     float: left;
     height: 25px;
     margin: 5px;
-    opacity: .5;
+    opacity: .3;
     width: 25px;
 }
 
@@ -190,7 +190,7 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     font-size: 12px;
     font-weight: bold;
     margin: 5px;
-    opacity: .5;
+    opacity: .3;
     padding: 5px;
     text-align: center;
     width: 100%;
