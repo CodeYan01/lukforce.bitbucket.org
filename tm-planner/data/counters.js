@@ -17,6 +17,6 @@ var counters = {
     'desp':             'desp-red',
     'dmg-up':           'dmg-up-red',
     'para':             'para-red',
-    'resil':            'resil-red-e',
+    'resil':            ['resil-red-e', 'dmg-eot', 'poison'],
     'slot-change':      'slot-change'
 }
