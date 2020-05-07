@@ -12,7 +12,7 @@ var counters = {
     'cd-rew':           'cd-red',
     'chain-down':       ['chain-lock', 'chain-down-red'],
     'chain-lock':       'chain-lock-red',
-    'def':              ['def-down-e', 'def-red-e'],
+    'def':              ['def-down', 'def-red-e'],
     'def-thres':        'def-thres-red-e',
     'desp':             'desp-red',
     'dmg-up':           'dmg-up-red',

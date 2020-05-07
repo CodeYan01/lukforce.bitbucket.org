@@ -944,7 +944,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['bar-hit',         '3, 20']
+                                ['bar-hit',         '3T, 20']
                             ]
                         }
                     ]
