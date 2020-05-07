@@ -68,8 +68,7 @@
 }
 
 .booster,
-.op-name,
-.guide-sp-filter {
+.op-name {
     cursor: pointer;
 }
 

@@ -1459,7 +1459,7 @@ $(document).ready(function() {
                         var d = g.detail[di];
 
                         var guideStageTypeClone = $('#guide-stage-type-clone').clone();
-                        var guideStageTypeId = 'guide-stage-type-' + d.type.replace('', '-').toLowerCase();
+                        var guideStageTypeId = 'guide-stage-type-' + d.type.replace(' ', '-').toLowerCase();
                         guideStageTypeClone.attr('id', guideStageTypeId);
 
                         guideStageTypeClone.find('.guide-stage-type').text(d.type);
