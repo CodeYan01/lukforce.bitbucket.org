@@ -1795,7 +1795,7 @@ $(document).ready(function() {
 
         if ($(this).hasClass('selected')) {
             $(this).removeClass('selected');
-            typeFilters.splice(typeFilters.indexOf(filter, 1));
+            typeFilters.splice(typeFilters.indexOf(filter), 1);
         } else {
             $(this).addClass('selected');
             typeFilters.push(filter);
