@@ -67,8 +67,7 @@
     font-size: 13px;
 }
 
-.booster,
-.op-name {
+.booster {
     cursor: pointer;
 }
 
@@ -359,6 +358,20 @@ button.cal-button:hover {
     position: absolute;
     top: 6px;
     right: 12px;
+}
+
+.op-guide-btn {
+    border-style: double;
+    border-width: medium;
+}
+
+.op-icon {
+    color: crimson;
+}
+
+.op-name {
+    font-weight: bold;
+    white-space: normal;
 }
 
 #guide-stage-clone,

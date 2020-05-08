@@ -1440,7 +1440,7 @@ $(document).ready(function() {
     });
 
     // Mini guide
-    $(document).on('click', '.op-name', function() {
+    $(document).on('click', '.op-guide-btn', function() {
         var opId = $(this).closest('.team').data('op_id');
         var op = tm_opponents[tmId][opId];
 
