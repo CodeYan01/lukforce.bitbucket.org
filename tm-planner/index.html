@@ -12,7 +12,7 @@
 <!-- Vendor JS & CSS -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
@@ -217,30 +217,80 @@
             </div>
 
             <div class="modal-body" id="help-info">
+                <h6>IMPORTANT</h6>
                 <ul class="fa-ul">
                     <li>
                         <i class="fas fa-exclamation-triangle"></i>&nbsp;
-                        Team saves <strong>only locally</strong>.
+                        Team saves <strong>ONLY LOCALLY</strong>
+                    </li>
+                    <li>
+                        <i class="fas fa-exclamation-triangle"></i>&nbsp;
+                        Clearing your browser cache will delete your saves
                     </li>
                     <li>
                         <i class="fas fa-info-circle"></i>&nbsp;
-                        Drag & Drop units into the slots below, or Click to Add (mainly for touch screen users) using the add buttons to assign available units.
+                        If you want to view your teams in a difference device, you should Export
+                        your Teams and paste the link into the browser of the other device
+                    </li>
+                </ul>
+
+                <h6>USAGE</h6>
+                <ul class="fa-ul">
+                    <li>
+                        <i class="fas fa-info-circle"></i>&nbsp;
+                        Drag & Drop Units into the slots below, or Click to Add using the add
+                        buttons to assign available Units
                     </li>
                     <li>
                         <i class="fas fa-info-circle"></i>&nbsp;
-                        Clicking on the boosted units will navigate to the unit on OPTC-DB.
+                        Remove Units from teams by dragging it outside, or Click and select Remove
                     </li>
                     <li>
                         <i class="fas fa-info-circle"></i>&nbsp;
-                        The Captain slot should be assigned first before assigning the Friend Captain slot to allow using the same unit.
+                        Units cannot be used more than once, except in the Friend Captain slot or
+                        the Ambush Team (Team 6) (These Units are tinted to distinguish from the rest)
                     </li>
                     <li>
                         <i class="fas fa-info-circle"></i>&nbsp;
-                        Units cannot be used more than once, except in the Friend Captain slot by using Click to Add.
+                        The Captain slot will be automatically mirrored to the Friend Captain slot
+                        if it is empty
                     </li>
                     <li>
                         <i class="fas fa-info-circle"></i>&nbsp;
-                        Captain slot will automatically fill in Friend Captain slot if it is empty. The Friend Captain slot can be replaced by Drag & Drop or Click to Remove.
+                        The Captain slot should be assigned first before assigning the Friend Captain
+                        slot to allow using the same unit.
+                    </li>
+                </ul>
+
+                <h6>NOTABLE FEATURES</h6>
+                <ul class="fa-ul">
+                    <li>
+                        <i class="fas fa-filter"></i>&nbsp;
+                        <strong>FILTER</strong> <br>
+                        Filters are available by toggling the Filter button. Units can be filtered
+                        by Type, Class, and Special
+                    </li>
+                    <li>
+                        <i class="fas fa-list-alt"></i>&nbsp;
+                        <strong>UNIT DETAIL</strong> <br>
+                        Clicking on the Units will display the details: Captain, Special, etc
+                    </li>
+                    <li>
+                        <i class="fas fa-book"></i>&nbsp;
+                        <strong>MINI GUIDE</strong> <br>
+                        Click on the boss name to open its guide. Adjusting the Nav Lv will update
+                        the HP and ATK at the corresponding nav level. Clicking the button next to
+                        the boss actions will activate the corresponding Special Filter
+                    </li>
+                    <li>
+                        <i class="fas fa-user-slash"></i>&nbsp;
+                        <strong>UNITS I DON'T HAVE</strong> <br>
+                        Label Units you don't have by mouse right click (or long hold on touch
+                        devices), or by dragging them to the Don't Have Units section
+                    </li>
+                    <li>
+                        <i class="fas fa-info-circle"></i>&nbsp;
+                        Check out the News page for more features and their details!
                     </li>
                 </ul>
             </div>
@@ -284,7 +334,13 @@
 
 <div class="container-fluid my-5">
     <div class="row justify-content-center">
-        <div class="col-lg-3 col-md-5 col-sm-6 col-10">
+        <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+            <button type="button" class="btn btn-sm btn-info" id="help-button">
+                <i class="fas fa-question-circle"></i>
+            </button>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-7 col-9">
             <select class="form-control form-control-lg not-read-only" id="tm-select">
                 <option value="2792_glb" class="tm-option glb-tm" id="newest-tm-glb">O-Robi</option>
                 <option value="2763_glb" class="tm-option glb-tm">Halloween Nami</option>
