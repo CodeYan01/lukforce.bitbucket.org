@@ -871,13 +871,13 @@ var tm_opponents = {
                             type: 'Turn 1',
                             action: [
                                 ['bar-p',           '99+T, 3x'],
-                                ['slot-change',     'bad']
+                                ['slot-change',     'Bad']
                             ]
                         },
                         {
                             type: 'Turn 2',
                             action: [
-                                ['clear-buff',      'super']
+                                ['Clear Buff',      'Super']
                             ]
                         }
                     ]
@@ -913,7 +913,7 @@ var tm_opponents = {
                         {
                             type: '<20%, on atk',
                             action: [
-                                ['blow',            '99+T, 2'],
+                                ['Blow Away',       '99+T, 2'],
                                 ['heal',            '30%']
                             ]
                         }
@@ -944,7 +944,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['bar-hit',         '3T, 20']
+                                ['bar-hit',         '3T, 20x']
                             ]
                         }
                     ]
@@ -988,7 +988,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['atk-down',        '3T'],
-                                ['bar-p',           '1T, 4'],
+                                ['bar-p',           '1T, 4x'],
                                 ['immu-delay',      '99+T'],
                                 ['immu-def',        '99+T']
                             ]
@@ -1059,7 +1059,7 @@ var tm_opponents = {
                                 ['chain-lock',      '3T, 1.1x'],
                                 ['slot-lock',       '1T'],
                                 ['immu-delay',      '99+T'],
-                                ['slot-block',      'all']
+                                ['slot-block',      'All']
                             ]
                         },
                         {

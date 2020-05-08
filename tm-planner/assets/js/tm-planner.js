@@ -614,7 +614,7 @@ function decorateStr(str) {
 }
 
 function decorateSpIcon(iconKey, isAction) {
-    if (iconKey === 'clear-buff' || iconKey === 'blow')
+    if (iconKey === 'Clear Buff' || iconKey === 'Blow Away')
         return iconKey;
 
     if (isAction)
