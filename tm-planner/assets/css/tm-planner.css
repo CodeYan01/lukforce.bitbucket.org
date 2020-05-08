@@ -261,6 +261,7 @@
     min-height: 30px;
     width: 90%;
     margin: 10px auto;
+    position: relative;
 }
 
 .filter-icons {
@@ -340,7 +341,6 @@ button.cal-button:hover {
     z-index: 0;
     color: #FFEB3B;
     font-size: 15px;
-    font-family: monospace;
     top: 8px;
     text-align: center;
 }
@@ -351,6 +351,15 @@ button.cal-button:hover {
     position: absolute;
     -webkit-text-stroke: 0.3em #000000;
     z-index: -1;
+}
+
+.filter-clear-btn {
+    font-size: 10px;
+    height: 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 6px;
+    right: 12px;
 }
 
 #guide-stage-clone,

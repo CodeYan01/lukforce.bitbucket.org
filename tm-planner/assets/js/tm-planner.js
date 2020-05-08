@@ -1067,6 +1067,28 @@ function applyClassFilter(classFilters, excludeOtherClasses, excludeSingleClass)
     }
 }
 
+function clearTypeFilters() {
+    $('.type-filter').removeClass('selected');
+    $('.booster, booster-clone').removeClass('type-filtered');
+}
+
+function clearClassFilters() {
+    $('.class-filter').removeClass('selected');
+    $('.booster, booster-clone').removeClass('class-filtered');
+
+    $('#exclude-other-checkbox').removeClass('selected');
+    excludeOtherClasses = false;
+
+    $('#preset-filters').val(-1);
+}
+
+function clearSpecialFilters() {
+    $('.sp-filter').removeClass('selected');
+    $('.booster, .booster-clone').removeClass(function(i, cName) {
+        return (cName.match(/(^|\s)sp-filtered-\S+/g) || []).join(' ');
+    });
+}
+
 $(document).ready(function() {
     // Retrieve Settings
     var server = 'glb';
@@ -1514,10 +1536,7 @@ $(document).ready(function() {
         $('#mini-guide-modal').modal('hide');
 
         // Clear all Special Filters
-        $('.sp-filter').removeClass('selected');
-        $('.booster, .booster-clone').removeClass(function(i, cName) {
-            return (cName.match(/(^|\s)sp-filtered-\S+/g) || []).join(' ');
-        });
+        clearSpecialFilters();
 
         // Activate actual Filter
         var filter = $(this).data('filter');
@@ -1941,6 +1960,21 @@ $(document).ready(function() {
                 else
                     $(this).removeClass('lb-filtered');
             });
+        }
+    });
+
+    // Clear Filters
+    $('.filter-clear-btn').click(function() {
+        var target = $(this).data('target');
+
+        if ('type' === target) {
+            clearTypeFilters(typeFilters);
+            typeFilters = [];
+        } else if ('class' === target) {
+            clearClassFilters(classFilters);
+            classFilters = [];
+        } else if ('special' === target) {
+            clearSpecialFilters();
         }
     });
 
