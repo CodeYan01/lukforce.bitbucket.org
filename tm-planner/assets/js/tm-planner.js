@@ -1069,12 +1069,12 @@ function applyClassFilter(classFilters, excludeOtherClasses, excludeSingleClass)
 
 function clearTypeFilters() {
     $('.type-filter').removeClass('selected');
-    $('.booster, booster-clone').removeClass('type-filtered');
+    $('.booster, .booster-clone').removeClass('type-filtered');
 }
 
 function clearClassFilters() {
     $('.class-filter').removeClass('selected');
-    $('.booster, booster-clone').removeClass('class-filtered');
+    $('.booster, .booster-clone').removeClass('class-filtered');
 
     $('#exclude-other-checkbox').removeClass('selected');
     excludeOtherClasses = false;
