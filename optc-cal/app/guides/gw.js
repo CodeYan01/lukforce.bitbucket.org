@@ -391,6 +391,7 @@ var gw = {
     2405: '',           // Akainu
     2758: '174863',     // Halloween Sabo
     2733: '172467',     // Zoro & Sanji (Magellan)
+    2794: '180261',     // Christmas Shirahoshi
 
     // Events
     'bb_1314': '61665', // Three Admirals

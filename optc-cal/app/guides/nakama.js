@@ -391,6 +391,7 @@ var nakama = {
     2405: '9257899',    // Akainu
     2758: '9275800',    // Halloween Sabo
     2733: '9273305',    // Zoro & Sanji (Magellan)
+    2794: '9279400',    // Christmas Shirahoshi
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

@@ -37,4 +37,9 @@ var kizunas = {
         thumb: 2531,
         xch_id: 2733
     },
+    2794: {
+        name: 'Xmas Shirahoshi',
+        thumb: 2794,
+        xch_id: 3381
+    },
 };
