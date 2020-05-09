@@ -1041,7 +1041,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['atk',             '3T, 1.2x'],
+                                ['atk-boost',       '3T, 1.2x'],
                                 ['orb-boost',       '3T, 1.2x']
                             ]
                         }
@@ -1065,7 +1065,8 @@ var tm_opponents = {
                         {
                             type: 'Turn 1',
                             action: [
-                                ['cd-rew',          '1T']
+                                ['cd-rew',          '1T'],
+                                ['no-heal',         '99+T']
                             ]
                         },
                         {
