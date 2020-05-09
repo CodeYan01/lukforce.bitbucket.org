@@ -4309,4 +4309,24 @@ var coliseumEvents = [
         end: '2020-05-14',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: [2785],
+        repId: [2193, 2290, 2471, 834],
+        start: '2020-05-08',
+        new_batch: false
+    },
+    {
+        newId: [2785],
+        repId: [2193, 2290, 2471, 834],
+        start: '2020-05-11',
+        new_batch: false
+    },
+    {
+        newId: [2785],
+        repId: [2193, 2290, 2471, 834],
+        start: '2020-05-15',
+        new_batch: false
+    },
 ]
