@@ -206,6 +206,7 @@ var nakama = {
     2709: '4270900',    // Law
     2749: '6274900',    // Halloween Luffy
     2781: '4278100',    // Carrot
+    2795: '4279500',    // Coby & Meppo
     2819: '4281900',    // Shanks & Mihawk
     2883: '4288300',    // Bullet
     3370: '4337000',    // Usopp & Chopper

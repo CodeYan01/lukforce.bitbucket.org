@@ -63,4 +63,12 @@ var tm_boosters = [
 
     // Others
     2733,
+
+    // ===== X Drake =====
+    // Raids
+    2795,
+
+    // Coliseums
+
+    // FNs
 ]

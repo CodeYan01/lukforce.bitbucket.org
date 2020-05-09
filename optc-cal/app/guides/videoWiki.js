@@ -56,6 +56,7 @@ var videoWiki = {
     2709: '',   // Law
     2749: '',   // Halloween Luffy
     2781: '',   // Carrot
+    2795: '',   // Coby & Meppo
     2819: 'raidboss/shanksmihawk',
     2883: '',   // Bullet
     3370: 'raidboss/usoppchopper',
