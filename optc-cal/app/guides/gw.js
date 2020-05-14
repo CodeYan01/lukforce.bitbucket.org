@@ -420,6 +420,7 @@ var gw = {
     'bl_2475': '147515',// Black Blade Training
     'stp_2668': '162504',// Stampede Fujitora
     '4e_2738': '173400',// Emperor in Action
+    'xm_2799': '180947',// Wapol's Assault
 
     'wj_2825': '183897',// World Journey Boa Hancock
     'wj_2827': '183898',// World Journey Mihawk

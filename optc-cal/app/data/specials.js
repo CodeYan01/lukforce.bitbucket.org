@@ -561,4 +561,10 @@ var specials = {
         name: 'Emperor in Action',
         thumb: 2738
     },
+
+    'xm_2799': {
+        type: 'Christmas',
+        name: 'Wapol\'s Assault',
+        thumb: 2799
+    },
 }
