@@ -420,7 +420,7 @@ var nakama = {
     'bl_2475': '6247500',   // Black Blade Training
     'stp_2668': '6266800',  // Stampede Fujitora
     '4e_2738': '6273800',   // Emperor in Action
-    'xm_2799': '',          // Wapol's Assault
+    'xm_2799': '6279900',   // Wapol's Assault
 
     'wj_2825': '6282500',   // World Journey Boa Hancock
     'wj_2827': '6282500',   // World Journey Mihawk
