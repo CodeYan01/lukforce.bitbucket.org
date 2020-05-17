@@ -1477,9 +1477,9 @@ $(document).ready(function() {
                     if (g.boss) {
                         guideStageClone.find('.guide-boss').text(g.boss[0]);
                         guideStageClone.find('.guide-boss').addClass(g.boss[1]);
-                        guideStageClone.find('.guide-boss-hp').text(g.hp);
+                        guideStageClone.find('.guide-boss-hp').text(new Intl.NumberFormat().format(g.hp));
                         guideStageClone.find('.guide-boss-hp-base').val(g.hp);
-                        guideStageClone.find('.guide-boss-atk').text(g.atk);
+                        guideStageClone.find('.guide-boss-atk').text(new Intl.NumberFormat().format(g.atk));
                         guideStageClone.find('.guide-boss-atk-base').val(g.atk);
                     } else {
                         guideStageClone.find('.guide-boss').hide();
@@ -1560,13 +1560,13 @@ $(document).ready(function() {
         $('.guide-boss-hp').each(function() {
             var baseBossHp = parseInt($(this).closest('.guide-boss-hp-div').find('.guide-boss-hp-base').val());
             var cBossHp = baseBossHp + (baseBossHp * (navLv - 1) * 0.1);
-            $(this).text(cBossHp);
+            $(this).text(new Intl.NumberFormat().format(cBossHp));
         });
 
         $('.guide-boss-atk').each(function() {
             var baseBossAtk = parseInt($(this).closest('.guide-boss-atk-div').find('.guide-boss-atk-base').val());
             var cBossAtk = baseBossAtk + (baseBossAtk * (navLv - 1) * 0.05);
-            $(this).text(cBossAtk);
+            $(this).text(new Intl.NumberFormat().format(cBossAtk));
         });
     });
 
