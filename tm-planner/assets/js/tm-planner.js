@@ -308,6 +308,15 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
+    } else if (server == 'jpn' && tmId == 2977) {
+        // TM Luffy (6th Anni)
+        $('#div_2x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x_v2').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -518,7 +527,8 @@ function init(tmId, server) {
         tmId == 2823 ||
         tmId == 2850 ||
         tmId == 2879 ||
-        tmId == 2913
+        tmId == 2913 ||
+        tmId == 2977
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
@@ -614,7 +624,7 @@ function decorateStr(str) {
 }
 
 function decorateSpIcon(iconKey, isAction) {
-    if (iconKey === 'Clear Buff' || iconKey === 'Blow Away')
+    if (iconKey === 'Clear Buff' || iconKey === 'Blow Away' || iconKey === 'Type Change')
         return iconKey;
 
     if (isAction)

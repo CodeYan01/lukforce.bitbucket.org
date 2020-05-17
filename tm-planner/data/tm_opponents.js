@@ -1220,4 +1220,300 @@ var tm_opponents = {
             pos: 5
         }
     },
+    2977: {
+        1707: {
+            name: 'Shanks',
+            type: 'PSY',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Shanks', 'PSY'],
+                    hp: 300000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['bind',            '5T, Row 1'],
+                                ['def',             '5T, 500x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every Turn After',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['atk',             '99+T, 3x'],
+                                ['slot-change',     'EMPTY']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2 (Beckman)',
+                            action: [
+                                ['bind',            '5T, Row 2']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2 (Lucky Roux)',
+                            action: [
+                                ['bind',            '5T, Row 3']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2 (Yasopp)',
+                            action: [
+                                ['atk-down',        '5T']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '100x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2500: {
+            name: 'Big Mom',
+            type: 'DEX',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Big Mom', 'DEX'],
+                    hp: 450000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'BOMB'],
+                                ['burn',            '3T, 3000'],
+                                ['def-perc',        '3T, 80%'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 3 Turns',
+                            action: [
+                                ['bind',            '5T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['slot-change',     'BOMB'],
+                                ['slot-lock',       '2T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2700: {
+            name: 'Kaido',
+            type: 'PSY',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Kaido', 'PSY'],
+                    hp: 550000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['silence',         '2T'],
+                                ['hp-cut',          '20%'],
+                                ['def-thres',       '2T, 99%, 1000'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every Turn After',
+                            action: [
+                                ['dmg-eot-e',       '20%']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['hp-cut',          '99%']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2964: {
+            name: 'Blackbeard',
+            type: 'DEX',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Blackbeard', 'DEX'],
+                    hp: 500000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['Type Change',     'DEX/PSY'],
+                                ['slot-change',     'Bad'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['Blow Away',       '3T, Row 2']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2977: {
+            name: 'Luffy',
+            type: 'PSY',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['Nami', 'PSY'],
+                    hp: 430000,
+                    atk: 4800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '20%'],
+                                ['cd-rew',          '2T, Row 2 3'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Luffy', 'PSY'],
+                    hp: 1250000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['chain-down',      '5T, 0.2'],
+                                ['hp-cut',          '30%'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every Turn After',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['atk',             '99+T, 2x']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['Blow Away',       '99+T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['bind',            '30T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2578: {
+            name: 'Akainu',
+            type: 'DEX',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Fujitora', 'DEX'],
+                    hp: 430000,
+                    atk: 4800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'BOMB+, Row 2'],
+                                ['para',            '5T, Col 1'],
+                                ['desp',            '5T'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Akainu', 'DEX'],
+                    hp: 1500000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '5T'],
+                                ['atk-down',        '5T'],
+                                ['def-thres',       '5T, 99%, 1000'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['dmg-up',          '2T, 2x']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['cd-rew',          '3T'],
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
