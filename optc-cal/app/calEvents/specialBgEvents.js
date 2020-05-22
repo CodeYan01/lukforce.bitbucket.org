@@ -2883,6 +2883,12 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'ss',
+        start: '2020-05-21',
+        end: '2020-05-25',
+        pst_19: true
+    },
+    {
         id: 'sugo',
         start: '2020-05-25',
         end: '2020-06-05'
@@ -2890,5 +2896,23 @@ var specialBgEvents = [
     {
         id: 'free_pull',
         start: '2020-05-25'
+    },
+    {
+        id: 'sp',
+        start: '2020-05-25',
+        end: '2020-05-30',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2020-05-30',
+        end: '2020-06-11',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2020-06-11',
+        end: '2020-06-15',
+        pst_19: true
     },
 ]
