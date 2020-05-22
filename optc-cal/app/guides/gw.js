@@ -421,6 +421,7 @@ var gw = {
     'stp_2668': '162504',// Stampede Fujitora
     '4e_2738': '173400',// Emperor in Action
     'xm_2799': '180947',// Wapol's Assault
+    'wa_2815': '182349',// Land of Wano O-Tama
 
     'wj_2825': '183897',// World Journey Boa Hancock
     'wj_2827': '183898',// World Journey Mihawk

@@ -815,6 +815,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Stampede')
                     || (event['type'] === 'special' && event['subType'] === 'Four Emperors')
                     || (event['type'] === 'special' && event['subType'] === 'Christmas')
+                    || (event['type'] === 'special' && event['subType'] === 'Land of Wano')
                     || (event['type'] === 'special' && event['subType'] === 'World Journey')
                     || (event['type'] === 'special' && event['subType'] === 'Dmg Ranking')
                     || (event['type'] === 'special' && event['subType'] === '1 Turn Dmg Ranking')

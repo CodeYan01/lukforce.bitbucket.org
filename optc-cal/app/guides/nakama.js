@@ -421,6 +421,7 @@ var nakama = {
     'stp_2668': '6266800',  // Stampede Fujitora
     '4e_2738': '6273800',   // Emperor in Action
     'xm_2799': '6279900',   // Wapol's Assault
+    'wa_2815': '6281600',   // Land of Wano O-Tama
 
     'wj_2825': '6282500',   // World Journey Boa Hancock
     'wj_2827': '6282500',   // World Journey Mihawk
