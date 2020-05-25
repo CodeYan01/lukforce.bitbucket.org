@@ -192,6 +192,7 @@ var videoWiki = {
     2721: '',   // Hody
     2755: 'coliseum/oars',
     2785: '',   // Kyoshiro
+    2813: '',   // Shutenmaru
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

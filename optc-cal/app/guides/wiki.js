@@ -342,6 +342,7 @@ var wiki = {
     2721: 'wiki/coliseum/hody',
     2755: '',                               // Oars
     2785: '',                               // Kyoshiro
+    2813: '',                               // Shutenmaru
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
