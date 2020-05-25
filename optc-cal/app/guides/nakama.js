@@ -393,6 +393,7 @@ var nakama = {
     2758: '9275800',    // Halloween Sabo
     2733: '9273305',    // Zoro & Sanji (Magellan)
     2794: '9279400',    // Christmas Shirahoshi
+    2812: '9281200',    // O-Kiku
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

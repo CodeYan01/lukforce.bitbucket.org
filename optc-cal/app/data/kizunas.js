@@ -42,4 +42,8 @@ var kizunas = {
         thumb: 2794,
         xch_id: 3381
     },
+    2812: {
+        name: 'O-Kiku',
+        thumb: 2812
+    },
 };
