@@ -555,6 +555,11 @@ var specials = {
         name: 'Luffytaro & Zorojuro',
         thumb: 2802
     },
+    'wa_2801': {
+        type: 'Land of Wano',
+        name: 'Straw Hat Pirates',
+        thumb: 2802
+    },
     'wa_2815': {
         type: 'Land of Wano',
         name: 'O-Tama',
