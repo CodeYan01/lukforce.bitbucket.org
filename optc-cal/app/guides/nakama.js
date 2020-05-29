@@ -425,6 +425,7 @@ var nakama = {
     'xm_2799': '6279900',   // Wapol's Assault
 
     'wa_2801': '',          // Land of Wano Straw Hat Pirates
+    'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281600',   // Land of Wano O-Tama
 
     'wj_2825': '6282500',   // World Journey Boa Hancock

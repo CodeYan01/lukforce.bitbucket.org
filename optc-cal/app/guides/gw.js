@@ -425,6 +425,7 @@ var gw = {
     'xm_2799': '180947',// Wapol's Assault
 
     'wa_2801': '181636',// Land of Wano Straw Hat Pirates
+    'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
 
     'wj_2825': '183897',// World Journey Boa Hancock
