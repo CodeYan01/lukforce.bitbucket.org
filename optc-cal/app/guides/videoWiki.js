@@ -193,6 +193,7 @@ var videoWiki = {
     2755: 'coliseum/oars',
     2785: '',   // Kyoshiro
     2813: '',   // Shutenmaru
+    2845: '',   // Sangoro
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

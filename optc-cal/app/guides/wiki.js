@@ -343,6 +343,7 @@ var wiki = {
     2755: '',                               // Oars
     2785: '',                               // Kyoshiro
     2813: '',                               // Shutenmaru
+    2845: '',                               // Sangoro
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
