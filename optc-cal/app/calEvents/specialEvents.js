@@ -169,8 +169,7 @@ var specialEvents = [
     },
     {
         id: 'dummy',
-        start: '2020-06-05',
-        end: '2020-06-07'
+        start: '2020-06-06'
     },
 
     {
@@ -941,7 +940,7 @@ var specialEvents = [
     {
         id: 'wa_2700',
         start: '2020-06-01',
-        end: '2020-06-05'
+        end: '2020-06-06'
     },
     {
         id: 'wa_2815',
