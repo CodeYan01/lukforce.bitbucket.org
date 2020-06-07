@@ -424,27 +424,27 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Luffy
+        {   // Pizza Luffy
             id: 2087,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Sanji
+        {   // Pizza Sanji
             id: 2088,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Nami
+        {   // Pizza Nami
             id: 2089,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Franky
+        {   // Pizza Franky
             id: 2090,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Usopp
+        {   // Pizza Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
@@ -673,27 +673,27 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Usopp
+        {   // Pizza Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Zoro
+        {   // Pizza Zoro
             id: 2092,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Chopper
+        {   // Pizza Chopper
             id: 2093,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Brook
+        {   // Pizza Brook
             id: 2094,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Robin
+        {   // Pizza Robin
             id: 2095,
             type: 'fortnight',
             x_pts: 1.2
@@ -1294,12 +1294,12 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Luffy
+        {   // Pizza Luffy
             id: 2087,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Usopp
+        {   // Pizza Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
@@ -3244,47 +3244,47 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Luffy
+        {   // Pizza Luffy
             id: 2087,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Sanji
+        {   // Pizza Sanji
             id: 2088,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Nami
+        {   // Pizza Nami
             id: 2089,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Franky
+        {   // Pizza Franky
             id: 2090,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Usopp
+        {   // Pizza Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Zoro
+        {   // Pizza Zoro
             id: 2092,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Chopper
+        {   // Pizza Chopper
             id: 2093,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Brook
+        {   // Pizza Brook
             id: 2094,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Robin
+        {   // Pizza Robin
             id: 2095,
             type: 'fortnight',
             x_pts: 1.2
@@ -4011,12 +4011,12 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Nami
+        {   // Pizza Nami
             id: 2089,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Chopper
+        {   // Pizza Chopper
             id: 2093,
             type: 'fortnight',
             x_pts: 1.2
@@ -5606,12 +5606,12 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Franky
+        {   // Pizza Franky
             id: 2090,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Usopp
+        {   // Pizza Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
@@ -6673,7 +6673,7 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Brook
+        {   // Pizza Brook
             id: 2094,
             type: 'fortnight',
             x_pts: 1.2
@@ -6977,7 +6977,7 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Chopper
+        {   // Pizza Chopper
             id: 2093,
             type: 'fortnight',
             x_pts: 1.2
@@ -7392,7 +7392,7 @@ var tm_boosters_jpn = {
             ver: 2,
             x_pts: 1.4
         },
-        {   // O-Soba Mask
+        {   // Soba Mask
             id: 2804,
             ver: 2,
             x_pts: 1.4
@@ -7658,7 +7658,7 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Franky
+        {   // Pizza Franky
             id: 2090,
             type: 'fortnight',
             x_pts: 1.2
@@ -7743,7 +7743,7 @@ var tm_boosters_jpn = {
             id: 2802,
             x_pts: 1.3
         },
-        {   // O-Soba Mask
+        {   // Soba Mask
             id: 2804,
             x_pts: 1.3
         },
@@ -8449,7 +8449,7 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Usopp
+        {   // Pizza Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
@@ -9294,12 +9294,12 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Usopp
+        {   // Pizza Usopp
             id: 2091,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pirate Festival Robin
+        {   // Pizza Robin
             id: 2095,
             type: 'fortnight',
             x_pts: 1.2
@@ -9322,6 +9322,387 @@ var tm_boosters_jpn = {
         {   // TS Marco
             id: 2723,
             type: 'fortnight',
+            x_pts: 1.2
+        },
+    ],
+
+    // ========== Zorojuro ==========
+    2995: [
+        {   // Kyoshiro
+            id: 2992,
+            x_pts: 2
+        },
+        {   // Gyukimaru
+            id: 2993,
+            x_pts: 1.8
+        },
+        {   // O-Kiku
+            id: 2994,
+            x_pts: 1.6
+        },
+        {   // Kid
+            id: 2980,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Hawkins
+            id: 2982,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Luffy (6th Anni)
+            id: 2977,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // G4 Snakeman v2
+            id: 2958,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Sabo v3
+            id: 2960,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Katakuri v3
+            id: 2962,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Blackbeard v2
+            id: 2964,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Garp 6+
+            id: 2991,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Page One
+            id: 2984,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // X Drake v2
+            id: 2986,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Lucci
+            id: 2989,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Zorojuro
+            id: 2707,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Law
+            id: 2709,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Soba Mask
+            id: 2987,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // King
+            id: 2990,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Shirahoshi
+            id: 2913,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // O-Tama
+            id: 2815,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // O-Toko
+            id: 2988,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Cavendish
+            id: 1889,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // G4
+            id: 1916,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sabo
+            id: 1972,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sanji & Zoro
+            id: 2000,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Kizaru
+            id: 2064,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Big Mom
+            id: 2109,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Kaido
+            id: 2387,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Smoothie & Oven
+            id: 2469,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Shanks & Beckman
+            id: 2557,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sakazuki & Issho
+            id: 2618,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Vivi
+            id: 2879,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Zorojuro
+            id: 2995,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Rayleigh v2
+            id: 1883,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Luffy & Law
+            id: 2534,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Inu & Neko
+            id: 2577,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Nami 6+
+            id: 2588,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Daruma
+            id: 1440,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Lucci
+            id: 1614,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kanjuro
+            id: 1658,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1800,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Mr. 0 & Ms. All Sunday
+            id: 2544,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Doffy
+            id: 418,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Duval
+            id: 654,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Nightmare Luffy
+            id: 795,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Caesar
+            id: 1830,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Rayleigh
+            id: 1924,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 2281,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Ace
+            id: 2394,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Lucci v2
+            id: 2670,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Croc
+            id: 2698,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Carrot
+            id: 2781,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bonney
+            id: 2846,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // X Drake
+            id: 1091,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Lucy
+            id: 1792,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Daifuku
+            id: 2249,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Magellan
+            id: 2354,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 2416,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 2611,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 1581,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 1920,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pizza Nami
+            id: 2089,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pizza Zoro
+            id: 2092,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Dress Up Luffy
+            id: 2519,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Donald Moderate
+            id: 2666,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Marguerite
+            id: 1060,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Sengoku
+            id: 2283,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Luffy
+            id: 2936,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Zoro
+            id: 2938,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Nami
+            id: 2940,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Usopp
+            id: 2942,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Sanji
+            id: 2944,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Chopper
+            id: 2946,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Robin
+            id: 2948,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Franky
+            id: 2950,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Brook
+            id: 2952,
+            type: 'other',
             x_pts: 1.2
         },
     ],

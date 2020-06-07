@@ -1414,7 +1414,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['slot-change',     'Bad'],
-                                ['chain-down',      '5T, 0.2'],
+                                ['chain-down',      '5T, 0.2x'],
                                 ['hp-cut',          '30%'],
                                 ['immu-def',        '99+T']
                             ]
@@ -1503,6 +1503,281 @@ var tm_opponents = {
                                 ['Clear Buff',      'Normal'],
                                 ['cd-rew',          '3T'],
                                 ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
+    2995: {
+        2774: {
+            name: 'O-Nami',
+            type: 'QCK',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['O-Nami', 'QCK'],
+                    hp: 550000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def',             '5T, 1000x'],
+                                ['def-thres',       '4T, 99%, 1000'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 4, Every 3 Turns',
+                            action: [
+                                ['heal',            '100%']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['para',            '3T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2804: {
+            name: 'Soba Mask',
+            type: 'INT',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Soba Mask', 'INT'],
+                    hp: 600000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['silence',         '3T, Row 2 3'],
+                                ['chain-down',      '3T, 0.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every 3 Turns',
+                            action: [
+                                ['para',            '3T'],
+                                ['silence',         '3T, Row 2 3']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '100x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2806: {
+            name: 'Usohachi',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Usohachi', 'INT'],
+                    hp: 100000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bar-gt',          '99T, 3x'],
+                                ['bar-color',       '99T, 3x, PSY'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['def',             '3T, 100x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2810: {
+            name: 'Carrot',
+            type: 'QCK',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Carrot', 'QCK'],
+                    hp: 450000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['slot-lock',       '1T'],
+                                ['atk-down',        '4T'],
+                                ['def-perc',        '4T, 80%'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['hp-cut',          '30%']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['para',            '2T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2709: {
+            name: 'Law',
+            type: 'QCK',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['Chopperemon', 'QCK'],
+                    hp: 430000,
+                    atk: 8800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['chain-down',      '5T, 0.5x']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['hp-cut',          '70%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Law', 'QCK'],
+                    hp: 1250000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['def-thres',       '3T, 99%, 1000'],
+                                ['atk',             '3T, 1.3x'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every Turn After',
+                            action: [
+                                ['dmg-eot-e',       '99+T, 20%']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['resil',           '3T']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2995: {
+            name: 'Zorojuro',
+            type: 'QCK',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, DEX']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Bonekichi', 'QCK'],
+                    hp: 430000,
+                    atk: 4800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'BOMB'],
+                                ['def-perc',        '3T, 80%'],
+                                ['blind',           '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Zorojuro', 'QCK'],
+                    hp: 1500000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 1'],
+                                ['slot-neg',        '3T, QCK/PSY'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every Turn After',
+                            action: [
+                                ['enrage',          '99+T, 2x']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['Clear Buff',      'Super'],
+                                ['Blow Away',       '99+T, Random 2']
                             ]
                         },
                         {
