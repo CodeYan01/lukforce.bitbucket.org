@@ -107,7 +107,8 @@ function getBoosters(tmId, server) {
             tmId == 2690 ||
             tmId == 2729 ||
             tmId == 2763 ||
-            tmId == 2792
+            tmId == 2792 ||
+            tmId == 2823
         )
     ) {
         // TM Smoothie & Oven
@@ -120,6 +121,7 @@ function getBoosters(tmId, server) {
         // TM Hawkins
         // TM Halloween Nami
         // TM O-Robi
+        // TM X Drake
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();
@@ -636,7 +638,11 @@ function decorateStr(str) {
 }
 
 function decorateSpIcon(iconKey, isAction) {
-    if (iconKey === 'Clear Buff' || iconKey === 'Blow Away' || iconKey === 'Type Change')
+    if (iconKey === 'Clear Buff' ||
+        iconKey === 'Blow Away' ||
+        iconKey === 'Slot Bind' ||
+        iconKey === 'Type Change'
+    )
         return iconKey;
 
     if (isAction)

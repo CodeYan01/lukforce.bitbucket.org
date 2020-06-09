@@ -825,15 +825,15 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['chain-lock',      '3T'],
-                                ['chain-down',      '3T'],
+                                ['chain-down',      '3T, 0.5x'],
+                                ['chain-lock',      '3T, 1.1x'],
                                 ['immu-all',        '99+T']
                             ]
                         },
                         {
                             type: 'Turn 1',
                             action: [
-                                ['dmg-up',          '3T']
+                                ['dmg-up',          '3T, 1.25x']
                             ]
                         },
                         {
@@ -901,7 +901,7 @@ var tm_opponents = {
                                 ['immu-def',        '99+T'],
                                 ['resil',           '2T'],
                                 ['cd-rew',          '1T, Row 1'],
-                                ['def-thres',       '2T, 1000']
+                                ['def-thres',       '2T, 99%, 1000']
                             ]
                         },
                         {
@@ -913,7 +913,7 @@ var tm_opponents = {
                         {
                             type: '<20%, on atk',
                             action: [
-                                ['Blow Away',       '99+T, 2'],
+                                ['Blow Away',       '99+T, Random 2'],
                                 ['heal',            '30%']
                             ]
                         }
@@ -936,7 +936,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['desp',            '5T'],
-                                ['slot-change',     'EMP'],
+                                ['slot-change',     'EMPTY'],
                                 ['atk',             '99+T, 1.5x'],
                                 ['immu-delay',      '99+T']
                             ]
@@ -965,8 +965,8 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['def',             '2T'],
                                 ['blind',           '2T'],
+                                ['def',             '2T, 500x'],
                                 ['immu-delay',      '99+T']
                             ]
                         },
@@ -987,22 +987,22 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['atk-down',        '3T'],
+                                ['atk-down',        '3T, 50%'],
                                 ['bar-p',           '1T, 4x'],
-                                ['immu-delay',      '99+T'],
-                                ['immu-def',        '99+T']
+                                ['immu-def',        '99+T'],
+                                ['immu-delay',      '99+T']
                             ]
                         },
                         {
                             type: 'Turn 1',
                             action: [
-                                ['def',             '2T']
+                                ['def',             '2T, 500x']
                             ]
                         },
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['atk',             '99+T'],
+                                ['atk',             '99+T, 2x'],
                                 ['hp-cut',          '20%']
                             ]
                         },
@@ -1093,35 +1093,281 @@ var tm_opponents = {
         }
     },
     2823: {
-        2231: {
+        2432: {
             name: 'Jack',
             type: 'STR',
-            pos: 3
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Jack', 'STR'],
+                    hp: 500000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-all',        '99+T'],
+                                ['slot-block',      'All'],
+                                ['def-thres',       '3T, 99%, 1000'],
+                                ['def',             '3T, 300x'],
+                                ['def-perc',        '3T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every 2 Turns',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['para',            '1T, Row 1']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['heal',            '20%'],
+                                ['para',            '2T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2704: {
             name: 'Holdem',
             type: 'PSY',
-            pos: 0
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Holdem', 'PSY'],
+                    hp: 400000,
+                    atk: 3400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '2T, Row 2 3'],
+                                ['atk-down',        '2T'],
+                                ['slot-block',      'All'],
+                                ['hp-cut',          '60%']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['burn',            '5T, 5000'],
+                                ['slot-block',      'All']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2785: {
             name: 'Kyoshiro',
             type: 'INT',
-            pos: 2
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Kyoshiro', 'INT'],
+                    hp: 500000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['resil',           '3T'],
+                                ['slot-change',     'Bad']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3',
+                            action: [
+                                ['desp',            '5T'],
+                                ['enrage',          '99+T, 3x']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['def-null',        '1T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2813: {
             name: 'Shutenmaru',
             type: 'DEX',
-            pos: 1
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Shutenmaru', 'DEX'],
+                    hp: 450000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 1'],
+                                ['cd-rew',          '1T, Row 2 3'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['atk',             '99+T, 2x'],
+                                ['slot-change',     'Random']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['desp',            '7T'],
+                                ['def',             '3T, 2000x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2823: {
             name: 'X Drake',
             type: 'STR',
-            pos: 4
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 6,
+                    boss: ['Hawkins', 'QCK'],
+                    hp: 400000,
+                    atk: 3200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['desp',            '5T'],
+                                ['dmg-up',          '2T, 2x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 7,
+                    boss: ['X Drake', 'STR'],
+                    hp: 1250000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['Slot Bind',       '2T, Row 1'],
+                                ['slot-change',     'EMPTY'],
+                                ['para',            '2T, Row 1']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['Slot Bind',       '1T, Row 2 3']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['Blow Away',       '99+T, Row 3']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2804: {
-            name: 'O-Soba Mask',
+            name: 'Soba Mask',
             type: 'QCK',
-            pos: 5
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',           '10T, Slasher/FS']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Soba Mask', 'QCK'],
+                    hp: 500000,
+                    atk: 3200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['burn',            '3T, 5000'],
+                                ['immu-delay',      '99+T'],
+                                ['bar-p',           '99+T, 1x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Soba Mask', 'QCK'],
+                    hp: 1500000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '2T'],
+                                ['immu-delay',      '99+T'],
+                                ['Blow Away',       '1T, Bottom Right'],
+                                ['def-thres',       '2T, 99%, 1000'],
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['atk',             '99+T, 2x'],
+                                ['dmg-eot-e',       '99+T, 10%']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['slot-block',      'All'],
+                                ['def-perc',        '3T']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     },
     2850: {

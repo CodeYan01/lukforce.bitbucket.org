@@ -16,6 +16,7 @@ var counters = {
     'def':              ['def-down', 'def-red-e'],
     'def-perc':         'def-perc-red-e',
     'def-thres':        'def-thres-red-e',
+    'def-null':         'def-null-red-e',
     'desp':             'desp-red',
     'dmg-up':           'dmg-up-red',
     'para':             'para-red',
