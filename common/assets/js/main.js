@@ -81,6 +81,10 @@ function getThumb(thumbId) {
     if (thumbId === 5058 || thumbId === 3376)
         return '/tm-planner/assets/img/new-thumbs/5058.png';
 
+    // Special case for Law & Chopper
+    if (thumbId === 5064 || thumbId === 3381)
+        return '/tm-planner/assets/img/new-thumbs/5064.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
