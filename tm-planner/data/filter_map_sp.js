@@ -1,4 +1,4 @@
-var filter_map = {
+var filter_map_sp = {
     'atk-boost':                /boosts( own ATK| ATK of)/i,
     'orb-boost':                /amplifies.+orb/i,
     'affinity':                 /Boosts the Color Affinity/i,

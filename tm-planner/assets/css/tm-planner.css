@@ -142,6 +142,10 @@
 .booster[class*=" sp-filtered-"],
 .booster-clone[class^="sp-filtered-"],
 .booster-clone[class*=" sp-filtered-"],
+.booster[class^="sl-filtered-"],
+.booster[class*=" sl-filtered-"],
+.booster-clone[class^="sl-filtered-"],
+.booster-clone[class*=" sl-filtered-"],
 .lb-filtered {
     opacity: 0.3;
 }
@@ -227,7 +231,7 @@
 
 #tm-filter-sets {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
     overflow: auto;
 }
 
@@ -387,7 +391,7 @@ button.cal-button:hover {
     font-weight: bold;
 }
 
-#sp-filter-info {
+.filter-info {
     color: darkgray;
     font-size: 10px;
     margin-top: 30px;

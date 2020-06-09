@@ -1117,6 +1117,13 @@ function clearSpecialFilters() {
     });
 }
 
+function clearSailorFilters() {
+    $('.sl-filter').removeClass('selected');
+    $('.booster, .booster-clone').removeClass(function(i, cName) {
+        return (cName.match(/(^|\s)sl-filtered-\S+/g) || []).join(' ');
+    });
+}
+
 $(document).ready(function() {
     // Retrieve Settings
     var server = 'glb';
@@ -1945,7 +1952,7 @@ $(document).ready(function() {
     $('.sp-filter').click(function() {
         var filter = $(this).data('filter');
         var filterClass = 'sp-filtered-' + filter;
-        var filterRegex = filter_map[filter];
+        var filterRegex = filter_map_sp[filter];
 
         if ($(this).hasClass('selected')) {
             // Clear filters of units filtered by this special
@@ -1969,6 +1976,44 @@ $(document).ready(function() {
 
                 if (!filterRegex.test(special))
                     $(this).addClass(filterClass);
+            });
+        }
+    });
+
+    // Sailor Filter
+    $('.sl-filter').click(function() {
+        var filter = $(this).data('filter');
+        var filterClass = 'sl-filtered-' + filter;
+        var filterRegex = filter_map_sl[filter];
+
+        if ($(this).hasClass('selected')) {
+            // Clear filters of units filtered by this special
+            $(this).removeClass('selected');
+            $('.' + filterClass).removeClass(filterClass);
+        } else {
+            $(this).addClass('selected');
+
+            $('.booster, .booster-clone').each(function() {
+                var unitId = $(this).data('id');
+                var unitDetail = details[unitId];
+                var sailor = unitDetail.sailor;
+
+                if (typeof sailor === 'object') {
+                    var filtered = false;
+                    for (var sl in sailor) {
+                        if (filterRegex.test(sailor[sl])) {
+                            filtered = false;
+                            break;
+                        } else
+                            filtered = true;
+                    }
+
+                    if (filtered)
+                        $(this).addClass(filterClass);
+                } else {
+                    if (!filterRegex.test(sailor))
+                        $(this).addClass(filterClass);
+                }
             });
         }
     });
@@ -2003,6 +2048,8 @@ $(document).ready(function() {
             classFilters = [];
         } else if ('special' === target) {
             clearSpecialFilters();
+        } else if ('sailor' === target) {
+            clearSailorFilters();
         }
     });
 
