@@ -22,5 +22,6 @@ var counters = {
     'para':             ['para-red', 's_para-red'],
     'resil':            ['resil-red-e', 'dmg-eot', 'poison'],
     'silence':          ['silence-red', 's_silence-red'],
-    'slot-change':      'slot-change'
+    'slot-change':      'slot-change',
+    'slot-block':       'slot-change-block'
 }

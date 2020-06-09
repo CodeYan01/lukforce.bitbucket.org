@@ -417,6 +417,7 @@ button.cal-button:hover {
 .chain-boost-div            { background-image: url('/tm-planner/assets/img/special_icons/chain_boost.png');        background-size: 24px 24px; }
 .chain-lock-div             { background-image: url('/tm-planner/assets/img/special_icons/chain_lock.png');         background-size: 24px 24px; }
 .slot-change-div            { background-image: url('/tm-planner/assets/img/special_icons/slot_change.png');        background-size: 24px 24px; }
+.slot-change-block-div      { background-image: url('/tm-planner/assets/img/special_icons/slot_change_block.png');  background-size: 24px 24px; }
 .slot-lock-div              { background-image: url('/tm-planner/assets/img/special_icons/slot_lock.png');          background-size: 24px 24px; }
 .slot-pos-div               { background-image: url('/tm-planner/assets/img/special_icons/slot_pos.png');           background-size: 24px 24px; }
 .delay-div                  { background-image: url('/tm-planner/assets/img/special_icons/delay.png');              background-size: 24px 24px; }

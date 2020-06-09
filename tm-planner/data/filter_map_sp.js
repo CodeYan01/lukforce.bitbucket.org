@@ -8,6 +8,7 @@ var filter_map_sp = {
     'chain-boost':              /Adds.+to Chain/i,
     'chain-lock':               /Locks the chain multiplier/i,
     'slot-change':              /(Changes.+(orb|orbs))/i,
+    'slot-change-block':        /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
     'slot-lock':                /locks (orbs|all orbs|orb|own orb)/i,
     'slot-pos':                 /beneficial/i,
     'delay':                    /delays/i,
