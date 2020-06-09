@@ -382,7 +382,8 @@ button.cal-button:hover {
 #guide-stage-type-clone,
 #guide-action-clone,
 #guide-interrupt-clone,
-#guide-filter-clone {
+#guide-sp-filter-clone,
+#guide-sl-filter-clone {
     display: none;
 }
 
@@ -399,7 +400,8 @@ button.cal-button:hover {
 }
 
 .guide-action-icon,
-.guide-sp-filter {
+.guide-sp-filter,
+.guide-sl-filter {
     float: left;
     height: 25px;
     margin: 5px;

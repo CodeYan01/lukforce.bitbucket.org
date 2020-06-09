@@ -654,13 +654,23 @@ function decorateSpIcon(iconKey, isAction) {
 }
 
 function createActionCounterBtn(guideActionClone, counter) {
-    var guideFilterClone = $('#guide-filter-clone').clone();
+    var guideFilterClone;
+    var guideFilterClass;
+    if (counter.indexOf('s_') === -1) {
+        guideFilterClone = $('#guide-sp-filter-clone').clone();
+        guideFilterClass = 'guide-sp-filter';
+    } else {
+        guideFilterClone = $('#guide-sl-filter-clone').clone();
+        guideFilterClass = 'guide-sl-filter';
+        counter = counter.substring(2);
+    }
+
     guideFilterClone.attr('id', '');
 
-    guideFilterClone.find('.guide-sp-filter').addClass(decorateSpIcon(counter, false));
-    guideFilterClone.find('.guide-sp-filter').data('filter', counter);
+    guideFilterClone.find('.' + guideFilterClass).addClass(decorateSpIcon(counter, false));
+    guideFilterClone.find('.' + guideFilterClass).data('filter', counter);
 
-    guideActionClone.find('.guide-sp-filter-list').append(guideFilterClone);
+    guideActionClone.find('.guide-filter-list').append(guideFilterClone);
 }
 
 function populateUnitDetail(unitId) {
@@ -1576,6 +1586,18 @@ $(document).ready(function() {
         // Activate actual Filter
         var filter = $(this).data('filter');
         $('.sp-filter[data-filter=' + filter  + ']').click();
+    });
+
+    // Activate Counter Sailor Filter after clicking from Mini Guide
+    $(document).on('click', '.guide-sl-filter', function() {
+        $('#mini-guide-modal').modal('hide');
+
+        // Clear all Sailor Filters
+        clearSailorFilters();
+
+        // Activate actual Filter
+        var filter = $(this).data('filter');
+        $('.sl-filter[data-filter=' + filter  + ']').click();
     });
 
     // Change Boss HP and ATK based on Nav Lv
