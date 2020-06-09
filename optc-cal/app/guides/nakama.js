@@ -383,6 +383,7 @@ var nakama = {
     2729: '8272900',    // Hawkins
     2763: '8276300',    // Halloween Nami
     2792: '8279200',    // O-Robi
+    2823: '8282300',    // X Drake
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
