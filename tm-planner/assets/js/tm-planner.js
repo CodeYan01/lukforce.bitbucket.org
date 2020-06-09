@@ -10,6 +10,13 @@ function createTooltip(imgDiv, text) {
     imgDiv.tooltip();
 }
 
+function getIconTooltip(iconKey) {
+    if (icon_tooltips[iconKey])
+        return icon_tooltips[iconKey];
+
+    return '';
+}
+
 function getUrlParameter(sParam) {
     var sPageURL = decodeURIComponent(window.location.search.substring(1));
     var sURLVariables = sPageURL.split('&');
@@ -670,6 +677,11 @@ function createActionCounterBtn(guideActionClone, counter) {
     guideFilterClone.find('.' + guideFilterClass).addClass(decorateSpIcon(counter, false));
     guideFilterClone.find('.' + guideFilterClass).data('filter', counter);
 
+    var tooltip = getIconTooltip(counter);
+    if (guideFilterClass === 'guide-sl-filter')
+        tooltip = "Sailor: " + tooltip;
+    createTooltip(guideFilterClone.find('.' + guideFilterClass), tooltip);
+
     guideActionClone.find('.guide-filter-list').append(guideFilterClone);
 }
 
@@ -1163,6 +1175,16 @@ $(document).ready(function() {
         }
     }
 
+    $('.sp-filter').each(function() {
+        var filter = $(this).data('filter');
+        createTooltip($(this), getIconTooltip(filter));
+    });
+
+    $('.sl-filter').each(function() {
+        var filter = $(this).data('filter');
+        createTooltip($(this), getIconTooltip(filter));
+    });
+
     var tmId = 0;
 
     if (getUrlParameter('transfer')) {
@@ -1541,12 +1563,14 @@ $(document).ready(function() {
                                 guideActionClone.attr('id', guideActionId);
 
                                 guideActionClone.find('.guide-action-type').html(decorateSpIcon(a, true));
+                                createTooltip(guideActionClone.find('.guide-action-type'), getIconTooltip(a));
                             } else {
                                 var guideActionClone = $('#guide-action-clone').clone();
                                 var guideActionId = guideStageTypeId + '-a' + i;
                                 guideActionClone.attr('id', guideActionId);
 
                                 guideActionClone.find('.guide-action-type').html(decorateSpIcon(a[0], true));
+                                createTooltip(guideActionClone.find('.guide-action-type'), getIconTooltip(a[0]));
                                 guideActionClone.find('.guide-action-detail').text(a[1]);
 
                                 var aCounter = counters[a[0]];
