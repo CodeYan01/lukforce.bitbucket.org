@@ -396,6 +396,7 @@ var gw = {
     2733: '172467',     // Zoro & Sanji (Magellan)
     2794: '180261',     // Christmas Shirahoshi
     2812: '181589',     // O-Kiku
+    2831: '184123',     // Marco & Ace (Round 1)
 
     // Events
     'bb_1314': '61665', // Three Admirals

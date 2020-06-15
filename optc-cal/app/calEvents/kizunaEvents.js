@@ -104,4 +104,10 @@ var kizunaEvents = [
         end: '2020-05-30',
         pst_19: true
     },
+    {
+        id: 2831,
+        start: '2020-06-16',
+        end: '2020-06-22',
+        pst_19: true
+    },
 ]
