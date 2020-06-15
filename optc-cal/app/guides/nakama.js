@@ -454,4 +454,6 @@ var nakama = {
     'ca_2711': '2271100',   // Clash Assist Blue Gilly
     'ca_2712': '2271200',   // Clash Assist Monet
     'ca_2714': '2271400',   // Clash Assist Paulie
+
+    'ka_2833': '2283300',   // Kizuna Assist Sengoku
 };

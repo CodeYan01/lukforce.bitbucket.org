@@ -463,4 +463,6 @@ var gw = {
     'ca_2711': '170436',// Clash Assist Blue Gilly
     'ca_2712': '170435',// Clash Assist Monet
     'ca_2714': '170434',// Clash Assist Paulie
+
+    'ka_2833': '183973',// Kizuna Assist Sengoku
 };

@@ -550,6 +550,12 @@ var specials = {
         thumb: 2714
     },
 
+    'ka_2833': {
+        type: 'Kizuna Assist',
+        name: 'Sengoku',
+        thumb: 2833
+    },
+
     'wa_2802': {
         type: 'Wano Act 3',
         name: 'Luffytaro & Zorojuro',
