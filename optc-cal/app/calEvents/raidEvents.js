@@ -4040,6 +4040,7 @@ var raidEvents = [
     {
         id: 3352,
         start: '2020-06-19',
-        end: '2020-06-21'
+        end: '2020-06-21',
+        ambush: ywb_n
     },
 ]
