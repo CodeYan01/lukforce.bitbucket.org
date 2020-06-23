@@ -584,6 +584,12 @@ var specials = {
         thumb: 2738
     },
 
+    'dr_2767': {
+        type: 'Dressrosa',
+        name: 'Tragic Country\'s Conflict',
+        thumb: 2767
+    },
+
     'xm_2799': {
         type: 'Christmas',
         name: 'Wapol\'s Assault',

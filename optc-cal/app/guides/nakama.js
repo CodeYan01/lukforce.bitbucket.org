@@ -425,6 +425,7 @@ var nakama = {
     'bl_2475': '6247500',   // Black Blade Training
     'stp_2668': '6266800',  // Stampede Fujitora
     '4e_2738': '6273800',   // Emperor in Action
+    'dr_2767': '6276700',   // Tragic Country's Conflict
     'xm_2799': '6279900',   // Wapol's Assault
 
     'wa_2801': '',          // Land of Wano Straw Hat Pirates

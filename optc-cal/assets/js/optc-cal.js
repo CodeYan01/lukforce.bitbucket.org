@@ -814,6 +814,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Black Blade Training')
                     || (event['type'] === 'special' && event['subType'] === 'Stampede')
                     || (event['type'] === 'special' && event['subType'] === 'Four Emperors')
+                    || (event['type'] === 'special' && event['subType'] === 'Dressrosa')
                     || (event['type'] === 'special' && event['subType'] === 'Christmas')
                     || (event['type'] === 'special' && event['subType'] === 'Land of Wano')
                     || (event['type'] === 'special' && event['subType'] === 'World Journey')

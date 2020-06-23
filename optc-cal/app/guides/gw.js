@@ -425,6 +425,7 @@ var gw = {
     'bl_2475': '147515',// Black Blade Training
     'stp_2668': '162504',// Stampede Fujitora
     '4e_2738': '173400',// Emperor in Action
+    'dr_2767': '176352',// Tragic Country's Conflict
     'xm_2799': '180947',// Wapol's Assault
 
     'wa_2801': '181636',// Land of Wano Straw Hat Pirates
