@@ -428,6 +428,7 @@ var gw = {
     '4e_2738': '173400',// Emperor in Action
     'dr_2767': '176352',// Tragic Country's Conflict
     'xm_2799': '180947',// Wapol's Assault
+    'ap_2843': '184761',// Anniversary Party Perona
 
     'wa_2801': '181636',// Land of Wano Straw Hat Pirates
     'wa_2700': '181868',// Land of Wano Kaido

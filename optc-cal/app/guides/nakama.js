@@ -428,6 +428,7 @@ var nakama = {
     '4e_2738': '6273800',   // Emperor in Action
     'dr_2767': '6276700',   // Tragic Country's Conflict
     'xm_2799': '6279900',   // Wapol's Assault
+    'ap_2843': '6284300',   // Anniversary Party Perona
 
     'wa_2801': '',          // Land of Wano Straw Hat Pirates
     'wa_2700': '',          // Land of Wano Kaido

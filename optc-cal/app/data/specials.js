@@ -595,4 +595,10 @@ var specials = {
         name: 'Wapol\'s Assault',
         thumb: 2799
     },
+
+    'ap_2843': {
+        type: 'Anniversary Party',
+        name: 'Perona',
+        thumb: 2843
+    },
 }
