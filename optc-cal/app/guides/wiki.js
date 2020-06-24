@@ -208,6 +208,7 @@ var wiki = {
     2781: '',                               // Carrot
     2795: '',                               // Coby & Meppo
     2819: '',                               // Shanks & Mihawk
+    2846: '',                               // Bonney
     2883: '',                               // Bullet
     3370: 'wiki/raidboss/usoppchopper',
 

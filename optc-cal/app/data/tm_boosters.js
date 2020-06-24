@@ -32,6 +32,7 @@ var tm_boosters = [
 
     // ===== Rebecca & Viola =====
     // Raids
+    2846,
 
     // Coliseums
 
