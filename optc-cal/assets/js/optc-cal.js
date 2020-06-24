@@ -825,6 +825,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Support Raid')
                     || (event['type'] === 'special' && event['subType'] === 'Clash Assist')
                     || (event['type'] === 'special' && event['subType'] === 'Kizuna Assist')
+                    || (event['type'] === 'special' && event['subType'] === 'Skillbook Island')
                 ) {
                     $('#event-detail').empty();
                     getEventDetail(event);

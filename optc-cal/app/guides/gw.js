@@ -430,7 +430,6 @@ var gw = {
     'xm_2799': '180947',// Wapol's Assault
     'ap_2843': '184761',// Anniversary Party Perona
 
-    'wa_2801': '181636',// Land of Wano Straw Hat Pirates
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
 
@@ -468,4 +467,7 @@ var gw = {
     'ca_2714': '170434',// Clash Assist Paulie
 
     'ka_2833': '183973',// Kizuna Assist Sengoku
+
+    'si_2802': '181636',// Skillbook Island Luffy/Zoro, Soba Mask
+    'si_2835': '184722',// Skillbook Island Nami/Robin, Pudding
 };

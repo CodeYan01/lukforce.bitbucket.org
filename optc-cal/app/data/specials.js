@@ -561,12 +561,6 @@ var specials = {
         name: 'Luffytaro & Zorojuro',
         thumb: 2802
     },
-
-    'wa_2801': {
-        type: 'Land of Wano',
-        name: 'Straw Hat Pirates',
-        thumb: 2802
-    },
     'wa_2700': {
         type: 'Land of Wano',
         name: 'Kaido',
@@ -594,6 +588,17 @@ var specials = {
         type: 'Christmas',
         name: 'Wapol\'s Assault',
         thumb: 2799
+    },
+
+    'si_2802': {
+        type: 'Skillbook Island',
+        name: 'Luffy/Zoro, Soba Mask',
+        thumb: 2802
+    },
+    'si_2835': {
+        type: 'Skillbook Island',
+        name: 'Nami/Robin, Pudding',
+        thumb: 2835
     },
 
     'ap_2843': {

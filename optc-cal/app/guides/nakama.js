@@ -430,7 +430,6 @@ var nakama = {
     'xm_2799': '6279900',   // Wapol's Assault
     'ap_2843': '6284300',   // Anniversary Party Perona
 
-    'wa_2801': '',          // Land of Wano Straw Hat Pirates
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama
 
@@ -459,4 +458,7 @@ var nakama = {
     'ca_2714': '2271400',   // Clash Assist Paulie
 
     'ka_2833': '2283300',   // Kizuna Assist Sengoku
+
+    'si_2802': '',          // Skillbook Island Luffy/Zoro, Soba Mask
+    'si_2835': '',          // Skillbook Island Nami/Robin, Pudding
 };
