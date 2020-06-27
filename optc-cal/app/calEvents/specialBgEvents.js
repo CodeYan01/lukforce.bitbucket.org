@@ -2947,7 +2947,13 @@ var specialBgEvents = [
         start: '2020-06-28'
     },
     {
-        id: '5th_anni_ship',
+        id: '3rd_anni_ship',
+        start: '2020-06-28',
+        end: '2020-07-07',
+        pst_19: true
+    },
+    {
+        id: 'cyo',
         start: '2020-06-28',
         end: '2020-07-07',
         pst_19: true
