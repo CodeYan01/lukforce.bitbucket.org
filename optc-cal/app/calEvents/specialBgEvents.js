@@ -2963,4 +2963,16 @@ var specialBgEvents = [
         start: '2020-07-05',
         end: '2020-07-12'
     },
+    {
+        id: 'sp',
+        start: '2020-07-07',
+        end: '2020-07-12',
+        pst_19: true
+    },
+    {
+        id: 'ss',
+        start: '2020-07-12',
+        end: '2020-07-18',
+        pst_19: true
+    },
 ]
