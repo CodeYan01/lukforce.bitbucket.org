@@ -147,7 +147,7 @@
 .booster-clone[class^="sl-filtered-"],
 .booster-clone[class*=" sl-filtered-"],
 .lb-filtered {
-    opacity: 0.3;
+    opacity: .3;
 }
 
 .class-mode {
@@ -204,7 +204,7 @@
 .filter-button {
     background: url(../img/filter_bg.png);
     background-size: 100% 100%;
-    opacity: 0.5;
+    opacity: .5;
     color: white;
     width: 120px;
     height: 40px;
@@ -423,6 +423,16 @@ button.cal-button:hover {
     height: 25px;
     margin: 5px;
     width: 25px;
+}
+
+.guide-sp-filter,
+.guide-sl-filter {
+    opacity: .3;
+}
+
+.guide-sp-filter.selected,
+.guide-sl-filter.selected {
+    opacity: 1;
 }
 
 .guide-action-type {

@@ -1515,6 +1515,9 @@ $(document).ready(function() {
 
     // Mini guide
     $(document).on('click', '.op-guide-btn', function() {
+        clearSpecialFilters();
+        clearSailorFilters();
+
         var opId = $(this).closest('.team').data('op_id');
         var op = tm_opponents[tmId][opId];
 
@@ -1609,10 +1612,7 @@ $(document).ready(function() {
 
     // Activate Counter Special Filter after clicking from Mini Guide
     $(document).on('click', '.guide-sp-filter', function() {
-        $('#mini-guide-modal').modal('hide');
-
-        // Clear all Special Filters
-        clearSpecialFilters();
+        $(this).toggleClass('selected');
 
         // Activate actual Filter
         var filter = $(this).data('filter');
@@ -1621,10 +1621,7 @@ $(document).ready(function() {
 
     // Activate Counter Sailor Filter after clicking from Mini Guide
     $(document).on('click', '.guide-sl-filter', function() {
-        $('#mini-guide-modal').modal('hide');
-
-        // Clear all Sailor Filters
-        clearSailorFilters();
+        $(this).toggleClass('selected');
 
         // Activate actual Filter
         var filter = $(this).data('filter');
