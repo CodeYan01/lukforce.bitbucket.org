@@ -1146,6 +1146,13 @@ function clearSailorFilters() {
     });
 }
 
+function clearAllFilters() {
+    clearTypeFilters();
+    clearClassFilters();
+    clearSpecialFilters();
+    clearSailorFilters();
+}
+
 $(document).ready(function() {
     // Retrieve Settings
     var server = 'glb';
@@ -2098,6 +2105,8 @@ $(document).ready(function() {
             clearSailorFilters();
         }
     });
+
+    $('.filter-clear-all-btn').click(clearAllFilters);
 
     // Help button
     $('#help-button').click(function() {

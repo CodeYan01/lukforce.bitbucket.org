@@ -181,26 +181,43 @@
 }
 
 .filter-button-div {
+    display: flex;
     z-index: 10;
 }
 
+.filter-clear-all-div {
+    align-self: center;
+}
+
 .fixed-filter-button {
+    display: flex;
     position: fixed;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
+}
+
+.filter-button,
+.filter-clear-all-btn {
+    text-align: center;
 }
 
 .filter-button {
     background: url(../img/filter_bg.png);
-    width: 120px;
-    height: 40px;
     background-size: 100% 100%;
-    text-align: center;
     opacity: 0.5;
     color: white;
-    font-size: 25px;
+    width: 120px;
+    height: 40px;
     font-variant-caps: all-small-caps;
     font-weight: bold;
+    font-size: 25px;
+}
+
+.filter-clear-all-btn {
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    padding: 0;
 }
 
 .filter-button.active {
