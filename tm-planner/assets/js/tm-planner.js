@@ -115,7 +115,8 @@ function getBoosters(tmId, server) {
             tmId == 2729 ||
             tmId == 2763 ||
             tmId == 2792 ||
-            tmId == 2823
+            tmId == 2823 ||
+            tmId == 2850
         )
     ) {
         // TM Smoothie & Oven
@@ -129,6 +130,7 @@ function getBoosters(tmId, server) {
         // TM Halloween Nami
         // TM O-Robi
         // TM X Drake
+        // TM Rebecca & Viola
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();

@@ -1,4 +1,5 @@
 var tm_opponents = {
+    // ========== Mihawk ==========
     1808: [
         {
             name: 'Moria',
@@ -21,6 +22,8 @@ var tm_opponents = {
             type: 'STR'
         }
     ],
+
+    // ========== Whitebeard ==========
     1853: [
         {
             name: 'Marco',
@@ -43,6 +46,8 @@ var tm_opponents = {
             type: 'INT'
         }
     ],
+
+    // ========== Cavendish ==========
     1889: [
         {
             name: 'Law',
@@ -65,6 +70,8 @@ var tm_opponents = {
             type: 'PSY'
         }
     ],
+
+    // ========== G4 ==========
     1916: {
         1364: {
             name: 'Franky',
@@ -92,6 +99,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Ace ==========
     1941: {
         410: {
             name: 'Jinbe',
@@ -119,6 +128,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Sabo ==========
     1972: {
         1404: {
             name: 'Luffy',
@@ -146,6 +157,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Sanji & Zoro ==========
     2000: {
         265: {
             name: ['Meppo & ', 'Coby'],
@@ -173,6 +186,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Kizaru ==========
     2064: {
         459: {
             name: 'Sengoku',
@@ -200,6 +215,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Kizaru (JPN) ==========
     '2064_jpn': [
         {
             name: 'Sengoku',
@@ -222,6 +239,8 @@ var tm_opponents = {
             type: 'DEX'
         }
     ],
+
+    // ========== Big Mom ==========
     2109: {
         2065: {
             name: 'Pudding',
@@ -254,6 +273,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Crocodile ==========
     2137: {
         257: {
             name: 'Izo',
@@ -281,6 +302,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Jack ==========
     2175: {
         1716: {
             name: 'Caesar',
@@ -308,6 +331,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Eneru ==========
     2211: {
         463: {
             name: 'Satori',
@@ -335,6 +360,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Shanks ==========
     2261: {
         777: {
             name: 'Lucky Roux',
@@ -367,6 +394,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Boa Hancock ==========
     2299: {
         1300: {
             name: 'Rebecca',
@@ -399,6 +428,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Law ==========
     2336: {
         1004: {
             name: 'Sachi & Penguin',
@@ -431,6 +462,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Christmas Nami ==========
     2362: {
         1413: {
             name: 'Whitebeard',
@@ -458,6 +491,8 @@ var tm_opponents = {
             pos: 4
         }
     },
+
+    // ========== Kaido ==========
     2387: {
         418: {
             name: 'Doffy',
@@ -490,6 +525,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Doffy ==========
     2443: {
         1401: {
             name: 'Gladius',
@@ -522,6 +559,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Smoothie & Oven ==========
     2469: {
         2240: {
             name: 'Perospero',
@@ -554,6 +593,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Weevil ==========
     2510: {
         836: {
             name: 'Kuma',
@@ -586,6 +627,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Shanks & Beckman ==========
     2557: {
         860: {
             name: 'Coby',
@@ -618,6 +661,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Lucci ==========
     2583: {
         963: {
             name: 'Charlos',
@@ -650,6 +695,8 @@ var tm_opponents = {
             pos: 5
         },
     },
+
+    // ========== Sakazuki & Issho ==========
     2618: {
         927: {
             name: 'Doberman',
@@ -682,6 +729,8 @@ var tm_opponents = {
             pos: 5
         },
     },
+
+    // ========== Smoker ==========
     2659: {
         1974: {
             name: 'Hawkins',
@@ -714,6 +763,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Blackbeard ==========
     2690: {
         418: {
             name: 'Doffy',
@@ -746,6 +797,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Hawkins ==========
     2729: {
         2385: {
             name: 'Apoo',
@@ -778,6 +831,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Halloween Nami ==========
     2763: {
         765: {
             name: 'Chopper',
@@ -810,6 +865,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== O-Robi ==========
     2792: {
         2707: {
             name: 'Zorojuro',
@@ -1092,6 +1149,8 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== X Drake ==========
     2823: {
         2432: {
             name: 'Jack',
@@ -1370,38 +1429,331 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Rebecca & Viola ==========
     2850: {
         1968: {
             name: 'Hancock',
             type: 'STR',
-            pos: 0
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Hancock', 'STR'],
+                    hp: 500000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '2T, Row 2 3'],
+                                ['immu-delay',      '99+T'],
+                                ['immu-def',        '99+T'],
+                                ['atk',             '10T, 1.5x']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['def-null',        '1T, QCK']
+                            ]
+                        },
+                        {
+                            type: '<20%, interrupt, once',
+                            action: [
+                                ['Blow Away',       '99+T, Random 1'],
+                                ['resil',           '3T']
+                            ]
+                        },
+                        {
+                            type: '<20%, interrupt, Every Turn',
+                            action: [
+                                ['Blow Away',       '99+T, Random 1']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2084: {
             name: 'Reiju',
             type: 'QCK',
-            pos: 1
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Reiju', 'QCK'],
+                    hp: 450000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Random 2'],
+                                ['def-thres',       '4T, 99%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3',
+                            action: [
+                                ['poison',          '99+T'],
+                                ['def',             '5T, 2000x']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['bind',            '5T, Random 2']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2548: {
             name: 'Perona',
             type: 'DEX',
-            pos: 2
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Perona', 'DEX'],
+                    hp: 400000,
+                    atk: 3400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-all',        '99+T'],
+                                ['bar-p',           '2T, 2x']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['blind',           '99+T'],
+                                ['bar-p',           '5T, 3x']
+                            ]
+                        },
+                        {
+                            type: '<20%, interrupt',
+                            action: [
+                                ['desp',            '5T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2743: {
             name: 'Koala',
             type: 'PSY',
-            pos: 3
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Koala', 'PSY'],
+                    hp: 500000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['chain-lock',      '3T, 1.1x'],
+                                ['slot-change',     'Bad']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['atk',             '99+T, 1.5x']
+                            ]
+                        },
+                        {
+                            type: '<20%, interrupt',
+                            action: [
+                                ['dmg-normal',      '20000']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '30000']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2850: {
             name: ['Rebecca & ', 'Viola'],
-            type: ['DEX', 'INT'],
-            pos: 4
+            type: ['QCK', 'PSY'],
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Rebecca', 'QCK'],
+                    hp: 350000,
+                    atk: 3200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['heal',            '99+T, 150000, EoT'],
+                                ['def',             '2T, 2000x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 6,
+                    boss: ['Viola', 'PSY'],
+                    hp: 400000,
+                    atk: 3200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['chain-down',      '2T'],
+                                ['slot-change',     'EMPTY']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['slot-change',     'EMPTY']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 7,
+                    boss: ['Rebecca & Viola', 'PSY'],
+                    hp: 1875000,
+                    atk: 7680,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '4T'],
+                                ['desp',            '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 3 Turns',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['def',             '2T, 2000x']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3',
+                            action: [
+                                ['bind',            '5T, Row 1']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['atk',             '99+T, 2x']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['bind',            '30T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2078: {
             name: 'Carrot',
             type: 'PSY',
-            pos: 5
-        },
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',           '10T, DEX/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Carrot', 'PSY'],
+                    hp: 500000,
+                    atk: 3200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 2'],
+                                ['slot-change',     'EMPTY'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['heal',            '50%'],
+                                ['atk',             '99+T, 1.5x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Carrot', 'PSY'],
+                    hp: 2250000,
+                    atk: 7680,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '3T'],
+                                ['immu-all',        '99+T'],
+                                ['def-perc',        '3T'],
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every 2 Turns',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['hp-cut',          '20%']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['Slot Bind',       '3T']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     },
+
+    // ========== Vivi ==========
     2879: {
         11: {
             name: 'Nami',
@@ -1434,6 +1786,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Shirahoshi ==========
     2913: {
         1477: {
             name: 'Fukaboshi',
@@ -1466,6 +1820,8 @@ var tm_opponents = {
             pos: 5
         }
     },
+
+    // ========== Luffy (6th Anni) ==========
     2977: {
         1707: {
             name: 'Shanks',
@@ -1762,6 +2118,8 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Zorojuro ==========
     2995: {
         2774: {
             name: 'O-Nami',
