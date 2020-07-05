@@ -211,4 +211,10 @@ var tmEvents = [
         end: '2020-06-15',
         pst_19: true
     },
+    {
+        id: 2850,
+        start: '2020-07-07',
+        end: '2020-07-12',
+        pst_19: true
+    },
 ]

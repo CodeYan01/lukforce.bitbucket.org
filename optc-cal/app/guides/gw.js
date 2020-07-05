@@ -385,6 +385,7 @@ var gw = {
     2763: '175499',     // Halloween Nami
     2792: '179702',     // O-Robi
     2823: '182929',     // X Drake
+    2850: '186492',     // Rebecca & Viola
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
