@@ -1633,8 +1633,8 @@ var tm_opponents = {
                 {
                     stageNum: 7,
                     boss: ['Rebecca & Viola', 'PSY'],
-                    hp: 1875000,
-                    atk: 7680,
+                    hp: 1250000,
+                    atk: 6400,
                     detail: [
                         {
                             type: 'Preemp',
@@ -1716,8 +1716,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Carrot', 'PSY'],
-                    hp: 2250000,
-                    atk: 7680,
+                    hp: 1500000,
+                    atk: 6400,
                     detail: [
                         {
                             type: 'Preemp',
