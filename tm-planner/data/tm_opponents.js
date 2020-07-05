@@ -2395,4 +2395,269 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Reiju ==========
+    3022: {
+        3004: {
+            name: 'Kuma',
+            type: 'STR',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Kuma', 'STR'],
+                    hp: 550000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['atk-down',        '3T'],
+                                ['para',            '3T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 3 Turns',
+                            action: [
+                                ['Blow Away',       '1T, Random 1']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['Blow Away',       '1T, Row 1']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3005: {
+            name: 'Moria',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Moria', 'QCK'],
+                    hp: 600000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['desp',            '5T'],
+                                ['chain-down',      '5T, 0.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['enrage',          '99+T, 2.5x']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '100x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3011: {
+            name: 'Caesar',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Caesar', 'INT'],
+                    hp: 100000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['bar-p',           '3T, 4x'],
+                                ['bar-gt',          '3T, 4x'],
+                                ['bar-gd',          '3T, 4x']
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+        3013: {
+            name: 'Bonney',
+            type: 'DEX',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Bonney', 'DEX'],
+                    hp: 450000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bar-color',       '1T, 3x, QCK'],
+                                ['def-thres',       '4T, 99%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every Turn After',
+                            action: [
+                                ['bar-color',       '3T, 3x, QCK']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['heal',            '50%']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3022: {
+            name: 'Reiju',
+            type: 'STR',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['Sanji', 'STR'],
+                    hp: 430000,
+                    atk: 8800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['slot-lock',       '1T'],
+                                ['desp',            '5T'],
+                                ['def-perc',        '5T, 80%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Reiju', 'STR'],
+                    hp: 1250000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '3T, Col 1'],
+                                ['para',            '4T, Row 2 3'],
+                                ['poison',          '99+T, 600→6000'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every Turn After',
+                            action: [
+                                ['para',            '3T, Row 2 3']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['heal',            '50%']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['bind',            '30T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3015: {
+            name: 'Ivankov',
+            type: 'STR',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, QCK']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Inazuma', 'STR'],
+                    hp: 430000,
+                    atk: 4800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['def',             '5T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Ivankov', 'STR'],
+                    hp: 1500000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '3T'],
+                                ['burn',            '3T, 3000'],
+                                ['def-thres',       '3T, 99%, 1000'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['bind',            '5T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['Blow Away',       '2T, Row 1']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['bind',            '30T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };

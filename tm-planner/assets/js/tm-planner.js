@@ -328,8 +328,15 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
-    } else if (server == 'jpn' && tmId == 2995) {
+    } else if (
+        server == 'jpn' &&
+        (
+            tmId == 2995 ||
+            tmId == 3022
+        )
+    ) {
         // TM Zorojuro
+        // TM Reiju
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -551,7 +558,8 @@ function init(tmId, server) {
         tmId == 2879 ||
         tmId == 2913 ||
         tmId == 2977 ||
-        tmId == 2995
+        tmId == 2995 ||
+        tmId == 3022
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
