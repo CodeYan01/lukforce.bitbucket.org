@@ -1156,13 +1156,6 @@ function clearSailorFilters() {
     });
 }
 
-function clearAllFilters() {
-    clearTypeFilters();
-    clearClassFilters();
-    clearSpecialFilters();
-    clearSailorFilters();
-}
-
 $(document).ready(function() {
     // Retrieve Settings
     var server = 'glb';
@@ -2113,7 +2106,17 @@ $(document).ready(function() {
         }
     });
 
-    $('.filter-clear-all-btn').click(clearAllFilters);
+    $('.filter-clear-all-btn').click(function() {
+        clearTypeFilters();
+        typeFilters = [];
+
+        clearClassFilters();
+        classFilters = [];
+
+        clearSpecialFilters();
+
+        clearSailorFilters();
+    });
 
     // Help button
     $('#help-button').click(function() {
