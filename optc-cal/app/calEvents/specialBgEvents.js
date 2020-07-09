@@ -2976,6 +2976,12 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'stampede_ship',
+        start: '2020-07-12',
+        end: '2020-07-27',
+        pst_19: true
+    },
+    {
         id: 'buggy',
         start: '2020-07-19',
         end: '2020-07-23',
