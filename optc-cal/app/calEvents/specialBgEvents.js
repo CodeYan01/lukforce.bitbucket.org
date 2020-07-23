@@ -2992,4 +2992,13 @@ var specialBgEvents = [
         start: '2020-07-21',
         end: '2020-07-27'
     },
+    {
+        id: 'sugo',
+        start: '2020-07-27',
+        end: '2020-08-06'
+    },
+    {
+        id: 'free_pull',
+        start: '2020-07-27'
+    },
 ]
