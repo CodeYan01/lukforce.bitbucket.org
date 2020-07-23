@@ -462,4 +462,5 @@ var nakama = {
 
     'si_2802': '',          // Skillbook Island Luffy/Zoro, Soba Mask
     'si_2835': '',          // Skillbook Island Nami/Robin, Pudding
+    'si_2860': '',          // Skillbook Island Red Hair Pirates, Arlong's Crew, Law v3
 };

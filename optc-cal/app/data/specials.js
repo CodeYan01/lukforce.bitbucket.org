@@ -600,6 +600,11 @@ var specials = {
         name: 'Nami/Robin, Pudding',
         thumb: 2835
     },
+    'si_2860': {
+        type: 'Skillbook Island',
+        name: 'Red Hair Pirates, Arlong\'s Crew, Law v3',
+        thumb: 2860
+    },
 
     'ap_2843': {
         type: 'Anniversary Party',
