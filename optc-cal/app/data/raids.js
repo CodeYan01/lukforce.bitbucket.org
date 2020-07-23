@@ -237,6 +237,10 @@ var raids = {
         name: 'Bonney',
         thumb: 2846
     },
+    2867: {
+        name: 'Buggy Pirates',
+        thumb: 2867
+    },
     2883: {
         name: 'Bullet',
         thumb: 2883

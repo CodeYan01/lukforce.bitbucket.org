@@ -59,6 +59,7 @@ var videoWiki = {
     2795: '',   // Coby & Meppo
     2819: 'raidboss/shanksmihawk',
     2846: '',   // Bonney
+    2867: '',   // Buggy Pirates
     2883: '',   // Bullet
     3370: 'raidboss/usoppchopper',
 
