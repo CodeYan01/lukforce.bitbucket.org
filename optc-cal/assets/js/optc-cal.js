@@ -817,6 +817,7 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Dressrosa')
                     || (event['type'] === 'special' && event['subType'] === 'Christmas')
                     || (event['type'] === 'special' && event['subType'] === 'Anniversary Party')
+                    || (event['type'] === 'special' && event['subType'] === 'Escape')
                     || (event['type'] === 'special' && event['subType'] === 'Land of Wano')
                     || (event['type'] === 'special' && event['subType'] === 'World Journey')
                     || (event['type'] === 'special' && event['subType'] === 'Dmg Ranking')

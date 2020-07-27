@@ -432,6 +432,7 @@ var gw = {
     'dr_2767': '176352',// Tragic Country's Conflict
     'xm_2799': '180947',// Wapol's Assault
     'ap_2843': '184761',// Anniversary Party Perona
+    'ec_1983': '189644',// Escape! Loguetown
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama

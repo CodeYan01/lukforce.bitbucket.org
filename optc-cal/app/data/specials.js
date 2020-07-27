@@ -616,4 +616,10 @@ var specials = {
         name: 'Perona',
         thumb: 2843
     },
+
+    'ec_1983': {
+        type: 'Escape',
+        name: 'Loguetown',
+        thumb: 1983
+    },
 }

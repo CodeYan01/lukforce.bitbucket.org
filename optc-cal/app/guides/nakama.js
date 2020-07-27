@@ -432,6 +432,7 @@ var nakama = {
     'dr_2767': '6276700',   // Tragic Country's Conflict
     'xm_2799': '6279900',   // Wapol's Assault
     'ap_2843': '6284300',   // Anniversary Party Perona
+    'ec_1983': '',          // Escape! Loguetown
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama
