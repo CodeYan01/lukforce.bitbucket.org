@@ -50,4 +50,9 @@ var kizunas = {
         name: 'Marco & Ace',
         thumb: 2831
     },
+    2890: {
+        name: 'Moria',
+        thumb: 2890,
+        xch_id: 2891
+    },
 };

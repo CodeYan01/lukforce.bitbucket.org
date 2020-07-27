@@ -400,6 +400,7 @@ var gw = {
     2794: '180261',     // Christmas Shirahoshi
     2812: '181589',     // O-Kiku
     2831: '184123',     // Marco & Ace (Round 1)
+    2890: '192194',     // Moria (Jigoro & Dog Penguin)
 
     // Events
     'bb_1314': '61665', // Three Admirals
