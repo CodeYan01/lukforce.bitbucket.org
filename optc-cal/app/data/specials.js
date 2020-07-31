@@ -607,7 +607,7 @@ var specials = {
     },
     'si_2860': {
         type: 'Skillbook Island',
-        name: 'Red Hair Pirates, Arlong\'s Crew, Law v3',
+        name: 'Red-Hair Pirates, Arlong Pirates, Law v3',
         thumb: 2860
     },
 
