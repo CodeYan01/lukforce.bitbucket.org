@@ -346,6 +346,7 @@ var wiki = {
     2785: '',                               // Kyoshiro
     2813: '',                               // Shutenmaru
     2845: '',                               // Sangoro
+    2869: '',                               // Komurasaki
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

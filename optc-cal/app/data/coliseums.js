@@ -524,6 +524,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2845
     },
+    2869: {
+        name: 'Komurasaki',
+        chaos_only: true, // Not but new format
+        thumb: 2869
+    },
 
     // Neo Coliseums
     1863: {

@@ -196,6 +196,7 @@ var videoWiki = {
     2785: '',   // Kyoshiro
     2813: '',   // Shutenmaru
     2845: '',   // Sangoro
+    2869: 'coliseum/komurasaki',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',
