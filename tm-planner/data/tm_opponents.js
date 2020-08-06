@@ -1757,33 +1757,268 @@ var tm_opponents = {
     2879: {
         11: {
             name: 'Nami',
-            type: 'INT',
-            pos: 0
+            type: 'PSY',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Nami', 'PSY'],
+                    hp: 120000,
+                    atk: 1400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '3T, Row 2 3'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['bind',            '5T, Random 1']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         18: {
             name: 'Sanji',
             type: 'QCK',
-            pos: 1
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Sanji', 'QCK'],
+                    hp: 500000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def-null',        '1T'],
+                                ['slot-change',     'EMPTY'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['Blow Away',       '99+T, Random 2'],
+                                ['slot-change',     'EMPTY']
+                            ]
+                        },
+                        {
+                            type: '<20%, interrupt',
+                            action: [
+                                ['Blow Away',       '99+T, Row 1']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         23: {
             name: 'Chopper',
             type: 'INT',
-            pos: 2
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Chopper', 'INT'],
+                    hp: 450000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '5T, 60%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every 2 Turns',
+                            action: [
+                                ['atk-down',        '2T, 80%'],
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['hp-cut',          '50%']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         219: {
             name: 'Zoro',
             type: 'DEX',
-            pos: 3
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Zoro', 'DEX'],
+                    hp: 500000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '7T, Row 1'],
+                                ['atk-down',        '4T, 30%'],
+                                ['def',             '4T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['dmg-eot-e',       '99+T, 20%'],
+                                ['atk',             '99+T, 2x']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '100x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2879: {
             name: 'Vivi',
-            type: 'PSY',
-            pos: 4
+            type: 'INT',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 6,
+                    boss: ['Koza', 'STR'],
+                    hp: 400000,
+                    atk: 3200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '3T'],
+                                ['chain-down',      '5T, 0.3x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 7,
+                    boss: ['Vivi', 'INT'],
+                    hp: 1250000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['resil',           '5T'],
+                                ['atk',             '99+T, 1.5x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['dmg-up',          '99+T, 1.5x']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['heal',            '50%'],
+                                ['Clear Buff',      'Normal']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['bind',            '30T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         727: {
             name: 'Luffy',
             type: 'DEX',
-            pos: 5
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',           '10T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Luffy', 'DEX'],
+                    hp: 500000,
+                    atk: 5200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def-perc',        '3T, 80%'],
+                                ['immu-delay',      '99+T'],
+                                ['hp-cut',          '70%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Luffy', 'DEX'],
+                    hp: 1500000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 2'],
+                                ['para',            '3T'],
+                                ['immu-delay',      '99+T'],
+                                ['slot-change',     'Bad']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['enrage',          '99+T, 3x'],
+                                ['slot-change',     'Bad']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['cd-rew',          '5T, Row 1'],
+                                ['hp-cut',          '50%']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     },
 
