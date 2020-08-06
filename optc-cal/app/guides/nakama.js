@@ -388,6 +388,7 @@ var nakama = {
     2792: '8279200',    // O-Robi
     2823: '8282300',    // X Drake
     2850: '8285000',    // Rebecca & Viola
+    2879: '8287900',    // Vivi
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
