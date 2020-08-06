@@ -85,6 +85,10 @@ function getThumb(thumbId) {
     if (thumbId === 5064 || thumbId === 3381)
         return '/tm-planner/assets/img/new-thumbs/5064.png';
 
+    // Special case for Local Sea Monster
+    if (thumbId === 5065 || thumbId === 3382)
+        return '/tm-planner/assets/img/new-thumbs/5065.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
