@@ -1871,7 +1871,7 @@ var tm_opponents = {
                                 ['bind',            '7T, Row 1'],
                                 ['atk-down',        '4T, 30%'],
                                 ['def',             '4T, 1000x'],
-                                ['immu-delay',      '99+T']
+                                ['immu-all',        '99+T']
                             ]
                         },
                         {
