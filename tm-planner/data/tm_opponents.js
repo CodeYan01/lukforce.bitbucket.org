@@ -2725,7 +2725,7 @@ var tm_opponents = {
                                 ['bar-gt',          '3T, 4x'],
                                 ['bar-gd',          '3T, 4x']
                             ]
-                        },
+                        }
                     ]
                 }
             ]
@@ -2888,6 +2888,209 @@ var tm_opponents = {
                             type: '<20%, on atk',
                             action: [
                                 ['bind',            '30T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
+
+    // ========== Nami & Sanji ==========
+    3060: {
+        2707: {
+            name: 'Zorojuro',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Zorojuro', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '8T'],
+                                ['dmg-eot-e',       '30%'],
+                                ['heal',            '1,000,000, EoT'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2787: {
+            name: 'Chopperemon',
+            type: 'QCK',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Chopperemon', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad, RCV, TND']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2789: {
+            name: 'Bonekichi',
+            type: 'INT',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Bonekichi', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['silence',         '3T'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['bar-gd',          '2T, 4x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2808: {
+            name: 'Franosuke',
+            type: 'INT',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Franosuke', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'TND, Row 2'],
+                                ['slot-change',     'EMPTY, Row 1 3'],
+                                ['bind',            '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3060: {
+            name: 'Nami & Sanji',
+            type: 'INT',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 3,
+                    boss: ['Nami (?)', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['slot-lock',       '1T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 4,
+                    boss: ['Sanji (?)', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def-perc',        '5T, 80%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Nami & Sanji', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 1'],
+                                ['def',             '5T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3029: {
+            name: 'Luffy',
+            type: 'INT',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, DEX/PSY']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Luffy (?)', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['para',            '5T, Row 2 3'],
+                                ['blind',           '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Luffy', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['atk-down',        '5T, 90%'],
+                                ['chain-down',      '5T, 0.1x'],
+                                ['cd-rew',          '1T, Row 2 3'],
+                                ['immu-delay',      '99+T']
                             ]
                         }
                     ]

@@ -348,6 +348,16 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
+    } else if (server == 'jpn' && tmId == 3060) {
+        // TM Nami & Sanji
+        $('#div_2_3x').show();
+        $('#div_1_8x_v2').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x_v2').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -421,7 +431,9 @@ function getBoosters(tmId, server) {
         if (b.x_pts === 1.2) {
             imgDiv.data('_type', b.type);
             $('#booster_' + _x_pts + 'x_' + b.type).append(imgDiv);
-        } else if (b.x_pts === 1.4 && b.ver)
+        } else if (b.x_pts === 1.8 && b.ver)
+            $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
+        else if (b.x_pts === 1.4 && b.ver)
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
         else if (b.x_pts === 1.35 && b.ver)
             $('#booster_' + _x_pts + 'x_v' + b.ver).append(imgDiv);
@@ -561,7 +573,8 @@ function init(tmId, server) {
         tmId == 2913 ||
         tmId == 2977 ||
         tmId == 2995 ||
-        tmId == 3022
+        tmId == 3022 ||
+        tmId == 3060
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
@@ -2182,7 +2195,7 @@ $(document).ready(function() {
     });
 
     // Set up drag and drop for each booster section
-    var ids = ["booster_2_25x", "booster_2_2x", "booster_2x", "booster_1_85x", "booster_1_8x", "booster_1_75x",
+    var ids = ["booster_2_3x", "booster_2_25x", "booster_2_2x", "booster_2x", "booster_1_85x", "booster_1_8x", "booster_1_8x_v2", "booster_1_75x",
                 "booster_1_7x", "booster_1_6x", "booster_1_5x", "booster_1_4x", "booster_1_4x_v2", "booster_1_35x",
                 "booster_1_35x_v2", "booster_1_35x_v3", "booster_1_35x_v4", "booster_1_3x", "booster_1_3x_v2",
                 "booster_1_3x_v3", "booster_1_25x", "booster_1_25x_v2", "booster_1_25x_v3", "booster_1_25x_v4",
