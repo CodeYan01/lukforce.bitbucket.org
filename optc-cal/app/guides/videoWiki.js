@@ -61,6 +61,7 @@ var videoWiki = {
     2846: '',   // Bonney
     2867: '',   // Buggy Pirates
     2883: '',   // Bullet
+    2885: '',   // CP9
     3370: 'raidboss/usoppchopper',
 
     1623: 'raidboss/doflamingokai',

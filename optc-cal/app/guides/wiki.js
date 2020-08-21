@@ -211,6 +211,7 @@ var wiki = {
     2846: '',                               // Bonney
     2867: '',                               // Buggy Pirates
     2883: '',                               // Bullet
+    2885: '',                               // CP9
     3370: 'wiki/raidboss/usoppchopper',
 
     1623: 'wiki/raidboss/doffykai',
