@@ -610,6 +610,11 @@ var specials = {
         name: 'Red-Hair Pirates, Arlong Pirates, Law v3',
         thumb: 2860
     },
+    'si_2897': {
+        type: 'Skillbook Island',
+        name: 'Mihawk/Perona, Rayleigh v3',
+        thumb: 2897
+    },
 
     'ap_2843': {
         type: 'Anniversary Party',

@@ -478,4 +478,5 @@ var gw = {
     'si_2802': '181636',// Skillbook Island Luffy/Zoro, Soba Mask
     'si_2835': '184722',// Skillbook Island Nami/Robin, Pudding
     'si_2860': '188625',// Skillbook Island Red-Hair Pirates, Arlong Pirates, Law v3
+    'si_2897': '193906',// Skillbook Island Mihawk/Perona, Rayleigh v3
 };
