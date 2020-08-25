@@ -3045,4 +3045,16 @@ var specialBgEvents = [
         id: 'free_pull',
         start: '2020-08-26'
     },
+    {
+        id: 'sp',
+        start: '2020-08-28',
+        end: '2020-08-30',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2020-09-06',
+        end: '2020-09-08',
+        pst_19: true
+    },
 ]
