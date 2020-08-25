@@ -3036,4 +3036,13 @@ var specialBgEvents = [
         end: '2020-08-26',
         pst_19: true
     },
+    {
+        id: 'sugo',
+        start: '2020-08-26',
+        end: '2020-09-03'
+    },
+    {
+        id: 'free_pull',
+        start: '2020-08-26'
+    },
 ]
