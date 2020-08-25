@@ -249,6 +249,10 @@ var raids = {
         name: 'CP9',
         thumb: 2885
     },
+    2893: {
+        name: 'Jinbe',
+        thumb: 2893
+    },
     3370: {
         name: 'Usopp & Chopper',
         thumb: 5052

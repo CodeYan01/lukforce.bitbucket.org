@@ -212,6 +212,7 @@ var gw = {
     2867: '188620',     // Buggy Pirates
     2883: '191097',     // Bullet
     2885: '191379',     // CP9
+    2893: '193895',     // Jinbe
     3370: '',           // Usopp & Chopper
 
     1623: '',           //'58437',      // Doflamingo (N)

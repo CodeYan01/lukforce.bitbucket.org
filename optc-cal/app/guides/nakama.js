@@ -212,6 +212,7 @@ var nakama = {
     2867: '4286700',    // Buggy Pirates
     2883: '4288300',    // Bullet
     2885: '4288500',    // CP9
+    2893: '4289300',    // Jinbe
     3370: '4337000',    // Usopp & Chopper
 
     1623: '4162300',    // Doflamingo (N)
