@@ -645,7 +645,7 @@ var specialBgEvents = [
         end: '2018-03-23'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-03-15',
         end: '2018-03-24'
     },
@@ -722,7 +722,7 @@ var specialBgEvents = [
         end: '2018-04-17'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-04-15',
         end: '2018-04-22'
     },
@@ -777,7 +777,7 @@ var specialBgEvents = [
         end: '2018-05-14'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-05-10',
         end: '2018-05-18'
     },
@@ -832,7 +832,7 @@ var specialBgEvents = [
         end: '2018-06-17'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-06-14',
         end: '2018-06-24'
     },
@@ -907,7 +907,7 @@ var specialBgEvents = [
         end: '2018-07-15'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-07-09',
         end: '2018-07-17'
     },
@@ -982,7 +982,7 @@ var specialBgEvents = [
         end: '2018-08-10'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-08-09',
         end: '2018-08-17'
     },
@@ -1132,7 +1132,7 @@ var specialBgEvents = [
         end: '2018-09-19'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-09-17',
         end: '2018-09-23'
     },
@@ -1212,7 +1212,7 @@ var specialBgEvents = [
         end: '2018-10-16'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-10-09',
         end: '2018-10-16'
     },
@@ -1292,7 +1292,7 @@ var specialBgEvents = [
         end: '2018-11-11'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-11-07',
         end: '2018-11-13'
     },
@@ -1407,7 +1407,7 @@ var specialBgEvents = [
         end: '2018-12-16'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2018-12-11',
         end: '2018-12-18'
     },
@@ -1592,7 +1592,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-02-11',
         end: '2019-02-18'
     },
@@ -1699,7 +1699,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-03-12',
         end: '2019-03-19'
     },
@@ -1793,7 +1793,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-04-09',
         end: '2019-04-16'
     },
@@ -1874,7 +1874,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-05-08',
         end: '2019-05-14'
     },
@@ -1979,7 +1979,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-06-04',
         end: '2019-06-10'
     },
@@ -2083,7 +2083,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-07-08',
         end: '2019-07-14'
     },
@@ -2210,7 +2210,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-08-12',
         end: '2019-08-19'
     },
@@ -2316,7 +2316,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-09-16',
         end: '2019-09-22'
     },
@@ -2384,7 +2384,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-10-14',
         end: '2019-10-20'
     },
@@ -2458,7 +2458,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-11-11',
         end: '2019-11-17'
     },
@@ -2528,7 +2528,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-12-09',
         end: '2019-12-15'
     },
@@ -2579,7 +2579,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2019-12-28',
         end: '2020-01-04'
     },
@@ -2612,7 +2612,7 @@ var specialBgEvents = [
         end: '2020-01-12'
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-01-15',
         end: '2020-01-22'
     },
@@ -2652,7 +2652,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-02-11',
         end: '2020-02-17'
     },
@@ -2718,7 +2718,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-03-02',
         end: '2020-03-09'
     },
@@ -2811,7 +2811,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-04-12',
         end: '2020-04-19'
     },
@@ -2855,7 +2855,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-05-03',
         end: '2020-05-10'
     },
@@ -2910,7 +2910,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-06-09',
         end: '2020-06-15'
     },
@@ -2959,7 +2959,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-07-05',
         end: '2020-07-12'
     },
@@ -3020,7 +3020,7 @@ var specialBgEvents = [
         pst_19: true
     },
     {
-        id: 'sugo',
+        id: 'sugo_tm',
         start: '2020-08-06',
         end: '2020-08-12'
     },

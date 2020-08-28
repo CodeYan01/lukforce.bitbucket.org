@@ -792,7 +792,7 @@ function showFooter() {
                 } else {
                     element.closest('.fc-bgevent').css('background-image', 'url("/optc-cal/assets/img/' + event['thumb'] + '.png")');
 
-                    if (event.id == 'sugo')
+                    if (event.id == 'sugo' || event.id == 'sugo_tm')
                         element.closest('.fc-bgevent').addClass('sugo');
                 }
             },
