@@ -41,6 +41,9 @@ var specials_bg = {
     'sugo': {
         thumb: 'sugo'
     },
+    'sugo_tm': {
+        thumb: 'sugo_tm'
+    },
     'free_pull': {
         thumb: 'free_pull'
     },
