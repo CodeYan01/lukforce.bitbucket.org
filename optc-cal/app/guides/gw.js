@@ -349,6 +349,7 @@ var gw = {
     2813: '181684',     // Shutenmaru
     2845: '185012',     // Sangoro
     2869: '189127',     // Komurasaki
+    2908: '194224',     // Inuarashi v2
 
     1863: '80292',      // Kinemon (N)
     1899: '84586',      // Killer (N)

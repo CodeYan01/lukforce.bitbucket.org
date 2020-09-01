@@ -529,6 +529,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2869
     },
+    2908: {
+        name: 'Inuarashi v2',
+        chaos_only: true, // Not but new format
+        thumb: 2908
+    },
 
     // Neo Coliseums
     1863: {
