@@ -117,7 +117,8 @@ function getBoosters(tmId, server) {
             tmId == 2792 ||
             tmId == 2823 ||
             tmId == 2850 ||
-            tmId == 2879
+            tmId == 2879 ||
+            tmId == 2913
         )
     ) {
         // TM Smoothie & Oven
@@ -133,6 +134,7 @@ function getBoosters(tmId, server) {
         // TM X Drake
         // TM Rebecca & Viola
         // TM Vivi
+        // TM Shirahoshi
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();

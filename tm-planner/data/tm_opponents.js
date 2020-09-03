@@ -2027,32 +2027,274 @@ var tm_opponents = {
         1477: {
             name: 'Fukaboshi',
             type: 'DEX',
-            pos: 2
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Fukaboshi', 'DEX'],
+                    hp: 500000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['chain-down',      '5T, 0.1x'],
+                                ['immu-delay',      '99+T'],
+                                ['def-perc',        '5T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['hp-cut',          '30%'],
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: '<20%, interrupt',
+                            action: [
+                                ['blind',           '5T'],
+                                ['bar-p',           '5T, 2x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         1598: {
             name: 'Ryuboshi',
             type: 'STR',
-            pos: 1
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Ryuboshi', 'STR'],
+                    hp: 450000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '60%'],
+                                ['desp',            '5T'],
+                                ['def',             '2T, 300x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 3 Turns',
+                            action: [
+                                ['def',             '2T, 1000x']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['desp',            '5T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         1599: {
             name: 'Manboshi',
             type: 'STR',
-            pos: 0
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Manboshi', 'STR'],
+                    hp: 400000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['resil',           '3T'],
+                                ['immu-delay',      '99+T'],
+                                ['dmg-eot-e',       '99+T, 10%'],
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['bar-hit',         '3T, 20x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2123: {
             name: 'Neptune',
             type: 'INT',
-            pos: 3
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 7,
+                    boss: ['Neptune', 'INT'],
+                    hp: 600000,
+                    atk: 4500,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '5T'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['immu-delay',      '99+T'],
+                                ['slot-change',     'TND']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every 2 Turns',
+                            action: [
+                                ['silence',         '2T'],
+                                ['atk',             '2T, 2.5x'],
+                                ['slot-change',     'TND']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '100x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2913: {
             name: 'Shirahoshi',
             type: 'INT',
-            pos: 4
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 6,
+                    boss: ['Zoro', 'DEX'],
+                    hp: 430000,
+                    atk: 4800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['def-thres',       '5T, 99%, 1000']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every Turn After',
+                            action: [
+                                ['slot-change',     'Bad']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 7,
+                    boss: ['Luffy', 'INT'],
+                    hp: 1250000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['immu-delay',      '99+T'],
+                                ['def-perc',        '5T'],
+                                ['heal',            '99+T, 300,000'],
+                                ['bar-gt',          '3T, 2x']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['dmg-up',          '99+T, 1.5x']
+                            ]
+                        },
+                        {
+                            type: '<50%, interrupt',
+                            action: [
+                                ['def-null',        '1T'],
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2066: {
             name: 'Jinbe',
             type: 'DEX',
-            pos: 5
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',           '10T, STR/PSY']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['Robin', 'INT'],
+                    hp: 430000,
+                    atk: 4800,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['dmg-up',          '3T, 2x'],
+                                ['slot-block',      'All'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Jinbe', 'DEX'],
+                    hp: 1500000,
+                    atk: 6400,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '3T'],
+                                ['atk-down',        '3T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3, Every 3 Turns',
+                            action: [
+                                ['Blow Away',       'Random 1']
+                            ]
+                        },
+                        {
+                            type: '<50%, on atk',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['enrage',          '99+T, 2x']
+                            ]
+                        },
+                        {
+                            type: '<20%, on atk',
+                            action: [
+                                ['dmg-normal',      '300x']
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     },
 
