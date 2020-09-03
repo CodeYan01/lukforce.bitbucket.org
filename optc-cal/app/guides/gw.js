@@ -392,6 +392,7 @@ var gw = {
     2823: '182929',     // X Drake
     2850: '186492',     // Rebecca & Viola
     2879: '189792',     // Vivi
+    2913: '194893',     // Shirahoshi
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

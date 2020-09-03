@@ -154,4 +154,9 @@ var tms = {
         thumb: 2879,
         info: 'i.imgur.com/puuo4dU.png'
     },
+    2913: {
+        name: 'Shirahoshi',
+        thumb: 2913,
+        info: 'i.imgur.com/QzeiQPO.png'
+    },
 };
