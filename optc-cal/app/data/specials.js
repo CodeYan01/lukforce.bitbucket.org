@@ -627,4 +627,20 @@ var specials = {
         name: 'Loguetown',
         thumb: 1983
     },
+
+    'ff_2915': {
+        type: 'Flame-Flame Fruit',
+        name: 'Rebecca',
+        thumb: 2915
+    },
+    'ff_2917': {
+        type: 'Flame-Flame Fruit',
+        name: 'Burgess',
+        thumb: 2917
+    },
+    'ff_2918': {
+        type: 'Flame-Flame Fruit',
+        name: 'Diamante',
+        thumb: 2918
+    },
 }

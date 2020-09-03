@@ -446,6 +446,10 @@ var gw = {
     'wj_2827': '183898',// World Journey Mihawk
     'wj_2829': '183899',// World Journey Crocodile
 
+    'ff_2915': '196357',// Flame-Flame Fruit Rebecca
+    'ff_2917': '196356',// Flame-Flame Fruit Burgess
+    'ff_2918': '196358',// Flame-Flame Fruit Diamante
+
     'rk_2672': '191098',// Dmg Ranking Stampede Luffy
 
     'rk_0447': '99411', // 1 Turn Dmg Ranking Blackbeard

@@ -446,6 +446,10 @@ var nakama = {
     'wj_2827': '6282500',   // World Journey Mihawk
     'wj_2829': '6282500',   // World Journey Crocodile
 
+    'ff_2915': '6291500',   // Flame-Flame Fruit Rebecca
+    'ff_2917': '6291500',   // Flame-Flame Fruit Burgess
+    'ff_2918': '6291500',   // Flame-Flame Fruit Diamante
+
     'se_2138': '6213800',   // Super Evolve Germa 66
     'se_2232': '6223200',   // Super Evolve Eneru
     'se_2245': '6230000',   // Super Evolve Sanji

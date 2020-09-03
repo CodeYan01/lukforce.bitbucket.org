@@ -32,7 +32,7 @@ var tm_boosters = [
     2850,
     2879,
 
-    // ===== ? =====
+    // ===== Shirahoshi =====
     // Raids
     2885,
     2893,
@@ -45,4 +45,16 @@ var tm_boosters = [
     // Others
     2890,
     2891,
+
+    // ===== ? =====
+    // Raids
+
+    // Coliseums
+
+    // FNs
+
+    // Others
+    2915,
+    2917,
+    2918,
 ]
