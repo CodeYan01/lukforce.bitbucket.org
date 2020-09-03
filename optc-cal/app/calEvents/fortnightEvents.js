@@ -2589,4 +2589,47 @@ var fortnightEvents = [
         end: '2020-07-27',
         is_replay: true
     },
+
+    // #############################
+    {
+        id: 2253,
+        start: '2020-09-09',
+        end: '2020-09-14',
+        is_replay: true
+    },
+    {
+        id: 2253,
+        start: '2020-09-14',
+        is_replay: true
+    },
+    {
+        id: [2253, 2351],
+        start: '2020-09-15',
+        end: '2020-09-21',
+        is_replay: true
+    },
+    {
+        id: [2253, 2351],
+        start: '2020-09-21',
+        end: '2020-09-23',
+        is_replay: true
+    },
+    {
+        id: 2253,
+        start: '2020-09-23',
+        end: '2020-09-28',
+        is_replay: true
+    },
+    {
+        id: 2253,
+        start: '2020-09-28',
+        end: '2020-10-05',
+        is_replay: true
+    },
+    {
+        id: 2253,
+        start: '2020-10-05',
+        end: '2020-10-07',
+        is_replay: true
+    },
 ];
