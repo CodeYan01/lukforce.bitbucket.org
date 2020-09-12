@@ -55,4 +55,9 @@ var kizunas = {
         thumb: 2890,
         xch_id: 2891
     },
+    2920: {
+        name: 'Big Mom',
+        thumb: 2920,
+        xch_id: 2831
+    },
 };

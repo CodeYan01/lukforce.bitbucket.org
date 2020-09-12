@@ -407,6 +407,7 @@ var gw = {
     2812: '181589',     // O-Kiku
     2831: '184123',     // Marco & Ace (Round 1)
     2890: '192194',     // Moria (Jigoro & Dog Penguin)
+    2920: '197807',     // Big Mom
 
     // Events
     'bb_1314': '61665', // Three Admirals
