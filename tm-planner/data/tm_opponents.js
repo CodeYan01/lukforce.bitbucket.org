@@ -3340,4 +3340,199 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Jinbe ==========
+    3094: {
+        3067: {
+            name: 'Nami',
+            type: 'PSY',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Nami', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '6T, Row 2'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3078: {
+            name: 'Brook',
+            type: 'PSY',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Brook', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['para',            '3T'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '20,000']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3080: {
+            name: 'Carrot',
+            type: 'PSY',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Carrot', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['atk-down',        '5T, 90%'],
+                                ['def-perc',        '5T, 80%'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3081: {
+            name: 'Chobro',
+            type: 'STR',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Chobro', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['Confusion',       'Row 2'],
+                                ['silence',         '5T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3094: {
+            name: 'Jinbe',
+            type: 'PSY',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['para',            '2T'],
+                                ['atk-down',        '5T, 90%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Jinbe', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '4T, Row 1'],
+                                ['chain-down',      '3T, 0.1x'],
+                                ['def',             '5T, 2000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2919: {
+            name: 'Sanji & Pudding',
+            type: '?',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, STR/PSY/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['burn',            '3T, 5000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Sanji & Pudding', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['Special Limit',   '1T, 3x'],
+                                ['def-thres',       '5T, 99%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };

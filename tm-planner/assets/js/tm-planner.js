@@ -336,11 +336,13 @@ function getBoosters(tmId, server) {
         server == 'jpn' &&
         (
             tmId == 2995 ||
-            tmId == 3022
+            tmId == 3022 ||
+            tmId == 3094
         )
     ) {
         // TM Zorojuro
         // TM Reiju
+        // TM Jinbe
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -576,7 +578,8 @@ function init(tmId, server) {
         tmId == 2977 ||
         tmId == 2995 ||
         tmId == 3022 ||
-        tmId == 3060
+        tmId == 3060 ||
+        tmId == 3094
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
@@ -675,7 +678,9 @@ function decorateSpIcon(iconKey, isAction) {
     if (iconKey === 'Clear Buff' ||
         iconKey === 'Blow Away' ||
         iconKey === 'Slot Bind' ||
-        iconKey === 'Type Change'
+        iconKey === 'Type Change' ||
+        iconKey === 'Confusion' ||
+        iconKey === 'Special Limit'
     )
         return iconKey;
 
