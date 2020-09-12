@@ -63,6 +63,7 @@ var videoWiki = {
     2883: '',   // Bullet
     2885: '',   // CP9
     2893: 'raidboss/jinbe',
+    2922: 'raidboss/kaido',
     3370: 'raidboss/usoppchopper',
 
     1623: 'raidboss/doflamingokai',
