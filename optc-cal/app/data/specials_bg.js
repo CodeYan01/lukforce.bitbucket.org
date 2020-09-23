@@ -95,6 +95,9 @@ var specials_bg = {
     'cyo': {
         thumb: 'cyo'
     },
+    'pf_flag': {
+        thumb: 'pf_flag'
+    },
     'train_drink': {
         thumb: 'train_drink'
     },

@@ -3074,9 +3074,15 @@ var specialBgEvents = [
         end: '2020-09-29'
     },
     {
-        id: 'ray_exp',
+        id: 'ray_exp2',
         start: '2020-09-23',
         end: '2020-09-29',
+        pst_19: true
+    },
+    {
+        id: 'pf_flag',
+        start: '2020-09-23',
+        end: '2020-10-02',
         pst_19: true
     },
 ]
