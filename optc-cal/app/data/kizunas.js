@@ -60,4 +60,9 @@ var kizunas = {
         thumb: 2920,
         xch_id: 2831
     },
+    2955: {
+        name: 'Carrot',
+        thumb: 2955,
+        xch_id: 2831
+    },
 };

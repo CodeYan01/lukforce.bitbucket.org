@@ -409,6 +409,7 @@ var gw = {
     2831: '184123',     // Marco & Ace (Round 1)
     2890: '192194',     // Moria (Jigoro & Dog Penguin)
     2920: '197807',     // Big Mom
+    2955: '201494',     // Carrot
 
     // Events
     'bb_1314': '61665', // Three Admirals

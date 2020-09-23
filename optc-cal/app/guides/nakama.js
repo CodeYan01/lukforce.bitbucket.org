@@ -409,6 +409,7 @@ var nakama = {
     2831: '',           // Marco & Ace (Round 1)
     2890: '9289000',    // Moria (Jigoro & Dog Penguin)
     2920: '9292000',    // Big Mom
+    2955: '9295500',    // Carrot
 
     // Events
     'bb_1314': '6131400',   // Three Admirals
