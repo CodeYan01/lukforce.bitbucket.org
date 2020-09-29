@@ -3130,4 +3130,16 @@ var specialBgEvents = [
         id: 'free_pull',
         start: '2020-10-13'
     },
+    {
+        id: 'snail_gem',
+        start: '2020-09-29',
+        end: '2020-10-06',
+        pst_19: true
+    },
+    {
+        id: 'snail_meat',
+        start: '2020-10-06',
+        end: '2020-10-14',
+        pst_19: true
+    },
 ]

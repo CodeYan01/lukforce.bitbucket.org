@@ -41,6 +41,9 @@ var specials_bg = {
     'snail_easter_egg': {
         thumb: 'snail_easter_egg'
     },
+    'snail_gem': {
+        thumb: 'snail_gem'
+    },
     'sugo': {
         thumb: 'sugo'
     },
