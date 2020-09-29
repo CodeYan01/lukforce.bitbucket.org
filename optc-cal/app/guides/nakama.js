@@ -351,6 +351,7 @@ var nakama = {
     2845: '5284401',    // Sangoro
     2869: '5286901',    // Komurasaki
     2908: '5290801',    // Inuarashi v2
+    2953: '5295301',    // Kizaru
 
     1863: '5186201',    // Kinemon (N)
     1899: '5189801',    // Killer (N)

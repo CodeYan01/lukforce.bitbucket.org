@@ -351,6 +351,7 @@ var wiki = {
     2845: '',                               // Sangoro
     2869: '',                               // Komurasaki
     2908: '',                               // Inuarashi v2
+    2953: '',                               // Kizaru
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
