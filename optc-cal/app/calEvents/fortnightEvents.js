@@ -2617,19 +2617,48 @@ var fortnightEvents = [
     {
         id: 2253,
         start: '2020-09-23',
-        end: '2020-09-28',
+        end: '2020-09-27',
         is_replay: true
     },
     {
-        id: 2253,
+        id: [2253, 2519, 2524],
+        start: '2020-09-27',
+        is_replay: true
+    },
+    {
+        id: [2253, 2519, 2524],
         start: '2020-09-28',
         end: '2020-10-05',
         is_replay: true
     },
     {
-        id: 2253,
+        id: [2253, 2519, 2524],
         start: '2020-10-05',
         end: '2020-10-07',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-10-07',
+        end: '2020-10-12',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-10-12',
+        end: '2020-10-19',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-10-19',
+        end: '2020-10-26',
+        is_replay: true
+    },
+    {
+        id: [2519, 2524],
+        start: '2020-10-26',
+        end: '2020-10-31',
         is_replay: true
     },
 ];
