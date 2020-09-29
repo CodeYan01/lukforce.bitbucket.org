@@ -214,6 +214,7 @@ var wiki = {
     2885: '',                               // CP9
     2893: '',                               // Jinbe
     2922: '',                               // Kaido
+    2956: '',                               // Mr. 0
     3370: 'wiki/raidboss/usoppchopper',
 
     1623: 'wiki/raidboss/doffykai',
