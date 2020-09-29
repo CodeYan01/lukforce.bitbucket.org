@@ -3085,4 +3085,32 @@ var specialBgEvents = [
         end: '2020-10-02',
         pst_19: true
     },
+    {
+        id: 'sp_100',
+        start: '2020-09-29',
+        pst_19: true
+    },
+    {
+        id: 'sp_100',
+        start: '2020-10-06',
+        pst_19: true
+    },
+    {
+        id: '3rd_anni_ship',
+        start: '2020-09-29',
+        end: '2020-10-06',
+        pst_19: true
+    },
+    {
+        id: '3rd_anni_ship_sp',
+        start: '2020-10-06',
+        end: '2020-10-14',
+        pst_19: true
+    },
+    {
+        id: '3rd_anni_ship',
+        start: '2020-10-14',
+        end: '2020-10-30',
+        pst_19: true
+    },
 ]

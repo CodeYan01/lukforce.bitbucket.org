@@ -11,6 +11,9 @@ var specials_bg = {
     'sp_x5': {
         thumb: 'sp_x5'
     },
+    'sp_100': {
+        thumb: 'sp_100'
+    },
     'ss': {
         thumb: 'ss'
     },
