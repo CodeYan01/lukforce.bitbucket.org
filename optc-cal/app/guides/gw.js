@@ -445,6 +445,8 @@ var gw = {
     'ap_2843': '184761',// Anniversary Party Perona
     'ec_1983': '189644',// Escape! Loguetown
 
+    'ev_2957': '202523',// Treasure Hunt of the Powerful
+
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
 

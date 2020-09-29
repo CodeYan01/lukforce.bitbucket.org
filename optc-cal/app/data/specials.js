@@ -653,4 +653,10 @@ var specials = {
         name: 'Diamante',
         thumb: 2918
     },
+
+    'ev_2957': {
+        type: 'Special Event',
+        name: 'Treasure Hunt of the Powerful',
+        thumb: 2957
+    },
 }
