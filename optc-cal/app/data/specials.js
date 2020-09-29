@@ -620,6 +620,11 @@ var specials = {
         name: 'Mihawk/Perona, Rayleigh v3',
         thumb: 2897
     },
+    'si_2964': {
+        type: 'Skillbook Island',
+        name: 'Snakeman, Sabo, Katakuri, Blackbeard',
+        thumb: 2964
+    },
 
     'ap_2843': {
         type: 'Anniversary Party',

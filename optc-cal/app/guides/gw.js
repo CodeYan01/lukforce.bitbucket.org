@@ -491,4 +491,5 @@ var gw = {
     'si_2835': '184722',// Skillbook Island Nami/Robin, Pudding
     'si_2860': '188625',// Skillbook Island Red-Hair Pirates, Arlong Pirates, Law v3
     'si_2897': '193906',// Skillbook Island Mihawk/Perona, Rayleigh v3
+    'si_2964': '202519',// Skillbook Island Snakeman, Sabo, Katakuri, Blackbeard
 };
