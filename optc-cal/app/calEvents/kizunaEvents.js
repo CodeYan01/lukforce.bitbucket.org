@@ -79,22 +79,12 @@ var kizunaEvents = [
     {
         id: 2733,
         start: '2020-04-26',
-        pst_19: true
-    },
-    {
-        id: 2733,
-        start: '2020-04-27',
         end: '2020-05-02',
         pst_19: true
     },
     {
         id: 2794,
         start: '2020-05-10',
-        pst_19: true
-    },
-    {
-        id: 2794,
-        start: '2020-05-11',
         end: '2020-05-16',
         pst_19: true
     },
@@ -107,13 +97,22 @@ var kizunaEvents = [
     {
         id: 2831,
         start: '2020-06-16',
-        end: '2020-06-22',
+        end: '2020-06-21',
+        pst_19: true
+    },
+    {
+        id: 2831,
+        start: '2020-06-21',
         pst_19: true
     },
     {
         id: 2890,
         start: '2020-08-15',
-        end: '2020-08-17',
+        pst_19: true
+    },
+    {
+        id: 2890,
+        start: '2020-08-16',
         pst_19: true
     },
     {
@@ -125,19 +124,24 @@ var kizunaEvents = [
     {
         id: 2920,
         start: '2020-09-17',
-        end: '2020-09-21',
+        end: '2020-09-20',
         pst_19: true
     },
     {
         id: 2920,
-        start: '2020-09-21',
+        start: '2020-09-20',
         end: '2020-09-23',
         pst_19: true
     },
     {
         id: 2955,
         start: '2020-10-01',
-        end: '2020-10-05',
+        end: '2020-10-04',
+        pst_19: true
+    },
+    {
+        id: 2955,
+        start: '2020-10-04',
         pst_19: true
     },
 ]

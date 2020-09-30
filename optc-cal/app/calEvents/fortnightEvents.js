@@ -2422,18 +2422,18 @@ var fortnightEvents = [
     {
         id: 2751,
         start: '2020-04-13',
-        end: '2020-04-20',
+        end: '2020-04-19',
         is_replay: false
     },
     {
         id: 2751,
-        start: '2020-04-20',
-        end: '2020-04-27',
+        start: '2020-04-19',
+        end: '2020-04-26',
         is_replay: false
     },
     {
         id: 2751,
-        start: '2020-04-27',
+        start: '2020-04-26',
         end: '2020-04-30',
         is_replay: false
     },
@@ -2481,48 +2481,48 @@ var fortnightEvents = [
     {
         id: [681, 683, 685, 1199, 1201],
         start: '2020-04-22',
-        end: '2020-04-27',
+        end: '2020-04-26',
         is_replay: true
     },
     {
         id: [681, 683, 685, 1199, 1201],
-        start: '2020-04-27',
-        end: '2020-05-04',
+        start: '2020-04-26',
+        end: '2020-05-03',
         is_replay: true
     },
     {
         id: [681, 683, 685, 1199, 1201],
-        start: '2020-05-04',
-        end: '2020-05-11',
+        start: '2020-05-03',
+        end: '2020-05-10',
         is_replay: true
     },
     {
         id: [681, 683, 685, 1199, 1201],
-        start: '2020-05-11',
+        start: '2020-05-10',
         end: '2020-05-14',
         is_replay: true
     },
     {
         id: [1709, 1711, 2215, 2217],
         start: '2020-04-22',
-        end: '2020-04-27',
+        end: '2020-04-26',
         is_replay: true
     },
     {
         id: [1709, 1711, 2215, 2217],
-        start: '2020-04-27',
-        end: '2020-05-04',
+        start: '2020-04-26',
+        end: '2020-05-03',
         is_replay: true
     },
     {
         id: [1709, 1711, 2215, 2217],
-        start: '2020-05-04',
-        end: '2020-05-11',
+        start: '2020-05-03',
+        end: '2020-05-10',
         is_replay: true
     },
     {
         id: [1709, 1711, 2215, 2217],
-        start: '2020-05-11',
+        start: '2020-05-10',
         end: '2020-05-14',
         is_replay: true
     },
@@ -2531,43 +2531,48 @@ var fortnightEvents = [
     {
         id: 2782,
         start: '2020-04-30',
-        end: '2020-05-04',
+        end: '2020-05-03',
         is_replay: false
     },
     {
         id: 2782,
-        start: '2020-05-04',
-        end: '2020-05-11',
+        start: '2020-05-03',
+        end: '2020-05-10',
         is_replay: false
     },
     {
         id: 2782,
-        start: '2020-05-11',
-        end: '2020-05-18',
+        start: '2020-05-10',
+        end: '2020-05-17',
         is_replay: false
     },
     {
         id: 2782,
-        start: '2020-05-18',
-        end: '2020-05-25',
+        start: '2020-05-17',
+        end: '2020-05-24',
         is_replay: false
     },
     {
         id: 2782,
-        start: '2020-05-25',
-        end: '2020-06-01',
+        start: '2020-05-24',
+        end: '2020-05-31',
         is_replay: false
     },
     {
         id: 2782,
-        start: '2020-06-01',
-        end: '2020-06-08',
+        start: '2020-05-31',
+        end: '2020-06-07',
         is_replay: false
     },
     {
         id: 2782,
-        start: '2020-06-08',
-        end: '2020-06-15',
+        start: '2020-06-07',
+        end: '2020-06-14',
+        is_replay: false
+    },
+    {
+        id: 2782,
+        start: '2020-06-14',
         is_replay: false
     },
 
@@ -2575,18 +2580,18 @@ var fortnightEvents = [
     {
         id: [2633, 2635, 2665],
         start: '2020-07-12',
+        end: '2020-07-19',
         is_replay: true
     },
     {
         id: [2633, 2635, 2665],
-        start: '2020-07-13',
-        end: '2020-07-20',
+        start: '2020-07-19',
+        end: '2020-07-26',
         is_replay: true
     },
     {
         id: [2633, 2635, 2665],
-        start: '2020-07-20',
-        end: '2020-07-27',
+        start: '2020-07-26',
         is_replay: true
     },
 
@@ -2594,23 +2599,24 @@ var fortnightEvents = [
     {
         id: 2253,
         start: '2020-09-09',
-        end: '2020-09-14',
+        end: '2020-09-13',
         is_replay: true
     },
     {
         id: 2253,
-        start: '2020-09-14',
+        start: '2020-09-13',
+        end: '2020-09-15',
         is_replay: true
     },
     {
         id: [2253, 2351],
         start: '2020-09-15',
-        end: '2020-09-21',
+        end: '2020-09-20',
         is_replay: true
     },
     {
         id: [2253, 2351],
-        start: '2020-09-21',
+        start: '2020-09-20',
         end: '2020-09-23',
         is_replay: true
     },
@@ -2623,41 +2629,36 @@ var fortnightEvents = [
     {
         id: [2253, 2519, 2524],
         start: '2020-09-27',
+        end: '2020-10-04',
         is_replay: true
     },
     {
         id: [2253, 2519, 2524],
-        start: '2020-09-28',
-        end: '2020-10-05',
-        is_replay: true
-    },
-    {
-        id: [2253, 2519, 2524],
-        start: '2020-10-05',
+        start: '2020-10-04',
         end: '2020-10-07',
         is_replay: true
     },
     {
         id: [2519, 2524],
         start: '2020-10-07',
-        end: '2020-10-12',
+        end: '2020-10-11',
         is_replay: true
     },
     {
         id: [2519, 2524],
-        start: '2020-10-12',
-        end: '2020-10-19',
+        start: '2020-10-11',
+        end: '2020-10-18',
         is_replay: true
     },
     {
         id: [2519, 2524],
-        start: '2020-10-19',
-        end: '2020-10-26',
+        start: '2020-10-18',
+        end: '2020-10-25',
         is_replay: true
     },
     {
         id: [2519, 2524],
-        start: '2020-10-26',
+        start: '2020-10-25',
         end: '2020-10-31',
         is_replay: true
     },
