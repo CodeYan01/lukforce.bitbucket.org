@@ -159,4 +159,9 @@ var tms = {
         thumb: 2913,
         info: 'i.imgur.com/QzeiQPO.png'
     },
+    2977: {
+        name: 'Anni Luffy',
+        thumb: 2977,
+        info: 'i.imgur.com/GpV102s.png'
+    },
 };

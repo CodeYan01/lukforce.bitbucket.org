@@ -396,6 +396,7 @@ var nakama = {
     2850: '8285000',    // Rebecca & Viola
     2879: '8287900',    // Vivi
     2913: '8291300',    // Shirahoshi
+    2977: '8297700',    // Anni Luffy
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
