@@ -3535,4 +3535,38 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Pudding ==========
+    3115: {
+        2294: {
+            name: 'Katakuri',
+            type: 'DEX',
+            pos: 3
+        },
+        2741: {
+            name: 'Ace',
+            type: 'INT',
+            pos: 1
+        },
+        2745: {
+            name: 'Reiju',
+            type: 'PSY',
+            pos: 0
+        },
+        2749: {
+            name: 'Luffy',
+            type: 'INT',
+            pos: 2
+        },
+        3115: {
+            name: 'Pudding',
+            type: 'INT',
+            pos: 4
+        },
+        2758: {
+            name: 'Sabo',
+            type: 'INT',
+            pos: 5
+        }
+    },
 };

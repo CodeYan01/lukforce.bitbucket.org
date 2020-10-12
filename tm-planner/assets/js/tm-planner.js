@@ -326,7 +326,7 @@ function getBoosters(tmId, server) {
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
     } else if (server == 'jpn' && tmId == 2977) {
-        // TM Luffy (6th Anni)
+        // TM Anni Luffy
         $('#div_2x').show();
         $('#div_1_4x_v2').show();
         $('#div_1_35x_v4').show();
@@ -339,12 +339,14 @@ function getBoosters(tmId, server) {
         (
             tmId == 2995 ||
             tmId == 3022 ||
-            tmId == 3094
+            tmId == 3094 ||
+            tmId == 3115
         )
     ) {
         // TM Zorojuro
         // TM Reiju
         // TM Jinbe
+        // TM Pudding
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -581,7 +583,8 @@ function init(tmId, server) {
         tmId == 2995 ||
         tmId == 3022 ||
         tmId == 3060 ||
-        tmId == 3094
+        tmId == 3094 ||
+        tmId == 3115
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
