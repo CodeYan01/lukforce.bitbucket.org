@@ -118,7 +118,8 @@ function getBoosters(tmId, server) {
             tmId == 2823 ||
             tmId == 2850 ||
             tmId == 2879 ||
-            tmId == 2913
+            tmId == 2913 ||
+            tmId == 2977
         )
     ) {
         // TM Smoothie & Oven
@@ -135,6 +136,7 @@ function getBoosters(tmId, server) {
         // TM Rebecca & Viola
         // TM Vivi
         // TM Shirahoshi
+        // TM Anni Luffy
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();

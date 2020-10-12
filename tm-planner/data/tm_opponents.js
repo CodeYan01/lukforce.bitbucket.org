@@ -2298,7 +2298,7 @@ var tm_opponents = {
         }
     },
 
-    // ========== Luffy (6th Anni) ==========
+    // ========== Anni Luffy ==========
     2977: {
         1707: {
             name: 'Shanks',
