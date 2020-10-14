@@ -815,14 +815,22 @@ function populateUnitDetail(unitId) {
             $('#unit-detail-special').empty();
 
             // Parse CD
-            var baseCd = cooldowns[unitId - 1][1];
+            var baseCd = 'N/A';
+            if (cooldowns[unitId - 1])
+                baseCd = cooldowns[unitId - 1][1];
             var lbStats = parseLbStats(unitId);
 
-            $('#unit-detail-sp-cd').html('[Base|LB] <span class="unit-detail-sp-cd-num">' + (baseCd - lbStats.cd) + '</span>');
+            var baseLbCd = 'N/A';
+            if (baseCd !== 'N/A')
+                baseLbCd = baseCd - lbStats.cd;
+            $('#unit-detail-sp-cd').html('[Base|LB] <span class="unit-detail-sp-cd-num">' + baseLbCd + '</span>');
 
-            if (lbStats.cdEx !== 0)
-                $('#unit-detail-sp-cd-ex').html('→ [LB+] <span class="unit-detail-sp-cd-num">' + (baseCd - lbStats.cd - lbStats.cdEx)) + '</span>';
-            else
+            if (lbStats.cdEx !== 0) {
+                var baseLbExCd = 'N/A';
+                if (baseCd !== 'N/A')
+                    baseLbExCd = baseLbCd - lbStats.cdEx;
+                $('#unit-detail-sp-cd-ex').html('→ [LB+] <span class="unit-detail-sp-cd-num">' + baseLbExCd + '</span>');
+            } else
                 $('#unit-detail-sp-cd-ex').empty();
 
             if (Array.isArray(special)) {
