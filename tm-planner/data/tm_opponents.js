@@ -3540,33 +3540,187 @@ var tm_opponents = {
     3115: {
         2294: {
             name: 'Katakuri',
-            type: 'DEX',
-            pos: 3
+            type: 'INT',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Katakuri', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['blind',           '?T'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['bind',            '7T, Row 2 3'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2741: {
             name: 'Ace',
-            type: 'INT',
-            pos: 1
+            type: 'PSY',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Ace', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def',             '5T, 1000x'],
+                                ['para',            '5T'],
+                                ['slot-change',     'Bad'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2745: {
             name: 'Reiju',
-            type: 'PSY',
-            pos: 0
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Reiju', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '3T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2749: {
             name: 'Luffy',
-            type: 'INT',
-            pos: 2
+            type: 'PSY',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Luffy', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '5T, 80%'],
+                                ['burn',            '5T, 3000'],
+                                ['para',            '4T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         3115: {
             name: 'Pudding',
-            type: 'INT',
-            pos: 4
+            type: 'PSY',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['atk-down',        '3T, 90%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Pudding', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def-thres',       '5T, 99%, 1000'],
+                                ['def-perc',        '5T, 80%'],
+                                ['para',            '5T, Col 2'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2758: {
             name: 'Sabo',
-            type: 'INT',
-            pos: 5
+            type: 'PSY',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '5T, Row 1'],
+                                ['slot-change',     'EMPTY'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Sabo', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['chain-down',      '5T, 0.1x'],
+                                ['desp',            '5T'],
+                                ['cd-rew',          '1T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
         }
     },
 };
