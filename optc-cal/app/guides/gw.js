@@ -489,6 +489,7 @@ var gw = {
     'ca_2714': '170434',// Clash Assist Paulie
 
     'ka_2833': '183973',// Kizuna Assist Sengoku
+    'ka_2852': '186699',// Kizuna Assist Ivankov
     'ka_2921': '197088',// Kizuna Assist Judge
 
     'si_2802': '181636',// Skillbook Island Luffy/Zoro, Soba Mask

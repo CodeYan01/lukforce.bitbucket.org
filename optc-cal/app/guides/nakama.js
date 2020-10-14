@@ -480,6 +480,7 @@ var nakama = {
     'ca_2714': '2271400',   // Clash Assist Paulie
 
     'ka_2833': '2283300',   // Kizuna Assist Sengoku
+    'ka_2852': '2285200',   // Kizuna Assist Ivankov
     'ka_2921': '2292100',   // Kizuna Assist Judge
 
     'si_2802': '',          // Skillbook Island Luffy/Zoro, Soba Mask

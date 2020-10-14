@@ -560,6 +560,11 @@ var specials = {
         name: 'Sengoku',
         thumb: 2833
     },
+    'ka_2852': {
+        type: 'Kizuna Assist',
+        name: 'Ivankov',
+        thumb: 2852
+    },
     'ka_2921': {
         type: 'Kizuna Assist',
         name: 'Judge',
