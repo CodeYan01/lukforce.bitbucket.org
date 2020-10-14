@@ -40,7 +40,7 @@ var filter_map_sp = {
     'atk-red-e':                /(removes|reduces).+ATK UP.+duration/i,
     'def-red-e':                /(removes|reduces).+Increased Defense.+duration/i,
     'def-perc-red-e':           /(removes|reduces).+Percent Damage Reduction.+duration/i,
-    'def-thres-red-e':          /(removes|reduces).+Threshold Damage Reduction.+duration/i,
+    'def-thres-red-e':          /(removes|reduce|reduces).+Threshold Damage Reduction.+duration/i,
     'def-null-red-e':           /(removes|reduces).+Damage Nullification.+duration/i,
     'bar-red-e':                /(removes|reduces).+Barrier .*duration/i,
     'resil-red-e':              /(removes|reduces).+Resilience.+duration/i,
