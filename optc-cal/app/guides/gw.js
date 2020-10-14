@@ -410,6 +410,7 @@ var gw = {
     2794: '180261',     // Christmas Shirahoshi
     2812: '181589',     // O-Kiku
     2831: '184123',     // Marco & Ace (Round 1)
+    2854: '186886',     // Koala
     2890: '192194',     // Moria (Jigoro & Dog Penguin)
     2920: '197807',     // Big Mom
     2955: '201494',     // Carrot

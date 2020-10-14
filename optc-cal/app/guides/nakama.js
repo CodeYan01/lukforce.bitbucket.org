@@ -410,6 +410,7 @@ var nakama = {
     2794: '9279400',    // Christmas Shirahoshi
     2812: '9281200',    // O-Kiku
     2831: '',           // Marco & Ace (Round 1)
+    2854: '9285401',    // Koala
     2890: '9289000',    // Moria (Jigoro & Dog Penguin)
     2920: '9292000',    // Big Mom
     2955: '9295500',    // Carrot

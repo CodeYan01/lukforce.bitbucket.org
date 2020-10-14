@@ -50,6 +50,11 @@ var kizunas = {
         name: 'Marco & Ace',
         thumb: 2831
     },
+    2854: {
+        name: 'Koala',
+        thumb: 2854,
+        xch_id: 2831
+    },
     2890: {
         name: 'Moria',
         thumb: 2890,
@@ -62,7 +67,6 @@ var kizunas = {
     },
     2955: {
         name: 'Carrot',
-        thumb: 2955,
-        xch_id: 2831
+        thumb: 2955
     },
 };
