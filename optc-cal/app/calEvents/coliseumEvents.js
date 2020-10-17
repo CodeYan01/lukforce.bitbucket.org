@@ -4880,4 +4880,58 @@ var coliseumEvents = [
         start: '2020-10-16',
         new_batch: false
     },
+
+    // ##############################
+    {
+        newId: [2953],
+        repId: [2323, 2569, 2721, 2845],
+        start: '2020-10-17',
+        new_batch: true
+    },
+    {
+        newId: [2953],
+        repId: [2323, 2569, 2721, 2845],
+        start: '2020-10-20',
+        end: '2020-10-22',
+        new_batch: true
+    },
+    {
+        newId: [2953],
+        repId: [2323, 2569, 2721, 2845],
+        start: '2020-10-24',
+        new_batch: true
+    },
+    {
+        newId: [2953],
+        repId: [2323, 2569, 2721, 2845],
+        start: '2020-10-27',
+        end: '2020-10-29',
+        new_batch: true
+    },
+
+    // ##############################
+    {
+        newId: [2953],
+        repId: [1733, 1897, 2813, 1378],
+        start: '2020-10-19',
+        new_batch: false
+    },
+    {
+        newId: [2953],
+        repId: [1733, 1897, 2813, 1378],
+        start: '2020-10-23',
+        new_batch: false
+    },
+    {
+        newId: [2953],
+        repId: [1733, 1897, 2813, 1378],
+        start: '2020-10-26',
+        new_batch: false
+    },
+    {
+        newId: [2953],
+        repId: [1733, 1897, 2813, 1378],
+        start: '2020-10-30',
+        new_batch: false
+    },
 ]
