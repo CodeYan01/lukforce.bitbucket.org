@@ -3110,7 +3110,7 @@ var specialBgEvents = [
     {
         id: '3rd_anni_ship',
         start: '2020-10-14',
-        end: '2020-10-30',
+        end: '2020-11-11',
         pst_19: true
     },
     {
@@ -3150,5 +3150,23 @@ var specialBgEvents = [
     {
         id: 'free_pull',
         start: '2020-10-26'
+    },
+    {
+        id: 'snail_gem',
+        start: '2020-10-26',
+        end: '2020-11-05',
+        pst_19: true
+    },
+    {
+        id: 'snail_meat',
+        start: '2020-11-05',
+        end: '2020-11-11',
+        pst_19: true
+    },
+    {
+        id: 'sp',
+        start: '2020-11-05',
+        end: '2020-11-11',
+        pst_19: true
     },
 ]
