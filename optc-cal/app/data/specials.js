@@ -630,6 +630,11 @@ var specials = {
         name: 'Snakeman, Sabo, Katakuri, Blackbeard',
         thumb: 2964
     },
+    'si_2982': {
+        type: 'Skillbook Island',
+        name: 'Kid, Hawkins',
+        thumb: 2982
+    },
 
     'ap_2843': {
         type: 'Anniversary Party',
