@@ -2662,4 +2662,29 @@ var fortnightEvents = [
         end: '2020-10-31',
         is_replay: true
     },
+
+    // #############################
+    {
+        id: 2782,
+        start: '2020-11-08',
+        end: '2020-11-15',
+        is_replay: true
+    },
+    {
+        id: 2782,
+        start: '2020-11-15',
+        end: '2020-11-22',
+        is_replay: true
+    },
+    {
+        id: 2782,
+        start: '2020-11-22',
+        end: '2020-11-29',
+        is_replay: true
+    },
+    {
+        id: 2782,
+        start: '2020-11-29',
+        is_replay: true
+    },
 ];
