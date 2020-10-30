@@ -354,6 +354,7 @@ var wiki = {
     2869: '',                               // Komurasaki
     2908: '',                               // Inuarashi v2
     2953: '',                               // Kizaru
+    2990: '',                               // King
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
