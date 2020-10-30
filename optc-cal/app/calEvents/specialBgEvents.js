@@ -3158,6 +3158,11 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'sugo_tm',
+        start: '2020-11-05',
+        end: '2020-11-11'
+    },
+    {
         id: 'snail_meat',
         start: '2020-11-05',
         end: '2020-11-11',
