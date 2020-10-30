@@ -215,6 +215,7 @@ var wiki = {
     2893: '',                               // Jinbe
     2922: '',                               // Kaido
     2956: '',                               // Mr. 0
+    2987: '',                               // Soba Mask
     3370: 'wiki/raidboss/usoppchopper',
 
     1623: 'wiki/raidboss/doffykai',

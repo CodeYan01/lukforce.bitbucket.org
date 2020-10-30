@@ -34,8 +34,9 @@ var tm_boosters = [
     2913,
     2977,
 
-    // ===== ? =====
+    // ===== Zorojuro =====
     // Raids
+    2987,
 
     // Coliseums
 
