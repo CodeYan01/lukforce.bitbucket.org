@@ -450,6 +450,7 @@ var nakama = {
     'ec_1983': '',          // Escape! Loguetown
 
     'ev_2957': '6295700',   // Treasure Hunt of the Powerful
+    'ev_2988': '6298800',   // O-Toko
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

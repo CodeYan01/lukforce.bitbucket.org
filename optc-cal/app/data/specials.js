@@ -669,4 +669,9 @@ var specials = {
         name: 'Treasure Hunt of the Powerful',
         thumb: 2957
     },
+    'ev_2988': {
+        type: 'Special Event',
+        name: 'O-Toko',
+        thumb: 2988
+    },
 }

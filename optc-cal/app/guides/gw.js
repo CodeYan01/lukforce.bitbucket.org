@@ -450,6 +450,7 @@ var gw = {
     'ec_1983': '189644',// Escape! Loguetown
 
     'ev_2957': '202523',// Treasure Hunt of the Powerful
+    'ev_2988': '205053',// O-Toko
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
