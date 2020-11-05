@@ -22,7 +22,7 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // WB 6+
+        {   // Whitebeard 6+
             id: 1413,
             type: 'legend',
             x_pts: 1.2
@@ -380,7 +380,7 @@ var tm_boosters = {
             id: 1851,
             x_pts: 1.35
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.35
         },
@@ -800,7 +800,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -1146,7 +1146,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -1471,7 +1471,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -1814,7 +1814,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -1957,7 +1957,7 @@ var tm_boosters = {
             id: 2039,
             x_pts: 1.35
         },
-        {   // WB
+        {   // Whitebeard
             id: 2041,
             x_pts: 1.35
         },
@@ -2314,7 +2314,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -2758,7 +2758,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -3291,7 +3291,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -3773,7 +3773,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -4248,7 +4248,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -4750,7 +4750,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -5281,7 +5281,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -5869,7 +5869,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -5934,7 +5934,7 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Young WB (N)
+        {   // Young Whitebeard (N)
             id: 3354,
             type: 'other',
             x_pts: 1.2
@@ -6358,7 +6358,7 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Young WB
+        {   // Young Whitebeard
             id: 1258,
             type: 'other',
             x_pts: 1.2
@@ -6392,7 +6392,7 @@ var tm_boosters = {
             id: 1808,
             x_pts: 1.1
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -6922,7 +6922,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -7502,7 +7502,7 @@ var tm_boosters = {
             id: 1808,
             x_pts: 1.1
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -7963,7 +7963,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -8604,7 +8604,7 @@ var tm_boosters = {
             id: 1808,
             x_pts: 1.1
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -8781,7 +8781,7 @@ var tm_boosters = {
             type: 'legend',
             x_pts: 1.2
         },
-        {   // WB & Marco
+        {   // Whitebeard & Marco
             id: 2181,
             type: 'legend',
             x_pts: 1.2
@@ -9201,7 +9201,7 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -9583,7 +9583,7 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -9623,7 +9623,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Young WB
+        {   // Young Whitebeard
             id: 1258,
             type: 'other',
             x_pts: 1.2
@@ -9653,7 +9653,7 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Young WB (N)
+        {   // Young Whitebeard (N)
             id: 3354,
             type: 'other',
             x_pts: 1.2
@@ -10074,7 +10074,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -10114,7 +10114,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Young WB
+        {   // Young Whitebeard
             id: 1258,
             type: 'other',
             x_pts: 1.2
@@ -10683,7 +10683,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -11202,7 +11202,7 @@ var tm_boosters = {
             id: 1808,
             x_pts: 1.1
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -11687,7 +11687,7 @@ var tm_boosters = {
             id: 1808,
             x_pts: 1.1
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -12083,7 +12083,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -12123,7 +12123,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Young WB
+        {   // Young Whitebeard
             id: 1258,
             type: 'other',
             x_pts: 1.2
@@ -12540,7 +12540,7 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -13027,7 +13027,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -13576,7 +13576,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -14113,7 +14113,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -14178,7 +14178,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Young WB
+        {   // Young Whitebeard
             id: 1258,
             type: 'other',
             x_pts: 1.2
@@ -14743,7 +14743,7 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             x_pts: 1.1
         },
@@ -15231,7 +15231,7 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // WB
+        {   // Whitebeard
             id: 1853,
             type: 'tm',
             x_pts: 1.2
@@ -15361,6 +15361,505 @@ var tm_boosters = {
         },
         {   // Halloween Nami
             id: 2763,
+            x_pts: 1.1
+        },
+        {   // X Drake
+            id: 2823,
+            x_pts: 1.1
+        },
+        {   // Rebecca & Viola
+            id: 2850,
+            x_pts: 1.1
+        },
+        {   // Luffy 5+
+            id: 1387,
+            x_pts: 1
+        },
+        {   // Zoro 5+
+            id: 1388,
+            x_pts: 1
+        },
+        {   // Nami 5+
+            id: 1389,
+            x_pts: 1
+        },
+        {   // Usopp 5+
+            id: 1446,
+            x_pts: 1
+        },
+        {   // Sanji 5+
+            id: 1447,
+            x_pts: 1
+        },
+        {   // Chopper 5+
+            id: 1448,
+            x_pts: 1
+        },
+        {   // Robin 5+
+            id: 1549,
+            x_pts: 1
+        },
+        {   // Franky 5+
+            id: 1550,
+            x_pts: 1
+        },
+        {   // Brook 5+
+            id: 1551,
+            x_pts: 1
+        },
+    ],
+
+    // ========== Zorojuro ==========
+    2995: [
+        {   // Kyoshiro
+            id: 2992,
+            x_pts: 2.2
+        },
+        {   // Gyukimaru
+            id: 2993,
+            x_pts: 2
+        },
+        {   // O-Kiku
+            id: 2994,
+            x_pts: 1.75
+        },
+        {   // Kid
+            id: 2980,
+            x_pts: 1.5
+        },
+        {   // Hawkins
+            id: 2982,
+            x_pts: 1.5
+        },
+        {   // Snakeman v2
+            id: 2958,
+            x_pts: 1.35
+        },
+        {   // Sabo v3
+            id: 2960,
+            x_pts: 1.35
+        },
+        {   // Katakuri v3
+            id: 2962,
+            x_pts: 1.35
+        },
+        {   // Blackbeard v2
+            id: 2964,
+            x_pts: 1.35
+        },
+        {   // Garp 6+
+            id: 2991,
+            x_pts: 1.35
+        },
+        {   // Page One
+            id: 2984,
+            x_pts: 1.35
+        },
+        {   // X Drake v2
+            id: 2986,
+            x_pts: 1.35
+        },
+        {   // KRR Belo Betty
+            id: 2853,
+            x_pts: 1.35
+        },
+        {   // PFRR Sanji
+            id: 2978,
+            x_pts: 1.35
+        },
+        {   // Soba Mask
+            id: 2987,
+            x_pts: 1.35
+        },
+        {   // King
+            id: 2990,
+            x_pts: 1.35
+        },
+        {   // Anni Luffy
+            id: 2977,
+            x_pts: 1.35
+        },
+        {   // Zorojuro
+            id: 2995,
+            x_pts: 1.35
+        },
+        {   // Koala
+            id: 2854,
+            x_pts: 1.35
+        },
+        {   // Lucci
+            id: 2989,
+            x_pts: 1.35
+        },
+        {   // Toko
+            id: 2988,
+            x_pts: 1.35
+        },
+        {   // Rayleigh v2
+            id: 1883,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Luffy & Law
+            id: 2534,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Neko & Inu
+            id: 2577,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Nami 6+
+            id: 2588,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Daruma
+            id: 1440,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Lucci
+            id: 1614,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kanjuro
+            id: 1658,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1800,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Mr. 0 & Ms. All Sunday
+            id: 2544,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Doffy
+            id: 418,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Duval
+            id: 654,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Nightmare Luffy
+            id: 795,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Caesar
+            id: 1830,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Rayleigh
+            id: 1924,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 2281,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Ace
+            id: 2394,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Lucci v2
+            id: 2670,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Croc
+            id: 2698,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Zorojuro
+            id: 2707,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 2709,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Carrot
+            id: 2781,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bonney
+            id: 2846,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // X Drake
+            id: 1091,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Lucy
+            id: 1792,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Daifuku
+            id: 2249,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Magellan
+            id: 2354,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 2416,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 2611,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 1581,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 1920,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pizza Nami
+            id: 2089,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pizza Zoro
+            id: 2092,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Dress Up Luffy
+            id: 2519,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Donald Moderate
+            id: 2666,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Cavendish
+            id: 1889,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // G4
+            id: 1916,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Sabo
+            id: 1972,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Sanji & Zoro
+            id: 2000,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Kizaru
+            id: 2064,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Big Mom
+            id: 2109,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Kaido
+            id: 2387,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Smoothie & Oven
+            id: 2469,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Shanks & Beckman
+            id: 2557,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Sakasuki & Issho
+            id: 2618,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Vivi
+            id: 2879,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Shirahoshi
+            id: 2913,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Marguerite
+            id: 1060,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Sengoku
+            id: 2283,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // O-Tama
+            id: 2815,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Ivankov
+            id: 2852,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Luffy
+            id: 2936,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 2938,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Nami
+            id: 2940,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Usopp
+            id: 2942,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 2944,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Chopper
+            id: 2946,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 2948,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 2950,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Brook
+            id: 2952,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1808,
+            x_pts: 1.1
+        },
+        {   // Whitebeard
+            id: 1853,
+            x_pts: 1.1
+        },
+        {   // Ace
+            id: 1941,
+            x_pts: 1.1
+        },
+        {   // Eneru
+            id: 2211,
+            x_pts: 1.1
+        },
+        {   // Croc
+            id: 2137,
+            x_pts: 1.1
+        },
+        {   // Jack
+            id: 2175,
+            x_pts: 1.1
+        },
+        {   // Shanks
+            id: 2261,
+            x_pts: 1.1
+        },
+        {   // Boa Hancock
+            id: 2299,
+            x_pts: 1.1
+        },
+        {   // Law
+            id: 2336,
+            x_pts: 1.1
+        },
+        {   // Christmas Nami
+            id: 2362,
+            x_pts: 1.1
+        },
+        {   // Doffy
+            id: 2443,
+            x_pts: 1.1
+        },
+        {   // Weevil
+            id: 2510,
+            x_pts: 1.1
+        },
+        {   // Lucci
+            id: 2583,
+            x_pts: 1.1
+        },
+        {   // Smoker
+            id: 2659,
+            x_pts: 1.1
+        },
+        {   // Blackbeard
+            id: 2690,
+            x_pts: 1.1
+        },
+        {   // Hawkins
+            id: 2729,
+            x_pts: 1.1
+        },
+        {   // Halloween Nami
+            id: 2763,
+            x_pts: 1.1
+        },
+        {   // O-Robi
+            id: 2792,
             x_pts: 1.1
         },
         {   // X Drake

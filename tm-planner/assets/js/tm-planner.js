@@ -119,7 +119,8 @@ function getBoosters(tmId, server) {
             tmId == 2850 ||
             tmId == 2879 ||
             tmId == 2913 ||
-            tmId == 2977
+            tmId == 2977 ||
+            tmId == 2995
         )
     ) {
         // TM Smoothie & Oven
@@ -137,6 +138,7 @@ function getBoosters(tmId, server) {
         // TM Vivi
         // TM Shirahoshi
         // TM Anni Luffy
+        // TM Zorojuro
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();
