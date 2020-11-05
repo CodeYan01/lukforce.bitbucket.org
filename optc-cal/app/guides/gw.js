@@ -399,6 +399,7 @@ var gw = {
     2879: '189792',     // Vivi
     2913: '194893',     // Shirahoshi
     2977: '203463',     // Anni Luffy
+    2995: '207706',     // Zorojuro
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

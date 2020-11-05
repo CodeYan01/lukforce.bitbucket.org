@@ -164,4 +164,9 @@ var tms = {
         thumb: 2977,
         info: 'i.imgur.com/GpV102s.png'
     },
+    2995: {
+        name: 'Zorojuro',
+        thumb: 2995,
+        info: 'i.imgur.com/uB6GQSX.png'
+    },
 };
