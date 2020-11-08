@@ -342,13 +342,15 @@ function getBoosters(tmId, server) {
             tmId == 2995 ||
             tmId == 3022 ||
             tmId == 3094 ||
-            tmId == 3115
+            tmId == 3115 ||
+            tmId == 3150
         )
     ) {
         // TM Zorojuro
         // TM Reiju
         // TM Jinbe
         // TM Pudding
+        // TM Kid
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -406,10 +408,18 @@ function getBoosters(tmId, server) {
             var class2;
 
             if (Array.isArray(unitClass[0])) {
-                // Dual Units
-                var dualClass = unitClass[2];
-                class1 = dualClass[0];
-                class2 = dualClass[1];
+                if (unitClass.length === 2) {
+                    // VS Units
+                    // TODO: Display class for both VS Units
+                    var unit1Class = unitClass[0];
+                    class1 = unit1Class[0];
+                    class1 = unit1Class[1];
+                } else {
+                    // Dual Units
+                    var dualClass = unitClass[2];
+                    class1 = dualClass[0];
+                    class2 = dualClass[1];
+                }
             } else {
                 class1 = unitClass[0];
                 class2 = unitClass[1];
@@ -586,7 +596,8 @@ function init(tmId, server) {
         tmId == 3022 ||
         tmId == 3060 ||
         tmId == 3094 ||
-        tmId == 3115
+        tmId == 3115 ||
+        tmId == 3150
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
@@ -752,11 +763,19 @@ function populateUnitDetail(unitId) {
             var class1;
             var class2;
 
-            if (unitClass[2]) {
-                // Dual Units
-                var dualClass = unitClass[2];
-                class1 = dualClass[0].replace(' ', '-').toLowerCase();
-                class2 = dualClass[1].replace(' ', '-').toLowerCase();
+            if (Array.isArray(unitClass[0])) {
+                if (unitClass.length === 2) {
+                    // VS Units
+                    // TODO: Display class for both VS Units
+                    var unit1Class = unitClass[0];
+                    class1 = unit1Class[0].replace(' ', '-').toLowerCase();
+                    class1 = unit1Class[1].replace(' ', '-').toLowerCase();
+                } else {
+                    // Dual Units
+                    var dualClass = unitClass[2];
+                    class1 = dualClass[0].replace(' ', '-').toLowerCase();
+                    class2 = dualClass[1].replace(' ', '-').toLowerCase();
+                }
             } else {
                 class1 = unitClass[0].replace(' ', '-').toLowerCase();
                 class2 = unitClass[1].replace(' ', '-').toLowerCase();

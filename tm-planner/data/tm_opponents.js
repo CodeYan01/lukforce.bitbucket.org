@@ -3723,4 +3723,38 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Kid ==========
+    3150: {
+        2787: {
+            name: 'Chopperemon',
+            type: 'INT',
+            pos: 0
+        },
+        3083: {
+            name: 'O-Kiku',
+            type: 'PSY',
+            pos: 2
+        },
+        3145: {
+            name: 'Kamazo',
+            type: 'PSY',
+            pos: 3
+        },
+        3147: {
+            name: 'Hyogoro',
+            type: 'INT',
+            pos: 1
+        },
+        3150: {
+            name: 'Kid',
+            type: 'DEX',
+            pos: 4
+        },
+        2726: {
+            name: 'Raizo',
+            type: 'PSY',
+            pos: 5
+        }
+    },
 };
