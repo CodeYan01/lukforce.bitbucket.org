@@ -417,6 +417,7 @@ var nakama = {
     2890: '9289000',    // Moria (Jigoro & Dog Penguin)
     2920: '9292000',    // Big Mom
     2955: '9295500',    // Carrot
+    2999: '9299900',    // Luffy & Hancock
 
     // Events
     'bb_1314': '6131400',   // Three Admirals
