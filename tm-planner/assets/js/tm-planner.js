@@ -792,8 +792,8 @@ function populateUnitDetail(unitId) {
         var captain = unitDetail.captain;
         if (captain) {
             if (typeof captain === 'object') {
-                if (captain.combined) {
-                    // Dual Units
+                if (captain.character1) {
+                    // Dual Units & VS Units
                     $('#unit-detail-captain-ability').empty();
 
                     var captain1 = captain.character1;
@@ -806,9 +806,12 @@ function populateUnitDetail(unitId) {
                     $('#unit-detail-captain-ability').append('<b>Character 2:</b> ' + captain2);
                     $('#unit-detail-captain-ability').append('<br />');
 
-                    var captainComb = captain.combined;
-                    captainComb = decorateStr(captainComb);
-                    $('#unit-detail-captain-ability').append('<b>Combined:</b> ' + captainComb);
+                    if (captain.combined) {
+                        // Dual Units
+                        var captainComb = captain.combined;
+                        captainComb = decorateStr(captainComb);
+                        $('#unit-detail-captain-ability').append('<b>Combined:</b> ' + captainComb);
+                    }
                 } else {
                     // Unit Captain Ability changed by Limit Break
                     var captainLb = captain['level' + (Object.keys(captain).length - 1)];
