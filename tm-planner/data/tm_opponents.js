@@ -3729,32 +3729,187 @@ var tm_opponents = {
         2787: {
             name: 'Chopperemon',
             type: 'INT',
-            pos: 0
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Chopperemon', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '2T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         3083: {
             name: 'O-Kiku',
             type: 'PSY',
-            pos: 2
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['O-Kiku', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '1T'],
+                                ['def',             '3T, 1000x'],
+                                ['resil',           '3T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         3145: {
             name: 'Kamazo',
             type: 'PSY',
-            pos: 3
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Kamazo', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'STR/DEX/QCK'],
+                                ['para',            '5T'],
+                                ['bind',            '5T, Row 1'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         3147: {
             name: 'Hyogoro',
-            type: 'INT',
-            pos: 1
+            type: 'DEX',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Hyogoro', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         3150: {
             name: 'Kid',
             type: 'DEX',
-            pos: 4
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['burn',            '4T, 5000'],
+                                ['def-perc',        '4T, 80%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Kid', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['atk-down',        '5T, 90%'],
+                                ['chain-down',      '3T, 0.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         2726: {
             name: 'Raizo',
             type: 'PSY',
-            pos: 5
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, STR/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 1'],
+                                ['slot-change',     'RCV/TND'],
+                                ['blind',           '5T'],
+                                ['silence',         '5T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Raizo', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'RCV/TND'],
+                                ['chain-lock',      '3T, 1.1x'],
+                                ['bar-p',           '2T, 1x'],
+                                ['def-thres',       '5T, 99%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
         }
     },
 };
