@@ -93,6 +93,14 @@ function getThumb(thumbId) {
     if (thumbId === 5068 || thumbId === 3385)
         return '/tm-planner/assets/img/new-thumbs/5068.png';
 
+    // Special case for thumbs not on official website
+    if (
+        thumbId === 3080 ||
+        thumbId === 3081 ||
+        thumbId > 3083 && thumbId < 3333
+    )
+        return 'https://onepiecetreasurecruise.fr/img/OPTCDB/uploads/f' + paddedThumbId + '.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
