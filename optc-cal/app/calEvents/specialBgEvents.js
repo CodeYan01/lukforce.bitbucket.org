@@ -3186,4 +3186,10 @@ var specialBgEvents = [
         end: '2020-12-03',
         pst_19: true
     },
+    {
+        id: 'ray_exp',
+        start: '2020-12-04',
+        end: '2020-12-06',
+        pst_19: true
+    },
 ]
