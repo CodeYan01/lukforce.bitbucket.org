@@ -674,4 +674,9 @@ var specials = {
         name: 'O-Toko',
         thumb: 2988
     },
+    'ev_3004': {
+        type: 'Special Event',
+        name: 'Thriller Bark Warlords',
+        thumb: 3004
+    },
 }
