@@ -205,6 +205,7 @@ var videoWiki = {
     2908: 'coliseum/inuarashiv2',
     2953: 'coliseum/borsalino',
     2990: 'coliseum/king',
+    3017: 'coliseum/gyukimaru',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

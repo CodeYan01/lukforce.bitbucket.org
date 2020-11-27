@@ -544,6 +544,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 2990
     },
+    3017: {
+        name: 'Gyukimaru',
+        chaos_only: true, // Not but new format
+        thumb: 3017
+    },
 
     // Neo Coliseums
     1863: {
