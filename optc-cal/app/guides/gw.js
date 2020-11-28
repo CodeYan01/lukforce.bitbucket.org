@@ -506,4 +506,5 @@ var gw = {
     'si_2897': '193906',// Skillbook Island Mihawk/Perona, Rayleigh v3
     'si_2964': '202519',// Skillbook Island Snakeman, Sabo, Katakuri, Blackbeard
     'si_2982': '205071',// Skillbook Island Kid, Hawkins
+    'si_3007': '211493',// Skillbook Island Smoker, Sugar
 };

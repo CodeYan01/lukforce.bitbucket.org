@@ -497,4 +497,5 @@ var nakama = {
     'si_2897': '',          // Skillbook Island Mihawk/Perona, Rayleigh v3
     'si_2964': '',          // Skillbook Island Snakeman, Sabo, Katakuri, Blackbeard
     'si_2982': '',          // Skillbook Island Kid, Hawkins
+    'si_3007': '',          // Skillbook Island Smoker, Sugar
 };

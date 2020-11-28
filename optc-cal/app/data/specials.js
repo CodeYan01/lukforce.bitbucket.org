@@ -635,6 +635,11 @@ var specials = {
         name: 'Kid, Hawkins',
         thumb: 2982
     },
+    'si_3007': {
+        type: 'Skillbook Island',
+        name: 'Smoker, Sugar',
+        thumb: 3007
+    },
 
     'ap_2843': {
         type: 'Anniversary Party',
