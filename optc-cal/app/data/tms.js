@@ -169,4 +169,9 @@ var tms = {
         thumb: 2995,
         info: 'i.imgur.com/uB6GQSX.png'
     },
+    3022: {
+        name: 'Reiju',
+        thumb: 3022,
+        info: 'i.imgur.com/6gWnSzG.png'
+    },
 };

@@ -401,6 +401,7 @@ var nakama = {
     2913: '8291300',    // Shirahoshi
     2977: '8297700',    // Anni Luffy
     2995: '8299500',    // Zorojuro
+    3022: '8302200',    // Reiju
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
