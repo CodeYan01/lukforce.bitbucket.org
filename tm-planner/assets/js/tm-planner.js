@@ -343,7 +343,8 @@ function getBoosters(tmId, server) {
             tmId == 3022 ||
             tmId == 3094 ||
             tmId == 3115 ||
-            tmId == 3150
+            tmId == 3150 ||
+            tmId == 3197
         )
     ) {
         // TM Zorojuro
@@ -351,6 +352,7 @@ function getBoosters(tmId, server) {
         // TM Jinbe
         // TM Pudding
         // TM Kid
+        // TM Garp
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -597,7 +599,8 @@ function init(tmId, server) {
         tmId == 3060 ||
         tmId == 3094 ||
         tmId == 3115 ||
-        tmId == 3150
+        tmId == 3150 ||
+        tmId == 3197
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
