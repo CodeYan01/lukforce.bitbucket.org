@@ -89,10 +89,6 @@ function getThumb(thumbId) {
     if (thumbId === 5065 || thumbId === 3382)
         return '/tm-planner/assets/img/new-thumbs/5065.png';
 
-    // Special case for Akainu v3
-    if (thumbId === 5068 || thumbId === 3385)
-        return '/tm-planner/assets/img/new-thumbs/5068.png';
-
     // Special case for thumbs not on official website
     if (thumbId > 3086 && thumbId < 3333)
         return '/tm-planner/assets/img/new-thumbs/f' + paddedThumbId + '.png';

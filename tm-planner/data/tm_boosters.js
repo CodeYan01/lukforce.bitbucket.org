@@ -14868,7 +14868,7 @@ var tm_boosters = {
             x_pts: 2
         },
         {   // Akainu v3
-            id: 3385,
+            id: 3157,
             x_pts: 1.75
         },
         {   // PFRR O-Tama
