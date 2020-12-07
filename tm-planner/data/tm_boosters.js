@@ -15907,4 +15907,527 @@ var tm_boosters = {
             x_pts: 1
         },
     ],
+
+    // ========== Reiju ==========
+    3022: [
+        {   // Ichiji
+            id: 3019,
+            x_pts: 2.2
+        },
+        {   // Niji
+            id: 3020,
+            x_pts: 2
+        },
+        {   // Yonji
+            id: 3021,
+            x_pts: 1.75
+        },
+        {   // Smoker
+            id: 3007,
+            x_pts: 1.5
+        },
+        {   // Sugar
+            id: 3009,
+            x_pts: 1.5
+        },
+        {   // Rayleigh v2 6+
+            id: 3018,
+            x_pts: 1.35
+        },
+        {   // Caesar v3
+            id: 3011,
+            x_pts: 1.35
+        },
+        {   // Bonney v3
+            id: 3013,
+            x_pts: 1.35
+        },
+        {   // Ivankov v4
+            id: 3015,
+            x_pts: 1.35
+        },
+        {   // KRR Sandersonia & Marigold
+            id: 2996,
+            x_pts: 1.35
+        },
+        {   // KRR Marguerite
+            id: 2997,
+            x_pts: 1.35
+        },
+        {   // KRR Nyon
+            id: 2998,
+            x_pts: 1.35
+        },
+        {   // PFRR Stussy
+            id: 3000,
+            x_pts: 1.35
+        },
+        {   // Gyukimaru
+            id: 3017,
+            x_pts: 1.35
+        },
+        {   // Zorojuro
+            id: 2995,
+            x_pts: 1.35
+        },
+        {   // Reiju
+            id: 3022,
+            x_pts: 1.35
+        },
+        {   // Luffy & Hancock
+            id: 2999,
+            x_pts: 1.35
+        },
+        {   // PF Blackbeard
+            id: 3016,
+            x_pts: 1.35
+        },
+        {   // Kuma
+            id: 3004,
+            x_pts: 1.35
+        },
+        {   // Moria
+            id: 3005,
+            x_pts: 1.35
+        },
+        {   // Aokiji v2
+            id: 2025,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Kizaru 6+
+            id: 2034,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Carrot
+            id: 2338,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Soba Mask
+            id: 2804,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Whitebeard v2 6+
+            id: 2909,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Kid
+            id: 2980,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Hawkins
+            id: 2982,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Kyoshiro
+            id: 2992,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Gyukimaru
+            id: 2993,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // O-Kiku
+            id: 2994,
+            type: 'tm_rr',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 603,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 836,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bellamy
+            id: 1518,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 2097,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 2281,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Big Mom
+            id: 2473,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // CP9
+            id: 2885,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // CP9 5+
+            id: 2886,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 2893,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kaido
+            id: 2922,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kaido 5+
+            id: 2923,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Mr. 0
+            id: 2956,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Rebecca
+            id: 779,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Alvida
+            id: 862,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Oars. Jr
+            id: 1222,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Marco
+            id: 1251,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Hajrudin
+            id: 1553,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Nekomamushi
+            id: 1733,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neptune
+            id: 2123,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kuma
+            id: 2193,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Niwatori
+            id: 2290,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Katakuri
+            id: 2471,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 2649,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Sangoro
+            id: 2845,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // King
+            id: 2990,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Koza
+            id: 666,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Lola
+            id: 810,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Reiju
+            id: 1918,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pizza Brook
+            id: 2094,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Carmel
+            id: 2377,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Dress Up Usopp
+            id: 2521,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Ace
+            id: 1941,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Big Mom
+            id: 2109,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Jack
+            id: 2175,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Shanks
+            id: 2261,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Doffy
+            id: 2443,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Smoker
+            id: 2659,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Hawkins
+            id: 2729,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // O-Robi
+            id: 2792,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // X Drake
+            id: 2823,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Vivi
+            id: 2879,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Anni Luffy
+            id: 2977,
+            type: 'tm',
+            x_pts: 1.2
+        },
+        {   // Perona
+            id: 2499,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Doffy
+            id: 2767,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Luffy
+            id: 2936,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Zoro
+            id: 2938,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Nami
+            id: 2940,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Usopp
+            id: 2942,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Sanji
+            id: 2944,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Chopper
+            id: 2946,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Robin
+            id: 2948,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 2950,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Brook
+            id: 2952,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Mihawk
+            id: 1808,
+            x_pts: 1.1
+        },
+        {   // Whitebeard
+            id: 1853,
+            x_pts: 1.1
+        },
+        {   // Cavendish
+            id: 1889,
+            x_pts: 1.1
+        },
+        {   // G4
+            id: 1916,
+            x_pts: 1.1
+        },
+        {   // Sabo
+            id: 1972,
+            x_pts: 1.1
+        },
+        {   // Sanji & Zoro
+            id: 2000,
+            x_pts: 1.1
+        },
+        {   // Kizaru
+            id: 2064,
+            x_pts: 1.1
+        },
+        {   // Eneru
+            id: 2211,
+            x_pts: 1.1
+        },
+        {   // Croc
+            id: 2137,
+            x_pts: 1.1
+        },
+        {   // Boa Hancock
+            id: 2299,
+            x_pts: 1.1
+        },
+        {   // Law
+            id: 2336,
+            x_pts: 1.1
+        },
+        {   // Christmas Nami
+            id: 2362,
+            x_pts: 1.1
+        },
+        {   // Kaido
+            id: 2387,
+            x_pts: 1.1
+        },
+        {   // Smoothie & Oven
+            id: 2469,
+            x_pts: 1.1
+        },
+        {   // Weevil
+            id: 2510,
+            x_pts: 1.1
+        },
+        {   // Shanks & Beckman
+            id: 2557,
+            x_pts: 1.1
+        },
+        {   // Lucci
+            id: 2583,
+            x_pts: 1.1
+        },
+        {   // Sakasuki & Issho
+            id: 2618,
+            x_pts: 1.1
+        },
+        {   // Blackbeard
+            id: 2690,
+            x_pts: 1.1
+        },
+        {   // Halloween Nami
+            id: 2763,
+            x_pts: 1.1
+        },
+        {   // Rebecca & Viola
+            id: 2850,
+            x_pts: 1.1
+        },
+        {   // Shirahoshi
+            id: 2913,
+            x_pts: 1.1
+        },
+        {   // Luffy 5+
+            id: 1387,
+            x_pts: 1
+        },
+        {   // Zoro 5+
+            id: 1388,
+            x_pts: 1
+        },
+        {   // Nami 5+
+            id: 1389,
+            x_pts: 1
+        },
+        {   // Usopp 5+
+            id: 1446,
+            x_pts: 1
+        },
+        {   // Sanji 5+
+            id: 1447,
+            x_pts: 1
+        },
+        {   // Chopper 5+
+            id: 1448,
+            x_pts: 1
+        },
+        {   // Robin 5+
+            id: 1549,
+            x_pts: 1
+        },
+        {   // Franky 5+
+            id: 1550,
+            x_pts: 1
+        },
+        {   // Brook 5+
+            id: 1551,
+            x_pts: 1
+        },
+    ],
 };

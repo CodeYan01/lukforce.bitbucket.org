@@ -25,6 +25,10 @@ function getThumb(thumbId) {
     if (thumbId === 575)
         paddedThumbId = "0" + paddedThumbId;
 
+    // Special case for PFRR Stussy 3000 with extra _1
+    if (thumbId === 3000)
+        paddedThumbId = paddedThumbId + "_1";
+
     // Special case for Kung Fu Luffy
     if (thumbId === 5014 || thumbId === 3334)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
