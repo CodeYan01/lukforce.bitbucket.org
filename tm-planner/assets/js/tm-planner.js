@@ -400,13 +400,17 @@ function getBoosters(tmId, server) {
         imgDiv.data('id', b.id);
         imgDiv.data('x_pts', b.x_pts);
 
+        var unitId = b.id;
+        if (b.id > 9000)
+            unitId = parseVsUnitId(b.id);
+
         // Name in tooltip
-        createTooltip(imgDiv, units[b.id - 1][0]);
+        createTooltip(imgDiv, units[unitId - 1][0]);
 
         // Type and Class
-        imgDiv.data('type', units[b.id - 1][1]);
+        imgDiv.data('type', units[unitId - 1][1]);
 
-        var unitClass = units[b.id - 1][2];
+        var unitClass = units[unitId - 1][2];
         if (Array.isArray(unitClass)) {
             var class1;
             var class2;
@@ -414,10 +418,14 @@ function getBoosters(tmId, server) {
             if (Array.isArray(unitClass[0])) {
                 if (unitClass.length === 2) {
                     // VS Units
-                    // TODO: Display class for both VS Units
-                    var unit1Class = unitClass[0];
-                    class1 = unit1Class[0];
-                    class1 = unit1Class[1];
+                    var vsClass;
+                    if (b.id % 2 === 1)
+                        vsClass = unitClass[0];
+                    else
+                        vsClass = unitClass[1];
+
+                    class1 = vsClass[0];
+                    class2 = vsClass[1];
                 } else {
                     // Dual Units
                     var dualClass = unitClass[2];
@@ -436,15 +444,15 @@ function getBoosters(tmId, server) {
         }
 
         // Has LB
-        var uDetail = details[b.id];
+        var uDetail = details[unitId];
         var hasLb = false;
         if (uDetail.limit || uDetail.potential) {
-            if (server === 'jpn' || server === 'glb' && glb_no_lb.indexOf(b.id) == -1)
+            if (server === 'jpn' || server === 'glb' && glb_no_lb.indexOf(unitId) == -1)
                 hasLb = true;
         }
         imgDiv.data('has_lb', hasLb);
 
-        imgDiv.data('max_lv', units[b.id - 1][7])
+        imgDiv.data('max_lv', units[unitId - 1][7])
         imgDiv.data('team', -1);
         imgDiv.attr('id', 'booster_' + b.id);
         imgDiv.attr('draggable', true);
@@ -715,6 +723,23 @@ function decorateSpIcon(iconKey, isAction) {
     return iconKey;
 }
 
+function parseVsUnitId(vsId) {
+    if (vsId === 9001 || vsId === 9002)
+        return 3135;
+
+    return vsId;
+}
+
+function parseVsUnitIdForCalc(vsId) {
+    if (vsId === 9001)
+        return 5281;
+
+    if (vsId === 9002)
+        return 5282;
+
+    return vsId;
+}
+
 function createActionCounterBtn(guideActionClone, counter) {
     var guideFilterClone;
     var guideFilterClass;
@@ -741,6 +766,11 @@ function createActionCounterBtn(guideActionClone, counter) {
 }
 
 function populateUnitDetail(unitId) {
+    var origId = unitId;
+
+    if (unitId > 9000)
+        unitId = parseVsUnitId(origId);
+
     var unitDetail = details[unitId];
 
     if (unitDetail) {
@@ -750,7 +780,7 @@ function populateUnitDetail(unitId) {
         // Thumb
         $('#unit-detail-thumb').empty();
 
-        var imgHtml = createImgHtml(getThumb(unitId), 40, false);
+        var imgHtml = createImgHtml(getThumb(origId), 40, false);
         $('#unit-detail-thumb').append(imgHtml);
 
         // Type
@@ -771,10 +801,14 @@ function populateUnitDetail(unitId) {
             if (Array.isArray(unitClass[0])) {
                 if (unitClass.length === 2) {
                     // VS Units
-                    // TODO: Display class for both VS Units
-                    var unit1Class = unitClass[0];
-                    class1 = unit1Class[0].replace(' ', '-').toLowerCase();
-                    class1 = unit1Class[1].replace(' ', '-').toLowerCase();
+                    var vsClass;
+                    if (origId % 2 === 1)
+                        vsClass = unitClass[0];
+                    else
+                        vsClass = unitClass[1];
+
+                    class1 = vsClass[0].replace(' ', '-').toLowerCase();
+                    class2 = vsClass[1].replace(' ', '-').toLowerCase();
                 } else {
                     // Dual Units
                     var dualClass = unitClass[2];
@@ -801,21 +835,31 @@ function populateUnitDetail(unitId) {
                     // Dual Units & VS Units
                     $('#unit-detail-captain-ability').empty();
 
-                    var captain1 = captain.character1;
-                    captain1 = decorateStr(captain1);
-                    $('#unit-detail-captain-ability').append('<b>Character 1:</b> ' + captain1);
-                    $('#unit-detail-captain-ability').append('<br />');
-
-                    var captain2 = captain.character2;
-                    captain2 = decorateStr(captain2);
-                    $('#unit-detail-captain-ability').append('<b>Character 2:</b> ' + captain2);
-                    $('#unit-detail-captain-ability').append('<br />');
-
                     if (captain.combined) {
                         // Dual Units
+                        var captain1 = captain.character1;
+                        captain1 = decorateStr(captain1);
+                        $('#unit-detail-captain-ability').append('<b>Character 1:</b> ' + captain1);
+                        $('#unit-detail-captain-ability').append('<br />');
+
+                        var captain2 = captain.character2;
+                        captain2 = decorateStr(captain2);
+                        $('#unit-detail-captain-ability').append('<b>Character 2:</b> ' + captain2);
+                        $('#unit-detail-captain-ability').append('<br />');
+
                         var captainComb = captain.combined;
                         captainComb = decorateStr(captainComb);
                         $('#unit-detail-captain-ability').append('<b>Combined:</b> ' + captainComb);
+                    } else {
+                        // VS Units
+                        var captainVs;
+                        if (origId % 2 === 1)
+                            captainVs = captain.character1;
+                        else
+                            captainVs = captain.character2;
+
+                        captainVs = decorateStr(captainVs);
+                        $('#unit-detail-captain-ability').html(captainVs);
                     }
                 } else {
                     // Unit Captain Ability changed by Limit Break
@@ -867,16 +911,28 @@ function populateUnitDetail(unitId) {
                 specialMax = decorateStr(specialMax);
                 $('#unit-detail-special').html(specialMax);
             } else if (special.character1) {
-                // Dual Units with different special
-                var special1 = special.character1;
-                special1 = decorateStr(special1);
-                $('#unit-detail-special').append('<b>Character 1:</b> ' + special1);
-                $('#unit-detail-special').append('<br />');
+                if (origId > 9000) {
+                    // VS Units
+                    var specialVs;
+                    if (origId % 2 === 1)
+                        specialVs = special.character1;
+                    else
+                        specialVs = special.character2;
 
-                var special2 = special.character2;
-                special2 = decorateStr(special2);
-                $('#unit-detail-special').append('<b>Character 2:</b> ' + special2);
-                $('#unit-detail-special').append('<br />');
+                    specialVs = decorateStr(specialVs);
+                    $('#unit-detail-special').html(specialVs);
+                } else {
+                    // Dual Units with different special
+                    var special1 = special.character1;
+                    special1 = decorateStr(special1);
+                    $('#unit-detail-special').append('<b>Character 1:</b> ' + special1);
+                    $('#unit-detail-special').append('<br />');
+
+                    var special2 = special.character2;
+                    special2 = decorateStr(special2);
+                    $('#unit-detail-special').append('<b>Character 2:</b> ' + special2);
+                    $('#unit-detail-special').append('<br />');
+                }
             } else {
                 special = decorateStr(special);
                 $('#unit-detail-special').html(special);
@@ -906,6 +962,17 @@ function populateUnitDetail(unitId) {
                     var sailorComb = sailor.combined;
                     sailorComb = decorateStr(sailorComb);
                     $('#unit-detail-sailor').append('<b>Combined:</b> ' + sailorComb);
+                    $('#unit-detail-sailor').append('<br />');
+                } else if (origId > 9000) {
+                    // VS Units
+                    var sailorVs;
+                    if (origId % 2 === 1)
+                        sailorVs = sailor.character1;
+                    else
+                        sailorVs = sailor.character2;
+
+                    sailorVs = decorateStr(sailorVs);
+                    $('#unit-detail-sailor').append('<b>Base:</b> ' + sailorVs);
                     $('#unit-detail-sailor').append('<br />');
                 }
 
@@ -960,11 +1027,15 @@ function populateUnitModal(src, selectedId, assigned) {
         // Available units
         boosterList.each(function() {
             var b = $(this);
-            var unitId = b.data('id');
+            var origId = b.data('id');
+
+            var unitId = origId;
+            if (origId > 9000)
+                unitId = parseVsUnitId(origId);
 
             var imgDiv = $('<div></div>');
-            imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
-            imgDiv.data('id', unitId);
+            imgDiv.append(createImgHtml(getThumb(origId), 40, false));
+            imgDiv.data('id', origId);
             imgDiv.data('src', src);
 
             // Name in tooltip
@@ -982,11 +1053,15 @@ function populateUnitModal(src, selectedId, assigned) {
         if ($('#' + src).hasClass('friend-cap')) {
             $('#' + src).closest('.team').find('.team-slot').not('.friend-cap').find('.booster').each(function() {
                 var b = $(this);
-                var unitId = b.data('id');
+                var origId = b.data('id');
+
+                var unitId = origId;
+                if (origId > 9000)
+                    unitId = parseVsUnitId(origId);
 
                 var imgDiv = $('<div></div>');
-                imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
-                imgDiv.data('id', unitId);
+                imgDiv.append(createImgHtml(getThumb(origId), 40, false));
+                imgDiv.data('id', origId);
                 imgDiv.data('src', src);
 
                 // Name in tooltip
@@ -1008,11 +1083,15 @@ function populateUnitModal(src, selectedId, assigned) {
 
             assignedList.each(function() {
                 var ab = $(this);
-                var unitId = ab.data('id');
+                var origId = ab.data('id');
+
+                var unitId = origId;
+                if (origId > 9000)
+                    unitId = parseVsUnitId(origId);
 
                 var imgDiv = $('<div></div>');
-                imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
-                imgDiv.data('id', unitId);
+                imgDiv.append(createImgHtml(getThumb(origId), 40, false));
+                imgDiv.data('id', origId);
                 imgDiv.data('src', src);
 
                 // Name in tooltip
@@ -1572,6 +1651,9 @@ $(document).ready(function() {
     $('#db-button').click(function() {
         var unitId = $(this).data('id');
 
+        if (unitId > 9000)
+            unitId = parseVsUnitId(unitId);
+
         if (unitId) {
             var dbUrl = 'https://optc-db.github.io/characters/#/view/';
             dbUrl += unitId;
@@ -1738,6 +1820,10 @@ $(document).ready(function() {
                     unitId = Number(unitId) * -1;
 
                 var maxLv = $('#booster_' + unitId).data('max_lv');
+
+                if (unitId > 9000)
+                    unitId = parseVsUnitIdForCalc(unitId);
+
                 calUrl += unitId + ':' + maxLv;
             }
 
@@ -2080,6 +2166,10 @@ $(document).ready(function() {
 
             $('.booster, .booster-clone').each(function() {
                 var unitId = $(this).data('id');
+
+                if (unitId > 9000)
+                    unitId = parseVsUnitId(unitId);
+
                 var unitDetail = details[unitId];
                 var spDesc = unitDetail.special;
 
@@ -2112,6 +2202,10 @@ $(document).ready(function() {
 
             $('.booster, .booster-clone').each(function() {
                 var unitId = $(this).data('id');
+
+                if (unitId > 9000)
+                    unitId = parseVsUnitId(unitId);
+
                 var unitDetail = details[unitId];
                 var sailor = unitDetail.sailor;
 

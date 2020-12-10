@@ -11362,8 +11362,13 @@ var tm_boosters_jpn = {
             id: 3148,
             x_pts: 1.6
         },
-        {   // Kaido vs. Big Mom
-            id: 3135,
+        {   // Kaido vs. Big Mom (Kaido)
+            id: 9001,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Kaido vs. Big Mom (Big Mom)
+            id: 9002,
             ver: 2,
             x_pts: 1.4
         },
@@ -11778,8 +11783,13 @@ var tm_boosters_jpn = {
             ver: 2,
             x_pts: 1.4
         },
-        {   // Kaido vs. Big Mom
-            id: 3135,
+        {   // Kaido vs. Big Mom (Kaido)
+            id: 9001,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Kaido vs. Big Mom (Big Mom)
+            id: 9002,
             ver: 4,
             x_pts: 1.35
         },

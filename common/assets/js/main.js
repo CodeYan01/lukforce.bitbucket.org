@@ -97,6 +97,12 @@ function getThumb(thumbId) {
     if (thumbId > 3086 && thumbId < 3333)
         return '/tm-planner/assets/img/new-thumbs/f' + paddedThumbId + '.png';
 
+    // Special case for VS Units
+    if (thumbId === 9001)
+        return '/tm-planner/assets/img/new-thumbs/f3135-1.png';
+    if (thumbId === 9002)
+        return '/tm-planner/assets/img/new-thumbs/f3135-2.png';
+
     // Special cases for new thumbs
     if (
         thumbId === 9999
