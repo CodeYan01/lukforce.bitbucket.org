@@ -640,6 +640,11 @@ var specials = {
         name: 'Smoker, Sugar',
         thumb: 3007
     },
+    'si_3038': {
+        type: 'Skillbook Island',
+        name: 'Summer Hancock',
+        thumb: 3038
+    },
 
     'ap_2843': {
         type: 'Anniversary Party',
