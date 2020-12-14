@@ -3215,4 +3215,28 @@ var specialBgEvents = [
         id: 'free_pull',
         start: '2020-12-13'
     },
+    {
+        id: 'sp',
+        start: '2020-12-13',
+        end: '2020-12-20',
+        pst_19: true
+    },
+    {
+        id: 'cotton',
+        start: '2020-12-18',
+        end: '2020-12-21',
+        pst_19: true
+    },
+    {
+        id: 'snail_meat',
+        start: '2020-12-22',
+        end: '2020-12-25',
+        pst_19: true
+    },
+    {
+        id: 'buggy',
+        start: '2020-12-24',
+        end: '2020-12-27',
+        pst_19: true
+    },
 ]
