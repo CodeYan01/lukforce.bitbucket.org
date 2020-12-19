@@ -70,6 +70,11 @@ var specials = {
         name: 'Four Emperors',
         thumb: 2734
     },
+    'bb_3050': {
+        type: 'Blitz Battle',
+        name: 'Summer Girls 2020',
+        thumb: 3050
+    },
 
     'wc_2401': {
         type: 'World Clash',

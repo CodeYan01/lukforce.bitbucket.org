@@ -431,6 +431,7 @@ var gw = {
     'bb_2365': '136432',// Face Off! Luffy vs. Katakuri
     'bb_2620': '158510',// Summer Girls
     'bb_2734': '173414',// Four Emperors
+    'bb_3050': '218637',// Summer Girls 2020
 
     'wc_2401': '130091',// World Clash
 

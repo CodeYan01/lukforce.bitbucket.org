@@ -431,6 +431,7 @@ var nakama = {
     'bb_2365': '6236300',   // Face Off! Luffy vs. Katakuri
     'bb_2620': '6262600',   // Summer Girls
     'bb_2734': '6273400',   // Four Emperors
+    'bb_3050': '',          // Summer Girls 2020
 
     'wc_2401': '6240700',   // World Clash
 
