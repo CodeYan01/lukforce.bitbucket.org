@@ -458,6 +458,7 @@ var nakama = {
     'ev_2988': '6298800',   // O-Toko
     'ev_3004': '6300400',   // Thriller Bark Warlords
     'ev_3045': '',          // Summer Paradise 5
+    'ev_3177': '',          // World Cruise
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

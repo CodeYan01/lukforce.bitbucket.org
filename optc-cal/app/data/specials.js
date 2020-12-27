@@ -699,4 +699,9 @@ var specials = {
         name: 'Summer Paradise 5',
         thumb: 3045
     },
+    'ev_3177': {
+        type: 'Special Event',
+        name: 'World Cruise',
+        thumb: 3177
+    },
 }

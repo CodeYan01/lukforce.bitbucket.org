@@ -458,6 +458,7 @@ var gw = {
     'ev_2988': '205053',// O-Toko
     'ev_3004': '211482',// Thriller Bark Warlords
     'ev_3045': '218689',// Summer Paradise 5
+    'ev_3177': '',      // World Cruise
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
