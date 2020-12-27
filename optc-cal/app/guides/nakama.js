@@ -420,6 +420,7 @@ var nakama = {
     2920: '9292000',    // Big Mom
     2955: '9295500',    // Carrot
     2999: '9299900',    // Luffy & Hancock
+    3052: '9305200',    // Buggy
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

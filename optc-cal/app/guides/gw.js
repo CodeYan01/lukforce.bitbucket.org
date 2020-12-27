@@ -420,6 +420,7 @@ var gw = {
     2920: '197807',     // Big Mom
     2955: '201494',     // Carrot
     2999: '208871',     // Luffy & Hancock
+    3052: '221403',     // Buggy
 
     // Events
     'bb_1314': '61665', // Three Admirals

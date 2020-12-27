@@ -73,4 +73,8 @@ var kizunas = {
         name: 'Luffy & Hancock',
         thumb: 2999
     },
+    3052: {
+        name: 'Buggy',
+        thumb: 3052
+    },
 };

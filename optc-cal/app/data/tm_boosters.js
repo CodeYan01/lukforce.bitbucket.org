@@ -45,5 +45,6 @@ var tm_boosters = [
 
     // Others
     3045,
+    3052,
     3053,
 ]
