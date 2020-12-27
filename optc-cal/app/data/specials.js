@@ -704,4 +704,9 @@ var specials = {
         name: 'World Cruise',
         thumb: 3177
     },
+    'ev_3188': {
+        type: 'Special Event',
+        name: 'Grand Battle vs. Marines',
+        thumb: 3188
+    },
 }
