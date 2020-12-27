@@ -504,6 +504,7 @@ var gw = {
     'ka_2833': '183973',// Kizuna Assist Sengoku
     'ka_2852': '186699',// Kizuna Assist Ivankov
     'ka_2921': '197088',// Kizuna Assist Judge
+    'ka_3053': '221384',// Kizuna Assist Hatchan
 
     'si_2802': '181636',// Skillbook Island Luffy/Zoro, Soba Mask
     'si_2835': '184722',// Skillbook Island Nami/Robin, Pudding

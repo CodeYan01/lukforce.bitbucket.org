@@ -495,6 +495,7 @@ var nakama = {
     'ka_2833': '2283300',   // Kizuna Assist Sengoku
     'ka_2852': '2285200',   // Kizuna Assist Ivankov
     'ka_2921': '2292100',   // Kizuna Assist Judge
+    'ka_3053': '2305300',   // Kizuna Assist Hatchan
 
     'si_2802': '',          // Skillbook Island Luffy/Zoro, Soba Mask
     'si_2835': '',          // Skillbook Island Nami/Robin, Pudding

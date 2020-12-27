@@ -575,6 +575,11 @@ var specials = {
         name: 'Judge',
         thumb: 2921
     },
+    'ka_3053': {
+        type: 'Kizuna Assist',
+        name: 'Hatchan',
+        thumb: 3053
+    },
 
     'wa_2802': {
         type: 'Wano Act 3',
