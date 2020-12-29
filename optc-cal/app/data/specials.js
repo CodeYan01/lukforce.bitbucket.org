@@ -655,6 +655,11 @@ var specials = {
         name: 'Summer Hancock',
         thumb: 3038
     },
+    'si_3181': {
+        type: 'Skillbook Island',
+        name: 'Roger, Oden',
+        thumb: 3181
+    },
 
     'ap_2843': {
         type: 'Anniversary Party',

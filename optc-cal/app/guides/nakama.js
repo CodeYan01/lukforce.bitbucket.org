@@ -497,13 +497,4 @@ var nakama = {
     'ka_2852': '2285200',   // Kizuna Assist Ivankov
     'ka_2921': '2292100',   // Kizuna Assist Judge
     'ka_3053': '2305300',   // Kizuna Assist Hatchan
-
-    'si_2802': '',          // Skillbook Island Luffy/Zoro, Soba Mask
-    'si_2835': '',          // Skillbook Island Nami/Robin, Pudding
-    'si_2860': '',          // Skillbook Island Red-Hair Pirates, Arlong Pirates, Law v3
-    'si_2897': '',          // Skillbook Island Mihawk/Perona, Rayleigh v3
-    'si_2964': '',          // Skillbook Island Snakeman, Sabo, Katakuri, Blackbeard
-    'si_2982': '',          // Skillbook Island Kid, Hawkins
-    'si_3007': '',          // Skillbook Island Smoker, Sugar
-    'si_3038': '',          // Skillbook Island Summer Hancock
 };
