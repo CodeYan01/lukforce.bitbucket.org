@@ -549,6 +549,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 3017
     },
+    3049: {
+        name: 'Orochi',
+        chaos_only: true, // Not but new format
+        thumb: 3049
+    },
 
     // Neo Coliseums
     1863: {
