@@ -433,6 +433,7 @@ var nakama = {
     'bb_2620': '6262600',   // Summer Girls
     'bb_2734': '6273400',   // Four Emperors
     'bb_3050': '',          // Summer Girls 2020
+    'bb_3188': '',          // Grand Battle vs. Marines
 
     'wc_2401': '6240700',   // World Clash
 
@@ -459,8 +460,7 @@ var nakama = {
     'ev_2988': '6298800',   // O-Toko
     'ev_3004': '6300400',   // Thriller Bark Warlords
     'ev_3045': '',          // Summer Paradise 5
-    'ev_3177': '',          // World Cruise
-    'ev_3188': '',          // Grand Battle vs. Marines
+    'ev_3177': '',          // Oden & Roger's Great Adventure
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

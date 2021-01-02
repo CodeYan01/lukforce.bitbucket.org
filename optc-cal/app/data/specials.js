@@ -75,6 +75,11 @@ var specials = {
         name: 'Summer Girls 2020',
         thumb: 3050
     },
+    'bb_3188': {
+        type: 'Blitz Battle',
+        name: 'Grand Battle vs. Marines',
+        thumb: 3188
+    },
 
     'wc_2401': {
         type: 'World Clash',
@@ -711,12 +716,7 @@ var specials = {
     },
     'ev_3177': {
         type: 'Special Event',
-        name: 'World Cruise',
+        name: 'Oden & Roger\'s Great Adventure',
         thumb: 3177
-    },
-    'ev_3188': {
-        type: 'Special Event',
-        name: 'Grand Battle vs. Marines',
-        thumb: 3188
     },
 }

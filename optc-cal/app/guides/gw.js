@@ -433,6 +433,7 @@ var gw = {
     'bb_2620': '158510',// Summer Girls
     'bb_2734': '173414',// Four Emperors
     'bb_3050': '218637',// Summer Girls 2020
+    'bb_3188': '',      // Grand Battle vs. Marines
 
     'wc_2401': '130091',// World Clash
 
@@ -459,8 +460,7 @@ var gw = {
     'ev_2988': '205053',// O-Toko
     'ev_3004': '211482',// Thriller Bark Warlords
     'ev_3045': '218689',// Summer Paradise 5
-    'ev_3177': '',      // World Cruise
-    'ev_3188': '',      // Grand Battle vs. Marines
+    'ev_3177': '',      // Oden & Roger's Great Adventure
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
