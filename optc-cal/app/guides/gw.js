@@ -457,6 +457,7 @@ var gw = {
     'ap_2843': '184761',// Anniversary Party Perona
     'ec_1983': '189644',// Escape! Loguetown
 
+    'ev_2918': '196358',// Fight for Flame-Flame Fruit
     'ev_2957': '202523',// Treasure Hunt of the Powerful
     'ev_2988': '205053',// O-Toko
     'ev_3004': '211482',// Thriller Bark Warlords
@@ -469,10 +470,6 @@ var gw = {
     'wj_2825': '183897',// World Journey Boa Hancock
     'wj_2827': '183898',// World Journey Mihawk
     'wj_2829': '183899',// World Journey Crocodile
-
-    'ff_2915': '196357',// Flame-Flame Fruit Rebecca
-    'ff_2917': '196356',// Flame-Flame Fruit Burgess
-    'ff_2918': '196358',// Flame-Flame Fruit Diamante
 
     'rk_2672': '191098',// Dmg Ranking Stampede Luffy
 

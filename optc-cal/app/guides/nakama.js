@@ -457,6 +457,7 @@ var nakama = {
     'ap_2843': '6284300',   // Anniversary Party Perona
     'ec_1983': '',          // Escape! Loguetown
 
+    'ev_2918': '6291500',   // Fight for Flame-Flame Fruit
     'ev_2957': '6295700',   // Treasure Hunt of the Powerful
     'ev_2988': '6298800',   // O-Toko
     'ev_3004': '6300400',   // Thriller Bark Warlords
@@ -469,10 +470,6 @@ var nakama = {
     'wj_2825': '6282500',   // World Journey Boa Hancock
     'wj_2827': '6282500',   // World Journey Mihawk
     'wj_2829': '6282500',   // World Journey Crocodile
-
-    'ff_2915': '6291500',   // Flame-Flame Fruit Rebecca
-    'ff_2917': '6291500',   // Flame-Flame Fruit Burgess
-    'ff_2918': '6291500',   // Flame-Flame Fruit Diamante
 
     'se_2138': '6213800',   // Super Evolve Germa 66
     'se_2232': '6223200',   // Super Evolve Eneru

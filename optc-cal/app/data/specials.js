@@ -678,22 +678,11 @@ var specials = {
         thumb: 1983
     },
 
-    'ff_2915': {
-        type: 'Flame-Flame Fruit',
-        name: 'Rebecca',
-        thumb: 2915
-    },
-    'ff_2917': {
-        type: 'Flame-Flame Fruit',
-        name: 'Burgess',
-        thumb: 2917
-    },
-    'ff_2918': {
-        type: 'Flame-Flame Fruit',
-        name: 'Diamante',
+    'ev_2918': {
+        type: 'Special Event',
+        name: 'Fight for Flame-Flame Fruit',
         thumb: 2918
     },
-
     'ev_2957': {
         type: 'Special Event',
         name: 'Treasure Hunt of the Powerful',

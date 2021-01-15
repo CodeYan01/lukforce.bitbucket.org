@@ -821,7 +821,6 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Escape')
                     || (event['type'] === 'special' && event['subType'] === 'Land of Wano')
                     || (event['type'] === 'special' && event['subType'] === 'World Journey')
-                    || (event['type'] === 'special' && event['subType'] === 'Flame-Flame Fruit')
                     || (event['type'] === 'special' && event['subType'] === 'Dmg Ranking')
                     || (event['type'] === 'special' && event['subType'] === '1 Turn Dmg Ranking')
                     || (event['type'] === 'special' && event['subType'] === 'Super Evolve')
