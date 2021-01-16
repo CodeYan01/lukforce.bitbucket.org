@@ -3148,16 +3148,28 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Zorojuro', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['para',            '8T'],
+                                ['para',            '8T, Row 2 3'],
                                 ['dmg-eot-e',       '30%'],
                                 ['heal',            '1,000,000, EoT'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['dmg-up',          '99+T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
@@ -3172,8 +3184,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Chopperemon', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 100000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3193,8 +3205,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Bonekichi', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3204,6 +3216,18 @@ var tm_opponents = {
                                 ['chain-lock',      '5T, 1.1x'],
                                 ['bar-gd',          '2T, 4x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['atk',             '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 3',
+                            action: [
+                                ['dmg-up',          '99+T']
                             ]
                         }
                     ]
@@ -3218,16 +3242,28 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Franosuke', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
                                 ['slot-change',     'TND, Row 2'],
                                 ['slot-change',     'EMPTY, Row 1 3'],
-                                ['bind',            '5T'],
+                                ['bind',            '5T, Row 2'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['bind',            '5T, Row 3']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['bind',            '5T, Row 1']
                             ]
                         }
                     ]
@@ -3241,9 +3277,9 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 3,
-                    boss: ['Nami (?)', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Nami', 'INT'],
+                    hp: 500000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3256,9 +3292,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 4,
-                    boss: ['Sanji (?)', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Sanji', 'QCK'],
+                    hp: 500000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3271,8 +3307,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Nami & Sanji', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3280,6 +3316,26 @@ var tm_opponents = {
                                 ['bind',            '5T, Row 1'],
                                 ['def',             '5T, 1000x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 2 Turns',
+                            action: [
+                                ['para',            '2T, Row 1'],
+                                ['slot-change',     'Bad']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['desp',            '5T'],
+                                ['Blow Away',       'Random 2']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['bind',            '30T']
                             ]
                         }
                     ]
@@ -3304,9 +3360,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['Luffy (?)', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Sabo', 'INT'],
+                    hp: 1000000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3322,8 +3378,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Luffy', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3333,6 +3389,24 @@ var tm_opponents = {
                                 ['chain-down',      '5T, 0.1x'],
                                 ['cd-rew',          '1T, Row 2 3'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['bind',            '5T, Random 1, Row 2 3']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['Blow Away',       '2T, Random 1, Row 1']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
