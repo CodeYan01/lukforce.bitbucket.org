@@ -174,4 +174,9 @@ var tms = {
         thumb: 3022,
         info: 'i.imgur.com/6gWnSzG.png'
     },
+    3060: {
+        name: 'Nami & Sanji',
+        thumb: 3060,
+        info: 'i.imgur.com/fGp35AD.png'
+    },
 };
