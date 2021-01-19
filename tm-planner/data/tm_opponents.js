@@ -4175,4 +4175,197 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Komurasaki ==========
+    3217: {
+        2785: {
+            name: 'Kyoshiro',
+            type: 'INT',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Kyoshiro', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '2T, Col 1'],
+                                ['silence',         '5T, Col 2'],
+                                ['blind',           '99+T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3110: {
+            name: 'Page One',
+            type: 'DEX',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Page One', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '50%'],
+                                ['def-perc',        '4T, 80%'],
+                                ['resil',           '4T'],
+                                ['def',             '4T, 1000x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3139: {
+            name: 'Queen',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Queen', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['chain-down',      '10T, 0.5x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '10,000']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3210: {
+            name: 'X Drake',
+            type: 'QCK',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['X Drake', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['para',            '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3217: {
+            name: 'Komurasaki',
+            type: 'INT',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Empty'],
+                                ['desp',            '5T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Komurasaki', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '4T'],
+                                ['slot-neg',        'Color'],
+                                ['Clear Buff',      'Super'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3049: {
+            name: 'Orochi',
+            type: 'DEX',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, STR/PSY']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['atk-down',        '3T, 90%'],
+                                ['def-thres',       '5T, 99%, 1000']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Orochi', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['slot-lock',       '1x Great, Row 2'],
+                                ['chain-lock',      '4T, 1.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
