@@ -698,6 +698,11 @@ var specials = {
         name: 'Thriller Bark Warlords',
         thumb: 3004
     },
+    'ev_0327': {
+        type: 'Special Event',
+        name: 'Snowy Winter Island Drum Kingdom',
+        thumb: 327
+    },
     'ev_3034': {
         type: 'Special Event',
         name: 'Regroup! Straw Hat Pirates',

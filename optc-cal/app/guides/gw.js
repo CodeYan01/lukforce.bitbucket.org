@@ -462,6 +462,7 @@ var gw = {
     'ev_2957': '202523',// Treasure Hunt of the Powerful
     'ev_2988': '205053',// O-Toko
     'ev_3004': '211482',// Thriller Bark Warlords
+    'ev_0327': '214620',// Snowy Winter Island Drum Kingdom
     'ev_3034': '217568',// Regroup! Straw Hat Pirates
     'ev_3045': '218689',// Summer Paradise 5
     'ev_3177': '',      // Oden & Roger's Great Adventure
