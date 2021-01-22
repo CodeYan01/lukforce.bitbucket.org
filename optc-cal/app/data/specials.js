@@ -698,6 +698,11 @@ var specials = {
         name: 'Thriller Bark Warlords',
         thumb: 3004
     },
+    'ev_0738': {
+        type: 'Special Event',
+        name: 'Escape Enies Lobby',
+        thumb: 738
+    },
     'ev_0327': {
         type: 'Special Event',
         name: 'Snowy Winter Island Drum Kingdom',
