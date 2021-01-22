@@ -5229,4 +5229,46 @@ var coliseumEvents = [
         start: '2021-01-18',
         new_batch: false
     },
+
+    // ##############################
+    {
+        newId: [3049],
+        repId: [1456, 1553, 2193, 2908],
+        start: '2021-01-19',
+        end: '2021-01-21',
+        new_batch: true
+    },
+    {
+        newId: [3049],
+        repId: [1456, 1553, 2193, 2908],
+        start: '2021-01-23',
+        new_batch: true
+    },
+    {
+        newId: [3049],
+        repId: [1456, 1553, 2193, 2908],
+        start: '2021-01-26',
+        end: '2021-01-28',
+        new_batch: true
+    },
+
+    // ##############################
+    {
+        newId: [3049],
+        repId: [1338, 1945, 2323, 904],
+        start: '2021-01-22',
+        new_batch: false
+    },
+    {
+        newId: [3049],
+        repId: [1338, 1945, 2323, 904],
+        start: '2021-01-25',
+        new_batch: false
+    },
+    {
+        newId: [3049],
+        repId: [1338, 1945, 2323, 904],
+        start: '2021-01-29',
+        new_batch: false
+    },
 ]
