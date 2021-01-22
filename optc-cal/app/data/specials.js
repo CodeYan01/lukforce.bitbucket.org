@@ -698,6 +698,11 @@ var specials = {
         name: 'Thriller Bark Warlords',
         thumb: 3004
     },
+    'ev_3034': {
+        type: 'Special Event',
+        name: 'Regroup! Straw Hat Pirates',
+        thumb: 3034
+    },
     'ev_3045': {
         type: 'Special Event',
         name: 'Summer Paradise 5',

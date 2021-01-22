@@ -462,6 +462,7 @@ var nakama = {
     'ev_2957': '6295700',   // Treasure Hunt of the Powerful
     'ev_2988': '6298800',   // O-Toko
     'ev_3004': '6300400',   // Thriller Bark Warlords
+    'ev_3034': '6303300',   // Regroup! Straw Hat Pirates
     'ev_3045': '',          // Summer Paradise 5
     'ev_3177': '',          // Oden & Roger's Great Adventure
 
