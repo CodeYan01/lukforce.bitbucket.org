@@ -660,6 +660,11 @@ var specials = {
         name: 'Summer Hancock',
         thumb: 3038
     },
+    'si_3100': {
+        type: 'Skillbook Island',
+        name: 'Halloween Mihawk, Halloween Law',
+        thumb: 3100
+    },
     'si_3181': {
         type: 'Skillbook Island',
         name: 'Roger, Oden',

@@ -518,5 +518,6 @@ var gw = {
     'si_2982': '205071',// Skillbook Island Kid, Hawkins
     'si_3007': '211493',// Skillbook Island Smoker, Sugar
     'si_3038': '218747',// Skillbook Island Summer Hancock
+    'si_3100': '230163',// Skillbook Island Halloween Mihawk, Halloween Law
     'si_3181': '',      // Skillbook Island Roger, Oden
 };
