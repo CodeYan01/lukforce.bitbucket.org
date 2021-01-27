@@ -723,6 +723,11 @@ var specials = {
         name: 'Summer Paradise 5',
         thumb: 3045
     },
+    'ev_3108': {
+        type: 'Special Event',
+        name: 'Party of Horror',
+        thumb: 3108
+    },
     'ev_3177': {
         type: 'Special Event',
         name: 'Oden & Roger\'s Great Adventure',

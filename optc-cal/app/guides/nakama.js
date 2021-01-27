@@ -467,6 +467,7 @@ var nakama = {
     'ev_0327': '',          // Snowy Winter Island Drum Kingdom
     'ev_3034': '6303300',   // Regroup! Straw Hat Pirates
     'ev_3045': '',          // Summer Paradise 5
+    'ev_3108': '6310800',   // Party of Horror
     'ev_3177': '',          // Oden & Roger's Great Adventure
 
     'wa_2700': '',          // Land of Wano Kaido
