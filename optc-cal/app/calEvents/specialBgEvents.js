@@ -3279,4 +3279,22 @@ var specialBgEvents = [
         start: '2021-01-28',
         end: '2021-02-07'
     },
+    {
+        id: 'sp',
+        start: '2021-01-28',
+        end: '2021-02-21',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp',
+        start: '2021-02-02',
+        end: '2021-02-05',
+        pst_19: true
+    },
+    {
+        id: 'ray_exp',
+        start: '2021-02-11',
+        end: '2021-02-14',
+        pst_19: true
+    },
 ]
