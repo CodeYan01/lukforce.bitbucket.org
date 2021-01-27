@@ -3274,4 +3274,9 @@ var specialBgEvents = [
         end: '2021-01-25',
         pst_19: true
     },
+    {
+        id: 'sugo',
+        start: '2021-01-28',
+        end: '2021-02-07'
+    },
 ]
