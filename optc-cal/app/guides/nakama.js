@@ -453,14 +453,14 @@ var nakama = {
     'sb_1985': '',          // Socket Book Luffy & Ace
 
     'pm_1900': '6190000',   // Past Memory Zoro
-    'bl_2475': '6247500',   // Black Blade Training
     'stp_2668': '6266800',  // Stampede Fujitora
     '4e_2738': '6273800',   // Emperor in Action
-    'dr_2767': '6276700',   // Tragic Country's Conflict
     'xm_2799': '6279900',   // Wapol's Assault
     'ap_2843': '6284300',   // Anniversary Party Perona
     'ec_1983': '',          // Escape! Loguetown
 
+    'ev_2475': '6247500',   // Black Blade Training
+    'ev_2767': '6276700',   // Tragic Country's Conflict
     'ev_2918': '6291500',   // Fight for Flame-Flame Fruit
     'ev_2957': '6295700',   // Treasure Hunt of the Powerful
     'ev_2988': '6298800',   // O-Toko

@@ -378,12 +378,6 @@ var specials = {
         thumb: 1900
     },
 
-    'bl_2475': {
-        type: 'Black Blade Training',
-        name: 'Mihawk & Zoro',
-        thumb: 2475
-    },
-
     'fa_2072': {
         type: 'Strange Forest Adventure',
         name: 'Chopper',
@@ -608,12 +602,6 @@ var specials = {
         thumb: 2738
     },
 
-    'dr_2767': {
-        type: 'Dressrosa',
-        name: 'Tragic Country\'s Conflict',
-        thumb: 2767
-    },
-
     'xm_2799': {
         type: 'Christmas',
         name: 'Wapol\'s Assault',
@@ -683,6 +671,16 @@ var specials = {
         thumb: 1983
     },
 
+    'ev_2475': {
+        type: 'Special Event',
+        name: 'Black Blade Training',
+        thumb: 2475
+    },
+    'ev_2767': {
+        type: 'Special Event',
+        name: 'Tragic Country\'s Conflict',
+        thumb: 2767
+    },
     'ev_2918': {
         type: 'Special Event',
         name: 'Fight for Flame-Flame Fruit',

@@ -453,14 +453,14 @@ var gw = {
     'sb_1985': '100032',// Socket Book Luffy & Ace
 
     'pm_1900': '85046', // Past Memory Zoro
-    'bl_2475': '147515',// Black Blade Training
     'stp_2668': '162504',// Stampede Fujitora
     '4e_2738': '173400',// Emperor in Action
-    'dr_2767': '176352',// Tragic Country's Conflict
     'xm_2799': '180947',// Wapol's Assault
     'ap_2843': '184761',// Anniversary Party Perona
     'ec_1983': '189644',// Escape! Loguetown
 
+    'ev_2475': '147515',// Black Blade Training
+    'ev_2767': '176352',// Tragic Country's Conflict
     'ev_2918': '196358',// Fight for Flame-Flame Fruit
     'ev_2957': '202523',// Treasure Hunt of the Powerful
     'ev_2988': '205053',// O-Toko
