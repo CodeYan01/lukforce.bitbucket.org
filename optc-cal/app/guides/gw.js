@@ -425,6 +425,7 @@ var gw = {
     2999: '208871',     // Luffy & Hancock
     3036: '217729',     // Kaido
     3052: '221403',     // Buggy
+    3124: '233771',     // Kid
 
     // Events
     'bb_1314': '61665', // Three Admirals
