@@ -357,6 +357,7 @@ var wiki = {
     2990: '',                               // King
     3017: '',                               // Gyukimaru
     3049: '',                               // Orochi
+    3110: '',                               // Page One
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

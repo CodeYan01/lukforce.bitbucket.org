@@ -554,6 +554,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 3049
     },
+    3110: {
+        name: 'Page One',
+        chaos_only: true, // Not but new format
+        thumb: 3110
+    },
 
     // Neo Coliseums
     1863: {
