@@ -3282,19 +3282,19 @@ var specialBgEvents = [
     {
         id: 'sp',
         start: '2021-01-28',
-        end: '2021-02-21',
+        end: '2021-02-20',
         pst_19: true
     },
     {
         id: 'ray_exp',
         start: '2021-02-02',
-        end: '2021-02-05',
+        end: '2021-02-06',
         pst_19: true
     },
     {
         id: 'ray_exp',
-        start: '2021-02-11',
-        end: '2021-02-14',
+        start: '2021-02-13',
+        end: '2021-02-15',
         pst_19: true
     },
 ]
