@@ -3292,6 +3292,15 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'sugo',
+        start: '2021-02-06',
+        end: '2021-02-13'
+    },
+    {
+        id: 'free_pull',
+        start: '2021-02-06'
+    },
+    {
         id: 'ray_exp',
         start: '2021-02-13',
         end: '2021-02-15',
