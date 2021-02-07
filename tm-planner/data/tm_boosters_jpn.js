@@ -12980,18 +12980,18 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
+        {   // Art Brook
+            id: 1650,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
         {   // Pizza Nami
             id: 2089,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Pizza Usopp
-            id: 2091,
-            type: 'fortnight',
-            x_pts: 1.2
-        },
-        {   // Pizza Brook
-            id: 2094,
+        {   // Dress Up Usopp
+            id: 2521,
             type: 'fortnight',
             x_pts: 1.2
         },
@@ -13001,8 +13001,8 @@ var tm_boosters_jpn = {
             x_pts: 1.2
         },
         {   // Mont-d'Or
-            id: 2753,
-            type: 'fortnight',
+            id: 2595,
+            type: 'other',
             x_pts: 1.2
         },
         {   // PF Bartolomeo
