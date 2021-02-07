@@ -4368,4 +4368,200 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Queen ==========
+    3239: {
+        2433: {
+            name: 'Jack',
+            type: 'STR',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Jack', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '7T'],
+                                ['atk-down',        '4T, 80%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2990: {
+            name: 'King',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['King', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['para',            '2T'],
+                                ['def-thres',       '5T, 99%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '50,000']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3110: {
+            name: 'Page One',
+            type: 'STR',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Page One', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['def',             '3T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+        3210: {
+            name: 'X Drake',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['X Drake', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['slot-lock',       '2T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3239: {
+            name: 'Queen',
+            type: 'QCK',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '50%'],
+                                ['silence',         '2T'],
+                                ['slot-change',     'Bomb'],
+                                ['bind',            '5T, Row 2']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Queen', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '2T, Row 2 3'],
+                                ['silence',         '2T'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3236: {
+            name: 'O-Lin',
+            type: 'STR',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, QCK/DEX']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Empty'],
+                                ['dmg-eot-e',       '20%'],
+                                ['atk-boost',       '3T, 1.2x'],
+                                ['orb-boost',       '3T, 1.2x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['O-Lin', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['burn',            '4T, 5000'],
+                                ['resil',           '5T'],
+                                ['bar-p',           '1T, 3x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };

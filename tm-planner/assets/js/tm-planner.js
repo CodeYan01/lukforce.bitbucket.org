@@ -354,7 +354,8 @@ function getBoosters(tmId, server) {
             tmId == 3115 ||
             tmId == 3150 ||
             tmId == 3197 ||
-            tmId == 3217
+            tmId == 3217 ||
+            tmId == 3239
         )
     ) {
         // TM Zorojuro
@@ -364,6 +365,7 @@ function getBoosters(tmId, server) {
         // TM Kid
         // TM Garp
         // TM Komurasaki
+        // TM Queen
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -620,7 +622,8 @@ function init(tmId, server) {
         tmId == 3115 ||
         tmId == 3150 ||
         tmId == 3197 ||
-        tmId == 3217
+        tmId == 3217 ||
+        tmId == 3239
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
