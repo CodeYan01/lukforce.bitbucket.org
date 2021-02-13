@@ -3301,6 +3301,11 @@ var specialBgEvents = [
         start: '2021-02-06'
     },
     {
+        id: 'sugo_tm',
+        start: '2021-02-13',
+        end: '2021-02-20'
+    },
+    {
         id: 'ray_exp',
         start: '2021-02-13',
         end: '2021-02-15',
