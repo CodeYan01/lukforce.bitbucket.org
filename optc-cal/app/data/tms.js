@@ -179,4 +179,9 @@ var tms = {
         thumb: 3060,
         info: 'i.imgur.com/fGp35AD.png'
     },
+    3115: {
+        name: 'Pudding',
+        thumb: 3115,
+        info: 'i.imgur.com/TkLUvMe.png'
+    },
 };
