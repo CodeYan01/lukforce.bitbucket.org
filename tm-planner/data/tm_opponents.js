@@ -3620,16 +3620,29 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Katakuri', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['blind',           '?T'],
+                                ['slot-change',     'Bad'],
+                                ['blind',           '99+T'],
                                 ['chain-lock',      '5T, 1.1x'],
-                                ['bind',            '7T, Row 2 3'],
+                                ['silence',         '7T, Row 2 3'],
                                 ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['bar-p',           '5T, 5x']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
@@ -3644,16 +3657,22 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Ace', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['def',             '5T, 1000x'],
-                                ['para',            '5T'],
                                 ['slot-change',     'Bad'],
+                                ['para',            '5T'],
+                                ['def',             '5T, 1000x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['burn',            '5T']
                             ]
                         }
                     ]
@@ -3668,8 +3687,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Reiju', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 100000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3690,16 +3709,29 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Luffy', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 800000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['atk-down',        '5T, 80%'],
-                                ['burn',            '5T, 3000'],
                                 ['para',            '4T'],
+                                ['burn',            '5T, 3000'],
+                                ['atk-down',        '5T, 80%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 2 Turns',
+                            action: [
+                                ['hp-cut',          '20%'],
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['enrage',          '99+T']
                             ]
                         }
                     ]
@@ -3713,15 +3745,16 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Sanji', 'PSY'],
+                    hp: 500000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
                                 ['slot-change',     'Bad'],
-                                ['atk-down',        '3T, 90%']
+                                ['atk-down',        '3T, 90%'],
+                                ['bar-color',       'Random, 2x']
                             ]
                         }
                     ]
@@ -3729,16 +3762,35 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Pudding', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['def-thres',       '5T, 99%, 1000'],
+                                ['para',            '5T, Mid Right'],
                                 ['def-perc',        '5T, 80%'],
-                                ['para',            '5T, Col 2'],
+                                ['def-thres',       '5T, 99%, 1000'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['para',            '5T, Mid Left']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['para',            '10T, Row 1']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['bind',            '30T']
                             ]
                         }
                     ]
@@ -3763,15 +3815,15 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Koala', 'PSY'],
+                    hp: 1000000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['silence',         '5T, Row 1'],
                                 ['slot-change',     'EMPTY'],
+                                ['bind',            '5T, Row 1'],
                                 ['immu-delay',      '99+T']
                             ]
                         }
@@ -3780,16 +3832,35 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Sabo', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['chain-down',      '5T, 0.1x'],
-                                ['desp',            '5T'],
                                 ['cd-rew',          '1T'],
+                                ['desp',            '5T'],
+                                ['chain-down',      '5T, 0.1x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['desp',            '5T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['desp',            '5T'],
+                                ['Clear Buff',      'Normal']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['bind',            '30T']
                             ]
                         }
                     ]
