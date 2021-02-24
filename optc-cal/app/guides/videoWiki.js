@@ -66,6 +66,7 @@ var videoWiki = {
     2922: 'raidboss/kaido',
     2956: 'raidboss/v2crocodile',
     2987: 'raidboss/sobamask',
+    3078: 'raidboss/brook',
     3370: 'raidboss/usoppchopper',
 
     1623: 'raidboss/doflamingokai',

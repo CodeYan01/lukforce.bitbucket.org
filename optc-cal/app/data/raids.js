@@ -265,6 +265,10 @@ var raids = {
         name: 'Soba Mask',
         thumb: 2987
     },
+    3078: {
+        name: 'Brook',
+        thumb: 3078
+    },
     3370: {
         name: 'Usopp & Chopper',
         thumb: 5052
