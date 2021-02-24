@@ -648,6 +648,11 @@ var specials = {
         name: 'Summer Hancock',
         thumb: 3038
     },
+    'si_3065': {
+        type: 'Skillbook Island',
+        name: 'Luffy & Sanji, Germa 66, Sweet 3',
+        thumb: 3065
+    },
     'si_3100': {
         type: 'Skillbook Island',
         name: 'Halloween Mihawk, Halloween Law',
