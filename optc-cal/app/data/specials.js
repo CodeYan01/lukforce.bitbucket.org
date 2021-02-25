@@ -75,6 +75,11 @@ var specials = {
         name: 'Summer Girls 2020',
         thumb: 3050
     },
+    'bb_3065': {
+        type: 'Face Off',
+        name: 'Luffy vs. Sanji',
+        thumb: 3065
+    },
     'bb_3188': {
         type: 'Blitz Battle',
         name: 'Grand Battle vs. Marines',
