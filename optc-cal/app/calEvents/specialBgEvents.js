@@ -3338,9 +3338,21 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: 'ss_100',
+        start: '2021-02-27',
+        end: '2021-03-07',
+        pst_19: true
+    },
+    {
         id: 'sp_100',
         start: '2021-03-07',
         end: '2021-03-09',
+        pst_19: true
+    },
+    {
+        id: 'ss_100',
+        start: '2021-03-09',
+        end: '2021-03-17',
         pst_19: true
     },
     {
