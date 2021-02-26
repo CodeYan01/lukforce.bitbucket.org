@@ -266,7 +266,7 @@ var raids = {
         thumb: 2987
     },
     3078: {
-        name: 'Brook',
+        name: 'Soul King',
         thumb: 3078
     },
     3370: {
