@@ -473,6 +473,7 @@ var gw = {
     'ev_0327': '214620',// Snowy Winter Island Drum Kingdom
     'ev_3034': '217568',// Regroup! Straw Hat Pirates
     'ev_3045': '218689',// Summer Paradise 5
+    'ev_2469': '227860',// Escape! Cacao Island
     'ev_3108': '230072',// Party of Horror
     'ev_3177': '',      // Oden & Roger's Great Adventure
 

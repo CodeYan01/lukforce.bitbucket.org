@@ -736,6 +736,11 @@ var specials = {
         name: 'Summer Paradise 5',
         thumb: 3045
     },
+    'ev_2469': {
+        type: 'Special Event',
+        name: 'Escape! Cacao Island',
+        thumb: 2469
+    },
     'ev_3108': {
         type: 'Special Event',
         name: 'Party of Horror',
