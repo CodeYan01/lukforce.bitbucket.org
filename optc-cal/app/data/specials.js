@@ -80,6 +80,11 @@ var specials = {
         name: 'Luffy vs. Sanji',
         thumb: 3065
     },
+    'bb_3069': {
+        type: 'Blitz Battle',
+        name: 'Tea Party from Hell',
+        thumb: 3069
+    },
     'bb_3188': {
         type: 'Blitz Battle',
         name: 'Grand Battle vs. Marines',

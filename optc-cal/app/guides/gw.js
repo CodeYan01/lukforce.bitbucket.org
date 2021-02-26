@@ -441,6 +441,7 @@ var gw = {
     'bb_2734': '173414',// Four Emperors
     'bb_3050': '218637',// Summer Girls 2020
     'bb_3065': '225150',// Face Off! Luffy vs. Sanji
+    'bb_3069': '226582',// Tea Party from Hell
     'bb_3188': '',      // Grand Battle vs. Marines
 
     'wc_2401': '130091',// World Clash

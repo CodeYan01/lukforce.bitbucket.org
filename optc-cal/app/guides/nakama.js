@@ -441,6 +441,7 @@ var nakama = {
     'bb_2734': '6273400',   // Four Emperors
     'bb_3050': '',          // Summer Girls 2020
     'bb_3065': '6306500',   // Face Off! Luffy vs. Sanji
+    'bb_3069': '6307900',   // Tea Party from Hell
     'bb_3188': '',          // Grand Battle vs. Marines
 
     'wc_2401': '6240700',   // World Clash
