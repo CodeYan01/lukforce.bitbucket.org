@@ -137,6 +137,9 @@ var specials_bg = {
     '5th_anni_ship_sp': {
         thumb: '5th_anni_ship_sp'
     },
+    '6th_anni_ship': {
+        thumb: '3rd_anni_ship'
+    },
     'usopp_ship': {
         thumb: 'usopp_ship'
     },

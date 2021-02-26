@@ -3338,6 +3338,12 @@ var specialBgEvents = [
         pst_19: true
     },
     {
+        id: '6th_anni_ship',
+        start: '2021-02-25',
+        end: '2021-03-19',
+        pst_19: true
+    },
+    {
         id: 'ss_100',
         start: '2021-02-27',
         end: '2021-03-07',
