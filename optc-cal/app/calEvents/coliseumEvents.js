@@ -5379,4 +5379,70 @@ var coliseumEvents = [
         start: '2021-02-26',
         new_batch: false
     },
+
+    // ##############################
+    {
+        newId: [3083],
+        repId: [2163, 2290, 2471, 1630],
+        start: '2021-02-27',
+        new_batch: true
+    },
+    {
+        newId: [3083],
+        repId: [2163, 2290, 2471, 1630],
+        start: '2021-03-02',
+        end: '2021-03-04',
+        new_batch: true
+    },
+    {
+        newId: [3083],
+        repId: [2163, 2290, 2471, 1630],
+        start: '2021-03-06',
+        new_batch: true
+    },
+    {
+        newId: [3083],
+        repId: [2163, 2290, 2471, 1630],
+        start: '2021-03-09',
+        end: '2021-03-11',
+        new_batch: true
+    },
+    {
+        newId: [3083],
+        repId: [2163, 2290, 2471, 1630],
+        start: '2021-03-13',
+        new_batch: true
+    },
+
+    // ##############################
+    {
+        newId: [3083],
+        repId: [1733, 2323, 2375, 1527],
+        start: '2021-03-01',
+        new_batch: false
+    },
+    {
+        newId: [3083],
+        repId: [1733, 2323, 2375, 1527],
+        start: '2021-03-05',
+        new_batch: false
+    },
+    {
+        newId: [3083],
+        repId: [1733, 2323, 2375, 1527],
+        start: '2021-03-08',
+        new_batch: false
+    },
+    {
+        newId: [3083],
+        repId: [1733, 2323, 2375, 1527],
+        start: '2021-03-12',
+        new_batch: false
+    },
+    {
+        newId: [3083],
+        repId: [1733, 2323, 2375, 1527],
+        start: '2021-03-15',
+        new_batch: false
+    },
 ]

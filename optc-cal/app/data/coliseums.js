@@ -554,6 +554,11 @@ var coliseums = {
         chaos_only: true, // Not but new format
         thumb: 3049
     },
+    3083: {
+        name: 'O-Kiku',
+        chaos_only: true, // Not but new format
+        thumb: 3083
+    },
     3110: {
         name: 'Page One',
         chaos_only: true, // Not but new format
