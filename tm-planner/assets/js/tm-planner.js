@@ -357,7 +357,8 @@ function getBoosters(tmId, server) {
             tmId == 3150 ||
             tmId == 3197 ||
             tmId == 3217 ||
-            tmId == 3239
+            tmId == 3239 ||
+            tmId == 3273
         )
     ) {
         // TM Zorojuro
@@ -368,6 +369,7 @@ function getBoosters(tmId, server) {
         // TM Garp
         // TM Komurasaki
         // TM Queen
+        // TM Luffy & Ace
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -600,32 +602,7 @@ function init(tmId, server) {
         tmId == 2261 ||
         tmId == 2299 ||
         tmId == 2336 ||
-        tmId == 2387 ||
-        tmId == 2443 ||
-        tmId == 2469 ||
-        tmId == 2510 ||
-        tmId == 2557 ||
-        tmId == 2583 ||
-        tmId == 2618 ||
-        tmId == 2659 ||
-        tmId == 2690 ||
-        tmId == 2729 ||
-        tmId == 2763 ||
-        tmId == 2792 ||
-        tmId == 2823 ||
-        tmId == 2850 ||
-        tmId == 2879 ||
-        tmId == 2913 ||
-        tmId == 2977 ||
-        tmId == 2995 ||
-        tmId == 3022 ||
-        tmId == 3060 ||
-        tmId == 3094 ||
-        tmId == 3115 ||
-        tmId == 3150 ||
-        tmId == 3197 ||
-        tmId == 3217 ||
-        tmId == 3239
+        tmId >= 2387
     ) {
         $('#ambush-team').show();
         $('#first-team').removeClass('offset-md-1');
@@ -739,18 +716,29 @@ function decorateSpIcon(iconKey, isAction) {
 }
 
 function parseVsUnitId(vsId) {
+    // Kaido vs. Big Mom
     if (vsId === 9001 || vsId === 9002)
         return 3135;
+    // Ace vs. Akainu
+    if (vsId === 9003 || vsId === 9004)
+        return 3253;
 
     return vsId;
 }
 
 function parseVsUnitIdForCalc(vsId) {
+    // Kaido vs. Big Mom
     if (vsId === 9001)
         return 5281;
-
     if (vsId === 9002)
         return 5282;
+
+    // Ace vs. Akainu
+    // TODO
+    /*if (vsId === 9003)
+        return 5281;
+    if (vsId === 9004)
+        return 5282;*/
 
     return vsId;
 }

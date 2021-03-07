@@ -4513,7 +4513,7 @@ var tm_opponents = {
                                 ['def',             '3T, 1000x'],
                                 ['immu-delay',      '99+T']
                             ]
-                        },
+                        }
                     ]
                 }
             ]
@@ -4627,6 +4627,206 @@ var tm_opponents = {
                                 ['burn',            '4T, 5000'],
                                 ['resil',           '5T'],
                                 ['bar-p',           '1T, 3x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
+
+    // ========== Luffy & Ace ==========
+    3273: {
+        2066: {
+            name: 'Jinbe',
+            type: 'STR',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Jinbe', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['def-perc',        '5T, 90%'],
+                                ['resil',           '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2694: {
+            name: 'Buggy',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Buggy', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '3T, Row 1'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2698: {
+            name: 'Croc',
+            type: 'DEX',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Croc', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'TND'],
+                                ['atk-down',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '30,000']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3262: {
+            name: 'Whitebeard',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Whitebeard', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['para',            '3T'],
+                                ['bar-p',           '3T, 4x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3273: {
+            name: 'Luffy & Ace',
+            type: 'STR',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '5T'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['slot-block',      'All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Luffy & Ace', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['burn',            '5T, 3000'],
+                                ['chain-down',      '3T, 0.1x'],
+                                ['bar-hit',         '?T, 12x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['heal',            '25%']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2692: {
+            name: 'Ivankov',
+            type: 'DEX',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, STR/QCK']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['blind',           '?T'],
+                                ['desp',            '5T'],
+                                ['def-thres',       '5T, 99%, 1000']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Ivankov', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['Blow Away',       '5T, Bottom Right'],
+                                ['cd-rew',          '2T'],
+                                ['para',            '5T'],
                                 ['immu-delay',      '99+T']
                             ]
                         }

@@ -98,10 +98,16 @@ function getThumb(thumbId) {
         return '/tm-planner/assets/img/new-thumbs/f' + paddedThumbId + '.png';
 
     // Special case for VS Units
+    // Kaido vs. Big Mom
     if (thumbId === 9001)
         return '/tm-planner/assets/img/new-thumbs/f3135-1.png';
     if (thumbId === 9002)
         return '/tm-planner/assets/img/new-thumbs/f3135-2.png';
+    // Ace vs. Akainu
+    if (thumbId === 9003)
+        return '/tm-planner/assets/img/new-thumbs/f3253-1.png';
+    if (thumbId === 9004)
+        return '/tm-planner/assets/img/new-thumbs/f3253-2.png';
 
     // Special cases for new thumbs
     if (
