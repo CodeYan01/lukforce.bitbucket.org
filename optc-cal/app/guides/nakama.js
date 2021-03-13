@@ -407,6 +407,7 @@ var nakama = {
     2995: '8299500',    // Zorojuro
     3022: '8302200',    // Reiju
     3060: '8306000',    // Nami & Sanji
+    3094: '8309400',    // Jinbe
     3115: '8311500',    // Pudding
 
     // Kizunas

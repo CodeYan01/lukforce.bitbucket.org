@@ -407,6 +407,7 @@ var gw = {
     2995: '207706',     // Zorojuro
     3022: '213498',     // Reiju
     3060: '223196',     // Nami & Sanji
+    3094: '228862',     // Jinbe
     3115: '232511',     // Pudding
 
     // Kizunas

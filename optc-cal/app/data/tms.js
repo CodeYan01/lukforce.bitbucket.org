@@ -179,6 +179,11 @@ var tms = {
         thumb: 3060,
         info: 'i.imgur.com/fGp35AD.png'
     },
+    3094: {
+        name: 'Jinbe',
+        thumb: 3094,
+        info: ''
+    },
     3115: {
         name: 'Pudding',
         thumb: 3115,
