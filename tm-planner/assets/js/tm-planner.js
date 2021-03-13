@@ -129,6 +129,7 @@ function getBoosters(tmId, server) {
             tmId == 2977 ||
             tmId == 2995 ||
             tmId == 3022 ||
+            tmId == 3094 ||
             tmId == 3115
         )
     ) {
@@ -149,6 +150,7 @@ function getBoosters(tmId, server) {
         // TM Anni Luffy
         // TM Zorojuro
         // TM Reiju
+        // TM Jinbe
         // TM Pudding
         $('#div_2_2x').show();
         $('#div_2x').show();

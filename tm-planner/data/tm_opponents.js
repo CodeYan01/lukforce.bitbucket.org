@@ -3419,14 +3419,14 @@ var tm_opponents = {
     3094: {
         3067: {
             name: 'Nami',
-            type: 'PSY',
+            type: 'INT',
             pos: 0,
             guide: [
                 {
                     stageNum: 5,
-                    boss: ['Nami', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Nami', 'INT'],
+                    hp: 100000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3441,14 +3441,14 @@ var tm_opponents = {
         },
         3078: {
             name: 'Brook',
-            type: 'PSY',
+            type: 'DEX',
             pos: 1,
             guide: [
                 {
                     stageNum: 5,
-                    boss: ['Brook', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Brook', 'DEX'],
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3457,6 +3457,12 @@ var tm_opponents = {
                                 ['para',            '3T'],
                                 ['chain-lock',      '5T, 1.1x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['heal',            '280,000']
                             ]
                         },
                         {
@@ -3477,8 +3483,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Carrot', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3488,6 +3494,18 @@ var tm_opponents = {
                                 ['def-perc',        '5T, 80%'],
                                 ['immu-def',        '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 1, Every Turn After',
+                            action: [
+                                ['Blow Away',       '99+T, Random 1']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
+                            ]
                         }
                     ]
                 }
@@ -3495,22 +3513,34 @@ var tm_opponents = {
         },
         3081: {
             name: 'Chobro',
-            type: 'STR',
+            type: 'INT',
             pos: 2,
             guide: [
                 {
                     stageNum: 5,
-                    boss: ['Chobro', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Chobro', 'INT'],
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
                                 ['slot-change',     'Bad'],
                                 ['Confusion',       'Row 2'],
-                                ['silence',         '5T'],
+                                ['silence',         '5T, Row 3'],
                                 ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 2 Turns',
+                            action: [
+                                ['Confusion',       'Row 2 3']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['bind',            '5T, Row 1']
                             ]
                         }
                     ]
@@ -3519,14 +3549,14 @@ var tm_opponents = {
         },
         3094: {
             name: 'Jinbe',
-            type: 'PSY',
+            type: 'DEX',
             pos: 4,
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Aladdin', 'INT'],
+                    hp: 500000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3540,9 +3570,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 5,
-                    boss: ['Jinbe', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Jinbe', 'DEX'],
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3552,6 +3582,26 @@ var tm_opponents = {
                                 ['def',             '5T, 2000x'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['para',            '2T, Row 1'],
+                                ['bind',            '5T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['Blow Away',       '3T, Captain'],
+                                ['para',            '5T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
+                            ]
                         }
                     ]
                 }
@@ -3559,7 +3609,7 @@ var tm_opponents = {
         },
         2919: {
             name: 'Sanji & Pudding',
-            type: '?',
+            type: 'DEX',
             pos: 5,
             guide: [
                 {
@@ -3568,16 +3618,16 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '10T, STR/PSY/INT']
+                                ['cd-red',          '10T, STR/PSY']
                             ]
                         }
                     ]
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Luffy', 'DEX'],
+                    hp: 1000000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3591,9 +3641,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 3,
-                    boss: ['Sanji & Pudding', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Sanji & Pudding', 'DEX'],
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3602,6 +3652,27 @@ var tm_opponents = {
                                 ['Special Limit',   '1T, 3x'],
                                 ['def-thres',       '5T, 99%, 1000'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 4 Turns',
+                            action: [
+                                ['desp',            '5T'],
+                                ['slot-change',     'Random'],
+                                ['burn',            '3T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['bind',            '5T, Row 2 3']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
