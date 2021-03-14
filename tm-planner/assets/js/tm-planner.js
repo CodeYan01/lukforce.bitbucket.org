@@ -1785,16 +1785,23 @@ $(document).ready(function() {
     // Change Boss HP and ATK based on Nav Lv
     $('#guide-nav-lv').change(function() {
         var navLv = parseInt($(this).val());
+        var hpMultiplier = 0.1;
+        var atkMultiplier = 0.05;
+
+        if (tmId >= 3094) {
+            hpMultiplier = 0.15;
+            atkMultiplier = 0.075;
+        }
 
         $('.guide-boss-hp').each(function() {
             var baseBossHp = parseInt($(this).closest('.guide-boss-hp-div').find('.guide-boss-hp-base').val());
-            var cBossHp = baseBossHp + (baseBossHp * (navLv - 1) * 0.1);
+            var cBossHp = baseBossHp + (baseBossHp * (navLv - 1) * hpMultiplier);
             $(this).text(new Intl.NumberFormat().format(cBossHp));
         });
 
         $('.guide-boss-atk').each(function() {
             var baseBossAtk = parseInt($(this).closest('.guide-boss-atk-div').find('.guide-boss-atk-base').val());
-            var cBossAtk = baseBossAtk + (baseBossAtk * (navLv - 1) * 0.05);
+            var cBossAtk = baseBossAtk + (baseBossAtk * (navLv - 1) * atkMultiplier);
             $(this).text(new Intl.NumberFormat().format(cBossAtk));
         });
     });
