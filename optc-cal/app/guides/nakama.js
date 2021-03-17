@@ -510,4 +510,5 @@ var nakama = {
     'ka_2852': '2285200',   // Kizuna Assist Ivankov
     'ka_2921': '2292100',   // Kizuna Assist Judge
     'ka_3053': '2305300',   // Kizuna Assist Hatchan
+    'ka_3111': '2311100',   // Kizuna Assist Coby
 };

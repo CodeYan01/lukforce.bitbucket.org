@@ -39,7 +39,7 @@ var tm_boosters = [
     3094,
     3115,
 
-    // ===== ? =====
+    // ===== Jinbe =====
     // Raids
     3078,
 
@@ -58,4 +58,14 @@ var tm_boosters = [
     // FNs
 
     // Others
+
+    // ===== ? =====
+    // Raids
+
+    // Coliseums
+
+    // FNs
+
+    // Others
+    3111,
 ]
