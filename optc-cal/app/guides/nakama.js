@@ -429,6 +429,7 @@ var nakama = {
     2999: '9299900',    // Luffy & Hancock
     3036: '9303600',    // Kaido
     3052: '9305200',    // Buggy
+    3098: '9309800',    // Sakazuki & Borsalino
     3124: '9312400',    // Kid
 
     // Events
