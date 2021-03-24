@@ -5460,6 +5460,13 @@ var coliseumEvents = [
         start: '2021-03-20',
         new_batch: true
     },
+    {
+        newId: [3083],
+        repId: [1792, 2111, 2550, 1586],
+        start: '2021-03-23',
+        end: '2021-03-25',
+        new_batch: true
+    },
 
     // ##############################
     {
