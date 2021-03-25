@@ -533,5 +533,6 @@ var gw = {
     'si_3038': '218747',// Skillbook Island Summer Hancock
     'si_3065': '225163',// Skillbook Island Luffy & Sanji, Germa 66, Sweet 3
     'si_3100': '230163',// Skillbook Island Halloween Mihawk, Halloween Law
+    'si_3135': '234904',// Skillbook Island Kaido VS Big Mom
     'si_3181': '',      // Skillbook Island Roger, Oden
 };

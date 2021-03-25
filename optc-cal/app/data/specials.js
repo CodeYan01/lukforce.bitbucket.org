@@ -673,6 +673,11 @@ var specials = {
         name: 'Halloween Mihawk, Halloween Law',
         thumb: 3100
     },
+    'si_3135': {
+        type: 'Skillbook Island',
+        name: 'Kaido VS Big Mom',
+        thumb: 3135
+    },
     'si_3181': {
         type: 'Skillbook Island',
         name: 'Roger, Oden',
