@@ -217,6 +217,7 @@ var wiki = {
     2956: '',                               // Mr. 0
     2987: '',                               // Soba Mask
     3078: '',                               // Soul King
+    3143: '',                               // O-Nami & Shinobu
     3370: 'wiki/raidboss/usoppchopper',
 
     1623: 'wiki/raidboss/doffykai',
