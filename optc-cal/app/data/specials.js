@@ -756,6 +756,11 @@ var specials = {
         name: 'Party of Horror',
         thumb: 3108
     },
+    'ev_3135': {
+        type: 'Special Event',
+        name: 'Brawl! Big Mom VS Kaido',
+        thumb: 3135
+    },
     'ev_3177': {
         type: 'Special Event',
         name: 'Oden & Roger\'s Great Adventure',

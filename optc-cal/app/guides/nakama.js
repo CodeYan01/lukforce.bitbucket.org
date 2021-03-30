@@ -479,6 +479,7 @@ var nakama = {
     'ev_3045': '',          // Summer Paradise 5
     'ev_2469': '',          // Escape! Cacao Island
     'ev_3108': '6310800',   // Party of Horror
+    'ev_3135': '6313500',   // Brawl! Big Mom VS Kaido
     'ev_3177': '',          // Oden & Roger's Great Adventure
 
     'wa_2700': '',          // Land of Wano Kaido
