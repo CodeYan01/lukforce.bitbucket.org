@@ -565,6 +565,14 @@ var coliseums = {
         thumb: 3110
     },
 
+    // Arenas
+    3145: {
+        name: 'Kamazo',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3145
+    },
+
     // Neo Coliseums
     1863: {
         name: 'Kinemon (N)',

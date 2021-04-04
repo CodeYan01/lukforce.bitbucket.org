@@ -173,7 +173,12 @@ function showFooter() {
             } else {
                 var coli = coliseums[newId];
                 res['id'] = newId;
-                res['title'] = '『Coliseum』\n' + coli['name'];
+
+                if (coli['altType'])
+                    res['title'] = '『' + coli['altType'] + '』\n' + coli['name'];
+                else
+                    res['title'] = '『Coliseum』\n' + coli['name'];
+
                 res['thumb'] = coli['thumb'];
             }
 

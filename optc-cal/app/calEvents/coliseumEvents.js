@@ -5481,4 +5481,34 @@ var coliseumEvents = [
         start: '2021-03-22',
         new_batch: false
     },
+
+    // ##############################
+    {
+        newId: 3145,
+        repId: [],
+        start: '2021-04-04',
+        end: '2021-04-11',
+        new_batch: true
+    },
+    {
+        newId: 3145,
+        repId: [],
+        start: '2021-04-11',
+        end: '2021-04-18',
+        new_batch: true
+    },
+    {
+        newId: 3145,
+        repId: [],
+        start: '2021-04-18',
+        end: '2021-04-25',
+        new_batch: true
+    },
+    {
+        newId: 3145,
+        repId: [],
+        start: '2021-04-25',
+        end: '2021-05-01',
+        new_batch: true
+    },
 ]
