@@ -189,4 +189,9 @@ var tms = {
         thumb: 3115,
         info: 'i.imgur.com/TkLUvMe.png'
     },
+    3150: {
+        name: 'Kid',
+        thumb: 3150,
+        info: ''
+    },
 };
