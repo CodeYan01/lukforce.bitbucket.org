@@ -3950,8 +3950,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Chopperemon', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 100000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3972,8 +3972,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['O-Kiku', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -3996,8 +3996,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Kamazo', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4007,27 +4007,51 @@ var tm_opponents = {
                                 ['bind',            '5T, Row 1'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 1, Every Turn After',
+                            action: [
+                                ['Blow Away',       '99+T, Random 1']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['dmg-up',          '99+T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
+                            ]
                         }
                     ]
                 }
             ]
         },
         3147: {
-            name: 'Hyogoro',
-            type: 'DEX',
+            name: ['Hyo', 'goro'],
+            type: ['DEX', 'INT'],
             pos: 1,
             guide: [
                 {
                     stageNum: 5,
                     boss: ['Hyogoro', 'DEX'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
                                 ['desp',            '5T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['para',            '1T']
                             ]
                         }
                     ]
@@ -4041,9 +4065,9 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Hawkins', 'DEX'],
+                    hp: 500000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4058,8 +4082,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Kid', 'DEX'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4068,6 +4092,25 @@ var tm_opponents = {
                                 ['atk-down',        '5T, 90%'],
                                 ['chain-down',      '3T, 0.1x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['Clear Buff',      'Normal'],
+                                ['Blow Away',       '99+T, Random Captain']
+                            ]
+                        },
+                        {
+                            type: 'Turn 4',
+                            action: [
+                                ['Clear Buff',      'Normal']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
@@ -4092,15 +4135,15 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Kinemon', 'DEX'],
+                    hp: 1000000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['bind',            '5T, Row 1'],
                                 ['slot-change',     'RCV/TND'],
+                                ['bind',            '5T, Row 1'],
                                 ['blind',           '5T'],
                                 ['silence',         '5T']
                             ]
@@ -4110,8 +4153,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Raizo', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4121,6 +4164,25 @@ var tm_opponents = {
                                 ['bar-p',           '2T, 1x'],
                                 ['def-thres',       '5T, 99%, 1000'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 3 Turns',
+                            action: [
+                                ['para',            '3T, Row 1'],
+                                ['slot-change',     'Random']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['heal',            '75%']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['bind',            '30T']
                             ]
                         }
                     ]

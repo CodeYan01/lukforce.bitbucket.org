@@ -11362,12 +11362,12 @@ var tm_boosters_jpn = {
             id: 3148,
             x_pts: 1.6
         },
-        {   // Kaido vs. Big Mom (Kaido)
+        {   // Kaido VS Big Mom (Kaido)
             id: 9001,
             ver: 2,
             x_pts: 1.4
         },
-        {   // Kaido vs. Big Mom (Big Mom)
+        {   // Kaido VS Big Mom (Big Mom)
             id: 9002,
             ver: 2,
             x_pts: 1.4
@@ -11783,12 +11783,12 @@ var tm_boosters_jpn = {
             ver: 2,
             x_pts: 1.4
         },
-        {   // Kaido vs. Big Mom (Kaido)
+        {   // Kaido VS Big Mom (Kaido)
             id: 9001,
             ver: 4,
             x_pts: 1.35
         },
-        {   // Kaido vs. Big Mom (Big Mom)
+        {   // Kaido VS Big Mom (Big Mom)
             id: 9002,
             ver: 4,
             x_pts: 1.35
@@ -12364,12 +12364,12 @@ var tm_boosters_jpn = {
             ver: 2,
             x_pts: 1.25
         },
-        {   // Kaido vs. Big Mom (Kaido)
+        {   // Kaido VS Big Mom (Kaido)
             id: 9001,
             type: 'legend',
             x_pts: 1.2
         },
-        {   // Kaido vs. Big Mom (Big Mom)
+        {   // Kaido VS Big Mom (Big Mom)
             id: 9002,
             type: 'legend',
             x_pts: 1.2
@@ -13081,12 +13081,12 @@ var tm_boosters_jpn = {
             id: 3272,
             x_pts: 1.6
         },
-        {   // Ace vs. Akainu (Ace)
+        {   // Ace VS Akainu (Ace)
             id: 9003,
             ver: 2,
             x_pts: 1.4
         },
-        {   // Ace vs. Akainu (Akainu)
+        {   // Ace VS Akainu (Akainu)
             id: 9004,
             ver: 2,
             x_pts: 1.4
