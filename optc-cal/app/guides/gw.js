@@ -434,6 +434,7 @@ var gw = {
     3052: '221403',     // Buggy
     3098: '229499',     // Sakazuki & Borsalino
     3124: '233771',     // Kid
+    3153: '239258',     // Hawkins
 
     // Events
     'bb_1314': '61665', // Three Admirals

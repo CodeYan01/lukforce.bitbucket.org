@@ -434,6 +434,7 @@ var nakama = {
     3052: '9305200',    // Buggy
     3098: '9309800',    // Sakazuki & Borsalino
     3124: '9312400',    // Kid
+    3153: '9315300',    // Hawkins
 
     // Events
     'bb_1314': '6131400',   // Three Admirals
