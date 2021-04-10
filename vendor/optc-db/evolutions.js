@@ -4781,51 +4781,51 @@ window.evolutions = {
     },
     2302: {
         evolution: 3079,
-        evolvers: [  ]
+        evolvers: [ 'skullINT', 118, 88, 304, 267 ]
     },
     3099: {
         evolution: 3100,
-        evolvers: [  ]
+        evolvers: [ 118, 99, 1180, 304, 267 ]
     },
     3101: {
         evolution: 3102,
-        evolvers: [  ]
+        evolvers: [ 118, 88, 266, 304, 267 ]
     },
     3103: {
         evolution: 3104,
-        evolvers: [  ]
+        evolvers: [ 117, 82, 83, 88, 104 ]
     },
     3105: {
         evolution: 3106,
-        evolvers: [  ]
+        evolvers: [ 117, 93, 94, 99, 104 ]
     },
     3117: {
         evolution: 3118,
-        evolvers: [  ]
+        evolvers: [ 118, 88, 266, 304, 267 ]
     },
     3126: {
         evolution: 3127,
-        evolvers: [  ]
+        evolvers: [ 118, 87, 98, 303, 103 ]
     },
     3128: {
         evolution: 3129,
-        evolvers: [  ]
+        evolvers: [ 118, 88, 99, 304, 104 ]
     },
     3134: {
         evolution: 3135,
-        evolvers: [  ]
+        evolvers: [ 118, 100, 104, 266, 2662 ]
     },
     3136: {
         evolution: 3137,
-        evolvers: [  ]
+        evolvers: [ 83, 78, 94, 300, 100 ]
     },
     3138: {
         evolution: 3139,
-        evolvers: [  ]
+        evolvers: [ 1180, 92, 98, 303, 103 ]
     },
     3140: {
         evolution: 3141,
-        evolvers: [  ]
+        evolvers: [ 1180, 93, 99, 304, 104 ]
     },
     1268: {
         evolution: 3154,
@@ -4877,10 +4877,22 @@ window.evolutions = {
     },
     2477: {
         evolution: 3202,
-        evolvers: [  ]
+        evolvers: [ "skullZoro2", "skullZoro2", "skullZoro2", "skullZoro2", "skullZoro2" ]
     },
     3203: {
         evolution: 3204,
+        evolvers: [  ]
+    },
+    2148: {
+        evolution: 3211,
+        evolvers: [ "skullSanji2", "skullSanji2", "skullSanji2", "skullSanji2", "skullSanji2" ]
+    },
+    3218: {
+        evolution: 3219,
+        evolvers: [  ]
+    },
+    3220: {
+        evolution: 3221,
         evolvers: [  ]
     },
     3224: {
@@ -4899,12 +4911,48 @@ window.evolutions = {
         evolution: 3231,
         evolvers: [  ]
     },
+    2475: {
+        evolution: 3240,
+        evolvers: [ "skullMihawk", "skullMihawk", "skullMihawk", "skullMihawk", "skullMihawk" ]
+    },
+    3244: {
+        evolution: 3245,
+        evolvers: [  ]
+    },
+    3252: {
+        evolution: 3253,
+        evolvers: [ 118, 100, 101, 266, 2662 ]
+    },
+    3254: {
+        evolution: 3255,
+        evolvers: [ 1180, 89, 95, 300, 100 ]
+    },
+    3256: {
+        evolution: 3257,
+        evolvers: [ 117, 89, 95, 300, 1180 ]
+    },
+    3258: {
+        evolution: 3259,
+        evolvers: [ 1180, 90, 96, 301, 101 ]
+    },
+    3260: {
+        evolution: 3261,
+        evolvers: [ 117, 90, 96, 301, 1180 ]
+    },
+    2774: {
+        evolution: 3275,
+        evolvers: [ "skullNami3", "skullNami3", "skullNami3", "skullNami3", "skullNami3" ]
+    },
+    3277: {
+        evolution: 3278,
+        evolvers: [ 118, 301, 2662, 101, 267 ]
+    },
     3333: {
         evolution: 3334,
         evolvers: [ 118, 86, 266, 302, 267 ]
     },
-    3339: {
-        evolution: 3340,
+    3312: {
+        evolution: 3313,
         evolvers: [ 118, 84, 300, 100, 266 ]
     },
     3347: {
@@ -4915,40 +4963,40 @@ window.evolutions = {
         evolution: 3350,
         evolvers: [ 117, 83, 84, 300, 100 ]
     },
-    3351: {
-        evolution: 3352,
+    3314: {
+        evolution: 3315,
         evolvers: [ 118, 86, 266, 302, 102 ]
     },
-    3353: {
-        evolution: 3354,
+    3316: {
+        evolution: 3317,
         evolvers: [ 118, 86, 266, 97, 267 ]
     },
-    3356: {
-        evolution: 3357,
+    3321: {
+        evolution: 3322,
         evolvers: [ 118, 85, 266, 301, 101 ]
     },
-    3358: {
-        evolution: 3359,
+    3323: {
+        evolution: 3324,
         evolvers: [ 118, 84, 266, 300, 100 ]
     },
     3360: {
         evolution: 3361,
         evolvers: [ 117, 79, 90, 96, 101 ]
     },
-    3366: {
-        evolution: 3367,
+    3318: {
+        evolution: 3319,
         evolvers: [ 116, 117, 79, 90, 96 ]
     },
-    3367: {
-        evolution: [3368, 3368],
+    3319: {
+        evolution: [3320, 3320],
         evolvers: [[ 118, 85, 266, 96, 101 ], [ 18 ]]
     },
     3371: {
         evolution: 3372,
         evolvers: [ 117, 84, 95, 95, 300 ]
     },
-    3375: {
-        evolution: 3376,
+    3325: {
+        evolution: 3326,
         evolvers: [ 118, 88, 266, 304, 104 ]
     },
 };
