@@ -25,9 +25,9 @@ var ambushes = {
     },
 
     // Neo Ambushes
-    3354: {
+    3317: {
         name: 'Young WB (N)',
-        thumb: 5036
+        thumb: 3317
     },
 
     // Special Ambushes

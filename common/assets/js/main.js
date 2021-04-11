@@ -33,10 +33,6 @@ function getThumb(thumbId) {
     if (thumbId === 5014 || thumbId === 3334)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
-    // Special case for Garp (N)
-    if (thumbId === 5028 || thumbId === 3340)
-        return '/tm-planner/assets/img/new-thumbs/5028.png';
-
     // Special case for Log Vivi
     if (thumbId === 5030 || thumbId === 3348)
         return '/tm-planner/assets/img/new-thumbs/5030.png';
@@ -44,26 +40,6 @@ function getThumb(thumbId) {
     // Special case for Log Ace
     if (thumbId === 5032 || thumbId === 3350)
         return '/tm-planner/assets/img/new-thumbs/5032.png';
-
-    // Special case for Ivankov (N)
-    if (thumbId === 5034 || thumbId === 3352)
-        return '/tm-planner/assets/img/new-thumbs/5034.png';
-
-    // Special case for YWB (N)
-    if (thumbId === 5036 || thumbId === 3354)
-        return '/tm-planner/assets/img/new-thumbs/5036.png';
-
-    // Special case for Duval (N)
-    if (thumbId === 5041 || thumbId === 3368)
-        return '/tm-planner/assets/img/new-thumbs/5041.png';
-
-    // Special case for Nightmare Luffy (N)
-    if (thumbId === 5043 || thumbId === 3357)
-        return '/tm-planner/assets/img/new-thumbs/5043.png';
-
-    // Special case for Vergo (N)
-    if (thumbId === 5045 || thumbId === 3359)
-        return '/tm-planner/assets/img/new-thumbs/5045.png';
 
     // Special case for Swimsuit Pudding (white)
     if (thumbId === 5047 || thumbId === 3361)
@@ -80,10 +56,6 @@ function getThumb(thumbId) {
     // Special case for Helmeppo (EX)
     if (thumbId === 5056 || thumbId === 3373)
         return '/tm-planner/assets/img/new-thumbs/5056.png';
-
-    // Special case for Heracles (N)
-    if (thumbId === 5058 || thumbId === 3376)
-        return '/tm-planner/assets/img/new-thumbs/5058.png';
 
     // Special case for Law & Chopper
     if (thumbId === 5064 || thumbId === 3381)

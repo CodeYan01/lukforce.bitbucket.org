@@ -81,12 +81,12 @@ var videoWiki = {
     1826: '',   // Akainu (N)
     1930: 'raidboss/enelkai',
     2070: 'raidboss/hancockkai',
-    3340: 'raidboss/garpkai',
-    3352: 'raidboss/ivankovkai',
-    3357: '',   // Nightmare Luffy (N)
-    3359: '',   // Vergo (N)
-    3368: '',   // Duval (N)
-    3376: '',   // Heracles (N)
+    3313: 'raidboss/garpkai',
+    3315: 'raidboss/ivankovkai',
+    3320: '',   // Duval (N)
+    3322: '',   // Nightmare Luffy (N)
+    3324: '',   // Vergo (N)
+    3326: '',   // Heracles (N)
 
     1258: 'raidboss/youngwb',
     1380: 'raidboss/invadeshanks',
@@ -95,7 +95,7 @@ var videoWiki = {
     2283: 'raidboss/invadesengoku',
     2381: 'raidboss/invadelinlin',
 
-    3354: 'raidboss/youngwbkai',
+    3317: 'raidboss/youngwbkai',
 
     // Coliseums
     777: 'coliseum/luckyroo',

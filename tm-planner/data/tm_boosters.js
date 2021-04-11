@@ -4104,7 +4104,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Garp (N)
-            id: 3340,
+            id: 3313,
             type: 'raid',
             x_pts: 1.2
         },
@@ -5600,12 +5600,12 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Garp (N)
-            id: 3340,
+            id: 3313,
             type: 'raid',
             x_pts: 1.2
         },
         {   // Ivankov (N)
-            id: 3352,
+            id: 3315,
             type: 'raid',
             x_pts: 1.2
         },
@@ -5930,7 +5930,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Young Whitebeard (N)
-            id: 3354,
+            id: 3317,
             type: 'other',
             x_pts: 1.2
         },
@@ -7101,7 +7101,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Duval (N)
-            id: 3368,
+            id: 3320,
             x_pts: 1.35
         },
         {   // Pica
@@ -7635,11 +7635,11 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Nightmare Luffy (N)
-            id: 3357,
+            id: 3322,
             x_pts: 1.35
         },
         {   // Vergo (N)
-            id: 3359,
+            id: 3324,
             x_pts: 1.35
         },
         {   // Katakuri
@@ -7814,7 +7814,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Ivankov (N)
-            id: 3352,
+            id: 3315,
             type: 'raid',
             x_pts: 1.2
         },
@@ -8014,7 +8014,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Whitebeard (N)
-            id: 3354,
+            id: 3317,
             type: 'other',
             x_pts: 1.2
         },
@@ -9429,7 +9429,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Duval (N)
-            id: 3368,
+            id: 3320,
             type: 'raid',
             x_pts: 1.2
         },
@@ -9654,7 +9654,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Young Whitebeard (N)
-            id: 3354,
+            id: 3317,
             type: 'other',
             x_pts: 1.2
         },
@@ -9810,7 +9810,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Heracles (N)
-            id: 3376,
+            id: 3326,
             x_pts: 1.35
         },
         {   // Jinbe

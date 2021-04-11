@@ -231,12 +231,12 @@ var gw = {
     1826: '73951',      // Akainu (N)
     1930: '86020',      // Eneru (N)
     2070: '102084',     // Boa Hancock (N)
-    3340: '',           // Garp (N)
-    3352: '',           // Ivankov (N)
-    3357: '',           // Nightmare Luffy (N)
-    3359: '',           // Vergo (N)
-    3368: '',           // Duval (N)
-    3376: '',           // Heracles (N)
+    3313: '',           // Garp (N)
+    3315: '',           // Ivankov (N)
+    3320: '',           // Duval (N)
+    3322: '',           // Nightmare Luffy (N)
+    3324: '',           // Vergo (N)
+    3326: '',           // Heracles (N)
 
     1258: '38237',      // Young Whitebeard
     1380: '46369',      // Shanks
@@ -245,7 +245,7 @@ var gw = {
     2283: '122270',     // Young Sengoku
     2381: '136823',     // Kid Big Mom
 
-    3354: '',           // Young Whitebeard (N)
+    3317: '',           // Young Whitebeard (N)
 
     // Coliseums
     777: '17609',       // Lucky Roux

@@ -323,28 +323,28 @@ var raids = {
         name: 'Boa Hancock (N)',
         thumb: 2070
     },
-    3340: {
+    3313: {
         name: 'Garp (N)',
-        thumb: 5028
+        thumb: 3313
     },
-    3352: {
+    3315: {
         name: 'Ivankov (N)',
-        thumb: 5034
+        thumb: 3315
     },
-    3357: {
-        name: 'Nightmare Luffy (N)',
-        thumb: 5043
-    },
-    3359: {
-        name: 'Vergo (N)',
-        thumb: 5045
-    },
-    3368: {
+    3320: {
         name: 'Duval (N)',
-        thumb: 5041
+        thumb: 3320
     },
-    3376: {
+    3322: {
+        name: 'Nightmare Luffy (N)',
+        thumb: 3322
+    },
+    3324: {
+        name: 'Vergo (N)',
+        thumb: 3324
+    },
+    3326: {
         name: 'Heracles (N)',
-        thumb: 5058
+        thumb: 3326
     },
 };

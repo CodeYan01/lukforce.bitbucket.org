@@ -231,12 +231,12 @@ var wiki = {
     1826: 'wiki/raidboss/akainukai',
     1930: '',                               // Eneru (N)
     2070: '',                               // Boa Hancock (N)
-    3340: '',                               // Garp (N)
-    3352: '',                               // Ivankov (N)
-    3357: '',                               // Nightmare Luffy (N)
-    3359: '',                               // Vergo (N)
-    3368: '',                               // Duval (N)
-    3376: '',                               // Heracles (N)
+    3313: '',                               // Garp (N)
+    3315: '',                               // Ivankov (N)
+    3320: '',                               // Duval (N)
+    3322: '',                               // Nightmare Luffy (N)
+    3324: '',                               // Vergo (N)
+    3326: '',                               // Heracles (N)
 
     1258: 'wiki/raidboss/ywb',
     1380: 'wiki/raidboss/ambushshanks',
@@ -245,7 +245,7 @@ var wiki = {
     2283: 'wiki/raidboss/primesengoku',
     2381: 'wiki/raidboss/younglinlin',
 
-    3354: '',                               // Young Whitebeard (N)
+    3317: '',                               // Young Whitebeard (N)
 
     // Coliseums
     777: '',                                // Lucky Roux

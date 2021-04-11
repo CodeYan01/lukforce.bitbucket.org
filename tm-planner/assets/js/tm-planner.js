@@ -940,6 +940,10 @@ function populateUnitDetail(unitId) {
                     $('#unit-detail-special').append('<b>Character 2:</b> ' + special2);
                     $('#unit-detail-special').append('<br />');
                 }
+            } else if (special.japan) {
+                // Special case where JPN version special is different
+                special = decorateStr(special.japan);
+                $('#unit-detail-special').html(special);
             } else {
                 special = decorateStr(special);
                 $('#unit-detail-special').html(special);
