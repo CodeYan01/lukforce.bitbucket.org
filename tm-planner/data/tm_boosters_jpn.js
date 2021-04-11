@@ -364,7 +364,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -603,7 +603,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -2272,7 +2272,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -3209,12 +3209,12 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Shambles Smoker
+        {   // Shambles Tashigi
             id: 1397,
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Shambles Tashigi
+        {   // Shambles Smoker
             id: 1399,
             type: 'fortnight',
             x_pts: 1.2
@@ -3956,7 +3956,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -4895,7 +4895,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -5237,7 +5237,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -6613,7 +6613,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -7306,7 +7306,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -7623,7 +7623,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -8003,7 +8003,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -9009,47 +9009,47 @@ var tm_boosters_jpn = {
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             ver: 4,
             x_pts: 1.35
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             ver: 4,
             x_pts: 1.35
@@ -9660,47 +9660,47 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -10041,47 +10041,47 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -10449,47 +10449,47 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -10800,7 +10800,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -10855,47 +10855,47 @@ var tm_boosters_jpn = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -11206,7 +11206,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -11301,47 +11301,47 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -11707,47 +11707,47 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -12023,7 +12023,7 @@ var tm_boosters_jpn = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // TS Kid
+        {   // Kid v2
             id: 2111,
             type: 'coliseum',
             x_pts: 1.2
@@ -12128,47 +12128,47 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -12579,47 +12579,47 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -13020,47 +13020,47 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2
@@ -13471,47 +13471,503 @@ var tm_boosters_jpn = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Luffy
+        {   // ST Luffy
             id: 2936,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Zoro
+        {   // ST Zoro
             id: 2938,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Nami
+        {   // ST Nami
             id: 2940,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Usopp
+        {   // ST Usopp
             id: 2942,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Sanji
+        {   // ST Sanji
             id: 2944,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Chopper
+        {   // ST Chopper
             id: 2946,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Robin
+        {   // ST Robin
             id: 2948,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Franky
+        {   // ST Franky
             id: 2950,
             type: 'other',
             x_pts: 1.2
         },
-        {   // PF Brook
+        {   // ST Brook
+            id: 2952,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
+
+    // ========== Shiryu ==========
+    3297: [
+        {   // Van Augur
+            id: 3294,
+            x_pts: 2
+        },
+        {   // Laffitte
+            id: 3296,
+            x_pts: 1.8
+        },
+        {   // Doc Q
+            id: 3295,
+            x_pts: 1.6
+        },
+        {   // Blackbeard v3
+            id: 3280,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Moria
+            id: 3282,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Luffy & Ace
+            id: 3273,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Eneru v2
+            id: 3245,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Ace VS Akainu (Ace)
+            id: 9003,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Ace VS Akainu (Akainu)
+            id: 9004,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Nami v2 6+
+            id: 3275,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Magellan v2
+            id: 3278,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Jozu v2
+            id: 3255,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Marineford Luffy
+            id: 3257,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Aokiji
+            id: 3259,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Sengoku v2
+            id: 3261,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Pizarro
+            id: 3283,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Devon
+            id: 3284,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Marco
+            id: 3263,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Shambles Chopper
+            id: 3288,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Shambles Nami
+            id: 3289,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Shambles Franky
+            id: 3290,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Shambles Sanji
+            id: 3291,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Sanjuan Wolf
+            id: 3293,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Doffy
+            id: 3276,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // PF Vergo
+            id: 3285,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Burgess
+            id: 3286,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Vasco Shot
+            id: 3287,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Kawamatsu
+            id: 3269,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // King
+            id: 3241,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // PF Hannyabal
+            id: 3251,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Weevil
+            id: 3247,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Whitebeard
+            id: 3262,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Whitebeard
+            id: 1853,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Cavendish
+            id: 1889,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // G4
+            id: 1916,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Shanks
+            id: 2261,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Smoothie & Oven
+            id: 2469,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Smoker
+            id: 2659,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Reiju
+            id: 3022,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Pudding
+            id: 3115,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Komurasaki
+            id: 3217,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Queen
+            id: 3239,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Shiryu
+            id: 3297,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Zorojuro
+            id: 3225,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Kaido v2
+            id: 3227,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Mihawk v2 6+
+            id: 3240,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Kamazo
+            id: 3229,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Gyukimaru
+            id: 3231,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Eneru
+            id: 603,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Pica
+            id: 933,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 1432,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bellamy
+            id: 1518,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Fujitora
+            id: 1595,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Caesar
+            id: 1830,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Lucci
+            id: 2015,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Big Emperor
+            id: 2398,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Magellan & Hannyabal
+            id: 2517,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Bonney
+            id: 2846,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kaido
+            id: 2922,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kaido 5+
+            id: 2923,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Soba Mask
+            id: 2987,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Sadie
+            id: 926,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Diamante
+            id: 1422,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Blenheim
+            id: 1528,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kyros
+            id: 1667,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Shishilian
+            id: 1828,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kid v2
+            id: 2111,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Neptune
+            id: 2123,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Magellan
+            id: 2354,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Smoothie
+            id: 2375,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Katakuri
+            id: 2471,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Sangoro
+            id: 2845,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Bonekichi
+            id: 3235,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Leo
+            id: 1328,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Atmos
+            id: 1511,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Law
+            id: 1581,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // X Drake
+            id: 1857,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pizza Sanji
+            id: 2088,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Donald Moderate
+            id: 2666,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // PF Lucy
+            id: 3233,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Hiyori
+            id: 3222,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // O-Toko
+            id: 3223,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Luffy
+            id: 2936,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Zoro
+            id: 2938,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Nami
+            id: 2940,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Usopp
+            id: 2942,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Sanji
+            id: 2944,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Chopper
+            id: 2946,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Robin
+            id: 2948,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Franky
+            id: 2950,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Brook
             id: 2952,
             type: 'other',
             x_pts: 1.2

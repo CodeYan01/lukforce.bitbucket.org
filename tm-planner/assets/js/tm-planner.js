@@ -362,7 +362,8 @@ function getBoosters(tmId, server) {
             tmId == 3197 ||
             tmId == 3217 ||
             tmId == 3239 ||
-            tmId == 3273
+            tmId == 3273 ||
+            tmId == 3297
         )
     ) {
         // TM Zorojuro
@@ -374,6 +375,7 @@ function getBoosters(tmId, server) {
         // TM Komurasaki
         // TM Queen
         // TM Luffy & Ace
+        // TM Shiryu
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -707,7 +709,8 @@ function decorateSpIcon(iconKey, isAction) {
         iconKey === 'Slot Bind' ||
         iconKey === 'Type Change' ||
         iconKey === 'Confusion' ||
-        iconKey === 'Special Limit'
+        iconKey === 'Special Limit' ||
+        iconKey === 'HP Barrier'
     )
         return iconKey;
 
@@ -720,10 +723,10 @@ function decorateSpIcon(iconKey, isAction) {
 }
 
 function parseVsUnitId(vsId) {
-    // Kaido vs. Big Mom
+    // Kaido VS Big Mom
     if (vsId === 9001 || vsId === 9002)
         return 3135;
-    // Ace vs. Akainu
+    // Ace VS Akainu
     if (vsId === 9003 || vsId === 9004)
         return 3253;
 
@@ -731,18 +734,17 @@ function parseVsUnitId(vsId) {
 }
 
 function parseVsUnitIdForCalc(vsId) {
-    // Kaido vs. Big Mom
+    // Kaido VS Big Mom
     if (vsId === 9001)
         return 5281;
     if (vsId === 9002)
         return 5282;
 
-    // Ace vs. Akainu
-    // TODO
-    /*if (vsId === 9003)
-        return 5281;
+    // Ace VS Akainu
+    if (vsId === 9003)
+        return 5309;
     if (vsId === 9004)
-        return 5282;*/
+        return 5310;
 
     return vsId;
 }

@@ -4968,4 +4968,206 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Shiryu ==========
+    3297: {
+        3283: {
+            name: 'Pizarro',
+            type: 'QCK',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Pizarro', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 2 3'],
+                                ['burn',            '5T, 3000'],
+                                ['desp',            '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3286: {
+            name: 'Burgess',
+            type: 'STR',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Burgess', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '3T'],
+                                ['bind',            '3T, Col 2'],
+                                ['para',            '3T, Col 1']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3287: {
+            name: 'Vasco Shot',
+            type: 'STR',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Vasco Shot', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['HP Barrier',      '5T, 2,000,000'],
+                                ['def',             '10T'],
+                                ['immu-delay',      '99+T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3294: {
+            name: 'Van Augur',
+            type: 'INT',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Van Augur', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['silence',         '5T'],
+                                ['chain-lock',      '4T, 1.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3297: {
+            name: 'Shiryu',
+            type: 'PSY',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['def-thres',       '3T, 90%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Shiryu', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '5T, Row 1'],
+                                ['bind',            '5T, Row 1'],
+                                ['def-perc',        '4T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3280: {
+            name: 'Blackbeard',
+            type: 'PSY',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, Driven/Powerhouse']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '5T'],
+                                ['dmg-eot-e',       '10%'],
+                                ['bar-gd',          '1T, 4x']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '0.8x atk']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Blackbeard', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['para',            '5T'],
+                                ['resil',           '3T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '30,000']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
