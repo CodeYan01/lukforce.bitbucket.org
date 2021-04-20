@@ -40,18 +40,6 @@ var tm_boosters = [
     3115,
     3150,
 
-    // ===== Kid =====
-    // Raids
-    3143,
-
-    // Coliseums
-    3145,
-
-    // FNs
-
-    // Others
-    3098,
-
     // ===== ? =====
     // Raids
 
@@ -61,4 +49,5 @@ var tm_boosters = [
 
     // Others
     3153,
+    3172,
 ]

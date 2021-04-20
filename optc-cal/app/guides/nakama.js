@@ -483,6 +483,7 @@ var nakama = {
     'ev_2469': '',          // Escape! Cacao Island
     'ev_3108': '6310800',   // Party of Horror
     'ev_3135': '6313500',   // Brawl! Big Mom VS Kaido
+    'ev_3172': '6317100',   // Navy's Party Night
     'ev_3177': '',          // Oden & Roger's Great Adventure
 
     'wa_2700': '',          // Land of Wano Kaido

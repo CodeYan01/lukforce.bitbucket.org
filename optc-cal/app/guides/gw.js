@@ -483,6 +483,7 @@ var gw = {
     'ev_2469': '227860',// Escape! Cacao Island
     'ev_3108': '230072',// Party of Horror
     'ev_3135': '235518',// Brawl! Big Mom VS Kaido
+    'ev_3172': '241547',// Navy's Party Night
     'ev_3177': '',      // Oden & Roger's Great Adventure
 
     'wa_2700': '181868',// Land of Wano Kaido
