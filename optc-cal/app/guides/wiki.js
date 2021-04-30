@@ -362,6 +362,7 @@ var wiki = {
     3083: '',                               // O-Kiku
     3110: '',                               // Page One
     3145: '',                               // Kamazo
+    3189: '',                               // Franosuke
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

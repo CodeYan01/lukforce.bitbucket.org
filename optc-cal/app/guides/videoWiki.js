@@ -212,6 +212,7 @@ var videoWiki = {
     3083: 'coliseum/okiku',
     3110: 'coliseum/pageone',
     3145: 'coliseum/kamazo',
+    3189: 'coliseum/franosuke',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

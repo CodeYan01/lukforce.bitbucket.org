@@ -572,6 +572,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3145
     },
+    3189: {
+        name: 'Franosuke',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3189
+    },
 
     // Neo Coliseums
     1863: {
