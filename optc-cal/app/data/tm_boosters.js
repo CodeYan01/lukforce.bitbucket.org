@@ -39,8 +39,9 @@ var tm_boosters = [
     3094,
     3115,
     3150,
+    3197,
 
-    // ===== ? =====
+    // ===== Garp =====
     // Raids
 
     // Coliseums

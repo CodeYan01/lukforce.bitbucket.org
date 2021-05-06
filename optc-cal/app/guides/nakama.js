@@ -413,6 +413,7 @@ var nakama = {
     3094: '8309400',    // Jinbe
     3115: '8311500',    // Pudding
     3150: '8315000',    // Kid
+    3197: '8319700',    // Garp
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
