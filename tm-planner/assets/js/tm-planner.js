@@ -131,7 +131,8 @@ function getBoosters(tmId, server) {
             tmId == 3022 ||
             tmId == 3094 ||
             tmId == 3115 ||
-            tmId == 3150
+            tmId == 3150 ||
+            tmId == 3197
         )
     ) {
         // TM Smoothie & Oven
@@ -154,6 +155,7 @@ function getBoosters(tmId, server) {
         // TM Jinbe
         // TM Pudding
         // TM Kid
+        // TM Garp
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();

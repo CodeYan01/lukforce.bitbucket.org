@@ -4201,8 +4201,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Brownbeard', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 100000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4223,15 +4223,27 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Rayleigh', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
                                 ['slot-change',     'Bad'],
-                                ['def-thres',       '5T'],
+                                ['def-thres',       '5T, 99%, 1000'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['heal',            '75%']
                             ]
                         }
                     ]
@@ -4246,8 +4258,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Whitebeard', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4256,6 +4268,18 @@ var tm_opponents = {
                                 ['bar-color',       '5T, 2x, STR'],
                                 ['def-perc',        '10T, 50%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 3 Turns',
+                            action: [
+                                ['def-thres',       '2T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
@@ -4270,8 +4294,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Sengoku', 'DEX'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4281,6 +4305,19 @@ var tm_opponents = {
                                 ['bind',            '5T, Row 2'],
                                 ['para',            '5T, Row 3'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['desp',            '5T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['bind',            '5T, Row 2'],
+                                ['para',            '5T, Row 3']
                             ]
                         }
                     ]
@@ -4294,7 +4331,7 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', '?'],
+                    boss: ['Coby', 'INT'],
                     hp: 0,
                     atk: 0,
                     detail: [
@@ -4311,8 +4348,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Garp', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4322,6 +4359,25 @@ var tm_opponents = {
                                 ['blind',           '99+T'],
                                 ['bar-gd',          '1T, 2x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 2 Turns',
+                            action: [
+                                ['desp',            '5T'],
+                                ['Slot Bind',       '2T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['bar-gd',          '3T, 3x']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['bind',            '30T']
                             ]
                         }
                     ]
@@ -4339,16 +4395,16 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '10T, Striker']
+                                ['cd-red',          '10T, Striker/Cerebral']
                             ]
                         }
                     ]
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Van Augur', 'STR'],
+                    hp: 1000000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4363,8 +4419,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Blackbeard', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4372,6 +4428,24 @@ var tm_opponents = {
                                 ['silence',         '5T, Row 1'],
                                 ['resil',           '3T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every Turn After',
+                            action: [
+                                ['Blow Away',       '99+T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['silence',         '5T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
