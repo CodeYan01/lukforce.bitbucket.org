@@ -41,15 +41,12 @@ var tm_boosters = [
     3150,
     3197,
 
-    // ===== Garp =====
+    // ===== ? =====
     // Raids
 
     // Coliseums
-    3189,
 
     // FNs
 
     // Others
-    3153,
-    3172,
 ]
