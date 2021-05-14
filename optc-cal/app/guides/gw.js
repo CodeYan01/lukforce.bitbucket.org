@@ -437,6 +437,7 @@ var gw = {
     3098: '229499',     // Sakazuki & Borsalino
     3124: '233771',     // Kid
     3153: '239258',     // Hawkins
+    3207: '246742',     // Bege & Pez
 
     // Events
     'bb_1314': '61665', // Three Admirals

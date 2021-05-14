@@ -93,4 +93,8 @@ var kizunas = {
         name: 'Hawkins',
         thumb: 3153
     },
+    3207: {
+        name: 'Bege & Pez',
+        thumb: 3207
+    },
 };
