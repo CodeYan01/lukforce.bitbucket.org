@@ -487,6 +487,8 @@ var nakama = {
     'ev_3135': '6313500',   // Brawl! Big Mom VS Kaido
     'ev_3172': '6317100',   // Navy's Party Night
     'ev_3177': '',          // Oden & Roger's Great Adventure
+    'ev_3198': '',          // A Man's Pride
+    'ev_3199': '',          // Binks's Brew
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

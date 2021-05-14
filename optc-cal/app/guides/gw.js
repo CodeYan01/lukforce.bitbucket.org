@@ -487,6 +487,8 @@ var gw = {
     'ev_3135': '235518',// Brawl! Big Mom VS Kaido
     'ev_3172': '241547',// Navy's Party Night
     'ev_3177': '',      // Oden & Roger's Great Adventure
+    'ev_3198': '246420',// A Man's Pride
+    'ev_3199': '246146',// Binks's Brew
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama

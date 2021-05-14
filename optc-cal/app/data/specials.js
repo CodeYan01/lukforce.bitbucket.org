@@ -771,4 +771,14 @@ var specials = {
         name: 'Oden & Roger\'s Great Adventure',
         thumb: 3177
     },
+    'ev_3198': {
+        type: 'Special Event',
+        name: 'A Man\'s Pride',
+        thumb: 3198
+    },
+    'ev_3199': {
+        type: 'Special Event',
+        name: 'Binks\'s Brew',
+        thumb: 3199
+    },
 }
