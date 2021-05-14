@@ -617,12 +617,6 @@ var specials = {
         thumb: 2738
     },
 
-    'xm_2799': {
-        type: 'Christmas',
-        name: 'Wapol\'s Assault',
-        thumb: 2799
-    },
-
     'si_2802': {
         type: 'Skillbook Island',
         name: 'Luffy/Zoro, Soba Mask',
@@ -705,6 +699,11 @@ var specials = {
         type: 'Special Event',
         name: 'Tragic Country\'s Conflict',
         thumb: 2767
+    },
+    'ev_2799': {
+        type: 'Special Event',
+        name: 'Wapol\'s Assault',
+        thumb: 2799
     },
     'ev_2918': {
         type: 'Special Event',

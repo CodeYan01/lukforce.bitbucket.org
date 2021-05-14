@@ -819,7 +819,6 @@ function showFooter() {
                     || (event['type'] === 'special' && event['subType'] === 'Past Memory')
                     || (event['type'] === 'special' && event['subType'] === 'Stampede')
                     || (event['type'] === 'special' && event['subType'] === 'Four Emperors')
-                    || (event['type'] === 'special' && event['subType'] === 'Christmas')
                     || (event['type'] === 'special' && event['subType'] === 'Anniversary Party')
                     || (event['type'] === 'special' && event['subType'] === 'Escape')
                     || (event['type'] === 'special' && event['subType'] === 'Land of Wano')
