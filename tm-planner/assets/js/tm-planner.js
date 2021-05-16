@@ -478,13 +478,10 @@ function getBoosters(tmId, server) {
         // Has LB
         var uDetail = details[unitId];
         var hasLb = false;
-// TODO: TEMP - remove after DB update
-if (unitId < 3333) {
-        if (uDetail.limit || uDetail.potential) {
+        if (uDetail && (uDetail.limit || uDetail.potential)) {
             if (server === 'jpn' || server === 'glb' && glb_no_lb.indexOf(unitId) == -1)
                 hasLb = true;
         }
-}
         imgDiv.data('has_lb', hasLb);
 
         imgDiv.data('max_lv', units[unitId - 1][7])
@@ -2220,18 +2217,21 @@ $(document).ready(function() {
                     unitId = parseVsUnitId(unitId);
 
                 var unitDetail = details[unitId];
-                var spDesc = unitDetail.special;
 
-                var special;
-                if (Array.isArray(spDesc))
-                    special = spDesc[spDesc.length - 1].description;
-                else if (spDesc.character1)
-                    special = spDesc.character1;
-                else
-                    special = spDesc;
+                if (unitDetail) {
+                    var spDesc = unitDetail.special;
 
-                if (!filterRegex.test(special))
-                    $(this).addClass(filterClass);
+                    var special;
+                    if (Array.isArray(spDesc))
+                        special = spDesc[spDesc.length - 1].description;
+                    else if (spDesc.character1)
+                        special = spDesc.character1;
+                    else
+                        special = spDesc;
+
+                    if (!filterRegex.test(special))
+                        $(this).addClass(filterClass);
+                }
             });
         }
     });
@@ -2256,23 +2256,26 @@ $(document).ready(function() {
                     unitId = parseVsUnitId(unitId);
 
                 var unitDetail = details[unitId];
-                var sailor = unitDetail.sailor;
 
-                if (typeof sailor === 'object') {
-                    var filtered = false;
-                    for (var sl in sailor) {
-                        if (filterRegex.test(sailor[sl])) {
-                            filtered = false;
-                            break;
-                        } else
-                            filtered = true;
+                if (unitDetail) {
+                    var sailor = unitDetail.sailor;
+
+                    if (typeof sailor === 'object') {
+                        var filtered = false;
+                        for (var sl in sailor) {
+                            if (filterRegex.test(sailor[sl])) {
+                                filtered = false;
+                                break;
+                            } else
+                                filtered = true;
+                        }
+
+                        if (filtered)
+                            $(this).addClass(filterClass);
+                    } else {
+                        if (!filterRegex.test(sailor))
+                            $(this).addClass(filterClass);
                     }
-
-                    if (filtered)
-                        $(this).addClass(filterClass);
-                } else {
-                    if (!filterRegex.test(sailor))
-                        $(this).addClass(filterClass);
                 }
             });
         }
