@@ -888,8 +888,22 @@ function populateUnitDetail(unitId) {
         // Swap Effect
         if (captain && captain.combined) {
             var swapEffect = unitDetail.swap;
-            swapEffect = decorateStr(swapEffect);
-            $('#unit-detail-swap').html(swapEffect);
+            $('#unit-detail-swap').empty();
+
+            if (swapEffect.base) {
+                var swapBase = swapEffect.base;
+                swapBase = decorateStr(swapBase);
+                $('#unit-detail-swap').append('<b>Base:</b> ' + swapBase);
+                $('#unit-detail-swap').append('<br />');
+
+                var swapSuper = swapEffect.super;
+                swapSuper = decorateStr(swapSuper);
+                $('#unit-detail-swap').append('<b>Super:</b> ' + swapSuper);
+                $('#unit-detail-swap').append('<br />');
+            } else {
+                swapEffect = decorateStr(swapEffect);
+                $('#unit-detail-swap').html(swapEffect);
+            }
         } else
             $('.unit-detail-swap-el').hide();
 
