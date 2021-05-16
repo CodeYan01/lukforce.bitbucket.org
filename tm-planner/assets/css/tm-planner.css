@@ -440,6 +440,10 @@ button.cal-button:hover {
     white-space: nowrap;
 }
 
+#incomplete-notice {
+    display: none;
+}
+
 .atk-boost-div              { background-image: url('/tm-planner/assets/img/special_icons/atk_boost.png');          background-size: 24px 24px; }
 .orb-boost-div              { background-image: url('/tm-planner/assets/img/special_icons/orb_boost.png');          background-size: 24px 24px; }
 .affinity-div               { background-image: url('/tm-planner/assets/img/special_icons/affinity.png');           background-size: 24px 24px; }

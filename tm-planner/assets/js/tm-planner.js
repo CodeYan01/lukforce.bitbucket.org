@@ -37,6 +37,7 @@ function getBoosters(tmId, server) {
 
     $('#info_1_2x_main').show();
     $('#info_1_2x_alt').hide();
+    $('#incomplete-notice').hide();
 
     // Change 2x or 2.25x version
     $('.div_x').hide();
@@ -406,6 +407,8 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
+
+        $('#incomplete-notice').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
