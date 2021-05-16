@@ -397,6 +397,15 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
+    } else if (server == 'jpn' && tmId == 3339) {
+        // TM Koala
+        $('#div_1_6x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x_v2').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -469,10 +478,13 @@ function getBoosters(tmId, server) {
         // Has LB
         var uDetail = details[unitId];
         var hasLb = false;
+// TODO: TEMP - remove after DB update
+if (unitId < 3333) {
         if (uDetail.limit || uDetail.potential) {
             if (server === 'jpn' || server === 'glb' && glb_no_lb.indexOf(unitId) == -1)
                 hasLb = true;
         }
+}
         imgDiv.data('has_lb', hasLb);
 
         imgDiv.data('max_lv', units[unitId - 1][7])
@@ -712,7 +724,8 @@ function decorateSpIcon(iconKey, isAction) {
         iconKey === 'Type Change' ||
         iconKey === 'Confusion' ||
         iconKey === 'Special Limit' ||
-        iconKey === 'HP Barrier'
+        iconKey === 'HP Barrier' ||
+        iconKey === 'No Heal'
     )
         return iconKey;
 

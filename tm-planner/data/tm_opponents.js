@@ -5244,4 +5244,196 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Koala ==========
+    3339: {
+        675: {
+            name: 'Ivankov',
+            type: 'DEX',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Ivankov', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '2T'],
+                                ['chain-lock',      '4T, 1.1x'],
+                                ['chain-down',      '4T, 0.1x'],
+                                ['bind',            '6T, Row 1 2'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2565: {
+            name: 'Belo Betty',
+            type: 'STR',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Belo Betty', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['def-thres',       '3T, 90%, 1000'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2567: {
+            name: 'Karasu',
+            type: 'DEX',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Karasu', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['desp',            '5T'],
+                                ['para',            '5T, Row 2 3']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2569: {
+            name: 'Morley',
+            type: 'PSY',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Morley', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['blind',           '3T'],
+                                ['atk-down',        '5T, 90%'],
+                                ['burn',            '3T, 3000'],
+                                ['bar-p',           '5T, 2x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3339: {
+            name: 'Koala',
+            type: 'STR',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '30%'],
+                                ['slot-change',     'EMPTY'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Koala', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '5T, Row 1'],
+                                ['atk-down',        '5T, 90%'],
+                                ['No Heal',         '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        669: {
+            name: 'Sabo',
+            type: 'QCK',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, All'],
+                                ['orb-boost',       '3T, 2x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['def',             '5T, 100x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Sabo', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['bind',            '5T, Row 1'],
+                                ['Special Limit',   '1T, 2x'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
