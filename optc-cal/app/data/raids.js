@@ -273,9 +273,9 @@ var raids = {
         name: 'O-Nami & Shinobu',
         thumb: 3143
     },
-    3370: {
+    3331: {
         name: 'Usopp & Chopper',
-        thumb: 5052
+        thumb: 3331
     },
 
     // Neo Raids

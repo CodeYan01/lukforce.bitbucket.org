@@ -45,10 +45,6 @@ function getThumb(thumbId) {
     if (thumbId === 5047 || thumbId === 3361)
         return '/tm-planner/assets/img/new-thumbs/5047.png';
 
-    // Special case for Usopp & Chopper
-    if (thumbId === 5052 || thumbId === 3370)
-        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5052.png';
-
     // Special case for Coby (EX)
     if (thumbId === 5055 || thumbId === 3372)
         return '/tm-planner/assets/img/new-thumbs/5055.png';
@@ -56,10 +52,6 @@ function getThumb(thumbId) {
     // Special case for Helmeppo (EX)
     if (thumbId === 5056 || thumbId === 3373)
         return '/tm-planner/assets/img/new-thumbs/5056.png';
-
-    // Special case for Law & Chopper
-    if (thumbId === 5064 || thumbId === 3381)
-        return '/tm-planner/assets/img/new-thumbs/5064.png';
 
     // Special case for Local Sea Monster
     if (thumbId === 5065 || thumbId === 3382)

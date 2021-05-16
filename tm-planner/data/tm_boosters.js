@@ -8741,7 +8741,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Usopp & Chopper
-            id: 3370,
+            id: 3331,
             x_pts: 1.35
         },
         {   // Doffy & Trebol
@@ -12794,7 +12794,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Law & Chopper
-            id: 3381,
+            id: 3330,
             x_pts: 1.35
         },
         {   // Zoro v2

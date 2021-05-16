@@ -218,7 +218,7 @@ var gw = {
     2987: '205055',     // Soba Mask
     3078: '225142',     // Soul King
     3143: '234898',     // O-Nami & Shinobu
-    3370: '',           // Usopp & Chopper
+    3331: '',           // Usopp & Chopper
 
     1623: '',           //'58437',      // Doflamingo (N)
     1647: '60095',      // Pica (N)

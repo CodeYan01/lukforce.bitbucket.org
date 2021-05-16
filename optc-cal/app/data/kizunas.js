@@ -40,7 +40,7 @@ var kizunas = {
     2794: {
         name: 'Xmas Shirahoshi',
         thumb: 2794,
-        xch_id: 3381
+        xch_id: 3330
     },
     2812: {
         name: 'O-Kiku',
