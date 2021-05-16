@@ -30,7 +30,7 @@ function getThumb(thumbId) {
         paddedThumbId = paddedThumbId + "_1";
 
     // Special case for Kung Fu Luffy
-    if (thumbId === 5014 || thumbId === 3334)
+    if (thumbId === 5014)
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
     // Special case for Log Vivi
@@ -74,11 +74,19 @@ function getThumb(thumbId) {
         thumbId === 9999 ||
         thumbId === 3111 ||
         thumbId === 3153 ||
-        thumbId === 3285 ||
-        thumbId === 3294 ||
-        thumbId === 3295 ||
-        thumbId === 3296 ||
-        thumbId === 3297
+        thumbId === 3332 ||
+        thumbId === 3334 ||
+        thumbId === 3336 ||
+        thumbId === 3338 ||
+        thumbId === 3339 ||
+        thumbId === 3340 ||
+        thumbId === 3341 ||
+        thumbId === 3342 ||
+        thumbId === 3343 ||
+        thumbId === 3344 ||
+        thumbId === 3345 ||
+        thumbId === 3346 ||
+        thumbId === 3347
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
