@@ -363,6 +363,7 @@ var wiki = {
     3110: '',                               // Page One
     3145: '',                               // Kamazo
     3189: '',                               // Franosuke
+    3210: '',                               // X Drake v2
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

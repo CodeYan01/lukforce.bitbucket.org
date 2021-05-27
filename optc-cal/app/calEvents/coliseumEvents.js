@@ -5554,4 +5554,41 @@ var coliseumEvents = [
         end: '2021-06-01',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: 3210,
+        repId: [],
+        start: '2021-06-01',
+        end: '2021-06-06',
+        new_batch: true
+    },
+    {
+        newId: 3210,
+        repId: [],
+        start: '2021-06-06',
+        end: '2021-06-13',
+        new_batch: true
+    },
+    {
+        newId: 3210,
+        repId: [],
+        start: '2021-06-13',
+        end: '2021-06-20',
+        new_batch: true
+    },
+    {
+        newId: 3210,
+        repId: [],
+        start: '2021-06-20',
+        end: '2021-06-27',
+        new_batch: true
+    },
+    {
+        newId: 3210,
+        repId: [],
+        start: '2021-06-27',
+        end: '2021-07-04',
+        new_batch: true
+    },
 ]
