@@ -490,6 +490,7 @@ var nakama = {
     'ev_3177': '',          // Oden & Roger's Great Adventure
     'ev_3198': '',          // A Man's Pride
     'ev_3199': '',          // Binks's Brew
+    'ev_3222': '6323100',   // Hiyori & O-Toko
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

@@ -780,4 +780,9 @@ var specials = {
         name: 'Binks\'s Brew',
         thumb: 3199
     },
+    'ev_3222': {
+        type: 'Special Event',
+        name: 'Hiyori & O-Toko',
+        thumb: 3222
+    },
 }
