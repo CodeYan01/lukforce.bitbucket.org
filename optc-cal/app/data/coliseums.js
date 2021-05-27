@@ -584,6 +584,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3210
     },
+    3235: {
+        name: 'Bonekichi',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3235
+    },
 
     // Neo Coliseums
     1863: {
