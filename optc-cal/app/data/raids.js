@@ -273,6 +273,10 @@ var raids = {
         name: 'O-Nami & Shinobu',
         thumb: 3143
     },
+    3209: {
+        name: 'Luffytaro',
+        thumb: 3209
+    },
     3331: {
         name: 'Usopp & Chopper',
         thumb: 3331

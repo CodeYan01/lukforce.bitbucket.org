@@ -218,6 +218,7 @@ var nakama = {
     2987: '4298700',    // Soba Mask
     3078: '4307800',    // Soul King
     3143: '4314300',    // O-Nami & Shinobu
+    3209: '4320900',    // Luffytaro
     3331: '4333100',    // Usopp & Chopper
 
     1623: '4162300',    // Doflamingo (N)
