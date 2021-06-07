@@ -34,27 +34,27 @@ function getThumb(thumbId) {
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
     // Special case for Log Vivi
-    if (thumbId === 5030 || thumbId === 3348)
+    if (thumbId === 5030 || thumbId === 4989)
         return '/tm-planner/assets/img/new-thumbs/5030.png';
 
     // Special case for Log Ace
-    if (thumbId === 5032 || thumbId === 3350)
+    if (thumbId === 5032 || thumbId === 4991)
         return '/tm-planner/assets/img/new-thumbs/5032.png';
 
     // Special case for Swimsuit Pudding (white)
-    if (thumbId === 5047 || thumbId === 3361)
+    if (thumbId === 5047 || thumbId === 4993)
         return '/tm-planner/assets/img/new-thumbs/5047.png';
 
     // Special case for Coby (EX)
-    if (thumbId === 5055 || thumbId === 3372)
+    if (thumbId === 5055 || thumbId === 4995)
         return '/tm-planner/assets/img/new-thumbs/5055.png';
 
     // Special case for Helmeppo (EX)
-    if (thumbId === 5056 || thumbId === 3373)
+    if (thumbId === 5056 || thumbId === 4996)
         return '/tm-planner/assets/img/new-thumbs/5056.png';
 
     // Special case for Local Sea Monster
-    if (thumbId === 5065 || thumbId === 3382)
+    if (thumbId === 5065 || thumbId === 4998)
         return '/tm-planner/assets/img/new-thumbs/5065.png';
 
     // Special case for VS Units

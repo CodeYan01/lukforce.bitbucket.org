@@ -4433,11 +4433,11 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Log Vivi
-            id: 3348,
+            id: 4989,
             x_pts: 1.35
         },
         {   // Log Ace
-            id: 3350,
+            id: 4991,
             x_pts: 1.35
         },
         {   // G4 v2
@@ -7214,12 +7214,12 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Log Vivi
-            id: 3348,
+            id: 4989,
             type: 'rr',
             x_pts: 1.2
         },
         {   // Log Ace
-            id: 3350,
+            id: 4991,
             type: 'rr',
             x_pts: 1.2
         },
@@ -7631,7 +7631,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Summer Pudding (White)
-            id: 3361,
+            id: 4993,
             x_pts: 1.35
         },
         {   // Nightmare Luffy (N)
@@ -9354,7 +9354,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // SpRR Sengoku
-            id: 3374,
+            id: 4997,
             type: 'rr',
             x_pts: 1.2
         },
@@ -9479,7 +9479,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Coby (EX)
-            id: 3372,
+            id: 4995,
             type: 'coliseum',
             x_pts: 1.2
         },
@@ -9659,7 +9659,7 @@ var tm_boosters = {
             x_pts: 1.2
         },
         {   // Helmeppo (EX)
-            id: 3373,
+            id: 4996,
             type: 'other',
             x_pts: 1.2
         },
@@ -13830,7 +13830,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Local Sea Monster
-            id: 3382,
+            id: 4998,
             x_pts: 1.35
         },
         {   // Tesoro

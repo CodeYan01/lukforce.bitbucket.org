@@ -374,5 +374,5 @@ var wiki = {
 
     2512: '',                               // Moria (EX)
     2529: '',                               // Neptune (EX)
-    3372: '',                               // Coby (EX)
+    4995: '',                               // Coby (EX)
 };

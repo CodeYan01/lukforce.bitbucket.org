@@ -487,7 +487,7 @@ var specials = {
         name: 'Big Mom',
         thumb: 2234
     },
-    'co_3382': {
+    'co_4998': {
         type: 'Co-op Mission',
         name: 'Local Sea Monster',
         thumb: 5065

@@ -224,5 +224,5 @@ var videoWiki = {
 
     2512: 'coliseum/moriaex',
     2529: 'coliseum/neptuneex',
-    3372: 'coliseum/cobyex',
+    4995: 'coliseum/cobyex',
 };
