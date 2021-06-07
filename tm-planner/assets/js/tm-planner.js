@@ -2409,7 +2409,7 @@ $(document).ready(function() {
 
     // Set up drag and drop for each booster section
     var ids = ["booster_2_3x", "booster_2_25x", "booster_2_2x", "booster_2x", "booster_1_85x", "booster_1_8x", "booster_1_8x_v2", "booster_1_75x",
-                "booster_1_7x", "booster_1_6x", "booster_1_5x", "booster_1_4x", "booster_1_4x_v2", "booster_1_35x",
+                "booster_1_7x", "booster_1_6x", "booster_1_5x", "booster_1_4x", "booster_1_4x_v2", "booster_1_35x", "booster_1_35x_valt",
                 "booster_1_35x_v2", "booster_1_35x_v3", "booster_1_35x_v4", "booster_1_3x", "booster_1_3x_v2",
                 "booster_1_3x_v3", "booster_1_25x", "booster_1_25x_v2", "booster_1_25x_v3", "booster_1_25x_v4",
                 "booster_1_2x_legend", "booster_1_2x_rr", "booster_1_2x_tm_rr", "booster_1_2x_tm_rr",
