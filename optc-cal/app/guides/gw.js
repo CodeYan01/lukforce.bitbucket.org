@@ -417,6 +417,7 @@ var gw = {
     3115: '232511',     // Pudding
     3150: '236917',     // Kid
     3197: '245551',     // Garp
+    3239: '254943',     // Queen
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
