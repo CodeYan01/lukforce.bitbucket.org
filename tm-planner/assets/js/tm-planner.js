@@ -164,6 +164,23 @@ function getBoosters(tmId, server) {
         $('#div_1_35x').show();
         $('#div_1_1x').show();
         $('#div_1x').show();
+    } else if (
+        server == 'glb' &&
+        (
+            tmId == 3239
+        )
+    ) {
+        // TM Queen
+        $('#div_2_2x').show();
+        $('#div_2x').show();
+        $('#div_1_75x').show();
+        $('#div_1_5x').show();
+        $('#div_1_35x_valt').show();
+        $('#div_1_1x').show();
+        $('#div_1x').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else if (server == 'jpn' && tmId == 2064) {
         // TM Kizaru
         $('#div_2_25x').show();
@@ -407,8 +424,6 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
-
-        $('#incomplete-notice').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();

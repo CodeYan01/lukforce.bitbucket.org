@@ -4657,8 +4657,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Jack', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4666,6 +4666,12 @@ var tm_opponents = {
                                 ['desp',            '7T'],
                                 ['atk-down',        '4T, 80%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['Blow Away',       '3T, Random Row 1']
                             ]
                         }
                     ]
@@ -4680,8 +4686,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['King', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4690,6 +4696,13 @@ var tm_opponents = {
                                 ['para',            '2T'],
                                 ['def-thres',       '5T, 99%, 1000'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['para',            '2T'],
+                                ['slot-block',      'All']
                             ]
                         },
                         {
@@ -4710,8 +4723,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Page One', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4719,6 +4732,18 @@ var tm_opponents = {
                                 ['slot-change',     'Bad'],
                                 ['def',             '3T, 1000x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['hp-cut',          '30%']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['def-null',        '2T']
                             ]
                         }
                     ]
@@ -4733,8 +4758,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['X Drake', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 100000,
+                    atk: 4400,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4755,9 +4780,9 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Queen', 'STR'],
+                    hp: 500000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4773,8 +4798,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Queen', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 10500,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4783,6 +4808,25 @@ var tm_opponents = {
                                 ['silence',         '2T'],
                                 ['def-perc',        '5T, 90%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['slot-lock',       'Great 1x'],
+                                ['slot-change',     'Bomb']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['hp-cut',          '50%']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
@@ -4800,16 +4844,16 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '10T, QCK/DEX']
+                                ['cd-red',          '10T, DEX/QCK']
                             ]
                         }
                     ]
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Chopperemon', 'QCK'],
+                    hp: 1000000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4825,8 +4869,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['O-Lin', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 10500,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4835,6 +4879,25 @@ var tm_opponents = {
                                 ['resil',           '5T'],
                                 ['bar-p',           '1T, 3x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['def-thres',       '2T'],
+                                ['def-perc',        '2T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['enrage',          '99+T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['bind',            '30T']
                             ]
                         }
                     ]
