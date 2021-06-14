@@ -58,35 +58,33 @@ function getThumb(thumbId) {
         return '/tm-planner/assets/img/new-thumbs/5065.png';
 
     // Special case for VS Units
-    // Kaido vs. Big Mom
+    // Kaido VS Big Mom
     if (thumbId === 9001)
         return '/tm-planner/assets/img/new-thumbs/3135-1.png';
     if (thumbId === 9002)
         return '/tm-planner/assets/img/new-thumbs/3135-2.png';
-    // Ace vs. Akainu
+    // Ace VS Akainu
     if (thumbId === 9003)
         return '/tm-planner/assets/img/new-thumbs/3253-1.png';
     if (thumbId === 9004)
         return '/tm-planner/assets/img/new-thumbs/3253-2.png';
+    // Whitebeard VS Shanks
+    if (thumbId === 9005)
+        return '/tm-planner/assets/img/new-thumbs/3355-1.png';
+    if (thumbId === 9006)
+        return '/tm-planner/assets/img/new-thumbs/3355-2.png';
 
     // Special cases for new thumbs
     if (
-        thumbId === 9999 ||
         thumbId === 3111 ||
         thumbId === 3153 ||
-        thumbId === 3332 ||
-        thumbId === 3334 ||
-        thumbId === 3336 ||
-        thumbId === 3338 ||
-        thumbId === 3339 ||
-        thumbId === 3340 ||
-        thumbId === 3341 ||
-        thumbId === 3342 ||
-        thumbId === 3343 ||
-        thumbId === 3344 ||
-        thumbId === 3345 ||
-        thumbId === 3346 ||
-        thumbId === 3347
+        thumbId === 9999 ||
+        thumbId === 3364 ||
+        thumbId === 3365 ||
+        thumbId === 3366 ||
+        thumbId === 3367 ||
+        thumbId === 3368 ||
+        thumbId === 3374
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
