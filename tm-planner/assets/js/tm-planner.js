@@ -424,6 +424,16 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
+    } else if (server == 'jpn' && tmId == 3368) {
+        // TM MUGIWARA 56 Zoro
+        $('#div_2x').show();
+        $('#div_1_6x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x_v2').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else {
         $('#div_2x').show();
         $('#div_1_5x').show();
@@ -759,6 +769,9 @@ function parseVsUnitId(vsId) {
     // Ace VS Akainu
     if (vsId === 9003 || vsId === 9004)
         return 3253;
+    // Whitebeard VS Shanks
+    if (vsId === 9005 || vsId === 9006)
+        return 3355;
 
     return vsId;
 }
@@ -766,15 +779,21 @@ function parseVsUnitId(vsId) {
 function parseVsUnitIdForCalc(vsId) {
     // Kaido VS Big Mom
     if (vsId === 9001)
-        return 5281;
+        return 5274;
     if (vsId === 9002)
-        return 5282;
+        return 5275;
 
     // Ace VS Akainu
     if (vsId === 9003)
-        return 5309;
+        return 5302;
     if (vsId === 9004)
-        return 5310;
+        return 5303;
+
+    // Whitebeard VS Shanks
+    if (vsId === 9005)
+        return 5339;
+    if (vsId === 9006)
+        return 5340;
 
     return vsId;
 }

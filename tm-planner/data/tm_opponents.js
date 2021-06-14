@@ -5499,4 +5499,199 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== MUGIWARA 56 Zoro ==========
+    3368: {
+        3364: {
+            name: 'Sanji',
+            type: 'PSY',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Sanji', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['def-perc',        '4T, 90%'],
+                                ['def-thres',       '4T, 90%, 1000'],
+                                ['resil',           '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3365: {
+            name: 'Luffy',
+            type: 'INT',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Luffy', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['bind',            '5T, Row 2'],
+                                ['def',             '5T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3366: {
+            name: 'Chopper',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Chopper', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '2T'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3367: {
+            name: 'Nami',
+            type: 'QCK',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Nami', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '6T'],
+                                ['chain-down',      '6T, 0.5x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3368: {
+            name: 'Zoro',
+            type: 'INT',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['burn',            '5T, 3000'],
+                                ['bar-p',           '2T, 3x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Zoro', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['bind',            '5T, Row 1'],
+                                ['silence',         '3T, Row 2 3'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3071: {
+            name: 'Germa 66',
+            type: 'INT',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, PSY/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['atk-down',        '5T, 90%'],
+                                ['resil',           '5T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Germa 66', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '5T'],
+                                ['chain-down',      '4T, 0.1x'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['heal',            '30%'],
+                                ['Special Limit',   '99+T, 1x']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
