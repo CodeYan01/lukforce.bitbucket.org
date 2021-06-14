@@ -594,6 +594,11 @@ var specials = {
         name: 'Coby',
         thumb: 3111
     },
+    'ka_3264': {
+        type: 'Kizuna Assist',
+        name: 'Montd\'Or',
+        thumb: 3264
+    },
 
     'wa_2802': {
         type: 'Wano Act 3',
