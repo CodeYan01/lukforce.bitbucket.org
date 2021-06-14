@@ -97,4 +97,9 @@ var kizunas = {
         name: 'Bege & Pez',
         thumb: 3207
     },
+    3241: {
+        name: 'King',
+        thumb: 3241,
+        xch_id: 3213
+    },
 };

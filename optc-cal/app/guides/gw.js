@@ -442,6 +442,7 @@ var gw = {
     3124: '233771',     // Kid
     3153: '239258',     // Hawkins
     3207: '246742',     // Bege & Pez
+    3241: '256087',     // King
 
     // Events
     'bb_1314': '61665', // Three Admirals
