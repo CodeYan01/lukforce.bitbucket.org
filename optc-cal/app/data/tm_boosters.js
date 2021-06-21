@@ -43,18 +43,6 @@ var tm_boosters = [
     3217,
     3239,
 
-    // ===== Queen =====
-    // Raids
-    3209,
-
-    // Coliseums
-    3210,
-    3235,
-
-    // Others
-    3207,
-    3222,
-
     // ===== ? =====
     // Raids
 
