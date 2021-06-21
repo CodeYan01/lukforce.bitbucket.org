@@ -90,6 +90,11 @@ var specials = {
         name: 'Grand Battle vs. Marines',
         thumb: 3188
     },
+    'bb_3246': {
+        type: 'Face Off',
+        name: '7 Warlords of the Sea',
+        thumb: 3246
+    },
 
     'wc_2401': {
         type: 'World Clash',

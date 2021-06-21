@@ -458,6 +458,7 @@ var nakama = {
     'bb_3065': '6306500',   // Face Off! Luffy vs. Sanji
     'bb_3069': '6307900',   // Tea Party from Hell
     'bb_3188': '',          // Grand Battle vs. Marines
+    'bb_3246': '6324600',   // Face Off! 7 Warlords of the Sea
 
     'wc_2401': '6240700',   // World Clash
 
