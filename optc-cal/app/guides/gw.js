@@ -497,6 +497,7 @@ var gw = {
     'ev_3198': '246420',// A Man's Pride
     'ev_3199': '246146',// Binks's Brew
     'ev_3222': '252958',// Hiyori & O-Toko
+    'ev_3262': '257303',// End of an Era
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama

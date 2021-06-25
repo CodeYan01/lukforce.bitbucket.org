@@ -795,4 +795,9 @@ var specials = {
         name: 'Hiyori & O-Toko',
         thumb: 3222
     },
+    'ev_3262': {
+        type: 'Special Event',
+        name: 'End of an Era',
+        thumb: 3262
+    },
 }
