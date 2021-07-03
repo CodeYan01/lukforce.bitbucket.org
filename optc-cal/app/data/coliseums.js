@@ -590,6 +590,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3235
     },
+    3269: {
+        name: 'Kawamatsu',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3269
+    },
 
     // Neo Coliseums
     1863: {

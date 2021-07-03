@@ -366,6 +366,7 @@ var nakama = {
     3189: '10318900',   // Franosuke
     3210: '10321000',   // X Drake v2
     3235: '10323500',   // Bonekichi
+    3269: '10326900',   // Kawamatsu
 
     1863: '5186201',    // Kinemon (N)
     1899: '5189801',    // Killer (N)

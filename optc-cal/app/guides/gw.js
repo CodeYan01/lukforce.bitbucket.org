@@ -366,6 +366,7 @@ var gw = {
     3189: '244657',     // Franosuke
     3210: '249370',     // X Drake v2
     3235: '253758',     // Bonekichi
+    3269: '259805',     // Kawamatsu
 
     1863: '80292',      // Kinemon (N)
     1899: '84586',      // Killer (N)

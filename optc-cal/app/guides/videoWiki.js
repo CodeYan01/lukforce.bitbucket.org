@@ -216,6 +216,7 @@ var videoWiki = {
     3189: 'coliseum/franosuke',
     3210: 'coliseum/drake',
     3235: 'coliseum/bonekichi',
+    3269: 'coliseum/kawamatsu',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',
