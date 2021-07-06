@@ -419,6 +419,7 @@ var nakama = {
     3150: '8315000',    // Kid
     3197: '8319700',    // Garp
     3239: '8323900',    // Queen
+    3273: '8327300',    // Luffy & Ace
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)

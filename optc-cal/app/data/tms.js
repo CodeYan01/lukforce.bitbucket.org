@@ -204,4 +204,9 @@ var tms = {
         thumb: 3239,
         info: ''
     },
+    3273: {
+        name: 'Luffy & Ace',
+        thumb: 3273,
+        info: ''
+    },
 };
