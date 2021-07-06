@@ -534,4 +534,5 @@ var nakama = {
     'ka_3053': '2305300',   // Kizuna Assist Hatchan
     'ka_3111': '2311100',   // Kizuna Assist Coby
     'ka_3264': '2326400',   // Kizuna Assist Montd'Or
+    'ka_3311': '2331100',   // Kizuna Assist Jinbe
 };

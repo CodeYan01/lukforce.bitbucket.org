@@ -604,6 +604,11 @@ var specials = {
         name: 'Montd\'Or',
         thumb: 3264
     },
+    'ka_3311': {
+        type: 'Kizuna Assist',
+        name: 'Jinbe',
+        thumb: 3311
+    },
 
     'wa_2802': {
         type: 'Wano Act 3',
