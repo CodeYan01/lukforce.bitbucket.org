@@ -445,6 +445,7 @@ var nakama = {
     3153: '9315300',    // Hawkins
     3207: '9320700',    // Bege & Pez
     3241: '9324100',    // King
+    3276: '9327600',    // Doffy
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

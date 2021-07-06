@@ -102,4 +102,8 @@ var kizunas = {
         thumb: 3241,
         xch_id: 3213
     },
+    3276: {
+        name: 'Doflamingo',
+        thumb: 3276
+    },
 };

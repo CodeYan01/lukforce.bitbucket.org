@@ -445,6 +445,7 @@ var gw = {
     3153: '239258',     // Hawkins
     3207: '246742',     // Bege & Pez
     3241: '256087',     // King
+    3276: '261656',     // Doffy
 
     // Events
     'bb_1314': '61665', // Three Admirals
