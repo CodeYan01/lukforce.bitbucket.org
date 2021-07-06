@@ -4916,8 +4916,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Jinbe', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4926,6 +4926,20 @@ var tm_opponents = {
                                 ['def-perc',        '5T, 90%'],
                                 ['resil',           '5T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['slot-lock',       'Good 1x'],
+                                ['slot-change',     'EMPTY']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['desp',            '5T'],
+                                ['atk',             '99+T']
                             ]
                         }
                     ]
@@ -4940,12 +4954,13 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Buggy', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 100000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
+                                ['atk',             '99+T, 1.3x'],
                                 ['bind',            '3T, Row 1'],
                                 ['immu-delay',      '99+T']
                             ]
@@ -4962,8 +4977,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Croc', 'DEX'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 900000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -4971,6 +4986,12 @@ var tm_opponents = {
                                 ['slot-change',     'TND'],
                                 ['atk-down',        '5T, 90%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['hp-cut',          '50%']
                             ]
                         },
                         {
@@ -4991,8 +5012,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Whitebeard', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1000000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5001,6 +5022,18 @@ var tm_opponents = {
                                 ['para',            '3T'],
                                 ['bar-p',           '3T, 4x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['Blow Away',       'Random 3']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Massive']
                             ]
                         }
                     ]
@@ -5014,9 +5047,9 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Boa Hancock', 'STR'],
+                    hp: 575000,
+                    atk: 7095,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5025,22 +5058,41 @@ var tm_opponents = {
                                 ['chain-lock',      '5T, 1.1x'],
                                 ['slot-block',      'All']
                             ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['desp',            '4T']
+                            ]
                         }
                     ]
                 },
                 {
                     stageNum: 5,
                     boss: ['Luffy & Ace', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2300000,
+                    atk: 10320,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
                                 ['burn',            '5T, 3000'],
                                 ['chain-down',      '3T, 0.1x'],
-                                ['bar-hit',         '?T, 12x'],
+                                ['bar-hit',         '99+T, 12x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['heal',            '100%'],
+                                ['atk',             '99+T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['desp',            '4T']
                             ]
                         },
                         {
@@ -5071,14 +5123,14 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Inazuma', 'STR'],
+                    hp: 1000000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['blind',           '?T'],
+                                ['blind',           '99+T'],
                                 ['desp',            '5T'],
                                 ['def-thres',       '5T, 99%, 1000']
                             ]
@@ -5088,8 +5140,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Ivankov', 'DEX'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5098,6 +5150,24 @@ var tm_opponents = {
                                 ['cd-rew',          '2T'],
                                 ['para',            '5T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['Blow Away',       'Random 1']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['dmg-up',          '99+T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['Blow Away',       'All']
                             ]
                         }
                     ]
