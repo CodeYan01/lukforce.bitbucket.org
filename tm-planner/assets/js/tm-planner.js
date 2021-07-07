@@ -2260,6 +2260,7 @@ $(document).ready(function() {
 
             $('.booster, .booster-clone').each(function() {
                 var unitId = $(this).data('id');
+                var origId = unitId;
 
                 if (unitId > 9000)
                     unitId = parseVsUnitId(unitId);
@@ -2270,12 +2271,20 @@ $(document).ready(function() {
                     var spDesc = unitDetail.special;
 
                     var special;
-                    if (Array.isArray(spDesc))
+                    if (origId > 9000) {
+                        // VS Units
+                        if (origId % 2 === 1)
+                            special = spDesc.character1;
+                        else
+                            special = spDesc.character2;
+                    } else if (Array.isArray(spDesc))
                         special = spDesc[spDesc.length - 1].description;
                     else if (spDesc.character1)
                         special = spDesc.character1;
                     else
                         special = spDesc;
+
+
 
                     if (!filterRegex.test(special))
                         $(this).addClass(filterClass);
