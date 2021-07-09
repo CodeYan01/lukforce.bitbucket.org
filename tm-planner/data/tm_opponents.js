@@ -4960,7 +4960,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['atk',             '99+T, 1.3x'],
+                                ['dmg-normal',      '1.3x'],
                                 ['bind',            '3T, Row 1'],
                                 ['immu-delay',      '99+T']
                             ]
@@ -5048,8 +5048,8 @@ var tm_opponents = {
                 {
                     stageNum: 4,
                     boss: ['Boa Hancock', 'STR'],
-                    hp: 575000,
-                    atk: 7095,
+                    hp: 500000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5070,8 +5070,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Luffy & Ace', 'STR'],
-                    hp: 2300000,
-                    atk: 10320,
+                    hp: 2000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
