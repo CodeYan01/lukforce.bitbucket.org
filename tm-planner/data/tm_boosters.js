@@ -13830,7 +13830,7 @@ var tm_boosters = {
             x_pts: 1.35
         },
         {   // Local Sea Monster
-            id: 4998,
+            id: 3383,
             x_pts: 1.35
         },
         {   // Tesoro

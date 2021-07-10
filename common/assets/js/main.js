@@ -53,10 +53,6 @@ function getThumb(thumbId) {
     if (thumbId === 5056 || thumbId === 4996)
         return '/tm-planner/assets/img/new-thumbs/5056.png';
 
-    // Special case for Local Sea Monster
-    if (thumbId === 5065 || thumbId === 4998)
-        return '/tm-planner/assets/img/new-thumbs/5065.png';
-
     // Special case for VS Units
     // Kaido VS Big Mom
     if (thumbId === 9001)
