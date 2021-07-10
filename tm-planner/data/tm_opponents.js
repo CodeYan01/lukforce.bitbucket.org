@@ -5764,4 +5764,194 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Dragon Kaido ==========
+    3389: {
+        2231: {
+            name: 'Jack',
+            type: 'STR',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Jack', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['chain-down',      '4T, 0.1x'],
+                                ['Tap Limit',       '4T, 3x'],
+                                ['slot-neg',        '5T, Color & RCV'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3110: {
+            name: 'Page One',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Page One', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '3T'],
+                                ['slot-block',      'All'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3137: {
+            name: 'King',
+            type: 'STR',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['King', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '4T'],
+                                ['def',             '4T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3139: {
+            name: 'Queen',
+            type: 'INT',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Queen', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['Swap Captain',    '2T, Row 2'],
+                                ['def-perc',        '6T, 90%'],
+                                ['def-thres',       '6T, 90%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3236: {
+            name: 'O-Lin',
+            type: 'STR',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '7T, Row 1'],
+                                ['burn',            '4T, 8000'],
+                                ['cd-rew',          '2T, Row 2'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['O-Lin', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['atk-down',        '5T, 90%'],
+                                ['Special Limit',   '3T, 2x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3389: {
+            name: 'Kaido',
+            type: 'QCK',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, DEX/QCK']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'BOMB'],
+                                ['para',            '4T'],
+                                ['def',             '5T, 2000x']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Kaido', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['resil',           '3T'],
+                                ['bar-hit',         '99+T, 15x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };

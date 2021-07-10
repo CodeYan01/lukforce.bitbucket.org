@@ -394,7 +394,8 @@ function getBoosters(tmId, server) {
             tmId == 3217 ||
             tmId == 3239 ||
             tmId == 3273 ||
-            tmId == 3297
+            tmId == 3297 ||
+            tmId == 3389
         )
     ) {
         // TM Zorojuro
@@ -407,6 +408,7 @@ function getBoosters(tmId, server) {
         // TM Queen
         // TM Luffy & Ace
         // TM Shiryu
+        // TM Dragon Kaido
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -761,7 +763,9 @@ function decorateSpIcon(iconKey, isAction) {
         iconKey === 'Confusion' ||
         iconKey === 'Special Limit' ||
         iconKey === 'HP Barrier' ||
-        iconKey === 'No Heal'
+        iconKey === 'No Heal' ||
+        iconKey === 'Tap Limit' ||
+        iconKey === 'Swap Captain'
     )
         return iconKey;
 
