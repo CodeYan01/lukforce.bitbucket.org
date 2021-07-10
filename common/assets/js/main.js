@@ -75,12 +75,11 @@ function getThumb(thumbId) {
         thumbId === 3111 ||
         thumbId === 3153 ||
         thumbId === 9999 ||
-        thumbId === 3364 ||
-        thumbId === 3365 ||
-        thumbId === 3366 ||
-        thumbId === 3367 ||
-        thumbId === 3368 ||
-        thumbId === 3374
+        thumbId === 3386 ||
+        thumbId === 3387 ||
+        thumbId === 3388 ||
+        thumbId === 3389 ||
+        thumbId === 3396
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
