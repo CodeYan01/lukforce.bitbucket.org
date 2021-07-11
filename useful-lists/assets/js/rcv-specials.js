@@ -45,7 +45,7 @@
             'rowCallback': function(row, data, index) {
                 // ID linked to OPTC-DB
                 var idLink = $('<a></a>');
-                idLink.attr('href', 'http://optc-db.github.io/characters/#/view/' + data.id);
+                idLink.attr('href', 'https://optc-db.github.io/characters/#/view/' + data.id);
                 idLink.attr('target', '_blank');
                 idLink.text(data.id);
                 $('td:eq(0)', row).html(idLink);

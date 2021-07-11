@@ -519,7 +519,7 @@ function showFooter() {
             ed.attr('id', 'event-detail-cc');
             ed.find('.event-title').text('Champion Challenge');
 
-            createListItem(ed, '.drop-list', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
+            createListItem(ed, '.drop-list', 'https://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
             createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', '56742', 'Gamewith Stage Guide');
 
             $('#event-detail').append(ed);
@@ -530,7 +530,7 @@ function showFooter() {
             ed.attr('id', 'event-detail-cc');
             ed.find('.event-title').text('Champion Challenge');
 
-            createListItem(ed, '.drop-list', 'http://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
+            createListItem(ed, '.drop-list', 'https://optc-db.github.io/drops/?', 'Champion%20Challenge!', 'Drop List');
             createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', '100803', 'Gamewith Stage Guide');
 
             $('#event-detail').append(ed);
@@ -570,10 +570,10 @@ function showFooter() {
                     e['type'] === 'coliseum' ||
                     e['type'] === 'tm'
                 )
-                    createListItem(ed, '.db', 'http://optc-db.github.io/characters/#/view/', id, 'OPTC-DB Character Page');
+                    createListItem(ed, '.db', 'https://optc-db.github.io/characters/#/view/', id, 'OPTC-DB Character Page');
 
                 if (drops[id])
-                    createListItem(ed, '.drop-list', 'http://optc-db.github.io/drops/?', drops[id], 'Drop List');
+                    createListItem(ed, '.drop-list', 'https://optc-db.github.io/drops/?', drops[id], 'Drop List');
 
                 if (gw[id])
                     createListItem(ed, '.gamewith', 'https://トレクル.gamewith.jp/article/show/', gw[id], 'Gamewith Stage Guide');

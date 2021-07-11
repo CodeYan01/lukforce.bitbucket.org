@@ -1906,7 +1906,7 @@ $(document).ready(function() {
         var teamDiv = $(this).closest('.team');
         var team = getTeamUnits(teamDiv);
 
-        var calUrl = 'http://optc-db.github.io/damage/#/transfer/D';
+        var calUrl = 'https://optc-db.github.io/damage/#/transfer/D';
 
         for (var i = 0; i < team.length; i++) {
             if (team[i] == 0)
