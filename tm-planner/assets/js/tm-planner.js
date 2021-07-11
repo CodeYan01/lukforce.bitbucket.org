@@ -1929,7 +1929,7 @@ $(document).ready(function() {
                 calUrl += ',';
         }
 
-        calUrl += 'C33,10B0D';
+        calUrl += 'C45,10B0D';
 
         // Append TM Map effect
         if (server === 'glb')
