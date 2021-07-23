@@ -44,17 +44,6 @@ var tm_boosters = [
     3239,
     3273,
 
-    // ===== Luffy & Ace =====
-    // Raids
-
-    // Coliseums
-    3269,
-
-    // Others
-    3213,
-    3241,
-    3262,
-
     // ===== ? =====
     // Raids
 
