@@ -501,6 +501,7 @@ var nakama = {
     'ev_3199': '',          // Binks's Brew
     'ev_3222': '6323100',   // Hiyori & O-Toko
     'ev_3262': '',          // End of an Era
+    'ev_3287': '6328000',   // Pirate Paradise
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

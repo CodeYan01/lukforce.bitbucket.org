@@ -805,4 +805,9 @@ var specials = {
         name: 'End of an Era',
         thumb: 3262
     },
+    'ev_3287': {
+        type: 'Special Event',
+        name: 'Pirate Paradise',
+        thumb: 3287
+    },
 }
