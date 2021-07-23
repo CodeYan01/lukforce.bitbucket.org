@@ -3405,4 +3405,13 @@ var specialBgEvents = [
         start: '2021-07-06',
         end: '2021-07-13'
     },
+    {
+        id: 'sugo',
+        start: '2021-07-22',
+        end: '2021-08-10'
+    },
+    {
+        id: 'free_pull',
+        start: '2021-07-22'
+    },
 ]
