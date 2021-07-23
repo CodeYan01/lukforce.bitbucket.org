@@ -69,6 +69,7 @@ var videoWiki = {
     3078: 'raidboss/brook',
     3143: 'raidboss/namishinobu',
     3209: 'raidboss/luffytaro',
+    3263: 'raidboss/marco',
     3331: 'raidboss/usoppchopper',
 
     1623: 'raidboss/doflamingokai',

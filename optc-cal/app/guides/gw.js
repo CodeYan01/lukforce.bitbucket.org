@@ -219,6 +219,7 @@ var gw = {
     3078: '225142',     // Soul King
     3143: '234898',     // O-Nami & Shinobu
     3209: '249000',     // Luffytaro
+    3263: '263248',     // Marco
     3331: '',           // Usopp & Chopper
 
     1623: '',           //'58437',      // Doflamingo (N)
