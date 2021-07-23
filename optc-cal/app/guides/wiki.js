@@ -220,6 +220,7 @@ var wiki = {
     3143: '',                               // O-Nami & Shinobu
     3209: '',                               // Luffytaro
     3263: '',                               // Marco
+    3289: '',                               // Chambres! SH Pirates
     3331: 'wiki/raidboss/usoppchopper',
 
     1623: 'wiki/raidboss/doffykai',

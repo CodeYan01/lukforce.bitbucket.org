@@ -220,6 +220,7 @@ var nakama = {
     3143: '4314300',    // O-Nami & Shinobu
     3209: '4320900',    // Luffytaro
     3263: '4326300',    // Marco
+    3289: '4328900',    // Chambres! SH Pirates
     3331: '4333100',    // Usopp & Chopper
 
     1623: '4162300',    // Doflamingo (N)

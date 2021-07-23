@@ -281,6 +281,10 @@ var raids = {
         name: 'Marco',
         thumb: 3263
     },
+    3289: {
+        name: 'Chambres! SH Pirates',
+        thumb: 3289
+    },
     3331: {
         name: 'Usopp & Chopper',
         thumb: 3331

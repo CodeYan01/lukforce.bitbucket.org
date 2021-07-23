@@ -220,6 +220,7 @@ var gw = {
     3143: '234898',     // O-Nami & Shinobu
     3209: '249000',     // Luffytaro
     3263: '263248',     // Marco
+    3289: '266441',     // Chambres! SH Pirates
     3331: '',           // Usopp & Chopper
 
     1623: '',           //'58437',      // Doflamingo (N)
