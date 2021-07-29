@@ -369,6 +369,7 @@ var nakama = {
     3210: '10321000',   // X Drake v2
     3235: '10323500',   // Bonekichi
     3269: '10326900',   // Kawamatsu
+    3293: '10329300',   // San Juan Wolf
 
     1863: '5186201',    // Kinemon (N)
     1899: '5189801',    // Killer (N)

@@ -596,6 +596,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3269
     },
+    3293: {
+        name: 'San Juan Wolf',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3293
+    },
 
     // Neo Coliseums
     1863: {

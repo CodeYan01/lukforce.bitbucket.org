@@ -369,6 +369,7 @@ var wiki = {
     3210: '',                               // X Drake v2
     3235: '',                               // Bonekichi
     3269: '',                               // Kawamatsu
+    3293: '',                               // San Juan Wolf
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)
