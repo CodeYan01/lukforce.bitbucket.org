@@ -512,6 +512,9 @@ var nakama = {
     'wj_2825': '6282500',   // World Journey Boa Hancock
     'wj_2827': '6282500',   // World Journey Mihawk
     'wj_2829': '6282500',   // World Journey Crocodile
+    'wj_3077': '6307700',   // World Journey Vivi & Rebecca
+    'wj_3129': '6312900',   // World Journey Ace & Marco
+    'wj_3221': '6322100',   // World Journey Sabo & Koala
 
     'se_2138': '6213800',   // Super Evolve Germa 66
     'se_2232': '6223200',   // Super Evolve Eneru

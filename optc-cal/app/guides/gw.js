@@ -512,6 +512,9 @@ var gw = {
     'wj_2825': '183897',// World Journey Boa Hancock
     'wj_2827': '183898',// World Journey Mihawk
     'wj_2829': '183899',// World Journey Crocodile
+    'wj_3077': '223972',// World Journey Vivi & Rebecca
+    'wj_3129': '234252',// World Journey Ace & Marco
+    'wj_3221': '252583',// World Journey Sabo & Koala
 
     'rk_2672': '191098',// Dmg Ranking Stampede Luffy
 

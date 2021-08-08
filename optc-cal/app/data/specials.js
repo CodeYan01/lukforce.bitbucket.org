@@ -557,6 +557,21 @@ var specials = {
         name: 'Crocodile',
         thumb: 2829
     },
+    'wj_3077': {
+        type: 'World Journey',
+        name: 'Vivi & Rebecca',
+        thumb: 3077
+    },
+    'wj_3129': {
+        type: 'World Journey',
+        name: 'Ace & Marco',
+        thumb: 3129
+    },
+    'wj_3221': {
+        type: 'World Journey',
+        name: 'Sabo & Koala',
+        thumb: 3221
+    },
 
     'ca_2711': {
         type: 'Clash Assist',
