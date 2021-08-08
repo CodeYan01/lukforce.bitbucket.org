@@ -3414,4 +3414,9 @@ var specialBgEvents = [
         id: 'free_pull',
         start: '2021-07-22'
     },
+    {
+        id: 'sugo_tm',
+        start: '2021-08-10',
+        end: '2021-08-17'
+    },
 ]
