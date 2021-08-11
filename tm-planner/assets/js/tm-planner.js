@@ -179,10 +179,12 @@ function getBoosters(tmId, server) {
     } else if (
         server == 'glb' &&
         (
-            tmId == 3273
+            tmId == 3273 ||
+            tmId == 3297
         )
     ) {
         // TM Luffy & Ace
+        // TM Shiryu
         $('#div_2_2x').show();
         $('#div_2x').show();
         $('#div_1_75x').show();
