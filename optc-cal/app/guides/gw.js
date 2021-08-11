@@ -450,6 +450,7 @@ var gw = {
     3207: '246742',     // Bege & Pez
     3241: '256087',     // King
     3276: '261656',     // Doffy
+    3303: '270304',     // Katakuri
 
     // Events
     'bb_1314': '61665', // Three Admirals
