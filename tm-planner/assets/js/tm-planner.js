@@ -397,7 +397,8 @@ function getBoosters(tmId, server) {
             tmId == 3239 ||
             tmId == 3273 ||
             tmId == 3297 ||
-            tmId == 3389
+            tmId == 3389 ||
+            tmId == 3416
         )
     ) {
         // TM Zorojuro
@@ -411,6 +412,7 @@ function getBoosters(tmId, server) {
         // TM Luffy & Ace
         // TM Shiryu
         // TM Dragon Kaido
+        // TM Stussy
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();

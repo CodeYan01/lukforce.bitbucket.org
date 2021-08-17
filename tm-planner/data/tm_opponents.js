@@ -6024,4 +6024,201 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Stussy ==========
+    3416: {
+        3059: {
+            name: 'Perona',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Perona', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['atk-down',        '4T, 90%'],
+                                ['bar-color',       '2T, 2x, STR'],
+                                ['resil',           '4T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3412: {
+            name: 'Tashigi',
+            type: 'PSY',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Tashigi', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '4T, Row 2 3'],
+                                ['silence',         '2T, Row 2 3'],
+                                ['slot-block',      'Block/TND'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3413: {
+            name: 'Makino',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Makino', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def-thres',       '2T, 90%, 1000'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3414: {
+            name: 'Hina',
+            type: 'DEX',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 5,
+                    boss: ['Hina', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['desp',            '5T'],
+                                ['para',            '5T, Row 2 3'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['heal',            '50%'],
+                                ['Type Change',     'QCK'],
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3416: {
+            name: 'Stussy',
+            type: 'DEX',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 4,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['def',             '5T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 5,
+                    boss: ['Stussy', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '10T, Row 1'],
+                                ['def-thres',       '5T, 90%, 1000'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3057: {
+            name: 'Vivi',
+            type: 'PSY',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, FS/Cerebral']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['atk-down',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Vivi', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '1T'],
+                                ['bind',            '5T, Col 2'],
+                                ['para',            '10T, Col 1'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
