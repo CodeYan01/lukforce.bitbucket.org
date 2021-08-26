@@ -3424,4 +3424,45 @@ var specialBgEvents = [
         start: '2021-08-25',
         end: '2021-09-29'
     },
+    {
+        id: 'snail_meat',
+        start: '2021-09-06',
+        end: '2021-09-19',
+        pst_19: true
+    },
+    {
+        id: 'free_pull',
+        start: '2021-09-07',
+        end: '2021-09-16'
+    },
+    {
+        id: '3rd_anni_ship',
+        start: '2021-09-07',
+        end: '2021-09-11',
+        pst_19: true
+    },
+    {
+        id: 'sp_100',
+        start: '2021-09-11',
+        end: '2021-09-14',
+        pst_19: true
+    },
+    {
+        id: '3rd_anni_ship_sp',
+        start: '2021-09-11',
+        end: '2021-09-18',
+        pst_19: true
+    },
+    {
+        id: '3rd_anni_ship',
+        start: '2021-09-18',
+        end: '2021-10-12',
+        pst_19: true
+    },
+    {
+        id: 'snail_gem',
+        start: '2021-09-19',
+        end: '2021-09-29',
+        pst_19: true
+    },
 ]
