@@ -825,4 +825,9 @@ var specials = {
         name: 'Pirate Paradise',
         thumb: 3287
     },
+    'ev_3304': {
+        type: 'Special Event',
+        name: 'Bickering Cooperation',
+        thumb: 3304
+    },
 }
