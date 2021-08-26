@@ -45,18 +45,6 @@ var tm_boosters = [
     3273,
     3297,
 
-    // ===== Shiryu =====
-    // Raids
-    3263,
-    3289,
-
-    // Coliseums
-    3293,
-
-    // Others
-    3276,
-    3287,
-
     // ===== ? =====
     // Raids
 
