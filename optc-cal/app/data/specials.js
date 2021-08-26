@@ -830,4 +830,9 @@ var specials = {
         name: 'Bickering Cooperation',
         thumb: 3304
     },
+    'ev_3346': {
+        type: 'Special Event',
+        name: 'To Onigashima',
+        thumb: 3346
+    },
 }
