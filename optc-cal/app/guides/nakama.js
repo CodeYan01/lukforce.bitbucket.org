@@ -424,6 +424,7 @@ var nakama = {
     3239: '8323900',    // Queen
     3273: '8327300',    // Luffy & Ace
     3297: '8329700',    // Shiryu
+    3339: '8333900',    // Koala
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)

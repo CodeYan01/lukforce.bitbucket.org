@@ -44,8 +44,9 @@ var tm_boosters = [
     3239,
     3273,
     3297,
+    3339,
 
-    // ===== ? =====
+    // ===== Koala =====
     // Raids
 
     // Coliseums

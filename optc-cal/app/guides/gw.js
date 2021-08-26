@@ -424,6 +424,7 @@ var gw = {
     3239: '254943',     // Queen
     3273: '260519',     // Luffy & Ace
     3297: '269110',     // Shiryu
+    3339: '277257',     // Koala
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
