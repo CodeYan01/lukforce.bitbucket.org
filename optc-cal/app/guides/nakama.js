@@ -452,6 +452,7 @@ var nakama = {
     3241: '9324100',    // King
     3276: '9327600',    // Doffy
     3303: '9330300',    // Katakuri
+    3352: '9335200',    // Kuja Pirates
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

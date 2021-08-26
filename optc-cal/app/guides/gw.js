@@ -452,6 +452,7 @@ var gw = {
     3241: '256087',     // King
     3276: '261656',     // Doffy
     3303: '270304',     // Katakuri
+    3352: '279320',     // Kuja Pirates
 
     // Events
     'bb_1314': '61665', // Three Admirals

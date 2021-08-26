@@ -248,4 +248,15 @@ var kizunaEvents = [
         end: '2021-08-24',
         pst_19: true
     },
+    {
+        id: 3352,
+        start: '2021-09-25',
+        pst_19: true
+    },
+    {
+        id: 3352,
+        start: '2021-09-26',
+        end: '2021-09-29',
+        pst_19: true
+    },
 ]
