@@ -220,6 +220,7 @@ var videoWiki = {
     3235: 'coliseum/bonekichi',
     3269: 'coliseum/kawamatsu',
     3293: 'coliseum/sanjuanwolf',
+    3329: 'coliseum/yshinobu',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

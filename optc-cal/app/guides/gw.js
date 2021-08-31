@@ -370,6 +370,7 @@ var gw = {
     3235: '253758',     // Bonekichi
     3269: '259805',     // Kawamatsu
     3293: '267166',     // San Juan Wolf
+    3329: '275012',     // Shinobu
 
     1863: '80292',      // Kinemon (N)
     1899: '84586',      // Killer (N)

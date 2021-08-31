@@ -602,6 +602,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3293
     },
+    3329: {
+        name: 'Shinobu',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3329
+    },
 
     // Neo Coliseums
     1863: {
