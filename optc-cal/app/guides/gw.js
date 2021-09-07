@@ -502,6 +502,7 @@ var gw = {
     'ev_3045': '218689',// Summer Paradise 5
     'ev_2469': '227860',// Escape! Cacao Island
     'ev_3108': '230072',// Party of Horror
+    'ev_3122': '231424',// Ichiban Kuji
     'ev_3135': '235518',// Brawl! Big Mom VS Kaido
     'ev_3172': '241547',// Navy's Party Night
     'ev_3177': '',      // Oden & Roger's Great Adventure

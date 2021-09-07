@@ -785,6 +785,11 @@ var specials = {
         name: 'Party of Horror',
         thumb: 3108
     },
+    'ev_3122': {
+        type: 'Special Event',
+        name: 'Ichiban Kuji',
+        thumb: 3122
+    },
     'ev_3135': {
         type: 'Special Event',
         name: 'Brawl! Big Mom VS Kaido',
