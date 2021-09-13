@@ -6221,4 +6221,266 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Beast Pirates Luffy ==========
+    3443: {
+        3439: {
+            name: ['Zo', 'ro'],
+            type: ['STR', 'QCK'],
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Driven/Powerhouse']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Zoro', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['Type Change',     'STR/QCK'],
+                                ['chain-down',      '5T, 0.1x'],
+                                ['def-thres',       '5T, 90%, 1000'],
+                                ['bar-hit',         '1T, 25x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3440: {
+            name: 'Sanji',
+            type: 'DEX',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Cerebral/Shooter']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Sanji', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['silence',         '4T, Row 2 3'],
+                                ['cd-rew',          '1T'],
+                                ['slot-block',      'All'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3441: {
+            name: 'Nami',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Nami', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def',             '12T, 1000x'],
+                                ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '20,000']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3442: {
+            name: 'Brook',
+            type: 'QCK',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/DEX/QCK']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Brook', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '5T, 90%'],
+                                ['desp',            '5T'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3443: {
+            name: 'Luffy',
+            type: 'QCK',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '8T, DEX/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'Block/Bad'],
+                                ['Tap Limit',       '10T, 5x'],
+                                ['bar-color',       '1T, 4x, DEX'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Luffy', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 1'],
+                                ['silence',         '4T'],
+                                ['slot-change',     'G/TND/BOMB'],
+                                ['def',             '10T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3444: {
+            name: 'Jinbe',
+            type: 'PSY',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, DEX/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '1T, Row 2 3'],
+                                ['slot-block',      'All'],
+                                ['slot-lock',       '1T'],
+                                ['burn',            '5T, 5000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['hp-cut',          '60%']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Jinbe', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['para',            '5T'],
+                                ['resil',           '5T'],
+                                ['bar-p',           '1T, 3x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
