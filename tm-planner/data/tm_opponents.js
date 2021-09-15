@@ -5458,8 +5458,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Ivankov', 'DEX'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1300000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5469,6 +5469,24 @@ var tm_opponents = {
                                 ['chain-down',      '4T, 0.1x'],
                                 ['bind',            '6T, Row 1 2'],
                                 ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['hp-cut',          '50%']
+                            ]
+                        },
+                        {
+                            type: 'Turn 5',
+                            action: [
+                                ['hp-cut',          '50%']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
@@ -5483,8 +5501,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Belo Betty', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1200000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5492,6 +5510,19 @@ var tm_opponents = {
                                 ['slot-block',      'All'],
                                 ['def-thres',       '3T, 90%, 1000'],
                                 ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['slot-lock',       'Great 1x']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['hp-cut',          '30%'],
+                                ['heal',            '?']
                             ]
                         }
                     ]
@@ -5506,8 +5537,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Karasu', 'DEX'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1200000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5529,8 +5560,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Morley', 'PSY'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1200000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5540,6 +5571,19 @@ var tm_opponents = {
                                 ['burn',            '3T, 3000'],
                                 ['bar-p',           '5T, 2x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 2 Turns',
+                            action: [
+                                ['desp',            '5T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['desp',            '5T'],
+                                ['atk-down',        '4T']
                             ]
                         }
                     ]
@@ -5553,9 +5597,9 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Hack', 'STR'],
+                    hp: 1300000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5571,8 +5615,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Koala', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2500000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5581,6 +5625,25 @@ var tm_opponents = {
                                 ['atk-down',        '5T, 90%'],
                                 ['No Heal',         '5T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['Clear Buff',      'Super'],
+                                ['atk',             '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['def-null',        '2T']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
@@ -5606,9 +5669,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Lindbergh', 'DEX'],
+                    hp: 1300000,
+                    atk: 15000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -5616,22 +5679,47 @@ var tm_opponents = {
                                 ['slot-block',      'All'],
                                 ['def',             '5T, 100x']
                             ]
+                        },
+                        {
+                            type: 'Turn 3, Every 3 Turns',
+                            action: [
+                                ['bind',            '7T, Mid Left']
+                            ]
                         }
                     ]
                 },
                 {
                     stageNum: 3,
                     boss: ['Sabo', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2500000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
                             action: [
-                                ['desp',            '5T'],
                                 ['bind',            '5T, Row 1'],
+                                ['desp',            '5T'],
                                 ['Special Limit',   '1T, 2x'],
                                 ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2, Every Turn After',
+                            action: [
+                                ['Clear Buff',      'Super'],
+                                ['Blow Away',       '99+T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['heal',            '?']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]

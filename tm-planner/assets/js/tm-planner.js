@@ -432,8 +432,8 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
-    } else if (server == 'jpn' && tmId == 3339) {
-        // TM Koala
+    } else if (tmId == 3339) {
+        // TM Koala (Both)
         $('#div_1_6x').show();
         $('#div_1_4x_v2').show();
         $('#div_1_35x_v4').show();
@@ -471,8 +471,14 @@ function getBoosters(tmId, server) {
     var boosters = [];
     if (server === 'glb') {
         boosters = tm_boosters[tmId];
-        $('#div_1_2x_tm_rr').show();
-        $('#div_1_2x_tm').show();
+
+        if (tmId < 3339) {
+            $('#div_1_2x_tm_rr').show();
+            $('#div_1_2x_tm').show();
+        } else {
+            $('#div_1_2x_tm_rr').hide();
+            $('#div_1_2x_tm').hide();
+        }
     } else
         boosters = tm_boosters_jpn[tmId];
 

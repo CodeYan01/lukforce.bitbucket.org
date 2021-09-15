@@ -21023,4 +21023,465 @@ var tm_boosters = {
             x_pts: 1.1
         },
     ],
+
+    // ========== Koala ==========
+    3339: [
+        {   // 7th Anni Reiju
+            id: 3340,
+            x_pts: 1.6
+        },
+        {   // 7th Anni Shirahoshi
+            id: 3341,
+            x_pts: 1.6
+        },
+        {   // 7th Anni Rebecca
+            id: 3342,
+            x_pts: 1.6
+        },
+        {   // Bonney
+            id: 3307,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Wano Luffy
+            id: 3334,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Law v5
+            id: 3336,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Kid v2
+            id: 3338,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Shiryu
+            id: 3297,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Magellan v2
+            id: 3278,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Blackbeard v3
+            id: 3280,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Moria
+            id: 3282,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Cracker 6+
+            id: 3298,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Fire Tank Pirates
+            id: 3300,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Pizarro
+            id: 3283,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Devon
+            id: 3284,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Apoo v2
+            id: 3308,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Hawkins v2
+            id: 3309,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // X Drake v3
+            id: 3310,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Killer v2
+            id: 3343,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Wano Zoro
+            id: 3344,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Jinbe v3
+            id: 3345,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // KRR Judge
+            id: 3301,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // KRR Brook
+            id: 3302,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // PFRR Smoker
+            id: 3328,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Ichiban Kuji Luffy
+            id: 3122,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Ichiban Kuji Nami
+            id: 3123,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Usopp & Chopper
+            id: 3331,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Shinobu
+            id: 3329,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Katakuri
+            id: 3303,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // PF Urouge
+            id: 3332,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Cavendish
+            id: 3304,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Bartolomeo
+            id: 3305,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Law & Chopper
+            id: 3330,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Kaido & Big Mom
+            id: 3346,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // 7th Anni Luffy
+            id: 3347,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Marco
+            id: 3263,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // San Juan Wolf
+            id: 3293,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Doffy
+            id: 3276,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // PF Vergo
+            id: 3285,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Burgess
+            id: 3286,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Vasco Shot
+            id: 3287,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Whitebeard
+            id: 1853,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sabo
+            id: 1972,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sakazuki & Issho
+            id: 2618,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Smoker
+            id: 2659,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Blackbeard
+            id: 2690,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Hawkins
+            id: 2729,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // O-Robi
+            id: 2792,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Rebecca & Viola
+            id: 2850,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Luffy & Ace
+            id: 3273,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Koala
+            id: 3339,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Ace VS Akainu (Ace)
+            id: 9003,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Ace VS Akainu (Akainu)
+            id: 9004,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Nami v2 6+
+            id: 3275,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Jozu v2
+            id: 3255,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Marineford Luffy
+            id: 3257,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Aokiji
+            id: 3259,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Sengoku v2
+            id: 3261,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Magellan & Hannyabal
+            id: 2517,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Carrot
+            id: 2781,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 2893,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Mr. 0
+            id: 2956,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Garp (N)
+            id: 3313,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Ivankov (N)
+            id: 3315,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Duval (N)
+            id: 3320,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // NM Luffy (N)
+            id: 3322,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Vergo (N)
+            id: 3324,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Heracles (N)
+            id: 3326,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Kamazo
+            id: 3145,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Franosuke
+            id: 3189,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // X Drake v2
+            id: 3210,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Bonekichi
+            id: 3235,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kawamatsu
+            id: 3269,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Noland
+            id: 690,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Shambles Tashigi
+            id: 1397,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Reiju
+            id: 1918,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Wedding Pudding
+            id: 1963,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Perospero
+            id: 2351,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Pirate Expo Brook
+            id: 2641,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // King
+            id: 3241,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // PF Hannyabal
+            id: 3251,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Weevil
+            id: 3247,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Whitebeard
+            id: 3262,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Luffy
+            id: 2936,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Zoro
+            id: 2938,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Nami
+            id: 2940,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Usopp
+            id: 2942,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Sanji
+            id: 2944,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Chopper
+            id: 2946,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Robin
+            id: 2948,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Franky
+            id: 2950,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Brook
+            id: 2952,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
 };
