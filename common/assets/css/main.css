@@ -203,9 +203,9 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
     opacity: 1;
 }
 
-.STR { color: red; }
-.DEX { color: green; }
-.QCK { color: blue; }
+.STR { color: crimson; }
+.DEX { color: mediumseagreen; }
+.QCK { color: dodgerblue; }
 .PSY { color: goldenrod; }
 .INT { color: darkorchid; }
 
