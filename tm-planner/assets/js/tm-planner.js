@@ -969,8 +969,8 @@ function populateUnitDetail(unitId) {
             $('#unit-detail-captain-ability').html('None');
 
         // Swap Effect
-        if (captain && captain.combined) {
-            var swapEffect = unitDetail.swap;
+        var swapEffect = unitDetail.swap;
+        if (swapEffect) {
             $('#unit-detail-swap').empty();
 
             if (swapEffect.base) {
@@ -1051,6 +1051,22 @@ function populateUnitDetail(unitId) {
             }
         } else
             $('#unit-detail-special').html('None');
+
+        // Super Type
+        var st = unitDetail.superSpecial;
+        if (st) {
+            $('#unit-detail-st').empty();
+
+            stSp = decorateStr(st);
+            $('#unit-detail-st').append('<b>Special:</b><br />' + stSp);
+            $('#unit-detail-st').append('<br />');
+
+            var stCriteria = unitDetail.superSpecialCriteria;
+            stCriteria = decorateStr(stCriteria);
+            $('#unit-detail-st').append('<b>Criteria:</b><br />' + stCriteria);
+            $('#unit-detail-st').append('<br />');
+        } else
+            $('.unit-detail-st-el').hide();
 
         // Sailor
         var sailor = unitDetail.sailor;
