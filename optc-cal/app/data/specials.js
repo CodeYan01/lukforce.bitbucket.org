@@ -840,4 +840,9 @@ var specials = {
         name: 'To Onigashima',
         thumb: 3346
     },
+    'ev_3353': {
+        type: 'Special Event',
+        name: 'Banaro Island',
+        thumb: 3353
+    },
 }

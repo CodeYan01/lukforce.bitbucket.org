@@ -513,6 +513,7 @@ var nakama = {
     'ev_3287': '6328000',   // Pirate Paradise
     'ev_3304': '6330400',   // Bickering Cooperation
     'ev_3346': '6334600',   // To Onigashima
+    'ev_3353': '6335300',   // Banaro Island
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

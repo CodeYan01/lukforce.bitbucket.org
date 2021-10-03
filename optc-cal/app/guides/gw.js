@@ -513,6 +513,7 @@ var gw = {
     'ev_3287': '264818',// Pirate Paradise
     'ev_3304': '272369',// Bickering Cooperation
     'ev_3346': '276764',// To Onigashima
+    'ev_3353': '280282',// Banaro Island
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
