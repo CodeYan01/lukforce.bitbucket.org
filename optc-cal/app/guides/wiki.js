@@ -371,6 +371,7 @@ var wiki = {
     3269: '',                               // Kawamatsu
     3293: '',                               // San Juan Wolf
     3329: '',                               // Shinobu
+    3361: '',                               // Mihawk
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

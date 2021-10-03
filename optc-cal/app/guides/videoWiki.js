@@ -221,6 +221,7 @@ var videoWiki = {
     3269: 'coliseum/kawamatsu',
     3293: 'coliseum/sanjuanwolf',
     3329: 'coliseum/yshinobu',
+    3361: 'coliseum/mihawk',
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',
