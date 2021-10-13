@@ -289,6 +289,10 @@ var raids = {
         name: 'Usopp & Chopper',
         thumb: 3331
     },
+    3383: {
+        name: 'Local Sea Monster',
+        thumb: 3383
+    },
 
     // Neo Raids
     1623: {

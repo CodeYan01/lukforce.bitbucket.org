@@ -72,6 +72,7 @@ var videoWiki = {
     3263: 'raidboss/marco',
     3289: '',   // Chambres! SH Pirates
     3331: 'raidboss/usoppchopper',
+    3383: '',   // Local Sea Monster
 
     1623: 'raidboss/doflamingokai',
     1647: 'raidboss/picakai',
