@@ -441,7 +441,7 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
-    } else if (server == 'jpn' && tmId == 3368) {
+    } else if (tmId == 3368) {
         // TM MUGIWARA 56 Zoro
         $('#div_2x').show();
         $('#div_1_6x').show();
