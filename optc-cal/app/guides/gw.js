@@ -427,6 +427,7 @@ var gw = {
     3273: '260519',     // Luffy & Ace
     3297: '269110',     // Shiryu
     3339: '277257',     // Koala
+    3368: '283332',     // MUGIWARA 56 Zoro
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

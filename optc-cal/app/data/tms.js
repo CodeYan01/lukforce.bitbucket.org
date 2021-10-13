@@ -219,4 +219,9 @@ var tms = {
         thumb: 3339,
         info: ''
     },
+    3368: {
+        name: 'MUGIWARA 56 Zoro',
+        thumb: 3368,
+        info: ''
+    },
 };
