@@ -47,16 +47,6 @@ var tm_boosters = [
     3339,
     3368,
 
-    // ===== MUGIWARA 56 Zoro =====
-    // Raids
-
-    // Coliseums
-    3361,
-
-    // Others
-    3352,
-    3353,
-
     // ===== ? =====
     // Raids
     3383,
