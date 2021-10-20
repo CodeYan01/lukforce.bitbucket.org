@@ -114,4 +114,8 @@ var kizunas = {
         name: 'Kuja Pirates',
         thumb: 3352
     },
+    3373: {
+        name: 'MUGIWARA 56 Brook',
+        thumb: 3373
+    },
 };
