@@ -520,6 +520,7 @@ var gw = {
     'ev_3346': '276764',// To Onigashima
     'ev_3353': '280282',// Banaro Island
     'ev_3382': '285666',// Plan to Raid Onigashima
+    'ev_3436': '293700',// Tobi Roppo Assemble
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama

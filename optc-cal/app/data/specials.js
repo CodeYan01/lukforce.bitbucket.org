@@ -845,4 +845,9 @@ var specials = {
         name: 'Plan to Raid Onigashima',
         thumb: 3382
     },
+    'ev_3436': {
+        type: 'Special Event',
+        name: 'Tobi Roppo Assemble',
+        thumb: 3436
+    },
 }
