@@ -373,6 +373,7 @@ var wiki = {
     3293: '',                               // San Juan Wolf
     3329: '',                               // Shinobu
     3361: '',                               // Mihawk
+    3385: '',                               // Ashura Doji
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

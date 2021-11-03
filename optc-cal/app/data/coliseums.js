@@ -614,6 +614,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3361
     },
+    3385: {
+        name: 'Ashura Doji',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3385
+    },
 
     // Neo Coliseums
     1863: {

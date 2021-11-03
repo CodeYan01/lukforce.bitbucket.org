@@ -373,6 +373,7 @@ var nakama = {
     3293: '10329300',   // San Juan Wolf
     3329: '10332900',   // Shinobu
     3361: '10336100',   // Mihawk
+    3385: '10338500',   // Ashura Doji
 
     1863: '5186201',    // Kinemon (N)
     1899: '5189801',    // Killer (N)
