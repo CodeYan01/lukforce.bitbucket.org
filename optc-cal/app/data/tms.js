@@ -224,4 +224,9 @@ var tms = {
         thumb: 3368,
         info: ''
     },
+    3389: {
+        name: 'Dragon Kaido',
+        thumb: 3389,
+        info: ''
+    },
 };
