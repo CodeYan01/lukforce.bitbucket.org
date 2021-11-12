@@ -411,7 +411,6 @@ function getBoosters(tmId, server) {
         // TM Queen
         // TM Luffy & Ace
         // TM Shiryu
-        // TM Dragon Kaido
         // TM Stussy
         $('#div_2x').show();
         $('#div_1_8x').show();
@@ -433,7 +432,7 @@ function getBoosters(tmId, server) {
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
     } else if (tmId == 3339) {
-        // TM Koala (Both)
+        // TM Koala
         $('#div_1_6x').show();
         $('#div_1_4x_v2').show();
         $('#div_1_35x_v4').show();
@@ -444,6 +443,17 @@ function getBoosters(tmId, server) {
     } else if (tmId == 3368) {
         // TM MUGIWARA 56 Zoro
         $('#div_2x').show();
+        $('#div_1_6x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x_v2').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
+    } else if (tmId == 3389) {
+        // TM Dragon Kaido
+        $('#div_2x').show();
+        $('#div_1_8x').show();
         $('#div_1_6x').show();
         $('#div_1_4x_v2').show();
         $('#div_1_35x_v4').show();

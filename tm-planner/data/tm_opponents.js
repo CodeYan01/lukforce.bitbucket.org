@@ -6017,8 +6017,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Jack', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 720000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6027,6 +6027,19 @@ var tm_opponents = {
                                 ['Tap Limit',       '4T, 3x'],
                                 ['slot-neg',        '5T, Color & RCV'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['No Heal',         '10T'],
+                                ['slot-change',     'RCV']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['hp-cut',          '50%']
                             ]
                         }
                     ]
@@ -6041,8 +6054,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Page One', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 600000,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6050,6 +6063,13 @@ var tm_opponents = {
                                 ['desp',            '3T'],
                                 ['slot-block',      'All'],
                                 ['immu-all',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['Blow Away',       '3T, Random 1'],
+                                ['atk',             '3T']
                             ]
                         }
                     ]
@@ -6064,8 +6084,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['King', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1200000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6073,6 +6093,20 @@ var tm_opponents = {
                                 ['silence',         '4T'],
                                 ['def',             '4T, 1000x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['slot-neg',        '3T, Color'],
+                                ['Type Change',     'Random']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['slot-lock',       '1x Good, Row 1'],
+                                ['Type Change',     'Random']
                             ]
                         }
                     ]
@@ -6087,8 +6121,8 @@ var tm_opponents = {
                 {
                     stageNum: 5,
                     boss: ['Queen', 'INT'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 1200000,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6097,6 +6131,19 @@ var tm_opponents = {
                                 ['def-perc',        '6T, 90%'],
                                 ['def-thres',       '6T, 90%, 1000'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['Swap Captain',    '5T, Row 3'],
+                                ['Blow Away',       '99+T, Friend Cap']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
@@ -6110,9 +6157,9 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 4,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Chopperemon', 'QCK'],
+                    hp: 1300000,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6122,14 +6169,20 @@ var tm_opponents = {
                                 ['cd-rew',          '2T, Row 2'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['cd-rew',          '2T']
+                            ]
                         }
                     ]
                 },
                 {
                     stageNum: 5,
                     boss: ['O-Lin', 'STR'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2500000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6138,6 +6191,26 @@ var tm_opponents = {
                                 ['atk-down',        '5T, 90%'],
                                 ['Special Limit',   '3T, 2x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 2 Turns',
+                            action: [
+                                ['slot-change',     'EMPTY'],
+                                ['def-null',        '1T']
+                            ]
+                        },
+                        {
+                            type: '<30%',
+                            action: [
+                                ['Clear Buff',      'Super'],
+                                ['Blow Away',       '99+T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
@@ -6162,9 +6235,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
-                    atk: 0,
+                    boss: ['Orochi', 'STR'],
+                    hp: 1300000,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6173,14 +6246,20 @@ var tm_opponents = {
                                 ['para',            '4T'],
                                 ['def',             '5T, 2000x']
                             ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['bind',            '5T, Row 1']
+                            ]
                         }
                     ]
                 },
                 {
                     stageNum: 3,
                     boss: ['Kaido', 'QCK'],
-                    hp: 0,
-                    atk: 0,
+                    hp: 2500000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -6189,6 +6268,27 @@ var tm_opponents = {
                                 ['resil',           '3T'],
                                 ['bar-hit',         '99+T, 15x'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['atk',             '99+T'],
+                                ['cd-rew',          '2T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['Blow Away',       '99+T, Random 2'],
+                                ['Clear Buff',      'Super']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
