@@ -5109,6 +5109,22 @@ window.evolutions = {
     },
     3461: {
         evolution: 3462,
+        evolvers: [ 118, 97, 1180, 302, 267 ]
+    },
+    2837: {
+        evolution: 3469,
+        evolvers: [ "skullPudding", "skullPudding", "skullPudding", "skullPudding", "skullPudding" ]
+    },
+    3471: {
+        evolution: 3472,
+        evolvers: [ 118, 1180, 300, 100, 267 ]
+    },
+    3473: {
+        evolution: 3474,
+        evolvers: [ 118, 1180, 301, 101, 267 ]
+    },
+    3482: {
+        evolution: 3483,
         evolvers: [  ]
     },
     4986: {
