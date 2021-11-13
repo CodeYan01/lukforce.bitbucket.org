@@ -908,13 +908,17 @@ function populateUnitDetail(unitId) {
             'fighter-div slasher-div striker-div shooter-div free-spirit-div cerebral-div powerhouse-div driven-div'
         );
 
+        // Check for Dual Unit / VS Unit
+        var isDual = unitDetail.swap != null;
+        var isVS = unitDetail.VSSpecial != null;
+
         var unitClass = units[unitId - 1][2];
         if (Array.isArray(unitClass)) {
             var class1;
             var class2;
 
-            if (Array.isArray(unitClass[0])) {
-                if (unitClass.length === 2) {
+            if (isDual || isVS) {
+                if (isVS) {
                     // VS Units
                     var vsClass;
                     if (origId % 2 === 1)
@@ -946,11 +950,11 @@ function populateUnitDetail(unitId) {
         var captain = unitDetail.captain;
         if (captain) {
             if (typeof captain === 'object') {
-                if (captain.character1) {
+                if (isDual || isVS) {
                     // Dual Units & VS Units
                     $('#unit-detail-captain-ability').empty();
 
-                    if (captain.combined) {
+                    if (isDual) {
                         // Dual Units
                         var captain1 = captain.character1;
                         captain1 = decorateStr(captain1);
@@ -976,7 +980,9 @@ function populateUnitDetail(unitId) {
                         captainVs = decorateStr(captainVs);
                         $('#unit-detail-captain-ability').html(captainVs);
                     }
-                } else {
+                }
+
+                if (captain.base) {
                     // Unit Captain Ability changed by Limit Break
                     var captainLb = captain['level' + (Object.keys(captain).length - 1)];
                     captainLb = decorateStr(captainLb);
@@ -990,11 +996,12 @@ function populateUnitDetail(unitId) {
             $('#unit-detail-captain-ability').html('None');
 
         // Swap Effect
-        var swapEffect = unitDetail.swap;
-        if (swapEffect) {
+        if (isDual) {
+            var swapEffect = unitDetail.swap;
             $('#unit-detail-swap').empty();
 
             if (swapEffect.base) {
+                // Has Super Swap
                 var swapBase = swapEffect.base;
                 swapBase = decorateStr(swapBase);
                 $('#unit-detail-swap').append('<b>Base:</b> ' + swapBase);
@@ -1039,8 +1046,8 @@ function populateUnitDetail(unitId) {
                 var specialMax = special[special.length - 1].description;
                 specialMax = decorateStr(specialMax);
                 $('#unit-detail-special').html(specialMax);
-            } else if (special.character1) {
-                if (origId > 9000) {
+            } else if (special.character1 && (isDual || isVS)) {
+                if (isVS) {
                     // VS Units
                     var specialVs;
                     if (origId % 2 === 1)
@@ -1090,8 +1097,8 @@ function populateUnitDetail(unitId) {
             $('.unit-detail-st-el').hide();
 
         // VS Ability
-        var vs = unitDetail.VSSpecial;
-        if (vs) {
+        if (isVS) {
+            var vs = unitDetail.VSSpecial;
             $('#unit-detail-vs').empty();
 
             var vsSp;
@@ -1117,7 +1124,7 @@ function populateUnitDetail(unitId) {
                 // Unit Sailor added by Limit Break
                 $('#unit-detail-sailor').empty();
 
-                if (sailor.combined) {
+                if (isDual) {
                     // Dual Units
                     var sailor1 = sailor.character1;
                     sailor1 = decorateStr(sailor1);
@@ -1133,7 +1140,7 @@ function populateUnitDetail(unitId) {
                     sailorComb = decorateStr(sailorComb);
                     $('#unit-detail-sailor').append('<b>Combined:</b> ' + sailorComb);
                     $('#unit-detail-sailor').append('<br />');
-                } else if (origId > 9000) {
+                } else if (isVS) {
                     // VS Units
                     var sailorVs;
                     if (origId % 2 === 1)
