@@ -1078,7 +1078,7 @@ function populateUnitDetail(unitId) {
         if (st) {
             $('#unit-detail-st').empty();
 
-            stSp = decorateStr(st);
+            var stSp = decorateStr(st);
             $('#unit-detail-st').append('<b>Special:</b><br />' + stSp);
             $('#unit-detail-st').append('<br />');
 
@@ -1088,6 +1088,27 @@ function populateUnitDetail(unitId) {
             $('#unit-detail-st').append('<br />');
         } else
             $('.unit-detail-st-el').hide();
+
+        // VS Ability
+        var vs = unitDetail.VSSpecial;
+        if (vs) {
+            $('#unit-detail-vs').empty();
+
+            var vsSp;
+            if (origId % 2 === 1)
+                vsSp = decorateStr(vs.character1);
+            else
+                vsSp = decorateStr(vs.character2);
+
+            $('#unit-detail-vs').append('<b>Special:</b><br />' + vsSp);
+            $('#unit-detail-vs').append('<br />');
+
+            var vsCondition = unitDetail.VSCondition;
+            vsCondition = decorateStr(vsCondition);
+            $('#unit-detail-vs').append('<b>Condition:</b><br />' + vsCondition);
+            $('#unit-detail-vs').append('<br />');
+        } else
+            $('.unit-detail-vs-el').hide();
 
         // Sailor
         var sailor = unitDetail.sailor;
