@@ -129,8 +129,7 @@
 }
 
 .booster-clone > img {
-    filter: brightness(0.5);
-    -webkit-filter: brightness(0.5);
+    border: 3px ridge darkorange;
 }
 
 #export-url-div,
