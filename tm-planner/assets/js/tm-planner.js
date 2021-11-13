@@ -1077,6 +1077,12 @@ function populateUnitDetail(unitId) {
                 special = decorateStr(special);
                 $('#unit-detail-special').html(special);
             }
+
+            var spNote = unitDetail.specialNotes;
+            if (spNote && !spNote.startsWith("#{")) {
+                $('#unit-detail-special').append('<br />');
+                $('#unit-detail-special').append('<i><b>NOTE:</b> ' + spNote + '</i>');
+            }
         } else
             $('#unit-detail-special').html('None');
 
