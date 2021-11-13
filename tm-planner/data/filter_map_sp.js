@@ -7,7 +7,7 @@ var filter_map_sp = {
     'atk-poison':               /(Boosts ATK.+against.+(poisoned|strongly poisoned).+enemies|Boosts ATK.+against.+enemies.+inflicted with Toxic)/i,
     'chain-boost':              /Adds.+to Chain/i,
     'chain-lock':               /Locks the chain multiplier/i,
-    'slot-change':              /(Changes.+(orb|orbs))/i,
+    'slot-change':              /(Changes.+(orb|orbs))|randomizes.+orb/i,
     'slot-change-block':        /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
     'slot-lock':                /locks (orbs|all orbs|orb|own orb)/i,
     'slot-pos':                 /beneficial/i,
