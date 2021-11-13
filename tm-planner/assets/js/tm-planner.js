@@ -1348,6 +1348,21 @@ function mirrorToFriendCap(teamDiv, cap, autoFill, isAmbush) {
     }
 }
 
+function swapHandler(swapped, dest) {
+    var assignedTeam = dest.closest('.team').data('team');
+
+    // Remove corresponding Clone if moved to another Team
+    if (swapped.data('team') !== assignedTeam)
+        $('#booster-clone_' + swapped.data('id') + '_clone').remove();
+
+    swapped.data('team', assignedTeam);
+    swapped.addClass('assigned');
+
+    // Mirror to Friend Cap slot if it is empty
+    if (dest.data('slot') == 1)
+        mirrorToFriendCap(dest.closest('.team'), swapped, false);
+}
+
 function getTeamUnits(team) {
     var teamUnits = [0, 0, 0, 0, 0, 0];
 
@@ -2623,9 +2638,10 @@ $(document).ready(function() {
                     to_list.find( ".booster-clone" ).remove();
                     to_list.find( ".booster" ).each(function() {
                         if ($(this).attr("id") != item.attr("id")) {
-                            if (assigned)
+                            if (assigned) {
                                 from_list.append($(this));
-                            else
+                                swapHandler($(this), from_list);
+                            } else
                                 resetPosition($(this));
                         }
                     });
