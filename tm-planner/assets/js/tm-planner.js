@@ -472,8 +472,15 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
-    } else if (server == 'jpn' && tmId == 3467) {
+    } else if (
+        server == 'jpn' &&
+        (
+            tmId == 3467 ||
+            tmId == 3491
+        )
+    ) {
         // TM Halloween Robin
+        // TM Moria
         $('#div_2x').show();
         $('#div_1_7x').show();
         $('#div_1_4x_v2').show();
@@ -807,7 +814,8 @@ function decorateSpIcon(iconKey, isAction) {
         iconKey === 'No Heal' ||
         iconKey === 'Tap Limit' ||
         iconKey === 'Swap Captain' ||
-        iconKey === 'Heal=Dmg'
+        iconKey === 'Heal=Dmg' ||
+        iconKey === 'NAO'
     )
         return iconKey;
 

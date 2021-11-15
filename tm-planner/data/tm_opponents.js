@@ -6759,8 +6759,8 @@ var tm_opponents = {
     // ========== Halloween Robin ==========
     3467: {
         2758: {
-            name: ['Sabo'],
-            type: ['PSY'],
+            name: 'Sabo',
+            type: 'PSY',
             pos: 2,
             guide: [
                 {
@@ -7006,6 +7006,263 @@ var tm_opponents = {
                                 ['bind',            '5T, Row 1'],
                                 ['chain-lock',      '5T, 1.1x'],
                                 ['def-thres',       '5T, 90%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
+
+    // ========== Moria ==========
+    3491: {
+        2000: {
+            name: 'Zoro & Sanji',
+            type: 'STR',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Powerhouse/Driven/Cerebral']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Zoro & Sanji', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '70%'],
+                                ['bind',            '8T, Row 1'],
+                                ['para',            '5T'],
+                                ['NAO',             '99+T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2395: {
+            name: 'Chopper & Franky',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Chopper & Usopp', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['silence',         '2T, Row 2 3'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2397: {
+            name: 'Usopp & Robin',
+            type: 'DEX',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Driven/Powerhouse/Cerebral']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Usopp & Robin', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['silence',         '5T'],
+                                ['desp',            '5T'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2888: {
+            name: 'Nami',
+            type: 'PSY',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Cerebral/Shooter']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Nami', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['slot-lock',       '1T'],
+                                ['burn',            '4T, 8000'],
+                                ['atk-down',        '4T, 70%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['heal',            '20%'],
+                                ['hp-cut',          '50%'],
+                                ['Special Limit',   '1x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2887: {
+            name: 'Luffy',
+            type: 'QCK',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '8T, Cerebral/FS/Driven']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'QCK/G/RCV'],
+                                ['chain-down',      '10T, 0.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Luffy', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '1T, Row 2 3'],
+                                ['atk-down',        '5T, 90%'],
+                                ['def-thres',       '5T, 90%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3491: {
+            name: 'Moria',
+            type: 'QCK',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '10T, Cerebral/FS/Powerhouse']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'QCK'],
+                                ['burn',            '5T, 10000'],
+                                ['def',             '5T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Moria', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'QCK'],
+                                ['bind',            '6T, Row 1'],
+                                ['def-perc',        '5T, 90%'],
                                 ['immu-delay',      '99+T']
                             ]
                         }
