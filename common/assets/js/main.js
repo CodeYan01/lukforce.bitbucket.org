@@ -75,7 +75,7 @@ function getThumb(thumbId) {
         thumbId === 3111 ||
         thumbId === 3153 ||
         thumbId === 9999 ||
-        thumbId === 3467
+        thumbId === 3491
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
