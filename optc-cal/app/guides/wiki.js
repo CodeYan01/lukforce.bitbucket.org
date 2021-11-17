@@ -223,6 +223,7 @@ var wiki = {
     3289: '',                               // Chambres! SH Pirates
     3331: 'wiki/raidboss/usoppchopper',
     3383: '',                               // Local Sea Monster
+    3399: 'wiki/raidboss/buggypirates',
 
     1623: 'wiki/raidboss/doffykai',
     1647: 'wiki/raidboss/picakai',

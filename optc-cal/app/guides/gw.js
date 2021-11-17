@@ -223,6 +223,7 @@ var gw = {
     3289: '266441',     // Chambres! SH Pirates
     3331: '',           // Usopp & Chopper
     3383: '284443',     // Local Sea Monster
+    3399: '288246',     // Buggy's Delivery
 
     1623: '',           //'58437',      // Doflamingo (N)
     1647: '60095',      // Pica (N)

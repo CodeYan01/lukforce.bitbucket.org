@@ -223,6 +223,7 @@ var nakama = {
     3289: '4328900',    // Chambres! SH Pirates
     3331: '4333100',    // Usopp & Chopper
     3383: '4338300',    // Local Sea Monster
+    3399: '4339900',    // Buggy's Delivery
 
     1623: '4162300',    // Doflamingo (N)
     1647: '4164700',    // Pica (N)
