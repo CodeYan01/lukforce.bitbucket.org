@@ -754,10 +754,18 @@ function showFooter() {
                     }
 
                     if (event['type'] === 'kizuna' && event['xch_id']) {
-                        var xchImg = createImgHtml(getThumb(event['xch_id']), 23, true);
-                        xchImg.addClass('unit-img');
-                        xchImg.data('id', parseInt(event['xch_id']), 10);
-                        element.find('.fc-title').before(xchImg);
+                        var xchIdArray = [];
+                        if (Array.isArray(event['xch_id']))
+                            xchIdArray = event['xch_id'].slice();
+                        else
+                            xchIdArray.push(event['xch_id']);
+
+                        for (var i = 0; i < xchIdArray.length; i++) {
+                            var xchImg = createImgHtml(getThumb(xchIdArray[i]), 23, true);
+                            xchImg.addClass('unit-img');
+                            xchImg.data('id', parseInt(xchIdArray[i]), 10);
+                            element.find('.fc-title').before(xchImg);
+                        }
                     }
 
                     element.css('min-height', '32px');

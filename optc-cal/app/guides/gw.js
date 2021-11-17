@@ -460,6 +460,7 @@ var gw = {
     3303: '270304',     // Katakuri
     3352: '279320',     // Kuja Pirates
     3373: '284628',     // MUGIWARA 56 Brook
+    3397: '287986',     // Jack
 
     // Events
     'bb_1314': '61665', // Three Admirals

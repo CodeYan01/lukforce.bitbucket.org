@@ -118,4 +118,9 @@ var kizunas = {
         name: 'MUGIWARA 56 Brook',
         thumb: 3373
     },
+    3397: {
+        name: 'Jack',
+        thumb: 3397,
+        xch_id: [3450, 3470]
+    },
 };

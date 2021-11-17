@@ -460,6 +460,7 @@ var nakama = {
     3303: '9330300',    // Katakuri
     3352: '9335200',    // Kuja Pirates
     3373: '9337300',    // MUGIWARA 56 Brook
+    3397: '9339700',    // Jack
 
     // Events
     'bb_1314': '6131400',   // Three Admirals
