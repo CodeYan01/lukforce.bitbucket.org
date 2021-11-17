@@ -506,7 +506,7 @@ var gw = {
     'ev_3004': '211482',// Thriller Bark Warlords
     'ev_0738': '214617',// Escape Enies Lobby
     'ev_0327': '214620',// Snowy Winter Island Drum Kingdom
-    'ev_3034': '217568',// Regroup! Straw Hat Pirates
+    'ev_3034': '217569',// Regroup! Straw Hat Pirates
     'ev_3045': '218689',// Summer Paradise 5
     'ev_2469': '227860',// Escape! Cacao Island
     'ev_3108': '230072',// Party of Horror
