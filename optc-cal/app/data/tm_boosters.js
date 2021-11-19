@@ -48,18 +48,6 @@ var tm_boosters = [
     3368,
     3389,
 
-    // ===== Dragon Kaido =====
-    // Raids
-    3383,
-
-    // Coliseums
-    3385,
-
-    // Others
-    3373,
-    3382,
-    3436,
-
     // ===== ? =====
     // Raids
     3399,
