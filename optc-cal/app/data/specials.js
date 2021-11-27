@@ -845,6 +845,11 @@ var specials = {
         name: 'Plan to Raid Onigashima',
         thumb: 3382
     },
+    'ev_3400': {
+        type: 'Special Event',
+        name: 'Girls\' Party 2021',
+        thumb: 3400
+    },
     'ev_3436': {
         type: 'Special Event',
         name: 'Tobi Roppo Assemble',
