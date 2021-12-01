@@ -375,6 +375,7 @@ var wiki = {
     3329: '',                               // Shinobu
     3361: '',                               // Mihawk
     3385: '',                               // Ashura Doji
+    3408: '',                               // Caesar
 
     1863: '',                               // Kinemon (N)
     1899: '',                               // Killer (N)

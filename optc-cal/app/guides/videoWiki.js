@@ -225,6 +225,7 @@ var videoWiki = {
     3329: 'coliseum/yshinobu',
     3361: 'coliseum/mihawk',
     3385: 'coliseum/ashura',
+    3408: '',   // Caesar
 
     1863: 'coliseum/kinemonkai',
     1899: 'coliseum/killerkai',

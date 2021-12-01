@@ -620,6 +620,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3385
     },
+    3408: {
+        name: 'Caesar',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3408
+    },
 
     // Neo Coliseums
     1863: {
