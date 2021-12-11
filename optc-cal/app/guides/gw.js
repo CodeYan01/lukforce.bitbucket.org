@@ -433,6 +433,7 @@ var gw = {
     3339: '277257',     // Koala
     3368: '283332',     // MUGIWARA 56 Zoro
     3389: '287046',     // Dragon Kaido
+    3416: '291120',     // Stussy
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
