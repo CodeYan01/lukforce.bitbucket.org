@@ -396,9 +396,7 @@ function getBoosters(tmId, server) {
             tmId == 3217 ||
             tmId == 3239 ||
             tmId == 3273 ||
-            tmId == 3297 ||
-            tmId == 3389 ||
-            tmId == 3416
+            tmId == 3297
         )
     ) {
         // TM Zorojuro
@@ -411,7 +409,6 @@ function getBoosters(tmId, server) {
         // TM Queen
         // TM Luffy & Ace
         // TM Shiryu
-        // TM Stussy
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -450,8 +447,12 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
-    } else if (tmId == 3389) {
+    } else if (
+        tmId == 3389 ||
+        tmId == 3416
+    ) {
         // TM Dragon Kaido
+        // TM Stussy
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
