@@ -3508,4 +3508,9 @@ var specialBgEvents = [
         start: '2021-11-29',
         end: '2021-12-19'
     },
+    {
+        id: 'sugo_tm',
+        start: '2021-12-11',
+        end: '2021-12-18'
+    },
 ]
