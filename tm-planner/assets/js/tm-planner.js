@@ -396,7 +396,8 @@ function getBoosters(tmId, server) {
             tmId == 3217 ||
             tmId == 3239 ||
             tmId == 3273 ||
-            tmId == 3297
+            tmId == 3297 ||
+            tmId == 3506
         )
     ) {
         // TM Zorojuro
@@ -409,6 +410,7 @@ function getBoosters(tmId, server) {
         // TM Queen
         // TM Luffy & Ace
         // TM Shiryu
+        // TM Hyogoro
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
