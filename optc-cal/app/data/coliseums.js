@@ -632,6 +632,12 @@ var coliseums = {
         chaos_only: true, // Not but just for big thumb
         thumb: 3460
     },
+    3499: {
+        name: 'Luffy',
+        altType: 'Arena',
+        chaos_only: true, // Not but just for big thumb
+        thumb: 3499
+    },
 
     // Neo Coliseums
     1863: {
