@@ -123,4 +123,9 @@ var kizunas = {
         thumb: 3397,
         xch_id: [3450, 3470]
     },
+    3419: {
+        name: 'Ivankov',
+        thumb: 3419,
+        xch_id: [3490, 3511]
+    },
 };
