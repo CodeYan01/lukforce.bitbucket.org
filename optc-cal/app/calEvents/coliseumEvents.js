@@ -5862,4 +5862,27 @@ var coliseumEvents = [
         end: '2022-01-04',
         new_batch: true
     },
+
+    // ##############################
+    {
+        newId: 3460,
+        repId: [],
+        start: '2021-12-19',
+        end: '2021-12-26',
+        new_batch: true
+    },
+    {
+        newId: 3460,
+        repId: [],
+        start: '2021-12-26',
+        end: '2022-01-02',
+        new_batch: true
+    },
+    {
+        newId: 3460,
+        repId: [],
+        start: '2022-01-02',
+        end: '2022-01-07',
+        new_batch: true
+    },
 ]
