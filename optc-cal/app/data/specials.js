@@ -855,4 +855,9 @@ var specials = {
         name: 'Tobi Roppo Assemble',
         thumb: 3436
     },
+    'ev_3518': {
+        type: 'Special Event',
+        name: 'Drill Crushing Fist',
+        thumb: 3518
+    },
 }

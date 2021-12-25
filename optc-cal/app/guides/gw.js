@@ -530,6 +530,7 @@ var gw = {
     'ev_3382': '285666',// Plan to Raid Onigashima
     'ev_3400': '289313',// Girls' Party 2021
     'ev_3436': '293700',// Tobi Roppo Assemble
+    'ev_3518': '',      // Drill Crushing Fist
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama

@@ -530,6 +530,7 @@ var nakama = {
     'ev_3382': '6338200',   // Plan to Raid Onigashima
     'ev_3400': '',          // Girls' Party 2021
     'ev_3436': '6343600',   // Tobi Roppo Assemble
+    'ev_3518': '6351800',   // Drill Crushing Fist
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama
