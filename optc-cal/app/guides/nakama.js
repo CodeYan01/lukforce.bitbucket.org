@@ -483,6 +483,7 @@ var nakama = {
     'bb_3069': '6307900',   // Tea Party from Hell
     'bb_3188': '',          // Grand Battle vs. Marines
     'bb_3246': '6324600',   // Face Off! 7 Warlords of the Sea
+    'bb_3520': '6352000',   // Vs. Marines
 
     'wc_2401': '6240700',   // World Clash
 

@@ -95,6 +95,11 @@ var specials = {
         name: '7 Warlords of the Sea',
         thumb: 3246
     },
+    'bb_3520': {
+        type: 'Blitz Battle',
+        name: 'Vs. Navy (1:00 - 5:59)',
+        thumb: 3520
+    },
 
     'wc_2401': {
         type: 'World Clash',

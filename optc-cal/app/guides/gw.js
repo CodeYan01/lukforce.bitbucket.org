@@ -483,6 +483,7 @@ var gw = {
     'bb_3069': '226582',// Tea Party from Hell
     'bb_3188': '',      // Grand Battle vs. Marines
     'bb_3246': '256375',// Face Off! 7 Warlords of the Sea
+    'bb_3520': '',      // Vs. Marines
 
     'wc_2401': '130091',// World Clash
 
