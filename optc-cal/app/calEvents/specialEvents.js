@@ -1869,6 +1869,7 @@ var specialEvents = [
     {
         id: 'bb_3520',
         start: '2022-01-02',
-        end: '2022-01-05'
+        end: '2022-01-05',
+        pst_0: true
     },
 ]
