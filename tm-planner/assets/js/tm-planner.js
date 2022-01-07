@@ -2715,6 +2715,8 @@ $(document).ready(function() {
                 // Mirror to Friend Cap slot if it is empty
                 if (to_list.data('slot') == 1)
                     mirrorToFriendCap(to_list.closest('.team'), item, true, true);
+
+                to_list = null;
             }
         });
     }
