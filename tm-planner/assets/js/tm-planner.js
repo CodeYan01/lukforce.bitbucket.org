@@ -734,22 +734,29 @@ function init(tmId, server) {
     return true;
 }
 
+// Save drag(from) and drop(to) position
+var from_list;
+var to_list;
 function resetPosition(unit) {
-    unit.removeClass('assigned');
-    unit.removeClass('assigned-dh');
-    unit.data('team', -1);
+    if (to_list != null && to_list.hasClass("ambush-team-slot")) {
+        from_list.append(unit);
+    } else {
+        unit.removeClass('assigned');
+        unit.removeClass('assigned-dh');
+        unit.data('team', -1);
 
-    var unitId = unit.data('id');
-    var _x_pts = unit.data('_x_pts');
-    var _type = unit.data('_type');
+        var unitId = unit.data('id');
+        var _x_pts = unit.data('_x_pts');
+        var _type = unit.data('_type');
 
-    if (_type)
-        $('#booster_' + _x_pts + '_' + _type).append(unit);
-    else
-        $('#booster_' + _x_pts).append(unit);
+        if (_type)
+            $('#booster_' + _x_pts + '_' + _type).append(unit);
+        else
+            $('#booster_' + _x_pts).append(unit);
 
-    // Remove corresponding Clone
-    $('#booster-clone_' + unitId + '_clone').remove();
+        // Remove corresponding Clone
+        $('#booster-clone_' + unitId + '_clone').remove();
+    }
 }
 
 function resetAll() {
@@ -2643,8 +2650,8 @@ $(document).ready(function() {
                     var item = $("#" + evt.item.id);
 
                     var assigned = item.hasClass("assigned");
-                    var to_list = $("#" + evt.to.id);
-                    var from_list = $("#" + evt.from.id);
+                    to_list = $("#" + evt.to.id);
+                    from_list = $("#" + evt.from.id);
 
                     to_list.find( ".booster-clone" ).remove();
                     to_list.find( ".booster" ).each(function() {
@@ -2691,8 +2698,8 @@ $(document).ready(function() {
             resetPositionOnSpill: true, // Reset booster to original position it is spilled
             onAdd: function(evt) {
                 var item = $("#" + evt.item.id);
-                var to_list = $("#" + evt.to.id);
-                var from_list = $("#" + evt.from.id);
+                to_list = $("#" + evt.to.id);
+                from_list = $("#" + evt.from.id);
 
                 if (evt.to.id.charAt(11) == '0')
                     $(".booster-ambush-fc").remove();
