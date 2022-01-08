@@ -1393,8 +1393,7 @@ function getTeamUnits(team) {
     return teamUnits;
 }
 
-function updatePts(btn) {
-    var teamDiv = btn.closest('.team');
+function updatePts(teamDiv) {
     var x_pts = 1;
 
     teamDiv.find('.booster').each(function() {
@@ -1408,11 +1407,11 @@ function updatePts(btn) {
         x_pts = x_pts * slot_x_pts;
     });
 
-    btn.closest('.team').find('.x_pts').html(x_pts.toFixed(2));
+    teamDiv.find('.x_pts').html(x_pts.toFixed(2));
 }
 
 function updateAllPts() {
-    $('.pts-button').each(function() {
+    $('.team').each(function() {
         updatePts($(this));
     });
 }
@@ -2725,6 +2724,11 @@ $(document).ready(function() {
                     // Mirror to Friend Cap slot if it is empty
                     if (to_list.data('slot') == 1 && !item.hasClass("booster-clone"))
                         mirrorToFriendCap(to_list.closest('.team'), item, true);
+
+                    updateAllPts();
+                },
+                onEnd: function(evt) {
+                    updateAllPts();
                 }
             });
         }
@@ -2765,7 +2769,11 @@ $(document).ready(function() {
                 if (to_list.data('slot') == 1)
                     mirrorToFriendCap(to_list.closest('.team'), item, true, true);
 
+                updateAllPts();
                 to_list = null;
+            },
+            onEnd: function() {
+                updateAllPts();
             }
         });
     }

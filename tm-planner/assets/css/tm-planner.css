@@ -137,6 +137,13 @@
     display: none;
 }
 
+span.x_pts {
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 900;
+    color: orangered;
+}
+
 .type-filtered,
 .class-filtered,
 .booster[class^="sp-filtered-"],
@@ -348,6 +355,7 @@ button.pts-button,
 button.cal-button {
     background: var(--bg-color-team-button);
     color: aliceblue;
+    width: 85px;
 }
 
 button.pts-button:hover,
