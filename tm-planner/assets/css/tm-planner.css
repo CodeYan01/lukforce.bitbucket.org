@@ -183,6 +183,7 @@ span.x_pts {
 
 .type-filtered,
 .class-filtered,
+.name-filtered,
 .booster[class^="sp-filtered-"],
 .booster[class*=" sp-filtered-"],
 .booster-clone[class^="sp-filtered-"],

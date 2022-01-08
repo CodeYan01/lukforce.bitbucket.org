@@ -1488,6 +1488,11 @@ function clearTypeFilters() {
     $('.booster, .booster-clone').removeClass('type-filtered');
 }
 
+function clearNameFilter() {
+    $('#name-filter').val('');
+    $('.booster, .booster-clone').removeClass('name-filtered');
+}
+
 function clearClassFilters() {
     $('.class-filter').removeClass('selected');
     $('.booster, .booster-clone').removeClass('class-filtered');
@@ -2358,6 +2363,35 @@ $(document).ready(function() {
         }
     });
 
+    // Name filter
+    $('#name-filter').on('keyup', function() {
+        var name = $(this).val().toLowerCase();
+
+        if (name.length == 0) {
+            // Clear filters if input is empty
+            $('.name-filtered').removeClass('name-filtered');
+        } else {
+            $('.booster, .booster-clone').each(function() {
+                var unit = $(this);
+                var unitId = unit.data('id');
+
+                if (unitId > 9000)
+                    unitId = parseVsUnitId(unitId);
+
+                var family = families[unitId];
+
+                $.each(family, function(i, e) {
+                    if (e.toLowerCase().includes(name)) {
+                        unit.removeClass('name-filtered');
+                        return false;
+                    }
+
+                    unit.addClass('name-filtered');
+                });
+            });
+        }
+    });
+
     // Class filter
     var classFilters = [];
     var excludeOtherClasses = false;
@@ -2572,6 +2606,8 @@ $(document).ready(function() {
         if ('type' === target) {
             clearTypeFilters(typeFilters);
             typeFilters = [];
+        } else if ('name' === target) {
+            clearNameFilter();
         } else if ('class' === target) {
             clearClassFilters(classFilters);
             classFilters = [];
@@ -2587,6 +2623,8 @@ $(document).ready(function() {
     $('.filter-clear-all-btn').click(function() {
         clearTypeFilters();
         typeFilters = [];
+
+        clearNameFilter();
 
         clearClassFilters();
         classFilters = [];
