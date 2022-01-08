@@ -150,8 +150,7 @@
 .booster[class^="ca-filtered-"],
 .booster[class*=" ca-filtered-"],
 .booster-clone[class^="ca-filtered-"],
-.booster-clone[class*=" ca-filtered-"],
-.lb-filtered {
+.booster-clone[class*=" ca-filtered-"] {
     opacity: .3;
 }
 
