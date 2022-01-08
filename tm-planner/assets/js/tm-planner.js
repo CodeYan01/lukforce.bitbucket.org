@@ -610,7 +610,7 @@ function getBoosters(tmId, server) {
 
 function getOpponents(tmId, server) {
     // Reset
-    $('#thumb-div').empty();
+    $('.thumb-div').empty();
 
     var opponents = tm_opponents[tmId];
 
@@ -678,13 +678,14 @@ function getOpponents(tmId, server) {
     }
 
     var imgHtml = createImgHtml(getThumb(tmId), 50, false);
-    $('#thumb-div').append(imgHtml);
+    $('.thumb-div').append(imgHtml);
 
     return true;
 }
 
 function init(tmId, server) {
     $('#tm-select').val(tmId + '_' + server);
+    $('.tm-select').text($("#tm-select option:selected").text());
 
     if (!getBoosters(tmId, server)) {
         alert('Invalid TM or Server');
@@ -2238,6 +2239,41 @@ $(document).ready(function() {
         resetAll();
     });
 
+    function exportImage(windowWidth) {
+        $("#tm-team-sets").find(".cal-button").hide();
+        $("#tm-team-sets").find(".export-image-info").show();
+        var option;
+        if (localStorage.getItem('night-mode') == "true") {
+            option = {windowWidth: windowWidth, allowTaint: true, backgroundColor: '#191919'};
+        } else {
+            option = {windowWidth: windowWidth, allowTaint: true};
+        }
+        html2canvas($("#tm-team-sets")[0], option).then(function(canvas) {
+            $("#export-image-modal-body").empty().append(canvas);
+        });
+        $("#tm-team-sets").find(".cal-button").show();
+        $("#tm-team-sets").find(".export-image-info").hide();
+    }
+    // Export image
+    $('#export-image-button').click(function() {
+        if ($(window).width() < 680)
+            exportImage(350);
+        else
+            exportImage(650);
+        $("#export-image-modal").modal();
+    });
+
+    // Set export image size
+    $('.export-image-size').click(function() {
+        var windowWidth; 
+        if ($(this).val() == "3x2") {
+            windowWidth = 650;
+        } else {
+            windowWidth = 350;
+        }
+        exportImage(windowWidth);
+    });
+
     // Export url
     $('#export-url-button').click(function() {
         var url = 'https://' + window.location.hostname + window.location.pathname;
@@ -2573,6 +2609,7 @@ $(document).ready(function() {
 
         init(parsedTmId, server);
         tmId = parsedTmId;
+        $('.tm-select').text($("#tm-select option:selected").text());
     });
 
     // Press Esc to close modal

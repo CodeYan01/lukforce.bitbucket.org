@@ -137,6 +137,43 @@
     display: none;
 }
 
+div#export-image-modal {
+    overflow-x: auto;
+}
+
+.export-image-size-div {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+div#export-image-modal .modal-dialog {
+    width: fit-content;
+    max-width: fit-content;
+}
+
+.export-image-info {
+    margin: 15px;
+    display: flex;
+    place-content: center;
+}
+
+.tm-select {
+    margin: 0 30px;
+}
+
+.export-image-title {
+    display: flex;
+    font-size: 18px;
+    font-weight: 900;
+    margin: auto;
+    align-items: center;
+    border: 2px dotted var(--bg-color-nav);
+    border-radius: 15px;
+    color: var(--font-color-title);
+    padding: 8px;
+}
+
 span.x_pts {
     font-size: 16px;
     margin-left: 20px;
