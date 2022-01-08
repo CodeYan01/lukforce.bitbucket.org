@@ -147,6 +147,10 @@
 .booster[class*=" sl-filtered-"],
 .booster-clone[class^="sl-filtered-"],
 .booster-clone[class*=" sl-filtered-"],
+.booster[class^="ca-filtered-"],
+.booster[class*=" ca-filtered-"],
+.booster-clone[class^="ca-filtered-"],
+.booster-clone[class*=" ca-filtered-"],
 .lb-filtered {
     opacity: .3;
 }
@@ -249,7 +253,7 @@
 
 #tm-filter-sets {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px 250px;
     overflow: auto;
 }
 
@@ -401,7 +405,8 @@ button.cal-button:hover {
 #guide-action-clone,
 #guide-interrupt-clone,
 #guide-sp-filter-clone,
-#guide-sl-filter-clone {
+#guide-sl-filter-clone,
+#guide-ca-filter-clone {
     display: none;
 }
 
@@ -419,7 +424,8 @@ button.cal-button:hover {
 
 .guide-action-icon,
 .guide-sp-filter,
-.guide-sl-filter {
+.guide-sl-filter,
+.guide-ca-filter {
     float: left;
     height: 25px;
     margin: 5px;
@@ -427,12 +433,14 @@ button.cal-button:hover {
 }
 
 .guide-sp-filter,
-.guide-sl-filter {
+.guide-sl-filter,
+.guide-ca-filter {
     opacity: .3;
 }
 
 .guide-sp-filter.selected,
-.guide-sl-filter.selected {
+.guide-sl-filter.selected,
+.guide-ca-filter.selected {
     opacity: 1;
 }
 

@@ -32,6 +32,7 @@
 <script src="/tm-planner/data/tm_opponents.js"></script>
 <script src="/tm-planner/data/filter_map_sp.js"></script>
 <script src="/tm-planner/data/filter_map_sl.js"></script>
+<script src="/tm-planner/data/filter_map_ca.js"></script>
 <script src="/tm-planner/data/counters.js"></script>
 <script src="/tm-planner/data/icon_tooltips.js"></script>
 <script src="/tm-planner/data/glb_no_lb.js"></script>
@@ -210,6 +211,10 @@
 
                 <div id="guide-sl-filter-clone">
                     <button type="button" class="btn btn-sm btn-success guide-sl-filter"></button>
+                </div>
+
+                <div id="guide-ca-filter-clone">
+                    <button type="button" class="btn btn-sm btn-info guide-ca-filter"></button>
                 </div>
             </div>
 
@@ -1096,6 +1101,26 @@
 
                     <div class="filter-info" style="margin-top: 65px;">
                         Sailor Filter algorithm provided by OPTC-DB
+                    </div>
+                </div>
+
+                <div class="tm-filter">
+                    <div class="filter-title">
+                        <div class="stroke-single">CAPTAIN</div>
+                        <button type="button" class="btn btn-danger filter-clear-btn" data-target="captain">CLEAR</button>
+                    </div>
+
+                    <div class="filter-icons">
+                        <div class="filter ca-filter slot-pos-div" data-filter="slot-pos"></div>
+                        <div class="filter ca-filter bind-red-div" data-filter="bind-red"></div>
+                        <div class="filter ca-filter desp-red-div" data-filter="desp-red"></div>
+                        <div class="filter ca-filter cd-red-div" data-filter="cd-red"></div>
+                        <div class="filter ca-filter silence-red-div" data-filter="silence-red"></div>
+                        <div class="filter ca-filter para-red-div" data-filter="para-red"></div>
+                    </div>
+
+                    <div class="filter-info" style="margin-top: 65px;">
+                        Captain Filter algorithm provided by OPTC-DB
                     </div>
                 </div>
             </div>

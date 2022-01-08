@@ -876,13 +876,17 @@ function parseVsUnitIdForCalc(vsId) {
 function createActionCounterBtn(guideActionClone, counter) {
     var guideFilterClone;
     var guideFilterClass;
-    if (counter.indexOf('s_') === -1) {
-        guideFilterClone = $('#guide-sp-filter-clone').clone();
-        guideFilterClass = 'guide-sp-filter';
-    } else {
+    if (counter.indexOf('s_') !== -1) {
         guideFilterClone = $('#guide-sl-filter-clone').clone();
         guideFilterClass = 'guide-sl-filter';
         counter = counter.substring(2);
+    } else if (counter.indexOf('c_') !== -1) {
+        guideFilterClone = $('#guide-ca-filter-clone').clone();
+        guideFilterClass = 'guide-ca-filter';
+        counter = counter.substring(2);
+    } else {
+        guideFilterClone = $('#guide-sp-filter-clone').clone();
+        guideFilterClass = 'guide-sp-filter';
     }
 
     guideFilterClone.attr('id', '');
@@ -893,6 +897,8 @@ function createActionCounterBtn(guideActionClone, counter) {
     var tooltip = getIconTooltip(counter);
     if (guideFilterClass === 'guide-sl-filter')
         tooltip = "Sailor: " + tooltip;
+    else if (guideFilterClass === 'guide-ca-filter')
+        tooltip = "Captain: " + tooltip;
     createTooltip(guideFilterClone.find('.' + guideFilterClass), tooltip);
 
     guideActionClone.find('.guide-filter-list').append(guideFilterClone);
@@ -1515,6 +1521,13 @@ function clearSailorFilters() {
     });
 }
 
+function clearCaptainFilters() {
+    $('.ca-filter').removeClass('selected');
+    $('.booster, .booster-clone').removeClass(function(i, cName) {
+        return (cName.match(/(^|\s)ca-filtered-\S+/g) || []).join(' ');
+    });
+}
+
 $(document).ready(function() {
     // Retrieve Settings
     var server = 'glb';
@@ -1550,6 +1563,11 @@ $(document).ready(function() {
     });
 
     $('.sl-filter').each(function() {
+        var filter = $(this).data('filter');
+        createTooltip($(this), getIconTooltip(filter));
+    });
+
+    $('.ca-filter').each(function() {
         var filter = $(this).data('filter');
         createTooltip($(this), getIconTooltip(filter));
     });
@@ -1882,6 +1900,7 @@ $(document).ready(function() {
     $(document).on('click', '.op-guide-btn', function() {
         clearSpecialFilters();
         clearSailorFilters();
+        clearCaptainFilters();
 
         var opId = $(this).closest('.team').data('op_id');
         var op = tm_opponents[tmId][opId];
@@ -1991,6 +2010,15 @@ $(document).ready(function() {
         // Activate actual Filter
         var filter = $(this).data('filter');
         $('.sl-filter[data-filter=' + filter  + ']').click();
+    });
+
+    // Activate Counter Captain Filter after clicking from Mini Guide
+    $(document).on('click', '.guide-ca-filter', function() {
+        $(this).toggleClass('selected');
+
+        // Activate actual Filter
+        var filter = $(this).data('filter');
+        $('.ca-filter[data-filter=' + filter  + ']').click();
     });
 
     // Change Boss HP and ATK based on Nav Lv
@@ -2413,8 +2441,6 @@ $(document).ready(function() {
                     else
                         special = spDesc;
 
-
-
                     if (!filterRegex.test(special))
                         $(this).addClass(filterClass);
                 }
@@ -2467,6 +2493,52 @@ $(document).ready(function() {
         }
     });
 
+    // Captain Filter
+    $('.ca-filter').click(function() {
+        var filter = $(this).data('filter');
+        var filterClass = 'ca-filtered-' + filter;
+        var filterRegex = filter_map_ca[filter];
+
+        if ($(this).hasClass('selected')) {
+            // Clear filters of units filtered by this special
+            $(this).removeClass('selected');
+            $('.' + filterClass).removeClass(filterClass);
+        } else {
+            $(this).addClass('selected');
+
+            $('.booster, .booster-clone').each(function() {
+                var unitId = $(this).data('id');
+                var origId = unitId;
+
+                if (unitId > 9000)
+                    unitId = parseVsUnitId(unitId);
+
+                var unitDetail = details[unitId];
+
+                if (unitDetail) {
+                    var caDesc = unitDetail.captain;
+
+                    var ca;
+                    if (origId > 9000) {
+                        // VS Units
+                        if (origId % 2 === 1)
+                            ca = caDesc.character1;
+                        else
+                            ca = caDesc.character2;
+                    } else if (caDesc.combined)
+                        ca = caDesc.combined;
+                    else if (caDesc.base)
+                        ca = caDesc['level' + (Object.keys(caDesc).length - 1)];
+                    else
+                        ca = caDesc;
+
+                    if (!filterRegex.test(ca))
+                        $(this).addClass(filterClass);
+                }
+            });
+        }
+    });
+
     // LB Filter
     $('.lb-filter').click(function() {
         if ($(this).hasClass('selected')) {
@@ -2499,6 +2571,8 @@ $(document).ready(function() {
             clearSpecialFilters();
         } else if ('sailor' === target) {
             clearSailorFilters();
+        } else if ('captain' === target) {
+            clearCaptainFilters();
         }
     });
 
@@ -2512,6 +2586,8 @@ $(document).ready(function() {
         clearSpecialFilters();
 
         clearSailorFilters();
+
+        clearCaptainFilters();
     });
 
     // Help button
