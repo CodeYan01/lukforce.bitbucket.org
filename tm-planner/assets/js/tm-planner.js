@@ -1959,8 +1959,8 @@ $(document).ready(function() {
                 b.addClass('assigned');
 
                 if (srcDiv.closest('.team').attr('id') != 'ambush-team') {
-                    if (srcDiv.find('.booster').length > 0)
-                        resetPosition(srcDiv.find('.booster').detach());
+                    if (srcDiv.find('.booster, .booster-clone').length > 0)
+                        resetPosition(srcDiv.find('.booster, .booster-clone').detach());
 
                     b.detach().css({
                         top: 0,
