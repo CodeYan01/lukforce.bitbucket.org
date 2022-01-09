@@ -815,6 +815,8 @@ function decorateStr(str) {
         return '<span class="badge"><div class="' + matchClass  + '-div class-decorate"></div>' + match + '</span>';
     });
 
+    // Highlight all numbers
+    str = str.replace(/\d+(\,\d+)?(\.\d+)?(%|x| turns| turn| HP)/g, '<span class="highlight-numbers">$&</span>');
     return str;
 }
 

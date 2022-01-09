@@ -396,6 +396,12 @@ div#support-filters {
     }
 }
 
+span.highlight-numbers {
+    color: darkorange;
+    font-size: 15px;
+    font-weight: 900;
+}
+
 #team-hints {
     float: left;
     color: #ffc107;
