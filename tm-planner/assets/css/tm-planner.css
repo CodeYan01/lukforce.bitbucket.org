@@ -150,6 +150,10 @@
     border: 3px ridge darkorange;
 }
 
+.booster-clone.not-boost > img {
+    border: 3px ridge #00bcd4;
+}
+
 #export-url-div,
 #read-only-button-div {
     display: none;

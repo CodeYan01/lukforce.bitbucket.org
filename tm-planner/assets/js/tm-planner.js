@@ -3158,13 +3158,14 @@ $(document).ready(function() {
     });
 
     $("#not-boost-unit-submit").click(function() {
-        var unitId = $("#not-boost-unit").val();
+        var unitId = parseInt($("#not-boost-unit").val());
         var team = $("#not-boost-unit").data('src');
         var teamDiv = $('#' + team);
 
         var imgDiv = $('<div></div>');
         imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
         imgDiv.addClass('booster-clone');
+        imgDiv.addClass('not-boost');
         imgDiv.data('id', unitId);
         imgDiv.data('x_pts', 1);
 
