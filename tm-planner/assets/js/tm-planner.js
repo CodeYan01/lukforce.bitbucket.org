@@ -2350,14 +2350,16 @@ $(document).ready(function() {
             }
 
             var supports = JSON.parse(localStorage.getItem('supports_' + tmId + serverStr));
-            for (var i = 0; i < supports.length; i++) {
-                var unitId = supports[i];
-
-                if (unitId !== -1) {
-                    var supSlot = $(".support-slot[data-index=" + i + "]");
-                    supSlot.empty().append(createImgHtml(getThumb(unitId), 25, false));
-                    supSlot.data("id", unitId);
-                    supSlot.removeClass("empty");
+            if(supports) {
+                for (var i = 0; i < supports.length; i++) {
+                    var unitId = supports[i];
+    
+                    if (unitId !== -1) {
+                        var supSlot = $(".support-slot[data-index=" + i + "]");
+                        supSlot.empty().append(createImgHtml(getThumb(unitId), 25, false));
+                        supSlot.data("id", unitId);
+                        supSlot.removeClass("empty");
+                    }
                 }
             }
 
