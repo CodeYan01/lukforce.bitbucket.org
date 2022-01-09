@@ -2999,6 +2999,9 @@
       parentSortable.captureAnimationState();
       var item = $('#' + dragEl.id);
       if(item.hasClass('booster-clone')) {
+          var id = item.closest(".team-slot, .ambush-team-slot").attr("id");
+          if(id)
+            removeSupport(id.slice(-2));
     	  $('#booster-clone_' + item.data("id") + '_clone').remove();
     	  item.remove();
       }

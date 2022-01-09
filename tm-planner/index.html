@@ -20,8 +20,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="/tm-planner/assets/js/Sortable.js"></script>
 <script src="/tm-planner/assets/js/html2canvas.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.js"></script>
 
 <!-- Self JS & CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.11.3/datatables.min.css"/>
 <link rel="stylesheet" href="/common/assets/css/main.css">
 <link rel="stylesheet" href="/tm-planner/assets/css/tm-planner.css">
 
@@ -382,6 +384,94 @@
                     </div>
                 </div>
                 <div id="export-image-modal-body"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-seconday" data-dismiss="modal">
+                    <i class="fas fa-times"></i>&nbsp;Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="support-character-modal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <i class="fas fa-paw"></i>&nbsp;Support Character
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div style="display: flex;">
+                    <div class="sup-filter-button">
+                        Filter
+                    </div>
+                    <div class="sup-filter-clear-all-div">
+                        <button type="button" class="btn btn-danger sup-filter-clear-all-btn">CLEAR ALL</button>
+                    </div>
+                    <div class="sup-filter-remove-div">
+                        <button type="button" class="btn btn-danger sup-filter-remove-btn">REMOVE</button>
+                    </div>
+                </div>
+
+                <div id="support-filters" style="display: none;">
+                    <div class="filter-icons">
+                        <div class="filter sup-filter atk-boost-div" data-filter="boosts.*(?<!base) a.*k.*of"></div>
+                        <div class="filter sup-filter orb-boost-div" data-filter="effect.*orbs"></div>
+                        <div class="filter sup-filter affinity-div" data-filter="affinity"></div>
+                        <div class="filter sup-filter atk-delay-div" data-filter="boost.*delay"></div>
+                        <div class="filter sup-filter atk-def-down-div" data-filter="boost.*reduced"></div>
+                        <div class="filter sup-filter atk-poison-div" data-filter="boost.*poison"></div>
+                        <div class="filter sup-filter chain-boost-div" data-filter="add.*chain"></div>
+                        <div class="filter sup-filter chain-lock-div" data-filter="lock.*chain"></div>
+                    </div>
+                    <div class="filter-icons">
+                        <div class="filter sup-filter def-down-div" data-filter="reduces.*(?<!increase|increased) defense"></div>
+                        <div class="filter sup-filter poison-div" data-filter="poison.*all|toxic.*all"></div>
+                        <div class="filter sup-filter dmg-eot-div" data-filter="cut.*hp.*end"></div>
+                        <div class="filter sup-filter dmg-add-div" data-filter="additional.*damage"></div>
+                        <div class="filter sup-filter heal-div" data-filter="recovers"></div>
+                        <div class="filter sup-filter def-perc-div" data-filter="reduces damage received.*turn"></div>
+                        <div class="filter sup-filter def-thres-div" data-filter="above"></div>
+                        <div class="filter sup-filter def-null-div" data-filter="received.*100"></div>
+                        <div class="filter sup-filter cd-red-div" data-filter="special.*cooldown"></div>
+                    </div>
+                    <div class="filter-icons">
+                        <div class="filter sup-filter bind-red-div" data-filter="reduce.*bind"></div>
+                        <div class="filter sup-filter desp-red-div" data-filter="reduce.*despair"></div>
+                        <div class="filter sup-filter silence-red-div" data-filter="reduce.*silence"></div>
+                        <div class="filter sup-filter para-red-div" data-filter="reduce.*paralysis"></div>
+                        <div class="filter sup-filter poison-red-div" data-filter="removes.*poison"></div>
+                        <div class="filter sup-filter blind-red-div" data-filter="blindness"></div>
+                        <div class="filter sup-filter burn-red-div" data-filter="reduces.*burn"></div>
+                        <div class="filter sup-filter atk-down-red-div" data-filter="reduces.*atk.*down"></div>
+                        <div class="filter sup-filter chain-lock-red-div" data-filter="reduces.*limit"></div>
+                        <div class="filter sup-filter chain-down-red-div" data-filter="reduces.*coefficient"></div>
+                        <div class="filter sup-filter dmg-up-red-div" data-filter="reduces.*increase.*taken"></div>
+                    </div>
+                    <div class="filter-icons">
+                        <div class="filter sup-filter dmg-eot-red-e-div" data-filter="reduces.*end.*cut|remove.*end"></div>
+                        <div class="filter sup-filter def-red-e-div" data-filter="reduces.*increase.*defense"></div>
+                        <div class="filter sup-filter def-perc-red-e-div" data-filter="percent.*damage.*reduction"></div>
+                        <div class="filter sup-filter def-thres-red-e-div" data-filter="threshold .*damage.*reduction"></div>
+                        <div class="filter sup-filter bar-red-e-div" data-filter="barrier"></div>
+                        <div class="filter sup-filter resil-red-e-div" data-filter="resilience"></div>
+                        <div class="filter sup-filter enrage-red-e-div" data-filter="reduces.*enrage"></div>
+                    </div>
+                    <div class="filter-icons">
+                        <div class="filter sup-filter slot-change-div" data-filter="change.*orb"></div>
+                        <div class="filter sup-filter slot-change-block-div" data-filter="change.*orb.*block"></div>
+                        <div class="filter sup-filter slot-lock-div" data-filter="locks.*orb"></div>
+                        <div class="filter sup-filter slot-pos-div" data-filter="orb.*beneficial"></div>
+                    </div>
+                </div>
+                <div><table id="support-table"></table></div>
             </div>
 
             <div class="modal-footer">
@@ -775,18 +865,24 @@
 
                         <div class="row">
                             <div class="col-md-12 col-12">
+                                <div class="support-slot friend hidden empty" data-slot="00"></div>
                                 <div class="team-slot friend-cap" id="team-slot-00" data-slot="0"></div>
                                 <div class="team-slot" id="team-slot-01" data-slot="1"></div>
+                                <div class="support-slot empty" data-slot="01" data-index="0"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="02" data-index="1"></div>
                                 <div class="team-slot" id="team-slot-02" data-slot="2"></div>
                                 <div class="team-slot" id="team-slot-03" data-slot="3"></div>
+                                <div class="support-slot empty" data-slot="03" data-index="2"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="04" data-index="3"></div>
                                 <div class="team-slot" id="team-slot-04" data-slot="4"></div>
                                 <div class="team-slot" id="team-slot-05" data-slot="5"></div>
+                                <div class="support-slot empty" data-slot="05" data-index="4"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
@@ -809,18 +905,24 @@
 
                         <div class="row">
                             <div class="col-md-12 col-12">
+                                <div class="support-slot friend hidden empty" data-slot="10"></div>
                                 <div class="team-slot friend-cap" id="team-slot-10" data-slot="0"></div>
                                 <div class="team-slot" id="team-slot-11" data-slot="1"></div>
+                                <div class="support-slot empty" data-slot="11" data-index="5"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="12" data-index="6"></div>
                                 <div class="team-slot" id="team-slot-12" data-slot="2"></div>
                                 <div class="team-slot" id="team-slot-13" data-slot="3"></div>
+                                <div class="support-slot empty" data-slot="13" data-index="7"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="14" data-index="8"></div>
                                 <div class="team-slot" id="team-slot-14" data-slot="4"></div>
                                 <div class="team-slot" id="team-slot-15" data-slot="5"></div>
+                                <div class="support-slot empty" data-slot="15" data-index="9"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
@@ -843,18 +945,24 @@
 
                         <div class="row">
                             <div class="col-md-12 col-12">
+                                <div class="support-slot friend hidden empty" data-slot="20"></div>
                                 <div class="team-slot friend-cap" id="team-slot-20" data-slot="0"></div>
                                 <div class="team-slot" id="team-slot-21" data-slot="1"></div>
+                                <div class="support-slot empty" data-slot="21" data-index="10"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="22" data-index="11"></div>
                                 <div class="team-slot" id="team-slot-22" data-slot="2"></div>
                                 <div class="team-slot" id="team-slot-23" data-slot="3"></div>
+                                <div class="support-slot empty" data-slot="23" data-index="12"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="24" data-index="13"></div>
                                 <div class="team-slot" id="team-slot-24" data-slot="4"></div>
                                 <div class="team-slot" id="team-slot-25" data-slot="5"></div>
+                                <div class="support-slot empty" data-slot="25" data-index="14"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
@@ -877,18 +985,24 @@
 
                         <div class="row">
                             <div class="col-md-12 col-12">
+                                <div class="support-slot friend hidden empty" data-slot="30"></div>
                                 <div class="team-slot friend-cap" id="team-slot-30" data-slot="0"></div>
                                 <div class="team-slot" id="team-slot-31" data-slot="1"></div>
+                                <div class="support-slot empty" data-slot="31" data-index="15"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="32" data-index="16"></div>
                                 <div class="team-slot" id="team-slot-32" data-slot="2"></div>
                                 <div class="team-slot" id="team-slot-33" data-slot="3"></div>
+                                <div class="support-slot empty" data-slot="33" data-index="17"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="34" data-index="18"></div>
                                 <div class="team-slot" id="team-slot-34" data-slot="4"></div>
                                 <div class="team-slot" id="team-slot-35" data-slot="5"></div>
+                                <div class="support-slot empty" data-slot="35" data-index="19"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
@@ -911,18 +1025,24 @@
 
                         <div class="row">
                             <div class="col-md-12 col-12">
+                                <div class="support-slot friend hidden empty" data-slot="40"></div>
                                 <div class="team-slot friend-cap" id="team-slot-40" data-slot="0"></div>
                                 <div class="team-slot" id="team-slot-41" data-slot="1"></div>
+                                <div class="support-slot empty" data-slot="41" data-index="20"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="42" data-index="21"></div>
                                 <div class="team-slot" id="team-slot-42" data-slot="2"></div>
                                 <div class="team-slot" id="team-slot-43" data-slot="3"></div>
+                                <div class="support-slot empty" data-slot="43" data-index="22"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="44" data-index="23"></div>
                                 <div class="team-slot" id="team-slot-44" data-slot="4"></div>
                                 <div class="team-slot" id="team-slot-45" data-slot="5"></div>
+                                <div class="support-slot empty" data-slot="45" data-index="24"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
@@ -945,18 +1065,24 @@
 
                         <div class="row">
                             <div class="col-md-12 col-12">
+                                <div class="support-slot friend hidden empty" data-slot="50"></div>
                                 <div class="ambush-team-slot friend-cap" id="team-slot-50" data-slot="0"></div>
                                 <div class="ambush-team-slot" id="team-slot-51" data-slot="1"></div>
+                                <div class="support-slot empty" data-slot="51" data-index="25"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="52" data-index="26"></div>
                                 <div class="ambush-team-slot" id="team-slot-52" data-slot="2"></div>
                                 <div class="ambush-team-slot" id="team-slot-53" data-slot="3"></div>
+                                <div class="support-slot empty" data-slot="53" data-index="27"></div>
                             </div>
 
                             <div class="col-md-12 col-12">
+                                <div class="support-slot empty" data-slot="54" data-index="28"></div>
                                 <div class="ambush-team-slot" id="team-slot-54" data-slot="4"></div>
                                 <div class="ambush-team-slot" id="team-slot-55" data-slot="5"></div>
+                                <div class="support-slot empty" data-slot="55" data-index="29"></div>
                             </div>
 
                             <div class="col-md-12 col-12">

@@ -176,7 +176,8 @@ nav.navbar.navbar-expand-md.navbar-dark.navbar-bg a {
 .type-filter,
 .sp-filter,
 .sl-filter,
-.ca-filter {
+.ca-filter,
+.sup-filter {
     cursor: pointer;
     float: left;
     height: 25px;

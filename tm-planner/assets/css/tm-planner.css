@@ -82,17 +82,35 @@
     display: none;
 }
 
+.team-title {
+    text-align: center;
+}
+
 .team-slot,
 .ambush-team-slot {
     background-image: url('/tm-planner/assets/img/add.png');
     background-size: 100%;
+    background-repeat: no-repeat;
     cursor: pointer;
     float: left;
-    height: 40px;
-    margin: 1px;
-    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
 }
 
+.support-slot {
+    background-image: url('/tm-planner/assets/img/add.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    min-height: 25px;
+    min-width: 25px;
+    margin-top: auto;
+}
+
+.support-slot.hidden {
+    visibility: hidden;
+}
 #add-button {
     background-image: url('/tm-planner/assets/img/add.png');
     background-size: 100%;
@@ -147,9 +165,11 @@ div#export-image-modal {
     margin: 15px;
 }
 
-div#export-image-modal .modal-dialog {
+div#export-image-modal .modal-dialog,
+div#support-character-modal .modal-dialog {
     width: fit-content;
     max-width: fit-content;
+    margin: 1.75rem auto;
 }
 
 .export-image-info {
@@ -176,7 +196,6 @@ div#export-image-modal .modal-dialog {
 
 span.x_pts {
     font-size: 16px;
-    margin-left: 20px;
     font-weight: 900;
     color: orangered;
 }
@@ -234,8 +253,13 @@ span.x_pts {
     z-index: 10;
 }
 
+.sup-filter-clear-all-div,
 .filter-clear-all-div {
     align-self: center;
+}
+
+.sup-filter-remove-div {
+    margin-left: auto;
 }
 
 .fixed-filter-button {
@@ -246,11 +270,14 @@ span.x_pts {
 }
 
 .filter-button,
-.filter-clear-all-btn {
+.sup-filter-button,
+.filter-clear-all-btn,
+.sup-filter-clear-all-btn {
     text-align: center;
 }
 
-.filter-button {
+.filter-button,
+.sup-filter-button {
     background: url(../img/filter_bg.png);
     background-size: 100% 100%;
     opacity: .5;
@@ -262,6 +289,7 @@ span.x_pts {
     font-size: 25px;
 }
 
+.sup-filter-clear-all-btn,
 .filter-clear-all-btn {
     width: 80px;
     height: 30px;
@@ -269,7 +297,8 @@ span.x_pts {
     padding: 0;
 }
 
-.filter-button.active {
+.filter-button.active,
+.sup-filter-button.active {
     opacity: 1;
 }
 
@@ -280,6 +309,11 @@ span.x_pts {
     bottom: 0;
     z-index: 10;
     border-top: 1px solid;
+}
+
+div#support-filters {
+    display: flex;
+    align-items: flex-start;
 }
 
 .fixed-filters {
@@ -374,7 +408,8 @@ span.x_pts {
 }
 
 .team .row div {
-    padding-right: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .booster.ui-draggable-dragging {
@@ -495,6 +530,23 @@ button.cal-button:hover {
 }
 
 #incomplete-notice {
+    display: none;
+}
+
+table#support-table td {
+    background: var(--bg-color-main);
+    font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: var(--font-color-main) !important;
+}
+
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_length select {
+    color: var(--font-color-main);
     display: none;
 }
 
