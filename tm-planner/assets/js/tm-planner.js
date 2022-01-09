@@ -1559,7 +1559,7 @@ function getSupportList() {
             supportList[count] = {};
             supportList[count].id = i;
             supportList[count].supportChar = details[i].support[0].Characters;
-            supportList[count].supportDescription = details[i].support[0].description[4];
+            supportList[count].supportDescription = decorateStr(details[i].support[0].description[4]);
             supportList[count].name = families[i];
             count++;
         }
