@@ -1860,6 +1860,7 @@ $(document).ready(function() {
                 mirrorToFriendCap(srcDiv.closest('.team'), b, true);
         }
 
+        updateAllPts();
         $('#unit-modal').modal('hide');
 
         // Hide tooltip on click
