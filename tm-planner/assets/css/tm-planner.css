@@ -406,11 +406,6 @@ span.highlight-numbers {
     font-weight: 900;
 }
 
-.not-boost-unit-div {
-    display: flex;
-    flex-flow: wrap;
-    align-items: center;
-}
 #team-hints {
     float: left;
     color: #ffc107;
