@@ -3213,7 +3213,7 @@ $(document).ready(function() {
 
         imgDiv.data('max_lv', units[unitId - 1][7])
         imgDiv.data('team', team);
-        imgDiv.attr('id', 'booster-clone_' + unitId);
+        imgDiv.attr('id', 'booster-clone_' + unitId + '_clone');
         imgDiv.attr('draggable', false);
         imgDiv.css('display', 'inline-block');
 
