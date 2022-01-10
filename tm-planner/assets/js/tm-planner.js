@@ -1356,6 +1356,7 @@ function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
     clone.data('type', orig.data('type'));
     clone.data('class1', orig.data('class1'));
     clone.data('class2', orig.data('class2'));
+    clone.data('max_lv', orig.data('max_lv'));
     clone.removeClass('booster');
     clone.addClass('booster-clone');
 
@@ -2187,6 +2188,8 @@ $(document).ready(function() {
                     unitId = Number(unitId) * -1;
 
                 var maxLv = $('#booster_' + unitId).data('max_lv');
+                if(!maxLv)
+                    maxLv = $('#booster-clone_' + unitId).data('max_lv');
                 if(!maxLv)
                     maxLv = $('#booster-clone_' + unitId + '_clone').data('max_lv');
 
@@ -3251,9 +3254,9 @@ $(document).ready(function() {
                 imgDiv.data('class1', unitClass);
             }
     
-            imgDiv.data('max_lv', units[unitId - 1][7])
+            imgDiv.data('max_lv', units[unitId - 1][7]);
             imgDiv.data('team', teamSlotDiv.closest(".team").data("team"));
-            imgDiv.attr('id', 'booster-clone_' + unitId + '_clone');
+            imgDiv.attr('id', 'booster-clone_' + unitId);
             imgDiv.attr('draggable', false);
             imgDiv.css('display', 'inline-block');
     
