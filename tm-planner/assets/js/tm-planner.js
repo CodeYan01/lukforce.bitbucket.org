@@ -3258,6 +3258,9 @@ $(document).ready(function() {
             imgDiv.css('display', 'inline-block');
     
             teamSlotDiv.append(imgDiv);
+            // Mirror to Friend Cap slot if it is empty
+            if (teamSlotDiv.data("slot") == 1)
+                mirrorToFriendCap(teamSlotDiv.closest('.team'), imgDiv, true);
         }
         $('#unit-modal').modal('hide');
     });
