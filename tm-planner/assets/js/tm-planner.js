@@ -1230,6 +1230,7 @@ function populateUnitModal(src, selectedId, assigned) {
     if (selectedId !== 0) {
         if (assigned) {
             $('#remove-button').data('id', selectedId);
+            $("#remove-button").data('src', src);
             $('.remove-button-el').show();
         }
 
@@ -1984,12 +1985,13 @@ $(document).ready(function() {
 
     $('#remove-button').click(function() {
         var deleteId = $(this).data('id');
+        var teamId = $(this).data("src");
 
         if (deleteId.toString().indexOf('_clone') == -1 && deleteId !== 0)
             resetPosition($('#booster_' + deleteId).detach());
         else if (deleteId.toString().indexOf('_clone') != -1)
-            $('#booster-clone_' + deleteId).remove();
-
+            $("#" + teamId).find(".booster-clone").remove();
+        removeSupport(teamId.slice(-2));
         $('#unit-modal').modal('hide');
     });
 
