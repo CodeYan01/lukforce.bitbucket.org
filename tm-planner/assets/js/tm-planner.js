@@ -2187,6 +2187,8 @@ $(document).ready(function() {
                     unitId = Number(unitId) * -1;
 
                 var maxLv = $('#booster_' + unitId).data('max_lv');
+                if(!maxLv)
+                    maxLv = $('#booster-clone_' + unitId + '_clone').data('max_lv');
 
                 if (unitId > 9000)
                     unitId = parseVsUnitIdForCalc(unitId);
