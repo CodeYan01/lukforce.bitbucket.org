@@ -2967,7 +2967,10 @@ $(document).ready(function() {
                                 from_list.append($(this));
                                 swapHandler($(this), from_list);
                             } else {
-                                resetPosition($(this));
+                                if($(this).hasClass("non-booster"))
+                                    $(this).remove();
+                                else
+                                    resetPosition($(this));
                             }
                         }
                     });
