@@ -1225,7 +1225,7 @@ function populateUnitModal(src, selectedId, assigned) {
     $('#units-assigned').empty();
     $('.unit-detail-el').hide();
     $('#unit-modal-title').empty();
-    $("#not-boost-unit").val("");
+    $("#non-booster-unit").val("");
 
     if (selectedId !== 0) {
         if (assigned) {
@@ -1238,7 +1238,7 @@ function populateUnitModal(src, selectedId, assigned) {
     }
 
     if (src) {
-        $("#not-boost-unit").data('src', src);
+        $("#non-booster-unit").data('src', src);
 
         var boosterList = $('.booster').not('.assigned, .assigned-dh, .type-filtered, .class-filtered');
 
@@ -1345,8 +1345,10 @@ function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
         } else
             cloneType = 'ambush';
     }
-    else
+    else {
+        clone.addClass('booster-fc');
         cloneType = 'clone';
+    }
 
     clone.attr('id', 'booster-clone_' + origId + '_' + cloneType);
     clone.data('id', orig.data('id'));
@@ -1956,9 +1958,9 @@ $(document).ready(function() {
                     left: 0
                 }).insertBefore('#add-button');
             } else {
-                b.data('team', $(this).closest('.team').data('team'));
+                b.data('team', srcDiv.closest('.team').data('team'));
                 b.addClass('assigned');
-
+                removeSupport(srcDiv.attr("id").slice(-2));
                 if (srcDiv.closest('.team').attr('id') != 'ambush-team') {
                     if (srcDiv.find('.booster, .booster-clone').length > 0)
                         resetPosition(srcDiv.find('.booster, .booster-clone').detach());
@@ -2956,9 +2958,8 @@ $(document).ready(function() {
                     var assigned = item.hasClass("assigned");
                     to_list = $("#" + evt.to.id);
                     from_list = $("#" + evt.from.id);
-
-                    to_list.find( ".booster-clone" ).remove();
-                    to_list.find( ".booster" ).each(function() {
+                    to_list.find( ".booster-fc" ).remove();
+                    to_list.find( ".booster, .non-booster" ).each(function() {
                         if ($(this).attr("id") != item.attr("id")) {
                             if (assigned) {
                                 from_list.append($(this));
@@ -3159,9 +3160,9 @@ $(document).ready(function() {
         $('#support-character-modal').modal('hide');
     });
 
-    $("#not-boost-unit-submit").click(function() {
-        var unitId = parseInt($("#not-boost-unit").val());
-        var teamSlot = $("#not-boost-unit").data('src');
+    $("#non-booster-unit-submit").click(function() {
+        var unitId = parseInt($("#non-booster-unit").val());
+        var teamSlot = $("#non-booster-unit").data('src');
         var teamSlotDiv = $('#' + teamSlot);
         if (teamSlotDiv.find('.booster').length > 0)
             resetPosition(teamSlotDiv.find('.booster').detach());
@@ -3171,7 +3172,7 @@ $(document).ready(function() {
         to_list = teamSlotDiv;
         removeSupport(to_list.attr("id").slice(-2));
 
-        // Is boost unit
+        // Is booster
         if($("#booster_" + unitId).length > 0) {
             b = $("#booster_" + unitId);
             from_list = b.parent();
@@ -3198,7 +3199,8 @@ $(document).ready(function() {
             var imgDiv = $('<div></div>');
             imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
             imgDiv.addClass('booster-clone');
-            imgDiv.addClass('not-boost');
+            imgDiv.addClass('non-booster');
+            imgDiv.addClass("assigned")
             imgDiv.data('id', unitId);
             imgDiv.data('x_pts', 1);
     
@@ -3245,7 +3247,7 @@ $(document).ready(function() {
             }
     
             imgDiv.data('max_lv', units[unitId - 1][7])
-            imgDiv.data('team', team);
+            imgDiv.data('team', teamSlotDiv.closest(".team").data("team"));
             imgDiv.attr('id', 'booster-clone_' + unitId + '_clone');
             imgDiv.attr('draggable', false);
             imgDiv.css('display', 'inline-block');

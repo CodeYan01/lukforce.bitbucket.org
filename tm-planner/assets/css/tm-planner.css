@@ -150,7 +150,7 @@
     border: 3px ridge darkorange;
 }
 
-.booster-clone.not-boost > img {
+.booster-clone.non-booster > img {
     border: 3px ridge #00bcd4;
 }
 
