@@ -2998,15 +2998,17 @@
       var parentSortable = putSortable || this.sortable;
       parentSortable.captureAnimationState();
       var item = $('#' + dragEl.id);
+      from_list = item.closest('.team-slot, .ambush-team-slot');
       if(item.hasClass('booster-clone')) {
           var id = item.closest(".team-slot, .ambush-team-slot").attr("id");
           if(id)
             removeSupport(id.slice(-2));
-    	  $('#booster-clone_' + item.data("id") + '_clone').remove();
-    	  item.remove();
+          $('#booster-clone_' + item.data("id") + '_clone').remove();
+          item.remove();
       }
-	  else
-    	  resetPosition(item);
+      else
+          resetPosition(item);
+      doTeamBuildCheck(from_list.closest('.team').data('team'));
       parentSortable.animateAll();
     },
     drop: drop

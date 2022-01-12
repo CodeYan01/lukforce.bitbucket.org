@@ -4,10 +4,12 @@
     --bg-color-dl-button: #ffffff;
     --bg-highlight-dl-button: #FF9800;
     --bg-color-team-button: #4964ff;
+    --bg-color-team-note: #fffde7;
 
     --font-color-title: #6495ed;
     --font-color-nav: #006f65;
     --font-color-main: #3a3a3a;
+    --font-color-main-reverse: #fff;
     --font-color-dl-button: #FFC107;
     --font-highlight-dl-button: #fff;
     --font-color-news: #006f65;
@@ -24,10 +26,12 @@
     --bg-color-dl-button: #607D8B;
     --bg-highlight-dl-button: #000;
     --bg-color-team-button: #001069;
+    --bg-color-team-note: #65757c;
 
     --font-color-title: #3F51B5;
     --font-color-nav: #9E9E9E;
     --font-color-main: #fff;
+    --font-color-main-reverse: #3a3a3a;
     --font-color-dl-button: #191919;
     --font-highlight-dl-button: #fff;
     --font-color-news: #000;
