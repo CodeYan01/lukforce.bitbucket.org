@@ -1707,7 +1707,6 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
     if (capId > 9000)
         capId = parseVsUnitId(capId);
     var superCriteria = details[capId].superSpecialCriteria;
-    
     if(superCriteria) {
         if(isFriend) {
             slotIds = [1,2,3,4,5];
@@ -1751,19 +1750,70 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
         }
         // Case3-6:For specific specials
         if (superCriteria.indexOf('ATK UP') != -1) {
-        
+            if (checkTeamSpecialMet(teamId, filter_map_sp["atk-boost"]) > 0)
+                putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('your crew')), isFriend, capId);
         }
-        if (superCriteria.indexOf('Orb Amplification') != -1) {
-        
-        }
-        if (superCriteria.indexOf('End of Turn Healing') != -1) {
-        
-        }
-        if (superCriteria.indexOf('Chain Addition') != -1) {
-        
+        if (superCriteria.indexOf('Orb amplification') != -1) {
+            if (checkTeamSpecialMet(teamId, filter_map_sp["orb-boost"]) > 0)
+                putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('your crew')), isFriend, capId);
+            
         }
     }
     return true;
+}
+
+function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
+    team = $(".team[data-team=" + teamId +"]");
+    turnsNeeded = requiredTurns;
+    // Highlight all units with that name
+    team.find(".booster, .booster-clone").each(function() {
+        var unitId = $(this).data('id');
+        var origId = unitId;
+
+        if (unitId > 9000)
+            unitId = parseVsUnitId(unitId);
+
+        var unitDetail = details[unitId];
+        if (unitDetail) {
+            var spDesc = unitDetail.special;
+            var special;
+            if (origId > 9000) {
+                // VS Units
+                if (origId % 2 === 1)
+                    special = spDesc.character1;
+                else
+                    special = spDesc.character2;
+            } else if (Array.isArray(spDesc))
+                special = spDesc[spDesc.length - 1].description;
+            else if (spDesc.character1)
+                special = spDesc.character1;
+            else
+                special = spDesc;
+            if (specialRegex.test(special)) {
+                if (turnsNeeded) {
+                    getNumTurnsStr = specialRegex.replaceAll("/i", "") + ".*?(completely|([0-9]+) turn)/i";
+                    result = special.match(getNumTurnsStr);
+                    if (result[2] == 'completely')
+                    {
+                        turnsNeeded = 0;
+                        return;
+                    } else {
+                        NumOfTurns = result[3];
+                        if(NumOfTurns >= turnsNeeded) {
+                            turnsNeeded = 0;
+                            return;
+                        }
+                        else
+                            turnsNeeded -= NumOfTurns;
+                    }
+                } else {
+                    turnsNeeded = 0;
+                    return;
+                }
+            }
+        }
+    });
+    return (typeof turnsNeeded === "undefined") ? 1 : turnsNeeded;
 }
 
 function checkSuperSpecialCriteria(teamId) {
