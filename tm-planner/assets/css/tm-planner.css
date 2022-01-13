@@ -97,6 +97,15 @@
     min-width: 40px;
 }
 
+.team-slot>div,
+.support-slot>div {
+    background: red;
+}
+
+img.highlight {
+    opacity: 0.5;
+}
+
 .support-slot {
     background-image: url('/tm-planner/assets/img/add.png');
     background-size: 100%;

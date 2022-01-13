@@ -750,6 +750,7 @@ function resetPosition(unit) {
         unit.removeClass('assigned');
         unit.removeClass('assigned-dh');
         unit.data('team', -1);
+        unit.find('img.highlight').removeClass('highlight');
 
         var unitId = unit.data('id');
         var _x_pts = unit.data('_x_pts');
@@ -1498,7 +1499,7 @@ function doSave(tmId, server) {
         if($(this).hasClass("empty"))
             supports.push(-1);
         else
-            supports.push($(this).data("id"));
+            supports.push($(this).find("div").data("id"));
     });
     localStorage.setItem('supports_' + tmId + serverStr, JSON.stringify(supports));
 }
@@ -1597,18 +1598,15 @@ function removeSupport(id) {
     var supSlot = $(".support-slot[data-slot=" + id + "]");
     var teamId = supSlot.closest(".team").data("team");
     supSlot.empty();
-    supSlot.data("id", "");
     supSlot.addClass("empty");
     getWholeTeamFamilyName(teamId, true);
 }
 
 function swapSupport() {
     from_sup = $(".support-slot[data-slot=" + from_list.attr("id").slice(-2) + "]");
-    from_unit_id = from_sup.data("id");
-    from_img = from_sup.find("img").detach();
+    from_unit = from_sup.find("div").detach();
     to_sup = $(".support-slot[data-slot=" + to_list.attr("id").slice(-2) + "]");
-    to_unit_id = to_sup.data("id");
-    to_img = to_sup.find("img").detach();
+    to_unit = to_sup.find("div").detach();
 
     if(to_sup.hasClass("empty") && !from_sup.hasClass("empty")) {
         to_sup.removeClass("empty");
@@ -1618,27 +1616,27 @@ function swapSupport() {
         from_sup.removeClass("empty");
     }
 
-    from_sup.append(to_img);
-    from_sup.data("id", to_unit_id);
-
-    to_sup.append(from_img);
-    to_sup.data("id", from_unit_id);
+    from_sup.append(to_unit);
+    to_sup.append(from_unit);
 }
 
 function getWholeTeamFamilyName(teamId, isCheckDupe) {
     var teamFamilyNames = [];
     var dupeNames = [];
     var currentTeam = $(".team[data-team=" + teamId +"]");
-    currentTeam.find(".booster, .booster-clone:not(.booster-fc):not(.booster-ambush-fc), .support-slot").each(function() {
-        var familyNames = families[$(this).data("id")];
-        $.each(familyNames, function(i, e) {
-            if (!teamFamilyNames.includes(e))
-                teamFamilyNames.push(e);
-            else if (isCheckDupe) {
-                if (!dupeNames.includes(e))
-                    dupeNames.push(e);
-            }
-        });
+    currentTeam.find(".team-slot:not(.friend-cap), .ambush-team-slot:not(.friend-cap), .support-slot:not(.empty)").each(function() {
+        var unit = $(this).find("div");
+        if(unit.length > 0) {
+            var familyNames = families[unit.data("id")];
+            $.each(familyNames, function(i, e) {
+                if (!teamFamilyNames.includes(e))
+                    teamFamilyNames.push(e);
+                else if (isCheckDupe) {
+                    if (!dupeNames.includes(e))
+                        dupeNames.push(e);
+                }
+            });
+        }
     });
     if(isCheckDupe) {
         for(name of dupeNames)
@@ -1656,6 +1654,7 @@ function doTeamBuildCheck(teamId) {
 
 function removeTeamBuildMsg(teamId) {
     $(".team-note-div[data-team=" + teamId + "]").find(".team-build-msg").remove();
+    $(".team[data-team=" + teamId +"]").find("img.highlight").removeClass("highlight");
 }
 
 function putDupeCharacterMsg(teamId, name) {
@@ -1663,6 +1662,16 @@ function putDupeCharacterMsg(teamId, name) {
     msgStr = ("&nbspDuplicate character: [<mark>" + name + "</mark>]");
     msgDiv = ('<li class="team-build-msg error">' + msgStr + '</li>');
     $(".team-note-div[data-team=" + teamId + "]").find(".team-note-list").append(msgDiv);
+
+    // Highlight all units with that name
+    team.find(".team-slot:not(.friend-cap), .ambush-team-slot:not(.friend-cap), .support-slot:not(.empty)").each(function() {
+        var unit = $(this).find("div");
+        if(unit.length > 0) {
+            var familyNames = families[unit.data("id")];
+            if (familyNames.includes(name))
+                unit.find('img').addClass('highlight');
+        }
+    });
 }
 
 function checkNoteStatus() {
@@ -1784,13 +1793,14 @@ function putSuperNotMetMsg(teamId, msg, isFriend, capId) {
 }
 
 function clearTeamNotes() {
-    $('.team-note-boss').find('span').remove();
+    $(".team-note-boss").find("span").remove();
     $(".team-note-div").find(".team-build-msg").remove();
     $(".team-note-div").hide();
     $(".fixed-note-button").removeClass("error");
     $(".fixed-note-button").removeClass("warning");
     $(".op-guide-btn").removeClass("error");
     $(".op-guide-btn").removeClass("warning");
+    $("img.highlight").removeClass("highlight");
 }
 
 $(document).ready(function() {
@@ -1989,8 +1999,10 @@ $(document).ready(function() {
                 var unitId = supports[i];
                 if (unitId !== '-1') {
                     var supSlot = $(".support-slot[data-index=" + i + "]");
-                    supSlot.empty().append(createImgHtml(getThumb(unitId), 25, false));
-                    supSlot.data("id", unitId);
+                    var imgDiv = $('<div></div>');
+                    imgDiv.data("id", unitId);
+                    imgDiv.append(createImgHtml(getThumb(unitId), 25, false));
+                    supSlot.empty().append(imgDiv);
                     supSlot.removeClass("empty");
                 }
             }
@@ -2541,8 +2553,10 @@ $(document).ready(function() {
     
                     if (unitId !== -1) {
                         var supSlot = $(".support-slot[data-index=" + i + "]");
-                        supSlot.empty().append(createImgHtml(getThumb(unitId), 25, false));
-                        supSlot.data("id", unitId);
+                        var imgDiv = $('<div></div>');
+                        imgDiv.data("id", unitId);
+                        imgDiv.append(createImgHtml(getThumb(unitId), 25, false));
+                        supSlot.empty().append(imgDiv);
                         supSlot.removeClass("empty");
                     }
                 }
@@ -3344,10 +3358,12 @@ $(document).ready(function() {
     });
 
     $('#support-table tbody').on('click', 'tr', function () {
-        var unit_id = supportTable.row( this ).data().id;
+        var unitId = supportTable.row( this ).data().id;
         var supSlot = $(".support-slot[data-slot=" + currentSupportSlotId + "]");
-        supSlot.empty().append(createImgHtml(getThumb(unit_id), 25, false));
-        supSlot.data("id", unit_id);
+        var imgDiv = $('<div></div>');
+        imgDiv.data("id", unitId);
+        imgDiv.append(createImgHtml(getThumb(unitId), 25, false));
+        supSlot.empty().append(imgDiv);
         supSlot.removeClass("empty");
         $('#support-character-modal').modal('hide');
     });
