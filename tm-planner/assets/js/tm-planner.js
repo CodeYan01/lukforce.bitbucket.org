@@ -1771,7 +1771,7 @@ function checkSuperSpecialCriteria(teamId) {
 
 function putSuperNotMetMsg(teamId, msg, isFriend, capId) {
     team = $(".team[data-team=" + teamId +"]");
-    if(isFriend)
+    if(!isFriend)
         msgStr = "&nbsp(Own caption) ";
     else
         msgStr = "&nbsp(Friend caption) ";
