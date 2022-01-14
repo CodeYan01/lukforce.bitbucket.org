@@ -690,6 +690,10 @@ function getOpponents(tmId, server) {
     return true;
 }
 
+// Save drag(from) and drop(to) position
+var from_list = "";
+var to_list = "";
+var tmId = 0;
 function init(tmId, server) {
     clearTeamNotes();
     $('#tm-select').val(tmId + '_' + server);
@@ -731,12 +735,12 @@ function init(tmId, server) {
     else
         $('#last-save').html('N/A');
 
+    for(teamId = 0; teamId < 6; teamId++)
+        doTeamBuildCheck(teamId);
+        
     return true;
 }
 
-// Save drag(from) and drop(to) position
-var from_list = "";
-var to_list = "";
 function resetPosition(unit) {
     if (to_list != "" && to_list.hasClass("ambush-team-slot")) {
         from_list.append(unit);
@@ -780,9 +784,9 @@ function resetAll() {
 
     $('.booster-clone').remove();
 
-    // Clear team build notes
-    $('.team-note-list').empty();
-    checkNoteStatus();
+    //Reset Team status notes
+    for(teamId = 0; teamId < 6; teamId++)
+        doTeamBuildCheck(teamId);
 
     updateAllPts();
 }
@@ -1417,7 +1421,7 @@ function swapHandler(swapped, dest) {
 
     // Mirror to Friend Cap slot if it is empty
     if (dest.data('slot') == 1)
-        mirrorToFriendCap(dest.closest('.team'), swapped, false);
+        mirrorToFriendCap(dest.closest('.team'), swapped, true);
 }
 
 function getTeamUnits(team) {
@@ -1650,6 +1654,7 @@ function doTeamBuildCheck(teamId) {
     removeTeamBuildMsg(teamId);
     getWholeTeamFamilyName(teamId, true);
     checkSuperSpecialCriteria(teamId);
+    checkTeamMiniGuideSpecialMet(teamId);
     checkNoteStatus();
 }
 
@@ -1757,16 +1762,96 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
         if (superCriteria.indexOf('Orb amplification') != -1) {
             if (checkTeamSpecialMet(teamId, filter_map_sp["orb-boost"]) > 0)
                 putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('your crew')), isFriend, capId);
-            
         }
     }
     return true;
 }
 
+function checkTeamMiniGuideSpecialMet(teamId) {
+    team = $(".team[data-team=" + teamId +"]");
+    opId = team.data('op_id');
+    op = tm_opponents[tmId][opId];
+
+    valuableSpecials = ['atk-down-red', 'bind-red', 'blind-red', 'burn-red',
+    'cd-red', 'chain-down-red', 'chain-lock-red', 'def-red-e', 'def-perc-red-e',
+    'def-thres-red-e', 'def-null-red-e', 'desp-red', 'dmg-up-red', 'para-red',
+    'resil-red-e', , 'silence-red',];
+    valuableSpecialsWithoutTurns = ['chain-lock', 'def-down', 'dmg-eot', 'poison',
+    'slot-change', 'slot-change-block'];
+    specialsNeeded = {};
+
+    if (op && op.guide) {
+        for (gi in op.guide) {
+            g = op.guide[gi];
+            for (di in g.detail) {
+                d = g.detail[di];
+                var i = 0;
+                if (d.type === 'Preemp') {
+                    for (ai in d.action) {
+                        a = d.action[ai];
+                        var aCounter = counters[a[0]];
+
+                        // For specials with turns
+                        var turns = a[1].match(/([0-9])+T/i);
+                        if(turns && turns[1] != "99") {
+                            numOfTurns = turns[1];
+                            if(a[0] == 'bind' || a[0] == 'desp') {
+                                numOfTurns -= 3;
+                                if (numOfTurns <= 0)
+                                    continue;
+                            }
+
+                            if (aCounter) {
+                                if (Array.isArray(aCounter)) {
+                                    for (var ac in aCounter) {
+                                        if (valuableSpecials.includes(aCounter[ac])) {
+                                            newNumOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]], numOfTurns);
+                                            if(newNumOfTurns < numOfTurns)
+                                                numOfTurns = newNumOfTurns;
+                                        } else if(valuableSpecialsWithoutTurns.includes(aCounter[ac])) {
+                                            if (checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]]) == 0)
+                                                numOfTurns = 0;
+                                        }
+                                    }
+                                } else {
+                                    numOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter], numOfTurns);
+                                }
+                                // Special not met
+                                if(numOfTurns > 0) {
+                                    specialsNeeded[a[0]] = numOfTurns + (numOfTurns == 1 ? "turn" : " turns");
+                                }
+                            }
+                        } else if (aCounter && valuableSpecialsWithoutTurns.includes(aCounter)) { // For specials slot-change/slot-block
+                            if(checkTeamSpecialMet(teamId, filter_map_sp[aCounter]) != 0)
+                                specialsNeeded["Change Orbs"] = a[1];
+                        }
+                    }
+                }
+            }
+        }
+    }
+    if (Object.keys(specialsNeeded).length !== 0 && specialsNeeded.constructor === Object) {
+        putGuideSpecialNotMetMsg(teamId, specialsNeeded);
+    }
+}
+
+function putGuideSpecialNotMetMsg(teamId, specialsNeeded) {
+    team = $(".team[data-team=" + teamId +"]");
+    msgStr = "&nbspCounter to Boss actions from Preemp-Req may not met (assuming max bind and despair sockets and currently not including CA, Sailor and Support):<br>";
+    specialStr = "";
+    for (var special in specialsNeeded) {
+        detail = specialsNeeded[special];
+        if(special != 'Change Orbs')
+            special = icon_tooltips[special];
+        specialStr += "[<mark>" + special + ": " + detail + "</mark>]&nbsp&nbsp&nbsp";
+    }
+    msgDiv = ('<li class="team-build-msg warning">' + msgStr + specialStr + '</li>');
+    $(".team-note-div[data-team=" + teamId + "]").find(".team-note-list").append(msgDiv);
+}
+
 function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
     team = $(".team[data-team=" + teamId +"]");
     turnsNeeded = requiredTurns;
-    // Highlight all units with that name
     team.find(".booster, .booster-clone").each(function() {
         var unitId = $(this).data('id');
         var origId = unitId;
@@ -1792,8 +1877,9 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
                 special = spDesc;
             if (specialRegex.test(special)) {
                 if (turnsNeeded) {
-                    getNumTurnsStr = specialRegex.replaceAll("/i", "") + ".*?(completely|([0-9]+) turn)/i";
-                    result = special.match(getNumTurnsStr);
+                    specialRegexStr = specialRegex.toString();
+                    getNumTurnsStr = specialRegexStr.substring(1, specialRegexStr.length - 2) + ".*?(completely|([0-9]+) turn)";
+                    result = special.match(new RegExp(getNumTurnsStr, 'i'));
                     if (result[2] == 'completely')
                     {
                         turnsNeeded = 0;
@@ -1895,8 +1981,6 @@ $(document).ready(function() {
         var filter = $(this).data('filter');
         createTooltip($(this), getIconTooltip(filter));
     });
-
-    var tmId = 0;
 
     if (getUrlParameter('transfer')) {
         // Check Transfer link
@@ -2070,8 +2154,8 @@ $(document).ready(function() {
             var newestTm = $('#newest-tm-' + server).val();
             var parsedTmId = parseInt(newestTm);
 
-            init(parsedTmId, server);
             tmId = parsedTmId;
+            init(parsedTmId, server);
         }
     }
 
@@ -2209,13 +2293,13 @@ $(document).ready(function() {
     $('#remove-button').click(function() {
         var deleteId = $(this).data('id');
         var teamId = $(this).data("src");
-
         if (deleteId.toString().indexOf('_clone') == -1 && deleteId !== 0)
             resetPosition($('#booster_' + deleteId).detach());
         else if (deleteId.toString().indexOf('_clone') != -1)
             $("#" + teamId).find(".booster-clone").remove();
         removeSupport(teamId.slice(-2));
         $('#unit-modal').modal('hide');
+        doTeamBuildCheck(teamId.slice(-2)[0]);
     });
 
     // OPTC-DB page
@@ -2599,6 +2683,9 @@ $(document).ready(function() {
             }
 
             updateAllPts();
+            //Init Team guide specials not met
+            for(teamId = 0; teamId < 6; teamId++)
+                doTeamBuildCheck(teamId);
         }
     });
 
@@ -2681,7 +2768,7 @@ $(document).ready(function() {
             if($(this).hasClass("empty"))
                 supports.push(-1);
             else
-                supports.push($(this).data("id"));
+                supports.push($(this).find("div").data("id"));
         });
         url += '&supports=' + supports.join();
 
@@ -3053,8 +3140,8 @@ $(document).ready(function() {
     $('#tm-select').change(function() {
         var parsedTmId = parseInt($(this).val());
 
-        init(parsedTmId, server);
         tmId = parsedTmId;
+        init(parsedTmId, server);
         $('.tm-select').text($("#tm-select option:selected").text());
     });
 
@@ -3508,4 +3595,8 @@ $(document).ready(function() {
         doTeamBuildCheck(to_list.closest('.team').data('team'));
         $('#unit-modal').modal('hide');
     });
+
+    //Init Team guide specials not met
+    for(teamId = 0; teamId < 6; teamId++)
+        doTeamBuildCheck(teamId);
 });

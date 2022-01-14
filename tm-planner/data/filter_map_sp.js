@@ -24,7 +24,7 @@ var filter_map_sp = {
     'def-thres':                /Reduces (any )?damage received above/i,
     'def-null':                 /Reduces (any )?damage received.+100%/i,
     'resil':                    /Protects from defeat/i,
-    'cd-red':                   /reduces special cooldown/i,
+    'cd-red':                   /(reduces) special cooldown/i,
     'bind-red':                 /(reduces|removes).*?bind.*?duration/i,
     'desp-red':                 /(reduces|removes).*?despair.*?duration/i,
     'silence-red':              /(reduces|removes).*?silence.*?duration/i,
