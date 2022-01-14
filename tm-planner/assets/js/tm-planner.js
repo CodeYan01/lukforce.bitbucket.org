@@ -664,7 +664,7 @@ function getOpponents(tmId, server) {
             if (Array.isArray(opName) && Array.isArray(opType)) {
                 $('#op-' + (i + 1)).empty();
                 $('.team-note-div[data-team=' + i + ']').find('.team-note-boss').empty();
-                
+
                 for (var j = 0; j < opName.length && j < opType.length; j++) {
                     var opHtml= $('<span></span>');
                     opHtml.html(opName[j]);
@@ -737,7 +737,7 @@ function init(tmId, server) {
 
     for(teamId = 0; teamId < 6; teamId++)
         doTeamBuildCheck(teamId);
-        
+
     return true;
 }
 
@@ -820,7 +820,7 @@ function parseLbStats(unitId) {
     return lbStats;
 }
 
-function decorateStr(str) {
+function decorateStr(str, isGuide) {
     // Decorate Type strings
     str = str
         .replace(/\[?(STR|DEX|QCK|PSY|INT)\]?/g, '<span class="$1-badge badge">$1</span>')
@@ -829,11 +829,14 @@ function decorateStr(str) {
     // Decorate Class strings
     str = str.replace(/(Fighter|Slasher|Striker|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/g, function(match) {
         var matchClass = match.replace(' ', '-').toLowerCase();
-        return '<span class="badge"><div class="' + matchClass  + '-div class-decorate"></div>' + match + '</span>';
+        return '<span class="badge"><div class="' + matchClass  + '-div class-decorate"></div>' + (isGuide ? '' : match) + '</span>';
     });
 
-    // Highlight all numbers
-    str = str.replace(/\d+(\,\d+)?(\.\d+)?(%|x| turns| turn| HP)/g, '<span class="highlight-numbers">$&</span>');
+    if (!isGuide) {
+        // highlight all numbers
+        str = str.replace(/\d+(\,\d+)?(\.\d+)?(%|x| turns| turn| hp)/g, '<span class="highlight-numbers">$&</span>');
+    }
+
     return str;
 }
 
@@ -1692,7 +1695,7 @@ function checkNoteStatus() {
     } else {
         $(".fixed-note-button").removeClass("warning");
     }
-    
+
     $(".team-note-div").each(function() {
         $(this).show();
         if($(this).find(".error").length > 0)
@@ -1728,7 +1731,7 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
                 var unit = $('#team-slot-' + teamId + slotId).find('div');
                 var unitClass1 = unit.data('class1');
                 var unitClass2 = unit.data('class2');
-                
+
                 if(unitClass1 != class1 && unitClass1 != class2 && unitClass2 != class1 && unitClass2 != class2) {
                     putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('must consist of')), isFriend, capId);
                     return false;
@@ -1907,7 +1910,7 @@ function checkSuperSpecialCriteria(teamId) {
     var teamCap = $("#team-slot-" + teamId + "1");
     var friendCap = $("#team-slot-" + teamId + "0");
     // Own caption super special criteria not met
-    
+
     if(!teamCap.is(':empty'))
         checkSuperSpecialCriteriaIsMet(teamId, teamCap.find('div').data('id'), false);
     // Friend caption super special criteria not met
@@ -2249,7 +2252,7 @@ $(document).ready(function() {
         var srcDiv = $('#' + src);
         to_list = srcDiv;
         from_list = "";
-        
+
         if ($(this).hasClass('is-clone')) {
             mirrorToFriendCap(srcDiv.closest('.team'), b, false);
         } else {
@@ -2282,7 +2285,7 @@ $(document).ready(function() {
                 mirrorToFriendCap(srcDiv.closest('.team'), b, true);
         }
         doTeamBuildCheck(to_list.closest('.team').data('team'));
-        
+
         updateAllPts();
         $('#unit-modal').modal('hide');
 
@@ -2386,7 +2389,7 @@ $(document).ready(function() {
 
                                 guideActionClone.find('.guide-action-type').html(decorateSpIcon(a[0], true));
                                 createTooltip(guideActionClone.find('.guide-action-type'), getIconTooltip(a[0]));
-                                guideActionClone.find('.guide-action-detail').text(a[1]);
+                                guideActionClone.find('.guide-action-detail').html(decorateStr(a[1], true));
 
                                 var aCounter = counters[a[0]];
                                 if (aCounter) {
@@ -3347,7 +3350,7 @@ $(document).ready(function() {
                         if ($(this).attr("id") != item.attr("id"))
                             from_list.append($(this));
                     });
-                    
+
                     if(to_list.data('slot') == 0) {
                         removeSupport(to_list.attr("id").slice(-2));
                         removeSupport(from_list.attr("id").slice(-2));
@@ -3538,21 +3541,21 @@ $(document).ready(function() {
             imgDiv.addClass("assigned")
             imgDiv.data('id', unitId);
             imgDiv.data('x_pts', 1);
-    
+
             if (unitId > 9000)
                 unitId = parseVsUnitId(unitId);
-    
+
             // Name in tooltip
             createTooltip(imgDiv, units[unitId - 1][0]);
-    
+
             // Type and Class
             imgDiv.data('type', units[unitId - 1][1]);
-    
+
             var unitClass = units[unitId - 1][2];
             if (Array.isArray(unitClass)) {
                 var class1;
                 var class2;
-    
+
                 if (Array.isArray(unitClass[0])) {
                     if (unitClass.length === 2) {
                         // VS Units
@@ -3561,7 +3564,7 @@ $(document).ready(function() {
                             vsClass = unitClass[0];
                         else
                             vsClass = unitClass[1];
-    
+
                         class1 = vsClass[0];
                         class2 = vsClass[1];
                     } else {
@@ -3574,19 +3577,19 @@ $(document).ready(function() {
                     class1 = unitClass[0];
                     class2 = unitClass[1];
                 }
-    
+
                 imgDiv.data('class1', class1);
                 imgDiv.data('class2', class2);
             } else {
                 imgDiv.data('class1', unitClass);
             }
-    
+
             imgDiv.data('max_lv', units[unitId - 1][7]);
             imgDiv.data('team', teamSlotDiv.closest(".team").data("team"));
             imgDiv.attr('id', 'booster-clone_' + unitId);
             imgDiv.attr('draggable', false);
             imgDiv.css('display', 'inline-block');
-    
+
             teamSlotDiv.append(imgDiv);
             // Mirror to Friend Cap slot if it is empty
             if (teamSlotDiv.data("slot") == 1)

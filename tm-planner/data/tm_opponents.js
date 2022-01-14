@@ -1365,7 +1365,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',           '10T, Slasher/FS']
+                                ['cd-red',           '10T, Slasher/Free Spirit']
                             ]
                         }
                     ]
@@ -6512,7 +6512,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '10T, FS/Cerebral/Powerhouse']
+                                ['cd-red',          '10T, Free Spirit/Cerebral/Powerhouse']
                             ]
                         }
                     ]
@@ -6855,7 +6855,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '5T, Shooter/FS/Cerebral']
+                                ['cd-red',          '5T, Shooter/Free Spirit/Cerebral']
                             ]
                         }
                     ]
@@ -6892,7 +6892,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '5T, Fighter/Striker/FS']
+                                ['cd-red',          '5T, Fighter/Striker/Free Spirit']
                             ]
                         }
                     ]
@@ -7264,7 +7264,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '8T, Cerebral/FS/Driven']
+                                ['cd-red',          '8T, Cerebral/Free Spirit/Driven']
                             ]
                         }
                     ]
@@ -7315,7 +7315,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '10T, Cerebral/FS/Powerhouse']
+                                ['cd-red',          '10T, Cerebral/Free Spirit/Powerhouse']
                             ]
                         }
                     ]
@@ -7677,7 +7677,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '5T, Fighter/FS/Striker']
+                                ['cd-red',          '5T, Fighter/Free Spirit/Striker']
                             ]
                         }
                     ]
@@ -7842,7 +7842,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-red',          '8T, Fighter/FS/Slasher']
+                                ['cd-red',          '8T, Fighter/Free Spirit/Slasher']
                             ]
                         }
                     ]
