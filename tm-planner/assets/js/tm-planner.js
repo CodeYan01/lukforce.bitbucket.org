@@ -697,7 +697,7 @@ function init(tmId, server) {
     $('.tm-select').text($("#tm-select option:selected").text());
 
     if (!getBoosters(tmId, server)) {
-        alert('Invalid TM or Server');
+        alert('Invalid TM');
         return false;
     }
 
@@ -1855,14 +1855,7 @@ function clearTeamNotes() {
 
 $(document).ready(function() {
     // Retrieve Settings
-    var server = 'glb';
-    if (localStorage.getItem('server') !== null) {
-        server = localStorage.getItem('server');
-        $('#server-' + server).prop('checked', true);
-
-        $('.tm-option').hide();
-        $('.' + server + '-tm').show();
-    }
+    var server = 'glb'; // Used after content merge
 
     var dontHaveMode = 0;
     if (localStorage.getItem('dontHaveMode') !== null) {
@@ -1907,7 +1900,7 @@ $(document).ready(function() {
     if (getUrlParameter('transfer')) {
         // Check Transfer link
         tmId = getUrlParameter('tmId');
-        var serverTmp = getUrlParameter('server');
+        var serverTmp = 'glb'; // Used after content merge
 
         if ((serverTmp == 'glb' || serverTmp == 'jpn') && init(tmId, serverTmp)) {
             if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
@@ -2081,15 +2074,7 @@ $(document).ready(function() {
         }
     }
 
-    // Set user Server
-    $('.server-radio').click(function() {
-        localStorage.setItem('server', $(this).val());
-
-        // Refresh page
-        location.reload();
-    });
-
-    // Set user Server
+    // Set Don't Have Mode
     $('#dont-have-mode').change(function() {
         localStorage.setItem('dontHaveMode', $(this).val());
 
@@ -2600,7 +2585,7 @@ $(document).ready(function() {
             if(supports) {
                 for (var i = 0; i < supports.length; i++) {
                     var unitId = supports[i];
-    
+
                     if (unitId !== -1) {
                         var supSlot = $(".support-slot[data-index=" + i + "]");
                         var imgDiv = $('<div></div>');
@@ -2663,7 +2648,6 @@ $(document).ready(function() {
         var url = 'https://' + window.location.hostname + window.location.pathname;
         url += '?transfer=true';
         url += '&tmId=' + tmId;
-        url += '&server=' + server;
 
         if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
             $('.team:visible').each(function() {
