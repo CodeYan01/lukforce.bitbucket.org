@@ -3442,7 +3442,7 @@ $(document).ready(function() {
         var unit = teamSlot.find(".booster, .booster-clone");
         if (unit.length > 0) {
             // Search for class
-            var searchStr = "" + unit.data('class1') + "|" + unit.data('class2');
+            var searchStr = "All characters|" + unit.data('class1') + "|" + unit.data('class2');
 
             // Search for name
             var unitId = unit.data('id');
