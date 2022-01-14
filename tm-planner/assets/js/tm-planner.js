@@ -1818,7 +1818,7 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                 }
                                 // Special not met
                                 if(numOfTurns > 0) {
-                                    specialsNeeded[a[0]] = numOfTurns + (numOfTurns == 1 ? "turn" : " turns");
+                                    specialsNeeded[a[0]] = numOfTurns + (numOfTurns == 1 ? " turn" : " turns");
                                 }
                             }
                         } else if (aCounter && valuableSpecialsWithoutTurns.includes(aCounter)) { // For specials slot-change/slot-block
