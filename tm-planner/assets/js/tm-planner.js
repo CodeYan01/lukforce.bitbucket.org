@@ -1837,7 +1837,7 @@ function checkTeamMiniGuideSpecialMet(teamId) {
 
 function putGuideSpecialNotMetMsg(teamId, specialsNeeded) {
     team = $(".team[data-team=" + teamId +"]");
-    msgStr = "&nbspCounter to Boss actions from Preemp-Req may not met (assuming max bind and despair sockets and currently not including CA, Swap Effect, Sailor and Support):<br>";
+    msgStr = "&nbspCounter to Boss actions from Preemp-Req may not met (assuming max bind and despair sockets and currently not including CA, Super SP, Swap Effect, Sailor and Support):<br>";
     specialStr = "";
     for (var special in specialsNeeded) {
         detail = specialsNeeded[special];
