@@ -7629,4 +7629,274 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Tashigi ==========
+    3527: {
+        1577: {
+            name: 'Kinemon',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Kinemon', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '5T'],
+                                ['atk-down',        '3T, 90%'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2097: {
+            name: 'Zoro',
+            type: 'DEX',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/FS/Striker']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Zoro', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-rew',          '1T'],
+                                ['Slot Bind',       '10T, Row 1'],
+                                ['bar-gd',          '2T, 3x'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['heal',            '30%'],
+                                ['slot-change',     'EMPTY'],
+                                ['slot-lock',       '1x Good']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3007: {
+            name: 'Smoker',
+            type: 'DEX',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/DEX/QCK']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Smoker', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['slot-neg',        '5T, Color'],
+                                ['def-thres',       '4T, 90%, 1000']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3330: {
+            name: 'Law & Chopper',
+            type: 'STR',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Slasher/Powerhouse/Fighter']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Law & Chopper', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['silence',         '5T'],
+                                ['para',            '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        1600: {
+            name: 'Luffy',
+            type: 'STR',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, QCK/PSY/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['chain-down',      '5T, 0.1x'],
+                                ['def',             '6T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Luffy', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '8T'],
+                                ['bind',            '5T, Row 1'],
+                                ['slot-block',      'All'],
+                                ['Hunger',          '3x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3527: {
+            name: 'Tashigi',
+            type: 'STR',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '8T, Fighter/FS/Slasher']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['Type Change',     'PSY/INT'],
+                                ['Special Limit',   '1T, 2x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Tashigi', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['Type Change',     'STR/DEX/QCK'],
+                                ['slot-block',      'All'],
+                                ['cd-rew',          '1T, Row 2 3'],
+                                ['chain-down',      '99+T, 0.5x'],
+                                ['Chain ATK Down',  '99+T, 2x+ Chain, 90%'],
+                                ['slot-neg',        '99+T, Color'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Interrup - Chain Lock / Add Chain',
+                            action: [
+                                ['Blow Away',       '99+T, Random 2 Sailor'],
+                                ['Clear Buff',      'Normal']
+                            ]
+                        },
+                        {
+                            type: '0%',
+                            action: [
+                                ['dmg-normal',      '60,000']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
