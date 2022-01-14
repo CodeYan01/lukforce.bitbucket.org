@@ -2333,11 +2333,26 @@ $(document).ready(function() {
             // Reset
             $('#guide-nav-lv').val(1);
             $('#mini-guide-content').empty();
-            $('#mini-guide-boss').removeClass();
+            $('#mini-guide-boss').empty();
 
             // Populate main boss
-            $('#mini-guide-boss').text(op.name);
-            $('#mini-guide-boss').addClass(op.type);
+            var opName = op.name;
+            var opType = op.type;
+            if (Array.isArray(opName) && Array.isArray(opType)) {
+                for (var i = 0; i < opName.length && i < opType.length; i++) {
+                    var opHtml= $('<span></span>');
+                    opHtml.html(opName[i]);
+                    opHtml.addClass(opType[i]);
+
+                    $('#mini-guide-boss').append(opHtml);
+                }
+            } else {
+                var opHtml = $('<span></span>');
+                opHtml.html(opName);
+                opHtml.addClass(opType);
+
+                $('#mini-guide-boss').html(opHtml);
+            }
 
             if (op.guide) {
                 for (var gi in op.guide) {

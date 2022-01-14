@@ -7832,8 +7832,8 @@ var tm_opponents = {
             ]
         },
         3527: {
-            name: 'Tashigi',
-            type: 'STR',
+            name: ['Ta', 'shi', 'gi'],
+            type: ['STR', 'DEX', 'QCK'],
             pos: 5,
             guide: [
                 {
