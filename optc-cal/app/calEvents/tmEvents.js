@@ -377,4 +377,10 @@ var tmEvents = [
         end: '2021-12-18',
         pst_19: true
     },
+    {
+        id: 3527,
+        start: '2022-01-19',
+        end: '2022-01-23',
+        pst_19: false
+    },
 ]

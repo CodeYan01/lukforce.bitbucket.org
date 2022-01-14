@@ -436,6 +436,7 @@ var nakama = {
     3368: '8336800',    // MUGIWARA 56 Zoro
     3389: '8338900',    // Dragon Kaido
     3416: '8341600',    // Stussy
+    3527: '8352700',    // Tashigi
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
