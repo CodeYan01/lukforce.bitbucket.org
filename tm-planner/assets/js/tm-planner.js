@@ -841,20 +841,8 @@ function decorateStr(str, isGuide) {
 }
 
 function decorateSpIcon(iconKey, isAction) {
-    if (iconKey === 'Clear Buff' ||
-        iconKey === 'Blow Away' ||
-        iconKey === 'Slot Bind' ||
-        iconKey === 'Type Change' ||
-        iconKey === 'Confusion' ||
-        iconKey === 'Special Limit' ||
-        iconKey === 'HP Barrier' ||
-        iconKey === 'No Heal' ||
-        iconKey === 'Tap Limit' ||
-        iconKey === 'Swap Captain' ||
-        iconKey === 'Heal=Dmg' ||
-        iconKey === 'NAO' ||
-        iconKey === 'Hunger' ||
-        iconKey === 'Chain ATK Down'
+    if (iconKey === 'No Heal' ||
+        iconKey === 'Swap Captain'
     )
         return iconKey;
 

@@ -934,7 +934,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['Clear Buff',      'Super']
+                                ['clear-buff',      'Super']
                             ]
                         }
                     ]
@@ -970,7 +970,7 @@ var tm_opponents = {
                         {
                             type: '<20%, on atk',
                             action: [
-                                ['Blow Away',       '99+T, Random 2'],
+                                ['blow-away',       '99+T, Random 2'],
                                 ['heal',            '30%']
                             ]
                         }
@@ -1326,7 +1326,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['immu-delay',      '99+T'],
-                                ['Slot Bind',       '2T, Row 1'],
+                                ['slot-bind',       '2T, Row 1'],
                                 ['slot-change',     'EMPTY'],
                                 ['para',            '2T, Row 1']
                             ]
@@ -1335,13 +1335,13 @@ var tm_opponents = {
                             type: 'Turn 2, Every 2 Turns',
                             action: [
                                 ['slot-change',     'EMPTY'],
-                                ['Slot Bind',       '1T, Row 2 3']
+                                ['slot-bind',       '1T, Row 2 3']
                             ]
                         },
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['Blow Away',       '99+T, Row 3']
+                                ['blow-away',       '99+T, Row 3']
                             ]
                         },
                         {
@@ -1397,7 +1397,7 @@ var tm_opponents = {
                             action: [
                                 ['atk-down',        '2T'],
                                 ['immu-delay',      '99+T'],
-                                ['Blow Away',       '1T, Bottom Right'],
+                                ['blow-away',       '1T, Bottom Right'],
                                 ['def-thres',       '2T, 99%, 1000'],
                                 ['slot-block',      'All']
                             ]
@@ -1405,7 +1405,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 3',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['atk',             '99+T, 2x'],
                                 ['dmg-eot-e',       '99+T, 10%']
                             ]
@@ -1413,7 +1413,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['slot-block',      'All'],
                                 ['def-perc',        '3T']
                             ]
@@ -1461,14 +1461,14 @@ var tm_opponents = {
                         {
                             type: '<20%, interrupt, once',
                             action: [
-                                ['Blow Away',       '99+T, Random 1'],
+                                ['blow-away',       '99+T, Random 1'],
                                 ['resil',           '3T']
                             ]
                         },
                         {
                             type: '<20%, interrupt, Every Turn',
                             action: [
-                                ['Blow Away',       '99+T, Random 1']
+                                ['blow-away',       '99+T, Random 1']
                             ]
                         }
                     ]
@@ -1738,7 +1738,7 @@ var tm_opponents = {
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['Slot Bind',       '3T']
+                                ['slot-bind',       '3T']
                             ]
                         },
                         {
@@ -1805,14 +1805,14 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every 2 Turns',
                             action: [
-                                ['Blow Away',       '99+T, Random 2'],
+                                ['blow-away',       '99+T, Random 2'],
                                 ['slot-change',     'EMPTY']
                             ]
                         },
                         {
                             type: '<20%, interrupt',
                             action: [
-                                ['Blow Away',       '99+T, Row 1']
+                                ['blow-away',       '99+T, Row 1']
                             ]
                         }
                     ]
@@ -1936,7 +1936,7 @@ var tm_opponents = {
                             type: '<50%, interrupt',
                             action: [
                                 ['heal',            '50%'],
-                                ['Clear Buff',      'Normal']
+                                ['clear-buff',      'Normal']
                             ]
                         },
                         {
@@ -2276,13 +2276,13 @@ var tm_opponents = {
                         {
                             type: 'Turn 3, Every 3 Turns',
                             action: [
-                                ['Blow Away',       'Random 1']
+                                ['blow-away',       'Random 1']
                             ]
                         },
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['enrage',          '99+T, 2x']
                             ]
                         },
@@ -2323,7 +2323,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every Turn After',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['atk',             '99+T, 3x'],
                                 ['slot-change',     'EMPTY']
                             ]
@@ -2385,7 +2385,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['slot-change',     'BOMB'],
                                 ['slot-lock',       '2T']
                             ]
@@ -2424,7 +2424,7 @@ var tm_opponents = {
                         {
                             type: '<20%, on atk',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['hp-cut',          '99%']
                             ]
                         }
@@ -2446,7 +2446,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['Type Change',     'DEX/PSY'],
+                                ['type-change',     'DEX/PSY'],
                                 ['slot-change',     'Bad'],
                                 ['immu-all',        '99+T']
                             ]
@@ -2454,8 +2454,8 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['Clear Buff',      'Normal'],
-                                ['Blow Away',       '3T, Row 2']
+                                ['clear-buff',      'Normal'],
+                                ['blow-away',       '3T, Row 2']
                             ]
                         }
                     ]
@@ -2501,15 +2501,15 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every Turn After',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['atk',             '99+T, 2x']
                             ]
                         },
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['Clear Buff',      'Normal'],
-                                ['Blow Away',       '99+T, Random 2']
+                                ['clear-buff',      'Normal'],
+                                ['blow-away',       '99+T, Random 2']
                             ]
                         },
                         {
@@ -2579,7 +2579,7 @@ var tm_opponents = {
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['cd-rew',          '3T'],
                                 ['slot-block',      'All']
                             ]
@@ -2857,8 +2857,8 @@ var tm_opponents = {
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['Clear Buff',      'Super'],
-                                ['Blow Away',       '99+T, Random 2']
+                                ['clear-buff',      'Super'],
+                                ['blow-away',       '99+T, Random 2']
                             ]
                         },
                         {
@@ -2898,13 +2898,13 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every 3 Turns',
                             action: [
-                                ['Blow Away',       '1T, Random 1']
+                                ['blow-away',       '1T, Random 1']
                             ]
                         },
                         {
                             type: '<20%, on atk',
                             action: [
-                                ['Blow Away',       '1T, Row 1']
+                                ['blow-away',       '1T, Row 1']
                             ]
                         }
                     ]
@@ -2934,7 +2934,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['enrage',          '99+T, 2.5x']
                             ]
                         },
@@ -3122,8 +3122,8 @@ var tm_opponents = {
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['Clear Buff',      'Normal'],
-                                ['Blow Away',       '2T, Row 1']
+                                ['clear-buff',      'Normal'],
+                                ['blow-away',       '2T, Row 1']
                             ]
                         },
                         {
@@ -3329,7 +3329,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['desp',            '5T'],
-                                ['Blow Away',       'Random 2']
+                                ['blow-away',       'Random 2']
                             ]
                         },
                         {
@@ -3400,7 +3400,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['Blow Away',       '2T, Random 1, Row 1']
+                                ['blow-away',       '2T, Random 1, Row 1']
                             ]
                         },
                         {
@@ -3498,7 +3498,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1, Every Turn After',
                             action: [
-                                ['Blow Away',       '99+T, Random 1']
+                                ['blow-away',       '99+T, Random 1']
                             ]
                         },
                         {
@@ -3526,7 +3526,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['slot-change',     'Bad'],
-                                ['Confusion',       'Row 2'],
+                                ['stun',            'Row 2'],
                                 ['silence',         '5T, Row 3'],
                                 ['immu-def',        '99+T']
                             ]
@@ -3534,7 +3534,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1, Every 2 Turns',
                             action: [
-                                ['Confusion',       'Row 2 3']
+                                ['stun',            'Row 2 3']
                             ]
                         },
                         {
@@ -3593,7 +3593,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['Blow Away',       '3T, Captain'],
+                                ['blow-away',       '3T, Captain'],
                                 ['para',            '5T']
                             ]
                         },
@@ -3649,7 +3649,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['desp',            '5T'],
-                                ['Special Limit',   '1T, 3x'],
+                                ['sp-limit',        '1T, 3x'],
                                 ['def-thres',       '5T, 99%, 1000'],
                                 ['immu-delay',      '99+T']
                             ]
@@ -3665,7 +3665,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['bind',            '5T, Row 2 3']
                             ]
                         },
@@ -3925,7 +3925,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['desp',            '5T'],
-                                ['Clear Buff',      'Normal']
+                                ['clear-buff',      'Normal']
                             ]
                         },
                         {
@@ -4011,7 +4011,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1, Every Turn After',
                             action: [
-                                ['Blow Away',       '99+T, Random 1']
+                                ['blow-away',       '99+T, Random 1']
                             ]
                         },
                         {
@@ -4097,14 +4097,14 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['Clear Buff',      'Normal'],
-                                ['Blow Away',       '99+T, Random Captain']
+                                ['clear-buff',      'Normal'],
+                                ['blow-away',       '99+T, Random Captain']
                             ]
                         },
                         {
                             type: 'Turn 4',
                             action: [
-                                ['Clear Buff',      'Normal']
+                                ['clear-buff',      'Normal']
                             ]
                         },
                         {
@@ -4365,7 +4365,7 @@ var tm_opponents = {
                             type: 'Turn 1, Every 2 Turns',
                             action: [
                                 ['desp',            '5T'],
-                                ['Slot Bind',       '2T']
+                                ['slot-bind',       '2T']
                             ]
                         },
                         {
@@ -4433,7 +4433,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1, Every Turn After',
                             action: [
-                                ['Blow Away',       '99+T, Random 2']
+                                ['blow-away',       '99+T, Random 2']
                             ]
                         },
                         {
@@ -4586,7 +4586,7 @@ var tm_opponents = {
                             action: [
                                 ['para',            '4T'],
                                 ['slot-neg',        'Color'],
-                                ['Clear Buff',      'Super'],
+                                ['clear-buff',      'Super'],
                                 ['immu-def',        '99+T']
                             ]
                         }
@@ -4671,7 +4671,7 @@ var tm_opponents = {
                         {
                             type: '<20%',
                             action: [
-                                ['Blow Away',       '3T, Random Row 1']
+                                ['blow-away',       '3T, Random Row 1']
                             ]
                         }
                     ]
@@ -5027,7 +5027,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['Blow Away',       'Random 3']
+                                ['blow-away',       'Random 3']
                             ]
                         },
                         {
@@ -5146,7 +5146,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['Blow Away',       '5T, Bottom Right'],
+                                ['blow-away',       '5T, Bottom Right'],
                                 ['cd-rew',          '2T'],
                                 ['para',            '5T'],
                                 ['immu-delay',      '99+T']
@@ -5155,7 +5155,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['Blow Away',       'Random 1']
+                                ['blow-away',       'Random 1']
                             ]
                         },
                         {
@@ -5167,7 +5167,7 @@ var tm_opponents = {
                         {
                             type: '<20%',
                             action: [
-                                ['Blow Away',       'All']
+                                ['blow-away',       'All']
                             ]
                         }
                     ]
@@ -5252,7 +5252,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['HP Barrier',      '5T, 2,000,000'],
+                                ['bar-hp',          '5T, 2,000,000'],
                                 ['def',             '10T, 2000x'],
                                 ['immu-delay',      '99+T'],
                                 ['immu-def',        '99+T']
@@ -5420,7 +5420,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1, Every Turn After',
                             action: [
-                                ['Clear Buff',      'Normal'],
+                                ['clear-buff',      'Normal'],
                                 ['slot-change',     'EMPTY']
                             ]
                         },
@@ -5433,7 +5433,7 @@ var tm_opponents = {
                         {
                             type: '<20%',
                             action: [
-                                ['Blow Away',       'All']
+                                ['blow-away',       'All']
                             ]
                         },
                         {
@@ -5630,7 +5630,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1',
                             action: [
-                                ['Clear Buff',      'Super'],
+                                ['clear-buff',      'Super'],
                                 ['atk',             '99+T']
                             ]
                         },
@@ -5699,15 +5699,15 @@ var tm_opponents = {
                             action: [
                                 ['bind',            '5T, Row 1'],
                                 ['desp',            '5T'],
-                                ['Special Limit',   '1T, 2x'],
+                                ['sp-limit',        '1T, 2x'],
                                 ['immu-all',        '99+T']
                             ]
                         },
                         {
                             type: 'Turn 2, Every Turn After',
                             action: [
-                                ['Clear Buff',      'Super'],
-                                ['Blow Away',       '99+T, Random 2']
+                                ['clear-buff',      'Super'],
+                                ['blow-away',       '99+T, Random 2']
                             ]
                         },
                         {
@@ -5754,7 +5754,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1, Every Turn After',
                             action: [
-                                ['Blow Away',       '2T, Random 2']
+                                ['blow-away',       '2T, Random 2']
                             ]
                         },
                         {
@@ -5797,7 +5797,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['bind',            '5T, Row 1'],
-                                ['Blow Away',       '99+T, Random 1']
+                                ['blow-away',       '99+T, Random 1']
                             ]
                         }
                     ]
@@ -5998,7 +5998,7 @@ var tm_opponents = {
                             type: '0%',
                             action: [
                                 ['heal',            '30%'],
-                                ['Special Limit',   '99+T, 1x']
+                                ['sp-limit',        '99+T, 1x']
                             ]
                         }
                     ]
@@ -6024,7 +6024,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['chain-down',      '4T, 0.1x'],
-                                ['Tap Limit',       '4T, 3x'],
+                                ['tap-limit',       '4T, 3x'],
                                 ['slot-neg',        '5T, Color & RCV'],
                                 ['immu-delay',      '99+T']
                             ]
@@ -6068,7 +6068,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['Blow Away',       '3T, Random 1'],
+                                ['blow-away',       '3T, Random 1'],
                                 ['atk',             '3T']
                             ]
                         }
@@ -6099,14 +6099,14 @@ var tm_opponents = {
                             type: 'Turn 1',
                             action: [
                                 ['slot-neg',        '3T, Color'],
-                                ['Type Change',     'Random']
+                                ['type-change',     'Random']
                             ]
                         },
                         {
                             type: '<50%',
                             action: [
                                 ['slot-lock',       '1x Good, Row 1'],
-                                ['Type Change',     'Random']
+                                ['type-change',     'Random']
                             ]
                         }
                     ]
@@ -6137,7 +6137,7 @@ var tm_opponents = {
                             type: 'Turn 2',
                             action: [
                                 ['Swap Captain',    '5T, Row 3'],
-                                ['Blow Away',       '99+T, Friend Cap']
+                                ['blow-away',       '99+T, Friend Cap']
                             ]
                         },
                         {
@@ -6189,7 +6189,7 @@ var tm_opponents = {
                             action: [
                                 ['slot-change',     'EMPTY'],
                                 ['atk-down',        '5T, 90%'],
-                                ['Special Limit',   '3T, 2x'],
+                                ['sp-limit',        '3T, 2x'],
                                 ['immu-delay',      '99+T']
                             ]
                         },
@@ -6203,8 +6203,8 @@ var tm_opponents = {
                         {
                             type: '<30%',
                             action: [
-                                ['Clear Buff',      'Super'],
-                                ['Blow Away',       '99+T, Random 2']
+                                ['clear-buff',      'Super'],
+                                ['blow-away',       '99+T, Random 2']
                             ]
                         },
                         {
@@ -6281,8 +6281,8 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['Blow Away',       '99+T, Random 2'],
-                                ['Clear Buff',      'Super']
+                                ['blow-away',       '99+T, Random 2'],
+                                ['clear-buff',      'Super']
                             ]
                         },
                         {
@@ -6331,7 +6331,7 @@ var tm_opponents = {
                             type: '<20%',
                             action: [
                                 ['silence',         '10T'],
-                                ['Blow Away',       '99+T, Captain']
+                                ['blow-away',       '99+T, Captain']
                             ]
                         }
                     ]
@@ -6428,7 +6428,7 @@ var tm_opponents = {
                             type: '0%',
                             action: [
                                 ['heal',            '50%'],
-                                ['Type Change',     'QCK']
+                                ['type-change',     'QCK']
                             ]
                         }
                     ]
@@ -6481,14 +6481,14 @@ var tm_opponents = {
                             type: 'Turn 2',
                             action: [
                                 ['atk',             '99+T'],
-                                ['Slot Bind',       '5T']
+                                ['slot-bind',       '5T']
                             ]
                         },
                         {
                             type: '<50%',
                             action: [
                                 ['silence',         '10T, Row 1'],
-                                ['Clear Buff',      'Super']
+                                ['clear-buff',      'Super']
                             ]
                         },
                         {
@@ -6607,7 +6607,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['Type Change',     'STR/QCK'],
+                                ['type-change',     'STR/QCK'],
                                 ['chain-down',      '5T, 0.1x'],
                                 ['def-thres',       '5T, 90%, 1000'],
                                 ['bar-hit',         '1T, 25x'],
@@ -6753,7 +6753,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['slot-block',      'Block/Bad'],
-                                ['Tap Limit',       '10T, 5x'],
+                                ['tap-limit',       '10T, 5x'],
                                 ['bar-color',       '1T, 4x, DEX'],
                                 ['immu-delay',      '99+T']
                             ]
@@ -7067,7 +7067,7 @@ var tm_opponents = {
                             action: [
                                 ['desp',            '5T'],
                                 ['slot-change',     'Bad'],
-                                ['Heal=Dmg',        '10T'],
+                                ['rcv-dmg',         '10T'],
                                 ['immu-delay',      '99+T']
                             ]
                         },
@@ -7131,7 +7131,7 @@ var tm_opponents = {
                                 ['hp-cut',          '70%'],
                                 ['bind',            '8T, Row 1'],
                                 ['para',            '5T'],
-                                ['NAO',             '99+T'],
+                                ['nao',             '99+T'],
                                 ['immu-delay',      '99+T']
                             ]
                         }
@@ -7246,7 +7246,7 @@ var tm_opponents = {
                             action: [
                                 ['heal',            '20%'],
                                 ['hp-cut',          '50%'],
-                                ['Special Limit',   '1x']
+                                ['sp-limit',        '1x']
                             ]
                         }
                     ]
@@ -7433,7 +7433,7 @@ var tm_opponents = {
                                 ['slot-change',     'STR'],
                                 ['slot-neg',        '5T, STR'],
                                 ['slot-lock',       '1x Good'],
-                                ['NAO',             '99+T'],
+                                ['nao',             '99+T'],
                                 ['immu-delay',      '99+T']
                             ]
                         },
@@ -7541,7 +7541,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['Type Change',     'DEX/PSY'],
+                                ['type-change',     'DEX/PSY'],
                                 ['slot-change',     'Bad'],
                                 ['chain-down',      '4T, 0.1x'],
                                 ['immu-def',        '99+T']
@@ -7692,7 +7692,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['cd-rew',          '1T'],
-                                ['Slot Bind',       '10T, Row 1'],
+                                ['slot-bind',       '10T, Row 1'],
                                 ['bar-gd',          '2T, 3x'],
                                 ['def-perc',        '5T, 90%'],
                                 ['immu-delay',      '99+T']
@@ -7823,7 +7823,7 @@ var tm_opponents = {
                                 ['desp',            '8T'],
                                 ['bind',            '5T, Row 1'],
                                 ['slot-block',      'All'],
-                                ['Hunger',          '3x'],
+                                ['hunger',          '3x'],
                                 ['immu-delay',      '99+T']
                             ]
                         }
@@ -7856,8 +7856,8 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['Type Change',     'PSY/INT'],
-                                ['Special Limit',   '1T, 2x'],
+                                ['type-change',     'PSY/INT'],
+                                ['sp-limit',        '1T, 2x'],
                                 ['immu-delay',      '99+T']
                             ]
                         }
@@ -7872,11 +7872,11 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['Type Change',     'STR/DEX/QCK'],
+                                ['type-change',     'STR/DEX/QCK'],
                                 ['slot-block',      'All'],
                                 ['cd-rew',          '1T, Row 2 3'],
                                 ['chain-down',      '99+T, 0.5x'],
-                                ['Chain ATK Down',  '99+T, 2x+ Chain, 90%'],
+                                ['chain-atk-down',  '99+T, 2x+ Chain, 90%'],
                                 ['slot-neg',        '99+T, Color'],
                                 ['immu-def',        '99+T']
                             ]
@@ -7884,8 +7884,8 @@ var tm_opponents = {
                         {
                             type: 'Interrup - Chain Lock / Add Chain',
                             action: [
-                                ['Blow Away',       '99+T, Random 2 Sailor'],
-                                ['Clear Buff',      'Normal']
+                                ['blow-away',       '99+T, Random 2 Sailor'],
+                                ['clear-buff',      'Normal']
                             ]
                         },
                         {

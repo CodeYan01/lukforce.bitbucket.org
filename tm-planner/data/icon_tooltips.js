@@ -69,10 +69,20 @@ var icon_tooltips = {
     'bar-gd':                 'Good Barrier',
     'bar-hit':                'Hit Barrier',
     'bar-color':              'Color Barrier',
+    'bar-hp':                 'HP Barrier',
     'dmg-eot-e':              'End of Turn Damage',
     'enrage':                 'Enrage',
     'fixed-target':           'Fixed Target',
     'nao':                    'Normal Attack Only',
     'no-heal':                'No Heal',
-    'sp-limit':               'Limit Special Usage'
+    'sp-limit':               'Limit Special Usage',
+    'blow-away':              'Blow Away',
+    'clear-buff':             'Clear Buff',
+    'slot-bind':              'Slot Bind',
+    'type-change':            'Type Change',
+    'stun':                   'Stun',
+    'tap-limit':              'Tap Limit',
+    'rcv-dmg':                'Receive Damage from Consuming RCV',
+    'hunger':                 'Hunger',
+    'chain-atk-down':         'ATK Down until Reaching Chain'
 };
