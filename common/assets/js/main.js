@@ -22,63 +22,63 @@ function getThumb(thumbId) {
     var paddedThumbId = ('0000' + thumbId).slice(-4);
 
     // Special case for Aokiji 575 with extra 0
-    if (thumbId === 575)
+    if (paddedThumbId === '0575')
         paddedThumbId = "0" + paddedThumbId;
 
     // Special case for PFRR Stussy 3000 with extra _1
-    if (thumbId === 3000)
+    if (paddedThumbId === '3000')
         paddedThumbId = paddedThumbId + "_1";
 
     // Special case for Kung Fu Luffy
-    if (thumbId === 5014)
+    if (paddedThumbId === '5014')
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
     // Special case for Log Vivi
-    if (thumbId === 5030 || thumbId === 4989)
+    if (paddedThumbId === '5030' || paddedThumbId === '4989')
         return '/tm-planner/assets/img/new-thumbs/5030.png';
 
     // Special case for Log Ace
-    if (thumbId === 5032 || thumbId === 4991)
+    if (paddedThumbId === '5032' || paddedThumbId === '4991')
         return '/tm-planner/assets/img/new-thumbs/5032.png';
 
     // Special case for Swimsuit Pudding (white)
-    if (thumbId === 5047 || thumbId === 4993)
+    if (paddedThumbId === '5047' || paddedThumbId === '4993')
         return '/tm-planner/assets/img/new-thumbs/5047.png';
 
     // Special case for Coby (EX)
-    if (thumbId === 5055 || thumbId === 4995)
+    if (paddedThumbId === '5055' || paddedThumbId === '4995')
         return '/tm-planner/assets/img/new-thumbs/5055.png';
 
     // Special case for Helmeppo (EX)
-    if (thumbId === 5056 || thumbId === 4996)
+    if (paddedThumbId === '5056' || paddedThumbId === '4996')
         return '/tm-planner/assets/img/new-thumbs/5056.png';
 
     // Special case for VS Units
     // Kaido VS Big Mom
-    if (thumbId === 9001)
+    if (paddedThumbId === '9001')
         return '/tm-planner/assets/img/new-thumbs/3135-1.png';
-    if (thumbId === 9002)
+    if (paddedThumbId === '9002')
         return '/tm-planner/assets/img/new-thumbs/3135-2.png';
     // Ace VS Akainu
-    if (thumbId === 9003)
+    if (paddedThumbId === '9003')
         return '/tm-planner/assets/img/new-thumbs/3253-1.png';
-    if (thumbId === 9004)
+    if (paddedThumbId === '9004')
         return '/tm-planner/assets/img/new-thumbs/3253-2.png';
     // Whitebeard VS Shanks
-    if (thumbId === 9005)
+    if (paddedThumbId === '9005')
         return '/tm-planner/assets/img/new-thumbs/3355-1.png';
-    if (thumbId === 9006)
+    if (paddedThumbId === '9006')
         return '/tm-planner/assets/img/new-thumbs/3355-2.png';
 
     // Special cases for new thumbs
     if (
-        thumbId === 3111 ||
-        thumbId === 9999 ||
-        thumbId === 3523 ||
-        thumbId === 3524 ||
-        thumbId === 3525 ||
-        thumbId === 3526 ||
-        thumbId === 3527
+        paddedThumbId === '3111' ||
+        paddedThumbId === '9999' ||
+        paddedThumbId === '3523' ||
+        paddedThumbId === '3524' ||
+        paddedThumbId === '3525' ||
+        paddedThumbId === '3526' ||
+        paddedThumbId === '3527'
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
