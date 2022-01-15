@@ -1915,7 +1915,7 @@ function checkSuperSpecialCriteria(teamId) {
         checkSuperSpecialCriteriaIsMet(teamId, teamCap.find('div').data('id'), false);
     }
     // Friend caption super special criteria not met
-    if(!friendCap.is(':empty'))
+    if(!friendCap.is(':empty') && !friendCap.find('div').hasClass("sortable-chosen"))
         checkSuperSpecialCriteriaIsMet(teamId, friendCap.find('div').data('id'), true);
 }
 
