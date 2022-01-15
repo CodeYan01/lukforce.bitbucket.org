@@ -2717,19 +2717,22 @@ $(document).ready(function() {
         $("#tm-team-sets").find(".empty").addClass("hidden");
         $("#tm-team-sets").find(".cal-button").hide();
         $("#tm-team-sets").find(".export-image-info").show();
+
         var option;
-        if (localStorage.getItem('night-mode') == "true") {
-            option = {windowWidth: windowWidth, allowTaint: true, backgroundColor: '#191919'};
-        } else {
-            option = {windowWidth: windowWidth, allowTaint: true};
-        }
+        if (localStorage.getItem('night-mode') == "true")
+            option = { windowWidth: windowWidth, allowTaint: true, backgroundColor: '#191919' };
+        else
+            option = { windowWidth: windowWidth, allowTaint: true };
+
         html2canvas($("#tm-team-sets")[0], option).then(function(canvas) {
             $("#export-image-modal-body").empty().append(canvas);
         });
+
         $("#tm-team-sets").find(".cal-button").show();
         $("#tm-team-sets").find(".empty").not(".friend").removeClass("hidden");
         $("#tm-team-sets").find(".export-image-info").hide();
     }
+
     // Export image
     $('#export-image-button').click(function() {
         if ($(window).width() < 680)
@@ -2741,12 +2744,12 @@ $(document).ready(function() {
 
     // Set export image size
     $('.export-image-size').click(function() {
-        var windowWidth; 
-        if ($(this).val() == "3x2") {
+        var windowWidth;
+        if ($(this).val() == "3x2")
             windowWidth = 650;
-        } else {
+        else
             windowWidth = 350;
-        }
+
         exportImage(windowWidth);
     });
 
@@ -2797,8 +2800,17 @@ $(document).ready(function() {
 
     // Copy export url
     $('#copy-url-button').click(function() {
-        $('#export-url-link').select();
-        document.execCommand('copy');
+        navigator.clipboard.writeText($('#export-url-link').val());
+    });
+
+    // Copy export image
+    $('#copy-img-button').click(function() {
+        var canvas = $('#export-image-modal-body > canvas').get(0);
+        canvas.toBlob(blob => navigator.clipboard.write([
+            new ClipboardItem({
+                'image/png': blob
+            })
+        ]));
     });
 
     // Disable Read-only Mode

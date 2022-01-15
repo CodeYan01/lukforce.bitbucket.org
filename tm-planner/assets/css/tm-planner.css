@@ -166,12 +166,6 @@ div#export-image-modal {
     overflow-x: auto;
 }
 
-.export-image-size-div {
-    display: flex;
-    align-items: center;
-    margin: 15px;
-}
-
 div#export-image-modal .modal-dialog,
 div#support-character-modal .modal-dialog {
     width: fit-content;
