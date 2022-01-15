@@ -38,7 +38,7 @@ var filter_map_sp = {
     'dmg-up-red':               /(removes|reduces).*?Increase Damage Taken.*?duration/i,
     'dmg-eot-red-e':            /(removes|reduces).*?End of Turn Damage\/Percent Cut.*?duration/i,
     'atk-red-e':                /(removes|reduces).*?ATK UP.*?duration/i,
-    'def-red-e':                /(removes|reduces).*?Increased Defense.*?duration/i,
+    'def-red-e':                /(removes|reduces).*?Increase.*?Defense.*?duration/i,
     'def-perc-red-e':           /(removes|reduces).*?Percent Damage Reduction.*?duration/i,
     'def-thres-red-e':          /(removes|reduce|reduces).*?Threshold Damage Reduction.*?duration/i,
     'def-null-red-e':           /(removes|reduces).*?Damage Nullification.*?duration/i,
