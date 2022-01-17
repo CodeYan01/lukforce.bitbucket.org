@@ -1869,9 +1869,9 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
             if (specialRegex.test(special)) {
                 if (turnsNeeded) {
                     specialRegexStr = specialRegex.toString();
-                    getNumTurnsStr = specialRegexStr.substring(1, specialRegexStr.length - 2) + ".*?(completely|([0-9]+) turn)";
+                    getNumTurnsStr = specialRegexStr.substring(1, specialRegexStr.length - 2) + ".*?(completely|([0-9]+) turn|depending)";
                     result = special.match(new RegExp(getNumTurnsStr, 'i'));
-                    if (result[2] == 'completely')
+                    if (result[2] == 'completely' || result[2] == 'depending')
                     {
                         turnsNeeded = 0;
                         return;
