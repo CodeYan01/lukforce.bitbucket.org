@@ -2998,6 +2998,7 @@
       var parentSortable = putSortable || this.sortable;
       parentSortable.captureAnimationState();
       var item = $('#' + dragEl.id);
+      var needCheck = !item.hasClass("assigned-dh");
       from_list = item.closest('.team-slot, .ambush-team-slot');
       if(item.hasClass('booster-clone')) {
           var id = item.closest(".team-slot, .ambush-team-slot").attr("id");
@@ -3008,7 +3009,8 @@
       }
       else
           resetPosition(item);
-      doTeamBuildCheck(from_list.closest('.team').data('team'));
+      if (needCheck)
+        doTeamBuildCheck(from_list.closest('.team').data('team'));
       parentSortable.animateAll();
     },
     drop: drop
