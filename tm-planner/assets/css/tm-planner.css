@@ -328,6 +328,7 @@ span.x_pts {
 div#support-filters {
     display: flex;
     align-items: flex-start;
+    background: var(--bg-color-team-note);
 }
 
 .fixed-filters {
