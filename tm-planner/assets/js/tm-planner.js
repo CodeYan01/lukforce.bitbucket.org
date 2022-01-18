@@ -2354,7 +2354,9 @@ $(document).ready(function() {
             }
 
             updateAllPts();
-
+            //Init Team guide specials not met
+            for(teamId = 0; teamId < 6; teamId++)
+                doTeamBuildCheck(teamId);
             // Disable controls
             $('#read-only-button-div').css('display', 'flex');
             $('.not-read-only').prop('disabled', true);
@@ -2375,6 +2377,7 @@ $(document).ready(function() {
             tmId = parsedTmId;
             init(parsedTmId, server);
         }
+        doLoadTeams();
     }
 
     // Set Don't Have Mode
@@ -3707,6 +3710,4 @@ $(document).ready(function() {
         doTeamBuildCheck(to_list.closest('.team').data('team'));
         $('#unit-modal').modal('hide');
     });
-
-    doLoadTeams();
 });
