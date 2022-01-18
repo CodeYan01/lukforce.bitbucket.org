@@ -1570,6 +1570,83 @@ function clearCaptainFilters() {
     });
 }
 
+function modifyCharStyle(chars) {
+    chars = chars.replaceAll("[", "");
+    chars = chars.replaceAll("]", "");
+    if(chars.indexOf("character") != -1 || chars.indexOf("Character") != -1) {
+        chars = chars.replaceAll(/character\b/ig, "characters");
+        chars = chars.replaceAll(",", " characters,");
+        chars = chars.replaceAll("and", "characters and");
+    }
+    return chars;
+}
+
+function getClassesForUnit(origId) {
+    if (origId > 9000)
+        unitId = parseVsUnitId(origId);
+    else
+        unitId = origId;
+
+    // Search for class
+    var uniqueClasses = new Set();
+    var unitClass = units[unitId - 1][2];
+    if (Array.isArray(unitClass)) {
+        if (Array.isArray(unitClass[0])) {
+            if (unitClass.length === 2) {
+                // VS Units
+                var vsClass;
+                if (origId % 2 === 1)
+                    vsClass = unitClass[0];
+                else
+                    vsClass = unitClass[1];
+
+                uniqueClasses.add(vsClass[0]);
+                uniqueClasses.add(vsClass[1]);
+            } else {
+                // Dual Units
+                for (i = 0; i < 3; i++) {
+                    uniqueClasses.add(unitClass[i][0]);
+                    uniqueClasses.add(unitClass[i][1]);
+                }
+            }
+        } else {
+            uniqueClasses.add(unitClass[0]);
+            uniqueClasses.add(unitClass[1]);
+        }
+    } else {
+        uniqueClasses.add(unitClass);
+    }
+    return uniqueClasses;
+}
+
+function getTypesForUnit(origId, types) {
+    if(origId > 9000) {
+        if (origId % 2 === 1)
+            types = types[0];
+        else
+            types = types[1];
+    }
+    return types;
+}
+
+function getFamiliesForUnit(unitId) {
+    if (unitId == 9001)
+        family = [ "Kaido" ];
+    else if (unitId == 9002)
+        family = [ "Charlotte Linlin", "Big Mom" ];
+    else if (unitId == 9003)
+        family = [ "Portgas D. Ace" ];
+    else if (unitId == 9004)
+        family = [ "Sakazuki", "Akainu" ];
+    else if (unitId == 9005)
+        family = [ "Edward Newgate", "Whitebeard" ];
+    else if (unitId == 9006)
+        family = [ "Shanks" ];
+    else
+        family = families[unitId];
+    return family;
+}
+
 function getSupportList() {
     var supportList = {};
     var count = 0;
@@ -1577,7 +1654,7 @@ function getSupportList() {
         if (details[i].support) {
             supportList[count] = {};
             supportList[count].id = i;
-            supportList[count].supportChar = details[i].support[0].Characters;
+            supportList[count].supportChar = modifyCharStyle(details[i].support[0].Characters);
             supportList[count].supportDescription = decorateStr(details[i].support[0].description[4]);
             supportList[count].name = families[i];
             count++;
@@ -3460,27 +3537,43 @@ $(document).ready(function() {
         teamSlot = $("#team-slot-" + $(this).data("slot") + "");
         var unit = teamSlot.find(".booster, .booster-clone");
         if (unit.length > 0) {
-            // Search for class
-            var searchStr = "All characters|" + unit.data('class1') + "|" + unit.data('class2');
+            var searchStr = "All characters";
+            var origId = unit.data("id");
+            uniqueClasses = getClassesForUnit(origId);
+            uniqueClasses.forEach(function(value) {
+                searchStr = searchStr + "|" + value + " characters";
+            });
+
+            // Search for type
+            types = getTypesForUnit(origId, unit.data('type'));
+            if(Array.isArray(types)) {
+                for(type of types) {
+                    searchStr = searchStr + "|" + type + " characters";
+                    uniqueClasses.forEach(function(value) {
+                        searchStr = searchStr + "|" + type + " " + value + " characters";
+                    });
+                }
+            } else {
+                searchStr = searchStr + "|" + types + " characters";
+                uniqueClasses.forEach(function(value) {
+                    searchStr = searchStr + "|" + types + " " + value + " characters";
+                });
+            }
 
             // Search for name
-            var unitId = unit.data('id');
-            if (unitId > 9000)
-                unitId = parseVsUnitId(unitId);
-
-            var family = families[unitId];
+            var family = getFamiliesForUnit(origId);
             $.each(family, function(i, e) {
                 searchStr = searchStr + "|" + e;
             });
 
-            // Search for type
-            if(Array.isArray(unit.data('type'))) {
-                for(type of unit.data('type')) {
-                    searchStr = searchStr + "|" + type;
-                }
-            } else {
-                searchStr = searchStr + "|" + unit.data('type');
+            // Search for cost
+            var cost = units[parseVsUnitId(origId)-1][4];
+            if (cost <= 29) {
+                searchStr = searchStr + "|cost 29 or less|cost 40 or less";
+            } else if (cost <= 40) {
+                searchStr = searchStr + "|cost 40 or less";
             }
+
             supportTable.column(0).search("").draw();
             supportTable.column(1).search(searchStr, true, false).draw();
         } else {
