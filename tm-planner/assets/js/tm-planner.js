@@ -3318,7 +3318,7 @@ $(document).ready(function() {
     var dontHaveEl = document.getElementById("dont-have");
     new Sortable(dontHaveEl, {
         group: {
-            name: 'booster-group',
+            name: 'dont-have-group',
             pull: true,
             put: true
         },
@@ -3349,7 +3349,7 @@ $(document).ready(function() {
                 group: {
                     name: 'booster-group',
                     pull: true,
-                    put: true
+                    put: 'booster-group'
                 },
                 draggable: ".booster",
                 animation: 150,
@@ -3423,7 +3423,7 @@ $(document).ready(function() {
             group: {
                 name: 'booster-group',
                 pull: true,
-                put: true
+                put: 'booster-group'
             },
             draggable: ".booster-clone:not(.booster-ambush-fc)",
             animation: 150,
