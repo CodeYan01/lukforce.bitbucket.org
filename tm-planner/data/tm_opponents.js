@@ -2548,7 +2548,7 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['slot-change',     'BOMB+, Row 2'],
-                                ['para',            '5T, Col 1'],
+                                ['para',            '5T, Col L'],
                                 ['desp',            '5T'],
                                 ['immu-all',        '99+T']
                             ]
@@ -3038,7 +3038,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-rew',          '3T, Col 1'],
+                                ['cd-rew',          '3T, Col L'],
                                 ['para',            '4T, Row 2 3'],
                                 ['poison',          '99+T, 600→6000'],
                                 ['immu-all',        '99+T']
@@ -4470,8 +4470,8 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['cd-rew',          '2T, Col 1'],
-                                ['silence',         '5T, Col 2'],
+                                ['cd-rew',          '2T, Col L'],
+                                ['silence',         '5T, Col R'],
                                 ['blind',           '99+T'],
                                 ['immu-delay',      '99+T']
                             ]
@@ -5230,8 +5230,8 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['desp',            '3T'],
-                                ['bind',            '3T, Col 2'],
-                                ['para',            '3T, Col 1']
+                                ['bind',            '3T, Col R'],
+                                ['para',            '3T, Col L']
                             ]
                         }
                     ]
@@ -6549,8 +6549,8 @@ var tm_opponents = {
                             type: 'Preemp',
                             action: [
                                 ['cd-rew',          '1T'],
-                                ['bind',            '5T, Col 2'],
-                                ['para',            '10T, Col 1'],
+                                ['bind',            '5T, Col R'],
+                                ['para',            '10T, Col L'],
                                 ['immu-delay',      '99+T']
                             ]
                         },
@@ -6564,8 +6564,8 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['bind',            '5T, Col 1'],
-                                ['para',            '10T, Col 2'],
+                                ['bind',            '5T, Col L'],
+                                ['para',            '10T, Col R'],
                             ]
                         },
                         {
