@@ -1028,7 +1028,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['slot-change',     'STR']
                             ]
@@ -1181,7 +1181,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '20%'],
                                 ['para',            '2T']
@@ -1578,7 +1578,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '30000']
                             ]
@@ -1705,7 +1705,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '50%'],
                                 ['atk',             '99+T, 1.5x']
@@ -2756,7 +2756,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['hp-cut',          '70%']
                             ]
@@ -3466,7 +3466,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '20,000']
                             ]
@@ -4523,7 +4523,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '10,000']
                             ]
@@ -4706,7 +4706,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '50,000']
                             ]
@@ -4995,7 +4995,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '30,000']
                             ]
@@ -5096,7 +5096,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '25%']
                             ]
@@ -5395,7 +5395,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '0.8x atk']
                             ]
@@ -5437,7 +5437,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '30,000']
                             ]
@@ -5995,7 +5995,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '30%'],
                                 ['sp-limit',        '99+T, 1x']
@@ -6425,7 +6425,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '50%'],
                                 ['type-change',     'QCK']
@@ -6683,7 +6683,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '20,000']
                             ]
@@ -6813,7 +6813,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['hp-cut',          '60%']
                             ]
@@ -7072,7 +7072,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['hp-cut',          '80%']
                             ]
@@ -7242,7 +7242,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '20%'],
                                 ['hp-cut',          '50%'],
@@ -7394,7 +7394,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '100%']
                             ]
@@ -7438,7 +7438,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '50,000']
                             ]
@@ -7601,7 +7601,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '100%']
                             ]
@@ -7699,7 +7699,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['heal',            '30%'],
                                 ['slot-change',     'EMPTY'],
@@ -7889,7 +7889,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: '0%',
+                            type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '60,000']
                             ]
