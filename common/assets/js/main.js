@@ -30,7 +30,7 @@ function getThumb(thumbId) {
         paddedThumbId = paddedThumbId + "_1";
 
     // Special case for Kung Fu Luffy
-    if (paddedThumbId === '5014')
+    if (paddedThumbId === '5014' || paddedThumbId === '4987')
         return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
 
     // Special case for Log Vivi
