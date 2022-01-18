@@ -1336,6 +1336,66 @@ function populateUnitModal(src, selectedId, assigned) {
     }
 }
 
+function getNonBoosterImg(origId, team) {
+    var imgDiv = $('<div></div>');
+    imgDiv.append(createImgHtml(getThumb(origId), 40, false));
+    imgDiv.addClass('booster-clone');
+    imgDiv.addClass('non-booster');
+    imgDiv.addClass("assigned")
+    imgDiv.data('id', origId);
+    imgDiv.data('x_pts', 1);
+
+    unitId = origId;
+    if (unitId > 9000)
+        unitId = parseVsUnitId(unitId);
+
+    // Name in tooltip
+    createTooltip(imgDiv, units[unitId - 1][0]);
+
+    // Type and Class
+    imgDiv.data('type', units[unitId - 1][1]);
+
+    var unitClass = units[unitId - 1][2];
+    if (Array.isArray(unitClass)) {
+        var class1;
+        var class2;
+
+        if (Array.isArray(unitClass[0])) {
+            if (unitClass.length === 2) {
+                // VS Units
+                var vsClass;
+                if (b.id % 2 === 1)
+                    vsClass = unitClass[0];
+                else
+                    vsClass = unitClass[1];
+
+                class1 = vsClass[0];
+                class2 = vsClass[1];
+            } else {
+                // Dual Units
+                var dualClass = unitClass[2];
+                class1 = dualClass[0];
+                class2 = dualClass[1];
+            }
+        } else {
+            class1 = unitClass[0];
+            class2 = unitClass[1];
+        }
+
+        imgDiv.data('class1', class1);
+        imgDiv.data('class2', class2);
+    } else {
+        imgDiv.data('class1', unitClass);
+    }
+
+    imgDiv.data('max_lv', units[unitId - 1][7]);
+    imgDiv.data('team', team);
+    imgDiv.attr('id', 'booster-clone_' + unitId);
+    imgDiv.attr('draggable', false);
+    imgDiv.css('display', 'inline-block');
+    return imgDiv;
+}
+
 function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
     // Replace existing units and put the previous unit back
     if (slot.find('.booster').length > 0)
@@ -1537,7 +1597,15 @@ function doLoadTeams() {
                                 var teamSlot = $('#team-slot-' + teamNum + i);
 
                                 if (isClone) {
-                                    createCloneInSlot(b, teamSlot, false);
+                                    if(b.length) // is Booster
+                                        createCloneInSlot(b, teamSlot, false);
+                                    else { // Non-Booster
+                                        imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
+                                        teamSlot.append(imgDiv);
+                                        // Mirror to Friend Cap slot if it is empty
+                                        if (teamSlot.data("slot") == 1)
+                                            mirrorToFriendCap(teamSlot.closest('.team'), imgDiv, true);
+                                    }
                                 } else {
                                     b.addClass('assigned');
                                     b.data('team', teamNum);
@@ -2239,7 +2307,15 @@ $(document).ready(function() {
                                     var teamSlot = $('#team-slot-' + teamNum + i);
 
                                     if (isClone) {
-                                        createCloneInSlot(b, teamSlot, false);
+                                        if(b.length) // is Booster
+                                            createCloneInSlot(b, teamSlot, false);
+                                        else { // Non-Booster
+                                            imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
+                                            teamSlot.append(imgDiv);
+                                            // Mirror to Friend Cap slot if it is empty
+                                            if (teamSlot.data("slot") == 1)
+                                                mirrorToFriendCap(teamSlot.closest('.team'), imgDiv, true);
+                                        }
                                     } else {
                                         b.addClass('assigned');
                                         b.detach().css({
@@ -2265,8 +2341,15 @@ $(document).ready(function() {
 
                                     var b = $('#booster_' + unitId);
                                     var teamSlot = $('#team-slot-' + teamNum + i);
-
-                                    createCloneInSlot(b, teamSlot, true);
+                                    if(b.length) // is Booster
+                                        createCloneInSlot(b, teamSlot, false);
+                                    else { // Non-Booster
+                                        imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
+                                        teamSlot.append(imgDiv);
+                                        // Mirror to Friend Cap slot if it is empty
+                                        if (teamSlot.data("slot") == 1)
+                                            mirrorToFriendCap(teamSlot.closest('.team'), imgDiv, true);
+                                    }
                                 }
                             }
                         }
@@ -3646,62 +3729,7 @@ $(document).ready(function() {
                     mirrorToFriendCap(teamSlotDiv.closest('.team'), b, true);
             }
         } else { // Non-Boost unit
-            var imgDiv = $('<div></div>');
-            imgDiv.append(createImgHtml(getThumb(unitId), 40, false));
-            imgDiv.addClass('booster-clone');
-            imgDiv.addClass('non-booster');
-            imgDiv.addClass("assigned")
-            imgDiv.data('id', unitId);
-            imgDiv.data('x_pts', 1);
-
-            if (unitId > 9000)
-                unitId = parseVsUnitId(unitId);
-
-            // Name in tooltip
-            createTooltip(imgDiv, units[unitId - 1][0]);
-
-            // Type and Class
-            imgDiv.data('type', units[unitId - 1][1]);
-
-            var unitClass = units[unitId - 1][2];
-            if (Array.isArray(unitClass)) {
-                var class1;
-                var class2;
-
-                if (Array.isArray(unitClass[0])) {
-                    if (unitClass.length === 2) {
-                        // VS Units
-                        var vsClass;
-                        if (b.id % 2 === 1)
-                            vsClass = unitClass[0];
-                        else
-                            vsClass = unitClass[1];
-
-                        class1 = vsClass[0];
-                        class2 = vsClass[1];
-                    } else {
-                        // Dual Units
-                        var dualClass = unitClass[2];
-                        class1 = dualClass[0];
-                        class2 = dualClass[1];
-                    }
-                } else {
-                    class1 = unitClass[0];
-                    class2 = unitClass[1];
-                }
-
-                imgDiv.data('class1', class1);
-                imgDiv.data('class2', class2);
-            } else {
-                imgDiv.data('class1', unitClass);
-            }
-
-            imgDiv.data('max_lv', units[unitId - 1][7]);
-            imgDiv.data('team', teamSlotDiv.closest(".team").data("team"));
-            imgDiv.attr('id', 'booster-clone_' + unitId);
-            imgDiv.attr('draggable', false);
-            imgDiv.css('display', 'inline-block');
-
+            imgDiv = getNonBoosterImg(unitId, teamSlotDiv.closest('.team').data('team'));
             teamSlotDiv.append(imgDiv);
             // Mirror to Friend Cap slot if it is empty
             if (teamSlotDiv.data("slot") == 1)
