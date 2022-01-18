@@ -1500,6 +1500,155 @@ function doSave(tmId, server) {
     localStorage.setItem('supports_' + tmId + serverStr, JSON.stringify(supports));
 }
 
+function doLoadTeams() {
+    var lastSave = localStorage.getItem('lastSave_' + tmId);
+
+    if (lastSave !== null) {
+        resetAll();
+
+        var teams = JSON.parse(localStorage.getItem('teams_' + tmId));
+        if ((tmId > 1889)) {
+            var opponents = tm_opponents[tmId];
+
+            for (var opId in teams) {
+                var team = teams[opId];
+                var op = opponents[opId];
+
+                if (team && op) {
+                    var opPos = op.pos;
+                    var opPosDiv = $('#op-' + (opPos + 1));
+                    var opPosTeam = opPosDiv.closest('.team');
+                    var teamNum = opPosTeam.data('team');
+
+                    if (opPos != 5) {
+                        // Regular Teams
+                        for (var i = 0; i < team.length; i++) {
+                            var unitId = team[i];
+
+                            if (unitId !== 0) {
+                                // Check whether unit is clone and restore unit ID
+                                var isClone = false;
+                                if (unitId < 0) {
+                                    isClone = true;
+                                    unitId = parseInt(unitId) * -1;
+                                }
+
+                                var b = $('#booster_' + unitId);
+                                var teamSlot = $('#team-slot-' + teamNum + i);
+
+                                if (isClone) {
+                                    createCloneInSlot(b, teamSlot, false);
+                                } else {
+                                    b.addClass('assigned');
+                                    b.data('team', teamNum);
+                                    b.detach().css({
+                                        top: 0,
+                                        left: 0
+                                    }).prependTo(teamSlot);
+                                }
+
+                                // Mirror to Friend Cap slot if it is empty
+                                if (i == 1)
+                                    mirrorToFriendCap(teamSlot.closest('.team'), b, true);
+                            }
+                        }
+                    } else {
+                        // Ambush Team
+                        for (var i = 0; i < team.length; i++) {
+                            var unitId = team[i];
+
+                            if (unitId !== 0) {
+                                // Restore unit ID
+                                if (unitId < 0)
+                                    unitId = parseInt(unitId) * -1;
+
+                                var b = $('#booster_' + unitId);
+                                var teamSlot = $('#team-slot-' + teamNum + i);
+
+                                createCloneInSlot(b, teamSlot, true);
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            $.each(teams, function(index, team) {
+                for (var i = 0; i < team.length; i++) {
+                    var unitId = team[i];
+
+                    if (unitId !== 0) {
+                        // Check whether unit is clone and restore unit ID
+                        var isClone = false;
+                        if (i == 0 && unitId < 0) {
+                            isClone = true;
+                            unitId = parseInt(unitId) * -1;
+                        }
+
+                        var b = $('#booster_' + unitId);
+                        var teamSlot = $('#team-slot-' + index + i);
+
+                        b.addClass('assigned');
+                        b.data('team', index);
+                        b.detach().css({
+                            top: 0,
+                            left: 0
+                        }).prependTo(teamSlot);
+
+                        // If Friend Cap slot is a clone
+                        if (isClone)
+                            mirrorToFriendCap(teamSlot.closest('.team'), b, false);
+
+                        // Mirror to Friend Cap slot if it is empty
+                        if (i == 1)
+                            mirrorToFriendCap(teamSlot.closest('.team'), b, true);
+                    }
+                }
+            });
+        }
+
+        var dontHaveMode = localStorage.getItem('dontHaveMode');
+        var dontHaves = JSON.parse(localStorage.getItem('dontHaves_' + tmId));
+
+        for (var i = 0; i < dontHaves.length; i++) {
+            var unitId = dontHaves[i];
+
+            if (unitId !== 0) {
+                var b = $('#booster_' + unitId);
+
+                b.addClass('assigned-dh');
+                b.data('team', -1);
+                if (dontHaveMode == null || dontHaveMode == 0) {
+                    b.detach().css({
+                        top: 0,
+                        left: 0
+                    }).insertBefore($('#add-button'));
+                }
+            }
+        }
+
+        var supports = JSON.parse(localStorage.getItem('supports_' + tmId));
+        if(supports) {
+            for (var i = 0; i < supports.length; i++) {
+                var unitId = supports[i];
+
+                if (unitId !== -1) {
+                    var supSlot = $(".support-slot[data-index=" + i + "]");
+                    var imgDiv = $('<div></div>');
+                    imgDiv.data("id", unitId);
+                    imgDiv.append(createImgHtml(getThumb(unitId), 25, false));
+                    supSlot.empty().append(imgDiv);
+                    supSlot.removeClass("empty");
+                }
+            }
+        }
+
+        updateAllPts();
+        //Init Team guide specials not met
+        for(teamId = 0; teamId < 6; teamId++)
+            doTeamBuildCheck(teamId);
+    }
+}
+
 function applyClassFilter(classFilters, excludeOtherClasses, excludeSingleClass) {
     if (classFilters.length == 0) {
         // Clear filters if no Class Filters are currently selected
@@ -2621,156 +2770,7 @@ $(document).ready(function() {
 
     // Load teams
     $('#load-button').click(function() {
-        var serverStr = server === 'glb' ? '' : '_jpn';
-
-        var lastSave = localStorage.getItem('lastSave_' + tmId + serverStr);
-
-        if (lastSave !== null) {
-            resetAll();
-
-            var teams = JSON.parse(localStorage.getItem('teams_' + tmId + serverStr));
-
-            if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
-                var opponents = tm_opponents[tmId];
-
-                for (var opId in teams) {
-                    var team = teams[opId];
-                    var op = opponents[opId];
-
-                    if (team && op) {
-                        var opPos = op.pos;
-
-                        var opPosDiv = $('#op-' + (opPos + 1));
-                        var opPosTeam = opPosDiv.closest('.team');
-                        var teamNum = opPosTeam.data('team');
-
-                        if (opPos != 5) {
-                            // Regular Teams
-                            for (var i = 0; i < team.length; i++) {
-                                var unitId = team[i];
-
-                                if (unitId !== 0) {
-                                    // Check whether unit is clone and restore unit ID
-                                    var isClone = false;
-                                    if (unitId < 0) {
-                                        isClone = true;
-                                        unitId = parseInt(unitId) * -1;
-                                    }
-
-                                    var b = $('#booster_' + unitId);
-                                    var teamSlot = $('#team-slot-' + teamNum + i);
-
-                                    if (isClone) {
-                                        createCloneInSlot(b, teamSlot, false);
-                                    } else {
-                                        b.addClass('assigned');
-                                        b.data('team', teamNum);
-                                        b.detach().css({
-                                            top: 0,
-                                            left: 0
-                                        }).prependTo(teamSlot);
-                                    }
-
-                                    // Mirror to Friend Cap slot if it is empty
-                                    if (i == 1)
-                                        mirrorToFriendCap(teamSlot.closest('.team'), b, true);
-                                }
-                            }
-                        } else {
-                            // Ambush Team
-                            for (var i = 0; i < team.length; i++) {
-                                var unitId = team[i];
-
-                                if (unitId !== 0) {
-                                    // Restore unit ID
-                                    if (unitId < 0)
-                                        unitId = parseInt(unitId) * -1;
-
-                                    var b = $('#booster_' + unitId);
-                                    var teamSlot = $('#team-slot-' + teamNum + i);
-
-                                    createCloneInSlot(b, teamSlot, true);
-                                }
-                            }
-                        }
-                    }
-                }
-            } else {
-                $.each(teams, function(index, team) {
-                    for (var i = 0; i < team.length; i++) {
-                        var unitId = team[i];
-
-                        if (unitId !== 0) {
-                            // Check whether unit is clone and restore unit ID
-                            var isClone = false;
-                            if (i == 0 && unitId < 0) {
-                                isClone = true;
-                                unitId = parseInt(unitId) * -1;
-                            }
-
-                            var b = $('#booster_' + unitId);
-                            var teamSlot = $('#team-slot-' + index + i);
-
-                            b.addClass('assigned');
-                            b.data('team', index);
-                            b.detach().css({
-                                top: 0,
-                                left: 0
-                            }).prependTo(teamSlot);
-
-                            // If Friend Cap slot is a clone
-                            if (isClone)
-                                mirrorToFriendCap(teamSlot.closest('.team'), b, false);
-
-                            // Mirror to Friend Cap slot if it is empty
-                            if (i == 1)
-                                mirrorToFriendCap(teamSlot.closest('.team'), b, true);
-                        }
-                    }
-                });
-            }
-
-            var dontHaveMode = localStorage.getItem('dontHaveMode');
-            var dontHaves = JSON.parse(localStorage.getItem('dontHaves_' + tmId + serverStr));
-
-            for (var i = 0; i < dontHaves.length; i++) {
-                var unitId = dontHaves[i];
-
-                if (unitId !== 0) {
-                    var b = $('#booster_' + unitId);
-
-                    b.addClass('assigned-dh');
-                    b.data('team', -1);
-                    if (dontHaveMode == null || dontHaveMode == 0) {
-                        b.detach().css({
-                            top: 0,
-                            left: 0
-                        }).insertBefore($('#add-button'));
-                    }
-                }
-            }
-
-            var supports = JSON.parse(localStorage.getItem('supports_' + tmId + serverStr));
-            if(supports) {
-                for (var i = 0; i < supports.length; i++) {
-                    var unitId = supports[i];
-
-                    if (unitId !== -1) {
-                        var supSlot = $(".support-slot[data-index=" + i + "]");
-                        var imgDiv = $('<div></div>');
-                        imgDiv.data("id", unitId);
-                        imgDiv.append(createImgHtml(getThumb(unitId), 25, false));
-                        supSlot.empty().append(imgDiv);
-                        supSlot.removeClass("empty");
-                    }
-                }
-            }
-
-            updateAllPts();
-            //Init Team guide specials not met
-            for(teamId = 0; teamId < 6; teamId++)
-                doTeamBuildCheck(teamId);
-        }
+        doLoadTeams();
     });
 
     // Reset teams
@@ -3708,7 +3708,5 @@ $(document).ready(function() {
         $('#unit-modal').modal('hide');
     });
 
-    //Init Team guide specials not met
-    for(teamId = 0; teamId < 6; teamId++)
-        doTeamBuildCheck(teamId);
+    doLoadTeams();
 });
