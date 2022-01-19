@@ -2674,13 +2674,18 @@ $(document).ready(function() {
     $('#remove-button').click(function() {
         var deleteId = $(this).data('id');
         var teamId = $(this).data("src");
+
         if (deleteId.toString().indexOf('_clone') == -1 && deleteId !== 0)
             resetPosition($('#booster_' + deleteId).detach());
         else if (deleteId.toString().indexOf('_clone') != -1)
             $("#" + teamId).find(".booster-clone").remove();
-        removeSupport(teamId.slice(-2));
+
+        if (teamId != null) {
+            removeSupport(teamId.slice(-2));
+            doTeamBuildCheck(teamId.slice(-2)[0]);
+        }
+
         $('#unit-modal').modal('hide');
-        doTeamBuildCheck(teamId.slice(-2)[0]);
     });
 
     // OPTC-DB page
