@@ -842,7 +842,8 @@ function decorateStr(str, isGuide) {
 
 function decorateSpIcon(iconKey, isAction) {
     if (iconKey === 'No Heal' ||
-        iconKey === 'Swap Captain'
+        iconKey === 'Swap Captain' ||
+        iconKey === 'Ship Bind'
     )
         return iconKey;
 
