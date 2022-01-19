@@ -735,7 +735,7 @@ function init(tmId, server) {
     else
         $('#last-save').html('N/A');
 
-    for(teamId = 0; teamId < 6; teamId++)
+    for (teamId = 0; teamId < 6; teamId++)
         doTeamBuildCheck(teamId);
 
     return true;
@@ -747,7 +747,7 @@ function resetPosition(unit) {
     } else {
         // Remove unit support
         var id = unit.closest(".team-slot, .ambush-team-slot").attr("id");
-          if(id)
+        if (id)
             removeSupport(id.slice(-2));
 
         unit.removeClass('assigned');
@@ -784,8 +784,8 @@ function resetAll() {
 
     $('.booster-clone').remove();
 
-    //Reset Team status notes
-    for(teamId = 0; teamId < 6; teamId++)
+    // Reset Team status notes
+    for (teamId = 0; teamId < 6; teamId++)
         doTeamBuildCheck(teamId);
 
     updateAllPts();
@@ -1552,11 +1552,12 @@ function doSave(tmId, server) {
     // Save supports
     var supports = [];
     $('.support-slot').not('.hidden').each(function() {
-        if($(this).hasClass("empty"))
+        if ($(this).hasClass("empty"))
             supports.push(-1);
         else
             supports.push($(this).find("div").data("id"));
     });
+
     localStorage.setItem('supports_' + tmId + serverStr, JSON.stringify(supports));
 }
 
@@ -1597,7 +1598,7 @@ function doLoadTeams() {
                                 var teamSlot = $('#team-slot-' + teamNum + i);
 
                                 if (isClone) {
-                                    if(b.length != 0) // is Booster
+                                    if (b.length != 0) // is Booster
                                         createCloneInSlot(b, teamSlot, false);
                                     else { // Non-Booster
                                         imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
@@ -1633,7 +1634,7 @@ function doLoadTeams() {
                                 var b = $('#booster_' + unitId);
                                 var teamSlot = $('#team-slot-' + teamNum + i);
 
-                                if(b.length != 0) // is Booster
+                                if (b.length != 0) // is Booster
                                     createCloneInSlot(b, teamSlot, false);
                                 else { // Non-Booster
                                     imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
@@ -1703,7 +1704,7 @@ function doLoadTeams() {
         }
 
         var supports = JSON.parse(localStorage.getItem('supports_' + tmId));
-        if(supports) {
+        if (supports) {
             for (var i = 0; i < supports.length; i++) {
                 var unitId = supports[i];
 
@@ -1719,8 +1720,9 @@ function doLoadTeams() {
         }
 
         updateAllPts();
+
         //Init Team guide specials not met
-        for(teamId = 0; teamId < 6; teamId++)
+        for (teamId = 0; teamId < 6; teamId++)
             doTeamBuildCheck(teamId);
     }
 }
@@ -1798,11 +1800,13 @@ function clearCaptainFilters() {
 function modifyCharStyle(chars) {
     chars = chars.replace(/\[/g, "");
     chars = chars.replace(/\]/g, "");
-    if(chars.indexOf("character") != -1 || chars.indexOf("Character") != -1) {
+
+    if (chars.indexOf("character") != -1 || chars.indexOf("Character") != -1) {
         chars = chars.replace(/character\b/ig, "characters");
         chars = chars.replace(/\,/g, " characters,");
         chars = chars.replace(/and/g, "characters and");
     }
+
     return chars;
 }
 
@@ -1845,12 +1849,13 @@ function getClassesForUnit(origId) {
 }
 
 function getTypesForUnit(origId, types) {
-    if(origId > 9000) {
+    if (origId > 9000) {
         if (origId % 2 === 1)
             types = types[0];
         else
             types = types[1];
     }
+
     return types;
 }
 
@@ -1906,7 +1911,7 @@ function swapSupport() {
     to_sup = $(".support-slot[data-slot=" + to_list.attr("id").slice(-2) + "]");
     to_unit = to_sup.find("div").detach();
 
-    if(to_sup.hasClass("empty") && !from_sup.hasClass("empty")) {
+    if (to_sup.hasClass("empty") && !from_sup.hasClass("empty")) {
         to_sup.removeClass("empty");
         from_sup.addClass("empty");
     } else if (from_sup.hasClass("empty") && !to_sup.hasClass("empty")) {
@@ -1922,9 +1927,11 @@ function getWholeTeamFamilyName(teamId, isCheckDupe) {
     var teamFamilyNames = [];
     var dupeNames = [];
     var currentTeam = $(".team[data-team=" + teamId +"]");
+
     currentTeam.find(".team-slot:not(.friend-cap), .ambush-team-slot:not(.friend-cap), .support-slot:not(.empty)").each(function() {
         var unit = $(this).find("div");
-        if(unit.length > 0) {
+
+        if (unit.length > 0) {
             var familyNames = families[parseVsUnitId(unit.data("id"))];
             $.each(familyNames, function(i, e) {
                 if (!teamFamilyNames.includes(e))
@@ -1936,10 +1943,12 @@ function getWholeTeamFamilyName(teamId, isCheckDupe) {
             });
         }
     });
-    if(isCheckDupe) {
-        for(name of dupeNames)
+
+    if (isCheckDupe) {
+        for (name of dupeNames)
             putDupeCharacterMsg(teamId, name);
     }
+
     return teamFamilyNames;
 }
 
@@ -1965,7 +1974,8 @@ function putDupeCharacterMsg(teamId, name) {
     // Highlight all units with that name
     team.find(".team-slot:not(.friend-cap), .ambush-team-slot:not(.friend-cap), .support-slot:not(.empty)").each(function() {
         var unit = $(this).find("div");
-        if(unit.length > 0) {
+
+        if (unit.length > 0) {
             var familyNames = families[parseVsUnitId(unit.data("id"))];
             if (familyNames.includes(name))
                 unit.find('img').addClass('highlight');
@@ -1974,27 +1984,25 @@ function putDupeCharacterMsg(teamId, name) {
 }
 
 function checkNoteStatus() {
-    if($("#tm-team-build-note-container").find(".error").length > 0) {
+    if ($("#tm-team-build-note-container").find(".error").length > 0)
         $(".fixed-note-button").addClass("error");
-    } else {
+    else
         $(".fixed-note-button").removeClass("error");
-    }
 
-    if($("#tm-team-build-note-container").find(".warning").length > 0) {
+    if ($("#tm-team-build-note-container").find(".warning").length > 0)
         $(".fixed-note-button").addClass("warning");
-    } else {
+    else
         $(".fixed-note-button").removeClass("warning");
-    }
 
     $(".team-note-div").each(function() {
         $(this).show();
-        if($(this).find(".error").length > 0)
+
+        if ($(this).find(".error").length > 0)
             $("#op-" + ($(this).data("team") + 1)).closest(".op-guide-btn").addClass("error");
         else if ($(this).find(".warning").length > 0) {
             $("#op-" + ($(this).data("team") + 1)).closest(".op-guide-btn").removeClass("error");
             $("#op-" + ($(this).data("team") + 1)).closest(".op-guide-btn").addClass("warning");
-        }
-        else {
+        } else {
             $("#op-" + ($(this).data("team") + 1)).closest(".op-guide-btn").removeClass("error");
             $("#op-" + ($(this).data("team") + 1)).closest(".op-guide-btn").removeClass("warning");
             $(this).hide();
@@ -2005,30 +2013,34 @@ function checkNoteStatus() {
 function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
     if (capId > 9000)
         capId = parseVsUnitId(capId);
+
     var superCriteria = details[capId].superSpecialCriteria;
-    if(superCriteria) {
-        if(isFriend) {
+    if (superCriteria) {
+        if (isFriend)
             slotIds = [1,2,3,4,5];
-        } else {
+        else
             slotIds = [0,2,3,4,5];
-        }
+
         // Case1: 6 specific classes crew
         if (superCriteria.indexOf('consist of 6') != -1) {
             var class1 = superCriteria.substring(superCriteria.indexOf('consist of 6 ') + 13, superCriteria.indexOf(' or'));
             var class2 = superCriteria.substring(superCriteria.indexOf('or ') + 3, superCriteria.indexOf(' characters'));
 
-            for(slotId of slotIds) {
+            for (slotId of slotIds) {
                 var unit = $('#team-slot-' + teamId + slotId).find('div');
-                if(unit.length > 0) {
+
+                if (unit.length > 0) {
                     uniqueClasses = getClassesForUnit(unit.data("id"));
                     classMatch = false;
+
                     uniqueClasses.forEach(function(value) {
-                        if(value == class1 || value == class2) {
+                        if (value == class1 || value == class2) {
                             classMatch = true;
                             return;
                         }
                     });
-                    if(!classMatch) {
+
+                    if (!classMatch) {
                         putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('must consist of')), isFriend, capId);
                         return false;
                     }
@@ -2037,24 +2049,29 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
                     return false;
                 }
             }
+
             return true;
         }
+
         // Case2: For specific crew
         if (superCriteria.indexOf('consist of') != -1) {
             var names = superCriteria.substring(superCriteria.indexOf('consist of') + 11);
-            for(slotId of slotIds) {
+            for (slotId of slotIds) {
                 var unit = $('#team-slot-' + teamId + slotId).find('div');
-                if(unit.length > 0) {
+
+                if (unit.length > 0) {
                     unitId = unit.data('id');
                     var family = getFamiliesForUnit(unitId);
                     var found = false;
+
                     $.each(family, function(i, e) {
-                        if(names.indexOf(e) >= 0) {
+                        if (names.indexOf(e) >= 0) {
                             found = true;
                             return true;
                         }
                     });
-                    if(found)
+
+                    if (found)
                         return true;
                 }
             }
@@ -2099,9 +2116,10 @@ function checkTeamMiniGuideSpecialMet(teamId) {
 
                         // For specials with turns
                         var turns = a[1].match(/([0-9])+T/i);
-                        if(turns && turns[1] != "99") {
+                        if (turns && turns[1] != "99") {
                             numOfTurns = turns[1];
-                            if(a[0] == 'bind' || a[0] == 'desp') {
+
+                            if (a[0] == 'bind' || a[0] == 'desp') {
                                 numOfTurns -= 3;
                                 if (numOfTurns <= 0)
                                     continue;
@@ -2112,9 +2130,10 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                     for (var ac in aCounter) {
                                         if (valuableSpecials.includes(aCounter[ac])) {
                                             newNumOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]], numOfTurns);
-                                            if(newNumOfTurns < numOfTurns)
+
+                                            if (newNumOfTurns < numOfTurns)
                                                 numOfTurns = newNumOfTurns;
-                                        } else if(valuableSpecialsWithoutTurns.includes(aCounter[ac])) {
+                                        } else if (valuableSpecialsWithoutTurns.includes(aCounter[ac])) {
                                             if (checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]]) == 0)
                                                 numOfTurns = 0;
                                         }
@@ -2122,13 +2141,14 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                 } else {
                                     numOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter], numOfTurns);
                                 }
+
                                 // Special not met
-                                if(numOfTurns > 0) {
+                                if (numOfTurns > 0) {
                                     specialsNeeded[a[0]] = numOfTurns + (numOfTurns == 1 ? " turn" : " turns");
                                 }
                             }
                         } else if (aCounter && valuableSpecialsWithoutTurns.includes(aCounter)) { // For specials slot-change/slot-block
-                            if(checkTeamSpecialMet(teamId, filter_map_sp[aCounter]) != 0)
+                            if (checkTeamSpecialMet(teamId, filter_map_sp[aCounter]) != 0)
                                 specialsNeeded["Change Orbs"] = a[1];
                         }
                     }
@@ -2145,9 +2165,11 @@ function putGuideSpecialNotMetMsg(teamId, specialsNeeded) {
     team = $(".team[data-team=" + teamId +"]");
     msgStr = "&nbspCounter to Boss actions from Preemp may not be met (assuming max Bind and Despair sockets; currently not including CA, Super SP, Swap Effect, Sailor, and Support):<br>";
     specialStr = "";
+
     for (var special in specialsNeeded) {
         detail = specialsNeeded[special];
-        if(special != 'Change Orbs')
+
+        if (special != 'Change Orbs')
             special = icon_tooltips[special];
         specialStr += "[<mark>" + special + ": " + detail + "</mark>]&nbsp&nbsp&nbsp";
     }
@@ -2192,11 +2214,10 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
                         return;
                     } else {
                         NumOfTurns = result[3];
-                        if(NumOfTurns >= turnsNeeded) {
+                        if (NumOfTurns >= turnsNeeded) {
                             turnsNeeded = 0;
                             return;
-                        }
-                        else
+                        } else
                             turnsNeeded -= NumOfTurns;
                     }
                 } else {
@@ -2206,29 +2227,32 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
             }
         }
     });
+
     return (typeof turnsNeeded === "undefined") ? 1 : turnsNeeded;
 }
 
 function checkSuperSpecialCriteria(teamId) {
     var teamCap = $("#team-slot-" + teamId + "1");
     var friendCap = $("#team-slot-" + teamId + "0");
-    // Own caption super special criteria not met
 
-    if(!teamCap.is(':empty') && !teamCap.find('div').hasClass("sortable-chosen")) {
+    // Own caption super special criteria not met
+    if (!teamCap.is(':empty') && !teamCap.find('div').hasClass("sortable-chosen"))
         checkSuperSpecialCriteriaIsMet(teamId, teamCap.find('div').data('id'), false);
-    }
+
     // Friend caption super special criteria not met
-    if(!friendCap.is(':empty') && !friendCap.find('div').hasClass("sortable-chosen"))
+    if (!friendCap.is(':empty') && !friendCap.find('div').hasClass("sortable-chosen"))
         checkSuperSpecialCriteriaIsMet(teamId, friendCap.find('div').data('id'), true);
 }
 
 function putSuperNotMetMsg(teamId, msg, isFriend, capId) {
     team = $(".team[data-team=" + teamId +"]");
-    if(!isFriend)
+
+    if (!isFriend)
         msgStr = "&nbsp(Own caption) ";
     else
         msgStr = "&nbsp(Friend caption) ";
-    if(capId == 3472 || capId == 3474 || capId == 3483)
+
+    if (capId == 3472 || capId == 3474 || capId == 3483)
         msgStr = msgStr + "Super special criteria potentially not met (can be met by another option): [<mark>" + msg + "</mark>]";
     else 
         msgStr = msgStr + "Super special criteria not met: [<mark>" + msg + "</mark>]";
@@ -2328,11 +2352,12 @@ $(document).ready(function() {
                                     var teamSlot = $('#team-slot-' + teamNum + i);
 
                                     if (isClone) {
-                                        if(b.length != 0) // is Booster
+                                        if (b.length != 0) // is Booster
                                             createCloneInSlot(b, teamSlot, false);
                                         else { // Non-Booster
                                             imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
                                             teamSlot.append(imgDiv);
+
                                             // Mirror to Friend Cap slot if it is empty
                                             if (teamSlot.data("slot") == 1)
                                                 mirrorToFriendCap(teamSlot.closest('.team'), imgDiv, true);
@@ -2362,7 +2387,8 @@ $(document).ready(function() {
 
                                     var b = $('#booster_' + unitId);
                                     var teamSlot = $('#team-slot-' + teamNum + i);
-                                    if(b.length != 0) // is Booster
+
+                                    if (b.length != 0) // is Booster
                                         createCloneInSlot(b, teamSlot, false);
                                     else { // Non-Booster
                                         imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
@@ -2442,11 +2468,11 @@ $(document).ready(function() {
             }
 
             var supportsStr = getUrlParameter('supports');
-
             var supports = supportsStr.split(',');
 
             for (var i = 0; i < supports.length; i++) {
                 var unitId = supports[i];
+
                 if (unitId !== '-1') {
                     var supSlot = $(".support-slot[data-index=" + i + "]");
                     var imgDiv = $('<div></div>');
@@ -2458,9 +2484,11 @@ $(document).ready(function() {
             }
 
             updateAllPts();
+
             //Init Team guide specials not met
-            for(teamId = 0; teamId < 6; teamId++)
+            for (teamId = 0; teamId < 6; teamId++)
                 doTeamBuildCheck(teamId);
+
             // Disable controls
             $('#read-only-button-div').css('display', 'flex');
             $('.not-read-only').prop('disabled', true);
@@ -2832,9 +2860,9 @@ $(document).ready(function() {
                     unitId = Number(unitId) * -1;
 
                 var maxLv = $('#booster_' + unitId).data('max_lv');
-                if(!maxLv)
+                if (!maxLv)
                     maxLv = $('#booster-clone_' + unitId).data('max_lv');
-                if(!maxLv)
+                if (!maxLv)
                     maxLv = $('#booster-clone_' + unitId + '_clone').data('max_lv');
 
                 if (unitId > 9000)
@@ -2959,11 +2987,12 @@ $(document).ready(function() {
         // Save supports
         var supports = [];
         $('.support-slot').not('.hidden').each(function() {
-            if($(this).hasClass("empty"))
+            if ($(this).hasClass("empty"))
                 supports.push(-1);
             else
                 supports.push($(this).find("div").data("id"));
         });
+
         url += '&supports=' + supports.join();
 
         $('#export-url-link').val(url);
@@ -3281,9 +3310,10 @@ $(document).ready(function() {
             supportTable.column(2).search("").draw();
         } else {
             var filtersStr = "";
-            for(f of supportFilters) {
+
+            for (f of supportFilters)
                 filtersStr = filtersStr + "(?=.*" + f + ")";
-            }
+
             supportTable.column(2).search(filtersStr, true, false).draw();
         }
     });
@@ -3383,7 +3413,7 @@ $(document).ready(function() {
     });
 
     $("#expand-icon").click(function() {
-        if($(this).data("status") == "down") {
+        if ($(this).data("status") == "down") {
             $("#tm-team-sets").hide();
             $("#team-hints").hide();
             $(this).data("status", "up");
@@ -3481,7 +3511,7 @@ $(document).ready(function() {
                                 from_list.append($(this));
                                 swapHandler($(this), from_list);
                             } else {
-                                if($(this).hasClass("non-booster"))
+                                if ($(this).hasClass("non-booster"))
                                     $(this).remove();
                                 else
                                     resetPosition($(this));
@@ -3495,7 +3525,7 @@ $(document).ready(function() {
                     if (item.data('team') !== assignedTeam) {
                         $('#booster-clone_' + item.data('id') + '_clone').remove();
                         removeSupport(from_list.attr("id").slice(-2));
-                    } else if(to_list.data('slot') == 0) {
+                    } else if (to_list.data('slot') == 0) {
                         removeSupport(to_list.attr("id").slice(-2));
                         removeSupport(from_list.attr("id").slice(-2));
                     } else {
@@ -3511,8 +3541,10 @@ $(document).ready(function() {
                         mirrorToFriendCap(to_list.closest('.team'), item, true);
 
                     updateAllPts();
-                    if(from_list.hasClass('team-slot'))
+
+                    if (from_list.hasClass('team-slot'))
                         doTeamBuildCheck(from_list.closest('.team').data('team'));
+
                     doTeamBuildCheck(to_list.closest('.team').data('team'));
                 },
                 onEnd: function(evt) {
@@ -3551,7 +3583,7 @@ $(document).ready(function() {
                             from_list.append($(this));
                     });
 
-                    if(to_list.data('slot') == 0) {
+                    if (to_list.data('slot') == 0) {
                         removeSupport(to_list.attr("id").slice(-2));
                         removeSupport(from_list.attr("id").slice(-2));
                     }
@@ -3559,15 +3591,18 @@ $(document).ready(function() {
                         swapSupport();
                 } else {
                     createCloneInSlot(item, to_list, true);
+
                     // Reset current support
                     removeSupport(to_list.attr("id").slice(-2));
                 }
+
                 // Mirror to Friend Cap slot if it is empty
                 if (to_list.data('slot') == 1)
                     mirrorToFriendCap(to_list.closest('.team'), item, true, true);
 
                 updateAllPts();
-                if(from_list.hasClass('ambush-team-slot'))
+
+                if (from_list.hasClass('ambush-team-slot'))
                     doTeamBuildCheck(from_list.closest('.team').data('team'));
                 doTeamBuildCheck(to_list.closest('.team').data('team'));
             },
@@ -3643,18 +3678,20 @@ $(document).ready(function() {
         currentSupportSlotId = $(this).data("slot");
         teamSlot = $("#team-slot-" + $(this).data("slot") + "");
         var unit = teamSlot.find(".booster, .booster-clone");
+
         if (unit.length > 0) {
             var searchStr = "All characters";
             var origId = unit.data("id");
             uniqueClasses = getClassesForUnit(origId);
+
             uniqueClasses.forEach(function(value) {
                 searchStr = searchStr + "|" + value + " characters";
             });
 
             // Search for type
             types = getTypesForUnit(origId, unit.data('type'));
-            if(Array.isArray(types)) {
-                for(type of types) {
+            if (Array.isArray(types)) {
+                for (type of types) {
                     searchStr = searchStr + "|" + type + " characters";
                     uniqueClasses.forEach(function(value) {
                         searchStr = searchStr + "|" + type + " " + value + " characters";
@@ -3690,7 +3727,8 @@ $(document).ready(function() {
         // Get whole team's family name
         var names = getWholeTeamFamilyName($(this).closest('.team').data('team'));
         var nameStr = "^";
-        for(name of names) {
+
+        for (name of names) {
             nameStr = nameStr + "(?!.*" + name + ")";
         }
         nameStr += ".*$";
@@ -3718,22 +3756,26 @@ $(document).ready(function() {
         var unitId = parseInt($("#non-booster-unit").val());
         var teamSlot = $("#non-booster-unit").data('src');
         var teamSlotDiv = $('#' + teamSlot);
+
         if (teamSlotDiv.find('.booster').length > 0)
             resetPosition(teamSlotDiv.find('.booster').detach());
+
         if (teamSlotDiv.find('.booster-clone').length > 0)
             teamSlotDiv.find('.booster-clone').remove();
+
         from_list = "";
         to_list = teamSlotDiv;
         removeSupport(to_list.attr("id").slice(-2));
 
         // Is booster
-        if($("#booster_" + unitId).length > 0) {
+        if ($("#booster_" + unitId).length > 0) {
             b = $("#booster_" + unitId);
             from_list = b.parent();
             removeSupport(from_list.attr("id").slice(-2));
 
             if (teamSlotDiv.hasClass("ambush-team-slot")) {
                 createCloneInSlot(b, teamSlotDiv, true);
+
                 // Mirror to Friend Cap slot if it is empty
                 if (teamSlotDiv.data("slot") == 1)
                     mirrorToFriendCap(teamSlotDiv.closest('.team'), b, true, true);
@@ -3741,10 +3783,12 @@ $(document).ready(function() {
                 $('#booster-clone_' + unitId + '_clone').remove();
                 b.addClass('assigned');
                 b.data('team', teamSlotDiv.closest(".team").data("team"));
+
                 b.detach().css({
                     top: 0,
                     left: 0
                 }).prependTo(teamSlotDiv);
+
                 // Mirror to Friend Cap slot if it is empty
                 if (teamSlotDiv.data("slot") == 1)
                     mirrorToFriendCap(teamSlotDiv.closest('.team'), b, true);
@@ -3752,10 +3796,12 @@ $(document).ready(function() {
         } else { // Non-Boost unit
             imgDiv = getNonBoosterImg(unitId, teamSlotDiv.closest('.team').data('team'));
             teamSlotDiv.append(imgDiv);
+
             // Mirror to Friend Cap slot if it is empty
             if (teamSlotDiv.data("slot") == 1)
                 mirrorToFriendCap(teamSlotDiv.closest('.team'), imgDiv, true);
         }
+
         doTeamBuildCheck(to_list.closest('.team').data('team'));
         $('#unit-modal').modal('hide');
     });
