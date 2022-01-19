@@ -92,6 +92,7 @@
 }
 
 .team-slot>div,
+.ambush-team-slot>div,
 .support-slot>div {
     background: red;
 }
