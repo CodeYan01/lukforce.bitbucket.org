@@ -3047,6 +3047,35 @@ $(document).ready(function() {
         $('.not-read-only').prop('disabled', false);
     });
 
+    // Nav Lv Calculation
+    // WIP
+    /*$('#target-pts').change(function() {
+
+    });*/
+
+    $('#nav-lv').change(function() {
+        var navLv = Number($(this).val());
+        const baseMain = 4000;
+        const growthMain = 200;
+        const baseMini = 1000;
+        const growthMini = 50;
+
+        var totalPts = 0;
+
+        for (var i = 0; i < navLv; i++) {
+            $('.team').each(function() {
+                var multiplier = Number($(this).find('.x_pts').text());
+
+                if (Number($(this).data('team')) < 4)
+                    totalPts += multiplier * (baseMini + growthMini * i)
+                else
+                    totalPts += multiplier * (baseMain + growthMain * i)
+            });
+        }
+
+        $('#total-pts').val(new Intl.NumberFormat().format(totalPts));
+    });
+
     // Type filter
     var typeFilters = [];
     $('.type-filter').click(function() {

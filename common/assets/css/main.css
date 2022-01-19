@@ -152,6 +152,10 @@ body {
     color: #fafafa;
 }
 
+.night-mode .form-control-plaintext {
+    color: #fafafa;
+}
+
 .night-mode .modal-content {
     background-color: rgb(25, 25, 25);
 }
