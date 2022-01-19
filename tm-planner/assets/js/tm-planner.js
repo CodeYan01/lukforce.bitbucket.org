@@ -3048,10 +3048,31 @@ $(document).ready(function() {
     });
 
     // Nav Lv Calculation
-    // WIP
-    /*$('#target-pts').change(function() {
+    $('#target-pts').change(function() {
+        var targetPts = Number($(this).val());
+        const baseMain = 4000;
+        const growthMain = 200;
+        const baseMini = 1000;
+        const growthMini = 50;
 
-    });*/
+        var navLv = 0;
+        var totalPts = 0;
+
+        while (totalPts < targetPts) {
+            $('.team').each(function() {
+                var multiplier = Number($(this).find('.x_pts').text());
+
+                if (Number($(this).data('team')) < 4)
+                    totalPts += multiplier * (baseMini + growthMini * navLv) * 1.5
+                else
+                    totalPts += multiplier * (baseMain + growthMain * navLv) * 1.5
+            });
+
+            navLv++;
+        }
+
+        $('#target-pts-lv').val(navLv);
+    });
 
     $('#nav-lv').change(function() {
         var navLv = Number($(this).val());
