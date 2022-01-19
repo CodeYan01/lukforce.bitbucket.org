@@ -3067,9 +3067,9 @@ $(document).ready(function() {
                 var multiplier = Number($(this).find('.x_pts').text());
 
                 if (Number($(this).data('team')) < 4)
-                    totalPts += multiplier * (baseMini + growthMini * i)
+                    totalPts += multiplier * (baseMini + growthMini * i) * 1.5
                 else
-                    totalPts += multiplier * (baseMain + growthMain * i)
+                    totalPts += multiplier * (baseMain + growthMain * i) * 1.5
             });
         }
 
