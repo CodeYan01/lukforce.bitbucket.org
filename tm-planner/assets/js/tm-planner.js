@@ -1796,12 +1796,12 @@ function clearCaptainFilters() {
 }
 
 function modifyCharStyle(chars) {
-    chars = chars.replaceAll("[", "");
-    chars = chars.replaceAll("]", "");
+    chars = chars.replace(/\[/g, "");
+    chars = chars.replace(/\]/g, "");
     if(chars.indexOf("character") != -1 || chars.indexOf("Character") != -1) {
-        chars = chars.replaceAll(/character\b/ig, "characters");
-        chars = chars.replaceAll(",", " characters,");
-        chars = chars.replaceAll("and", "characters and");
+        chars = chars.replace(/character\b/ig, "characters");
+        chars = chars.replace(/\,/g, " characters,");
+        chars = chars.replace(/and/g, "characters and");
     }
     return chars;
 }
