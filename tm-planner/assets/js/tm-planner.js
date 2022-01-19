@@ -2099,16 +2099,20 @@ function checkTeamMiniGuideSpecialMet(teamId) {
     'cd-red', 'chain-down-red', 'chain-lock-red', 'def-red-e', 'def-perc-red-e',
     'def-thres-red-e', 'def-null-red-e', 'desp-red', 'dmg-up-red', 'para-red',
     'resil-red-e', , 'silence-red',];
+
     valuableSpecialsWithoutTurns = ['chain-lock', 'def-down', 'dmg-eot', 'poison',
     'slot-change', 'slot-change-block'];
+
     specialsNeeded = {};
 
     if (op && op.guide) {
-        for (gi in op.guide) {
-            g = op.guide[gi];
-            for (di in g.detail) {
-                d = g.detail[di];
+        for (var gi in op.guide) {
+            var g = op.guide[gi];
+
+            for (var di in g.detail) {
+                var d = g.detail[di];
                 var i = 0;
+
                 if (d.type === 'Preemp') {
                     for (ai in d.action) {
                         a = d.action[ai];
@@ -2117,10 +2121,11 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                         // For specials with turns
                         var turns = a[1].match(/([0-9])+T/i);
                         if (turns && turns[1] != "99") {
-                            numOfTurns = turns[1];
+                            var numOfTurns = turns[1];
 
                             if (a[0] == 'bind' || a[0] == 'desp') {
                                 numOfTurns -= 3;
+
                                 if (numOfTurns <= 0)
                                     continue;
                             }
@@ -2129,7 +2134,7 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                 if (Array.isArray(aCounter)) {
                                     for (var ac in aCounter) {
                                         if (valuableSpecials.includes(aCounter[ac])) {
-                                            newNumOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]], numOfTurns);
+                                            var newNumOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]], numOfTurns);
 
                                             if (newNumOfTurns < numOfTurns)
                                                 numOfTurns = newNumOfTurns;
@@ -2156,9 +2161,9 @@ function checkTeamMiniGuideSpecialMet(teamId) {
             }
         }
     }
-    if (Object.keys(specialsNeeded).length !== 0 && specialsNeeded.constructor === Object) {
+
+    if (Object.keys(specialsNeeded).length !== 0 && specialsNeeded.constructor === Object)
         putGuideSpecialNotMetMsg(teamId, specialsNeeded);
-    }
 }
 
 function putGuideSpecialNotMetMsg(teamId, specialsNeeded) {
@@ -2180,6 +2185,7 @@ function putGuideSpecialNotMetMsg(teamId, specialsNeeded) {
 function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
     team = $(".team[data-team=" + teamId +"]");
     turnsNeeded = requiredTurns;
+
     team.find(".booster, .booster-clone").each(function() {
         var unitId = $(this).data('id');
         var origId = unitId;
@@ -2191,6 +2197,7 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
         if (unitDetail) {
             var spDesc = unitDetail.special;
             var special;
+
             if (origId > 9000) {
                 // VS Units
                 if (origId % 2 === 1)
@@ -2203,22 +2210,40 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
                 special = spDesc.character1;
             else
                 special = spDesc;
+
             if (specialRegex.test(special)) {
                 if (turnsNeeded) {
                     specialRegexStr = specialRegex.toString();
                     getNumTurnsStr = specialRegexStr.substring(1, specialRegexStr.length - 2) + ".*?(completely|([0-9]+) turn|depending)";
                     result = special.match(new RegExp(getNumTurnsStr, 'i'));
-                    if (result[2] == 'completely' || result[2] == 'depending')
-                    {
+
+                    if (result[2] == 'completely' || result[2] == 'depending') {
                         turnsNeeded = 0;
                         return;
                     } else {
-                        NumOfTurns = result[3];
-                        if (NumOfTurns >= turnsNeeded) {
+                        var numOfTurns = result[3];
+
+                        // Check for Double Special
+                        var hasDoubleSpecial = false;
+                        if (unitDetail.potential) {
+                            var unitLbAbility = unitDetail.potential;
+
+                            for (var lba in unitLbAbility) {
+                                if (unitLbAbility[lba].Name === 'Double Special Activation') {
+                                    hasDoubleSpecial = true;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (hasDoubleSpecial)
+                            numOfTurns = numOfTurns * 2;
+
+                        if (numOfTurns >= turnsNeeded) {
                             turnsNeeded = 0;
                             return;
                         } else
-                            turnsNeeded -= NumOfTurns;
+                            turnsNeeded -= numOfTurns;
                     }
                 } else {
                     turnsNeeded = 0;
@@ -2254,8 +2279,9 @@ function putSuperNotMetMsg(teamId, msg, isFriend, capId) {
 
     if (capId == 3472 || capId == 3474 || capId == 3483)
         msgStr = msgStr + "Super special criteria potentially not met (can be met by another option): [<mark>" + msg + "</mark>]";
-    else 
+    else
         msgStr = msgStr + "Super special criteria not met: [<mark>" + msg + "</mark>]";
+
     msgDiv = ('<li class="team-build-msg warning">' + msgStr + '</li>');
     $(".team-note-div[data-team=" + teamId + "]").find(".team-note-list").append(msgDiv);
 }
@@ -2279,6 +2305,7 @@ $(document).ready(function() {
     if (localStorage.getItem('dontHaveMode') !== null) {
         dontHaveMode = localStorage.getItem('dontHaveMode');
         $('#dont-have-mode').val(dontHaveMode);
+
         if (dontHaveMode == 1) {
             $('#dont-have-div').css('visibility', 'hidden');
             $('#dont-have-div').css('height', '0');
@@ -3693,12 +3720,14 @@ $(document).ready(function() {
             if (Array.isArray(types)) {
                 for (type of types) {
                     searchStr = searchStr + "|" + type + " characters";
+
                     uniqueClasses.forEach(function(value) {
                         searchStr = searchStr + "|" + type + " " + value + " characters";
                     });
                 }
             } else {
                 searchStr = searchStr + "|" + types + " characters";
+
                 uniqueClasses.forEach(function(value) {
                     searchStr = searchStr + "|" + types + " " + value + " characters";
                 });
@@ -3712,11 +3741,10 @@ $(document).ready(function() {
 
             // Search for cost
             var cost = units[parseVsUnitId(origId)-1][4];
-            if (cost <= 29) {
+            if (cost <= 29)
                 searchStr = searchStr + "|cost 29 or less|cost 40 or less";
-            } else if (cost <= 40) {
+            else if (cost <= 40)
                 searchStr = searchStr + "|cost 40 or less";
-            }
 
             supportTable.column(0).search("").draw();
             supportTable.column(1).search(searchStr, true, false).draw();
