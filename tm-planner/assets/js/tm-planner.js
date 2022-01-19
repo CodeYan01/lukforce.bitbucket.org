@@ -3073,7 +3073,7 @@ $(document).ready(function() {
             });
         }
 
-        $('#total-pts').val(new Intl.NumberFormat().format(totalPts));
+        $('#total-pts').val(new Intl.NumberFormat().format(totalPts.toFixed(0)));
     });
 
     // Type filter
