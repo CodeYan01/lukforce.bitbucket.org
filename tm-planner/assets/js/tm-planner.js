@@ -2916,7 +2916,7 @@ $(document).ready(function() {
         else
             calUrl += '44';
 
-        calUrl += 'E0Q0L0G0R0S100H';
+        calUrl += 'E1365Q0L0G0R0S100H';
         window.open(calUrl);
     });
 
