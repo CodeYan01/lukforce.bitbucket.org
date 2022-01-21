@@ -2902,6 +2902,9 @@ $(document).ready(function() {
                     unitId = parseVsUnitIdForCalc(unitId);
 
                 calUrl += unitId + ':' + maxLv;
+
+                // Assume Max LB and 300 CC
+                calUrl += ':100:100:100:50:0:0';
             }
 
             if (i != team.length - 1)
