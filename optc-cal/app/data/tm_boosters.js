@@ -50,16 +50,6 @@ var tm_boosters = [
     3416,
     3527,
 
-    // ===== Tashigi =====
-    // Raids
-
-    // Coliseums
-
-    // Others
-    3511,
-    3518,
-    3520,
-
     // ===== ? =====
     // Raids
 
