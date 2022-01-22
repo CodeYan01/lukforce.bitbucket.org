@@ -235,7 +235,7 @@ var tms = {
         info: ''
     },
     3527: {
-        name: 'Tashigi (1-6am)',
+        name: 'Tashigi (1am ~ 6am)',
         thumb: 3527,
         info: 'cdn.discordapp.com/attachments/798165270584885268/931603085078433812/tm_tashigi_.png'
     },

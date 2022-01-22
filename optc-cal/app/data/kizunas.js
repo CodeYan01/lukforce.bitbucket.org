@@ -128,4 +128,8 @@ var kizunas = {
         thumb: 3419,
         xch_id: [3490, 3511]
     },
+    3532: {
+        name: 'Blackbeard (~ 6am)',
+        thumb: 3532
+    },
 };

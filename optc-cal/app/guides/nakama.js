@@ -468,6 +468,7 @@ var nakama = {
     3373: '9337300',    // MUGIWARA 56 Brook
     3397: '9339700',    // Jack
     3419: '9341900',    // Ivankov
+    3532: '9353200',    // Blackbeard
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

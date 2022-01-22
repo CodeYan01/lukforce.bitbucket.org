@@ -97,7 +97,7 @@ var specials = {
     },
     'bb_3520': {
         type: 'Blitz Battle',
-        name: 'Vs. Navy (1:00 - 5:59)',
+        name: 'Vs. Navy (1am ~ 6am)',
         thumb: 3520
     },
 

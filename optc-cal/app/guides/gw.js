@@ -468,6 +468,7 @@ var gw = {
     3373: '284628',     // MUGIWARA 56 Brook
     3397: '287986',     // Jack
     3419: '292216',     // Ivankov
+    3532: '',           // Blackbeard
 
     // Events
     'bb_1314': '61665', // Three Admirals
