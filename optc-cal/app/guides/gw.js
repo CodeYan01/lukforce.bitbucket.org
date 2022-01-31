@@ -534,6 +534,7 @@ var gw = {
     'ev_3400': '289313',// Girls' Party 2021
     'ev_3436': '293700',// Tobi Roppo Assemble
     'ev_3518': '',      // Drill Crushing Fist
+    'ev_3539': '',      // Dragon-Defending Drought
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama

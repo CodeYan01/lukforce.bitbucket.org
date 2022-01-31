@@ -865,4 +865,9 @@ var specials = {
         name: 'Drill Crushing Fist',
         thumb: 3518
     },
+    'ev_3539': {
+        type: 'Special Event',
+        name: 'Dragon-Defending Drought',
+        thumb: 3539
+    },
 }
