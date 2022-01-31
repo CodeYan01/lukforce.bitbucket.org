@@ -510,7 +510,7 @@ var nakama = {
     'ev_2799': '6279900',   // Wapol's Assault
     'ev_2918': '6291500',   // Fight for Flame-Flame Fruit
     'ev_2957': '6295700',   // Treasure Hunt of the Powerful
-    'ev_2988': '6298800',   // O-Toko
+    'ev_2988': '2298800',   // O-Toko
     'ev_3004': '6300400',   // Thriller Bark Warlords
     'ev_0738': '',          // Escape Enies Lobby
     'ev_0327': '',          // Snowy Winter Island Drum Kingdom
@@ -520,20 +520,20 @@ var nakama = {
     'ev_3108': '6310800',   // Party of Horror
     'ev_3122': '',          // Ichiban Kuji
     'ev_3135': '6313500',   // Brawl! Big Mom VS Kaido
-    'ev_3172': '6317100',   // Navy's Party Night
+    'ev_3172': '2317100',   // Navy's Party Night
     'ev_3177': '',          // Oden & Roger's Great Adventure
     'ev_3198': '',          // A Man's Pride
     'ev_3199': '',          // Binks's Brew
-    'ev_3222': '6323100',   // Hiyori & O-Toko
-    'ev_3262': '',          // End of an Era
-    'ev_3287': '6328000',   // Pirate Paradise
-    'ev_3304': '6330400',   // Bickering Cooperation
-    'ev_3346': '6334600',   // To Onigashima
-    'ev_3353': '6335300',   // Banaro Island
-    'ev_3382': '6338200',   // Plan to Raid Onigashima
+    'ev_3222': '2301700',   // Hiyori & O-Toko
+    'ev_3262': '2326200',   // End of an Era
+    'ev_3287': '2328000',   // Pirate Paradise
+    'ev_3304': '2330400',   // Bickering Cooperation
+    'ev_3346': '2334600',   // To Onigashima
+    'ev_3353': '2335300',   // Banaro Island
+    'ev_3382': '2338200',   // Plan to Raid Onigashima
     'ev_3400': '',          // Girls' Party 2021
     'ev_3436': '6343600',   // Tobi Roppo Assemble
-    'ev_3518': '6351800',   // Drill Crushing Fist
+    'ev_3518': '2351800',   // Drill Crushing Fist
     'ev_3539': '2353900',   // Dragon-Defending Drought
 
     'wa_2700': '',          // Land of Wano Kaido
