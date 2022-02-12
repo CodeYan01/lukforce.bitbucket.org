@@ -239,4 +239,9 @@ var tms = {
         thumb: 3527,
         info: 'cdn.discordapp.com/attachments/798165270584885268/931603085078433812/tm_tashigi_.png'
     },
+    3547: {
+        name: 'Perospero (1am ~ 6am)',
+        thumb: 3547,
+        info: ''
+    },
 };

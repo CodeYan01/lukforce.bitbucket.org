@@ -438,6 +438,7 @@ var gw = {
     3389: '287046',     // Dragon Kaido
     3416: '291120',     // Stussy
     3527: '',           // Tashigi
+    3547: '',           // Perospero
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
