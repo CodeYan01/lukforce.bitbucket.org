@@ -3394,13 +3394,13 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every 2 Turns',
                             action: [
-                                ['bind',            '5T, Random 1, Row 2 3']
+                                ['bind',            '5T, Row 2 3, Random 1']
                             ]
                         },
                         {
                             type: '<50%',
                             action: [
-                                ['blow-away',       '2T, Random 1, Row 1']
+                                ['blow-away',       '2T, Row 1, Random 1']
                             ]
                         },
                         {
@@ -4671,7 +4671,7 @@ var tm_opponents = {
                         {
                             type: '<20%',
                             action: [
-                                ['blow-away',       '3T, Random Row 1']
+                                ['blow-away',       '3T, Row 1, Random']
                             ]
                         }
                     ]

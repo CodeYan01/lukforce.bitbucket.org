@@ -2094,19 +2094,19 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
 }
 
 function checkTeamMiniGuideSpecialMet(teamId) {
-    team = $(".team[data-team=" + teamId +"]");
-    opId = team.data('op_id');
-    op = tm_opponents[tmId][opId];
+    var team = $(".team[data-team=" + teamId +"]");
+    var opId = team.data('op_id');
+    var op = tm_opponents[tmId][opId];
 
-    valuableSpecials = ['atk-down-red', 'bind-red', 'blind-red', 'burn-red',
+    var valuableSpecials = ['atk-down-red', 'bind-red', 'blind-red', 'burn-red',
     'cd-red', 'chain-down-red', 'chain-lock-red', 'def-red-e', 'def-perc-red-e',
     'def-thres-red-e', 'def-null-red-e', 'desp-red', 'dmg-up-red', 'para-red',
-    'resil-red-e', , 'silence-red',];
+    'resil-red-e', 'silence-red',];
 
-    valuableSpecialsWithoutTurns = ['chain-lock', 'def-down', 'dmg-eot', 'poison',
+    var valuableSpecialsWithoutTurns = ['chain-lock', 'def-down', 'dmg-eot', 'poison',
     'slot-change', 'slot-change-block'];
 
-    specialsNeeded = {};
+    var specialsNeeded = {};
 
     if (op && op.guide) {
         for (var gi in op.guide) {
@@ -2118,14 +2118,17 @@ function checkTeamMiniGuideSpecialMet(teamId) {
 
                 if (d.type === 'Preemp') {
                     for (ai in d.action) {
-                        a = d.action[ai];
+                        var a = d.action[ai];
                         var aCounter = counters[a[0]];
 
                         // For specials with turns
                         var turns = a[1].match(/([0-9])+T/i);
+                        var aPos = a[1].match(/Row +([1-3])/i);
                         if (turns && turns[1] != "99") {
                             var numOfTurns = turns[1];
+                            var isCaptainRow = (aPos == null || aPos[1] == '1');
 
+                            // Assume max Bind and Despair sockets
                             if (a[0] == 'bind' || a[0] == 'desp') {
                                 numOfTurns -= 3;
 
@@ -2137,7 +2140,7 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                 if (Array.isArray(aCounter)) {
                                     for (var ac in aCounter) {
                                         if (valuableSpecials.includes(aCounter[ac])) {
-                                            var newNumOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]], numOfTurns);
+                                            var newNumOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]], numOfTurns, isCaptainRow);
 
                                             if (newNumOfTurns < numOfTurns)
                                                 numOfTurns = newNumOfTurns;
@@ -2147,7 +2150,7 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                         }
                                     }
                                 } else {
-                                    numOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter], numOfTurns);
+                                    numOfTurns = checkTeamSpecialMet(teamId, filter_map_sp[aCounter], numOfTurns, isCaptainRow);
                                 }
 
                                 // Special not met
@@ -2170,24 +2173,25 @@ function checkTeamMiniGuideSpecialMet(teamId) {
 }
 
 function putGuideSpecialNotMetMsg(teamId, specialsNeeded) {
-    team = $(".team[data-team=" + teamId +"]");
-    msgStr = "&nbspCounter to Boss actions from Preemp may not be met (assuming max Bind and Despair sockets; currently not including CA, Super SP, Swap Effect, Sailor, and Support):<br>";
-    specialStr = "";
+    var team = $(".team[data-team=" + teamId +"]");
+    var msgStr = "&nbspCounter to Boss actions from Preemp may not be met (assuming max Bind and Despair sockets, and max Double Special; currently not including CA, Super SP, Swap Effect, Sailor, and Support):<br>";
+    var specialStr = "";
 
     for (var special in specialsNeeded) {
-        detail = specialsNeeded[special];
+        var detail = specialsNeeded[special];
 
         if (special != 'Change Orbs')
             special = icon_tooltips[special];
         specialStr += "[<mark>" + special + ": " + detail + "</mark>]&nbsp&nbsp&nbsp";
     }
-    msgDiv = ('<li class="team-build-msg warning">' + msgStr + specialStr + '</li>');
+
+    var msgDiv = ('<li class="team-build-msg warning">' + msgStr + specialStr + '</li>');
     $(".team-note-div[data-team=" + teamId + "]").find(".team-note-list").append(msgDiv);
 }
 
-function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
-    team = $(".team[data-team=" + teamId +"]");
-    turnsNeeded = requiredTurns;
+function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow) {
+    var team = $(".team[data-team=" + teamId +"]");
+    var turnsNeeded = requiredTurns;
 
     team.find(".booster, .booster-clone").each(function() {
         var unitId = $(this).data('id');
@@ -2216,6 +2220,19 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns) {
 
             if (specialRegex.test(special)) {
                 if (turnsNeeded) {
+                    // Special Case for Silence and CD Rewind
+                    var teamSlot = $(this).closest('.team-slot').data('slot');
+                    if (teamSlot == '0' || teamSlot == '1') {
+                        if (specialRegex === filter_map_sp['silence-red'] ||
+                            specialRegex === filter_map_sp['cd-red']) {
+                            // Unit is unable to negate the action as Captain
+                            if (isCaptainRow)
+                                return;
+                        }
+                    } else {
+                        // TODO: Check if sailor is sufficient
+                    }
+
                     specialRegexStr = specialRegex.toString();
                     getNumTurnsStr = specialRegexStr.substring(1, specialRegexStr.length - 2) + ".*?(completely|([0-9]+) turn|depending)";
                     result = special.match(new RegExp(getNumTurnsStr, 'i'));
