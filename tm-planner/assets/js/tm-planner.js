@@ -1174,7 +1174,7 @@ function populateUnitDetail(unitId) {
                 // Unit Sailor added by Limit Break
                 $('#unit-detail-sailor').empty();
 
-                if (isDual) {
+                if (isDual && sailor.combined) {
                     // Dual Units
                     var sailor1 = sailor.character1;
                     sailor1 = decorateStr(sailor1);
