@@ -3208,17 +3208,50 @@ $(document).ready(function() {
         classFilters = [];
         $('.class-filter').removeClass('selected');
 
-        if ($(this).val() == 2113) // Katakuri
+        if ($(this).val() == 2113) { // Katakuri
             classFilters.push('Fighter', 'Striker', 'Shooter', 'Cerebral', 'Powerhouse');
-        else if ($(this).val() == 2739) // Katakuri 6+
+            $('.class-filter.fighter-div').addClass('selected');
+            $('.class-filter.striker-div').addClass('selected');
+            $('.class-filter.shooter-div').addClass('selected');
+            $('.class-filter.cerebral-div').addClass('selected');
+            $('.class-filter.powerhouse-div').addClass('selected');
+        } else if ($(this).val() == 2739) { // Katakuri 6+
             classFilters.push('Slasher', 'Striker', 'Driven', 'Cerebral', 'Powerhouse');
-        else if ($(this).val() == 2365) // Katakuri v2
+            $('.class-filter.slasher-div').addClass('selected');
+            $('.class-filter.striker-div').addClass('selected');
+            $('.class-filter.driven-div').addClass('selected');
+            $('.class-filter.cerebral-div').addClass('selected');
+            $('.class-filter.powerhouse-div').addClass('selected');
+        } else if ($(this).val() == 2365) {  // Katakuri v2
             classFilters.push('Fighter', 'Slasher', 'Shooter', 'Driven', 'Powerhouse');
-        else if ($(this).val() == 2338) // Carrot
+            $('.class-filter.fighter-div').addClass('selected');
+            $('.class-filter.slasher-div').addClass('selected');
+            $('.class-filter.shooter-div').addClass('selected');
+            $('.class-filter.driven-div').addClass('selected');
+            $('.class-filter.powerhouse-div').addClass('selected');
+        } else if ($(this).val() == 2338) { // Carrot
             classFilters.push('Fighter', 'Slasher', 'Striker', 'Shooter', 'Cerebral');
-        else if ($(this).val() == 2336) // TM Law
+            $('.class-filter.fighter-div').addClass('selected');
+            $('.class-filter.slasher-div').addClass('selected');
+            $('.class-filter.striker-div').addClass('selected');
+            $('.class-filter.shooter-div').addClass('selected');
+            $('.class-filter.cerebral-div').addClass('selected');
+        } else if ($(this).val() == 3543) { // Carrot & Wanda
+            classFilters.push('Fighter', 'Slasher', 'Striker', 'Cerebral', 'Powerhouse');
+            $('.class-filter.fighter-div').addClass('selected');
+            $('.class-filter.slasher-div').addClass('selected');
+            $('.class-filter.striker-div').addClass('selected');
+            $('.class-filter.cerebral-div').addClass('selected');
+            $('.class-filter.powerhouse-div').addClass('selected');
+        } else if ($(this).val() == 2336) { // TM Law
             classFilters.push('Fighter', 'Slasher', 'Cerebral', 'Free Spirit',);
+            $('.class-filter.fighter-div').addClass('selected');
+            $('.class-filter.slasher-div').addClass('selected');
+            $('.class-filter.cerebral-div').addClass('selected');
+            $('.class-filter.free-spirit-div').addClass('selected');
+        }
 
+        $('#exclude-other-checkbox').addClass('selected');
         applyClassFilter(classFilters, excludeOtherClasses, true);
     });
 
