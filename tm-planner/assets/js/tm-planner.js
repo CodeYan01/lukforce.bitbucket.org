@@ -2878,27 +2878,29 @@ $(document).ready(function() {
         $(this).toggleClass('selected');
 
         // Activate actual Filter
-        var tcStr = $(this).data('tc');
+        if ($(this).hasClass('selected')) {
+            var tcStr = $(this).data('tc');
 
-        if ("All" != tcStr) {
-            var tcMatch = tcStr.match(/(STR|DEX|QCK|PSY|INT|Fighter|Slasher|Striker|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/g);
-            var tcTypes = [];
-            var tcClasses = [];
-            for (var i in tcMatch) {
-                var tc = tcMatch[i];
+            if ("All" != tcStr) {
+                var tcMatch = tcStr.match(/(STR|DEX|QCK|PSY|INT|Fighter|Slasher|Striker|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/g);
+                var tcTypes = [];
+                var tcClasses = [];
+                for (var i in tcMatch) {
+                    var tc = tcMatch[i];
 
-                if (tc.match(/(STR|DEX|QCK|PSY|INT)/g)) {
-                    tcTypes.push(tc);
-                    $('.type-filter.' + tc + '-div').addClass('selected');
-                } else {
-                    tcClasses.push(tc);
-                    var c = tc.replace(' ', '-').toLowerCase();
-                    $('.class-filter.' + c + '-div').addClass('selected');
+                    if (tc.match(/(STR|DEX|QCK|PSY|INT)/g)) {
+                        tcTypes.push(tc);
+                        $('.type-filter.' + tc + '-div').addClass('selected');
+                    } else {
+                        tcClasses.push(tc);
+                        var c = tc.replace(' ', '-').toLowerCase();
+                        $('.class-filter.' + c + '-div').addClass('selected');
+                    }
                 }
-            }
 
-            applyTypeFilter(tcTypes);
-            applyClassFilter(tcClasses, false, false);
+                applyTypeFilter(tcTypes);
+                applyClassFilter(tcClasses, false, false);
+            }
         }
     });
 
