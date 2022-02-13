@@ -498,7 +498,8 @@ button.cal-button:hover {
 #guide-interrupt-clone,
 #guide-sp-filter-clone,
 #guide-sl-filter-clone,
-#guide-ca-filter-clone {
+#guide-ca-filter-clone,
+#guide-tc-filter-clone {
     display: none;
 }
 
@@ -517,22 +518,29 @@ button.cal-button:hover {
 .guide-action-icon,
 .guide-sp-filter,
 .guide-sl-filter,
-.guide-ca-filter {
+.guide-ca-filter,
+.guide-tc-filter {
     float: left;
     height: 25px;
     margin: 5px;
     width: 25px;
 }
 
+.guide-tc-filter {
+    font-size: 10px;
+}
+
 .guide-sp-filter,
 .guide-sl-filter,
-.guide-ca-filter {
+.guide-ca-filter,
+.guide-tc-filter {
     opacity: .3;
 }
 
 .guide-sp-filter.selected,
 .guide-sl-filter.selected,
-.guide-ca-filter.selected {
+.guide-ca-filter.selected,
+.guide-tc-filter.selected {
     opacity: 1;
 }
 

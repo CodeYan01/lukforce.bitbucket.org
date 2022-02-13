@@ -1730,6 +1730,30 @@ function doLoadTeams() {
     }
 }
 
+function applyTypeFilter(typeFilters) {
+    if (typeFilters.length == 0) {
+        // Clear filters if no Type Filters are currently selected
+        $('.type-filtered').removeClass('type-filtered');
+    } else {
+        $('.booster, .booster-clone').each(function() {
+            var unitType = $(this).data('type');
+
+            if (Array.isArray(unitType)) {
+                if (typeFilters.indexOf(unitType[0]) !== -1 ||
+                        typeFilters.indexOf(unitType[1]) !== -1)
+                    $(this).removeClass('type-filtered');
+                else
+                    $(this).addClass('type-filtered');
+            } else {
+                if (typeFilters.indexOf(unitType) !== -1)
+                    $(this).removeClass('type-filtered');
+                else
+                    $(this).addClass('type-filtered');
+            }
+        });
+    }
+}
+
 function applyClassFilter(classFilters, excludeOtherClasses, excludeSingleClass) {
     if (classFilters.length == 0) {
         // Clear filters if no Class Filters are currently selected
@@ -2815,6 +2839,17 @@ $(document).ready(function() {
                                             createActionCounterBtn(guideActionClone, aCounter[ac]);
                                     } else
                                         createActionCounterBtn(guideActionClone, aCounter);
+                                } else if (a[0] === 'cd-red') {
+                                    var tcFilterClone = $('#guide-tc-filter-clone').clone();
+                                    tcFilterClone.attr('id', '');
+
+                                    var tcFilterBtn = tcFilterClone.find('.guide-tc-filter');
+                                    createTooltip(tcFilterBtn, "Filter these Units");
+
+                                    var tcStr = a[1].substring(a[1].indexOf(', ') + 2);
+                                    tcFilterBtn.data('tc', tcStr);
+
+                                    guideActionClone.find('.guide-filter-list').append(tcFilterClone);
                                 }
                             }
 
@@ -2832,6 +2867,38 @@ $(document).ready(function() {
             }
 
             $('#mini-guide-modal').modal();
+        }
+    });
+
+    // Activate Type Class Filter after clicking from Mini Guide
+    $(document).on('click', '.guide-tc-filter', function() {
+        clearTypeFilters();
+        clearClassFilters();
+
+        $(this).toggleClass('selected');
+
+        // Activate actual Filter
+        var tcStr = $(this).data('tc');
+
+        if ("All" != tcStr) {
+            var tcMatch = tcStr.match(/(STR|DEX|QCK|PSY|INT|Fighter|Slasher|Striker|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/g);
+            var tcTypes = [];
+            var tcClasses = [];
+            for (var i in tcMatch) {
+                var tc = tcMatch[i];
+
+                if (tc.match(/(STR|DEX|QCK|PSY|INT)/g)) {
+                    tcTypes.push(tc);
+                    $('.type-filter.' + tc + '-div').addClass('selected');
+                } else {
+                    tcClasses.push(tc);
+                    var c = tc.replace(' ', '-').toLowerCase();
+                    $('.class-filter.' + c + '-div').addClass('selected');
+                }
+            }
+
+            applyTypeFilter(tcTypes);
+            applyClassFilter(tcClasses, false, false);
         }
     });
 
@@ -3138,27 +3205,7 @@ $(document).ready(function() {
             typeFilters.push(filter);
         }
 
-        if (typeFilters.length == 0) {
-            // Clear filters if no Type Filters are currently selected
-            $('.type-filtered').removeClass('type-filtered');
-        } else {
-            $('.booster, .booster-clone').each(function() {
-                var unitType = $(this).data('type');
-
-                if (Array.isArray(unitType)) {
-                    if (typeFilters.indexOf(unitType[0]) !== -1 ||
-                            typeFilters.indexOf(unitType[1]) !== -1)
-                        $(this).removeClass('type-filtered');
-                    else
-                        $(this).addClass('type-filtered');
-                } else {
-                    if (typeFilters.indexOf(unitType) !== -1)
-                        $(this).removeClass('type-filtered');
-                    else
-                        $(this).addClass('type-filtered');
-                }
-            });
-        }
+        applyTypeFilter(typeFilters);
     });
 
     // Name filter
@@ -3225,47 +3272,22 @@ $(document).ready(function() {
         classFilters = [];
         $('.class-filter').removeClass('selected');
 
-        if ($(this).val() == 2113) { // Katakuri
+        if ($(this).val() == 2113) // Katakuri
             classFilters.push('Fighter', 'Striker', 'Shooter', 'Cerebral', 'Powerhouse');
-            $('.class-filter.fighter-div').addClass('selected');
-            $('.class-filter.striker-div').addClass('selected');
-            $('.class-filter.shooter-div').addClass('selected');
-            $('.class-filter.cerebral-div').addClass('selected');
-            $('.class-filter.powerhouse-div').addClass('selected');
-        } else if ($(this).val() == 2739) { // Katakuri 6+
+        else if ($(this).val() == 2739) // Katakuri 6+
             classFilters.push('Slasher', 'Striker', 'Driven', 'Cerebral', 'Powerhouse');
-            $('.class-filter.slasher-div').addClass('selected');
-            $('.class-filter.striker-div').addClass('selected');
-            $('.class-filter.driven-div').addClass('selected');
-            $('.class-filter.cerebral-div').addClass('selected');
-            $('.class-filter.powerhouse-div').addClass('selected');
-        } else if ($(this).val() == 2365) {  // Katakuri v2
+        else if ($(this).val() == 2365) // Katakuri v2
             classFilters.push('Fighter', 'Slasher', 'Shooter', 'Driven', 'Powerhouse');
-            $('.class-filter.fighter-div').addClass('selected');
-            $('.class-filter.slasher-div').addClass('selected');
-            $('.class-filter.shooter-div').addClass('selected');
-            $('.class-filter.driven-div').addClass('selected');
-            $('.class-filter.powerhouse-div').addClass('selected');
-        } else if ($(this).val() == 2338) { // Carrot
+        else if ($(this).val() == 2338) // Carrot
             classFilters.push('Fighter', 'Slasher', 'Striker', 'Shooter', 'Cerebral');
-            $('.class-filter.fighter-div').addClass('selected');
-            $('.class-filter.slasher-div').addClass('selected');
-            $('.class-filter.striker-div').addClass('selected');
-            $('.class-filter.shooter-div').addClass('selected');
-            $('.class-filter.cerebral-div').addClass('selected');
-        } else if ($(this).val() == 3543) { // Carrot & Wanda
+        else if ($(this).val() == 3543) // Carrot & Wanda
             classFilters.push('Fighter', 'Slasher', 'Striker', 'Cerebral', 'Powerhouse');
-            $('.class-filter.fighter-div').addClass('selected');
-            $('.class-filter.slasher-div').addClass('selected');
-            $('.class-filter.striker-div').addClass('selected');
-            $('.class-filter.cerebral-div').addClass('selected');
-            $('.class-filter.powerhouse-div').addClass('selected');
-        } else if ($(this).val() == 2336) { // TM Law
+        else if ($(this).val() == 2336) // TM Law
             classFilters.push('Fighter', 'Slasher', 'Cerebral', 'Free Spirit',);
-            $('.class-filter.fighter-div').addClass('selected');
-            $('.class-filter.slasher-div').addClass('selected');
-            $('.class-filter.cerebral-div').addClass('selected');
-            $('.class-filter.free-spirit-div').addClass('selected');
+
+        for (var cf in classFilters) {
+            cf = cf.replace(' ', '-').toLowerCase();
+            $('.class-filter.' + cf + '-div').addClass('selected');
         }
 
         $('#exclude-other-checkbox').addClass('selected');
@@ -3461,12 +3483,12 @@ $(document).ready(function() {
         var target = $(this).data('target');
 
         if ('type' === target) {
-            clearTypeFilters(typeFilters);
+            clearTypeFilters();
             typeFilters = [];
         } else if ('name' === target) {
             clearNameFilter();
         } else if ('class' === target) {
-            clearClassFilters(classFilters);
+            clearClassFilters();
             classFilters = [];
         } else if ('special' === target) {
             clearSpecialFilters();
