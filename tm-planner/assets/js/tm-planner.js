@@ -3285,7 +3285,8 @@ $(document).ready(function() {
         else if ($(this).val() == 2336) // TM Law
             classFilters.push('Fighter', 'Slasher', 'Cerebral', 'Free Spirit',);
 
-        for (var cf in classFilters) {
+        for (var i in classFilters) {
+            var cf = classFilters[i];
             cf = cf.replace(' ', '-').toLowerCase();
             $('.class-filter.' + cf + '-div').addClass('selected');
         }
