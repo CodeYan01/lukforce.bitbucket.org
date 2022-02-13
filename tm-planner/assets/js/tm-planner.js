@@ -1415,12 +1415,13 @@ function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
         if (isAmbushClone) {
             cloneType = 'ambush_clone';
             clone.addClass('booster-ambush-fc');
-        } else
+        } else {
             cloneType = 'ambush';
-    }
-    else {
-        clone.addClass('booster-fc');
+            clone.addClass('booster-ambush');
+        }
+    } else {
         cloneType = 'clone';
+        clone.addClass('booster-fc');
     }
 
     clone.attr('id', 'booster-clone_' + origId + '_' + cloneType);
@@ -3668,8 +3669,8 @@ $(document).ready(function() {
                     to_list = $("#" + evt.to.id);
                     from_list = $("#" + evt.from.id);
 
-                    to_list.find( ".booster-fc" ).remove();
-                    to_list.find( ".booster, .non-booster" ).each(function() {
+                    to_list.find('.booster-ambush').remove();
+                    to_list.find('.booster, .non-booster').each(function() {
                         if ($(this).attr("id") != item.attr("id")) {
                             if (assigned) {
                                 from_list.append($(this));
