@@ -737,7 +737,7 @@ function init(tmId, server) {
     else
         $('#last-save').html('N/A');
 
-    for (teamId = 0; teamId < 6; teamId++)
+    for (var teamId = 0; teamId < 6; teamId++)
         doTeamBuildCheck(teamId);
 
     return true;
@@ -787,7 +787,7 @@ function resetAll() {
     $('.booster-clone').remove();
 
     // Reset Team status notes
-    for (teamId = 0; teamId < 6; teamId++)
+    for (var teamId = 0; teamId < 6; teamId++)
         doTeamBuildCheck(teamId);
 
     updateAllPts();
@@ -1564,7 +1564,7 @@ function doSave(tmId, server) {
     localStorage.setItem('supports_' + tmId + serverStr, JSON.stringify(supports));
 }
 
-function doLoadTeams() {
+function doLoad(tmId) {
     var lastSave = localStorage.getItem('lastSave_' + tmId);
 
     if (lastSave !== null) {
@@ -1638,7 +1638,7 @@ function doLoadTeams() {
                                 var teamSlot = $('#team-slot-' + teamNum + i);
 
                                 if (b.length != 0) // is Booster
-                                    createCloneInSlot(b, teamSlot, false);
+                                    createCloneInSlot(b, teamSlot, true);
                                 else { // Non-Booster
                                     imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
                                     teamSlot.append(imgDiv);
@@ -1724,8 +1724,8 @@ function doLoadTeams() {
 
         updateAllPts();
 
-        //Init Team guide specials not met
-        for (teamId = 0; teamId < 6; teamId++)
+        // Init Team guide specials not met
+        for (var teamId = 0; teamId < 6; teamId++)
             doTeamBuildCheck(teamId);
     }
 }
@@ -2460,7 +2460,7 @@ $(document).ready(function() {
                                     var teamSlot = $('#team-slot-' + teamNum + i);
 
                                     if (b.length != 0) // is Booster
-                                        createCloneInSlot(b, teamSlot, false);
+                                        createCloneInSlot(b, teamSlot, true);
                                     else { // Non-Booster
                                         imgDiv = getNonBoosterImg(unitId, teamSlot.closest('.team').data('team'));
                                         teamSlot.append(imgDiv);
@@ -2556,8 +2556,8 @@ $(document).ready(function() {
 
             updateAllPts();
 
-            //Init Team guide specials not met
-            for (teamId = 0; teamId < 6; teamId++)
+            // Init Team guide specials not met
+            for (var teamId = 0; teamId < 6; teamId++)
                 doTeamBuildCheck(teamId);
 
             // Disable controls
@@ -2580,7 +2580,8 @@ $(document).ready(function() {
             tmId = parsedTmId;
             init(parsedTmId, server);
         }
-        doLoadTeams();
+
+        doLoad(tmId);
     }
 
     // Set Don't Have Mode
@@ -3029,7 +3030,7 @@ $(document).ready(function() {
 
     // Load teams
     $('#load-button').click(function() {
-        doLoadTeams();
+        doLoad(tmId);
     });
 
     // Reset teams
@@ -3749,8 +3750,7 @@ $(document).ready(function() {
                     if (to_list.data('slot') == 0) {
                         removeSupport(to_list.attr("id").slice(-2));
                         removeSupport(from_list.attr("id").slice(-2));
-                    }
-                    else // Swap support inside Ambush team
+                    } else // Swap support inside Ambush team
                         swapSupport();
                 } else {
                     createCloneInSlot(item, to_list, true);
@@ -3767,6 +3767,7 @@ $(document).ready(function() {
 
                 if (from_list.hasClass('ambush-team-slot'))
                     doTeamBuildCheck(from_list.closest('.team').data('team'));
+
                 doTeamBuildCheck(to_list.closest('.team').data('team'));
             },
             onEnd: function() {
