@@ -726,8 +726,9 @@ function init(tmId, server) {
         $('#first-team').addClass('offset-md-1');
     }
 
-    $('.booster-clone').remove();
-    updateAllPts();
+    resetAll();
+    doLoad(tmId);
+
     $('#export-url-div').hide();
 
     // Retrieve last save time
@@ -2581,8 +2582,6 @@ $(document).ready(function() {
             tmId = parsedTmId;
             init(parsedTmId, server);
         }
-
-        doLoad(tmId);
     }
 
     // Set Don't Have Mode
