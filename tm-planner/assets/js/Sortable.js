@@ -2988,29 +2988,33 @@
   _extends(Remove, {
     pluginName: 'removeOnSpill'
   });
-  
+
   function ResetPosition() {}
 
   ResetPosition.prototype = {
     onSpill: function onSpill(_ref5) {
       var dragEl = _ref5.dragEl,
           putSortable = _ref5.putSortable;
+
       var parentSortable = putSortable || this.sortable;
       parentSortable.captureAnimationState();
+
       var item = $('#' + dragEl.id);
       var needCheck = !item.hasClass("assigned-dh");
-      from_list = item.closest('.team-slot, .ambush-team-slot');
-      if(item.hasClass('booster-clone')) {
+      if (item.hasClass('booster-clone')) {
           var id = item.closest(".team-slot, .ambush-team-slot").attr("id");
-          if(id)
-            removeSupport(id.slice(-2));
+
+          if (id)
+              removeSupport(id.slice(-2));
+
           $('#booster-clone_' + item.data("id") + '_clone').remove();
           item.remove();
-      }
-      else
+      } else
           resetPosition(item);
+
       if (needCheck)
-        doTeamBuildCheck(from_list.closest('.team').data('team'));
+          doTeamBuildCheck(from_list.closest('.team').data('team'));
+
       parentSortable.animateAll();
     },
     drop: drop

@@ -3659,6 +3659,7 @@ $(document).ready(function() {
                 resetPositionOnSpill: true, // Reset booster to original position it is spilled
                 onStart: function (/**Event*/evt) {
                     var item = $("#" + evt.item.id);
+                    from_list = item.closest('.team-slot, .ambush-team-slot');
                     item.tooltip('hide');
                 },
                 onAdd: function(evt) {
@@ -3733,6 +3734,11 @@ $(document).ready(function() {
             delay: 60, // time in milliseconds to define when the sorting should start
             delayOnTouchOnly: true,
             resetPositionOnSpill: true, // Reset booster to original position it is spilled
+            onStart: function (/**Event*/evt) {
+                var item = $("#" + evt.item.id);
+                from_list = item.closest('.team-slot, .ambush-team-slot');
+                item.tooltip('hide');
+            },
             onAdd: function(evt) {
                 var item = $("#" + evt.item.id);
                 to_list = $("#" + evt.to.id);
