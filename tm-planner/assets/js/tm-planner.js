@@ -3892,7 +3892,7 @@ $(document).ready(function() {
                 searchStr = searchStr + "|cost 40 or less";
 
             supportTable.column(0).search("").draw();
-            supportTable.column(1).search(searchStr, true, false).draw();
+            supportTable.column(1).search('^(' + searchStr + ')$', true, false).draw();
         } else {
             supportTable.column(0).search("No Results").draw();
         }
