@@ -1833,9 +1833,13 @@ function modifyCharStyle(chars) {
     chars = chars.replace(/\]/g, "");
 
     if (chars.indexOf("character") != -1 || chars.indexOf("Character") != -1) {
+        chars = "[" + chars;
+
         chars = chars.replace(/character\b/ig, "characters");
-        chars = chars.replace(/\,/g, " characters,");
-        chars = chars.replace(/and/g, "characters and");
+        chars = chars.replace(/\, /g, " characters, [");
+        chars = chars.replace(/and /g, "characters and [");
+
+        chars = chars.replace(/characters/g, "characters]");
     }
 
     return chars;
@@ -3852,29 +3856,29 @@ $(document).ready(function() {
         var unit = teamSlot.find(".booster, .booster-clone");
 
         if (unit.length > 0) {
-            var searchStr = "All characters";
+            var searchStr = "\\[All characters\\]";
             var origId = unit.data("id");
             uniqueClasses = getClassesForUnit(origId);
 
             uniqueClasses.forEach(function(value) {
-                searchStr = searchStr + "|" + value + " characters";
+                searchStr = searchStr + "|\\[" + value + " characters\\]";
             });
 
             // Search for type
             types = getTypesForUnit(origId, unit.data('type'));
             if (Array.isArray(types)) {
                 for (type of types) {
-                    searchStr = searchStr + "|" + type + " characters";
+                    searchStr = searchStr + "|\\[" + type + " characters\\]";
 
                     uniqueClasses.forEach(function(value) {
-                        searchStr = searchStr + "|" + type + " " + value + " characters";
+                        searchStr = searchStr + "|\\[" + type + " " + value + " characters\\]";
                     });
                 }
             } else {
-                searchStr = searchStr + "|" + types + " characters";
+                searchStr = searchStr + "|\\[" + types + " characters\\]";
 
                 uniqueClasses.forEach(function(value) {
-                    searchStr = searchStr + "|" + types + " " + value + " characters";
+                    searchStr = searchStr + "|\\[" + types + " " + value + " characters\\]";
                 });
             }
 
