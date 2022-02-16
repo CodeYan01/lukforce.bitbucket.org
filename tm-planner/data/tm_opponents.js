@@ -8034,6 +8034,19 @@ var tm_opponents = {
                                 ['def-thres',       '4T, 90%, 1000'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['desp',            '5T'],
+                                ['blow-away',       '99+T, Random 2']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
+                            ]
                         }
                     ]
                 }
@@ -8076,6 +8089,14 @@ var tm_opponents = {
                                 ['heal',            '1'],
                                 ['hp-cut',          '30%']
                             ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['bar-color',       '20T, 2x, Random'],
+                                ['slot-change',     'PSY/INT/TND'],
+                                ['blow-away',       '99+T, Random 1']
+                            ]
                         }
                     ]
                 }
@@ -8112,6 +8133,19 @@ var tm_opponents = {
                                 ['def',             '5T, 10000x'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 1, Every 3 Turns',
+                            action: [
+                                ['hp-cut',          '30%']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['blow-away',       '99+T, Random 2'],
+                                ['slot-change',     'Bad']
+                            ]
                         }
                     ]
                 }
@@ -8146,6 +8180,18 @@ var tm_opponents = {
                                 ['def-thres',       '2T, 90%, 1000'],
                                 ['immu-all',        '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['atk-down',        '5T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['blow-away',       '99+T, Random 1']
+                            ]
                         }
                     ]
                 }
@@ -8169,7 +8215,7 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
+                    boss: ['Ulti & Page One', 'STR'],
                     hp: 0,
                     atk: 0,
                     detail: [
@@ -8180,6 +8226,13 @@ var tm_opponents = {
                                 ['para',            '5T, Row 1'],
                                 ['resil',           '5T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['para',            '5T'],
+                                ['desp',            '5T']
                             ]
                         }
                     ]
@@ -8198,6 +8251,25 @@ var tm_opponents = {
                                 ['def-null',        '1T'],
                                 ['def-perc',        '5T, 90%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['def-thres',       '4T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['bar-hit',         '99+T, 20x'],
+                                ['heal',            '80%']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
@@ -8222,7 +8294,7 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
+                    boss: ['Perospero', 'STR'],
                     hp: 0,
                     atk: 0,
                     detail: [
@@ -8239,8 +8311,15 @@ var tm_opponents = {
                         {
                             type: 'ON DEATH (0%)',
                             action: [
-                                ['heal',            '100%'],
                                 ['cd-rew',          '3T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['slot-change',     'Random'],
+                                ['slot-lock',       '1x Good'],
+                                ['Ship Bind',       '5T']
                             ]
                         }
                     ]
@@ -8258,6 +8337,27 @@ var tm_opponents = {
                                 ['slot-bind',       '5T, Row 1'],
                                 ['bar-color',       '10T, 4x, STR'],
                                 ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['para',            '3T'],
+                                ['slot-block',      'All'],
+                                ['resil',           '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['slot-bind',       '3T'],
+                                ['clear-buff',      'Super']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
