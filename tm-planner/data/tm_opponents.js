@@ -8073,6 +8073,7 @@ var tm_opponents = {
                         {
                             type: 'ON DEATH (0%)',
                             action: [
+                                ['heal',            '1'],
                                 ['hp-cut',          '30%']
                             ]
                         }
