@@ -696,7 +696,7 @@ function getOpponents(tmId, server) {
 var from_list = "";
 var to_list = "";
 var tmId = 0;
-function init(tmId, server) {
+function init(tmId, server, isTransfer) {
     clearTeamNotes();
     $('#tm-select').val(tmId + '_' + server);
     $('.tm-select').text($("#tm-select option:selected").text());
@@ -727,7 +727,9 @@ function init(tmId, server) {
     }
 
     resetAll();
-    doLoad(tmId);
+
+    if (!isTransfer)
+        doLoad(tmId);
 
     $('#export-url-div').hide();
 
@@ -2391,7 +2393,7 @@ $(document).ready(function() {
         tmId = getUrlParameter('tmId');
         var serverTmp = 'glb'; // Used after content merge
 
-        if ((serverTmp == 'glb' || serverTmp == 'jpn') && init(tmId, serverTmp)) {
+        if ((serverTmp == 'glb' || serverTmp == 'jpn') && init(tmId, serverTmp, true)) {
             if ((tmId > 1889 && server == 'glb') || (tmId > 2064 && server == 'jpn')) {
                 var opponents = tm_opponents[tmId];
 
