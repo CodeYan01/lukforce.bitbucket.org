@@ -8023,7 +8023,7 @@ var tm_opponents = {
                     stageNum: 3,
                     boss: ['Kaido', 'QCK'],
                     hp: 1200000,
-                    atk: 0,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8072,7 +8072,7 @@ var tm_opponents = {
                     stageNum: 3,
                     boss: ['King', 'DEX'],
                     hp: 1200000,
-                    atk: 0,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8122,7 +8122,7 @@ var tm_opponents = {
                     stageNum: 3,
                     boss: ['Queen', 'QCK'],
                     hp: 1200000,
-                    atk: 0,
+                    atk: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8171,7 +8171,7 @@ var tm_opponents = {
                     stageNum: 3,
                     boss: ['Jack', 'INT'],
                     hp: 500000,
-                    atk: 0,
+                    atk: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8217,7 +8217,7 @@ var tm_opponents = {
                     stageNum: 2,
                     boss: ['Ulti & Page One', 'STR'],
                     hp: 1300000,
-                    atk: 0,
+                    atk: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8241,7 +8241,7 @@ var tm_opponents = {
                     stageNum: 3,
                     boss: ['O-Lin', 'QCK'],
                     hp: 2500000,
-                    atk: 0,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8296,7 +8296,7 @@ var tm_opponents = {
                     stageNum: 2,
                     boss: ['Perospero', 'STR'],
                     hp: 1560000,
-                    atk: 0,
+                    atk: 7200,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8328,7 +8328,7 @@ var tm_opponents = {
                     stageNum: 3,
                     boss: ['Perospero', 'QCK'],
                     hp: 2750000,
-                    atk: 0,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
