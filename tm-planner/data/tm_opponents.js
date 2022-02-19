@@ -8022,7 +8022,7 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Kaido', 'QCK'],
-                    hp: 0,
+                    hp: 1200000,
                     atk: 0,
                     detail: [
                         {
@@ -8071,7 +8071,7 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['King', 'DEX'],
-                    hp: 0,
+                    hp: 1200000,
                     atk: 0,
                     detail: [
                         {
@@ -8121,7 +8121,7 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Queen', 'QCK'],
-                    hp: 0,
+                    hp: 2400000,
                     atk: 0,
                     detail: [
                         {
@@ -8170,7 +8170,7 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Jack', 'INT'],
-                    hp: 0,
+                    hp: 500000,
                     atk: 0,
                     detail: [
                         {
@@ -8216,7 +8216,7 @@ var tm_opponents = {
                 {
                     stageNum: 2,
                     boss: ['Ulti & Page One', 'STR'],
-                    hp: 0,
+                    hp: 1300000,
                     atk: 0,
                     detail: [
                         {
@@ -8240,7 +8240,7 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['O-Lin', 'QCK'],
-                    hp: 0,
+                    hp: 2500000,
                     atk: 0,
                     detail: [
                         {
@@ -8295,7 +8295,7 @@ var tm_opponents = {
                 {
                     stageNum: 2,
                     boss: ['Perospero', 'STR'],
-                    hp: 0,
+                    hp: 1560000,
                     atk: 0,
                     detail: [
                         {
@@ -8327,7 +8327,7 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Perospero', 'QCK'],
-                    hp: 0,
+                    hp: 2750000,
                     atk: 0,
                     detail: [
                         {
