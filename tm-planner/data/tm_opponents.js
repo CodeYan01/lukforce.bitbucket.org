@@ -8121,7 +8121,7 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Queen', 'QCK'],
-                    hp: 2400000,
+                    hp: 1200000,
                     atk: 0,
                     detail: [
                         {
