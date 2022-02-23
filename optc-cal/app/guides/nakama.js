@@ -471,6 +471,7 @@ var nakama = {
     3397: '9339700',    // Jack
     3419: '9341900',    // Ivankov
     3532: '9353200',    // Blackbeard
+    3551: '9355100',    // Chopper
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

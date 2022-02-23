@@ -471,6 +471,7 @@ var gw = {
     3397: '287986',     // Jack
     3419: '292216',     // Ivankov
     3532: '',           // Blackbeard
+    3551: '',           // Chopper
 
     // Events
     'bb_1314': '61665', // Three Admirals
