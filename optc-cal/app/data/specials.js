@@ -100,6 +100,11 @@ var specials = {
         name: 'Vs. Navy (1am ~ 6am)',
         thumb: 3520
     },
+    'bb_3560': {
+        type: 'Blitz Battle',
+        name: 'Samurai Vs. Dragon (1am ~ 6am)',
+        thumb: 3560
+    },
 
     'wc_2401': {
         type: 'World Clash',
