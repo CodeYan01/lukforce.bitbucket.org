@@ -870,4 +870,9 @@ var specials = {
         name: 'Dragon-Defending Drought',
         thumb: 3539
     },
+    'ev_3559': {
+        type: 'Special Event',
+        name: 'Disloyal Retainers',
+        thumb: 3559
+    },
 }
