@@ -795,7 +795,7 @@ function resetAll() {
     for (var teamId = 0; teamId < 6; teamId++)
         doTeamBuildCheck(teamId);
 
-    updateAllPts();
+    updateAllInfo();
 }
 
 function parseLbStats(unitId) {
@@ -1527,6 +1527,61 @@ function updateAllPts() {
     });
 }
 
+function calculateTargetPts() {
+    var targetPts = Number($('#target-pts').val());
+    const baseMain = 4000;
+    const growthMain = 200;
+    const baseMini = 1000;
+    const growthMini = 50;
+
+    var navLv = 0;
+    var totalPts = 0;
+
+    while (totalPts < targetPts) {
+        $('.team').each(function() {
+            var multiplier = Number($(this).find('.x_pts').text());
+
+            if (Number($(this).data('team')) < 4)
+                totalPts += multiplier * (baseMini + growthMini * navLv) * 1.5
+            else
+                totalPts += multiplier * (baseMain + growthMain * navLv) * 1.5
+        });
+
+        navLv++;
+    }
+
+    $('#target-pts-lv').val(navLv);
+}
+
+function calculateNavLv() {
+    var navLv = Number($('#nav-lv').val());
+    const baseMain = 4000;
+    const growthMain = 200;
+    const baseMini = 1000;
+    const growthMini = 50;
+
+    var totalPts = 0;
+
+    for (var i = 0; i < navLv; i++) {
+        $('.team').each(function() {
+            var multiplier = Number($(this).find('.x_pts').text());
+
+            if (Number($(this).data('team')) < 4)
+                totalPts += multiplier * (baseMini + growthMini * i) * 1.5
+            else
+                totalPts += multiplier * (baseMain + growthMain * i) * 1.5
+        });
+    }
+
+    $('#total-pts').val(new Intl.NumberFormat().format(totalPts.toFixed(0)));
+}
+
+function updateAllInfo() {
+    updateAllPts();
+    calculateTargetPts();
+    calculateNavLv();
+}
+
 function doSave(tmId, server) {
     var teams = {};
 
@@ -1733,7 +1788,7 @@ function doLoad(tmId) {
             }
         }
 
-        updateAllPts();
+        updateAllInfo();
 
         // Init Team guide specials not met
         for (var teamId = 0; teamId < 6; teamId++)
@@ -2569,7 +2624,7 @@ $(document).ready(function() {
                 }
             }
 
-            updateAllPts();
+            updateAllInfo();
 
             // Init Team guide specials not met
             for (var teamId = 0; teamId < 6; teamId++)
@@ -2721,7 +2776,7 @@ $(document).ready(function() {
         }
         doTeamBuildCheck(to_list.closest('.team').data('team'));
 
-        updateAllPts();
+        updateAllInfo();
         $('#unit-modal').modal('hide');
 
         // Hide tooltip on click
@@ -2974,9 +3029,7 @@ $(document).ready(function() {
         updatePts($(this));
     });
 
-    $('#pts-all-button').click(function() {
-        updateAllPts();
-    });
+    $('#pts-all-button').click(updateAllPts);
 
     // DB Calculator button
     $('.cal-button').click(function() {
@@ -3158,55 +3211,9 @@ $(document).ready(function() {
         $('.not-read-only').prop('disabled', false);
     });
 
-    // Nav Lv Calculation
-    $('#target-pts').change(function() {
-        var targetPts = Number($(this).val());
-        const baseMain = 4000;
-        const growthMain = 200;
-        const baseMini = 1000;
-        const growthMini = 50;
-
-        var navLv = 0;
-        var totalPts = 0;
-
-        while (totalPts < targetPts) {
-            $('.team').each(function() {
-                var multiplier = Number($(this).find('.x_pts').text());
-
-                if (Number($(this).data('team')) < 4)
-                    totalPts += multiplier * (baseMini + growthMini * navLv) * 1.5
-                else
-                    totalPts += multiplier * (baseMain + growthMain * navLv) * 1.5
-            });
-
-            navLv++;
-        }
-
-        $('#target-pts-lv').val(navLv);
-    });
-
-    $('#nav-lv').change(function() {
-        var navLv = Number($(this).val());
-        const baseMain = 4000;
-        const growthMain = 200;
-        const baseMini = 1000;
-        const growthMini = 50;
-
-        var totalPts = 0;
-
-        for (var i = 0; i < navLv; i++) {
-            $('.team').each(function() {
-                var multiplier = Number($(this).find('.x_pts').text());
-
-                if (Number($(this).data('team')) < 4)
-                    totalPts += multiplier * (baseMini + growthMini * i) * 1.5
-                else
-                    totalPts += multiplier * (baseMain + growthMain * i) * 1.5
-            });
-        }
-
-        $('#total-pts').val(new Intl.NumberFormat().format(totalPts.toFixed(0)));
-    });
+    // Target Pts / Nav Lv Calculation
+    $('#target-pts').change(calculateTargetPts);
+    $('#nav-lv').change(calculateNavLv);
 
     // Type filter
     var typeFilters = [];
@@ -3718,7 +3725,7 @@ $(document).ready(function() {
                     if (to_list.data('slot') == 1 && !item.hasClass("booster-clone"))
                         mirrorToFriendCap(to_list.closest('.team'), item, true);
 
-                    updateAllPts();
+                    updateAllInfo();
 
                     if (from_list.hasClass('team-slot'))
                         doTeamBuildCheck(from_list.closest('.team').data('team'));
@@ -3726,7 +3733,7 @@ $(document).ready(function() {
                     doTeamBuildCheck(to_list.closest('.team').data('team'));
                 },
                 onEnd: function(evt) {
-                    updateAllPts();
+                    updateAllInfo();
                 }
             });
         }
@@ -3782,7 +3789,7 @@ $(document).ready(function() {
                 if (to_list.data('slot') == 1)
                     mirrorToFriendCap(to_list.closest('.team'), item, true, true);
 
-                updateAllPts();
+                updateAllInfo();
 
                 if (from_list.hasClass('ambush-team-slot'))
                     doTeamBuildCheck(from_list.closest('.team').data('team'));
@@ -3790,7 +3797,7 @@ $(document).ready(function() {
                 doTeamBuildCheck(to_list.closest('.team').data('team'));
             },
             onEnd: function() {
-                updateAllPts();
+                updateAllInfo();
             }
         });
     }
