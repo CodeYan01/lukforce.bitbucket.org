@@ -439,6 +439,7 @@ var nakama = {
     3416: '8341600',    // Stussy
     3527: '8352700',    // Tashigi
     3547: '8354700',    // Perospero
+    3567: '8356700',    // Kanjuro
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)

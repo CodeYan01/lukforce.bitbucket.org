@@ -439,6 +439,7 @@ var gw = {
     3416: '291120',     // Stussy
     3527: '',           // Tashigi
     3547: '',           // Perospero
+    3567: '',           // Kanjuro
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
