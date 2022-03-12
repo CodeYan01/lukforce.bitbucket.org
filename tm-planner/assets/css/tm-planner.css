@@ -54,7 +54,8 @@
     margin-bottom: 10px;
 }
 
-#unit-detail-sp-cd-span {
+#unit-detail-sp-cd-span,
+#unit-cost-div {
     font-size: 13px;
 }
 

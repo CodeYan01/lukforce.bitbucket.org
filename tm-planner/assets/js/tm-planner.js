@@ -957,6 +957,9 @@ function populateUnitDetail(unitId) {
             'fighter-div slasher-div striker-div shooter-div free-spirit-div cerebral-div powerhouse-div driven-div'
         );
 
+        // Cost
+        $('#unit-cost').text(units[unitId - 1][4]);
+
         // Check for Dual Unit / VS Unit
         var isDual = unitDetail.swap != null;
         var isVS = unitDetail.VSSpecial != null;
