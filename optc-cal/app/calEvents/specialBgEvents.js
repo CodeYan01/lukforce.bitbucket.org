@@ -3542,4 +3542,9 @@ var specialBgEvents = [
         start: '2022-02-25',
         pst_19: true
     },
+    {
+        id: 'sp_100',
+        start: '2022-03-11',
+        pst_19: true
+    },
 ]
