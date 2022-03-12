@@ -127,7 +127,8 @@ img.highlight {
 .available-units-el,
 .units-in-team-el,
 .units-assigned-el,
-.unit-detail-el {
+.unit-detail-el,
+#non-booster-div {
     display: none;
 }
 

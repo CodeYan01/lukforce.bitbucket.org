@@ -1243,6 +1243,7 @@ function populateUnitModal(src, selectedId, assigned) {
     $('#units-assigned').empty();
     $('.unit-detail-el').hide();
     $('#unit-modal-title').empty();
+    $('#non-booster-div').hide();
     $("#non-booster-unit").val("");
 
     if (selectedId !== 0) {
@@ -1256,6 +1257,7 @@ function populateUnitModal(src, selectedId, assigned) {
     }
 
     if (src) {
+        $('#non-booster-div').css('display', 'flex');
         $("#non-booster-unit").data('src', src);
 
         var boosterList = $('.booster').not('.assigned, .assigned-dh, .type-filtered, .class-filtered');
