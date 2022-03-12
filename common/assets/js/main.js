@@ -74,11 +74,10 @@ function getThumb(thumbId) {
     if (
         paddedThumbId === '3111' ||
         paddedThumbId === '9999' ||
-        paddedThumbId === '3543' ||
-        paddedThumbId === '3544' ||
-        paddedThumbId === '3545' ||
-        paddedThumbId === '3546' ||
-        paddedThumbId === '3547'
+        paddedThumbId === '3563' ||
+        paddedThumbId === '3564' ||
+        paddedThumbId === '3565' ||
+        paddedThumbId === '3567'
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
