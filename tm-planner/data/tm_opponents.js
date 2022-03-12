@@ -7956,7 +7956,7 @@ var tm_opponents = {
                                 ['slot-block',      'All'],
                                 ['cd-rew',          '1T, Row 2 3'],
                                 ['chain-down',      '99+T, 0.5x'],
-                                ['chain-atk-down',  '99+T, 2x+ Chain, 90%'],
+                                ['chain-atk-down',  '99+T, <2x Chain, 90%'],
                                 ['slot-neg',        '99+T, Color'],
                                 ['immu-def',        '99+T']
                             ]
@@ -8277,8 +8277,8 @@ var tm_opponents = {
             ]
         },
         3547: {
-            name: ['Perospero'],
-            type: ['QCK'],
+            name: 'Perospero',
+            type: 'QCK',
             pos: 5,
             guide: [
                 {
@@ -8358,6 +8358,280 @@ var tm_opponents = {
                             type: '<20%',
                             action: [
                                 ['dmg-normal',      'Deadly']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
+
+    // ========== Kanjuro ==========
+    3567: {
+        3431: {
+            name: 'Sasaki',
+            type: 'STR',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, DEX/QCK/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Sasaki', 'STR'],
+                    hp: 1200000,
+                    atk: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '5T, 90%'],
+                                ['para',            '5T'],
+                                ['chain-atk-down',  '99+T, >3x Chain, 90%'],
+                                ['resil',           '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3434: {
+            name: 'Black Maria',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Driven/Slasher/Free Spirit']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Black Maria', 'QCK'],
+                    hp: 1200000,
+                    atk: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '8T'],
+                                ['atk-boost',       '3T, 1.1x'],
+                                ['orb-boost',       '3T, 1.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Interrupt - Slot Change',
+                            action: [
+                                ['slot-change',     'Random Color'],
+                                ['slot-lock',       '2x Good']
+                            ]
+                        },
+                        {
+                            type: 'ON DEATH (0%)',
+                            action: [
+                                ['heal',            '100%'],
+                                ['nao',             '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3435: {
+            name: 'Who\'s Who',
+            type: 'INT',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Shooter/Slasher/Free Spirit']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Who\'s Who', 'INT'],
+                    hp: 1200000,
+                    atk: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'Block/Bad/EMPTY'],
+                                ['bind',            '8T, Row 1'],
+                                ['silence',         '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3436: {
+            name: 'X Drake',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['X Drake', 'INT'],
+                    hp: 500000,
+                    atk: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '5T, Row 3'],
+                                ['para',            '3T, Row 2'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3433: {
+            name: 'Ulti & Page One',
+            type: 'STR',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, DEX/QCK/PSY']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 1300000,
+                    atk: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '5T, 90%'],
+                                ['para',            '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Ulti & Page One', 'STR'],
+                    hp: 2500000,
+                    atk: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '8T'],
+                                ['slot-change',     'Bad'],
+                                ['def-thres',       '5T, 90%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Interrupt - Orb Boost',
+                            action: [
+                                ['hp-cut',          '50%'],
+                                ['clear-buff',      'Normal']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3567: {
+            name: 'Kanjuro',
+            type: 'STR',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '8T, Slasher/Free Spirit/Shooter']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 1560000,
+                    atk: 7200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['chain-atk-down',  '5T, <2.5x Chain, 90%'],
+                                ['def-perc',        '4T, 90%'],
+                                ['def',             '4T, 1000x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Kanjuro', 'STR'],
+                    hp: 2750000,
+                    atk: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '70%'],
+                                ['silence',         '6T'],
+                                ['chain-lock',      '3T, 1.1x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'ON DEATH (0%)',
+                            action: [
+                                ['dmg-normal',      '80,000']
                             ]
                         }
                     ]
