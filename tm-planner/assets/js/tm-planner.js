@@ -3919,9 +3919,9 @@ $(document).ready(function() {
         var names = getWholeTeamFamilyName($(this).closest('.team').data('team'));
         var nameStr = "^";
 
-        for (name of names) {
-            nameStr = nameStr + "(?!.*" + name + ")";
-        }
+        for (name of names)
+            nameStr = nameStr + "(?!.*(^|,)" + name + "($|,))";
+
         nameStr += ".*$";
         supportTable.column(3).search(nameStr, true, false).draw();
         $("#support-character-modal").modal();
