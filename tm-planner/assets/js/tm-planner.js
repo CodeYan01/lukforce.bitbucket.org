@@ -2211,7 +2211,19 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                 var i = 0;
 
                 if (d.type === 'Preemp') {
-                    for (ai in d.action) {
+                    // Gather Immnuity types
+                    var immuTypes = [];
+                    for (var ai in d.action) {
+                        var a = d.action[ai];
+                        if (
+                            a[0] === 'immu-all' ||
+                            a[0] === 'immu-def' ||
+                            a[0] === 'immu-poison'
+                        )
+                            immuTypes.push(a[0]);
+                    }
+
+                    for (var ai in d.action) {
                         var a = d.action[ai];
                         var aCounter = counters[a[0]];
 
@@ -2223,7 +2235,7 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                             var isCaptainRow = (aPos == null || aPos[1] == '1');
 
                             // Assume max Bind and Despair sockets
-                            if (a[0] == 'bind' || a[0] == 'desp') {
+                            if (a[0] === 'bind' || a[0] === 'desp') {
                                 numOfTurns -= 3;
 
                                 if (numOfTurns <= 0)
@@ -2239,7 +2251,7 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                             if (newNumOfTurns < numOfTurns)
                                                 numOfTurns = newNumOfTurns;
                                         } else if (valuableSpecialsWithoutTurns.includes(aCounter[ac])) {
-                                            if (checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]]) == 0)
+                                            if (checkTeamSpecialMet(teamId, filter_map_sp[aCounter[ac]], null, false, immuTypes) == 0)
                                                 numOfTurns = 0;
                                         }
                                     }
@@ -2248,11 +2260,10 @@ function checkTeamMiniGuideSpecialMet(teamId) {
                                 }
 
                                 // Special not met
-                                if (numOfTurns > 0) {
-                                    specialsNeeded[a[0]] = numOfTurns + (numOfTurns == 1 ? " turn" : " turns");
-                                }
+                                if (numOfTurns > 0)
+                                    specialsNeeded[a[0]] = numOfTurns + (numOfTurns == 1 ? ' turn' : ' turns');
                             }
-                        } else if (aCounter && valuableSpecialsWithoutTurns.includes(aCounter)) { // For specials slot-change/slot-block
+                        } else if (aCounter && valuableSpecialsWithoutTurns.includes(aCounter)) { // For specials slot-change / slot-block
                             if (checkTeamSpecialMet(teamId, filter_map_sp[aCounter]) != 0)
                                 specialsNeeded["Change Orbs"] = a[1];
                         }
@@ -2283,7 +2294,7 @@ function putGuideSpecialNotMetMsg(teamId, specialsNeeded) {
     $(".team-note-div[data-team=" + teamId + "]").find(".team-note-list").append(msgDiv);
 }
 
-function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow) {
+function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow, immuTypes) {
     var team = $(".team[data-team=" + teamId +"]");
     var turnsNeeded = requiredTurns;
 
@@ -2360,14 +2371,22 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow) 
                             turnsNeeded -= numOfTurns;
                     }
                 } else {
-                    turnsNeeded = 0;
+                    // Special Case for counters blocked by immunity
+                    if (typeof immuTypes !== 'undefined' && immuTypes.length > 0) {
+                        if (specialRegex === filter_map_sp['def-down'] && (immuTypes.includes('immu-all') || immuTypes.includes('immu-def')))
+                            turnsNeeded = 1;
+                        else if (specialRegex === filter_map_sp['poison'] && (immuTypes.includes('immu-all') || immuTypes.includes('immu-def')))
+                            turnsNeeded = 1;
+                    } else
+                        turnsNeeded = 0;
+
                     return;
                 }
             }
         }
     });
 
-    return (typeof turnsNeeded === "undefined") ? 1 : turnsNeeded;
+    return typeof turnsNeeded === "undefined" ? 1 : turnsNeeded;
 }
 
 function checkSuperSpecialCriteria(teamId) {
