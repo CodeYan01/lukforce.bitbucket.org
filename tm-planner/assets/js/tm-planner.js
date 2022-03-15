@@ -3839,13 +3839,7 @@ $(document).ready(function() {
     var supportTable = $('#support-table').DataTable({
         "data": supportUnits,
         "columns": [
-            { "data": "id",
-              "render": function (data) {
-                var imageDiv = $("<div></div>");
-                imageDiv.append(createImgHtml(getThumb(data), 40, false));
-                return imageDiv.html();
-              }
-            },
+            { "data": "id" },
             { "data": "supportChar" },
             { "data": "supportDescription" },
             { "data": "name" }
@@ -3860,6 +3854,11 @@ $(document).ready(function() {
         "autoWidth": false,
         "search": {
             "regex": true
+        },
+        "rowCallback": function(row, data, index) {
+            var imageDiv = $("<div></div>");
+            imageDiv.append(createImgHtml(getThumb(data.id), 40, false));
+            $('td:eq(0)', row).html(imageDiv);
         }
     });
 
