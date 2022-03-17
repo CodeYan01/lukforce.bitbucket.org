@@ -8399,6 +8399,20 @@ var tm_opponents = {
                                 ['resil',           '5T'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['hp-cut',          '30%'],
+                                ['para',            '5T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 5',
+                            action: [
+                                ['heal',            '?'],
+                                ['silence',         '5T, Row 2 3']
+                            ]
                         }
                     ]
                 }
@@ -8448,6 +8462,12 @@ var tm_opponents = {
                                 ['heal',            '100%'],
                                 ['nao',             '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 2, Every 2 Turns',
+                            action: [
+                                ['blow-away',       '99+T, Random 2']
+                            ]
                         }
                     ]
                 }
@@ -8483,6 +8503,18 @@ var tm_opponents = {
                                 ['silence',         '5T'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 1, Every Turn After',
+                            action: [
+                                ['slot-block',      'Block/Bad/EMPTY']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['heal',            '?']
+                            ]
                         }
                     ]
                 }
@@ -8517,6 +8549,19 @@ var tm_opponents = {
                                 ['para',            '3T, Row 2'],
                                 ['immu-all',        '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['para',            '3T, Row 1'],
+                                ['chain-lock',      '3T, 1.1x']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['hp-cut',          '50%']
+                            ]
                         }
                     ]
                 }
@@ -8540,7 +8585,7 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
+                    boss: ['Page One', 'STR'],
                     hp: 1300000,
                     atk: 6600,
                     detail: [
@@ -8550,6 +8595,12 @@ var tm_opponents = {
                                 ['atk-down',        '5T, 90%'],
                                 ['para',            '5T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['bind',            '8T, Row 3']
                             ]
                         }
                     ]
@@ -8575,6 +8626,25 @@ var tm_opponents = {
                                 ['hp-cut',          '50%'],
                                 ['clear-buff',      'Normal']
                             ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['bar-gd',          '5T, 3x']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['para',            '10T'],
+                                ['clear-buff',      'Normal']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
+                            ]
                         }
                     ]
                 }
@@ -8598,7 +8668,7 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
+                    boss: ['Orochi', 'INT'],
                     hp: 1560000,
                     atk: 7200,
                     detail: [
@@ -8609,6 +8679,13 @@ var tm_opponents = {
                                 ['def-perc',        '4T, 90%'],
                                 ['def',             '4T, 1000x'],
                                 ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['slot-bind',       '5T'],
+                                ['Ship Bind',       '5T']
                             ]
                         }
                     ]
@@ -8632,6 +8709,19 @@ var tm_opponents = {
                             type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '80,000']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['clear-buff',      'Normal'],
+                                ['blow-away',       '5T, Col R']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
