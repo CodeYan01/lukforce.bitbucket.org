@@ -3231,7 +3231,11 @@ $(document).ready(function() {
     });
 
     // Target Pts / Nav Lv Calculation
-    $('#target-pts').change(calculateTargetPts);
+    $('#target-pts-dd').change(function() {
+        $('#target-pts').val($(this).val());
+        calculateTargetPts();
+    });
+
     $('#nav-lv').change(calculateNavLv);
 
     // Type filter

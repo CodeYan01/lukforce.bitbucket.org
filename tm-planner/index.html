@@ -1388,7 +1388,15 @@
                     <div class="form-row">
                         <label for="target-pts" class="col-6 col-form-label col-form-label-sm text-right">Target Pts: </label>
                         <div class="col-6">
-                            <input type="number" class="form-control form-control-sm" id="target-pts" placeholder="Calculate Nav Lv needed">
+                            <select class="form-control form-control-sm" id="target-pts-dd">
+                                <option value="10000000" selected>10M</option>
+                                <option value="1000000">1M</option>
+                                <option value="3000000">3M</option>
+                                <option value="5000000">5M</option>
+                                <option value="7000000">7M</option>
+                            </select>
+
+                            <input type="hidden" class="form-control form-control-sm" id="target-pts" value="10000000">
                         </div>
                     </div>
                 </div>
