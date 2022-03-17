@@ -1901,7 +1901,7 @@ function modifyCharStyle(chars) {
         chars = chars.replace(/\, /g, " characters, [");
         chars = chars.replace(/and /g, "characters and [");
 
-        chars = chars.replace(/characters/g, "characters]");
+        chars = chars.replace(/characters/ig, "characters]");
     }
 
     return chars;
