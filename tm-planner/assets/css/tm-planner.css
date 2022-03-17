@@ -551,6 +551,12 @@ button.cal-button:hover {
     white-space: nowrap;
 }
 
+.boss-stat-unconfirmed-msg {
+    display: none;
+    font-size: 13px;
+    color: salmon;
+}
+
 #incomplete-notice {
     display: none;
 }

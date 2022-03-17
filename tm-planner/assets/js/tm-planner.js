@@ -2881,10 +2881,22 @@ $(document).ready(function() {
                     if (g.boss) {
                         guideStageClone.find('.guide-boss').text(g.boss[0]);
                         guideStageClone.find('.guide-boss').addClass(g.boss[1]);
-                        guideStageClone.find('.guide-boss-hp').text(new Intl.NumberFormat().format(g.hp));
-                        guideStageClone.find('.guide-boss-hp-base').val(g.hp);
-                        guideStageClone.find('.guide-boss-atk').text(new Intl.NumberFormat().format(g.atk));
-                        guideStageClone.find('.guide-boss-atk-base').val(g.atk);
+
+                        var bossHp = g.hp;
+                        var bossAtk = g.atk;
+
+                        if (bossHp == 0 || bossAtk == 0) {
+                            bossHp = g.hp_;
+                            bossAtk = g.atk_;
+                            guideStageClone.find('.boss-stat-unconfirmed-msg').css('display', 'flex');
+                        } else {
+                            guideStageClone.find('.boss-stat-unconfirmed-msg').hide();
+                        }
+
+                        guideStageClone.find('.guide-boss-hp').text(new Intl.NumberFormat().format(bossHp));
+                        guideStageClone.find('.guide-boss-hp-base').val(bossHp);
+                        guideStageClone.find('.guide-boss-atk').text(new Intl.NumberFormat().format(bossAtk));
+                        guideStageClone.find('.guide-boss-atk-base').val(bossAtk);
                     } else {
                         guideStageClone.find('.guide-boss').hide();
                         guideStageClone.find('.guide-boss-hp-div').hide();

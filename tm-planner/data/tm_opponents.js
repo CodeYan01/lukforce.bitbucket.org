@@ -8387,8 +8387,10 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Sasaki', 'STR'],
-                    hp: 1200000,
-                    atk: 6000,
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8437,8 +8439,10 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Black Maria', 'QCK'],
-                    hp: 1200000,
-                    atk: 6000,
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8492,8 +8496,10 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Who\'s Who', 'INT'],
-                    hp: 1200000,
-                    atk: 6000,
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8539,8 +8545,10 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['X Drake', 'INT'],
-                    hp: 500000,
-                    atk: 4000,
+                    hp: 0,
+                    atk: 0,
+                    hp_: 500000,
+                    atk_: 4000,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8586,8 +8594,10 @@ var tm_opponents = {
                 {
                     stageNum: 2,
                     boss: ['Page One', 'STR'],
-                    hp: 1300000,
-                    atk: 6600,
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1300000,
+                    atk_: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8669,8 +8679,10 @@ var tm_opponents = {
                 {
                     stageNum: 2,
                     boss: ['Orochi', 'INT'],
-                    hp: 1560000,
-                    atk: 7200,
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1560000,
+                    atk_: 7200,
                     detail: [
                         {
                             type: 'Preemp',
@@ -8693,8 +8705,10 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Kanjuro', 'STR'],
-                    hp: 2750000,
-                    atk: 9600,
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2750000,
+                    atk_: 9600,
                     detail: [
                         {
                             type: 'Preemp',
