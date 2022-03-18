@@ -2885,12 +2885,18 @@ $(document).ready(function() {
                         var bossHp = g.hp;
                         var bossAtk = g.atk;
 
-                        if (bossHp == 0 || bossAtk == 0) {
+                        if (bossHp == 0) {
                             bossHp = g.hp_;
-                            bossAtk = g.atk_;
-                            guideStageClone.find('.boss-stat-unconfirmed-msg').css('display', 'flex');
+                            guideStageClone.find('#boss-hp-unconfirmed').css('display', 'flex');
                         } else {
-                            guideStageClone.find('.boss-stat-unconfirmed-msg').hide();
+                            guideStageClone.find('#boss-hp-unconfirmed').hide();
+                        }
+
+                        if (bossAtk == 0) {
+                            bossAtk = g.atk_;
+                            guideStageClone.find('#boss-atk-unconfirmed').css('display', 'flex');
+                        } else {
+                            guideStageClone.find('#boss-atk-unconfirmed').hide();
                         }
 
                         guideStageClone.find('.guide-boss-hp').text(new Intl.NumberFormat().format(bossHp));
