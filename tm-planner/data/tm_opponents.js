@@ -8387,9 +8387,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Sasaki', 'STR'],
-                    hp: 0,
+                    hp: 1200000,
                     atk: 0,
-                    hp_: 1200000,
                     atk_: 6000,
                     detail: [
                         {
@@ -8439,9 +8438,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Black Maria', 'QCK'],
-                    hp: 0,
+                    hp: 500000,
                     atk: 0,
-                    hp_: 1200000,
                     atk_: 6000,
                     detail: [
                         {
