@@ -473,6 +473,7 @@ var gw = {
     3419: '292216',     // Ivankov
     3532: '',           // Blackbeard
     3551: '',           // Chopper
+    3572: '',           // Orochi
 
     // Events
     'bb_1314': '61665', // Three Admirals
