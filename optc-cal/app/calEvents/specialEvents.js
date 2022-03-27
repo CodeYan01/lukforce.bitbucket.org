@@ -1917,4 +1917,27 @@ var specialEvents = [
         end: '2022-03-06',
         pst_0: true
     },
+    {
+        id: 'ev_3579',
+        start: '2022-03-26',
+        pst_0: true
+    },
+    {
+        id: 'ev_3579',
+        start: '2022-03-27',
+        end: '2022-04-03',
+        pst_0: true
+    },
+    {
+        id: 'ev_3579',
+        start: '2022-04-03',
+        end: '2022-04-10',
+        pst_0: true
+    },
+    {
+        id: 'ev_3579',
+        start: '2022-04-10',
+        end: '2022-04-12',
+        pst_0: true
+    },
 ]

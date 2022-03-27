@@ -542,6 +542,7 @@ var gw = {
     'ev_3518': '',      // Drill Crushing Fist
     'ev_3539': '',      // Dragon-Defending Drought
     'ev_3559': '',      // Disloyal Retainers
+    'ev_3579': '',      // Triceratops's Armored Division
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama

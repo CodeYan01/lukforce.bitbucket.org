@@ -880,4 +880,9 @@ var specials = {
         name: 'Disloyal Retainers',
         thumb: 3559
     },
+    'ev_3579': {
+        type: 'Special Event',
+        name: 'Triceratops\'s Armored Division',
+        thumb: 3579
+    },
 }

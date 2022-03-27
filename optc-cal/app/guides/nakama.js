@@ -542,6 +542,7 @@ var nakama = {
     'ev_3518': '2351800',   // Drill Crushing Fist
     'ev_3539': '2353900',   // Dragon-Defending Drought
     'ev_3559': '2355900',   // Disloyal Retainers
+    'ev_3579': '2357900',   // Triceratops's Armored Division
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama
