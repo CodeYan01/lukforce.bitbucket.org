@@ -445,9 +445,9 @@ function showFooter() {
 
             if (!isPST
                 && (
-                    id === 'sugo'
-                    || id === 'free_pull'
-                    || e['pst_19']
+                    id === 'sugo' ||
+                    (id === 'free_pull' && typeof e['pst_19'] === 'undefined') ||
+                    e['pst_19']
                 )
             ) {
                 var startDate = moment(start);

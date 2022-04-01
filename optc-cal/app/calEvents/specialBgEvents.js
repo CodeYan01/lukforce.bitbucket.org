@@ -3547,4 +3547,9 @@ var specialBgEvents = [
         start: '2022-03-11',
         pst_19: true
     },
+    {
+        id: 'free_pull',
+        start: '2022-04-01',
+        pst_19: false
+    },
 ]
