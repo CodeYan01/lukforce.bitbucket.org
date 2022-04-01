@@ -21,6 +21,7 @@ function getThumb(thumbId) {
     // Zero pad IDs to get correct thumb
     var paddedThumbId = ('0000' + thumbId).slice(-4);
 
+/*
     // Special case for Aokiji 575 with extra 0
     if (paddedThumbId === '0575')
         paddedThumbId = "0" + paddedThumbId;
@@ -28,10 +29,11 @@ function getThumb(thumbId) {
     // Special case for PFRR Stussy 3000 with extra _1
     if (paddedThumbId === '3000')
         paddedThumbId = paddedThumbId + "_1";
+*/
 
     // Special case for Kung Fu Luffy
     if (paddedThumbId === '5014' || paddedThumbId === '4987')
-        return 'https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png';
+        return '/tm-planner/assets/img/new-thumbs/5014.png';
 
     // Special case for Log Vivi
     if (paddedThumbId === '5030' || paddedThumbId === '4989')
@@ -81,7 +83,12 @@ function getThumb(thumbId) {
     )
         return '/tm-planner/assets/img/new-thumbs/' + thumbId + '.png';
 
-    return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + paddedThumbId + '.png';
+    // Official Site down temp
+    var digit4 = Math.floor(thumbId / 1000);
+    var digit3 = Math.floor((thumbId - digit4 * 1000) / 100) + '00';
+
+    //return 'https://onepiece-treasurecruise.com/wp-content/uploads/f' + paddedThumbId + '.png';
+    return 'https://optc-db.github.io/api/images/thumbnail/jap/' + digit4 + '/' + digit3 + '/' + paddedThumbId + '.png';
 }
 
 function createImgHtml(imgSrc, size, floatLeft) {
