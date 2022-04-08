@@ -8741,4 +8741,282 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Ulti ==========
+    3588: {
+        2062: {
+            name: 'Apoo',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Apoo', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 500000,
+                    atk_: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['atk-down',        '3T, 90%'],
+                                ['silence',         '2T'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3498: {
+            name: 'O-Lin',
+            type: 'DEX',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Driven/Powerhouse/Shooter']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['O-Lin', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'TND/Bad'],
+                                ['desp',            '7T'],
+                                ['nao',             '99+T'],
+                                ['atk-down',        '4T, 90%'],
+                                ['def',             '4T, 1000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3547: {
+            name: 'Perospero',
+            type: 'INT',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Cerebral/Striker/Free Spirit']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Perospero', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['slot-bind',       '2T'],
+                                ['resil',           '5T'],
+                                ['bar-color',       '1T, 2x, PSY'],
+                                ['nao',             '99+T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3580: {
+            name: ['Haw', 'kins'],
+            type: ['STR', 'INT'],
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/QCK/PSY']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Hawkins', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['type-change',     'STR/INT'],
+                                ['slot-block',      'Block/Bad'],
+                                ['silence',         '5T'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3508: {
+            name: ['Kaido & ', 'Lead Performers'],
+            type: ['QCK', 'INT'],
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, DEX/QCK/PSY']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1300000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '8T'],
+                                ['slot-change',     'Poison, Row 2 3'],
+                                ['poison',          '99+T, 3000'],
+                                ['resil',           '5T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Kaido & Lead Performers', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2500000,
+                    atk_: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['type-change',     'QCK/INT'],
+                                ['atk-down',        '8T, 90%'],
+                                ['para',            '3T'],
+                                ['def-thres',       '5T, 90%, 1000'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3588: {
+            name: 'Ulti',
+            type: 'STR',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '8T, Slasher/Free Spirit/Shooter']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1560000,
+                    atk_: 7200,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '8T'],
+                                ['hp-cut',          '80%'],
+                                ['def',             '5T, 15000x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Ulti', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2750000,
+                    atk_: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['dmg-normal',      '30,000'],
+                                ['cd-rew',          '1T, Row 1'],
+                                ['cd-rew',          '2T, Row 2 3'],
+                                ['chain-atk-down',  '5T, <3.2x Chain, 90%'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Interrupt - Atk Boost, Orb Boost',
+                            action: [
+                                ['blow-away',       '99+T, Random 2 Sailor']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };

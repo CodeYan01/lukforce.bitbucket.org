@@ -451,10 +451,12 @@ function getBoosters(tmId, server) {
         $('#info_1_2x_alt').show();
     } else if (
         tmId == 3389 ||
-        tmId == 3416
+        tmId == 3416 ||
+        tmId == 3588
     ) {
         // TM Dragon Kaido
         // TM Stussy
+        // TM Ulti
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
