@@ -441,6 +441,7 @@ var gw = {
     3527: '',           // Tashigi
     3547: '',           // Perospero
     3567: '',           // Kanjuro
+    3588: '',           // Ulti
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
