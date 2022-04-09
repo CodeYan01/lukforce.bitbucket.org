@@ -485,7 +485,7 @@ const Dogra = [ "Dogra" ];
 const Wadatsumi = [ "Wadatsumi" ];
 const Inuarashi = [ "Inuarashi", "Dogstorm", "Doggo" ];
 const Wanda = [ "Wanda" ];
-const Sicilian = [ "Sicilian" ];
+const Sicilian = [ "Sicilian", "Shishilian" ];
 const KozukiMomonosuke = [ "Kozuki Momonosuke" ];
 const Ryuboshi = [ "Ryuboshi" ];
 const Manboshi = [ "Manboshi" ];
@@ -542,7 +542,7 @@ const CharlotteCracker = [ "Charlotte Cracker" ];
 const CharlotteOpera = [ "Charlotte Opera" ];
 const Jack = [ "Jack" ];
 const Roddy = [ "Roddy" ];
-const Blackback = [ "Blackback" ];
+const Blackback = [ "Blackback", "BB" ];
 const Miyagi = [ "Miyagi" ];
 const Tristan = [ "Tristan" ];
 const Guardians = [ "Guardians" ];
@@ -642,7 +642,7 @@ const Yamato = [ "Yamato" ];
 const Sasaki = [ "Sasaki" ];
 const Ulti = [ "Ulti" ];
 const BlackMaria = [ "Black Maria" ];
-const WhosWho = [ "Who's Who", "Whos Who", "WhosWho" ];
+const WhosWho = [ "Who's Who", "Whos Who", "WhosWho", "Who's-Who" ];
 const Concelot = [ "Concelot" ];
 const Giovanni = [ "Giovanni" ];
 const Milky = [ "Milky" ];
@@ -4131,7 +4131,29 @@ window.families = {
     3563: [ ...Izo, ...Kikunojo ],
     3564: [ ...Inuarashi ],
     3565: [ ...Nekomamushi ],
+    3566: [ ...Broggy ],
     3567: [ ...KurozumiKanjuro ],
+    3568: [ ...KozukiHiyori ],
+    3569: [ ...Shinobu ],
+    3570: [ ...Toko ],
+    3571: [ ...KurozumiOrochi ],
+    3572: [ ...KurozumiOrochi ],
+    3573: [ ...Franky, ...TonyTonyChopper ],
+    3574: [ ...Franky, ...TonyTonyChopper ],
+    3575: [ ...Brook ],
+    3576: [ ...Brook ],
+    3577: [ ...NicoRobin ],
+    3578: [ ...VinsmokeSanji ],
+    3579: [ ...Sasaki ],
+    3580: [ ...BasilHawkins ],
+    3581: [ ...Urouge ],
+    3582: [ ...Urouge ],
+    3583: [ ...Dorry ],
+    3584: [ ...Nami ],
+    3585: [ ...Tama ],
+    3586: [ ...Usopp ],
+    3587: [ ...DonquixoteDoflamingo ],
+    3588: [ ...Ulti ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
@@ -4537,6 +4559,30 @@ const ghostFamilies = {
     386: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
     387: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
     388: [ ...MonkeyDLuffy, ...RoronoaZoro, ...Nami, ...Usopp, ...VinsmokeSanji, ...TonyTonyChopper, ...NicoRobin, ...Franky, ...Brook, ...Jinbe ],
+    389: [ ...Carrot, ...Wanda ],
+    390: [ ...Carrot, ...Wanda ],
+    391: [ ...Carrot, ...Wanda ],
+    392: [ ...Carrot, ...Wanda ],
+    393: [ ...Carrot, ...Wanda ],
+    394: [ ...Carrot, ...Wanda ],
+    395: [ ...Carrot, ...Wanda ],
+    396: [ ...Carrot, ...Wanda ],
+    397: [ ...Kinemon, ...Denjiro ],
+    398: [ ...Kinemon, ...Denjiro ],
+    399: [ ...Kinemon, ...Denjiro ],
+    400: [ ...Kinemon, ...Denjiro ],
+    401: [ ...Kinemon, ...Denjiro ],
+    402: [ ...Kinemon, ...Denjiro ],
+    403: [ ...Kinemon, ...Denjiro ],
+    404: [ ...Kinemon, ...Denjiro ],
+    405: [ ...Franky, ...TonyTonyChopper ],
+    406: [ ...Franky, ...TonyTonyChopper ],
+    407: [ ...Franky, ...TonyTonyChopper ],
+    408: [ ...Franky, ...TonyTonyChopper ],
+    409: [ ...Franky, ...TonyTonyChopper ],
+    410: [ ...Franky, ...TonyTonyChopper ],
+    411: [ ...Franky, ...TonyTonyChopper ],
+    412: [ ...Franky, ...TonyTonyChopper ],
 }
 
 Object.keys(ghostFamilies).forEach(function (key) {
