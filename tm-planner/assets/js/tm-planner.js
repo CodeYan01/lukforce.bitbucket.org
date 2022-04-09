@@ -3732,6 +3732,9 @@ $(document).ready(function() {
                     to_list = $("#" + evt.to.id);
                     from_list = $("#" + evt.from.id);
 
+                    if (evt.to.id.charAt(11) == '0')
+                        $(".booster-fc").remove();
+
                     to_list.find('.booster-ambush').remove();
                     to_list.find('.booster, .non-booster').each(function() {
                         if ($(this).attr("id") != item.attr("id")) {
