@@ -1,6 +1,6 @@
 var filter_map_sp = {
     'atk-boost':                /boosts( own ATK| ATK of)/i,
-    'orb-boost':                /amplifies.+orb/i,
+    'orb-boost':                /(amplifies.+orb|boost.+Orb Effects)/i,
     'affinity':                 /Boosts the Color Affinity/i,
     'atk-delay':                /Boosts ATK.+against.+delayed.+enemies/i,
     'atk-def-down':             /Boosts ATK.+against.+enemies.+reduced defense/i,
