@@ -476,6 +476,7 @@ var nakama = {
     3532: '9353200',    // Blackbeard
     3551: '9355100',    // Chopper
     3572: '9357200',    // Orochi
+    3592: '9359200',    // Kuzan
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

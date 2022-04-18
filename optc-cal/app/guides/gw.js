@@ -476,6 +476,7 @@ var gw = {
     3532: '',           // Blackbeard
     3551: '',           // Chopper
     3572: '',           // Orochi
+    3592: '',           // Kuzan
 
     // Events
     'bb_1314': '61665', // Three Admirals
