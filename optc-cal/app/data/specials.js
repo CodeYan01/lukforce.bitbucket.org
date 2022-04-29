@@ -885,4 +885,9 @@ var specials = {
         name: 'Triceratops\'s Armored Division',
         thumb: 3579
     },
+    'ev_3601': {
+        type: 'Special Event',
+        name: 'Forbidden Secret',
+        thumb: 3601
+    },
 }
