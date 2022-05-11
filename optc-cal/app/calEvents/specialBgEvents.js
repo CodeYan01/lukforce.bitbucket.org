@@ -3561,7 +3561,7 @@ var specialBgEvents = [
     {
         id: 'free_pull',
         start: '2022-05-06',
-        end: '2022-05-11'
+        end: '2022-05-16'
     },
     {
         id: 'sp_100',
