@@ -495,6 +495,7 @@ var gw = {
     'bb_3246': '256375',// Face Off! 7 Warlords of the Sea
     'bb_3520': '',      // Vs. Marines
     'bb_3560': '',      // Samurai Vs. Dragon
+    'bb_3620': '',      // Turbulent Land of Wano
 
     'wc_2401': '130091',// World Clash
 

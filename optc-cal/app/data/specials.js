@@ -105,6 +105,11 @@ var specials = {
         name: 'Samurai Vs. Dragon (1am ~ 6am)',
         thumb: 3560
     },
+    'bb_3620': {
+        type: 'Blitz Battle',
+        name: 'Turbulent Land of Wano (1am ~ 6am)',
+        thumb: 3620
+    },
 
     'wc_2401': {
         type: 'World Clash',
