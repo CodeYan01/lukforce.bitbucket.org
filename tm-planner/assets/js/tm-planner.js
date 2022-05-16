@@ -3538,8 +3538,20 @@ $(document).ready(function() {
         } else {
             var filtersStr = "";
 
-            for (f of supportFilters)
-                filtersStr = filtersStr + "(?=.*" + f + ")";
+            for (f of supportFilters) {
+                var filterRegex = filter_map_sp[f];
+                if (
+                    'bind-red' === f
+                    || 'slot-change' === f
+                    || 'slot-change-block' === f
+                )
+                    filterRegex = filter_map_sup[f];
+
+                filterRegexStr = String(filterRegex);
+                filterRegexStr = filterRegexStr.substring(1, filterRegexStr.length - 2);
+
+                filtersStr = filtersStr + "(?=.*" + filterRegexStr + ")";
+            }
 
             supportTable.column(2).search(filtersStr, true, false).draw();
         }

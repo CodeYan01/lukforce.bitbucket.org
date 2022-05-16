@@ -36,6 +36,7 @@
 <script src="/tm-planner/data/filter_map_sp.js"></script>
 <script src="/tm-planner/data/filter_map_sl.js"></script>
 <script src="/tm-planner/data/filter_map_ca.js"></script>
+<script src="/tm-planner/data/filter_map_sup.js"></script>
 <script src="/tm-planner/data/counters.js"></script>
 <script src="/tm-planner/data/icon_tooltips.js"></script>
 <script src="/vendor/optc-db/units.js"></script>
@@ -459,53 +460,52 @@
 
                 <div id="support-filters" style="display: none;">
                     <div class="filter-icons">
-                        <div class="filter sup-filter atk-boost-div" data-filter="boosts.*(?<!base) a.*k.*of"></div>
-                        <div class="filter sup-filter orb-boost-div" data-filter="effect.*orbs"></div>
+                        <div class="filter sup-filter atk-boost-div" data-filter="atk-boost"></div>
+                        <div class="filter sup-filter orb-boost-div" data-filter="orb-boost"></div>
                         <div class="filter sup-filter affinity-div" data-filter="affinity"></div>
-                        <div class="filter sup-filter atk-delay-div" data-filter="boost.*delay"></div>
-                        <div class="filter sup-filter atk-def-down-div" data-filter="boost.*reduced"></div>
-                        <div class="filter sup-filter atk-poison-div" data-filter="boost.*poison"></div>
-                        <div class="filter sup-filter chain-boost-div" data-filter="add.*chain"></div>
-                        <div class="filter sup-filter chain-lock-div" data-filter="lock.*chain"></div>
+                        <div class="filter sup-filter atk-delay-div" data-filter="atk-delay"></div>
+                        <div class="filter sup-filter atk-def-down-div" data-filter="atk-def-down"></div>
+                        <div class="filter sup-filter atk-poison-div" data-filter="atk-poison"></div>
+                        <div class="filter sup-filter chain-boost-div" data-filter="chain-boost"></div>
+                        <div class="filter sup-filter chain-lock-div" data-filter="chain-lock"></div>
                     </div>
                     <div class="filter-icons">
-                        <div class="filter sup-filter def-down-div" data-filter="reduces.*(?<!increase|increased) defense"></div>
-                        <div class="filter sup-filter poison-div" data-filter="poison.*all|toxic.*all"></div>
-                        <div class="filter sup-filter dmg-eot-div" data-filter="cut.*hp.*end"></div>
-                        <div class="filter sup-filter dmg-add-div" data-filter="additional.*damage"></div>
-                        <div class="filter sup-filter heal-div" data-filter="recovers"></div>
-                        <div class="filter sup-filter def-perc-div" data-filter="reduces damage received.*turn"></div>
-                        <div class="filter sup-filter def-thres-div" data-filter="above"></div>
-                        <div class="filter sup-filter def-null-div" data-filter="received.*100"></div>
-                        <div class="filter sup-filter cd-red-div" data-filter="special.*cooldown"></div>
+                        <div class="filter sup-filter def-down-div" data-filter="def-down"></div>
+                        <div class="filter sup-filter poison-div" data-filter="poison"></div>
+                        <div class="filter sup-filter dmg-eot-div" data-filter="dmg-eot"></div>
+                        <div class="filter sup-filter dmg-add-div" data-filter="dmg-add"></div>
+                        <div class="filter sup-filter heal-div" data-filter="heal"></div>
+                        <div class="filter sup-filter def-perc-div" data-filter="def-perc"></div>
+                        <div class="filter sup-filter def-thres-div" data-filter="def-thres"></div>
+                        <div class="filter sup-filter def-null-div" data-filter="def-null"></div>
+                        <div class="filter sup-filter cd-red-div" data-filter="cd-red"></div>
                     </div>
                     <div class="filter-icons">
-                        <div class="filter sup-filter bind-red-div" data-filter="reduce.*bind"></div>
-                        <div class="filter sup-filter desp-red-div" data-filter="reduce.*despair"></div>
-                        <div class="filter sup-filter silence-red-div" data-filter="reduce.*silence"></div>
-                        <div class="filter sup-filter para-red-div" data-filter="reduce.*paralysis"></div>
-                        <div class="filter sup-filter poison-red-div" data-filter="removes.*poison"></div>
-                        <div class="filter sup-filter blind-red-div" data-filter="blindness"></div>
-                        <div class="filter sup-filter burn-red-div" data-filter="reduces.*burn"></div>
-                        <div class="filter sup-filter atk-down-red-div" data-filter="reduces.*atk.*down"></div>
-                        <div class="filter sup-filter chain-lock-red-div" data-filter="reduces.*limit"></div>
-                        <div class="filter sup-filter chain-down-red-div" data-filter="reduces.*coefficient"></div>
-                        <div class="filter sup-filter dmg-up-red-div" data-filter="reduces.*increase.*taken"></div>
+                        <div class="filter sup-filter bind-red-div" data-filter="bind-red"></div>
+                        <div class="filter sup-filter desp-red-div" data-filter="desp-red"></div>
+                        <div class="filter sup-filter silence-red-div" data-filter="silence-red"></div>
+                        <div class="filter sup-filter para-red-div" data-filter="para-red"></div>
+                        <div class="filter sup-filter poison-red-div" data-filter="poison-red"></div>
+                        <div class="filter sup-filter blind-red-div" data-filter="blind-red"></div>
+                        <div class="filter sup-filter burn-red-div" data-filter="burn-red"></div>
+                        <div class="filter sup-filter atk-down-red-div" data-filter="atk-down-red"></div>
+                        <div class="filter sup-filter chain-lock-red-div" data-filter="chain-lock-red"></div>
+                        <div class="filter sup-filter chain-down-red-div" data-filter="chain-down-red"></div>
                     </div>
                     <div class="filter-icons">
-                        <div class="filter sup-filter dmg-eot-red-e-div" data-filter="reduces.*end.*cut|remove.*end"></div>
-                        <div class="filter sup-filter def-red-e-div" data-filter="reduces.*increase.*defense"></div>
-                        <div class="filter sup-filter def-perc-red-e-div" data-filter="percent.*damage.*reduction"></div>
-                        <div class="filter sup-filter def-thres-red-e-div" data-filter="threshold .*damage.*reduction"></div>
-                        <div class="filter sup-filter bar-red-e-div" data-filter="barrier"></div>
-                        <div class="filter sup-filter resil-red-e-div" data-filter="resilience"></div>
-                        <div class="filter sup-filter enrage-red-e-div" data-filter="reduces.*enrage"></div>
+                        <div class="filter sup-filter dmg-eot-red-e-div" data-filter="dmg-eot-red-e"></div>
+                        <div class="filter sup-filter def-red-e-div" data-filter="def-red-e"></div>
+                        <div class="filter sup-filter def-perc-red-e-div" data-filter="def-perc-red-e"></div>
+                        <div class="filter sup-filter def-thres-red-e-div" data-filter="def-thres-red-e"></div>
+                        <div class="filter sup-filter bar-red-e-div" data-filter="bar-red-e"></div>
+                        <div class="filter sup-filter resil-red-e-div" data-filter="resil-red-e"></div>
+                        <div class="filter sup-filter enrage-red-e-div" data-filter="enrage-red-e"></div>
                     </div>
                     <div class="filter-icons">
-                        <div class="filter sup-filter slot-change-div" data-filter="change.*orb"></div>
-                        <div class="filter sup-filter slot-change-block-div" data-filter="change.*block"></div>
-                        <div class="filter sup-filter slot-lock-div" data-filter="locks.*orb"></div>
-                        <div class="filter sup-filter slot-pos-div" data-filter="orb.*beneficial"></div>
+                        <div class="filter sup-filter slot-change-div" data-filter="slot-change"></div>
+                        <div class="filter sup-filter slot-change-block-div" data-filter="slot-change-block"></div>
+                        <div class="filter sup-filter slot-lock-div" data-filter="slot-lock"></div>
+                        <div class="filter sup-filter slot-pos-div" data-filter="slot-pos"></div>
                     </div>
                 </div>
                 <div><table id="support-table"></table></div>
