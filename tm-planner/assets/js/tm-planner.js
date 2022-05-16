@@ -2066,8 +2066,8 @@ function getWholeTeamFamilyName(teamId, isCheckDupe) {
 function doTeamBuildCheck(teamId) {
     removeTeamBuildMsg(teamId);
     getWholeTeamFamilyName(teamId, true);
-    checkSuperSpecialCriteria(teamId);
-    checkTeamMiniGuideSpecialMet(teamId);
+    //checkSuperSpecialCriteria(teamId);
+    //checkTeamMiniGuideSpecialMet(teamId);
     checkNoteStatus();
 }
 
