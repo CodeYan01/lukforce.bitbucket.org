@@ -531,7 +531,7 @@ const Headcracker = [ "Headcracker" ];
 const Kyuin = [ "Kyuin" ];
 const CharlotteLinlin = [ "Charlotte Linlin", "Big Mom" ];
 const CharlotteKatakuri = [ "Charlotte Katakuri" ];
-const CharlotteBrulee = [ "Charlotte Brûlée" ];
+const CharlotteBrulee = [ "Charlotte Brûlée", "Charlotte Brulee" ];
 const CharlotteAmande = [ "Charlotte Amande" ];
 const Bobbin = [ "Bobbin" ];
 const CharlotteOven = [ "Charlotte Oven" ];
@@ -574,7 +574,7 @@ const CharlotteCompote = [ "Charlotte Compote" ];
 const CharlotteMascarpone = [ "Charlotte Mascarpone" ];
 const CharlotteJoscarpone = [ "Charlotte Joscarpone" ];
 const CharlotteFlampe = [ "Charlotte Flampe" ];
-const CharlotteMontdOr = [ "Charlotte Mont-d'Or", "Charlotte Montdor" ];
+const CharlotteMontdOr = [ "Charlotte Mont-d'Or", "Charlotte Montdor", "Charlotte Montd'Or" ];
 const Streusen = [ "Streusen" ];
 const MotherCaramel = [ "Mother Caramel" ];
 const Kaido = [ "Kaido" ];
@@ -4154,6 +4154,35 @@ window.families = {
     3586: [ ...Usopp ],
     3587: [ ...DonquixoteDoflamingo ],
     3588: [ ...Ulti ],
+    3589: [ ...XDrake ],
+    3590: [ ...XDrake ],
+    3591: [ ...RoronoaZoro ],
+    3592: [ ...Kuzan ],
+    3594: [ ...Marco ],
+    3595: [ ...Marco ],
+    3596: [ ...CharlotteLinlin ],
+    3597: [ ...CharlotteLinlin ],
+    3598: [ ...CharlottePerospero ],
+    3599: [ ...CharlottePudding ],
+    3600: [ ...CharlotteCracker ],
+    3601: [ ...CharlotteKatakuri ],
+    3605: [ ...DonquixoteRosinante ],
+    3606: [ ...MonkeyDLuffy ],
+    3607: [ ...MonkeyDLuffy ],
+    3608: [ ...Kaido ],
+    3609: [ ...Kaido ],
+    3610: [ ...Yamato, ...PortgasDAce ],
+    3611: [ ...Yamato, ...PortgasDAce ],
+    3612: [ ...BoaHancock, ...NicoRobin, ...Nami ],
+    3613: [ ...BoaHancock, ...NicoRobin, ...Nami ],
+    3614: [ ...RoronoaZoro ],
+    3615: [ ...VinsmokeSanji ],
+    3616: [ ...King ],
+    3617: [ ...Queen ],
+    3618: [ ...Jack ],
+    3619: [ ...KozukiOden ],
+    3620: [ ...KozukiOden ],
+    3621: [ ...Sabo ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],

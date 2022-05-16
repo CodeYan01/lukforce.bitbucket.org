@@ -5211,6 +5211,42 @@ window.evolutions = {
         evolution: 3582,
         evolvers: [  ]
     },
+    3589: {
+        evolution: 3590,
+        evolvers: [  ]
+    },
+    2025: {
+        evolution: 3592,
+        evolvers: [ "skullKuzan", "skullKuzan", "skullKuzan", "skullKuzan", "skullKuzan" ]
+    },
+    3594: {
+        evolution: 3595,
+        evolvers: [  ]
+    },
+    3596: {
+        evolution: 3597,
+        evolvers: [  ]
+    },
+    3606: {
+        evolution: 3607,
+        evolvers: [ 118, 266, 302, 102, 267 ]
+    },
+    3608: {
+        evolution: 3609,
+        evolvers: [ 118, 2662, 300, 100, 267 ]
+    },
+    3610: {
+        evolution: 3611,
+        evolvers: [  ]
+    },
+    3612: {
+        evolution: 3613,
+        evolvers: [ 118, 266, 1180, 100, 267 ]
+    },
+    3619: {
+        evolution: 3620,
+        evolvers: [ "skullOden2", "skullOden2", "skullOden2", "skullOden2", "skullOden2" ]
+    },
     4986: {
         evolution: 4987,
         evolvers: [ 118, 86, 266, 302, 267 ]
