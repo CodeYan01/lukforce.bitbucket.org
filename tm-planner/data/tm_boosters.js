@@ -1163,7 +1163,7 @@ var tm_boosters = {
         },
     ],
 
-    // ========== Sabo ==========
+    // ========== Valentine Sabo ==========
     1972: [
         {   // Boa Hancock
             id: 1967,
@@ -1197,7 +1197,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.35
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.35
         },
@@ -1554,7 +1554,7 @@ var tm_boosters = {
             id: 1970,
             x_pts: 1.35
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.35
         },
@@ -2334,7 +2334,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -2778,7 +2778,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -3311,7 +3311,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -3793,7 +3793,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -4268,7 +4268,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -4770,7 +4770,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -5296,7 +5296,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -5884,7 +5884,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -6408,7 +6408,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -6942,7 +6942,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -7518,7 +7518,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -8023,7 +8023,7 @@ var tm_boosters = {
             type: 'other',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -8560,7 +8560,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -9151,7 +9151,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -9681,7 +9681,7 @@ var tm_boosters = {
             id: 1889,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -10084,7 +10084,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -10695,7 +10695,7 @@ var tm_boosters = {
             id: 1916,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -11148,7 +11148,7 @@ var tm_boosters = {
             type: 'fortnight',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -11638,7 +11638,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -12083,7 +12083,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -12550,7 +12550,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -13096,7 +13096,7 @@ var tm_boosters = {
             id: 1889,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -13591,7 +13591,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -14226,7 +14226,7 @@ var tm_boosters = {
             id: 1916,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -14653,7 +14653,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -15303,7 +15303,7 @@ var tm_boosters = {
             id: 1916,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -15675,7 +15675,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -16321,7 +16321,7 @@ var tm_boosters = {
             id: 1916,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -16877,7 +16877,7 @@ var tm_boosters = {
             id: 1916,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -17415,7 +17415,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -17992,7 +17992,7 @@ var tm_boosters = {
             id: 1916,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -18501,7 +18501,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -18918,7 +18918,7 @@ var tm_boosters = {
             type: 'tm',
             x_pts: 1.2
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             type: 'tm',
             x_pts: 1.2
@@ -19652,7 +19652,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -20256,7 +20256,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -20866,7 +20866,7 @@ var tm_boosters = {
             id: 1941,
             x_pts: 1.1
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             x_pts: 1.1
         },
@@ -21233,7 +21233,7 @@ var tm_boosters = {
             ver: 2,
             x_pts: 1.25
         },
-        {   // Sabo
+        {   // Valentine Sabo
             id: 1972,
             ver: 2,
             x_pts: 1.25
@@ -23106,7 +23106,7 @@ var tm_boosters = {
             ver: 2,
             x_pts: 1.25
         },
-        {   // X Drake
+        {   // Drake
             id: 2823,
             ver: 2,
             x_pts: 1.25
@@ -23782,7 +23782,7 @@ var tm_boosters = {
             type: 'coliseum',
             x_pts: 1.2
         },
-        {   // X Drake
+        {   // Drake v2
             id: 3210,
             type: 'coliseum',
             x_pts: 1.2
@@ -24414,7 +24414,7 @@ var tm_boosters = {
             ver: 4,
             x_pts: 1.35
         },
-        {   // Hawkins
+        {   // Hawkins v2
             id: 3580,
             ver: 4,
             x_pts: 1.35
@@ -24746,6 +24746,509 @@ var tm_boosters = {
         },
         {   // Jack
             id: 3539,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Luffy
+            id: 2936,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Zoro
+            id: 2938,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Nami
+            id: 2940,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Usopp
+            id: 2942,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Sanji
+            id: 2944,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Chopper
+            id: 2946,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Robin
+            id: 2948,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Franky
+            id: 2950,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // ST Brook
+            id: 2952,
+            type: 'other',
+            x_pts: 1.2
+        },
+    ],
+
+    // ========== Sabo ==========
+    3621: [
+        {   // Hancock & Nami & Robin
+            id: 3613,
+            x_pts: 1.8
+        },
+        {   // Marco v3
+            id: 3595,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Big Mom v3
+            id: 3597,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Onigashima Luffy
+            id: 3607,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Kaido v3
+            id: 3609,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Yamato & Ace
+            id: 3611,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Ulti
+            id: 3588,
+            ver: 2,
+            x_pts: 1.4
+        },
+        {   // Akainu v2
+            id: 2023,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // General Franky
+            id: 3574,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Brook v2
+            id: 3576,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Urouge
+            id: 3582,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Drake
+            id: 3590,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Aokiji v2 6+
+            id: 3592,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Onigashima Robin
+            id: 3577,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Onigashima Sanji
+            id: 3578,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Perospero v2
+            id: 3598,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Pudding v2
+            id: 3599,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Cracker v2
+            id: 3600,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Onigashima Zoro
+            id: 3614,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Onigashima Sanji v2
+            id: 3615,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // King v2
+            id: 3616,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Queen v2
+            id: 3617,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Jack v3
+            id: 3618,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Katakuri
+            id: 3601,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // Oden 5+
+            id: 3620,
+            ver: 4,
+            x_pts: 1.35
+        },
+        {   // MUGIWARA 56 Sanji
+            id: 3364,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Koala
+            id: 3462,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Croc v2
+            id: 3483,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Mr. 2
+            id: 3523,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Carrot & Wanda
+            id: 3543,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Izo & Kiku
+            id: 3563,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Hawkins v2
+            id: 3580,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Orochi 5+
+            id: 3572,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // PF Doffy
+            id: 3587,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sasaki
+            id: 3579,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Ace
+            id: 1941,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Shanks
+            id: 2261,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Smoothie & Oven
+            id: 2469,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Anni Luffy
+            id: 2977,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Reiju
+            id: 3022,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Jinbe
+            id: 3094,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Koala
+            id: 3339,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Tashigi
+            id: 3527,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Kanjuro
+            id: 3567,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Sabo
+            id: 3621,
+            ver: 2,
+            x_pts: 1.25
+        },
+        {   // Oden v2
+            id: 3553,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Kinemon & Denjiro
+            id: 3555,
+            type: 'legend',
+            x_pts: 1.2
+        },
+        {   // Ashura Doji
+            id: 3556,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Kawamatsu
+            id: 3557,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Raizo v2
+            id: 3558,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Caesar
+            id: 3524,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Ivankov
+            id: 3525,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Inuarashi
+            id: 3564,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Nekomamushi
+            id: 3565,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Nami
+            id: 3584,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // O-Tama
+            id: 3585,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Usopp
+            id: 3586,
+            type: 'rr',
+            x_pts: 1.2
+        },
+        {   // Aokiji
+            id: 575,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Franky
+            id: 1432,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Senor Pink
+            id: 1943,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Blackbeard v2
+            id: 2197,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Judge
+            id: 2281,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Magellan & Hannyabal
+            id: 2517,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 2893,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Soba Mask
+            id: 2987,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Luffytaro
+            id: 3209,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Chambres Nami
+            id: 3289,
+            type: 'raid',
+            x_pts: 1.2
+        },
+        {   // Wyper
+            id: 833,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Coby
+            id: 860,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kid
+            id: 924,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Paulie
+            id: 984,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Rayleigh
+            id: 1978,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Smoothie
+            id: 2375,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Katakuri
+            id: 2471,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Jinbe
+            id: 2611,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kyoshiro
+            id: 2785,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Shutenmaru
+            id: 2813,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // O-Kiku
+            id: 3083,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Drake v2
+            id: 3210,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Kawamatsu
+            id: 3269,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Queen
+            id: 3540,
+            type: 'coliseum',
+            x_pts: 1.2
+        },
+        {   // Leo
+            id: 1328,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Toy Soldier
+            id: 1384,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Soul King
+            id: 1547,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Rebecca
+            id: 2146,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Dress Up Sanji
+            id: 2523,
+            type: 'fortnight',
+            x_pts: 1.2
+        },
+        {   // Chopper
+            id: 3551,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Jack
+            id: 3539,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Oniwabanshu
+            id: 3559,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Kaido
+            id: 3560,
+            type: 'other',
+            x_pts: 1.2
+        },
+        {   // Oden
+            id: 3619,
             type: 'other',
             x_pts: 1.2
         },

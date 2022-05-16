@@ -49,7 +49,7 @@ function getBoosters(tmId, server) {
             tmId == 2064
         )
     ) {
-        // TM Sabo
+        // TM Valentine Sabo
         // TM Sanji & Zoro
         // TM Kizaru
         $('#div_2x').show();
@@ -466,6 +466,15 @@ function getBoosters(tmId, server) {
 
         $('#info_1_2x_main').hide();
         $('#info_1_2x_alt').show();
+    } else if (tmId == 3621) {
+        // TM Sabo
+        $('#div_1_8x').show();
+        $('#div_1_4x_v2').show();
+        $('#div_1_35x_v4').show();
+        $('#div_1_25x_v2').show();
+
+        $('#info_1_2x_main').hide();
+        $('#info_1_2x_alt').show();
     } else if (server == 'jpn' && tmId == 3443) {
         // TM Beast Pirates Luffy
         $('#div_1_85x').show();
@@ -852,7 +861,8 @@ function decorateStr(str, isGuide) {
 function decorateSpIcon(iconKey, isAction) {
     if (iconKey === 'No Heal' ||
         iconKey === 'Swap Captain' ||
-        iconKey === 'Ship Bind'
+        iconKey === 'Ship Bind' ||
+        iconKey === 'Dmg Barrier'
     )
         return iconKey;
 

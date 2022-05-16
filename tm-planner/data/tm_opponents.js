@@ -129,7 +129,7 @@ var tm_opponents = {
         }
     },
 
-    // ========== Sabo ==========
+    // ========== Valentine Sabo ==========
     1972: {
         1404: {
             name: 'Luffy',
@@ -9099,6 +9099,283 @@ var tm_opponents = {
                             type: '<20%',
                             action: [
                                 ['dmg-normal',      'Deadly']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
+
+    // ========== Sabo ==========
+    3621: {
+        1590: {
+            name: 'Shanks',
+            type: 'DEX',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Striker/Powerhouse']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Shanks', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['silence',         '5T'],
+                                ['def-perc',        '5T, 90%'],
+                                ['def-thres',       '5T, 90%, 1000'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2974: {
+            name: 'Chopper',
+            type: 'QCK',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Chopper', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 500000,
+                    atk_: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'EMPTY/BLOCK/BOMB'],
+                                ['atk-down',        '8T, 90%'],
+                                ['bar-hit',         '3T, 30x'],
+                                ['immu-all',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2977: {
+            name: ['Lu', 'ffy'],
+            type: ['PSY', 'INT'],
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/PSY/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Luffy', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['type-change',     'PSY/INT'],
+                                ['cd-rew',          '1T'],
+                                ['para',            '5T'],
+                                ['def',             '5T, 10000x'],
+                                ['resil',           '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3613: {
+            name: 'Hancock & Nami & Robin',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Free Spirit/Slasher']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Hancock & Nami & Robin', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '8T'],
+                                ['silence',         '4T'],
+                                ['slot-neg',        '2T, Color'],
+                                ['def-perc',        '4T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3339: {
+            name: 'Koala',
+            type: 'DEX',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/DEX/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1300000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['slot-lock',       '1T'],
+                                ['def-null',        '1T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Koala', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2500000,
+                    atk_: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['atk-down',        '6T, 90%'],
+                                ['para',            '6T'],
+                                ['clear-buff',      'Normal'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3621: {
+            name: 'Sabo',
+            type: 'DEX',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '8T, Free Spirit/Striker/Powerhouse']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1300000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '10T, Captain'],
+                                ['cd-rew',          '1T, Row 2 3'],
+                                ['nao',             '99+T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Sabo', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2500000,
+                    atk_: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '8T, Row 2'],
+                                ['slot-change',     'STR'],
+                                ['slot-neg',        'STR'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'ON DEATH (0%)',
+                            action: [
+                                ['heal',            '100%'],
+                                ['dmg-normal',      '80,000'],
+                                ['nao',             '99+T'],
+                                ['Dmg Barrier',  '3T, 50,000,000']
                             ]
                         }
                     ]
