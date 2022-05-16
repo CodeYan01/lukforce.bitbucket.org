@@ -4000,7 +4000,9 @@ $(document).ready(function() {
         $('#support-character-modal').modal('hide');
     });
 
-    $("#non-booster-unit-submit").click(function() {
+    $("#non-booster-form").submit(function(evt) {
+        evt.preventDefault();
+
         var unitId = parseInt($("#non-booster-unit").val());
         var teamSlot = $("#non-booster-unit").data('src');
         var teamSlotDiv = $('#' + teamSlot);
