@@ -396,7 +396,7 @@ var gw = {
     1889: '83086',      // Cavendish
     1916: '85567',      // Gear 4
     1941: '87389',      // Ace
-    1972: '91382',      // Sabo
+    1972: '91382',      // Valentine Sabo
     2000: '94667',      // Sanji & Zoro
     2064: '101870',     // Kizaru
     2109: '105881',     // Big Mom
@@ -442,6 +442,7 @@ var gw = {
     3547: '',           // Perospero
     3567: '',           // Kanjuro
     3588: '',           // Ulti
+    3621: '',           // Sabo
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

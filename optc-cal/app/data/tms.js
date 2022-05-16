@@ -25,7 +25,7 @@ var tms = {
         info: 'i.redd.it/pzbzhnv2bk411.png'
     },
     1972: {
-        name: 'Sabo',
+        name: 'Valentine Sabo',
         thumb: 1972,
         info: 'i.imgur.com/Sd6BIUR.png'
     },
@@ -252,6 +252,11 @@ var tms = {
     3588: {
         name: 'Ulti (1am ~ 6am)',
         thumb: 3588,
+        info: ''
+    },
+    3621: {
+        name: 'Sabo (1am ~ 6am)',
+        thumb: 3621,
         info: ''
     },
 };

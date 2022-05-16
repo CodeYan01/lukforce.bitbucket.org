@@ -396,7 +396,7 @@ var nakama = {
     1889: '8188900',    // Cavendish
     1916: '8191600',    // Gear 4
     1941: '8194100',    // Ace
-    1972: '8197200',    // Sabo
+    1972: '8197200',    // Valentine Sabo
     2000: '8200000',    // Sanji & Zoro
     2064: '8206400',    // Kizaru
     2109: '8210900',    // Big Mom
@@ -442,6 +442,7 @@ var nakama = {
     3547: '8354700',    // Perospero
     3567: '8356700',    // Kanjuro
     3588: '8358800',    // Ulti
+    3621: '8362100',    // Sabo
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
