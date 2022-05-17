@@ -1013,6 +1013,8 @@ function populateUnitDetail(unitId) {
         // Captain Ability
         var captain = unitDetail.captain;
         if (captain) {
+            $('#unit-detail-captain-ability').empty();
+
             if (typeof captain === 'object') {
                 if (isDual || isVS) {
                     // Dual Units & VS Units
@@ -1047,10 +1049,29 @@ function populateUnitDetail(unitId) {
                 }
 
                 if (captain.base) {
-                    // Unit Captain Ability changed by Limit Break
-                    var captainLb = captain['level' + (Object.keys(captain).length - 1)];
+                    var captainBase = captain.base;
+                    captainBase = decorateStr(captainBase);
+                    $('#unit-detail-captain-ability').append('<b>Base:</b> ' + captainBase);
+                    $('#unit-detail-captain-ability').append('<br />');
+
+                    // LB+ Captain
+                    var captainLb = captain.level1;
                     captainLb = decorateStr(captainLb);
-                    $('#unit-detail-captain-ability').html('<b>Max LB:</b> ' + captainLb);
+                    $('#unit-detail-captain-ability').append('<b>LB+:</b> ' + captainLb);
+                    $('#unit-detail-captain-ability').append('<br />');
+                }
+
+                if (captain.llbbase) {
+                    var captainLlbBase = captain.llbbase;
+                    captainLlbBase = decorateStr(captainLlbBase);
+                    $('#unit-detail-captain-ability').append('<b>LLB Base:</b> ' + captainLlbBase);
+                    $('#unit-detail-captain-ability').append('<br />');
+
+                    // LLB LB+ Captain
+                    var captainLlb = captain.llblevel1;
+                    captainLlb = decorateStr(captainLlb);
+                    $('#unit-detail-captain-ability').append('<b>LLB LB+:</b> ' + captainLlb);
+                    $('#unit-detail-captain-ability').append('<br />');
                 }
             } else {
                 captain = decorateStr(captain);
@@ -1137,6 +1158,17 @@ function populateUnitDetail(unitId) {
                 // Special case where JPN version special is different
                 special = decorateStr(special.japan);
                 $('#unit-detail-special').html(special);
+            } else if (special.base) {
+                var spBase = special.base;
+                spBase = decorateStr(spBase);
+                $('#unit-detail-special').append('<b>Base:</b> ' + spBase);
+                $('#unit-detail-special').append('<br />');
+
+                // LLB Special
+                var spLlb = special.llbbase;
+                spLlb = decorateStr(spLlb);
+                $('#unit-detail-special').append('<b>LLB:</b> ' + spLlb);
+                $('#unit-detail-special').append('<br />');
             } else {
                 special = decorateStr(special);
                 $('#unit-detail-special').html(special);
@@ -1235,6 +1267,15 @@ function populateUnitDetail(unitId) {
                     var s = sailor['level' + i];
                     s = decorateStr(s);
                     $('#unit-detail-sailor').append('<b>LB Sailor ' + i + ':</b> ' + s);
+                    $('#unit-detail-sailor').append('<br />')
+                    i++;
+                }
+
+                i = 1;
+                while (sailor['llblevel' + i]) {
+                    var s = sailor['llblevel' + i];
+                    s = decorateStr(s);
+                    $('#unit-detail-sailor').append('<b>LLB Sailor ' + i + ':</b> ' + s);
                     $('#unit-detail-sailor').append('<br />')
                     i++;
                 }
@@ -3430,6 +3471,8 @@ $(document).ready(function() {
                         special = spDesc[spDesc.length - 1].description;
                     else if (spDesc.character1)
                         special = spDesc.character1;
+                    else if (spDesc.llbbase)
+                        special = spDesc.llbbase;
                     else
                         special = spDesc;
 
@@ -3517,11 +3560,16 @@ $(document).ready(function() {
                             ca = caDesc.character1;
                         else
                             ca = caDesc.character2;
-                    } else if (caDesc.combined)
+                    } else if (caDesc.combined) {
                         ca = caDesc.combined;
-                    else if (caDesc.base)
-                        ca = caDesc['level' + (Object.keys(caDesc).length - 1)];
-                    else
+                    } else if (caDesc.base) {
+                        if (caDesc.llblevel1)
+                            ca = caDesc.llblevel1;
+                        else if (caDesc.llbbase)
+                            ca = caDesc.llbbase;
+                        else if (caDesc.level1)
+                            ca = caDesc.level1;
+                    } else
                         ca = caDesc;
 
                     if (!filterRegex.test(ca))
