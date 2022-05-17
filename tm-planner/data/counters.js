@@ -8,7 +8,6 @@ var counters = {
     'bar-gt':           'bar-red-e',
     'bar-gd':           'bar-red-e',
     'bar-hp':           'bar-red-e',
-    'Dmg Barrier':      'bar-red-e',
     'bind':             ['bind-red', 'c_bind-red'],
     'blind':            ['blind-red', 's_blind-red'],
     'burn':             'burn-red',
