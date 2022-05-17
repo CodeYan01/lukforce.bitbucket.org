@@ -9299,10 +9299,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Koala', 'DEX'],
-                    hp: 0,
-                    atk: 0,
-                    hp_: 2500000,
-                    atk_: 9600,
+                    hp: 6000000,
+                    atk: 9600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -9357,7 +9355,7 @@ var tm_opponents = {
                     boss: ['Sabo', 'DEX'],
                     hp: 0,
                     atk: 0,
-                    hp_: 2500000,
+                    hp_: 6000000,
                     atk_: 9600,
                     detail: [
                         {
