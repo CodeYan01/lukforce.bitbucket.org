@@ -10,7 +10,7 @@ var filter_map_sp = {
     'slot-change':              /changes (?:the )?((?:(?!changes)[^."])*?)orbs?(, including \[BLOCK\] orbs?,)? (?:of (?=((?:[^c."]+|c(?!har))*))\3characters? )?into([^."]+?)orbs?|randomizes.+orb/i,
     'slot-change-block':        /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
     'slot-lock':                /locks (orbs (?:for|on) (?=((?:[^c."]+|c(?!har))*))\2characters?|all orbs|own orb|your captain's orb|(?:the )?supported character's orb) for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
-    'slot-pos':                 /makes ([^".]+?)orbs beneficial for ([^".]+?)characters/i,
+    'slot-pos':                 /makes ([^".]+?)orbs beneficial for ([^".]+?)characters?/i,
     'delay':                    /(ignores (?:Delay )?Debuff Protection and )?delays (that enemy|all enemies) by ([?\d]+)(?:-([?\d]+))? turns?(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
     'def-down':                 /Reduces the defense of all enemies by ([?\d]+)%(?:-([?\d]+)%)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?\d]+)%(?:-([?\d]+)%)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
     'poison':                   /(poisons|Inflicts Toxic)/i,
