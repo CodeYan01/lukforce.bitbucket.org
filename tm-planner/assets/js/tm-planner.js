@@ -2107,8 +2107,8 @@ function getWholeTeamFamilyName(teamId, isCheckDupe) {
 function doTeamBuildCheck(teamId) {
     removeTeamBuildMsg(teamId);
     getWholeTeamFamilyName(teamId, true);
-    //checkSuperSpecialCriteria(teamId);
-    //checkTeamMiniGuideSpecialMet(teamId);
+    checkSuperSpecialCriteria(teamId);
+    checkTeamMiniGuideSpecialMet(teamId);
     checkNoteStatus();
 }
 
@@ -2393,37 +2393,69 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow, 
                         // TODO: Check if sailor is sufficient
                     }
 
-                    specialRegexStr = specialRegex.toString();
-                    getNumTurnsStr = specialRegexStr.substring(1, specialRegexStr.length - 2) + ".*?(completely|([0-9]+) turn|depending)";
-                    result = special.match(new RegExp(getNumTurnsStr, 'i'));
+                    var result = special.match(specialRegex);
+                    var resultGroup = [];
 
-                    if (result[2] == 'completely' || result[2] == 'depending') {
-                        turnsNeeded = 0;
-                        return;
-                    } else {
-                        var numOfTurns = result[3];
+                    if (
+                        specialRegex === filter_map_sp['atk-down-red'] ||
+                        specialRegex === filter_map_sp['bar-red-e'] ||
+                        specialRegex === filter_map_sp['blind-red'] ||
+                        specialRegex === filter_map_sp['burn-red'] ||
+                        specialRegex === filter_map_sp['chain-down-red'] ||
+                        specialRegex === filter_map_sp['chain-lock-red'] ||
+                        specialRegex === filter_map_sp['def-red-e'] ||
+                        specialRegex === filter_map_sp['def-null-red-e'] ||
+                        specialRegex === filter_map_sp['def-perc-red-e'] ||
+                        specialRegex === filter_map_sp['def-thres-red-e'] ||
+                        specialRegex === filter_map_sp['dmg-up-red'] ||
+                        specialRegex === filter_map_sp['resil-red-e']
+                    )
+                        resultGroup = [1, 2, 3, 4, 5];
+                    else if (specialRegex === filter_map_sp['cd-red'])
+                        resultGroup = [2, 3, 4, 5, 6, 7];
+                    else if (
+                        specialRegex === filter_map_sp['bind-red'] ||
+                        specialRegex === filter_map_sp['desp-red'] ||
+                        specialRegex === filter_map_sp['para-red'] ||
+                        specialRegex === filter_map_sp['silence-red']
+                    )
+                        resultGroup = [1, 2, 3, 5, 6];
 
-                        // Check for Double Special
-                        var hasDoubleSpecial = false;
-                        if (unitDetail.potential) {
-                            var unitLbAbility = unitDetail.potential;
+                    // Loop through regex groups to find the matched # of turns
+                    for (var i = 0; i < resultGroup.length; i++) {
+                        var numOfTurns = result[i];
 
-                            for (var lba in unitLbAbility) {
-                                if (unitLbAbility[lba].Name === 'Double Special Activation') {
-                                    hasDoubleSpecial = true;
-                                    break;
+                        if (numOfTurns != null) {
+                            if (numOfTurns == 'completely') {
+                                turnsNeeded = 0;
+                                return;
+                            } else {
+                                // Check for Double Special
+                                var hasDoubleSpecial = false;
+                                if (unitDetail.potential) {
+                                    var unitLbAbility = unitDetail.potential;
+
+                                    for (var lba in unitLbAbility) {
+                                        if (unitLbAbility[lba].Name === 'Double Special Activation') {
+                                            hasDoubleSpecial = true;
+                                            break;
+                                        }
+                                    }
                                 }
+
+                                if (hasDoubleSpecial)
+                                    numOfTurns = numOfTurns * 2;
+
+                                if (numOfTurns >= turnsNeeded) {
+                                    turnsNeeded = 0;
+                                    return;
+                                } else
+                                    turnsNeeded -= numOfTurns;
                             }
                         }
 
-                        if (hasDoubleSpecial)
-                            numOfTurns = numOfTurns * 2;
-
-                        if (numOfTurns >= turnsNeeded) {
-                            turnsNeeded = 0;
-                            return;
-                        } else
-                            turnsNeeded -= numOfTurns;
+                        // Exit loop after finding match
+                        break;
                     }
                 } else {
                     // Special Case for counters blocked by immunity
