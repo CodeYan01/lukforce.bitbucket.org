@@ -1971,6 +1971,7 @@ function getClassesForUnit(origId) {
     // Search for class
     var uniqueClasses = new Set();
     var unitClass = units[unitId - 1][2];
+
     if (Array.isArray(unitClass)) {
         if (Array.isArray(unitClass[0])) {
             if (unitClass.length === 2) {
@@ -1997,6 +1998,7 @@ function getClassesForUnit(origId) {
     } else {
         uniqueClasses.add(unitClass);
     }
+
     return uniqueClasses;
 }
 
@@ -2168,77 +2170,82 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
 
     var superCriteria = details[capId].superSpecialCriteria;
     if (superCriteria) {
+        var slotIds = [];
         if (isFriend)
             slotIds = [1,2,3,4,5];
         else
             slotIds = [0,2,3,4,5];
 
-        // Case1: 6 specific classes crew
-        if (superCriteria.indexOf('consist of 6') != -1) {
-            var class1 = superCriteria.substring(superCriteria.indexOf('consist of 6 ') + 13, superCriteria.indexOf(' or'));
-            var class2 = superCriteria.substring(superCriteria.indexOf('or ') + 3, superCriteria.indexOf(' characters'));
+        if (superCriteria.indexOf('must consist of') != -1) {
+            var numStr = superCriteria.substring(superCriteria.indexOf('must consist of ') + 16, superCriteria.indexOf('must consist of ') + 18);
+            var numClasses = parseInt(numStr, 10);
 
-            for (slotId of slotIds) {
-                var unit = $('#team-slot-' + teamId + slotId).find('div');
+            if (!isNaN(numClasses)) {
+                // Case 1: specific classes crew
+                var numMatched = 1;
+                var class1 = superCriteria.substring(superCriteria.indexOf(numStr) + 2, superCriteria.indexOf(' or'));
+                var class2 = superCriteria.substring(superCriteria.indexOf('or ') + 3, superCriteria.indexOf(' characters'));
 
-                if (unit.length > 0) {
-                    uniqueClasses = getClassesForUnit(unit.data("id"));
-                    classMatch = false;
+                for (slotId of slotIds) {
+                    var unit = $('#team-slot-' + teamId + slotId).find('div');
 
-                    uniqueClasses.forEach(function(value) {
-                        if (value == class1 || value == class2) {
-                            classMatch = true;
-                            return;
+                    if (unit.length > 0) {
+                        var uniqueClasses = getClassesForUnit(unit.data('id'));
+                        for (c of uniqueClasses) {
+                            if (c == class1 || c == class2) {
+                                numMatched++;
+                                break;
+                            }
                         }
-                    });
-
-                    if (!classMatch) {
-                        putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('must consist of')), isFriend, capId);
-                        return false;
                     }
-                } else {
+                }
+
+                if (numClasses > numMatched) {
                     putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('must consist of')), isFriend, capId);
                     return false;
                 }
-            }
 
-            return true;
-        }
+                return true;
+            } else {
+                // Case 2: specific crew
+                var names = superCriteria.substring(superCriteria.indexOf('must consist of ') + 16);
 
-        // Case2: For specific crew
-        if (superCriteria.indexOf('consist of') != -1) {
-            var names = superCriteria.substring(superCriteria.indexOf('consist of') + 11);
-            for (slotId of slotIds) {
-                var unit = $('#team-slot-' + teamId + slotId).find('div');
+                for (slotId of slotIds) {
+                    var unit = $('#team-slot-' + teamId + slotId).find('div');
 
-                if (unit.length > 0) {
-                    unitId = unit.data('id');
-                    var family = getFamiliesForUnit(unitId);
-                    var found = false;
+                    if (unit.length > 0) {
+                        unitId = unit.data('id');
+                        var family = getFamiliesForUnit(unitId);
+                        var found = false;
 
-                    $.each(family, function(i, e) {
-                        if (names.indexOf(e) >= 0) {
-                            found = true;
+                        $.each(family, function(i, e) {
+                            if (names.indexOf(e) >= 0) {
+                                found = true;
+                                return true;
+                            }
+                        });
+
+                        if (found)
                             return true;
-                        }
-                    });
-
-                    if (found)
-                        return true;
+                    }
                 }
+
+                putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('must consist of')), isFriend, capId);
             }
-            putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('must consist of')), isFriend, capId);
         }
-        // Case3-6:For specific specials
+
+        // Case 3: specific specials
         if (superCriteria.indexOf('ATK UP') != -1) {
             if (checkTeamSpecialMet(teamId, filter_map_sp["atk-boost"]) > 0)
                 putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('your crew')), isFriend, capId);
         }
+
         if (superCriteria.indexOf('Orb amplification') != -1) {
             if (checkTeamSpecialMet(teamId, filter_map_sp["orb-boost"]) > 0)
                 putSuperNotMetMsg(teamId, superCriteria.substring(superCriteria.indexOf('your crew')), isFriend, capId);
         }
     }
+
     return true;
 }
 
@@ -4021,7 +4028,7 @@ $(document).ready(function() {
         if (unit.length > 0) {
             var searchStr = "\\[All characters\\]";
             var origId = unit.data("id");
-            uniqueClasses = getClassesForUnit(origId);
+            var uniqueClasses = getClassesForUnit(origId);
 
             uniqueClasses.forEach(function(value) {
                 searchStr = searchStr + "|\\[" + value + " characters\\]";
