@@ -2183,6 +2183,7 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
             if (!isNaN(numClasses)) {
                 // Case 1: specific classes crew
                 var numMatched = 1;
+                var singleClass = superCriteria.substring(superCriteria.indexOf(numStr) + 2, superCriteria.indexOf(' characters'));
                 var class1 = superCriteria.substring(superCriteria.indexOf(numStr) + 2, superCriteria.indexOf(' or'));
                 var class2 = superCriteria.substring(superCriteria.indexOf('or ') + 3, superCriteria.indexOf(' characters'));
 
@@ -2192,7 +2193,7 @@ function checkSuperSpecialCriteriaIsMet(teamId, capId, isFriend) {
                     if (unit.length > 0) {
                         var uniqueClasses = getClassesForUnit(unit.data('id'));
                         for (c of uniqueClasses) {
-                            if (c == class1 || c == class2) {
+                            if (c == singleClass || c == class1 || c == class2) {
                                 numMatched++;
                                 break;
                             }
