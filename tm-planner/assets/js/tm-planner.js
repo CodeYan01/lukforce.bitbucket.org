@@ -2431,7 +2431,7 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow, 
 
                     // Loop through regex groups to find the matched # of turns
                     for (var i = 0; i < resultGroup.length; i++) {
-                        var numOfTurns = result[i];
+                        var numOfTurns = result[resultGroup[i]];
 
                         if (numOfTurns != null) {
                             if (numOfTurns == 'completely') {
