@@ -2433,7 +2433,7 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow, 
                     for (var i = 0; i < resultGroup.length; i++) {
                         var numOfTurns = result[resultGroup[i]];
 
-                        if (numOfTurns != null) {
+                        if (typeof numOfTurns !== 'undefined' && numOfTurns != null) {
                             if (numOfTurns == 'completely') {
                                 turnsNeeded = 0;
                                 return;
@@ -2460,10 +2460,10 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow, 
                                 } else
                                     turnsNeeded -= numOfTurns;
                             }
-                        }
 
-                        // Exit loop after finding match
-                        break;
+                            // Exit loop after finding match
+                            break;
+                        }
                     }
                 } else {
                     // Special Case for counters blocked by immunity
