@@ -1055,7 +1055,13 @@ function populateUnitDetail(unitId) {
                     $('#unit-detail-captain-ability').append('<br />');
 
                     // LB+ Captain
+                    var lblv = 2;
                     var captainLb = captain.level1;
+                    while (captain['level' + lblv]) {
+                        captainLb = captain['level' + lblv];
+                        lblv++;
+                    }
+
                     captainLb = decorateStr(captainLb);
                     $('#unit-detail-captain-ability').append('<b>LB+:</b> ' + captainLb);
                     $('#unit-detail-captain-ability').append('<br />');
@@ -3607,8 +3613,14 @@ $(document).ready(function() {
                             ca = caDesc.llblevel1;
                         else if (caDesc.llbbase)
                             ca = caDesc.llbbase;
-                        else if (caDesc.level1)
+                        else if (caDesc.level1) {
+                            var lblv = 2;
                             ca = caDesc.level1;
+                            while (caDesc['level' + lblv]) {
+                                ca = caDesc['level' + lblv];
+                                lblv++;
+                            }
+                        }
                     } else
                         ca = caDesc;
 
