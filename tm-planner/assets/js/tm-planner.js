@@ -3144,7 +3144,10 @@ $(document).ready(function() {
         var hpMultiplier = 0.1;
         var atkMultiplier = 0.05;
 
-        if (tmId >= 3094) {
+        if (tmId >= 3621) {
+            hpMultiplier = 0.2;
+            atkMultiplier = 0.075;
+        } else if (tmId >= 3094) {
             hpMultiplier = 0.15;
             atkMultiplier = 0.075;
         }
