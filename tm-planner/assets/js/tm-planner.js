@@ -862,7 +862,7 @@ function decorateSpIcon(iconKey, isAction) {
     if (iconKey === 'No Heal' ||
         iconKey === 'Swap Captain' ||
         iconKey === 'Ship Bind' ||
-        iconKey === 'Dmg Barrier'
+        iconKey === 'CD Lock'
     )
         return iconKey;
 

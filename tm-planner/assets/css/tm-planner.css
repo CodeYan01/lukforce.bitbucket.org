@@ -760,3 +760,4 @@ span.team-note-boss {
 .rcv-dmg-div                { background-image: url('/tm-planner/assets/img/special_icons/rcv_dmg.png');            background-size: 24px 24px; }
 .hunger-div                 { background-image: url('/tm-planner/assets/img/special_icons/hunger.png');             background-size: 24px 24px; }
 .chain-atk-down-div         { background-image: url('/tm-planner/assets/img/special_icons/chain_atk_down.png');     background-size: 24px 24px; }
+.dmg-limit-div              { background-image: url('/tm-planner/assets/img/special_icons/dmg_limit.png');          background-size: 24px 24px; }

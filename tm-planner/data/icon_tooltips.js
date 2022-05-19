@@ -84,5 +84,6 @@ var icon_tooltips = {
     'tap-limit':              'Tap Limit',
     'rcv-dmg':                'Receive Damage from Consuming RCV',
     'hunger':                 'Hunger',
-    'chain-atk-down':         'Chain ATK Down'
+    'chain-atk-down':         'Chain ATK Down',
+    'dmg-limit':              'Damage Limit'
 };
