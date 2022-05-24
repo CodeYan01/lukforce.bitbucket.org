@@ -144,4 +144,8 @@ var kizunas = {
         name: 'Kuzan (~ 6am)',
         thumb: 3592
     },
+    3627: {
+        name: 'Roger (~ 6am)',
+        thumb: 3627
+    },
 };

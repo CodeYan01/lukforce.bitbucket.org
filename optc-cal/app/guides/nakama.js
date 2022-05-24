@@ -478,6 +478,7 @@ var nakama = {
     3551: '9355100',    // Chopper
     3572: '9357200',    // Orochi
     3592: '9359200',    // Kuzan
+    3627: '9362700',    // Roger
 
     // Events
     'bb_1314': '6131400',   // Three Admirals
