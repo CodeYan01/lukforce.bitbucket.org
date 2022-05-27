@@ -550,6 +550,7 @@ var nakama = {
     'ev_3559': '2355900',   // Disloyal Retainers
     'ev_3579': '2357900',   // Triceratops's Armored Division
     'ev_3601': '2360100',   // Forbidden Secret
+    'ev_3634': '2363400',   // Partner Supporting the Captain
 
     'wa_2700': '',          // Land of Wano Kaido
     'wa_2815': '6281500',   // Land of Wano O-Tama

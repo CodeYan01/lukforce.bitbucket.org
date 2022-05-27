@@ -895,4 +895,9 @@ var specials = {
         name: 'Forbidden Secret',
         thumb: 3601
     },
+    'ev_3634': {
+        type: 'Special Event',
+        name: 'Partner Supporting the Captain',
+        thumb: 3634
+    },
 }
