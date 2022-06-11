@@ -444,6 +444,7 @@ var nakama = {
     3567: '8356700',    // Kanjuro
     3588: '8358800',    // Ulti
     3621: '8362100',    // Sabo
+    3645: '8364500',    // Moria v2
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)

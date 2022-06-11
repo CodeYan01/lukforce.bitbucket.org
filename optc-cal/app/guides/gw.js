@@ -444,6 +444,7 @@ var gw = {
     3567: '',           // Kanjuro
     3588: '',           // Ulti
     3621: '',           // Sabo
+    3645: '',           // Moria V2
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

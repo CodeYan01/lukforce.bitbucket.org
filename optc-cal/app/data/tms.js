@@ -259,4 +259,9 @@ var tms = {
         thumb: 3621,
         info: ''
     },
+    3645: {
+        name: 'Moria v2 (1am ~ 6am)',
+        thumb: 3645,
+        info: ''
+    },
 };
