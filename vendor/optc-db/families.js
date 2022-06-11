@@ -355,7 +355,7 @@ const Viola = [ "Viola", "Violet" ];
 const Dellinger = [ "Dellinger" ];
 const Diamante = [ "Diamante" ];
 const DonquixoteRosinante = [ "Donquixote Rosinante", "Corazon" ];
-const Sachi = [ "Sachi" ];
+const Sachi = [ "Sachi", "Shachi" ];
 const Penguin = [ "Penguin" ];
 const JeanBart = [ "Jean Bart" ];
 const CountButler = [ "Count Butler" ];
@@ -636,7 +636,7 @@ const VascoShot = [ "Vasco Shot" ];
 const SanjuanWolf = [ "Sanjuan Wolf" ];
 const Condoriano = [ "Condoriano" ];
 const KozukiToki = [ "Kozuki Toki" ];
-const Gaban = [ "Scopper Gaban" ];
+const Gaban = [ "Scopper Gaban", "Gaban" ];
 const Morgans = [ "Morgans" ];
 const Yamato = [ "Yamato" ];
 const Sasaki = [ "Sasaki" ];
@@ -4183,6 +4183,30 @@ window.families = {
     3619: [ ...KozukiOden ],
     3620: [ ...KozukiOden ],
     3621: [ ...Sabo ],
+    3622: [ ...WhiteyBay ],
+    3623: [ ...EdwardNewgate ],
+    3624: [ ...Vista ],
+    3625: [ ...Sakazuki ],
+    3626: [ ...GolDRoger ],
+    3627: [ ...GolDRoger ],
+    3628: [ ...TrafalgarDWaterLaw ],
+    3629: [ ...TrafalgarDWaterLaw ],
+    3630: [ ...EustassKid ],
+    3631: [ ...EustassKid ],
+    3632: [ ...Heat, ...Wire ],
+    3633: [ ...Bepo ],
+    3634: [ ...Killer ],
+    3635: [ ...CatarinaDevon ],
+    3636: [ ...CharlotteSmoothie ],
+    3637: [ ...CharlotteSmoothie ],
+    3638: [ ...Franky ],
+    3639: [ ...SenorPink ],
+    3640: [ ...MarshallDTeach ],
+    3641: [ ...MarshallDTeach ],
+    3642: [ ...JesusBurgess ],
+    3643: [ ...Shiryu ],
+    3644: [ ...Chaka ],
+    3645: [ ...GeckoMoria ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
