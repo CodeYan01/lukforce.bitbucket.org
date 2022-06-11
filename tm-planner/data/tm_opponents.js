@@ -9487,4 +9487,292 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Moria v2 ==========
+    3645: {
+        3283: {
+            name: 'Pizarro',
+            type: 'PSY',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, QCK/PSY/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Pizarro', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'TND, Col R'],
+                                ['slot-change',     'Bad, Col L'],
+                                ['cd-rew',          '1T, Row 1'],
+                                ['bind',            '8T, Row 1'],
+                                ['atk-boost',       '2T, 1.1x'],
+                                ['orb-boost',       '2T, 1.1x'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3284: {
+            name: 'Devon',
+            type: 'PSY',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/PSY/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Devon', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['para',            '3T'],
+                                ['def-perc',        '3T, 90%'],
+                                ['def',             '3T, 10000x'],
+                                ['resil',           '10T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3287: {
+            name: 'Vasco Shot',
+            type: 'QCK',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Vasco Shot', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'STR, Row 1'],
+                                ['slot-change',     'QCK, Row 2'],
+                                ['slot-change',     'DEX, Row 3'],
+                                ['slot-lock',       '1x Good'],
+                                ['silence',         '3T'],
+                                ['bar-p',           '2T, 3x'],
+                                ['def',             '3T, 3000x']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3643: {
+            name: 'Shiryu',
+            type: 'STR',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Cerebral/Free Spirit/Driven']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Shiryu', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '60%'],
+                                ['cd-rew',          '1T, Row 2 3'],
+                                ['silence',         '5T, Col L'],
+                                ['para',            '8T, Col R']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3641: {
+            name: 'Blackbeard',
+            type: 'PSY',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Free Spirit/Powerhouse/Driven']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2000000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['bind',            '8T, Row 2'],
+                                ['para',            '5T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Blackbeard', 'PSY'],
+                    hp: 3500000,
+                    atk: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['clear-buff',      'Normal'],
+                                ['slot-change',     'Color'],
+                                ['bind',            '8T, Row 3'],
+                                ['slot-neg',        '5T, Color'],
+                                ['tap-limit',       '2T, 5x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3645: {
+            name: 'Moria',
+            type: 'PSY',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '8T, DEX/QCK/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2000000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['hp-cut',          '90%'],
+                                ['slot-block',      'All'],
+                                ['cd-rew',          '5T, Row 2'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'ON DEATH (0%)',
+                            action: [
+                                ['blow-away',       '99+T, Random 1, Row 3']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Moria', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2000000,
+                    atk_: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '4T, Row 2 3'],
+                                ['atk-down',        '5T, 90%'],
+                                ['chain-down',      '5T, 0.1x'],
+                                ['chain-atk-down',  '5T, <1.5x chain, 80%'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Interrupt - ?',
+                            action: [
+                                ['clear-buff',      'Normal'],
+                                ['desp',            '10T'],
+                                ['blow-away',       '1T, Random 2 Sailor']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };
