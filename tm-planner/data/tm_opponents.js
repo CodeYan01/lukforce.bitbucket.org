@@ -9763,7 +9763,7 @@ var tm_opponents = {
                             ]
                         },
                         {
-                            type: 'Interrupt - ?',
+                            type: 'Interrupt - Atk Boost, Set Max Chain',
                             action: [
                                 ['clear-buff',      'Normal'],
                                 ['desp',            '10T'],
