@@ -481,6 +481,7 @@ var nakama = {
     3572: '9357200',    // Orochi
     3592: '9359200',    // Kuzan
     3627: '9362700',    // Roger
+    3648: '9364800',    // Magellan & Hannyabal
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

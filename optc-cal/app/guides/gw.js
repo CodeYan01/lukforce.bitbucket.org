@@ -481,6 +481,7 @@ var gw = {
     3572: '',           // Orochi
     3592: '',           // Kuzan
     3627: '',           // Roger
+    3648: '',           // Magellan & Hannyabal
 
     // Events
     'bb_1314': '61665', // Three Admirals
