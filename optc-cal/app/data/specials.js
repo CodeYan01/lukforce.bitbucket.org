@@ -900,4 +900,9 @@ var specials = {
         name: 'Partner Supporting the Captain',
         thumb: 3634
     },
+    'ev_3657': {
+        type: 'Special Event',
+        name: 'Red Flag, The Army of One',
+        thumb: 3657
+    },
 }
