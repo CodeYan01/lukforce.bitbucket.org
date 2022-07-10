@@ -9863,4 +9863,288 @@ var tm_opponents = {
             ]
         }
     },
+
+    // ========== Franky ==========
+    3663: {
+        1709: {
+            name: 'Nami',
+            type: 'STR',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Powerhouse/Cerebral/Striker']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Nami', 'STR'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'EMPTY/BLOCK/BOMB'],
+                                ['para',            '8T'],
+                                ['chain-down',      '5T, 0.1x'],
+                                ['nao',             '99+T'],
+                                ['def-null',        '1T'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2622: {
+            name: 'Kalifa',
+            type: 'PSY',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Driven/Powerhouse/Shooter']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Kalifa', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'POISON/BLOCK'],
+                                ['silence',         '5T, Row 2 3'],
+                                ['def',             '5T, 3000x'],
+                                ['resil',           '5T'],
+                                ['bar-hit',         '1T, 30x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        2626: {
+            name: 'Carrot',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Carrot', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['clear-buff',      'Normal'],
+                                ['silence',         '2T'],
+                                ['Fear',            '1T'],
+                                ['hunger',          '1x'],
+                                ['chain-atk-down',  '3T, <2.3x chain, 90%'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3042: {
+            name: 'Robin',
+            type: 'DEX',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/DEX/QCK']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Robin', 'DEX'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['desp',            '8T'],
+                                ['bind',            '8T, Row 1'],
+                                ['atk-down',        '5T, 90%'],
+                                ['chain-atk-down',  '3T, <3.5x chain, 90%'],
+                                ['def-perc',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3038: {
+            name: 'Hancock',
+            type: 'QCK',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Striker/Cerebral']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2000000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['atk-down',        '5T, 90%'],
+                                ['silence',         '5T, Row 2 3'],
+                                ['def-null',        '1T, STR/QCK/INT'],
+                                ['bar-p',           '3T, 2x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Hancock', 'QCK'],
+                    hp: 3200000,
+                    atk: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'INT'],
+                                ['bind',            '8T, Col L'],
+                                ['chain-down',      '12T, 0.1x'],
+                                ['para',            '5T, Col R'],
+                                ['Harder P',        '99+T'],
+                                ['bar-p',           '3T, 2x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3663: {
+            name: ['Fran', 'ky'],
+            type: ['QCK', 'INT'],
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Free Spirit/Powerhouse']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2000000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bind',            '6T, Row 2 3'],
+                                ['slot-neg',        '5T, STR/DEX/QCK'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'ON DEATH (0%)',
+                            action: [
+                                ['heal',            '100%'],
+                                ['dmg-normal',      '100,000']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Franky', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 3500000,
+                    atk_: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['type-change',     'QCK/INT'],
+                                ['slot-block',      'All'],
+                                ['atk-down',        '8T, 90%, STR/QCK/INT'],
+                                ['silence',         '5T'],
+                                ['para',            '5T'],
+                                ['hunger',          '2x'],
+                                ['immu-def',        '99+T']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
 };

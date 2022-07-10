@@ -452,11 +452,13 @@ function getBoosters(tmId, server) {
     } else if (
         tmId == 3389 ||
         tmId == 3416 ||
-        tmId == 3588
+        tmId == 3588 ||
+        tmId == 3663
     ) {
         // TM Dragon Kaido
         // TM Stussy
         // TM Ulti
+        // TM Franky
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();
@@ -864,7 +866,9 @@ function decorateSpIcon(iconKey, isAction) {
     if (iconKey === 'No Heal' ||
         iconKey === 'Swap Captain' ||
         iconKey === 'Ship Bind' ||
-        iconKey === 'CD Lock'
+        iconKey === 'CD Lock' ||
+        iconKey === 'Fear' ||
+        iconKey === 'Harder P'
     )
         return iconKey;
 
