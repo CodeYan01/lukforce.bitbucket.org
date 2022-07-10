@@ -445,6 +445,7 @@ var gw = {
     3588: '',           // Ulti
     3621: '',           // Sabo
     3645: '',           // Moria V2
+    3663: '',           // Franky
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)
