@@ -90,7 +90,7 @@ const Jozu = [ "Jozu" ];
 const Vista = [ "Vista" ];
 const Izo = [ "Izo" ];
 const Blamenco = [ "Blamenco" ];
-const EdwardNewgate = [ "Edward Newgate", "Whitebeard" ];
+const EdwardNewgate = [ "Edward Newgate", "Whitebeard", "WB" ];
 const Mr13 = [ "Mr. 13" ];
 const Dorry = [ "Dorry" ];
 const Broggy = [ "Broggy" ];
@@ -173,7 +173,7 @@ const Stomp = [ "Stomp" ];
 const IvanX = [ "Ivan X" ];
 const Centaur = [ "Centaur" ];
 const Hikoichi = [ "Hikoichi" ];
-const MarshallDTeach = [ "Marshall D. Teach", "Blackbeard" ];
+const MarshallDTeach = [ "Marshall D. Teach", "Blackbeard", "BB" ];
 const Thatch = [ "Thatch" ];
 const Namule = [ "Namule" ];
 const Rakuyo = [ "Rakuyo" ];
@@ -431,8 +431,8 @@ const ByrnndiWorld = [ "Byrnndi World" ];
 const Bastille = [ "Bastille" ];
 const Yamakaji = [ "Yamakaji" ];
 const Maynard = [ "Maynard" ];
-const Laffitte = [ "Laffitte" ];
-const VanAugur = [ "Van Augur" ];
+const Laffitte = [ "Laffitte", "Lafitte" ];
+const VanAugur = [ "Van Augur", "Van Ogre" ];
 const JesusBurgess = [ "Jesus Burgess" ];
 const Shiryu = [ "Shiryu" ];
 const DocQ = [ "Doc Q" ];
@@ -529,7 +529,7 @@ const Brannew = [ "Brannew" ];
 const Yasopp = [ "Yasopp" ];
 const Headcracker = [ "Headcracker" ];
 const Kyuin = [ "Kyuin" ];
-const CharlotteLinlin = [ "Charlotte Linlin", "Big Mom" ];
+const CharlotteLinlin = [ "Charlotte Linlin", "Big Mom", "BM" ];
 const CharlotteKatakuri = [ "Charlotte Katakuri" ];
 const CharlotteBrulee = [ "Charlotte Brûlée", "Charlotte Brulee" ];
 const CharlotteAmande = [ "Charlotte Amande" ];
@@ -613,7 +613,7 @@ const TenguyamaHitetsu = [ "Tenguyama Hitetsu" ];
 const CharlotteCustard = [ "Charlotte Custard" ];
 const Unluckies = [ "Unluckies" ];
 const BuenaFesta = [ "Buena Festa" ];
-const PageOne = [ "Page One", "Pay Pay" ];
+const PageOne = [ "Page One", "Pay Pay", "PageOne", "Page 1" ];
 const Toko = [ "Toko" ];
 const King = [ "King" ];
 const Onimaru = [ "Onimaru" ];
@@ -633,7 +633,7 @@ const Kawamatsu = [ "Kawamatsu" ];
 const AvaloPizarro = [ "Avalo Pizarro" ];
 const CatarinaDevon = [ "Catarina Devon" ];
 const VascoShot = [ "Vasco Shot" ];
-const SanjuanWolf = [ "Sanjuan Wolf" ];
+const SanjuanWolf = [ "Sanjuan Wolf", "San Juan Wolf" ];
 const Condoriano = [ "Condoriano" ];
 const KozukiToki = [ "Kozuki Toki" ];
 const Gaban = [ "Scopper Gaban", "Gaban" ];
@@ -4207,6 +4207,23 @@ window.families = {
     3643: [ ...Shiryu ],
     3644: [ ...Chaka ],
     3645: [ ...GeckoMoria ],
+    3646: [ ...Buggy, ...Galdino ],
+    3647: [ ...Inazuma ],
+    3648: [ ...Magellan, ...Hannyabal ],
+    3649: [ ...BlackMaria ],
+    3650: [ ...BlackMaria ],
+    3651: [ ...WhosWho ],
+    3652: [ ...WhosWho ],
+    3653: [ ...Sasaki ],
+    3654: [ ...Sasaki ],
+    3655: [ ...Ulti ],
+    3656: [ ...PageOne ],
+    3657: [ ...XDrake ],
+    3658: [ ...Pell ],
+    3659: [ ...Nami ],
+    3660: [ ...NicoRobin ],
+    3661: [ ...TonyTonyChopper ],
+    3663: [ ...Franky ],
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
