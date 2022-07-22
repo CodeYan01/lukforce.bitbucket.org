@@ -297,6 +297,10 @@ var raids = {
         name: 'Buggy\'s Delivery',
         thumb: 3399
     },
+    3671: {
+        name: 'Summer Jinbe',
+        thumb: 3671
+    },
 
     // Neo Raids
     1623: {
