@@ -905,4 +905,9 @@ var specials = {
         name: 'Red Flag, The Army of One',
         thumb: 3657
     },
+    'ev_3678': {
+        type: 'Special Event',
+        name: 'Land of Wano Summer Fair',
+        thumb: 3678
+    },
 }

@@ -558,6 +558,7 @@ var gw = {
     'ev_3601': '',      // Forbidden Secret
     'ev_3634': '',      // Partner Supporting the Captain
     'ev_3657': '',      // Red Flag, The Army of One
+    'ev_3678': '',      // Land of Wano Summer Fair
 
     'wa_2700': '181868',// Land of Wano Kaido
     'wa_2815': '182349',// Land of Wano O-Tama
