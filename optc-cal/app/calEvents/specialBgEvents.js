@@ -3573,4 +3573,10 @@ var specialBgEvents = [
         id: 'free_pull',
         start: '2022-07-21'
     },
+    {
+        id: '3rd_anni_ship_sp',
+        start: '2022-07-28',
+        end: '2022-08-05',
+        pst_19: true
+    },
 ]
