@@ -2068,7 +2068,9 @@ function removeSupport(id) {
     var teamId = supSlot.closest(".team").data("team");
     supSlot.empty();
     supSlot.addClass("empty");
-    getWholeTeamFamilyName(teamId, true);
+
+    // Check Team composition
+    doTeamBuildCheck(teamId);
 }
 
 function swapSupport() {
@@ -3719,6 +3721,7 @@ $(document).ready(function() {
         $('.sup-filter.selected').each(function() {
             $(this).removeClass('selected');
         });
+
         // Clear filters
         supportFilters = [];
         supportTable.column(2).search("").draw();
@@ -3886,7 +3889,7 @@ $(document).ready(function() {
                     var assignedTeam = to_list.closest('.team').data('team');
 
                     // Remove corresponding Clone and support if moved to another Team
-                    if (item.data('team') !== assignedTeam) {
+                    if (item.data('team') !== -1 && item.data('team') !== assignedTeam) {
                         $('#booster-clone_' + item.data('id') + '_clone').remove();
                         removeSupport(from_list.attr("id").slice(-2));
                     } else if (to_list.data('slot') == 0) {
@@ -4105,6 +4108,7 @@ $(document).ready(function() {
         $("#support-character-modal").modal();
     });
 
+    // Add Support
     $('#support-table tbody').on('click', 'tr', function () {
         var unitId = supportTable.row( this ).data().id;
         var supSlot = $(".support-slot[data-slot=" + currentSupportSlotId + "]");
@@ -4113,6 +4117,11 @@ $(document).ready(function() {
         imgDiv.append(createImgHtml(getThumb(unitId), 25, false));
         supSlot.empty().append(imgDiv);
         supSlot.removeClass("empty");
+
+        // Check Team composition
+        var teamId = supSlot.closest(".team").data("team");
+        doTeamBuildCheck(teamId);
+
         $('#support-character-modal').modal('hide');
     });
 
