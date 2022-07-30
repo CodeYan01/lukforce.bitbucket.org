@@ -682,6 +682,7 @@ span.team-note-boss {
 .atk-poison-div             { background-image: url('/tm-planner/assets/img/special_icons/atk_poison.png');         background-size: 24px 24px; }
 .chain-boost-div            { background-image: url('/tm-planner/assets/img/special_icons/chain_boost.png');        background-size: 24px 24px; }
 .chain-lock-div             { background-image: url('/tm-planner/assets/img/special_icons/chain_lock.png');         background-size: 24px 24px; }
+.chain-bound-div            { background-image: url('/tm-planner/assets/img/special_icons/chain_bound.png');        background-size: 24px 24px; }
 .slot-change-div            { background-image: url('/tm-planner/assets/img/special_icons/slot_change.png');        background-size: 24px 24px; }
 .slot-change-block-div      { background-image: url('/tm-planner/assets/img/special_icons/slot_change_block.png');  background-size: 24px 24px; }
 .slot-lock-div              { background-image: url('/tm-planner/assets/img/special_icons/slot_lock.png');          background-size: 24px 24px; }

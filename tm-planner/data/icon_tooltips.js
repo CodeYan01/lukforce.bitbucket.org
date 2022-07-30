@@ -7,6 +7,7 @@ var icon_tooltips = {
     'atk-poison':             'Poison Atk Boost',
     'chain-boost':            'Chain Boost',
     'chain-lock':             'Chain Lock',
+    'chain-bound':            'Set Chain Boundary',
     'slot-change':            'Change Orbs',
     'slot-change-block':      'Change Block Orbs',
     'slot-lock':              'Lock Orbs',

@@ -7,6 +7,7 @@ var filter_map_sp = {
     'atk-poison':               /Boosts ATK against[^."]+?(?:(?:(?:strongly )?poisoned.+enemies|enemies inflicted with (?:(?:strong )?poison|Toxic)))[^."]+?by ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, by ([?.\d]+)x(?:-([?.\d]+)x)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
     'chain-boost':              /adds ([?.\d]+)x(?:-([?.\d]+)x)? to (?:the )?Chain multiplier for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
     'chain-lock':               /Locks the chain multiplier at ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, at ([?.\d]+)x(?:-([?.\d]+)x)?(?: for ([?\d]+\+?)(?:-([?\d]+))? turns?)?)?/i,
+    'chain-bound':              /Sets chain boundaries to ([?.\d]+)x and ([?.\d]+)x for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
     'slot-change':              /changes (?:the )?((?:(?!changes)[^."])*?)orbs?(, including \[BLOCK\] orbs?,)? (?:of (?=((?:[^c."]+|c(?!har))*))\3characters? )?into([^."]+?)orbs?|randomizes.+orb/i,
     'slot-change-block':        /(empties.+with \[BLOCK\]|changes.+\[BLOCK\].+into|including.+\[BLOCK\])/i,
     'slot-lock':                /locks (orbs (?:for|on) (?=((?:[^c."]+|c(?!har))*))\2characters?|all orbs|own orb|your captain's orb|(?:the )?supported character's orb) for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
