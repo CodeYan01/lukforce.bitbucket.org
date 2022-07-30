@@ -2274,8 +2274,8 @@ function checkTeamMiniGuideSpecialMet(teamId) {
     'def-thres-red-e', 'def-null-red-e', 'desp-red', 'dmg-up-red', 'para-red',
     'resil-red-e', 'silence-red',];
 
-    var valuableSpecialsWithoutTurns = ['chain-lock', 'def-down', 'dmg-eot', 'poison',
-    'slot-change', 'slot-change-block'];
+    var valuableSpecialsWithoutTurns = ['chain-lock', 'chain-bound', 'def-down',
+    'dmg-eot', 'poison', 'slot-change', 'slot-change-block'];
 
     var specialsNeeded = {};
 
@@ -2486,6 +2486,8 @@ function checkTeamSpecialMet(teamId, specialRegex, requiredTurns, isCaptainRow, 
                             turnsNeeded = 1;
                         else if (specialRegex === filter_map_sp['poison'] && (immuTypes.includes('immu-all') || immuTypes.includes('immu-def')))
                             turnsNeeded = 1;
+                        else
+                            turnsNeeded = 0;
                     } else
                         turnsNeeded = 0;
 
