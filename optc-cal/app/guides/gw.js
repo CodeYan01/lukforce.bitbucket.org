@@ -504,6 +504,7 @@ var gw = {
     'bb_3520': '',      // Vs. Marines
     'bb_3560': '',      // Samurai Vs. Dragon
     'bb_3620': '',      // Turbulent Land of Wano
+    'bb_3672': '',      // Film RED I'm Invincible
 
     'wc_2401': '130091',// World Clash
 

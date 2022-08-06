@@ -504,6 +504,7 @@ var nakama = {
     'bb_3520': '6352000',   // Vs. Marines
     'bb_3560': '6356000',   // Samurai Vs. Dragon
     'bb_3620': '6362000',   // Turbulent Land of Wano
+    'bb_3672': '6367200',   // Film RED I'm Invincible
 
     'wc_2401': '6240700',   // World Clash
 

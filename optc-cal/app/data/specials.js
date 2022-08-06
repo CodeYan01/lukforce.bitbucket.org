@@ -110,6 +110,11 @@ var specials = {
         name: 'Turbulent Land of Wano (1am ~ 6am)',
         thumb: 3620
     },
+    'bb_3672': {
+        type: 'Blitz Battle',
+        name: 'Film RED I\'m Invincible (1am ~ 6am)',
+        thumb: 3672
+    },
 
     'wc_2401': {
         type: 'World Clash',
