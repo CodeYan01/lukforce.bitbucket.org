@@ -447,6 +447,7 @@ var gw = {
     3621: '',           // Sabo
     3645: '',           // Moria V2
     3663: '',           // Franky
+    3689: '',           // RED Sanji
 
     // Kizunas
     2518: '150056',     // Zoro & Sanji (Bartolomeo)

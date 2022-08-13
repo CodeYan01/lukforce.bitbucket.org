@@ -447,6 +447,7 @@ var nakama = {
     3621: '8362100',    // Sabo
     3645: '8364500',    // Moria v2
     3663: '8366300',    // Franky
+    3689: '8368900',    // RED Sanji
 
     // Kizunas
     2518: '9251800',    // Zoro & Sanji (Bartolomeo)
