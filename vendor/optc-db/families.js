@@ -657,6 +657,7 @@ const Bishamon = [ "Bishamon" ];
 const Yazaemon = [ "Yazaemon" ];
 const Kazekage = [ "Kazekage" ];
 const Sarutobi = [ "Sarutobi" ];
+const Uta = [ "Uta" ];
 
 window.families = {
     1: [ ...MonkeyDLuffy ],
@@ -4224,6 +4225,33 @@ window.families = {
     3660: [ ...NicoRobin ],
     3661: [ ...TonyTonyChopper ],
     3663: [ ...Franky ],
+    3664: [ ...Usopp ],
+    3665: [ ...Brook ],
+    3666: [ ...CharlotteKatakuri ],
+    3667: [ ...NefertariVivi ],
+    3668: [ ...MonkeyDLuffy ],
+    3669: [ ...MonkeyDLuffy ],
+    3670: [ ...RoronoaZoro, ...VinsmokeSanji ],
+    3671: [ ...Jinbe ],
+    3672: [ ...MonkeyDLuffy ],
+    3673: [ ...Ulti ],
+    3674: [ ...Ulti ],
+    3675: [ ...KozukiHiyori ],
+    3676: [ ...KozukiHiyori ],
+    3677: [ ...Shinobu ],
+    3678: [ ...KozukiToki ],
+    3679: [ ...Usopp ],
+    3680: [ ...Uta ],
+    3681: [ ...TonyTonyChopper ],
+    3682: [ ...TonyTonyChopper ],
+    3683: [ ...Brook ],
+    3684: [ ...Nami ],
+    3685: [ ...NicoRobin ],
+    3686: [ ...Jinbe ],
+    3687: [ ...Franky ],
+    3688: [ ...RoronoaZoro ],
+    3689: [ ...VinsmokeSanji ],
+    //break
     4986: [ ...MonkeyDLuffy ],
     4987: [ ...MonkeyDLuffy ],
     4988: [ ...NefertariVivi ],
