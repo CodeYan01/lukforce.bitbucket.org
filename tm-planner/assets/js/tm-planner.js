@@ -3623,32 +3623,35 @@ $(document).ready(function() {
                 if (unitDetail) {
                     var caDesc = unitDetail.captain;
 
-                    var ca;
-                    if (origId > 9000) {
-                        // VS Units
-                        if (origId % 2 === 1)
-                            ca = caDesc.character1;
-                        else
-                            ca = caDesc.character2;
-                    } else if (caDesc.combined) {
-                        ca = caDesc.combined;
-                    } else if (caDesc.base) {
-                        if (caDesc.llblevel1)
-                            ca = caDesc.llblevel1;
-                        else if (caDesc.llbbase)
-                            ca = caDesc.llbbase;
-                        else if (caDesc.level1) {
-                            var lblv = 2;
-                            ca = caDesc.level1;
-                            while (caDesc['level' + lblv]) {
-                                ca = caDesc['level' + lblv];
-                                lblv++;
+                    if (caDesc) {
+                        var ca;
+                        if (origId > 9000) {
+                            // VS Units
+                            if (origId % 2 === 1)
+                                ca = caDesc.character1;
+                            else
+                                ca = caDesc.character2;
+                        } else if (caDesc.combined) {
+                            ca = caDesc.combined;
+                        } else if (caDesc.base) {
+                            if (caDesc.llblevel1)
+                                ca = caDesc.llblevel1;
+                            else if (caDesc.llbbase)
+                                ca = caDesc.llbbase;
+                            else if (caDesc.level1) {
+                                var lblv = 2;
+                                ca = caDesc.level1;
+                                while (caDesc['level' + lblv]) {
+                                    ca = caDesc['level' + lblv];
+                                    lblv++;
+                                }
                             }
-                        }
-                    } else
-                        ca = caDesc;
+                        } else
+                            ca = caDesc;
 
-                    if (!filterRegex.test(ca))
+                        if (!filterRegex.test(ca))
+                            $(this).addClass(filterClass);
+                    } else
                         $(this).addClass(filterClass);
                 }
             });
