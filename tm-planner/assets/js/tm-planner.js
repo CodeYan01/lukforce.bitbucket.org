@@ -2935,6 +2935,7 @@ $(document).ready(function() {
         if (teamId != null) {
             removeSupport(teamId.slice(-2));
             doTeamBuildCheck(teamId.slice(-2)[0]);
+            updateAllInfo();
         }
 
         $('#unit-modal').modal('hide');
