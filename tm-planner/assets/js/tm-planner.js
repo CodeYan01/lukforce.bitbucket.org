@@ -4198,6 +4198,7 @@ $(document).ready(function() {
         }
 
         doTeamBuildCheck(to_list.closest('.team').data('team'));
+        updateAllInfo();
         $('#unit-modal').modal('hide');
     });
 });
