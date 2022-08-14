@@ -1579,12 +1579,20 @@ function updatePts(teamDiv) {
     teamDiv.find('.booster').each(function() {
         var slot_x_pts = Number($(this).data('x_pts'));
         x_pts = x_pts * slot_x_pts;
+
+        // Ver 12.1 Friend Cap Boost
+        if (tmId >= 3689 && $(this).closest('.team-slot').data('slot') == '0')
+            x_pts = x_pts * 1.1;
     });
 
     // Check for Clones (Friend Captain or Ambush Team)
     teamDiv.find('.booster-clone').each(function() {
         var slot_x_pts = Number($(this).data('x_pts'));
         x_pts = x_pts * slot_x_pts;
+
+        // Ver 12.1 Friend Cap Boost
+        if (tmId >= 3689 && $(this).closest('.team-slot').data('slot') == '0')
+            x_pts = x_pts * 1.1;
     });
 
     teamDiv.find('.x_pts').html(x_pts.toFixed(2));
