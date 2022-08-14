@@ -3901,15 +3901,17 @@ $(document).ready(function() {
                     var assignedTeam = to_list.closest('.team').data('team');
 
                     // Remove corresponding Clone and support if moved to another Team
-                    if (item.data('team') !== -1 && item.data('team') !== assignedTeam) {
-                        $('#booster-clone_' + item.data('id') + '_clone').remove();
-                        removeSupport(from_list.attr("id").slice(-2));
-                    } else if (to_list.data('slot') == 0) {
-                        removeSupport(to_list.attr("id").slice(-2));
-                        removeSupport(from_list.attr("id").slice(-2));
-                    } else {
-                        // Move unit support to current place
-                        swapSupport();
+                    if (item.data('team') !== -1) {
+                        if (item.data('team') !== assignedTeam) {
+                            $('#booster-clone_' + item.data('id') + '_clone').remove();
+                            removeSupport(from_list.attr("id").slice(-2));
+                        } else if (to_list.data('slot') == 0) {
+                            removeSupport(to_list.attr("id").slice(-2));
+                            removeSupport(from_list.attr("id").slice(-2));
+                        } else {
+                            // Move unit support to current place
+                            swapSupport();
+                        }
                     }
 
                     item.data('team', assignedTeam);
