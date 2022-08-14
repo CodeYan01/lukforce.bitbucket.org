@@ -4166,7 +4166,9 @@ $(document).ready(function() {
         if ($("#booster_" + unitId).length > 0) {
             b = $("#booster_" + unitId);
             from_list = b.parent();
-            removeSupport(from_list.attr("id").slice(-2));
+
+            if (from_list.hasClass('team-slot'))
+                removeSupport(from_list.attr("id").slice(-2));
 
             if (teamSlotDiv.hasClass("ambush-team-slot")) {
                 createCloneInSlot(b, teamSlotDiv, true);
@@ -4188,7 +4190,7 @@ $(document).ready(function() {
                 if (teamSlotDiv.data("slot") == 1)
                     mirrorToFriendCap(teamSlotDiv.closest('.team'), b, true);
             }
-        } else { // Non-Boost unit
+        } else { // Non-Booster
             imgDiv = getNonBoosterImg(unitId, teamSlotDiv.closest('.team').data('team'));
             teamSlotDiv.append(imgDiv);
 
