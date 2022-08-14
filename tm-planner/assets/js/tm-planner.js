@@ -1591,8 +1591,11 @@ function updatePts(teamDiv) {
         x_pts = x_pts * slot_x_pts;
 
         // Ver 12.1 Friend Cap Boost
-        if (tmId >= 3689 && $(this).closest('.team-slot').data('slot') == '0')
-            x_pts = x_pts * 1.1;
+        if (tmId >= 3689) {
+            if ($(this).closest('.team-slot').data('slot') == '0' ||
+                $(this).closest('.ambush-team-slot').data('slot') == '0')
+                x_pts = x_pts * 1.1;
+        }
     });
 
     teamDiv.find('.x_pts').html(x_pts.toFixed(2));
