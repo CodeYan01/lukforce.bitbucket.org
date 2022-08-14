@@ -453,12 +453,14 @@ function getBoosters(tmId, server) {
         tmId == 3389 ||
         tmId == 3416 ||
         tmId == 3588 ||
-        tmId == 3663
+        tmId == 3663 ||
+        tmId == 3689
     ) {
         // TM Dragon Kaido
         // TM Stussy
         // TM Ulti
         // TM Franky
+        // TM RED Sanji
         $('#div_2x').show();
         $('#div_1_8x').show();
         $('#div_1_6x').show();

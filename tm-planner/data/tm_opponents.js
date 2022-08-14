@@ -934,7 +934,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['clear-buff',      'Super']
+                                ['clear-buff',      'Buff & Values']
                             ]
                         }
                     ]
@@ -1405,7 +1405,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 3',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['atk',             '99+T, 2x'],
                                 ['dmg-eot-e',       '99+T, 10%']
                             ]
@@ -1413,7 +1413,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['slot-block',      'All'],
                                 ['def-perc',        '3T']
                             ]
@@ -1936,7 +1936,7 @@ var tm_opponents = {
                             type: '<50%, interrupt',
                             action: [
                                 ['heal',            '50%'],
-                                ['clear-buff',      'Normal']
+                                ['clear-buff',      'Buff Only']
                             ]
                         },
                         {
@@ -2282,7 +2282,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['enrage',          '99+T, 2x']
                             ]
                         },
@@ -2323,7 +2323,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every Turn After',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['atk',             '99+T, 3x'],
                                 ['slot-change',     'EMPTY']
                             ]
@@ -2385,7 +2385,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['slot-change',     'BOMB'],
                                 ['slot-lock',       '2T']
                             ]
@@ -2424,7 +2424,7 @@ var tm_opponents = {
                         {
                             type: '<20%, on atk',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['hp-cut',          '99%']
                             ]
                         }
@@ -2454,7 +2454,7 @@ var tm_opponents = {
                         {
                             type: '<50%, on atk',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['blow-away',       '3T, Row 2']
                             ]
                         }
@@ -2501,14 +2501,14 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every Turn After',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['atk',             '99+T, 2x']
                             ]
                         },
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['blow-away',       '99+T, Random 2']
                             ]
                         },
@@ -2579,7 +2579,7 @@ var tm_opponents = {
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['cd-rew',          '3T'],
                                 ['slot-block',      'All']
                             ]
@@ -2857,7 +2857,7 @@ var tm_opponents = {
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['clear-buff',      'Super'],
+                                ['clear-buff',      'Buff & Values'],
                                 ['blow-away',       '99+T, Random 2']
                             ]
                         },
@@ -2934,7 +2934,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['enrage',          '99+T, 2.5x']
                             ]
                         },
@@ -3122,7 +3122,7 @@ var tm_opponents = {
                         {
                             type: '<50%, interrupt',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['blow-away',       '2T, Row 1']
                             ]
                         },
@@ -3665,7 +3665,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['bind',            '5T, Row 2 3']
                             ]
                         },
@@ -3925,7 +3925,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['desp',            '5T'],
-                                ['clear-buff',      'Normal']
+                                ['clear-buff',      'Buff Only']
                             ]
                         },
                         {
@@ -4097,14 +4097,14 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['blow-away',       '99+T, Random Captain']
                             ]
                         },
                         {
                             type: 'Turn 4',
                             action: [
-                                ['clear-buff',      'Normal']
+                                ['clear-buff',      'Buff Only']
                             ]
                         },
                         {
@@ -4586,7 +4586,7 @@ var tm_opponents = {
                             action: [
                                 ['para',            '4T'],
                                 ['slot-neg',        'Color'],
-                                ['clear-buff',      'Super'],
+                                ['clear-buff',      'Buff & Values'],
                                 ['immu-def',        '99+T']
                             ]
                         }
@@ -5420,7 +5420,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1, Every Turn After',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['slot-change',     'EMPTY']
                             ]
                         },
@@ -5630,7 +5630,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1',
                             action: [
-                                ['clear-buff',      'Super'],
+                                ['clear-buff',      'Buff & Values'],
                                 ['atk',             '99+T']
                             ]
                         },
@@ -5706,7 +5706,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2, Every Turn After',
                             action: [
-                                ['clear-buff',      'Super'],
+                                ['clear-buff',      'Buff & Values'],
                                 ['blow-away',       '99+T, Random 2']
                             ]
                         },
@@ -6203,7 +6203,7 @@ var tm_opponents = {
                         {
                             type: '<30%',
                             action: [
-                                ['clear-buff',      'Super'],
+                                ['clear-buff',      'Buff & Values'],
                                 ['blow-away',       '99+T, Random 2']
                             ]
                         },
@@ -6282,7 +6282,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['blow-away',       '99+T, Random 2'],
-                                ['clear-buff',      'Super']
+                                ['clear-buff',      'Buff & Values']
                             ]
                         },
                         {
@@ -6488,7 +6488,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['silence',         '10T, Row 1'],
-                                ['clear-buff',      'Super']
+                                ['clear-buff',      'Buff & Values']
                             ]
                         },
                         {
@@ -7965,7 +7965,7 @@ var tm_opponents = {
                             type: 'Interrup - Chain Lock / Add Chain',
                             action: [
                                 ['blow-away',       '99+T, Random 2 Sailor'],
-                                ['clear-buff',      'Normal']
+                                ['clear-buff',      'Buff Only']
                             ]
                         },
                         {
@@ -8351,7 +8351,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['slot-bind',       '3T'],
-                                ['clear-buff',      'Super']
+                                ['clear-buff',      'Buff & Values']
                             ]
                         },
                         {
@@ -8632,7 +8632,7 @@ var tm_opponents = {
                             type: 'Interrupt - Orb Boost',
                             action: [
                                 ['hp-cut',          '50%'],
-                                ['clear-buff',      'Normal']
+                                ['clear-buff',      'Buff Only']
                             ]
                         },
                         {
@@ -8645,7 +8645,7 @@ var tm_opponents = {
                             type: '<50%',
                             action: [
                                 ['para',            '10T'],
-                                ['clear-buff',      'Normal']
+                                ['clear-buff',      'Buff Only']
                             ]
                         },
                         {
@@ -8726,7 +8726,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['blow-away',       '5T, Col R']
                             ]
                         },
@@ -8829,7 +8829,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 1',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['chain-atk-down',  '5T, <3x Chain']
                             ]
                         }
@@ -8999,14 +8999,14 @@ var tm_opponents = {
                             type: 'Turn 1',
                             action: [
                                 ['blow-away',       '3T, Col R'],
-                                ['clear-buff',      'Super']
+                                ['clear-buff',      'Buff & Values']
                             ]
                         },
                         {
                             type: '<50%',
                             action: [
                                 ['blow-away',       '3T, Col L'],
-                                ['clear-buff',      'Super']
+                                ['clear-buff',      'Buff & Values']
                             ]
                         },
                         {
@@ -9368,14 +9368,14 @@ var tm_opponents = {
                             action: [
                                 ['atk-down',        '6T, 90%'],
                                 ['para',            '6T'],
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['immu-def',        '99+T']
                             ]
                         },
                         {
                             type: 'Turn 2',
                             action: [
-                                ['clear-buff',      'Super'],
+                                ['clear-buff',      'Buff & Values'],
                                 ['dmg-limit',       '3T, 2,000,000']
                             ]
                         },
@@ -9471,7 +9471,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['bind',            '8T, Row 3'],
                                 ['CD Lock',         '2x Perfect']
                             ]
@@ -9574,7 +9574,7 @@ var tm_opponents = {
                         {
                             type: '<20%',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['heal',            '100%']
                             ]
                         }
@@ -9627,7 +9627,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['sp-limit',        '3T']
                             ]
                         }
@@ -9742,7 +9742,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['slot-change',     'Color'],
                                 ['bind',            '8T, Row 3'],
                                 ['slot-neg',        '5T, Color'],
@@ -9753,7 +9753,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['tap-limit',       '10T, 4x'],
                                 ['bind',            '5T, Row 2 3']
                             ]
@@ -9834,7 +9834,7 @@ var tm_opponents = {
                         {
                             type: 'Interrupt - Atk Boost, Set Chain Boundary',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['desp',            '10T'],
                                 ['blow-away',       '1T, Random 2 Sailor']
                             ]
@@ -9848,7 +9848,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['def-null',        '2T']
                             ]
                         },
@@ -9996,7 +9996,7 @@ var tm_opponents = {
                         {
                             type: 'Preemp',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['silence',         '2T'],
                                 ['Fear',            '1T'],
                                 ['hunger',          '1x'],
@@ -10015,7 +10015,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['hunger',          '2x']
                             ]
                         }
@@ -10144,7 +10144,7 @@ var tm_opponents = {
                         {
                             type: 'Turn 2',
                             action: [
-                                ['clear-buff',      'Super'],
+                                ['clear-buff',      'Buff & Values'],
                                 ['atk',             '99+T']
                             ]
                         },
@@ -10239,7 +10239,7 @@ var tm_opponents = {
                         {
                             type: '<50%',
                             action: [
-                                ['clear-buff',      'Normal'],
+                                ['clear-buff',      'Buff Only'],
                                 ['def-null',        '2T']
                             ]
                         },
@@ -10247,6 +10247,312 @@ var tm_opponents = {
                             type: '<20%',
                             action: [
                                 ['dmg-normal',      'Deadly']
+                            ]
+                        }
+                    ]
+                },
+            ]
+        }
+    },
+
+    // ========== RED Sanji ==========
+    3689: {
+        3682: {
+            name: 'Chopper',
+            type: 'QCK',
+            pos: 3,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, DEX/PSY/INT']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Chopper', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-change',     'Bad'],
+                                ['para',            '5T'],
+                                ['burn',            '5T, 20,000'],
+                                ['cd-rew',          '3T'],
+                                ['bar-color',       '1T, 3x, PSY'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'ON DEATH (0%)',
+                            action: [
+                                ['heal',            '100%'],
+                                ['type-change',     'INT'],
+                                ['slot-block',      'All'],
+                                ['bind',            '15T, Captain']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3683: {
+            name: 'Brook',
+            type: 'QCK',
+            pos: 1,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Slasher/Cerebral']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Brook', 'QCK'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['def-thres',       '6T, 99%, 1000'],
+                                ['slot-neg',        '3T, Color'],
+                                ['desp',            '10T'],
+                                ['cd-rew',          '1T'],
+                                ['nao',             '99+T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3684: {
+            name: 'Nami',
+            type: 'INT',
+            pos: 0,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, All']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Nami', 'INT'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1200000,
+                    atk_: 4000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '3T'],
+                                ['slot-block',      'Row 1 3'],
+                                ['slot-bind',       '3T, Row 2'],
+                                ['def-thres',       '4T, 99%, 1000'],
+                                ['immu-def',        '99+T']
+                            ]
+                        },
+                        {
+                            type: 'ON DEATH (0%)',
+                            action: [
+                                ['dmg-normal',      '50,000']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3685: {
+            name: 'Robin',
+            type: 'PSY',
+            pos: 2,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Cerebral/Free Spirit']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Robin', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6000,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['bind',            '9T, Col L'],
+                                ['chain-down',      '5T, 0.1x'],
+                                ['chain-atk-down',  '5T, <2.5x chain, 90%'],
+                                ['atk-down',        '5T, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3672: {
+            name: 'Luffy',
+            type: 'PSY',
+            pos: 4,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, STR/DEX/INT'],
+                                ['para',            '2T, Row 1']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['chain-lock',      '5T, 1.1x'],
+                                ['chain-atk-down',  '2T, <3x chain, 90%'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Luffy', 'PSY'],
+                    hp: 3200000,
+                    atk: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['slot-block',      'All'],
+                                ['silence',         '5T'],
+                                ['burn',            '5T, 30,000'],
+                                ['bar-p',           '2T, 4x'],
+                                ['resil',           '5T'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        3689: {
+            name: 'Sanji',
+            type: 'PSY',
+            pos: 5,
+            guide: [
+                {
+                    stageNum: 1,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['cd-red',          '5T, Fighter/Free Spirit/Powerhouse'],
+                                ['para',            '1T, Row 2 3']
+                            ]
+                        },
+                        {
+                            type: 'Interrupt - Atk Boost, Orb Boost',
+                            action: [
+                                ['slot-bind',       '2T, Row 1']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 2,
+                    boss: ['?', '?'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 1800000,
+                    atk_: 6600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['bar-color',       '2T, 5x, INT'],
+                                ['def-thres',       '5T, 99%, 1000'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Interrupt - Atk Boost, Orb Boost',
+                            action: [
+                                ['para',            '3T']
+                            ]
+                        }
+                    ]
+                },
+                {
+                    stageNum: 3,
+                    boss: ['Sanji', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 3200000,
+                    atk_: 9600,
+                    detail: [
+                        {
+                            type: 'Preemp',
+                            action: [
+                                ['para',            '8T'],
+                                ['clear-buff',      'Buff & Values'],
+                                ['cd-rew',          '3T, Row 1'],
+                                ['def',             '5T, 10000x'],
+                                ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Interrupt - Atk Boost, Orb Boost',
+                            action: [
+                                ['desp',            '9T']
                             ]
                         }
                     ]
