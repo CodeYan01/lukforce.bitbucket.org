@@ -34,6 +34,18 @@
     }
 }
 
+.tooltip-xpts {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.tooltip-class-div {
+    display: inline-block;
+    height: 25px;
+    margin: 3px;
+    width: 25px;
+}
+
 #unit-detail-class1,
 #unit-detail-class2 {
     display: inline-block;

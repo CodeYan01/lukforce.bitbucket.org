@@ -7,7 +7,28 @@ function createTooltip(imgDiv, text) {
     imgDiv.data('toggle', 'tooltip');
     imgDiv.data('placement', 'top');
     imgDiv.attr('title', text);
-    imgDiv.tooltip();
+    imgDiv.tooltip({html: true});
+}
+
+function createTooltipForUnit(imgDiv, unit) {
+    var tooltipTxt = unit[0];
+    tooltipTxt += '<br>';
+
+    if (imgDiv.data('class1')) {
+        var classCss = imgDiv.data('class1').replace(' ', '-').toLowerCase();
+        tooltipTxt += '<div class="' + classCss + '-div tooltip-class-div"></div>';
+
+        if (imgDiv.data('class2')) {
+            var classCss = imgDiv.data('class2').replace(' ', '-').toLowerCase();
+            tooltipTxt += '<div class="' + classCss + '-div tooltip-class-div"></div>';
+        }
+
+        tooltipTxt += '<br>';
+    }
+
+    tooltipTxt += '<span class="tooltip-xpts">' + imgDiv.data('x_pts') + 'x</span>';
+
+    createTooltip(imgDiv, tooltipTxt);
 }
 
 function getIconTooltip(iconKey) {
@@ -548,9 +569,6 @@ function getBoosters(tmId, server) {
         if (b.id > 9000)
             unitId = parseVsUnitId(b.id);
 
-        // Name in tooltip
-        createTooltip(imgDiv, units[unitId - 1][0]);
-
         // Type and Class
         imgDiv.data('type', units[unitId - 1][1]);
 
@@ -586,6 +604,9 @@ function getBoosters(tmId, server) {
         } else {
             imgDiv.data('class1', unitClass);
         }
+
+        // Name in tooltip
+        createTooltipForUnit(imgDiv, units[unitId - 1]);
 
         imgDiv.data('max_lv', units[unitId - 1][7])
         imgDiv.data('team', -1);
@@ -1429,9 +1450,6 @@ function getNonBoosterImg(origId, team) {
     if (unitId > 9000)
         unitId = parseVsUnitId(unitId);
 
-    // Name in tooltip
-    createTooltip(imgDiv, units[unitId - 1][0]);
-
     // Type and Class
     imgDiv.data('type', units[unitId - 1][1]);
 
@@ -1467,6 +1485,9 @@ function getNonBoosterImg(origId, team) {
     } else {
         imgDiv.data('class1', unitClass);
     }
+
+    // Name in tooltip
+    createTooltipForUnit(imgDiv, units[unitId - 1]);
 
     imgDiv.data('max_lv', units[unitId - 1][7]);
     imgDiv.data('team', team);
@@ -1511,7 +1532,7 @@ function createCloneInSlot(orig, slot, isAmbush, isAmbushClone) {
     clone.removeClass('booster');
     clone.addClass('booster-clone');
 
-    createTooltip(clone, units[origId - 1][0]);
+    createTooltipForUnit(clone, units[origId - 1]);
 
     clone.css({
         top: 0,
