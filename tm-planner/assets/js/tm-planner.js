@@ -1602,7 +1602,7 @@ function updatePts(teamDiv) {
         x_pts = x_pts * slot_x_pts;
 
         // Ver 12.1 Friend Cap Boost
-        if (tmId >= 3689 && $(this).closest('.team-slot').data('slot') == '0')
+        if (tmId >= 3689 && $(this).closest('.team-slot').data('slot') == '0' && slot_x_pts != 1)
             x_pts = x_pts * 1.1;
     });
 
@@ -1612,7 +1612,7 @@ function updatePts(teamDiv) {
         x_pts = x_pts * slot_x_pts;
 
         // Ver 12.1 Friend Cap Boost
-        if (tmId >= 3689) {
+        if (tmId >= 3689 && slot_x_pts != 1) {
             if ($(this).closest('.team-slot').data('slot') == '0' ||
                 $(this).closest('.ambush-team-slot').data('slot') == '0')
                 x_pts = x_pts * 1.1;
