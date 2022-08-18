@@ -10276,9 +10276,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Chopper', 'QCK'],
-                    hp: 0,
+                    hp: 1800000,
                     atk: 0,
-                    hp_: 1800000,
                     atk_: 6000,
                     detail: [
                         {
@@ -10299,6 +10298,20 @@ var tm_opponents = {
                                 ['type-change',     'INT'],
                                 ['slot-block',      'All'],
                                 ['bind',            '15T, Captain']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1 (Not after revive)',
+                            action: [
+                                ['def-null',        '1T, STR/QCK/INT'],
+                                ['atk',             '10T'],
+                                ['bar-color',       '2T, 3x, DEX']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
                             ]
                         }
                     ]
@@ -10324,9 +10337,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Brook', 'QCK'],
-                    hp: 0,
+                    hp: 1800000,
                     atk: 0,
-                    hp_: 1800000,
                     atk_: 6000,
                     detail: [
                         {
@@ -10338,6 +10350,19 @@ var tm_opponents = {
                                 ['cd-rew',          '1T'],
                                 ['nao',             '99+T'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['resil',           '5T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['silence',         '7T, Row 2 3'],
+                                ['atk-down',        '7T']
                             ]
                         }
                     ]
@@ -10363,9 +10388,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Nami', 'INT'],
-                    hp: 0,
+                    hp: 800000,
                     atk: 0,
-                    hp_: 1200000,
                     atk_: 4000,
                     detail: [
                         {
@@ -10382,6 +10406,19 @@ var tm_opponents = {
                             type: 'ON DEATH (0%)',
                             action: [
                                 ['dmg-normal',      '50,000']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['enrage',          '99+T'],
+                                ['No Heal',         '6T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['dmg-limit',       '2T, 500,000']
                             ]
                         }
                     ]
@@ -10407,9 +10444,8 @@ var tm_opponents = {
                 {
                     stageNum: 3,
                     boss: ['Robin', 'PSY'],
-                    hp: 0,
+                    hp: 1800000,
                     atk: 0,
-                    hp_: 1800000,
                     atk_: 6000,
                     detail: [
                         {
@@ -10421,6 +10457,20 @@ var tm_opponents = {
                                 ['chain-atk-down',  '5T, <2.5x chain, 90%'],
                                 ['atk-down',        '5T, 90%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1, Every 2 Turns',
+                            action: [
+                                ['hp-cut',          '?%'],
+                                ['heal',            '?%']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['bind',            '5T, Row 2 3'],
+                                ['para',            '5T, Row 1']
                             ]
                         }
                     ]
@@ -10434,6 +10484,11 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 1,
+                    boss: ['Zoro', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2000000,
+                    atk_: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -10446,10 +10501,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
+                    boss: ['Jinbe', 'PSY'],
+                    hp: 2000000,
                     atk: 0,
-                    hp_: 1800000,
                     atk_: 6600,
                     detail: [
                         {
@@ -10459,6 +10513,18 @@ var tm_opponents = {
                                 ['chain-lock',      '5T, 1.1x'],
                                 ['chain-atk-down',  '2T, <3x chain, 90%'],
                                 ['immu-delay',      '99+T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['cd-rew',          '3T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 2',
+                            action: [
+                                ['dmg-eot-e',       '?%']
                             ]
                         }
                     ]
@@ -10479,6 +10545,26 @@ var tm_opponents = {
                                 ['resil',           '5T'],
                                 ['immu-delay',      '99+T']
                             ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['clear-buff',      'Buff & Values'],
+                                ['atk',             '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['blow-away',       '99+T, Random 2'],
+                                ['slot-block',      'All']
+                            ]
+                        },
+                        {
+                            type: '<20%',
+                            action: [
+                                ['dmg-normal',      'Deadly']
+                            ]
                         }
                     ]
                 }
@@ -10491,6 +10577,11 @@ var tm_opponents = {
             guide: [
                 {
                     stageNum: 1,
+                    boss: ['Usopp', 'PSY'],
+                    hp: 0,
+                    atk: 0,
+                    hp_: 2000000,
+                    atk_: 6600,
                     detail: [
                         {
                             type: 'Preemp',
@@ -10509,10 +10600,9 @@ var tm_opponents = {
                 },
                 {
                     stageNum: 2,
-                    boss: ['?', '?'],
-                    hp: 0,
+                    boss: ['Franky', 'PSY'],
+                    hp: 2000000,
                     atk: 0,
-                    hp_: 1800000,
                     atk_: 6600,
                     detail: [
                         {
@@ -10528,15 +10618,21 @@ var tm_opponents = {
                             action: [
                                 ['para',            '3T']
                             ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['Ship Bind',       '10T'],
+                                ['slot-bind',       '10T']
+                            ]
                         }
                     ]
                 },
                 {
                     stageNum: 3,
                     boss: ['Sanji', 'PSY'],
-                    hp: 0,
+                    hp: 3500000,
                     atk: 0,
-                    hp_: 3200000,
                     atk_: 9600,
                     detail: [
                         {
@@ -10553,6 +10649,19 @@ var tm_opponents = {
                             type: 'Interrupt - Atk Boost, Orb Boost',
                             action: [
                                 ['desp',            '9T']
+                            ]
+                        },
+                        {
+                            type: 'Turn 1',
+                            action: [
+                                ['burn',            '99+T, 30,000'],
+                                ['enrage',          '99+T']
+                            ]
+                        },
+                        {
+                            type: '<50%',
+                            action: [
+                                ['clear-buff',      'Buff Only']
                             ]
                         }
                     ]
