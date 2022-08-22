@@ -486,6 +486,7 @@ var nakama = {
     3627: '9362700',    // Roger
     3648: '9364800',    // Magellan & Hannyabal
     3669: '9366900',    // Summer Luffy
+    3693: '9369300',    // Shiki
 
     // Events
     'bb_1314': '6131400',   // Three Admirals

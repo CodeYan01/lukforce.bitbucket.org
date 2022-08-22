@@ -486,6 +486,7 @@ var gw = {
     3627: '',           // Roger
     3648: '',           // Magellan & Hannyabal
     3669: '',           // Summer Luffy
+    3693: '',           // Shiki
 
     // Events
     'bb_1314': '61665', // Three Admirals
