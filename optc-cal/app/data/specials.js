@@ -915,4 +915,9 @@ var specials = {
         name: 'Land of Wano Summer Fair',
         thumb: 3678
     },
+    'ev_3701': {
+        type: 'Special Event',
+        name: 'Diva of the World',
+        thumb: 3701
+    },
 }
