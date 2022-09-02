@@ -105,6 +105,11 @@
     background: red;
 }
 
+#support-table tr div {
+    display: inline-block;
+    background: red;
+}
+
 img.highlight {
     opacity: 0.5;
 }
@@ -181,6 +186,10 @@ div#support-character-modal .modal-dialog {
     width: fit-content;
     max-width: fit-content;
     margin: 1.75rem auto;
+}
+
+div#support-character-modal .invalid-support {
+    cursor: not-allowed;
 }
 
 .export-image-info {
@@ -631,7 +640,7 @@ div#tm-team-build-note-container {
 }
 
 ul.team-note-list {
-   list-style-type: none; 
+   list-style-type: none;
 }
 
 li.team-build-msg:before {
